@@ -1,0 +1,46 @@
+# Optional: regenerate the Xcode project with XcodeGen (`brew install xcodegen && xcodegen generate`).
+name: ShutterLink
+options:
+  bundleIdPrefix: com.devkoan
+  deploymentTarget:
+    iOS: "17.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    TARGETED_DEVICE_FAMILY: "1"
+    CODE_SIGN_STYLE: Automatic
+    GENERATE_INFOPLIST_FILE: YES
+    INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+    INFOPLIST_KEY_UILaunchScreen_Generation: YES
+    INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+    INFOPLIST_KEY_UIStatusBarHidden: YES
+    ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+targets:
+  ShutterLink:
+    type: application
+    platform: iOS
+    sources: [ShutterLink, Shared]
+    dependencies:
+      - target: ShutterLinkClip
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.devkoan.shutterlink
+        INFOPLIST_KEY_CFBundleDisplayName: ShutterLink
+        INFOPLIST_KEY_NSCameraUsageDescription: ShutterLink uses the camera to take photos and videos.
+        INFOPLIST_KEY_NSMicrophoneUsageDescription: ShutterLink records audio with your videos.
+        INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription: ShutterLink saves your photos and videos to your library.
+        INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription: ShutterLink uses Bluetooth so a nearby iPhone can act as a remote shutter.
+  ShutterLinkClip:
+    type: application.on-demand-install-capable
+    platform: iOS
+    sources: [ShutterLinkClip, Shared]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.devkoan.shutterlink.Clip
+        INFOPLIST_FILE: Config/ShutterLinkClip-Info.plist
+        CODE_SIGN_ENTITLEMENTS: Config/ShutterLinkClip.entitlements
+        INFOPLIST_KEY_CFBundleDisplayName: ShutterLink Remote
+        INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription: ShutterLink Remote uses Bluetooth to control the camera iPhone nearby.
