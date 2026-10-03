@@ -13,3 +13,4 @@ build/
 # SwiftPM
 .build/
 .swiftpm/
+scripts/screens/build/
