@@ -7,7 +7,7 @@ enum RemoteConfig {
     /// Base URL encoded in the pairing QR code.
     /// Register this URL prefix as an Advanced App Clip Experience in App Store Connect,
     /// or as a Local Experience (Settings > Developer) while developing.
-    static let invocationBaseURL = "https://shutterlink.example.com/r"
+    static let invocationBaseURL = "https://m1zz.github.io/ShutterLink/r"
     static let codeQueryItem = "c"
     static let localNamePrefix = "SL-"
     static let codeLength = 4

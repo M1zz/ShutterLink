@@ -39,23 +39,25 @@
 
 - **가장 빠름**: 리모컨 폰에 **ShutterLinkClip** 스킴을 Run → 카메라 폰의 4자리 코드 입력
 - **URL 주입**: ShutterLinkClip 스킴 → Edit Scheme → Run → Environment Variables에
-  `_XCAppClipURL` = `https://shutterlink.example.com/r?c=1234` (카메라에 표시된 코드)
+  `_XCAppClipURL` = `https://m1zz.github.io/ShutterLink/r?c=1234` (카메라에 표시된 코드)
 - **실제 QR 흐름**: 리모컨 폰에 App Clip을 한 번 설치한 뒤
   설정 → 개발자 → App Clips 테스트 → **로컬 경험**에 등록
-  (URL 접두사 `https://shutterlink.example.com/r`, 번들 ID `com.devkoan.shutterlink.Clip`)
+  (URL 접두사 `https://m1zz.github.io/ShutterLink/r`, 번들 ID `com.devkoan.shutterlink.Clip`)
   → 카메라 앱을 켜고 기본 카메라 앱으로 QR 스캔하면 App Clip 카드가 뜹니다
 
-## 배포 시 할 일
+## App Clip 연결 (설정 완료)
 
-1. `Shared/RemoteProtocol.swift`의 `RemoteConfig.invocationBaseURL`을 실제 도메인으로 교체
-2. 도메인에 AASA 호스팅 (`/.well-known/apple-app-site-association`)
-   ```json
-   { "appclips": { "apps": ["TEAMID.com.devkoan.shutterlink.Clip"] } }
-   ```
-3. 두 타깃에 Associated Domains 추가: `appclips:your.domain`
-4. App Store Connect → App Clip → **Advanced App Clip Experience** 등록 (URL 접두사 `https://your.domain/r`)
-   — 세션마다 `?c=` 파라미터가 달라지므로 접두사 매칭이 필요합니다
-5. App Clip 용량 확인: QR로 여는 App Clip은 **압축 해제 15MB** 제한 (현재 구조는 외부 의존성 없음)
+- QR 주소: `https://m1zz.github.io/ShutterLink/r?c=1234` (`RemoteConfig.invocationBaseURL`)
+- AASA: 루트 레포 `M1zz/m1zz.github.io` 의 `/.well-known/apple-app-site-association` 에
+  `QGAQ3AY3R3.com.devkoan.shutterlink.Clip` 등록 (FindMe·toki·moa 와 같은 파일을 공유)
+- 두 타깃 Associated Domains: `appclips:m1zz.github.io`
+- 폴백 페이지: `docs/r/index.html` (Safari 에서 열면 App Clip 카드 배너)
+- 카드 헤더 이미지: `docs/screenshots/appclip/card.jpg` (1800×1200, `scripts/screens/make_appclip_card.py`)
+
+App Store Connect 에서 사람이 할 일:
+1. 버전 페이지 ▸ App Clip ▸ 기본 경험: 헤더 이미지·부제·동작(열기)
+2. 앱 ▸ App Clip 경험 ▸ 고급 경험 추가: URL `https://m1zz.github.io/ShutterLink/r` (접두사 매칭 — 세션마다 `?c=` 가 달라짐)
+3. App Clip 용량: QR로 여는 App Clip은 **압축 해제 15MB** 제한 (현재 구조는 외부 의존성 없음)
 
 ## 설계 메모
 

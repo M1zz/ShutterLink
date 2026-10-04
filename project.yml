@@ -28,6 +28,7 @@ targets:
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.devkoan.shutterlink
+        CODE_SIGN_ENTITLEMENTS: Config/ShutterLink.entitlements
         INFOPLIST_KEY_CFBundleDisplayName: ShutterLink
         INFOPLIST_KEY_NSCameraUsageDescription: ShutterLink uses the camera to take photos and videos.
         INFOPLIST_KEY_NSMicrophoneUsageDescription: ShutterLink records audio with your videos.
