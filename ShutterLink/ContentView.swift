@@ -98,6 +98,8 @@ private struct CameraScreen: View {
 
             Spacer()
 
+            TimerButton(seconds: camera.timerSeconds) { camera.setTimer($0) }
+
             Button {
                 showPairing = true
             } label: {
@@ -124,7 +126,7 @@ private struct CameraScreen: View {
 
     private var bottomBar: some View {
         HStack {
-            TimerButton(seconds: camera.timerSeconds) { camera.setTimer($0) }
+            LastCaptureButton(thumbnail: camera.lastThumbnail)
             Spacer()
             ShutterButton(mode: camera.mode,
                           isRecording: camera.isRecording,
@@ -148,5 +150,39 @@ private struct CameraScreen: View {
 
     private var remoteText: String {
         remote.connectedRemotes > 0 ? "Remote connected" : remote.bluetoothState
+    }
+}
+
+/// Bottom-left thumbnail of the last capture, like the system Camera. Tapping opens Photos.
+private struct LastCaptureButton: View {
+    let thumbnail: UIImage?
+    @Environment(\.openURL) private var openURL
+
+    var body: some View {
+        Button {
+            // Opens the Photos app (there's no public API to jump into it otherwise).
+            if let url = URL(string: "photos-redirect://") { openURL(url) }
+        } label: {
+            ZStack {
+                if let thumbnail {
+                    Image(uiImage: thumbnail)
+                        .resizable()
+                        .scaledToFill()
+                        .id(thumbnail)
+                        .transition(.scale(scale: 0.6).combined(with: .opacity))
+                } else {
+                    Image(systemName: "photo.on.rectangle")
+                        .font(.title3)
+                        .foregroundStyle(.white)
+                }
+            }
+            .frame(width: 52, height: 52)
+            .background(Color.black.opacity(0.4))
+            .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
+            .overlay(RoundedRectangle(cornerRadius: 10, style: .continuous).stroke(.white.opacity(0.8), lineWidth: 1.5))
+            .frame(width: 56, height: 56)
+            .animation(.spring(duration: 0.35), value: thumbnail)
+        }
+        .accessibilityLabel(thumbnail == nil ? "Open Photos" : "Last capture. Open Photos")
     }
 }

@@ -19,6 +19,9 @@ final class CameraController: NSObject, ObservableObject {
     @Published private(set) var maxZoom: Double = 1
     @Published private(set) var position: CameraPosition = .back
     @Published private(set) var captureCount = 0
+    /// Thumbnail of the last photo/video saved this session. Built from our own capture data,
+    /// since the app only has add-only Photos access and can't read the library.
+    @Published private(set) var lastThumbnail: UIImage?
     @Published var alertMessage: String?
 
     let session = AVCaptureSession()
@@ -74,6 +77,7 @@ final class CameraController: NSObject, ObservableObject {
 
     private static let previewLongEdge: CGFloat = 400
     private static let previewFPS: Double = 12
+    private static let thumbnailLongEdge: CGFloat = 180
 
     // MARK: Lifecycle
 
@@ -437,11 +441,15 @@ final class CameraController: NSObject, ObservableObject {
                         DispatchQueue.main.async { self.alertMessage = "Recording failed." }
                         return
                     }
-                    self.saveToLibrary({ request in
-                        request.addResource(with: .video, fileURL: url, options: nil)
-                    }, cleanup: {
-                        try? FileManager.default.removeItem(at: url)
-                    })
+                    Task {
+                        // Grab the thumbnail before the save's cleanup deletes the file.
+                        let thumbnail = await Self.videoThumbnail(url: url)
+                        self.saveToLibrary({ request in
+                            request.addResource(with: .video, fileURL: url, options: nil)
+                        }, thumbnail: thumbnail, cleanup: {
+                            try? FileManager.default.removeItem(at: url)
+                        })
+                    }
                 }
             }
         }
@@ -453,7 +461,9 @@ final class CameraController: NSObject, ObservableObject {
         isRecording = false
     }
 
-    private func saveToLibrary(_ build: @escaping (PHAssetCreationRequest) -> Void, cleanup: (() -> Void)? = nil) {
+    private func saveToLibrary(_ build: @escaping (PHAssetCreationRequest) -> Void,
+                               thumbnail: UIImage? = nil,
+                               cleanup: (() -> Void)? = nil) {
         PHPhotoLibrary.shared().performChanges({
             build(PHAssetCreationRequest.forAsset())
         }) { success, error in
@@ -461,11 +471,33 @@ final class CameraController: NSObject, ObservableObject {
             DispatchQueue.main.async {
                 if success {
                     self.captureCount += 1
+                    if let thumbnail { self.lastThumbnail = thumbnail }
                 } else {
                     self.alertMessage = "Couldn't save to Photos. \(error?.localizedDescription ?? "Check Photos access in Settings.")"
                 }
             }
         }
+    }
+
+    // MARK: Thumbnails
+
+    private static func photoThumbnail(data: Data) -> UIImage? {
+        guard let source = CGImageSourceCreateWithData(data as CFData, nil) else { return nil }
+        let options: [CFString: Any] = [
+            kCGImageSourceCreateThumbnailFromImageAlways: true,
+            kCGImageSourceCreateThumbnailWithTransform: true,
+            kCGImageSourceThumbnailMaxPixelSize: thumbnailLongEdge,
+        ]
+        guard let image = CGImageSourceCreateThumbnailAtIndex(source, 0, options as CFDictionary) else { return nil }
+        return UIImage(cgImage: image)
+    }
+
+    private static func videoThumbnail(url: URL) async -> UIImage? {
+        let generator = AVAssetImageGenerator(asset: AVURLAsset(url: url))
+        generator.appliesPreferredTrackTransform = true
+        generator.maximumSize = CGSize(width: thumbnailLongEdge, height: thumbnailLongEdge)
+        guard let image = try? await generator.image(at: .zero).image else { return nil }
+        return UIImage(cgImage: image)
     }
 
     // MARK: Preview frames (dataQueue)
@@ -499,9 +531,9 @@ extension CameraController: AVCapturePhotoCaptureDelegate {
             return
         }
         guard let data = photo.fileDataRepresentation() else { return }
-        saveToLibrary { request in
+        saveToLibrary({ request in
             request.addResource(with: .photo, data: data, options: nil)
-        }
+        }, thumbnail: Self.photoThumbnail(data: data))
     }
 }
 
