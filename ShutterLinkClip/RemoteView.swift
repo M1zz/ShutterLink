@@ -101,13 +101,17 @@ private struct ConnectionView: View {
 private struct RemoteControlView: View {
     @ObservedObject var remote: RemoteCentral
     @State private var flash = false
+    @State private var focusPoint: CGPoint?
+    @State private var focusHide: DispatchWorkItem?
 
     private var status: RemoteStatus { remote.status ?? RemoteStatus() }
 
     var body: some View {
-        VStack(spacing: 16) {
+        VStack(spacing: 14) {
             header
+            CameraSettingsBar(status: status, send: remote.send)
             preview
+            ExposureControl(value: status.exposureBias, send: remote.send)
             ZoomChips(current: status.zoom, minZoom: status.minZoom, maxZoom: status.maxZoom) {
                 remote.send(.setZoom($0))
             }
@@ -118,7 +122,7 @@ private struct RemoteControlView: View {
             }
             .pickerStyle(.segmented)
             .frame(maxWidth: 240)
-            .disabled(status.isRecording)
+            .disabled(status.isBusy)
             controls
         }
         .padding(.horizontal, 20)
@@ -145,6 +149,8 @@ private struct RemoteControlView: View {
                     .padding(.horizontal, 10)
                     .padding(.vertical, 4)
                     .background(Color.red, in: Capsule())
+            } else if status.isIntervalRunning {
+                IntervalBadge(nextShot: status.nextIntervalShot)
             }
             Spacer()
             Button("Disconnect") { remote.disconnect() }
@@ -160,6 +166,28 @@ private struct RemoteControlView: View {
                 Image(uiImage: image)
                     .resizable()
                     .scaledToFit()
+                    .overlay {
+                        GeometryReader { geometry in
+                            ZStack(alignment: .topLeading) {
+                                if status.showsGrid {
+                                    GridLines()
+                                        .stroke(Color.white.opacity(0.45), lineWidth: 1)
+                                }
+                                Color.clear
+                                    .contentShape(Rectangle())
+                                    .onTapGesture { location in
+                                        focus(at: location, in: geometry.size)
+                                    }
+                                if let focusPoint {
+                                    FocusReticle(size: 56)
+                                        .position(focusPoint)
+                                        .id(focusPoint.x + focusPoint.y)
+                                }
+                            }
+                        }
+                    }
+                    .accessibilityAddTraits(.allowsDirectInteraction)
+                    .accessibilityHint("Tap to focus")
             } else {
                 VStack(spacing: 8) {
                     ProgressView()
@@ -182,12 +210,23 @@ private struct RemoteControlView: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 
+    private func focus(at location: CGPoint, in size: CGSize) {
+        guard size.width > 0, size.height > 0 else { return }
+        remote.send(.focus(x: location.x / size.width, y: location.y / size.height))
+        focusPoint = location
+        focusHide?.cancel()
+        let hide = DispatchWorkItem { focusPoint = nil }
+        focusHide = hide
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.2, execute: hide)
+    }
+
     private var controls: some View {
         HStack {
-            TimerButton(seconds: status.timerSeconds) { remote.send(.setTimer(seconds: $0)) }
+            // Balances the flip button so the shutter stays centered.
+            Color.clear.frame(width: 56, height: 56)
             Spacer()
             ShutterButton(mode: status.mode,
-                          isRecording: status.isRecording,
+                          isRecording: status.isBusy,
                           isCountingDown: status.countdown != nil,
                           size: 88) {
                 UIImpactFeedbackGenerator(style: .medium).impactOccurred()
@@ -203,7 +242,7 @@ private struct RemoteControlView: View {
                     .frame(width: 56, height: 56)
                     .background(Color.white.opacity(0.12), in: Circle())
             }
-            .disabled(status.isRecording)
+            .disabled(status.isBusy)
             .accessibilityLabel("Switch camera")
         }
         .padding(.bottom, 8)

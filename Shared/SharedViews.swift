@@ -27,7 +27,7 @@ struct ShutterButton: View {
 
     private var accessibilityTitle: String {
         if isCountingDown { return "Cancel timer" }
-        if isRecording { return "Stop recording" }
+        if isRecording { return mode == .photo ? "Stop interval shooting" : "Stop recording" }
         return mode == .photo ? "Take photo" : "Start recording"
     }
 }
@@ -83,5 +83,239 @@ struct TimerButton: View {
         }
         .buttonStyle(.plain)
         .accessibilityLabel("Timer \(seconds == 0 ? "off" : "\(seconds) seconds")")
+    }
+}
+
+// MARK: - Camera settings
+
+/// Flash, timer, drive and grid. Shared by the camera screen and the remote,
+/// both of which drive the camera through `RemoteCommand`s.
+struct CameraSettingsBar: View {
+    let status: RemoteStatus
+    let send: (RemoteCommand) -> Void
+
+    var body: some View {
+        HStack(spacing: 4) {
+            FlashButton(mode: status.flash, isAvailable: status.flashAvailable) {
+                send(.setFlash(status.flash.next))
+            }
+            TimerButton(seconds: status.timerSeconds) { send(.setTimer(seconds: $0)) }
+            DriveMenu(burstCount: status.burstCount, intervalSeconds: status.intervalSeconds, send: send)
+                .disabled(status.isBusy || status.mode == .video)
+            SettingButton(systemImage: "grid", title: "Grid", isOn: status.showsGrid) {
+                send(.setGrid(!status.showsGrid))
+            }
+            .accessibilityLabel("Grid \(status.showsGrid ? "on" : "off")")
+        }
+        .padding(.horizontal, 8)
+        .background(Color.black.opacity(0.45), in: Capsule())
+    }
+}
+
+/// Icon over a short caption, yellow when active. Same footprint as `TimerButton`.
+struct SettingLabel: View {
+    let systemImage: String
+    let title: String
+    let isOn: Bool
+
+    var body: some View {
+        VStack(spacing: 2) {
+            Image(systemName: systemImage)
+                .font(.title2)
+                .frame(height: 28)
+            Text(title)
+                .font(.caption2.weight(.semibold))
+        }
+        .foregroundStyle(isOn ? Color.yellow : Color.white)
+        .frame(width: 56, height: 56)
+    }
+}
+
+struct SettingButton: View {
+    let systemImage: String
+    let title: String
+    let isOn: Bool
+    let action: () -> Void
+
+    var body: some View {
+        Button(action: action) {
+            SettingLabel(systemImage: systemImage, title: title, isOn: isOn)
+        }
+        .buttonStyle(.plain)
+    }
+}
+
+struct FlashButton: View {
+    let mode: FlashMode
+    let isAvailable: Bool
+    let action: () -> Void
+
+    var body: some View {
+        SettingButton(systemImage: icon, title: isAvailable ? title : "Off",
+                      isOn: isAvailable && mode != .off, action: action)
+            .disabled(!isAvailable)
+            .opacity(isAvailable ? 1 : 0.4)
+            .accessibilityLabel(isAvailable ? "Flash \(title)" : "Flash unavailable")
+    }
+
+    private var icon: String {
+        guard isAvailable else { return "bolt.slash" }
+        switch mode {
+        case .off: return "bolt.slash"
+        case .auto: return "bolt.badge.automatic"
+        case .on: return "bolt.fill"
+        }
+    }
+
+    private var title: String {
+        switch mode {
+        case .off: return "Off"
+        case .auto: return "Auto"
+        case .on: return "On"
+        }
+    }
+}
+
+/// Single shot, a burst of photos one second apart, or interval shooting.
+struct DriveMenu: View {
+    let burstCount: Int
+    let intervalSeconds: Int
+    let send: (RemoteCommand) -> Void
+
+    var body: some View {
+        Menu {
+            Section("Burst") {
+                ForEach(DriveOptions.burstCounts, id: \.self) { count in
+                    Button {
+                        send(.setInterval(seconds: 0))
+                        send(.setBurst(count: count))
+                    } label: {
+                        let title = count == 1 ? "Single photo" : "\(count) photos, 1s apart"
+                        if intervalSeconds == 0, burstCount == count {
+                            Label(title, systemImage: "checkmark")
+                        } else {
+                            Text(title)
+                        }
+                    }
+                }
+            }
+            Section("Interval") {
+                ForEach(DriveOptions.intervals.filter { $0 > 0 }, id: \.self) { seconds in
+                    Button {
+                        send(.setInterval(seconds: seconds))
+                    } label: {
+                        let title = "Every \(Format.interval(seconds))"
+                        if intervalSeconds == seconds {
+                            Label(title, systemImage: "checkmark")
+                        } else {
+                            Text(title)
+                        }
+                    }
+                }
+            }
+        } label: {
+            SettingLabel(systemImage: icon, title: title, isOn: intervalSeconds > 0 || burstCount > 1)
+        }
+        .accessibilityLabel("Drive mode, \(accessibilityValue)")
+    }
+
+    private var icon: String {
+        if intervalSeconds > 0 { return "clock.arrow.2.circlepath" }
+        return burstCount > 1 ? "square.stack.3d.down.right" : "square"
+    }
+
+    private var title: String {
+        if intervalSeconds > 0 { return Format.interval(intervalSeconds) }
+        return burstCount > 1 ? "×\(burstCount)" : "Single"
+    }
+
+    private var accessibilityValue: String {
+        if intervalSeconds > 0 { return "interval every \(Format.interval(intervalSeconds))" }
+        return burstCount > 1 ? "\(burstCount) photo burst" : "single photo"
+    }
+}
+
+/// Exposure compensation in 1/3 EV steps. Tapping the value resets it.
+struct ExposureControl: View {
+    let value: Double
+    let send: (RemoteCommand) -> Void
+
+    var body: some View {
+        HStack(spacing: 0) {
+            stepButton("minus", delta: -ExposureOptions.step)
+                .disabled(value <= ExposureOptions.range.lowerBound + 0.01)
+            Button {
+                send(.setExposure(0))
+            } label: {
+                Label(Format.exposure(value), systemImage: "plusminus.circle")
+                    .font(.footnote.weight(.semibold).monospacedDigit())
+                    .foregroundStyle(abs(value) < 0.01 ? Color.white : Color.yellow)
+                    .frame(minWidth: 84, minHeight: 32)
+            }
+            .buttonStyle(.plain)
+            .accessibilityLabel("Exposure \(Format.exposure(value)). Reset")
+            stepButton("plus", delta: ExposureOptions.step)
+                .disabled(value >= ExposureOptions.range.upperBound - 0.01)
+        }
+        .background(Color.black.opacity(0.45), in: Capsule())
+    }
+
+    private func stepButton(_ systemImage: String, delta: Double) -> some View {
+        Button {
+            send(.setExposure(value + delta))
+        } label: {
+            Image(systemName: systemImage)
+                .font(.footnote.weight(.bold))
+                .foregroundStyle(.white)
+                .frame(width: 40, height: 32)
+        }
+        .buttonStyle(.plain)
+        .accessibilityLabel(delta < 0 ? "Darker" : "Brighter")
+    }
+}
+
+/// Shown while an interval run is active.
+struct IntervalBadge: View {
+    let nextShot: Int?
+
+    var body: some View {
+        Label(nextShot.map { "Next shot in \($0)s" } ?? "Interval", systemImage: "clock.arrow.2.circlepath")
+            .font(.footnote.weight(.semibold).monospacedDigit())
+            .foregroundStyle(.black)
+            .padding(.horizontal, 10)
+            .padding(.vertical, 5)
+            .background(Color.yellow, in: Capsule())
+    }
+}
+
+/// Rule-of-thirds lines.
+struct GridLines: Shape {
+    func path(in rect: CGRect) -> Path {
+        var path = Path()
+        for i in 1 ... 2 {
+            let x = rect.minX + rect.width * CGFloat(i) / 3
+            let y = rect.minY + rect.height * CGFloat(i) / 3
+            path.move(to: CGPoint(x: x, y: rect.minY))
+            path.addLine(to: CGPoint(x: x, y: rect.maxY))
+            path.move(to: CGPoint(x: rect.minX, y: y))
+            path.addLine(to: CGPoint(x: rect.maxX, y: y))
+        }
+        return path
+    }
+}
+
+struct FocusReticle: View {
+    var size: CGFloat = 72
+    @State private var settled = false
+
+    var body: some View {
+        RoundedRectangle(cornerRadius: 4)
+            .stroke(Color.yellow, lineWidth: 1.5)
+            .frame(width: size, height: size)
+            .scaleEffect(settled ? 1 : 1.4)
+            .onAppear {
+                withAnimation(.spring(duration: 0.3)) { settled = true }
+            }
+            .allowsHitTesting(false)
     }
 }

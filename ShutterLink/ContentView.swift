@@ -24,7 +24,14 @@ private struct CameraScreen: View {
         ZStack {
             Color.black.ignoresSafeArea()
 
-            CameraPreview(camera: camera)
+            CameraPreview(camera: camera, showsGrid: camera.showsGrid)
+                .overlay(alignment: .topLeading) {
+                    if let point = camera.focusIndicator {
+                        FocusReticle()
+                            .position(point)
+                            .id(point.x + point.y)
+                    }
+                }
                 .ignoresSafeArea()
 
             if flash {
@@ -41,7 +48,9 @@ private struct CameraScreen: View {
 
             VStack(spacing: 16) {
                 topBar
+                CameraSettingsBar(status: camera.status, send: camera.handle)
                 Spacer()
+                ExposureControl(value: camera.exposureBias, send: camera.handle)
                 ZoomChips(current: camera.zoom, minZoom: camera.minZoom, maxZoom: camera.maxZoom) {
                     camera.setZoom($0)
                 }
@@ -94,11 +103,11 @@ private struct CameraScreen: View {
                     .padding(.horizontal, 10)
                     .padding(.vertical, 6)
                     .background(Color.red, in: Capsule())
+            } else if camera.isIntervalRunning {
+                IntervalBadge(nextShot: camera.nextIntervalShot)
             }
 
             Spacer()
-
-            TimerButton(seconds: camera.timerSeconds) { camera.setTimer($0) }
 
             Button {
                 showPairing = true
@@ -121,7 +130,7 @@ private struct CameraScreen: View {
         }
         .pickerStyle(.segmented)
         .frame(maxWidth: 220)
-        .disabled(camera.isRecording)
+        .disabled(camera.isBusy)
     }
 
     private var bottomBar: some View {
@@ -129,7 +138,7 @@ private struct CameraScreen: View {
             LastCaptureButton(thumbnail: camera.lastThumbnail)
             Spacer()
             ShutterButton(mode: camera.mode,
-                          isRecording: camera.isRecording,
+                          isRecording: camera.isBusy,
                           isCountingDown: camera.countdown != nil) {
                 camera.shutter()
             }
@@ -143,7 +152,7 @@ private struct CameraScreen: View {
                     .frame(width: 56, height: 56)
                     .background(Color.black.opacity(0.4), in: Circle())
             }
-            .disabled(camera.isRecording)
+            .disabled(camera.isBusy)
             .accessibilityLabel("Switch camera")
         }
     }

@@ -17,7 +17,7 @@ final class AppModel: ObservableObject {
         remote = RemotePeripheral(sessionCode: code)
 
         remote.onCommand = { [weak self] command in
-            self?.handle(command)
+            self?.camera.handle(command)
         }
 
         camera.onPreviewFrame = { [weak remote = self.remote] jpeg in
@@ -43,22 +43,5 @@ final class AppModel: ObservableObject {
 
     private func pushStatus() {
         remote.updateStatus(camera.status)
-    }
-
-    private func handle(_ command: RemoteCommand) {
-        switch command {
-        case .hello:
-            break
-        case .shutter:
-            camera.shutter()
-        case .setMode(let mode):
-            camera.setMode(mode)
-        case .setTimer(let seconds):
-            camera.setTimer(seconds)
-        case .setZoom(let value):
-            camera.setZoom(value)
-        case .flipCamera:
-            camera.flipCamera()
-        }
     }
 }

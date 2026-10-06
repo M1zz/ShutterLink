@@ -19,6 +19,16 @@ final class CameraController: NSObject, ObservableObject {
     @Published private(set) var maxZoom: Double = 1
     @Published private(set) var position: CameraPosition = .back
     @Published private(set) var captureCount = 0
+    @Published private(set) var flash: FlashMode = .off
+    @Published private(set) var flashAvailable = false
+    @Published private(set) var exposureBias: Double = 0
+    @Published private(set) var showsGrid = false
+    @Published private(set) var burstCount = 1
+    @Published private(set) var intervalSeconds = 0
+    @Published private(set) var isIntervalRunning = false
+    @Published private(set) var nextIntervalShot: Int?
+    /// Where the last focus tap landed, in preview-layer coordinates. Cleared after a moment.
+    @Published private(set) var focusIndicator: CGPoint?
     /// Thumbnail of the last photo/video saved this session. Built from our own capture data,
     /// since the app only has add-only Photos access and can't read the library.
     @Published private(set) var lastThumbnail: UIImage?
@@ -28,6 +38,8 @@ final class CameraController: NSObject, ObservableObject {
 
     /// Called on the data queue with a small JPEG whenever `previewDemand` is true.
     var onPreviewFrame: ((Data) -> Void)?
+    /// Called on main when the preview's rotation changes, so overlays tied to the video rect can relayout.
+    var onPreviewGeometryChange: (() -> Void)?
 
     var previewDemand: Bool {
         get { demandLock.withLock { _previewDemand } }
@@ -44,8 +56,18 @@ final class CameraController: NSObject, ObservableObject {
                      minZoom: minZoom,
                      maxZoom: maxZoom,
                      position: position,
-                     captureCount: captureCount)
+                     captureCount: captureCount,
+                     flash: flash,
+                     flashAvailable: flashAvailable,
+                     exposureBias: exposureBias,
+                     showsGrid: showsGrid,
+                     burstCount: burstCount,
+                     intervalSeconds: intervalSeconds,
+                     isIntervalRunning: isIntervalRunning,
+                     nextIntervalShot: nextIntervalShot)
     }
+
+    var isBusy: Bool { isRecording || isIntervalRunning }
 
     // MARK: Private
 
@@ -74,6 +96,9 @@ final class CameraController: NSObject, ObservableObject {
     private var rotationObservations: [NSKeyValueObservation] = []
     private var countdownTimer: Timer?
     private var recordingTimer: Timer?
+    private var burstTimer: Timer?
+    private var intervalTimer: Timer?
+    private var focusIndicatorHide: DispatchWorkItem?
 
     private static let previewLongEdge: CGFloat = 400
     private static let previewFPS: Double = 12
@@ -108,6 +133,36 @@ final class CameraController: NSObject, ObservableObject {
 
     // MARK: Controls (call on main)
 
+    /// Single entry point for the on-screen controls and the remote.
+    func handle(_ command: RemoteCommand) {
+        switch command {
+        case .hello:
+            break
+        case .shutter:
+            shutter()
+        case .setMode(let mode):
+            setMode(mode)
+        case .setTimer(let seconds):
+            setTimer(seconds)
+        case .setZoom(let value):
+            setZoom(value)
+        case .flipCamera:
+            flipCamera()
+        case .setFlash(let mode):
+            setFlash(mode)
+        case .setExposure(let value):
+            setExposure(value)
+        case .focus(let x, let y):
+            focus(atImagePoint: CGPoint(x: x, y: y))
+        case .setGrid(let isOn):
+            showsGrid = isOn
+        case .setBurst(let count):
+            setBurst(count)
+        case .setInterval(let seconds):
+            setInterval(seconds)
+        }
+    }
+
     func shutter() {
         if countdown != nil {
             cancelCountdown()
@@ -115,6 +170,15 @@ final class CameraController: NSObject, ObservableObject {
         }
         if isRecording {
             stopRecording()
+            return
+        }
+        if isIntervalRunning {
+            stopInterval()
+            return
+        }
+        if burstTimer != nil {
+            // A second press cancels the rest of the burst.
+            stopBurst()
             return
         }
         guard timerSeconds > 0 else {
@@ -139,8 +203,9 @@ final class CameraController: NSObject, ObservableObject {
     }
 
     func setMode(_ newMode: CaptureMode) {
-        guard newMode != mode, !isRecording else { return }
+        guard newMode != mode, !isBusy else { return }
         cancelCountdown()
+        stopBurst()
         mode = newMode
         sessionQueue.async {
             let preset: AVCaptureSession.Preset = newMode == .photo ? .photo : .high
@@ -178,8 +243,9 @@ final class CameraController: NSObject, ObservableObject {
     }
 
     func flipCamera() {
-        guard !isRecording else { return }
+        guard !isBusy else { return }
         cancelCountdown()
+        stopBurst()
         let target: CameraPosition = position == .back ? .front : .back
         sessionQueue.async {
             guard let device = Self.bestDevice(for: target),
@@ -201,6 +267,109 @@ final class CameraController: NSObject, ObservableObject {
             DispatchQueue.main.async {
                 self.position = newPosition
                 self.setUpRotation(for: active)
+                // The bias is per device; carry the user's choice over to the new camera.
+                self.setExposure(self.exposureBias)
+            }
+        }
+    }
+
+    func setFlash(_ mode: FlashMode) {
+        flash = mode
+        if isRecording { applyTorch(for: mode) }
+    }
+
+    func setExposure(_ value: Double) {
+        let steps = (value / ExposureOptions.step).rounded()
+        let clamped = min(max(steps * ExposureOptions.step, ExposureOptions.range.lowerBound), ExposureOptions.range.upperBound)
+        exposureBias = clamped.rounded2
+        sessionQueue.async {
+            guard let device = self.videoInput?.device else { return }
+            let bias = min(max(Float(clamped), device.minExposureTargetBias), device.maxExposureTargetBias)
+            do {
+                try device.lockForConfiguration()
+                device.setExposureTargetBias(bias)
+                device.unlockForConfiguration()
+            } catch {
+                print("Exposure bias failed: \(error)")
+            }
+        }
+    }
+
+    func setBurst(_ count: Int) {
+        guard !isBusy, DriveOptions.burstCounts.contains(count) else { return }
+        burstCount = count
+        if count > 1 { intervalSeconds = 0 }
+    }
+
+    func setInterval(_ seconds: Int) {
+        guard !isBusy, DriveOptions.intervals.contains(seconds) else { return }
+        intervalSeconds = seconds
+        if seconds > 0 { burstCount = 1 }
+    }
+
+    /// Tap on the camera's own preview.
+    func focus(atLayerPoint point: CGPoint) {
+        guard let previewLayer else { return }
+        showFocusIndicator(at: point)
+        applyFocus(at: previewLayer.captureDevicePointConverted(fromLayerPoint: point))
+    }
+
+    /// Tap on the remote's preview: a point in the upright preview frame, normalized to 0...1.
+    func focus(atImagePoint point: CGPoint) {
+        guard let previewLayer, (0 ... 1).contains(point.x), (0 ... 1).contains(point.y) else { return }
+        // Preview frames aren't mirrored, but the front camera's preview layer is.
+        let x = position == .front ? 1 - point.x : point.x
+        let videoRect = previewLayer.layerRectConverted(fromMetadataOutputRect: CGRect(x: 0, y: 0, width: 1, height: 1))
+        focus(atLayerPoint: CGPoint(x: videoRect.minX + x * videoRect.width,
+                                    y: videoRect.minY + point.y * videoRect.height))
+    }
+
+    private func showFocusIndicator(at point: CGPoint) {
+        focusIndicator = point
+        focusIndicatorHide?.cancel()
+        let hide = DispatchWorkItem { [weak self] in self?.focusIndicator = nil }
+        focusIndicatorHide = hide
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.2, execute: hide)
+    }
+
+    private func applyFocus(at devicePoint: CGPoint) {
+        sessionQueue.async {
+            guard let device = self.videoInput?.device else { return }
+            do {
+                try device.lockForConfiguration()
+                // Continuous modes keep tracking the chosen point — right for a camera that sits still.
+                if device.isFocusPointOfInterestSupported, device.isFocusModeSupported(.continuousAutoFocus) {
+                    device.focusPointOfInterest = devicePoint
+                    device.focusMode = .continuousAutoFocus
+                }
+                if device.isExposurePointOfInterestSupported, device.isExposureModeSupported(.continuousAutoExposure) {
+                    device.exposurePointOfInterest = devicePoint
+                    device.exposureMode = .continuousAutoExposure
+                }
+                device.unlockForConfiguration()
+            } catch {
+                print("Focus failed: \(error)")
+            }
+        }
+    }
+
+    /// Video mode lights the torch while recording, following the flash setting.
+    private func applyTorch(for mode: FlashMode?) {
+        sessionQueue.async {
+            guard let device = self.videoInput?.device, device.hasTorch else { return }
+            let torch: AVCaptureDevice.TorchMode
+            switch mode {
+            case .on: torch = .on
+            case .auto: torch = .auto
+            case .off, nil: torch = .off
+            }
+            guard device.isTorchModeSupported(torch) else { return }
+            do {
+                try device.lockForConfiguration()
+                device.torchMode = torch
+                device.unlockForConfiguration()
+            } catch {
+                print("Torch failed: \(error)")
             }
         }
     }
@@ -281,9 +450,12 @@ final class CameraController: NSObject, ObservableObject {
         do {
             try device.lockForConfiguration()
             device.videoZoomFactor = initial
+            let center = CGPoint(x: 0.5, y: 0.5)
+            if device.isFocusPointOfInterestSupported { device.focusPointOfInterest = center }
             if device.isFocusModeSupported(.continuousAutoFocus) {
                 device.focusMode = .continuousAutoFocus
             }
+            if device.isExposurePointOfInterestSupported { device.exposurePointOfInterest = center }
             if device.isExposureModeSupported(.continuousAutoExposure) {
                 device.exposureMode = .continuousAutoExposure
             }
@@ -295,7 +467,9 @@ final class CameraController: NSObject, ObservableObject {
         let minDisplay = Double(minFactor / base).rounded2
         let maxDisplay = Double(maxFactor / base).rounded2
         let current = Double(initial / base).rounded2
+        let hasFlash = device.hasFlash || device.hasTorch
         DispatchQueue.main.async {
+            self.flashAvailable = hasFlash
             self.minZoom = minDisplay
             self.maxZoom = maxDisplay
             self.zoom = current
@@ -348,6 +522,7 @@ final class CameraController: NSObject, ObservableObject {
     private func applyPreviewRotation(_ angle: CGFloat) {
         guard let connection = previewLayer?.connection, connection.isVideoRotationAngleSupported(angle) else { return }
         connection.videoRotationAngle = angle
+        onPreviewGeometryChange?()
     }
 
     /// Rotates the sample buffers themselves so preview frames and recordings are upright.
@@ -365,9 +540,52 @@ final class CameraController: NSObject, ObservableObject {
 
     private func fire() {
         switch mode {
-        case .photo: capturePhoto()
+        case .photo where intervalSeconds > 0: startInterval()
+        case .photo: startBurst()
         case .video: startRecording()
         }
+    }
+
+    private func startBurst() {
+        capturePhoto()
+        var remaining = burstCount - 1
+        guard remaining > 0 else { return }
+        burstTimer = Timer.scheduledTimer(withTimeInterval: DriveOptions.burstSpacing, repeats: true) { [weak self] timer in
+            guard let self else {
+                timer.invalidate()
+                return
+            }
+            self.capturePhoto()
+            remaining -= 1
+            if remaining == 0 { self.stopBurst() }
+        }
+    }
+
+    private func stopBurst() {
+        burstTimer?.invalidate()
+        burstTimer = nil
+    }
+
+    private func startInterval() {
+        isIntervalRunning = true
+        capturePhoto()
+        nextIntervalShot = intervalSeconds
+        intervalTimer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { [weak self] _ in
+            guard let self, let next = self.nextIntervalShot else { return }
+            if next <= 1 {
+                self.capturePhoto()
+                self.nextIntervalShot = self.intervalSeconds
+            } else {
+                self.nextIntervalShot = next - 1
+            }
+        }
+    }
+
+    private func stopInterval() {
+        intervalTimer?.invalidate()
+        intervalTimer = nil
+        isIntervalRunning = false
+        nextIntervalShot = nil
     }
 
     private func cancelCountdown() {
@@ -378,6 +596,12 @@ final class CameraController: NSObject, ObservableObject {
 
     private func capturePhoto() {
         let angle = rotationCoordinator?.videoRotationAngleForHorizonLevelCapture
+        let flashMode: AVCaptureDevice.FlashMode
+        switch flash {
+        case .off: flashMode = .off
+        case .auto: flashMode = .auto
+        case .on: flashMode = .on
+        }
         sessionQueue.async {
             guard self.session.isRunning else { return }
             if let angle, let connection = self.photoOutput.connection(with: .video),
@@ -392,6 +616,9 @@ final class CameraController: NSObject, ObservableObject {
             }
             settings.maxPhotoDimensions = self.photoOutput.maxPhotoDimensions
             settings.photoQualityPrioritization = .balanced
+            if self.photoOutput.supportedFlashModes.contains(flashMode) {
+                settings.flashMode = flashMode
+            }
             self.photoOutput.capturePhoto(with: settings, delegate: self)
         }
     }
@@ -400,6 +627,7 @@ final class CameraController: NSObject, ObservableObject {
         guard !isRecording else { return }
         isRecording = true
         recordingSeconds = 0
+        applyTorch(for: flash)
         recordingTimer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { [weak self] _ in
             self?.recordingSeconds += 1
         }
@@ -427,6 +655,7 @@ final class CameraController: NSObject, ObservableObject {
     private func stopRecording() {
         guard isRecording else { return }
         finishRecordingUI()
+        applyTorch(for: nil)
         if let angle = rotationCoordinator?.videoRotationAngleForHorizonLevelCapture {
             applyDataOutputRotation(angle)
         }
