@@ -19,27 +19,30 @@ CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 W, H = 1242, 2688   # App Store Connect 제출 규격 (iPhone 6.5")
 
 LAYOUT = {
-    "01-camera.png": "hero-bleed",
-    "02-pairing.png": "left-text",
-    "03-remote.png": "text-bottom",
-    "04-countdown.png": "flat-rotate",
-    "05-video.png": "dark",
+    "01-pairing.png": "hero-bleed",
+    "02-focus.png": "left-text",
+    "03-interval.png": "text-bottom",
+    "04-burst.png": "flat-rotate",
+    "05-camera.png": "hero-bleed",
+    "06-video.png": "dark",
 }
 
 COPY = {
     "ko": {
-        "01-camera.png": ("멀리서 누르는 셔터", "다른 iPhone이 무선 리모컨이 돼요"),
-        "02-pairing.png": ("QR 한 번이면<br>바로 연결", "설치 없이 App Clip으로 열려요"),
-        "03-remote.png": ("구도를 보면서<br>원격 촬영", "리모컨 화면에 실시간 미리보기"),
-        "04-countdown.png": ("다 같이 찍는 단체 사진", "3초, 10초 타이머로 여유 있게"),
-        "05-video.png": ("동영상도 원격으로", "줌과 전후면 전환까지 손안에서"),
+        "01-pairing.png": ("리모컨 폰은<br>설치 없이 QR로", "다른 iPhone이 App Clip으로 바로 열려요"),
+        "02-focus.png": ("탭 한 번에<br>초점과 노출", "리모컨 미리보기를 눌러 맞춰요"),
+        "03-interval.png": ("인터벌 촬영", "3초부터 1분까지 정해 둔 간격으로"),
+        "04-burst.png": ("단체 사진은<br>연속 촬영으로", "타이머가 끝나면 1초 간격으로 3장, 5장"),
+        "05-camera.png": ("삼각대 위에서도<br>꼼꼼하게", "플래시, 노출 보정, 3분할 격자"),
+        "06-video.png": ("동영상도 원격으로", "조명, 줌, 전후면 전환까지"),
     },
     "en": {
-        "01-camera.png": ("Shoot from afar", "Another iPhone becomes the remote"),
-        "02-pairing.png": ("Scan once.<br>You're in.", "Opens as an App Clip, no install"),
-        "03-remote.png": ("Frame the shot<br>from anywhere", "Live preview right on the remote"),
-        "04-countdown.png": ("Everyone in the picture", "3 or 10 second self-timer"),
-        "05-video.png": ("Record video remotely", "Zoom and flip cameras too"),
+        "01-pairing.png": ("Nothing to install<br>on the remote", "Scan the QR. It opens as an App Clip"),
+        "02-focus.png": ("Tap to focus<br>from afar", "Set focus and exposure on the remote"),
+        "03-interval.png": ("Interval shooting", "One shot every 3 seconds to 1 minute"),
+        "04-burst.png": ("Group shots,<br>no blinks", "After the timer, a burst of 3 or 5"),
+        "05-camera.png": ("A real camera<br>on the tripod", "Flash, exposure and a thirds grid"),
+        "06-video.png": ("Record video remotely", "Light, zoom and camera flip too"),
     },
 }
 

@@ -69,11 +69,36 @@ html, body {{ width:{PT_W}px; height:{PT_H}px; overflow:hidden; background:#000;
 .shutter {{ position:relative; border-radius:50%; border:4px solid #fff; display:grid; place-items:center; }}
 .shutter i {{ display:block; background:#fff; border-radius:50%; }}
 .shutter.video i {{ background:#ff3b30; }}
-.shutter.stop i {{ background:#ff3b30; border-radius:6px; }}
+.shutter.stop i {{ border-radius:6px; }}
 
 .countdown {{ position:absolute; inset:0; display:grid; place-items:center; z-index:5;
   font:700 140px ui-rounded, "SF Pro Rounded", -apple-system; text-shadow:0 0 10px rgba(0,0,0,.6); }}
 .home {{ position:absolute; bottom:8px; left:50%; transform:translateX(-50%); width:144px; height:5px; border-radius:3px; background:#fff; z-index:60; }}
+
+/* camera settings bar (CameraSettingsBar) */
+.settings {{ display:flex; gap:4px; padding:0 8px; background:rgba(0,0,0,.45); border-radius:999px; }}
+.setting {{ width:56px; height:56px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:2px; }}
+.setting .ic {{ width:26px; height:24px; }}
+.setting span {{ font-size:11px; font-weight:600; }}
+.setting.on {{ color:#ffcc00; }}
+.setting.dim {{ opacity:.4; }}
+/* ExposureControl */
+.ev {{ display:flex; align-items:center; background:rgba(0,0,0,.45); border-radius:999px; height:32px; }}
+.ev .step {{ width:40px; height:32px; display:grid; place-items:center; }}
+.ev .step .ic {{ width:12px; height:12px; }}
+.ev .val {{ min-width:84px; display:flex; align-items:center; justify-content:center; gap:5px; font-size:13px; font-weight:600; font-variant-numeric:tabular-nums; }}
+.ev .val .ic {{ width:15px; height:15px; }}
+.ev .val.on {{ color:#ffcc00; }}
+.badge {{ display:flex; align-items:center; gap:5px; font-size:13px; font-weight:600; color:#000; background:#ffcc00; padding:5px 10px; border-radius:999px; }}
+.badge .ic {{ width:15px; height:14px; }}
+/* video area: 3:4 scene, aspect-fit inside its box (videoGravity = .resizeAspect) */
+.vbox {{ position:absolute; inset:0; container-type:size; display:grid; place-items:center; }}
+.video {{ position:relative; width:min(100cqw, 75cqh); height:min(100cqh, 133.333cqw);
+  background:url({a('scene.svg')}) center/cover no-repeat; }}
+.gl {{ position:absolute; background:rgba(255,255,255,.45); }}
+.reticle {{ position:absolute; border:1.5px solid #ffcc00; border-radius:4px; transform:translate(-50%,-50%); }}
+.thumb {{ width:52px; height:52px; margin:2px; border-radius:10px; border:1.5px solid rgba(255,255,255,.8);
+  background:url({a('scene.svg')}) center/cover no-repeat; }}
 """
 
 def status_bar():
@@ -98,32 +123,71 @@ def seg(mode="photo", dim=False):
 
 def shutter(size=76, mode="photo", recording=False, counting=False):
     inner = size * 0.4 if recording else size - 14
-    cls = "stop" if recording else ("video" if mode == "video" else "")
+    cls = ("stop " if recording else "") + ("video" if mode == "video" else "")
     return (f'<div class="shutter {cls}" style="width:{size}px;height:{size}px">'
             f'<i style="width:{inner}px;height:{inner}px;opacity:{0.5 if counting else 1}"></i></div>')
 
-def timer(seconds):
-    if seconds:
-        return f'<div class="timer on">{icon("timer-fill.png")}<span>{seconds}s</span></div>'
-    return f'<div class="timer">{icon("timer.png")}<span>Off</span></div>'
+# ---------- shared controls ----------
 
-def bottom(size=76, mode="photo", recording=False, counting=False, timer_s=0, flip_bg=".4"):
-    return (f'<div class="bottom">{timer(timer_s)}{shutter(size, mode, recording, counting)}'
-            f'<div class="flip" style="background:rgba({"0,0,0" if flip_bg == ".4" else "255,255,255"},{flip_bg})">{icon("flip.png")}</div></div>')
+FLASH = {"off": ("flash-off.png", "Off"), "auto": ("flash-auto.png", "Auto"), "on": ("flash-on.png", "On")}
+
+def setting(icon_name, title, on=False, dim=False):
+    cls = " on" if on else ""
+    if dim:
+        cls += " dim"
+    return f'<div class="setting{cls}">{icon(icon_name)}<span>{title}</span></div>'
+
+def settings_bar(flash="off", timer_s=0, burst=1, interval=0, grid=False, busy=False, video_mode=False):
+    if interval:
+        drive = setting("drive-interval.png", f"{interval}s", on=True, dim=busy)
+    elif burst > 1:
+        drive = setting("drive-burst.png", f"×{burst}", on=True, dim=busy or video_mode)
+    else:
+        drive = setting("drive-single.png", "Single", dim=busy or video_mode)
+    f_icon, f_title = FLASH[flash]
+    t = setting("timer-fill.png", f"{timer_s}s", on=True) if timer_s else setting("timer.png", "Off")
+    return (f'<div class="settings">{setting(f_icon, f_title, on=flash != "off")}{t}{drive}'
+            f'{setting("grid.png", "Grid", on=grid)}</div>')
+
+def exposure(value=0.0):
+    label = "±0.0" if value == 0 else f"{value:+.1f}"
+    return (f'<div class="ev"><div class="step">{icon("minus.png")}</div>'
+            f'<div class="val{" on" if value else ""}">{icon("exposure.png")}{label}</div>'
+            f'<div class="step">{icon("plus.png")}</div></div>')
+
+def interval_badge(next_s):
+    return f'<div class="badge">{icon("drive-interval-sm.png")}Next shot in {next_s}s</div>'
+
+def video(grid=False, reticle=None, reticle_size=72, countdown_px=140, countdown=None):
+    """3:4 scene aspect-fit in its box. reticle = (x%, y%) inside the video."""
+    lines = ""
+    if grid:
+        lines = "".join(f'<div class="gl" style="left:{p}%;top:0;bottom:0;width:1px"></div>'
+                        f'<div class="gl" style="top:{p}%;left:0;right:0;height:1px"></div>' for p in (33.333, 66.667))
+    ret = ""
+    if reticle:
+        ret = (f'<div class="reticle" style="left:{reticle[0]}%;top:{reticle[1]}%;'
+               f'width:{reticle_size}px;height:{reticle_size}px"></div>')
+    cd = ""
+    if countdown:
+        cd = (f'<div style="position:absolute;inset:0;display:grid;place-items:center;font:700 {countdown_px}px ui-rounded,'
+              f'\'SF Pro Rounded\',-apple-system;text-shadow:0 0 10px rgba(0,0,0,.6)">{countdown}</div>')
+    return f'<div class="vbox"><div class="video">{lines}{ret}</div>{cd}</div>'
 
 # ---------- camera phone (ShutterLink) ----------
 
-def camera_screen(connected=True, timer_s=3, countdown=None, zoom=1):
+def camera_screen(connected=True, flash="auto", timer_s=0, burst=1, interval=0, grid=True, ev=0.0, reticle=None, zoom=1):
     label = ("Remote connected", "iphone-radiowaves.png", "#30d158") if connected else ("Waiting for a remote", "radiowaves.png", "#fff")
-    cd = f'<div class="countdown">{countdown}</div>' if countdown else ""
-    return f"""<div class="screen"><div class="fill scene"></div>{cd}{status_bar()}
+    return f"""<div class="screen"><div class="fill">{video(grid, reticle)}</div>{status_bar()}
 <div class="content">
   <div class="row"><div class="capsule-label" style="color:{label[2]}">{icon(label[1])}{label[0]}</div>
     <div class="circle-btn">{icon("qrcode.png")}</div></div>
+  {settings_bar(flash, timer_s, burst, interval, grid)}
   <div class="spacer"></div>
+  {exposure(ev)}
   {chips(zoom)}
   {seg()}
-  {bottom(timer_s=timer_s, counting=countdown is not None)}
+  <div class="bottom"><div class="thumb"></div>{shutter()}<div class="flip">{icon("flip.png")}</div></div>
 </div></div>"""
 
 def pairing_screen():
@@ -148,30 +212,40 @@ def pairing_screen():
 
 # ---------- remote phone (ShutterLinkClip) ----------
 
-def remote_screen(mode="photo", recording=False, rec_time="00:42", countdown=None, timer_s=0, zoom=1, flash=False):
-    rec = f'<div class="rec" style="padding:4px 10px">{rec_time}</div>' if recording else ""
-    cd = (f'<div style="position:absolute;inset:0;display:grid;place-items:center;font:700 96px ui-rounded,-apple-system;'
-          f'text-shadow:0 0 8px rgba(0,0,0,.6)">{countdown}</div>') if countdown else ""
+def remote_screen(mode="photo", recording=False, rec_time="00:42", countdown=None, flash="off", timer_s=0,
+                  burst=1, interval=0, interval_next=None, grid=False, ev=0.0, reticle=None, zoom=1):
+    busy = recording or interval_next is not None
+    if recording:
+        mid = f'<div class="rec" style="padding:4px 10px">{rec_time}</div>'
+    elif interval_next is not None:
+        mid = interval_badge(interval_next)
+    else:
+        mid = ""
     return f"""<div class="screen">{status_bar()}
-<div class="content">
+<div class="content" style="gap:14px">
   <div class="row"><div style="display:flex;align-items:center;gap:6px;font-size:13px;font-weight:600;color:#30d158">
       {icon("radiowaves.png")}<span>Connected</span></div>
-    {rec}<span style="font-size:13px;color:#ffcc00">Disconnect</span></div>
+    {mid}<span style="font-size:13px;color:#ffcc00">Disconnect</span></div>
+  {settings_bar(flash, timer_s, burst, interval, grid, busy, mode == "video")}
   <div style="position:relative;flex:1;width:100%;border-radius:16px;overflow:hidden;background:rgba(255,255,255,.06)">
-    <div class="fill" style="background:url({a('scene.svg')}) center/contain no-repeat"></div>{cd}
+    {video(grid, reticle, 56, 96, countdown)}
   </div>
+  {exposure(ev)}
   {chips(zoom)}
-  <div style="width:240px;display:flex;justify-content:center">{seg(mode, dim=recording)}</div>
-  <div style="width:100%;padding-bottom:8px">{bottom(size=88, mode=mode, recording=recording, counting=countdown is not None, timer_s=timer_s, flip_bg=".12")}</div>
+  <div style="width:240px;display:flex;justify-content:center">{seg(mode, dim=busy)}</div>
+  <div style="width:100%;padding-bottom:8px"><div class="bottom"><div style="width:56px"></div>
+    {shutter(88, mode, recording=busy, counting=countdown is not None)}
+    <div class="flip" style="background:rgba(255,255,255,.12)">{icon("flip.png")}</div></div></div>
 </div>
 <style>.content .row [style*="radiowaves"] {{ width:18px; height:14px; }} .seg {{ width:240px; }}</style></div>"""
 
 SCREENS = {
-    "01-camera.png": camera_screen(connected=True, timer_s=3),
-    "02-pairing.png": pairing_screen(),
-    "03-remote.png": remote_screen(timer_s=3),
-    "04-countdown.png": remote_screen(timer_s=3, countdown=2),
-    "05-video.png": remote_screen(mode="video", recording=True, zoom=2),
+    "01-pairing.png": pairing_screen(),
+    "02-focus.png": remote_screen(grid=True, reticle=(36, 60), ev=0.3, flash="auto"),
+    "03-interval.png": remote_screen(interval=10, interval_next=7, grid=True),
+    "04-burst.png": remote_screen(timer_s=3, burst=3, countdown=2),
+    "05-camera.png": camera_screen(flash="auto", timer_s=3, grid=True, ev=-0.3, reticle=(62, 50)),
+    "06-video.png": remote_screen(mode="video", recording=True, flash="on", zoom=2),
 }
 
 def main():
