@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB2BCF837E41E2696191B872 /* LeeoKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5E5EB854394576A889E68E61 /* LeeoKit */; };
 		AA0000000000000000000050 /* ShutterLinkClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000011 /* ShutterLinkClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
@@ -67,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB2BCF837E41E2696191B872 /* LeeoKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +125,7 @@
 			);
 			name = ShutterLink;
 			packageProductDependencies = (
+				5E5EB854394576A889E68E61 /* LeeoKit */,
 			);
 			productName = ShutterLink;
 			productReference = AA0000000000000000000010 /* ShutterLink.app */;
@@ -178,6 +181,9 @@
 			);
 			mainGroup = AA0000000000000000000002;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7FC628CC7E62503582652ECA /* XCRemoteSwiftPackageReference "LeeoKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = AA0000000000000000000003 /* Products */;
 			projectDirPath = "";
@@ -488,6 +494,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7FC628CC7E62503582652ECA /* XCRemoteSwiftPackageReference "LeeoKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/M1zz/LeeoKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.16.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5E5EB854394576A889E68E61 /* LeeoKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FC628CC7E62503582652ECA /* XCRemoteSwiftPackageReference "LeeoKit" */;
+			productName = LeeoKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AA0000000000000000000001 /* Project object */;
 }
