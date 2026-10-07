@@ -153,15 +153,15 @@ Keep ShutterLink open on the camera iPhone while shooting.
 
 ### 지원 URL
 
-https://m1zz.github.io/ShutterLink/support/
+https://m1zz.github.io/ShutterLink/en/support/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/ShutterLink/privacy/
+https://m1zz.github.io/ShutterLink/en/privacy/
 
 ### 마케팅 URL
 
-https://m1zz.github.io/ShutterLink/
+https://m1zz.github.io/ShutterLink/en/
 
 ## 연령 등급
 
