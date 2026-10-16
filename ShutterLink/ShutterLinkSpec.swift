@@ -4,8 +4,8 @@
 //
 //  LeeoKit 계약(LeeoAppSpec) 준수 — 이 앱의 공통 기능 설정값 단일 소스.
 //
-//  ⚠️ 피드백 허브(iCloud.com.Ysoup.FeedbackHub)는 아직 이 앱의 entitlements 에 없다.
-//     피드백 화면·크래시 진단을 켜기 전에 그 컨테이너를 먼저 추가해야 한다.
+//  피드백 허브(iCloud.com.Ysoup.FeedbackHub) 권한은 본 앱 entitlements 에만 있다.
+//  앱 클립(ShutterLinkClip)은 LeeoKit 을 쓰지 않으므로 아무것도 보내지 않는다.
 //
 
 import Foundation
@@ -19,6 +19,10 @@ enum ShutterLinkSpec: LeeoAppSpec {
         containerIdentifier: "iCloud.com.Ysoup.FeedbackHub",
         appIdentifier: "com.devkoan.shutterlink"
     )
+
+    /// 익명 사용 통계 — 설치 수·실행 일수·버전 분포를 피드백 허브로 보낸다.
+    /// 기본값(LeeoNoopAnalytics)이면 부트스트랩이 아무것도 안 보낸다.
+    static let analytics: any LeeoAnalytics = LeeoUsageAnalytics(spec: ShutterLinkSpec.self)
 
     /// App Store Connect 에 넣은 주소와 같다 (APPSTORE.md).
     static let legal = LeeoLegalConfig(
