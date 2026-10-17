@@ -6,7 +6,7 @@ import Foundation
 /// - A remote must write `.hello(code:)` with the pairing code before any other command is accepted.
 /// - Authorized remotes can read the L2CAP PSM and open a preview stream.
 final class RemotePeripheral: NSObject, ObservableObject {
-    @Published private(set) var bluetoothState = "Starting Bluetooth…"
+    @Published private(set) var bluetoothState = String(localized: "Starting Bluetooth…")
     @Published private(set) var isAdvertising = false
     @Published private(set) var connectedRemotes = 0
     @Published private(set) var hasPreviewViewers = false
@@ -49,15 +49,32 @@ final class RemotePeripheral: NSObject, ObservableObject {
 
     /// main thread
     func sendPreviewFrame(_ jpeg: Data) {
-        let framed = FrameAssembler.frame(jpeg)
+        let framed = FrameAssembler.frame(kind: .preview, jpeg: jpeg)
         for sender in channels.values where sender.isIdle {
             sender.send(framed)
         }
     }
 
+    /// main thread. Thumbnail of a saved photo; queued so it is never dropped.
+    func sendReviewFrame(_ jpeg: Data) {
+        let framed = FrameAssembler.frame(kind: .review, jpeg: jpeg)
+        for sender in channels.values {
+            sender.enqueue(framed)
+        }
+    }
+
+    #if DEBUG
+    func applyDemo(connected: Int) {
+        connectedRemotes = connected
+        bluetoothState = String(localized: "Waiting for a remote")
+    }
+    #endif
+
     private func sendStatus() {
         guard let manager, !subscribers.isEmpty, !statusData.isEmpty else { return }
-        needsStatusResend = !manager.updateValue(statusData, for: statusCharacteristic, onSubscribedCentrals: nil)
+        let limit = subscribers.values.map(\.maximumUpdateValueLength).min() ?? 20
+        let payload = statusData.count <= limit ? statusData : StatusMarker.readFull
+        needsStatusResend = !manager.updateValue(payload, for: statusCharacteristic, onSubscribedCentrals: nil)
     }
 
     private func refreshCounts() {
@@ -97,18 +114,18 @@ extension RemotePeripheral: CBPeripheralManagerDelegate {
     func peripheralManagerDidUpdateState(_ peripheral: CBPeripheralManager) {
         switch peripheral.state {
         case .poweredOn:
-            bluetoothState = "Bluetooth ready"
+            bluetoothState = String(localized: "Bluetooth ready")
             setUpService(peripheral)
         case .poweredOff:
-            bluetoothState = "Bluetooth is off"
+            bluetoothState = String(localized: "Bluetooth is off")
             resetAfterPowerLoss()
         case .unauthorized:
-            bluetoothState = "Bluetooth permission denied"
+            bluetoothState = String(localized: "Bluetooth permission denied")
             resetAfterPowerLoss()
         case .unsupported:
-            bluetoothState = "Bluetooth LE not supported"
+            bluetoothState = String(localized: "Bluetooth LE not supported")
         default:
-            bluetoothState = "Bluetooth unavailable"
+            bluetoothState = String(localized: "Bluetooth unavailable")
         }
     }
 
@@ -123,7 +140,7 @@ extension RemotePeripheral: CBPeripheralManagerDelegate {
 
     func peripheralManager(_ peripheral: CBPeripheralManager, didAdd service: CBService, error: Error?) {
         if let error {
-            bluetoothState = "Service error: \(error.localizedDescription)"
+            bluetoothState = String(localized: "Service error: \(error.localizedDescription)")
             return
         }
         serviceAdded = true
@@ -133,10 +150,10 @@ extension RemotePeripheral: CBPeripheralManagerDelegate {
     func peripheralManagerDidStartAdvertising(_ peripheral: CBPeripheralManager, error: Error?) {
         if let error {
             isAdvertising = false
-            bluetoothState = "Advertising failed: \(error.localizedDescription)"
+            bluetoothState = String(localized: "Advertising failed: \(error.localizedDescription)")
         } else {
             isAdvertising = true
-            bluetoothState = "Waiting for a remote"
+            bluetoothState = String(localized: "Waiting for a remote")
         }
     }
 

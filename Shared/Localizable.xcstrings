@@ -1,0 +1,1396 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%lld": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld"
+          }
+        }
+      }
+    },
+    "%lld in frame": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld명 인식됨"
+          }
+        }
+      }
+    },
+    "%lld photos": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "사진 %lld장"
+          }
+        }
+      }
+    },
+    "%lld photos, pick best": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld장 촬영 후 베스트 선택"
+          }
+        }
+      }
+    },
+    "%lld remote connected": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "리모컨 %lld대 연결됨"
+          }
+        }
+      }
+    },
+    "%lld selected": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld개 선택됨"
+          }
+        }
+      }
+    },
+    "%llds": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld초"
+          }
+        }
+      }
+    },
+    "0000": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "0000"
+          }
+        }
+      }
+    },
+    "Advertising failed: %@": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "광고 실패: %@"
+          }
+        }
+      }
+    },
+    "All": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "전체"
+          }
+        }
+      }
+    },
+    "Allow Bluetooth access in Settings to control the camera.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "카메라를 조종하려면 설정에서 Bluetooth 접근을 허용하세요."
+          }
+        }
+      }
+    },
+    "Anyone can be the remote": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "누구나 리모컨이 될 수 있어요"
+          }
+        }
+      }
+    },
+    "Ask everyone to look at the camera": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "모두 카메라를 보도록 안내"
+          }
+        }
+      }
+    },
+    "Auto capture off": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "자동 촬영 끔"
+          }
+        }
+      }
+    },
+    "Best shot": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "베스트샷"
+          }
+        }
+      }
+    },
+    "Best shot picked from %lld photos": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld장 중 베스트샷을 골랐어요"
+          }
+        }
+      }
+    },
+    "Best shots": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "베스트샷"
+          }
+        }
+      }
+    },
+    "Bluetooth LE not supported": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bluetooth LE를 지원하지 않는 기기입니다"
+          }
+        }
+      }
+    },
+    "Bluetooth is off": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bluetooth가 꺼져 있습니다"
+          }
+        }
+      }
+    },
+    "Bluetooth permission denied": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bluetooth 권한이 거부되었습니다"
+          }
+        }
+      }
+    },
+    "Bluetooth ready": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bluetooth 준비됨"
+          }
+        }
+      }
+    },
+    "Bluetooth unavailable": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bluetooth를 사용할 수 없습니다"
+          }
+        }
+      }
+    },
+    "Camera access is required. Enable it in Settings > ShutterLink.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "카메라 접근 권한이 필요합니다. 설정 > ShutterLink에서 허용하세요."
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "취소"
+          }
+        }
+      }
+    },
+    "Cancel timer": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "타이머 취소"
+          }
+        }
+      }
+    },
+    "Capture failed: %@": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "촬영 실패: %@"
+          }
+        }
+      }
+    },
+    "Check Photos access in Settings.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "설정에서 사진 접근 권한을 확인하세요."
+          }
+        }
+      }
+    },
+    "Clap loudly once to start the timer.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "크게 한 번 박수를 치면 타이머가 시작됩니다."
+          }
+        }
+      }
+    },
+    "Clap shutter": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "박수 셔터"
+          }
+        }
+      }
+    },
+    "Clap shutter needs microphone access. Enable it in Settings > ShutterLink.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "박수 셔터를 쓰려면 마이크 권한이 필요합니다. 설정 > ShutterLink에서 허용하세요."
+          }
+        }
+      }
+    },
+    "Close": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "닫기"
+          }
+        }
+      }
+    },
+    "Connect": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "연결"
+          }
+        }
+      }
+    },
+    "Connected": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "연결됨"
+          }
+        }
+      }
+    },
+    "Connecting…": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "연결 중…"
+          }
+        }
+      }
+    },
+    "Couldn't find the camera. Make sure ShutterLink is open on the camera iPhone and Bluetooth is on.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "카메라를 찾지 못했습니다. 카메라 iPhone에서 ShutterLink가 열려 있고 Bluetooth가 켜져 있는지 확인하세요."
+          }
+        }
+      }
+    },
+    "Couldn't pair with the camera.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "카메라와 페어링하지 못했습니다."
+          }
+        }
+      }
+    },
+    "Couldn't save to Photos. %@": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "사진 앱에 저장하지 못했습니다. %@"
+          }
+        }
+      }
+    },
+    "Couldn't start recording: %@": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "녹화를 시작하지 못했습니다: %@"
+          }
+        }
+      }
+    },
+    "Countdown": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "카운트다운"
+          }
+        }
+      }
+    },
+    "Delete": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "삭제"
+          }
+        }
+      }
+    },
+    "Delete selected shots?": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "선택한 사진을 삭제할까요?"
+          }
+        }
+      }
+    },
+    "Disconnect": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "연결 끊기"
+          }
+        }
+      }
+    },
+    "Done": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "완료"
+          }
+        }
+      }
+    },
+    "Enter the 4-digit code shown on the camera iPhone.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "카메라 iPhone에 표시된 4자리 코드를 입력하세요."
+          }
+        }
+      }
+    },
+    "Every %llds": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld초마다"
+          }
+        }
+      }
+    },
+    "Every shot is also kept in the ShutterLink gallery. When sending is on, the person holding the remote gets a copy of each photo they take.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "모든 사진은 ShutterLink 갤러리에도 보관됩니다. 보내기를 켜 두면 리모컨을 든 사람도 찍은 사진을 한 장씩 받아 갈 수 있습니다."
+          }
+        }
+      }
+    },
+    "Everyone, please look at the camera!": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "여러분, 카메라를 봐 주세요!"
+          }
+        }
+      }
+    },
+    "Exposure": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "노출"
+          }
+        }
+      }
+    },
+    "Filter": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "필터"
+          }
+        }
+      }
+    },
+    "Flash auto": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "플래시 자동"
+          }
+        }
+      }
+    },
+    "Flash light countdown": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "플래시 불빛 카운트다운"
+          }
+        }
+      }
+    },
+    "Flash off": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "플래시 끔"
+          }
+        }
+      }
+    },
+    "Flash on": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "플래시 켬"
+          }
+        }
+      }
+    },
+    "Gallery": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "갤러리"
+          }
+        }
+      }
+    },
+    "Grid": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "격자"
+          }
+        }
+      }
+    },
+    "Group shot": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "단체사진 연사"
+          }
+        }
+      }
+    },
+    "Group shot takes several photos and picks the one where everyone's eyes are open. The remote gets a copy to keep.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "단체사진 연사는 여러 장을 찍고 모두 눈을 뜬 사진을 골라 줍니다. 리모컨 쪽에도 사진이 전달돼요."
+          }
+        }
+      }
+    },
+    "Group shot · tap a frame to mark it best": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "단체사진 연사 · 사진을 눌러 베스트로 지정"
+          }
+        }
+      }
+    },
+    "Hands-free shutter": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "핸즈프리 셔터"
+          }
+        }
+      }
+    },
+    "Help": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "도움말"
+          }
+        }
+      }
+    },
+    "How to use ShutterLink": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ShutterLink 사용법"
+          }
+        }
+      }
+    },
+    "Interval": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "인터벌"
+          }
+        }
+      }
+    },
+    "Level": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "수평"
+          }
+        }
+      }
+    },
+    "Looking for camera %@…": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "카메라 %@ 찾는 중…"
+          }
+        }
+      }
+    },
+    "Mode": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "모드"
+          }
+        }
+      }
+    },
+    "Next": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "다음"
+          }
+        }
+      }
+    },
+    "No camera available on this device.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "이 기기에서 사용할 수 있는 카메라가 없습니다."
+          }
+        }
+      }
+    },
+    "No shots yet": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "아직 사진이 없습니다"
+          }
+        }
+      }
+    },
+    "Nobody blinks": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "눈 감은 사람 없이"
+          }
+        }
+      }
+    },
+    "OK": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "확인"
+          }
+        }
+      }
+    },
+    "Off": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "끔"
+          }
+        }
+      }
+    },
+    "Open gallery": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "갤러리 열기"
+          }
+        }
+      }
+    },
+    "Options": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "옵션"
+          }
+        }
+      }
+    },
+    "Or go hands-free": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "손 안 대고 찍기"
+          }
+        }
+      }
+    },
+    "Pairing code": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "페어링 코드"
+          }
+        }
+      }
+    },
+    "Pairing…": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "페어링 중…"
+          }
+        }
+      }
+    },
+    "Palm gesture": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "손바닥 제스처"
+          }
+        }
+      }
+    },
+    "People counter": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "인원 카운터"
+          }
+        }
+      }
+    },
+    "Photo": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "사진"
+          }
+        }
+      }
+    },
+    "Photos": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "사진"
+          }
+        }
+      }
+    },
+    "Photos and videos you take with ShutterLink appear here.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ShutterLink로 찍은 사진과 동영상이 여기에 표시됩니다."
+          }
+        }
+      }
+    },
+    "Photos from this session": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "이번에 찍은 사진"
+          }
+        }
+      }
+    },
+    "Place this iPhone on a tripod or lean it somewhere steady. Use the level and the people counter to frame everyone.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "이 iPhone을 삼각대에 올리거나 안정적인 곳에 세워 두세요. 수평계와 인원 카운터로 모두가 화면에 들어오게 맞출 수 있어요."
+          }
+        }
+      }
+    },
+    "Point the other iPhone's Camera at the QR code. The ShutterLink Remote App Clip opens without installing anything. Keep this app open while shooting.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "다른 iPhone의 카메라로 QR 코드를 비추세요. 설치 없이 ShutterLink 리모컨 App Clip이 열립니다. 촬영하는 동안 이 앱을 열어 두세요."
+          }
+        }
+      }
+    },
+    "Raise an open palm toward the camera to start the timer.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "카메라를 향해 손바닥을 펴서 들면 타이머가 시작됩니다."
+          }
+        }
+      }
+    },
+    "Raise your palm, clap, or let ShutterLink shoot when everyone smiles. A voice and light countdown tells the group when to pose.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "손바닥을 들거나 박수를 치거나, 모두 웃을 때 자동으로 찍게 하세요. 음성과 불빛 카운트다운이 포즈 잡을 타이밍을 알려 줍니다."
+          }
+        }
+      }
+    },
+    "Recording failed.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "녹화에 실패했습니다."
+          }
+        }
+      }
+    },
+    "Reset exposure": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "노출 초기화"
+          }
+        }
+      }
+    },
+    "Save or share this photo": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "이 사진 저장 또는 공유"
+          }
+        }
+      }
+    },
+    "Save or share your copy before closing the remote.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "리모컨을 닫기 전에 사진을 저장하거나 공유하세요."
+          }
+        }
+      }
+    },
+    "Save to Photos": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "사진 앱에 저장"
+          }
+        }
+      }
+    },
+    "Scan the QR code on the camera iPhone, or enter the 4-digit pairing code.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "카메라 iPhone의 QR 코드를 스캔하거나 4자리 페어링 코드를 입력하세요."
+          }
+        }
+      }
+    },
+    "Scan to control the camera: %@": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "스캔하면 카메라를 조종할 수 있어요: %@"
+          }
+        }
+      }
+    },
+    "Scan with another iPhone": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "다른 iPhone으로 스캔하세요"
+          }
+        }
+      }
+    },
+    "Select": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "선택"
+          }
+        }
+      }
+    },
+    "Send photos to the remote": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "리모컨으로 사진 보내기"
+          }
+        }
+      }
+    },
+    "Service error: %@": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "서비스 오류: %@"
+          }
+        }
+      }
+    },
+    "Set up the camera": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "카메라를 세워 두세요"
+          }
+        }
+      }
+    },
+    "Settings": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "설정"
+          }
+        }
+      }
+    },
+    "Share": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "공유"
+          }
+        }
+      }
+    },
+    "Share QR code": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "QR 코드 공유"
+          }
+        }
+      }
+    },
+    "Shoot only with the shutter button.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "셔터 버튼으로만 촬영합니다."
+          }
+        }
+      }
+    },
+    "Shoots automatically when everyone is smiling with eyes open.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "모두 눈을 뜨고 웃으면 자동으로 촬영합니다."
+          }
+        }
+      }
+    },
+    "Show pairing QR code": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "페어링 QR 코드 보기"
+          }
+        }
+      }
+    },
+    "ShutterLink": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ShutterLink"
+          }
+        }
+      }
+    },
+    "ShutterLink Remote": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ShutterLink 리모컨"
+          }
+        }
+      }
+    },
+    "ShutterLink photo": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ShutterLink 사진"
+          }
+        }
+      }
+    },
+    "Simple mode (big buttons)": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "간편 모드 (큰 버튼)"
+          }
+        }
+      }
+    },
+    "Single photo": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "한 장"
+          }
+        }
+      }
+    },
+    "Smile shutter": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "미소 셔터"
+          }
+        }
+      }
+    },
+    "Someone is at the edge of the frame": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "화면 가장자리에 걸린 사람이 있어요"
+          }
+        }
+      }
+    },
+    "Start interval shooting": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "인터벌 촬영 시작"
+          }
+        }
+      }
+    },
+    "Start recording": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "녹화 시작"
+          }
+        }
+      }
+    },
+    "Start shooting": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "촬영 시작"
+          }
+        }
+      }
+    },
+    "Starting Bluetooth…": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bluetooth 시작 중…"
+          }
+        }
+      }
+    },
+    "Stop interval shooting": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "인터벌 촬영 중지"
+          }
+        }
+      }
+    },
+    "Stop recording": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "녹화 중지"
+          }
+        }
+      }
+    },
+    "Switch camera": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "카메라 전환"
+          }
+        }
+      }
+    },
+    "Take photo": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "사진 찍기"
+          }
+        }
+      }
+    },
+    "Taking a photo in %lld seconds.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld초 후에 촬영합니다."
+          }
+        }
+      }
+    },
+    "Tap the QR button. Another iPhone scans it with the Camera app and becomes a remote in seconds, without installing anything.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "QR 버튼을 누르세요. 다른 iPhone이 카메라 앱으로 스캔하면 설치 없이 몇 초 만에 리모컨이 됩니다."
+          }
+        }
+      }
+    },
+    "Tap to focus": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "탭하여 초점 맞추기"
+          }
+        }
+      }
+    },
+    "The camera counts down out loud and blinks its light, so a group standing far away knows exactly when the photo is taken.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "카메라가 소리 내어 숫자를 세고 불빛을 깜빡여서, 멀리 서 있는 사람들도 언제 찍히는지 정확히 알 수 있어요."
+          }
+        }
+      }
+    },
+    "The pairing code was rejected. Scan the QR code again.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "페어링 코드가 거부되었습니다. QR 코드를 다시 스캔하세요."
+          }
+        }
+      }
+    },
+    "They stay in your Photos library if they were saved there.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "사진 앱에 저장된 사본은 그대로 남아 있습니다."
+          }
+        }
+      }
+    },
+    "This device doesn't support Bluetooth LE.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "이 기기는 Bluetooth LE를 지원하지 않습니다."
+          }
+        }
+      }
+    },
+    "This device isn't a ShutterLink camera.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ShutterLink 카메라가 아닌 기기입니다."
+          }
+        }
+      }
+    },
+    "Tilted %lld degrees": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld도 기울어짐"
+          }
+        }
+      }
+    },
+    "Timer": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "타이머"
+          }
+        }
+      }
+    },
+    "Try again": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "다시 시도"
+          }
+        }
+      }
+    },
+    "Turn on Bluetooth to connect to the camera.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "카메라에 연결하려면 Bluetooth를 켜세요."
+          }
+        }
+      }
+    },
+    "Version": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "버전"
+          }
+        }
+      }
+    },
+    "Video": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "동영상"
+          }
+        }
+      }
+    },
+    "Videos": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "동영상"
+          }
+        }
+      }
+    },
+    "Viewfinder": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "뷰파인더"
+          }
+        }
+      }
+    },
+    "Voice countdown": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "음성 카운트다운"
+          }
+        }
+      }
+    },
+    "Waiting for Bluetooth…": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bluetooth 기다리는 중…"
+          }
+        }
+      }
+    },
+    "Waiting for a remote": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "리모컨 연결 대기 중"
+          }
+        }
+      }
+    },
+    "Waiting for preview…": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "미리보기 기다리는 중…"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

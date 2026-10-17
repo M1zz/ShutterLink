@@ -24,6 +24,10 @@ final class AppModel: ObservableObject {
             DispatchQueue.main.async { remote?.sendPreviewFrame(jpeg) }
         }
 
+        camera.onReviewFrame = { [weak remote = self.remote] jpeg in
+            remote?.sendReviewFrame(jpeg)
+        }
+
         remote.$hasPreviewViewers
             .sink { [weak camera = self.camera] hasViewers in camera?.previewDemand = hasViewers }
             .store(in: &cancellables)
@@ -59,6 +63,20 @@ final class AppModel: ObservableObject {
             camera.setZoom(value)
         case .flipCamera:
             camera.flipCamera()
+        case .focus(let x, let y):
+            camera.focus(atImagePoint: x, y)
+        case .setExposure(let value):
+            camera.setExposure(value)
+        case .setFlash(let mode):
+            camera.setFlash(mode)
+        case .setBurst(let count):
+            camera.setBurst(count)
+        case .setAutoCapture(let mode):
+            camera.setAutoCapture(mode)
+        case .setInterval(let seconds):
+            camera.setInterval(seconds)
+        case .attention:
+            camera.attention()
         }
     }
 }

@@ -12,6 +12,9 @@ struct CameraPreview: UIViewRepresentable {
         view.previewLayer.videoGravity = .resizeAspect
         camera.attachPreviewLayer(view.previewLayer)
 
+        let tap = UITapGestureRecognizer(target: context.coordinator, action: #selector(Coordinator.handleTap(_:)))
+        view.addGestureRecognizer(tap)
+
         // Volume buttons, Camera Control and AirPods stem presses trigger the shutter.
         if #available(iOS 17.2, *) {
             let camera = self.camera
@@ -26,6 +29,24 @@ struct CameraPreview: UIViewRepresentable {
     }
 
     func updateUIView(_ uiView: PreviewView, context: Context) {}
+
+    func makeCoordinator() -> Coordinator {
+        Coordinator(camera: camera)
+    }
+
+    /// Tap to focus and expose.
+    final class Coordinator: NSObject {
+        let camera: CameraController
+
+        init(camera: CameraController) {
+            self.camera = camera
+        }
+
+        @objc func handleTap(_ recognizer: UITapGestureRecognizer) {
+            guard let view = recognizer.view else { return }
+            camera.focus(atLayerPoint: recognizer.location(in: view))
+        }
+    }
 }
 
 final class PreviewView: UIView {

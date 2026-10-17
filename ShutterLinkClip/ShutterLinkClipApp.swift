@@ -15,6 +15,9 @@ struct ShutterLinkClipApp: App {
                 .onOpenURL(perform: handle)
                 .onAppear {
                     UIApplication.shared.isIdleTimerDisabled = true
+                    #if DEBUG
+                    if DemoMode.isOn { remote.applyDemo() }
+                    #endif
                 }
         }
     }

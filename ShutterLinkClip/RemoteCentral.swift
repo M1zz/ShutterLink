@@ -17,6 +17,8 @@ final class RemoteCentral: NSObject, ObservableObject {
     @Published private(set) var phase: Phase = .idle
     @Published private(set) var status: RemoteStatus?
     @Published private(set) var previewImage: UIImage?
+    /// Photos the camera sent back after each shot, newest first.
+    @Published private(set) var reviews: [ReviewPhoto] = []
     @Published private(set) var code: String?
 
     private var central: CBCentralManager?
@@ -30,12 +32,13 @@ final class RemoteCentral: NSObject, ObservableObject {
     private var scanTimeout: DispatchWorkItem?
 
     private static let scanTimeoutSeconds: TimeInterval = 20
+    private static let maxReviews = 20
 
     // MARK: Public API (main thread)
 
     func connect(code newCode: String) {
         guard RemoteConfig.isValidCode(newCode) else {
-            phase = .failed("Enter the 4-digit code shown on the camera iPhone.")
+            phase = .failed(String(localized: "Enter the 4-digit code shown on the camera iPhone."))
             return
         }
         if code == newCode, phase != .idle, !isFailed { return }
@@ -76,6 +79,30 @@ final class RemoteCentral: NSObject, ObservableObject {
         peripheral.writeValue(data, for: characteristic, type: .withResponse)
     }
 
+    #if DEBUG
+    /// Screenshot mode: shows a connected remote with an illustrated preview.
+    @MainActor
+    func applyDemo() {
+        code = "4821"
+        phase = .connected
+        var demo = RemoteStatus()
+        demo.zoom = 1
+        demo.minZoom = 0.5
+        demo.maxZoom = 10
+        demo.burstCount = 5
+        demo.timerSeconds = 10
+        demo.autoCapture = .palm
+        demo.faces = 5
+        demo.tilt = 0
+        status = demo
+        previewImage = DemoMode.sceneImage(width: 600)
+        reviews = (0 ..< 3).map { index in
+            let image = DemoMode.sceneImage(width: 1024, variant: index * 2)
+            return ReviewPhoto(image: image, data: image.jpegData(compressionQuality: 0.8) ?? Data())
+        }
+    }
+    #endif
+
     // MARK: Private
 
     private var isFailed: Bool {
@@ -92,7 +119,7 @@ final class RemoteCentral: NSObject, ObservableObject {
         let timeout = DispatchWorkItem { [weak self] in
             guard let self, self.phase == .scanning else { return }
             self.central?.stopScan()
-            self.phase = .failed("Couldn't find the camera. Make sure ShutterLink is open on the camera iPhone and Bluetooth is on.")
+            self.phase = .failed(String(localized: "Couldn't find the camera. Make sure ShutterLink is open on the camera iPhone and Bluetooth is on."))
         }
         scanTimeout = timeout
         DispatchQueue.main.asyncAfter(deadline: .now() + Self.scanTimeoutSeconds, execute: timeout)
@@ -136,12 +163,12 @@ extension RemoteCentral: CBCentralManagerDelegate {
         case .poweredOn:
             if code != nil, peripheral == nil { startScan() }
         case .unauthorized:
-            phase = .failed("Allow Bluetooth access in Settings to control the camera.")
+            phase = .failed(String(localized: "Allow Bluetooth access in Settings to control the camera."))
         case .poweredOff:
             resetConnectionState()
-            phase = .failed("Turn on Bluetooth to connect to the camera.")
+            phase = .failed(String(localized: "Turn on Bluetooth to connect to the camera."))
         case .unsupported:
-            phase = .failed("This device doesn't support Bluetooth LE.")
+            phase = .failed(String(localized: "This device doesn't support Bluetooth LE."))
         default:
             break
         }
@@ -186,7 +213,7 @@ extension RemoteCentral: CBCentralManagerDelegate {
 extension RemoteCentral: CBPeripheralDelegate {
     func peripheral(_ peripheral: CBPeripheral, didDiscoverServices error: Error?) {
         guard let service = peripheral.services?.first(where: { $0.uuid == RemoteUUID.service }) else {
-            fail("This device isn't a ShutterLink camera.")
+            fail(String(localized: "This device isn't a ShutterLink camera."))
             return
         }
         peripheral.discoverCharacteristics([RemoteUUID.command, RemoteUUID.status, RemoteUUID.previewPSM],
@@ -205,7 +232,7 @@ extension RemoteCentral: CBPeripheralDelegate {
         guard let commandCharacteristic,
               let code,
               let hello = RemoteWire.encode(RemoteCommand.hello(code: code)) else {
-            fail("Couldn't pair with the camera.")
+            fail(String(localized: "Couldn't pair with the camera."))
             return
         }
         peripheral.writeValue(hello, for: commandCharacteristic, type: .withResponse)
@@ -214,7 +241,7 @@ extension RemoteCentral: CBPeripheralDelegate {
     func peripheral(_ peripheral: CBPeripheral, didWriteValueFor characteristic: CBCharacteristic, error: Error?) {
         guard !isAuthorized else { return } // later command acks don't need handling
         if error != nil {
-            fail("The pairing code was rejected. Scan the QR code again.")
+            fail(String(localized: "The pairing code was rejected. Scan the QR code again."))
             return
         }
         isAuthorized = true
@@ -244,7 +271,10 @@ extension RemoteCentral: CBPeripheralDelegate {
         guard let data = characteristic.value else { return }
         switch characteristic.uuid {
         case RemoteUUID.status:
-            if let decoded = RemoteWire.decode(RemoteStatus.self, from: data) {
+            if data == StatusMarker.readFull {
+                // Too big for a notification; fetch it with a (long) read.
+                peripheral.readValue(for: characteristic)
+            } else if let decoded = RemoteWire.decode(RemoteStatus.self, from: data) {
                 status = decoded
             }
         case RemoteUUID.previewPSM:
@@ -263,9 +293,15 @@ extension RemoteCentral: CBPeripheralDelegate {
             return
         }
         self.channel = channel
-        receiver = PreviewStreamReceiver(channel: channel, onFrame: { [weak self] data in
-            guard let image = UIImage(data: data) else { return }
-            self?.previewImage = image
+        receiver = PreviewStreamReceiver(channel: channel, onFrame: { [weak self] kind, data in
+            guard let self, let image = UIImage(data: data) else { return }
+            switch kind {
+            case .preview:
+                self.previewImage = image
+            case .review:
+                self.reviews.insert(ReviewPhoto(image: image, data: data), at: 0)
+                if self.reviews.count > Self.maxReviews { self.reviews.removeLast() }
+            }
         }, onClose: { [weak self, weak channel] in
             // Ignore late close callbacks from a previous connection.
             guard let self, let channel, self.channel === channel else { return }
@@ -280,4 +316,14 @@ extension RemoteCentral: CBPeripheralDelegate {
             }
         })
     }
+}
+
+/// A copy of a photo the camera just took, delivered to the remote so the person can keep it.
+struct ReviewPhoto: Identifiable, Equatable {
+    let id = UUID()
+    let date = Date()
+    let image: UIImage
+    let data: Data
+
+    static func == (lhs: ReviewPhoto, rhs: ReviewPhoto) -> Bool { lhs.id == rhs.id }
 }
