@@ -4,11 +4,16 @@ struct ContentView: View {
     @EnvironmentObject private var model: AppModel
 
     var body: some View {
-        CameraScreen(model: model, camera: model.camera, remote: model.remote)
+        CameraScreen(model: model, camera: model.camera, remote: model.remote,
+                     settings: model.camera.settings, shots: model.camera.shots)
             .onAppear {
                 // The camera sits on a tripod; never let the screen lock.
                 UIApplication.shared.isIdleTimerDisabled = true
-                model.start()
+            }
+            // Ask for camera access after the first-launch guide, not on top of it.
+            // (@Published emits its current value on subscribe, so this also covers later launches.)
+            .onReceive(model.camera.settings.$hasSeenOnboarding) { seen in
+                if seen, !CameraScreen.isDemo { model.start() }
             }
     }
 }
@@ -17,14 +22,18 @@ private struct CameraScreen: View {
     let model: AppModel
     @ObservedObject var camera: CameraController
     @ObservedObject var remote: RemotePeripheral
+    @ObservedObject var settings: AppSettings
+    @ObservedObject var shots: ShotStore
     @State private var showPairing = false
+    @State private var showSettings = false
+    @State private var showGallery = false
     @State private var flash = false
 
     var body: some View {
         ZStack {
             Color.black.ignoresSafeArea()
 
-            CameraPreview(camera: camera, showsGrid: camera.showsGrid)
+            preview
                 .overlay(alignment: .topLeading) {
                     if let point = camera.focusIndicator {
                         FocusReticle()
@@ -46,9 +55,10 @@ private struct CameraScreen: View {
                     .transition(.scale)
             }
 
-            VStack(spacing: 16) {
+            VStack(spacing: 12) {
                 topBar
                 CameraSettingsBar(status: camera.status, send: camera.handle)
+                overlays
                 Spacer()
                 ExposureControl(value: camera.exposureBias, send: camera.handle)
                 ZoomChips(current: camera.zoom, minZoom: camera.minZoom, maxZoom: camera.maxZoom) {
@@ -61,8 +71,21 @@ private struct CameraScreen: View {
             .padding(.vertical, 12)
         }
         .preferredColorScheme(.dark)
+        .animation(.easeInOut(duration: 0.2), value: camera.toast)
         .sheet(isPresented: $showPairing) {
             PairingSheet(url: model.invocationURL, code: model.sessionCode, remote: remote)
+        }
+        .sheet(isPresented: $showSettings) {
+            SettingsView(settings: settings)
+        }
+        .fullScreenCover(isPresented: $showGallery) {
+            GalleryView(store: shots)
+        }
+        .fullScreenCover(isPresented: Binding(
+            get: { !settings.hasSeenOnboarding },
+            set: { if !$0 { settings.hasSeenOnboarding = true } }
+        )) {
+            OnboardingView(startPage: Self.demoOnboardingPage) { settings.hasSeenOnboarding = true }
         }
         .alert("ShutterLink", isPresented: Binding(
             get: { camera.alertMessage != nil },
@@ -82,13 +105,81 @@ private struct CameraScreen: View {
             // Close the QR sheet automatically once a remote pairs.
             if newValue > oldValue { showPairing = false }
         }
+        .onAppear(perform: setUpDemo)
+    }
+
+    @ViewBuilder
+    private var preview: some View {
+        #if DEBUG
+        if DemoMode.isOn {
+            Image(uiImage: DemoMode.sceneImage())
+                .resizable()
+                .scaledToFit()
+                .overlay {
+                    if camera.showsGrid {
+                        GridLines().stroke(Color.white.opacity(0.45), lineWidth: 1)
+                    }
+                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+        } else {
+            CameraPreview(camera: camera, showsGrid: camera.showsGrid)
+        }
+        #else
+        CameraPreview(camera: camera, showsGrid: camera.showsGrid)
+        #endif
+    }
+
+    private var overlays: some View {
+        VStack(spacing: 8) {
+            if settings.showLevel {
+                LevelIndicator(tilt: camera.tilt)
+            }
+            if settings.showFaceCount {
+                SceneBadges(faces: camera.faces, edgeWarning: camera.edgeWarning, autoCapture: camera.autoCapture)
+            }
+            if let toast = camera.toast {
+                ToastView(message: toast)
+            }
+        }
+    }
+
+    static var isDemo: Bool {
+        #if DEBUG
+        return DemoMode.isOn
+        #else
+        return false
+        #endif
+    }
+
+    private static var demoOnboardingPage: Int {
+        #if DEBUG
+        if DemoMode.screen == "onboarding" { return 2 }
+        #endif
+        return 0
+    }
+
+    private func setUpDemo() {
+        #if DEBUG
+        guard let screen = DemoMode.screen else { return }
+        camera.applyDemoState(screen: screen)
+        remote.applyDemo(connected: screen == "pairing" ? 0 : 1)
+        switch screen {
+        case "pairing": showPairing = true
+        case "gallery":
+            camera.loadDemoShots()
+            showGallery = true
+        default: break
+        }
+        #endif
     }
 
     private var topBar: some View {
         HStack {
             Label(remoteText, systemImage: remote.connectedRemotes > 0
                   ? "iphone.radiowaves.left.and.right" : "dot.radiowaves.left.and.right")
-                .font(.footnote.weight(.semibold))
+                .font(.body.weight(.semibold))
+                .lineLimit(1)
+                .minimumScaleFactor(0.7)
                 .foregroundStyle(remote.connectedRemotes > 0 ? Color.green : Color.white)
                 .padding(.horizontal, 12)
                 .padding(.vertical, 8)
@@ -110,6 +201,17 @@ private struct CameraScreen: View {
             Spacer()
 
             Button {
+                showSettings = true
+            } label: {
+                Image(systemName: "gearshape.fill")
+                    .font(.title2)
+                    .foregroundStyle(.white)
+                    .frame(width: 44, height: 44)
+                    .background(Color.black.opacity(0.5), in: Circle())
+            }
+            .accessibilityLabel(String(localized: "Settings"))
+
+            Button {
                 showPairing = true
             } label: {
                 Image(systemName: "qrcode")
@@ -118,7 +220,7 @@ private struct CameraScreen: View {
                     .frame(width: 44, height: 44)
                     .background(Color.black.opacity(0.5), in: Circle())
             }
-            .accessibilityLabel("Show pairing QR code")
+            .accessibilityLabel(String(localized: "Show pairing QR code"))
         }
     }
 
@@ -135,7 +237,7 @@ private struct CameraScreen: View {
 
     private var bottomBar: some View {
         HStack {
-            LastCaptureButton(thumbnail: camera.lastThumbnail)
+            LastCaptureButton(thumbnail: camera.lastThumbnail) { showGallery = true }
             Spacer()
             ShutterButton(mode: camera.mode,
                           isRecording: camera.isBusy,
@@ -153,25 +255,24 @@ private struct CameraScreen: View {
                     .background(Color.black.opacity(0.4), in: Circle())
             }
             .disabled(camera.isBusy)
-            .accessibilityLabel("Switch camera")
+            .accessibilityLabel(String(localized: "Switch camera"))
         }
     }
 
     private var remoteText: String {
-        remote.connectedRemotes > 0 ? "Remote connected" : remote.bluetoothState
+        remote.connectedRemotes > 0
+            ? String(localized: "\(remote.connectedRemotes) remote connected")
+            : remote.bluetoothState
     }
 }
 
-/// Bottom-left thumbnail of the last capture, like the system Camera. Tapping opens Photos.
+/// Bottom-left thumbnail of the last capture, like the system Camera. Tapping opens the gallery.
 private struct LastCaptureButton: View {
     let thumbnail: UIImage?
-    @Environment(\.openURL) private var openURL
+    let action: () -> Void
 
     var body: some View {
-        Button {
-            // Opens the Photos app (there's no public API to jump into it otherwise).
-            if let url = URL(string: "photos-redirect://") { openURL(url) }
-        } label: {
+        Button(action: action) {
             ZStack {
                 if let thumbnail {
                     Image(uiImage: thumbnail)
@@ -192,6 +293,6 @@ private struct LastCaptureButton: View {
             .frame(width: 56, height: 56)
             .animation(.spring(duration: 0.35), value: thumbnail)
         }
-        .accessibilityLabel(thumbnail == nil ? "Open Photos" : "Last capture. Open Photos")
+        .accessibilityLabel(String(localized: "Open gallery"))
     }
 }

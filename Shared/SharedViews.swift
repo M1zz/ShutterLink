@@ -26,9 +26,11 @@ struct ShutterButton: View {
     }
 
     private var accessibilityTitle: String {
-        if isCountingDown { return "Cancel timer" }
-        if isRecording { return mode == .photo ? "Stop interval shooting" : "Stop recording" }
-        return mode == .photo ? "Take photo" : "Start recording"
+        if isCountingDown { return String(localized: "Cancel timer") }
+        if isRecording {
+            return mode == .photo ? String(localized: "Stop interval shooting") : String(localized: "Stop recording")
+        }
+        return mode == .photo ? String(localized: "Take photo") : String(localized: "Start recording")
     }
 }
 
@@ -50,9 +52,9 @@ struct ZoomChips: View {
                     onSelect(value)
                 } label: {
                     Text(isActive ? Format.zoom(current) : Format.zoom(value))
-                        .font(.footnote.weight(.semibold))
+                        .font(.body.weight(.semibold))
                         .foregroundStyle(isActive ? Color.yellow : Color.white)
-                        .frame(minWidth: 40, minHeight: 32)
+                        .frame(minWidth: 44, minHeight: 36)
                         .background(Color.black.opacity(0.45), in: Capsule())
                 }
                 .buttonStyle(.plain)
@@ -65,49 +67,51 @@ struct TimerButton: View {
     let seconds: Int
     let onChange: (Int) -> Void
 
-    static let options = [0, 3, 10]
-
     var body: some View {
-        Button {
-            let index = Self.options.firstIndex(of: seconds) ?? 0
-            onChange(Self.options[(index + 1) % Self.options.count])
-        } label: {
-            VStack(spacing: 2) {
-                Image(systemName: seconds == 0 ? "timer" : "timer.circle.fill")
-                    .font(.title2)
-                Text(seconds == 0 ? "Off" : "\(seconds)s")
-                    .font(.caption2.weight(.semibold))
+        Menu {
+            Picker(String(localized: "Timer"), selection: Binding(get: { seconds }, set: onChange)) {
+                ForEach(TimerOptions.all, id: \.self) { option in
+                    Text(Format.timer(option)).tag(option)
+                }
             }
-            .foregroundStyle(seconds == 0 ? Color.white : Color.yellow)
-            .frame(width: 56, height: 56)
+        } label: {
+            SettingLabel(systemImage: seconds == 0 ? "timer" : "timer.circle.fill",
+                         title: Format.timer(seconds), isOn: seconds > 0)
         }
-        .buttonStyle(.plain)
-        .accessibilityLabel("Timer \(seconds == 0 ? "off" : "\(seconds) seconds")")
+        .accessibilityLabel(String(localized: "Timer"))
+        .accessibilityValue(Format.timer(seconds))
     }
 }
 
 // MARK: - Camera settings
 
-/// Flash, timer, drive and grid. Shared by the camera screen and the remote,
+/// Flash, timer, drive, grid, hands-free shutter and the attention prompt. Shared by the camera screen and the remote,
 /// both of which drive the camera through `RemoteCommand`s.
 struct CameraSettingsBar: View {
     let status: RemoteStatus
     let send: (RemoteCommand) -> Void
 
     var body: some View {
-        HStack(spacing: 4) {
+        HStack(spacing: 2) {
             FlashButton(mode: status.flash, isAvailable: status.flashAvailable) {
                 send(.setFlash(status.flash.next))
             }
             TimerButton(seconds: status.timerSeconds) { send(.setTimer(seconds: $0)) }
             DriveMenu(burstCount: status.burstCount, intervalSeconds: status.intervalSeconds, send: send)
                 .disabled(status.isBusy || status.mode == .video)
-            SettingButton(systemImage: "grid", title: "Grid", isOn: status.showsGrid) {
+            SettingButton(systemImage: "grid", title: String(localized: "Grid"), isOn: status.showsGrid) {
                 send(.setGrid(!status.showsGrid))
             }
-            .accessibilityLabel("Grid \(status.showsGrid ? "on" : "off")")
+            .accessibilityLabel(String(localized: "Grid"))
+            .accessibilityValue(status.showsGrid ? String(localized: "On") : String(localized: "Off"))
+            AutoCaptureMenu(mode: status.autoCapture) { send(.setAutoCapture($0)) }
+                .disabled(status.isBusy)
+            SettingButton(systemImage: "megaphone.fill", title: String(localized: "Look"), isOn: false) {
+                send(.attention)
+            }
+            .accessibilityLabel(String(localized: "Ask everyone to look at the camera"))
         }
-        .padding(.horizontal, 8)
+        .padding(.horizontal, 6)
         .background(Color.black.opacity(0.45), in: Capsule())
     }
 }
@@ -124,10 +128,12 @@ struct SettingLabel: View {
                 .font(.title2)
                 .frame(height: 28)
             Text(title)
-                .font(.caption2.weight(.semibold))
+                .font(.body.weight(.semibold))
+                .lineLimit(1)
+                .minimumScaleFactor(0.6)
         }
         .foregroundStyle(isOn ? Color.yellow : Color.white)
-        .frame(width: 56, height: 56)
+        .frame(width: 50, height: 60)
     }
 }
 
@@ -151,11 +157,12 @@ struct FlashButton: View {
     let action: () -> Void
 
     var body: some View {
-        SettingButton(systemImage: icon, title: isAvailable ? title : "Off",
+        SettingButton(systemImage: icon, title: isAvailable ? title : String(localized: "Off"),
                       isOn: isAvailable && mode != .off, action: action)
             .disabled(!isAvailable)
             .opacity(isAvailable ? 1 : 0.4)
-            .accessibilityLabel(isAvailable ? "Flash \(title)" : "Flash unavailable")
+            .accessibilityLabel(String(localized: "Flash"))
+            .accessibilityValue(isAvailable ? title : String(localized: "Unavailable"))
     }
 
     private var icon: String {
@@ -169,9 +176,9 @@ struct FlashButton: View {
 
     private var title: String {
         switch mode {
-        case .off: return "Off"
-        case .auto: return "Auto"
-        case .on: return "On"
+        case .off: return String(localized: "Off")
+        case .auto: return String(localized: "Auto")
+        case .on: return String(localized: "On")
         }
     }
 }
@@ -190,7 +197,8 @@ struct DriveMenu: View {
                         send(.setInterval(seconds: 0))
                         send(.setBurst(count: count))
                     } label: {
-                        let title = count == 1 ? "Single photo" : "\(count) photos, 1s apart"
+                        let title = count == 1 ? String(localized: "Single photo")
+                            : String(localized: "\(count) photos, best one picked")
                         if intervalSeconds == 0, burstCount == count {
                             Label(title, systemImage: "checkmark")
                         } else {
@@ -204,7 +212,7 @@ struct DriveMenu: View {
                     Button {
                         send(.setInterval(seconds: seconds))
                     } label: {
-                        let title = "Every \(Format.interval(seconds))"
+                        let title = String(localized: "Every \(Format.interval(seconds))")
                         if intervalSeconds == seconds {
                             Label(title, systemImage: "checkmark")
                         } else {
@@ -216,7 +224,8 @@ struct DriveMenu: View {
         } label: {
             SettingLabel(systemImage: icon, title: title, isOn: intervalSeconds > 0 || burstCount > 1)
         }
-        .accessibilityLabel("Drive mode, \(accessibilityValue)")
+        .accessibilityLabel(String(localized: "Drive mode"))
+        .accessibilityValue(accessibilityValue)
     }
 
     private var icon: String {
@@ -226,12 +235,12 @@ struct DriveMenu: View {
 
     private var title: String {
         if intervalSeconds > 0 { return Format.interval(intervalSeconds) }
-        return burstCount > 1 ? "×\(burstCount)" : "Single"
+        return burstCount > 1 ? "×\(burstCount)" : String(localized: "Single")
     }
 
     private var accessibilityValue: String {
-        if intervalSeconds > 0 { return "interval every \(Format.interval(intervalSeconds))" }
-        return burstCount > 1 ? "\(burstCount) photo burst" : "single photo"
+        if intervalSeconds > 0 { return String(localized: "Every \(Format.interval(intervalSeconds))") }
+        return burstCount > 1 ? String(localized: "\(burstCount) photos, best one picked") : String(localized: "Single photo")
     }
 }
 
@@ -248,12 +257,14 @@ struct ExposureControl: View {
                 send(.setExposure(0))
             } label: {
                 Label(Format.exposure(value), systemImage: "plusminus.circle")
-                    .font(.footnote.weight(.semibold).monospacedDigit())
+                    .font(.body.weight(.semibold).monospacedDigit())
                     .foregroundStyle(abs(value) < 0.01 ? Color.white : Color.yellow)
-                    .frame(minWidth: 84, minHeight: 32)
+                    .frame(minWidth: 96, minHeight: 36)
             }
             .buttonStyle(.plain)
-            .accessibilityLabel("Exposure \(Format.exposure(value)). Reset")
+            .accessibilityLabel(String(localized: "Exposure"))
+            .accessibilityValue(Format.exposure(value))
+            .accessibilityHint(String(localized: "Reset exposure"))
             stepButton("plus", delta: ExposureOptions.step)
                 .disabled(value >= ExposureOptions.range.upperBound - 0.01)
         }
@@ -265,12 +276,12 @@ struct ExposureControl: View {
             send(.setExposure(value + delta))
         } label: {
             Image(systemName: systemImage)
-                .font(.footnote.weight(.bold))
+                .font(.body.weight(.bold))
                 .foregroundStyle(.white)
-                .frame(width: 40, height: 32)
+                .frame(width: 44, height: 36)
         }
         .buttonStyle(.plain)
-        .accessibilityLabel(delta < 0 ? "Darker" : "Brighter")
+        .accessibilityLabel(delta < 0 ? String(localized: "Darker") : String(localized: "Brighter"))
     }
 }
 
@@ -279,8 +290,9 @@ struct IntervalBadge: View {
     let nextShot: Int?
 
     var body: some View {
-        Label(nextShot.map { "Next shot in \($0)s" } ?? "Interval", systemImage: "clock.arrow.2.circlepath")
-            .font(.footnote.weight(.semibold).monospacedDigit())
+        Label(nextShot.map { String(localized: "Next shot in \($0)s") } ?? String(localized: "Interval"),
+              systemImage: "clock.arrow.2.circlepath")
+            .font(.body.weight(.semibold).monospacedDigit())
             .foregroundStyle(.black)
             .padding(.horizontal, 10)
             .padding(.vertical, 5)
@@ -316,6 +328,115 @@ struct FocusReticle: View {
             .onAppear {
                 withAnimation(.spring(duration: 0.3)) { settled = true }
             }
+            .allowsHitTesting(false)
+    }
+}
+
+/// Palm, smile or clap shutter.
+struct AutoCaptureMenu: View {
+    let mode: AutoCapture
+    let onChange: (AutoCapture) -> Void
+
+    var body: some View {
+        Menu {
+            Picker(String(localized: "Hands-free shutter"), selection: Binding(get: { mode }, set: onChange)) {
+                ForEach(AutoCapture.allCases) { option in
+                    Label(option.title, systemImage: option.symbol).tag(option)
+                }
+            }
+        } label: {
+            SettingLabel(systemImage: mode.symbol, title: shortTitle, isOn: mode != .off)
+        }
+        .accessibilityLabel(String(localized: "Hands-free shutter"))
+        .accessibilityValue(mode.title)
+    }
+
+    private var shortTitle: String {
+        switch mode {
+        case .off: return String(localized: "Hands")
+        case .palm: return String(localized: "Palm")
+        case .smile: return String(localized: "Smile")
+        case .clap: return String(localized: "Clap")
+        }
+    }
+}
+
+// MARK: - Group photo overlays
+
+/// A horizon line that turns green when the phone is level.
+struct LevelIndicator: View {
+    let tilt: Int?
+
+    var body: some View {
+        if let tilt {
+            let isLevel = abs(tilt) <= 1
+            HStack(spacing: 10) {
+                Capsule().frame(width: 36, height: 2)
+                Text(isLevel ? String(localized: "Level") : "\(tilt)°")
+                    .font(.body.weight(.semibold).monospacedDigit())
+                Capsule().frame(width: 36, height: 2)
+            }
+            .foregroundStyle(isLevel ? Color.green : Color.white)
+            .rotationEffect(.degrees(Double(-tilt)))
+            .padding(.horizontal, 10)
+            .padding(.vertical, 4)
+            .background(Color.black.opacity(0.35), in: Capsule())
+            .animation(.easeOut(duration: 0.15), value: tilt)
+            .allowsHitTesting(false)
+            .accessibilityLabel(isLevel ? String(localized: "Level") : String(localized: "Tilted \(tilt) degrees"))
+        }
+    }
+}
+
+/// People counter and "someone is cut off" warning for group photos.
+struct SceneBadges: View {
+    let faces: Int
+    let edgeWarning: Bool
+    let autoCapture: AutoCapture
+
+    var body: some View {
+        VStack(spacing: 6) {
+            HStack(spacing: 8) {
+                Label(String(localized: "\(faces) in frame"), systemImage: "person.2.fill")
+                    .font(.body.weight(.semibold))
+                    .padding(.horizontal, 12)
+                    .padding(.vertical, 6)
+                    .background(Color.black.opacity(0.5), in: Capsule())
+                if autoCapture != .off {
+                    Label(autoCapture.title, systemImage: autoCapture.symbol)
+                        .font(.body.weight(.semibold))
+                        .foregroundStyle(.yellow)
+                        .padding(.horizontal, 12)
+                        .padding(.vertical, 6)
+                        .background(Color.black.opacity(0.5), in: Capsule())
+                }
+            }
+            if edgeWarning {
+                Label(String(localized: "Someone is at the edge of the frame"), systemImage: "exclamationmark.triangle.fill")
+                    .font(.body.weight(.semibold))
+                    .foregroundStyle(.black)
+                    .padding(.horizontal, 12)
+                    .padding(.vertical, 6)
+                    .background(Color.yellow, in: Capsule())
+            }
+        }
+        .foregroundStyle(.white)
+        .allowsHitTesting(false)
+    }
+}
+
+struct ToastView: View {
+    let message: String
+
+    var body: some View {
+        Text(message)
+            .font(.body.weight(.semibold))
+            .multilineTextAlignment(.center)
+            .foregroundStyle(.white)
+            .padding(.horizontal, 16)
+            .padding(.vertical, 10)
+            .background(.ultraThinMaterial, in: Capsule())
+            .transition(.opacity.combined(with: .move(edge: .top)))
             .allowsHitTesting(false)
     }
 }

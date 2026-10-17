@@ -2,15 +2,16 @@ import CoreBluetooth
 import Foundation
 
 /// Camera side: pushes length-prefixed JPEG frames over an L2CAP channel.
-/// Holds at most one frame in flight; new frames are dropped while busy (latest-wins).
+/// Preview frames are latest-wins (dropped while busy); review frames are queued and always sent.
 final class PreviewStreamSender: NSObject, StreamDelegate {
     private let channel: CBL2CAPChannel
     private let onClose: () -> Void
     private var pending = Data()
+    private var queued: [Data] = []
     private(set) var isClosed = false
 
     var peerIdentifier: UUID { channel.peer.identifier }
-    var isIdle: Bool { pending.isEmpty && !isClosed }
+    var isIdle: Bool { pending.isEmpty && queued.isEmpty && !isClosed }
 
     init(channel: CBL2CAPChannel, onClose: @escaping () -> Void) {
         self.channel = channel
@@ -29,10 +30,18 @@ final class PreviewStreamSender: NSObject, StreamDelegate {
         flush()
     }
 
+    /// Queues a frame that must not be dropped (sent after the frame in flight).
+    func enqueue(_ framedData: Data) {
+        guard !isClosed else { return }
+        queued.append(framedData)
+        if pending.isEmpty { flush() }
+    }
+
     func close() {
         guard !isClosed else { return }
         isClosed = true
         pending.removeAll()
+        queued.removeAll()
         for stream in [channel.inputStream! as Stream, channel.outputStream! as Stream] {
             stream.delegate = nil
             stream.remove(from: .main, forMode: .default)
@@ -44,6 +53,7 @@ final class PreviewStreamSender: NSObject, StreamDelegate {
 
     private func flush() {
         guard let output = channel.outputStream else { return }
+        if pending.isEmpty, !queued.isEmpty { pending = queued.removeFirst() }
         while !pending.isEmpty, output.hasSpaceAvailable {
             let written = pending.withUnsafeBytes { raw -> Int in
                 guard let base = raw.bindMemory(to: UInt8.self).baseAddress else { return 0 }
@@ -55,6 +65,7 @@ final class PreviewStreamSender: NSObject, StreamDelegate {
             }
             if written == 0 { return }
             pending = Data(pending.dropFirst(written))
+            if pending.isEmpty, !queued.isEmpty { pending = queued.removeFirst() }
         }
     }
 
@@ -76,15 +87,16 @@ final class PreviewStreamSender: NSObject, StreamDelegate {
     }
 }
 
-/// Remote side: reassembles frames from the L2CAP channel and delivers the newest one.
+/// Remote side: reassembles frames from the L2CAP channel.
+/// Delivers the newest preview frame per read pass and every review frame.
 final class PreviewStreamReceiver: NSObject, StreamDelegate {
     private let channel: CBL2CAPChannel
-    private let onFrame: (Data) -> Void
+    private let onFrame: (StreamFrameKind, Data) -> Void
     private let onClose: () -> Void
     private var assembler = FrameAssembler()
     private var isClosed = false
 
-    init(channel: CBL2CAPChannel, onFrame: @escaping (Data) -> Void, onClose: @escaping () -> Void) {
+    init(channel: CBL2CAPChannel, onFrame: @escaping (StreamFrameKind, Data) -> Void, onClose: @escaping () -> Void) {
         self.channel = channel
         self.onFrame = onFrame
         self.onClose = onClose
@@ -126,10 +138,14 @@ final class PreviewStreamReceiver: NSObject, StreamDelegate {
         while input.hasBytesAvailable {
             let count = input.read(&buffer, maxLength: buffer.count)
             if count <= 0 { break }
-            if let frame = assembler.append(Data(buffer[0 ..< count])).last {
-                latest = frame
+            for frame in assembler.append(Data(buffer[0 ..< count])) {
+                guard let (kind, jpeg) = FrameAssembler.split(frame) else { continue }
+                switch kind {
+                case .preview: latest = jpeg
+                case .review: onFrame(.review, jpeg)
+                }
             }
         }
-        if let latest { onFrame(latest) }
+        if let latest { onFrame(.preview, latest) }
     }
 }

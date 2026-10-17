@@ -51,7 +51,7 @@ enum CaptureMode: String, Codable, CaseIterable, Identifiable {
     case video
 
     var id: String { rawValue }
-    var title: String { self == .photo ? "Photo" : "Video" }
+    var title: String { self == .photo ? String(localized: "Photo") : String(localized: "Video") }
 }
 
 enum CameraPosition: String, Codable {
@@ -68,6 +68,51 @@ enum FlashMode: String, Codable, CaseIterable {
         let all = Self.allCases
         return all[(all.firstIndex(of: self)! + 1) % all.count]
     }
+}
+
+/// Hands-free triggers evaluated on the camera iPhone.
+enum AutoCapture: String, Codable, CaseIterable, Identifiable {
+    case off
+    /// Raise an open palm toward the camera.
+    case palm
+    /// Fires when every face in the frame is smiling with eyes open.
+    case smile
+    /// Fires on a loud clap.
+    case clap
+
+    var id: String { rawValue }
+
+    var symbol: String {
+        switch self {
+        case .off: return "hand.raised.slash"
+        case .palm: return "hand.raised.fill"
+        case .smile: return "face.smiling.inverse"
+        case .clap: return "hands.clap.fill"
+        }
+    }
+
+    var title: String {
+        switch self {
+        case .off: return String(localized: "Auto capture off")
+        case .palm: return String(localized: "Palm gesture")
+        case .smile: return String(localized: "Smile shutter")
+        case .clap: return String(localized: "Clap shutter")
+        }
+    }
+
+    var hint: String {
+        switch self {
+        case .off: return String(localized: "Shoot only with the shutter button.")
+        case .palm: return String(localized: "Raise an open palm toward the camera to start the timer.")
+        case .smile: return String(localized: "Shoots automatically when everyone is smiling with eyes open.")
+        case .clap: return String(localized: "Clap loudly once to start the timer.")
+        }
+    }
+}
+
+enum TimerOptions {
+    /// Long timers give a large group (or someone who walks slowly) time to get into place.
+    static let all = [0, 3, 5, 10, 20, 30]
 }
 
 /// How many photos one shutter press takes.
@@ -98,9 +143,13 @@ enum RemoteCommand: Codable, Equatable {
     case setGrid(Bool)
     case setBurst(count: Int)
     case setInterval(seconds: Int)
+    case setAutoCapture(AutoCapture)
+    /// Plays a voice prompt on the camera iPhone so the group looks at the lens.
+    case attention
 }
 
-/// Kept deliberately compact (short coding keys) so it fits in a single BLE notification.
+/// Kept deliberately compact (short coding keys). If it ever outgrows a single BLE
+/// notification, the camera notifies `StatusMarker.readFull` and the remote reads the full value.
 struct RemoteStatus: Codable, Equatable {
     var mode: CaptureMode = .photo
     var isRecording = false
@@ -123,6 +172,13 @@ struct RemoteStatus: Codable, Equatable {
     var isIntervalRunning = false
     /// Seconds until the next interval shot while an interval run is active.
     var nextIntervalShot: Int?
+    var autoCapture: AutoCapture = .off
+    /// Faces currently detected in the frame.
+    var faces = 0
+    /// A face is touching the edge of the frame (someone may be cut off).
+    var edgeWarning = false
+    /// Deviation from level in whole degrees; nil when the phone is lying flat.
+    var tilt: Int?
 
     /// Recording or running an interval — mode, camera and drive changes are locked.
     var isBusy: Bool { isRecording || isIntervalRunning }
@@ -146,6 +202,10 @@ struct RemoteStatus: Codable, Equatable {
         case intervalSeconds = "i"
         case isIntervalRunning = "ir"
         case nextIntervalShot = "nx"
+        case autoCapture = "a"
+        case faces = "fc"
+        case edgeWarning = "ew"
+        case tilt = "l"
     }
 }
 
@@ -161,6 +221,14 @@ enum RemoteWire {
 
 // MARK: - Preview stream framing
 
+/// Payload kinds on the preview channel. The first payload byte carries the kind.
+enum StreamFrameKind: UInt8 {
+    /// Low-resolution live view, dropped when the link is busy.
+    case preview = 0
+    /// Copy of a photo that was just saved, always delivered.
+    case review = 1
+}
+
 /// Frames on the L2CAP preview channel: [UInt32 big-endian length][JPEG bytes].
 struct FrameAssembler {
     static let maxFrameSize = 2_000_000
@@ -172,6 +240,17 @@ struct FrameAssembler {
         var data = withUnsafeBytes(of: &length) { Data($0) }
         data.append(payload)
         return data
+    }
+
+    static func frame(kind: StreamFrameKind, jpeg: Data) -> Data {
+        var payload = Data([kind.rawValue])
+        payload.append(jpeg)
+        return frame(payload)
+    }
+
+    static func split(_ payload: Data) -> (StreamFrameKind, Data)? {
+        guard let first = payload.first, let kind = StreamFrameKind(rawValue: first) else { return nil }
+        return (kind, Data(payload.dropFirst()))
     }
 
     /// Appends received bytes and returns every complete frame.
@@ -199,13 +278,22 @@ extension Double {
     var rounded2: Double { (self * 100).rounded() / 100 }
 }
 
+enum StatusMarker {
+    /// Sent instead of the status when it doesn't fit in one notification; the remote then reads it.
+    static let readFull = Data([0x21])
+}
+
 enum Format {
     static func duration(_ seconds: Int) -> String {
         String(format: "%02d:%02d", seconds / 60, seconds % 60)
     }
 
     static func interval(_ seconds: Int) -> String {
-        seconds >= 60 && seconds % 60 == 0 ? "\(seconds / 60)m" : "\(seconds)s"
+        seconds >= 60 && seconds % 60 == 0 ? String(localized: "\(seconds / 60)m") : String(localized: "\(seconds)s")
+    }
+
+    static func timer(_ seconds: Int) -> String {
+        seconds == 0 ? String(localized: "Off") : String(localized: "\(seconds)s")
     }
 
     static func exposure(_ value: Double) -> String {

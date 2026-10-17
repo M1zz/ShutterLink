@@ -177,6 +177,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ko,
 				Base,
 			);
 			mainGroup = AA0000000000000000000002;
@@ -341,7 +342,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = ShutterLink;
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "ShutterLink uses Bluetooth so a nearby iPhone can act as a remote shutter.";
 				INFOPLIST_KEY_NSCameraUsageDescription = "ShutterLink uses the camera to take photos and videos.";
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "ShutterLink records audio with your videos.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "ShutterLink records audio with your videos and listens for a clap when Clap shutter is on.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "ShutterLink saves your photos and videos to your library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -376,7 +377,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = ShutterLink;
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "ShutterLink uses Bluetooth so a nearby iPhone can act as a remote shutter.";
 				INFOPLIST_KEY_NSCameraUsageDescription = "ShutterLink uses the camera to take photos and videos.";
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "ShutterLink records audio with your videos.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "ShutterLink records audio with your videos and listens for a clap when Clap shutter is on.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "ShutterLink saves your photos and videos to your library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -411,6 +412,7 @@
 				INFOPLIST_FILE = "Config/ShutterLinkClip-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "ShutterLink Remote";
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "ShutterLink Remote uses Bluetooth to control the camera iPhone nearby.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "ShutterLink Remote saves the photos you took to your library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
@@ -444,6 +446,7 @@
 				INFOPLIST_FILE = "Config/ShutterLinkClip-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "ShutterLink Remote";
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "ShutterLink Remote uses Bluetooth to control the camera iPhone nearby.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "ShutterLink Remote saves the photos you took to your library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;

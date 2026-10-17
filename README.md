@@ -13,6 +13,21 @@
 └──────────────────────────────────────────────────────┘        └───────────────────────────────────────┘
 ```
 
+## 단체사진 특화 기능
+
+| 기능 | 카메라 폰 | 리모컨(App Clip) |
+|---|---|---|
+| 연속 촬영(3/5장) 후 베스트샷 자동 선택 (눈 뜸·미소 점수) | O | 설정·결과 수신 |
+| 핸즈프리 셔터: 손바닥 제스처(Vision 손 포즈) / 미소 셔터 / 박수 셔터 | O | O |
+| 인원 카운터 + 화면 가장자리 잘림 경고, 수평계 | O | O |
+| 음성 카운트다운 + 플래시 불빛 깜빡임 카운트다운 | O | 손 진동 카운트다운 |
+| "카메라 봐 주세요" 음성 안내 | O | O |
+| 타이머 0/3/5/10/20/30초 | O | O |
+| 앱 내 갤러리 (베스트샷 필터, 연사 중 베스트 재지정, AirDrop 공유, 삭제) | O | |
+| 찍힌 사진 1024px 사본을 리모컨으로 전송 → 리모컨에서 저장/공유 | | O |
+| 간편 모드(큰 버튼) | | O |
+| 온보딩, 설정, QR 공유, 한국어/영어 String Catalog | O | O |
+
 ## 구성
 
 | 폴더 | 내용 |
@@ -77,3 +92,13 @@ App Store Connect 에서 사람이 할 일:
 - BLE 미리보기는 저해상도입니다 → 같은 Wi-Fi/핫스팟이면 `Network` 프레임워크로 IP 직결 고화질 미리보기 추가
   (QR에 `ip:port` 포함; App Clip의 로컬 네트워크 권한 동작은 실기기 검증 필요)
 - 프레임레이트/해상도 선택, 리모컨으로 사진 원본 전송은 미구현
+
+## 스크린샷 다시 만들기
+
+시뮬레이터에는 카메라·Bluetooth가 없어서 Debug 빌드에 스크린샷 모드가 있습니다 (`Shared/DemoMode.swift`, Release에는 포함 안 됨).
+`-screenshots main|countdown|gallery|pairing|onboarding` (카메라 앱), `-screenshots remote|reviews|simple` (App Clip).
+
+```
+scripts/screens/capture_simulator.sh          # 실제 화면 캡처 (부모 앱/App Clip 순서 처리 포함)
+python3 scripts/screens/compose_simulator.py  # 문구 합성 → docs/screenshots/marketing/{ko,en}
+```

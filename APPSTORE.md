@@ -4,8 +4,9 @@ DeployBar 가 이 파일을 읽어 App Store Connect 의 언어별 칸에 올린
 적힌 언어·칸만 건드리고, 적지 않은 칸은 그대로 둔다.
 글자 수 한도: 이름·부제 30, 키워드 100(쉼표 뒤 공백 없음), 프로모션 텍스트 170, 설명 4000.
 
-스크린샷: `docs/screenshots/marketing/{ko,en}/` (원본 화면은 `scripts/screens/render_screens.py`,
-문구는 `scripts/screens/make_marketing_screenshots.py`).
+스크린샷: `docs/screenshots/marketing/{ko,en}/` — 실제 앱 화면을 시뮬레이터에서 찍는다
+(`scripts/screens/capture_simulator.sh` → `scripts/screens/compose_simulator.py`, 문구도 compose 쪽에 있음).
+예전 HTML 재현 방식(`render_screens.py`, `make_marketing_screenshots.py`)은 지금 UI와 맞지 않는다.
 
 ## ko
 

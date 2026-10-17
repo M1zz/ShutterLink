@@ -24,6 +24,10 @@ final class AppModel: ObservableObject {
             DispatchQueue.main.async { remote?.sendPreviewFrame(jpeg) }
         }
 
+        camera.onReviewFrame = { [weak remote = self.remote] jpeg in
+            remote?.sendReviewFrame(jpeg)
+        }
+
         remote.$hasPreviewViewers
             .sink { [weak camera = self.camera] hasViewers in camera?.previewDemand = hasViewers }
             .store(in: &cancellables)

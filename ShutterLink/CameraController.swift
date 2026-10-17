@@ -32,12 +32,22 @@ final class CameraController: NSObject, ObservableObject {
     /// Thumbnail of the last photo/video saved this session. Built from our own capture data,
     /// since the app only has add-only Photos access and can't read the library.
     @Published private(set) var lastThumbnail: UIImage?
+    @Published private(set) var autoCapture: AutoCapture = .off
+    @Published private(set) var faces = 0
+    @Published private(set) var edgeWarning = false
+    @Published private(set) var tilt: Int?
+    /// Short message shown over the viewfinder (e.g. "Best shot picked").
+    @Published private(set) var toast: String?
     @Published var alertMessage: String?
 
     let session = AVCaptureSession()
+    let shots = ShotStore()
+    let settings = AppSettings.shared
 
     /// Called on the data queue with a small JPEG whenever `previewDemand` is true.
     var onPreviewFrame: ((Data) -> Void)?
+    /// Called on main with a review-size JPEG of each photo the remote should get a copy of.
+    var onReviewFrame: ((Data) -> Void)?
     /// Called on main when the preview's rotation changes, so overlays tied to the video rect can relayout.
     var onPreviewGeometryChange: (() -> Void)?
 
@@ -64,7 +74,11 @@ final class CameraController: NSObject, ObservableObject {
                      burstCount: burstCount,
                      intervalSeconds: intervalSeconds,
                      isIntervalRunning: isIntervalRunning,
-                     nextIntervalShot: nextIntervalShot)
+                     nextIntervalShot: nextIntervalShot,
+                     autoCapture: autoCapture,
+                     faces: faces,
+                     edgeWarning: edgeWarning,
+                     tilt: tilt)
     }
 
     var isBusy: Bool { isRecording || isIntervalRunning }
@@ -79,6 +93,19 @@ final class CameraController: NSObject, ObservableObject {
     private let ciContext = CIContext()
     private let demandLock = NSLock()
     private var _previewDemand = false
+    private let analyzer = SceneAnalyzer()
+    private let clapDetector = ClapDetector()
+    private let levelMonitor = LevelMonitor()
+    private let voice = VoicePrompter()
+    /// Read on the data queue to decide which detectors to run.
+    private var detectionMode: AutoCapture {
+        get { demandLock.withLock { _detectionMode } }
+        set { demandLock.withLock { _detectionMode = newValue } }
+    }
+    private var _detectionMode: AutoCapture = .off
+    /// Photo settings id -> burst id, read from the photo delegate.
+    private let burstLock = NSLock()
+    private var burstByPhotoID: [Int64: UUID] = [:]
 
     // sessionQueue
     private var videoInput: AVCaptureDeviceInput?
@@ -99,18 +126,43 @@ final class CameraController: NSObject, ObservableObject {
     private var burstTimer: Timer?
     private var intervalTimer: Timer?
     private var focusIndicatorHide: DispatchWorkItem?
+    private var toastHide: DispatchWorkItem?
+    /// The burst being shot right now, and photos still expected for each burst.
+    private var activeBurstID: UUID?
+    private var pendingBursts: [UUID: (expected: Int, received: [(Shot, Data)])] = [:]
+    /// Consecutive analyzer passes with the trigger condition, and when the last auto shot fired.
+    private var triggerStreak = 0
+    private var lastAutoTrigger: Date = .distantPast
+    /// Earliest time a hands-free trigger may fire again (keeps the shutter sound from re-triggering a clap).
+    private var autoTriggerQuietUntil: Date = .distantPast
+    /// Smile shutter re-arms only after someone stops smiling, so it doesn't fire continuously.
+    private var smileArmed = true
 
     private static let previewLongEdge: CGFloat = 400
     private static let previewFPS: Double = 12
     private static let thumbnailLongEdge: CGFloat = 180
+    private static let reviewLongEdge = 1024
+    private static let autoTriggerCooldown: TimeInterval = 4
+    /// Hands-free triggers need time for the person to lower their hand / settle.
+    private static let minimumAutoTimer = 3
+
+    override init() {
+        super.init()
+        analyzer.onResult = { [weak self] result in self?.handleAnalysis(result) }
+        clapDetector.onClap = { [weak self] in
+            DispatchQueue.main.async { self?.autoTrigger() }
+        }
+        levelMonitor.onChange = { [weak self] value in self?.tilt = value }
+    }
 
     // MARK: Lifecycle
 
     func start() {
+        levelMonitor.start()
         Task {
             guard await AVCaptureDevice.requestAccess(for: .video) else {
                 await MainActor.run {
-                    self.alertMessage = "Camera access is required. Enable it in Settings > ShutterLink."
+                    self.alertMessage = String(localized: "Camera access is required. Enable it in Settings > ShutterLink.")
                 }
                 return
             }
@@ -160,6 +212,10 @@ final class CameraController: NSObject, ObservableObject {
             setBurst(count)
         case .setInterval(let seconds):
             setInterval(seconds)
+        case .setAutoCapture(let mode):
+            setAutoCapture(mode)
+        case .attention:
+            attention()
         }
     }
 
@@ -181,11 +237,16 @@ final class CameraController: NSObject, ObservableObject {
             stopBurst()
             return
         }
-        guard timerSeconds > 0 else {
+        startCountdown(seconds: timerSeconds)
+    }
+
+    private func startCountdown(seconds: Int) {
+        guard seconds > 0 else {
             fire()
             return
         }
-        countdown = timerSeconds
+        countdown = seconds
+        announce(seconds, isStart: true)
         countdownTimer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { [weak self] timer in
             guard let self, let remaining = self.countdown else {
                 timer.invalidate()
@@ -198,8 +259,39 @@ final class CameraController: NSObject, ObservableObject {
                 self.fire()
             } else {
                 self.countdown = remaining - 1
+                self.announce(remaining - 1)
             }
         }
+    }
+
+    /// Voice and torch cues for each countdown second, so people far from the screen can follow it.
+    private func announce(_ remaining: Int, isStart: Bool = false) {
+        if settings.voiceCountdown {
+            if remaining <= 5 {
+                voice.speakCount(remaining)
+            } else if isStart {
+                voice.speakStarting(seconds: remaining)
+            }
+        }
+        if settings.flashCountdown {
+            pulseTorch(times: remaining <= 2 ? 2 : 1)
+        }
+    }
+
+    /// Plays a spoken prompt so the group looks at the lens.
+    func attention() {
+        voice.speakAttention()
+        if settings.flashCountdown { pulseTorch(times: 3) }
+    }
+
+    func setAutoCapture(_ mode: AutoCapture) {
+        autoCapture = mode
+        detectionMode = mode
+        triggerStreak = 0
+        if mode == .clap, !hasAudio {
+            alertMessage = String(localized: "Clap shutter needs microphone access. Enable it in Settings > ShutterLink.")
+        }
+        showToast(mode.hint)
     }
 
     func setMode(_ newMode: CaptureMode) {
@@ -222,7 +314,7 @@ final class CameraController: NSObject, ObservableObject {
     }
 
     func setTimer(_ seconds: Int) {
-        timerSeconds = min(max(seconds, 0), 30)
+        timerSeconds = min(max(seconds, 0), TimerOptions.all.last ?? 30)
     }
 
     func setZoom(_ value: Double) {
@@ -377,6 +469,7 @@ final class CameraController: NSObject, ObservableObject {
     // MARK: Session configuration (sessionQueue)
 
     private func configureSession(includeAudio: Bool) {
+        configureAudioSession(recording: includeAudio)
         session.beginConfiguration()
         session.sessionPreset = .photo
 
@@ -384,7 +477,7 @@ final class CameraController: NSObject, ObservableObject {
               let input = try? AVCaptureDeviceInput(device: device),
               session.canAddInput(input) else {
             session.commitConfiguration()
-            DispatchQueue.main.async { self.alertMessage = "No camera available on this device." }
+            DispatchQueue.main.async { self.alertMessage = String(localized: "No camera available on this device.") }
             return
         }
         session.addInput(input)
@@ -424,6 +517,23 @@ final class CameraController: NSObject, ObservableObject {
 
         configurePhotoOutput(for: device)
         applyDeviceDefaults(device)
+    }
+
+    /// Route the voice countdown to the loud speaker (not the earpiece) and play it even in silent mode.
+    private func configureAudioSession(recording: Bool) {
+        session.automaticallyConfiguresApplicationAudioSession = false
+        let audioSession = AVAudioSession.sharedInstance()
+        do {
+            if recording {
+                try audioSession.setCategory(.playAndRecord, mode: .videoRecording,
+                                             options: [.defaultToSpeaker, .allowBluetoothA2DP])
+            } else {
+                try audioSession.setCategory(.playback, mode: .default, options: [.mixWithOthers])
+            }
+            try audioSession.setActive(true)
+        } catch {
+            print("Audio session failed: \(error)")
+        }
     }
 
     private func configurePhotoOutput(for device: AVCaptureDevice) {
@@ -539,6 +649,8 @@ final class CameraController: NSObject, ObservableObject {
     // MARK: Capture
 
     private func fire() {
+        let busyFor = mode == .photo ? Double(burstCount) * DriveOptions.burstSpacing : 0
+        autoTriggerQuietUntil = Date().addingTimeInterval(2.5 + busyFor)
         switch mode {
         case .photo where intervalSeconds > 0: startInterval()
         case .photo: startBurst()
@@ -546,10 +658,17 @@ final class CameraController: NSObject, ObservableObject {
         }
     }
 
+    /// Bursts are scored afterwards; the frame with open eyes and smiles is marked best.
     private func startBurst() {
+        guard burstCount > 1 else {
+            capturePhoto()
+            return
+        }
+        let id = UUID()
+        activeBurstID = id
+        pendingBursts[id] = (0, [])
         capturePhoto()
         var remaining = burstCount - 1
-        guard remaining > 0 else { return }
         burstTimer = Timer.scheduledTimer(withTimeInterval: DriveOptions.burstSpacing, repeats: true) { [weak self] timer in
             guard let self else {
                 timer.invalidate()
@@ -564,6 +683,11 @@ final class CameraController: NSObject, ObservableObject {
     private func stopBurst() {
         burstTimer?.invalidate()
         burstTimer = nil
+        if let id = activeBurstID {
+            // A cancelled burst still picks the best of what it took.
+            activeBurstID = nil
+            finishBurstIfComplete(id)
+        }
     }
 
     private func startInterval() {
@@ -595,6 +719,8 @@ final class CameraController: NSObject, ObservableObject {
     }
 
     private func capturePhoto() {
+        let burstID = activeBurstID
+        if let burstID { pendingBursts[burstID]?.expected += 1 }
         let angle = rotationCoordinator?.videoRotationAngleForHorizonLevelCapture
         let flashMode: AVCaptureDevice.FlashMode
         switch flash {
@@ -618,6 +744,9 @@ final class CameraController: NSObject, ObservableObject {
             settings.photoQualityPrioritization = .balanced
             if self.photoOutput.supportedFlashModes.contains(flashMode) {
                 settings.flashMode = flashMode
+            }
+            if let burstID {
+                self.burstLock.withLock { self.burstByPhotoID[settings.uniqueID] = burstID }
             }
             self.photoOutput.capturePhoto(with: settings, delegate: self)
         }
@@ -644,7 +773,7 @@ final class CameraController: NSObject, ObservableObject {
                     self.recorder = try MovieRecorder(url: url, audioSettings: audioSettings)
                 } catch {
                     DispatchQueue.main.async {
-                        self.alertMessage = "Couldn't start recording: \(error.localizedDescription)"
+                        self.alertMessage = String(localized: "Couldn't start recording: \(error.localizedDescription)")
                         self.finishRecordingUI()
                     }
                 }
@@ -667,16 +796,22 @@ final class CameraController: NSObject, ObservableObject {
                 recorder.finish { [weak self] url in
                     guard let self else { return }
                     guard let url else {
-                        DispatchQueue.main.async { self.alertMessage = "Recording failed." }
+                        DispatchQueue.main.async { self.alertMessage = String(localized: "Recording failed.") }
                         return
                     }
                     Task {
-                        // Grab the thumbnail before the save's cleanup deletes the file.
+                        // Grab the thumbnail before the file moves into the gallery.
                         let thumbnail = await Self.videoThumbnail(url: url)
+                        let store = self.shots
+                        guard self.settings.saveToPhotos else {
+                            store.addVideo(movingFrom: url)
+                            await MainActor.run { self.didSave(thumbnail: thumbnail) }
+                            return
+                        }
                         self.saveToLibrary({ request in
                             request.addResource(with: .video, fileURL: url, options: nil)
                         }, thumbnail: thumbnail, cleanup: {
-                            try? FileManager.default.removeItem(at: url)
+                            store.addVideo(movingFrom: url)
                         })
                     }
                 }
@@ -699,13 +834,18 @@ final class CameraController: NSObject, ObservableObject {
             cleanup?()
             DispatchQueue.main.async {
                 if success {
-                    self.captureCount += 1
-                    if let thumbnail { self.lastThumbnail = thumbnail }
+                    self.didSave(thumbnail: thumbnail)
                 } else {
-                    self.alertMessage = "Couldn't save to Photos. \(error?.localizedDescription ?? "Check Photos access in Settings.")"
+                    let reason = error?.localizedDescription ?? String(localized: "Check Photos access in Settings.")
+                    self.alertMessage = String(localized: "Couldn't save to Photos. \(reason)")
                 }
             }
         }
+    }
+
+    private func didSave(thumbnail: UIImage?) {
+        captureCount += 1
+        if let thumbnail { lastThumbnail = thumbnail }
     }
 
     // MARK: Thumbnails
@@ -755,14 +895,199 @@ final class CameraController: NSObject, ObservableObject {
 
 extension CameraController: AVCapturePhotoCaptureDelegate {
     func photoOutput(_ output: AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVCapturePhoto, error: Error?) {
+        let burstID = burstLock.withLock { burstByPhotoID.removeValue(forKey: photo.resolvedSettings.uniqueID) }
         if let error {
-            DispatchQueue.main.async { self.alertMessage = "Capture failed: \(error.localizedDescription)" }
+            DispatchQueue.main.async {
+                self.alertMessage = String(localized: "Capture failed: \(error.localizedDescription)")
+                if let burstID { self.burstPhotoFailed(burstID) }
+            }
             return
         }
         guard let data = photo.fileDataRepresentation() else { return }
-        saveToLibrary({ request in
-            request.addResource(with: .photo, data: data, options: nil)
-        }, thumbnail: Self.photoThumbnail(data: data))
+        let thumbnail = Self.photoThumbnail(data: data)
+        DispatchQueue.main.async { self.handleCapturedPhoto(data, thumbnail: thumbnail, burstID: burstID) }
+    }
+}
+
+#if DEBUG
+// MARK: - Screenshot mode
+
+extension CameraController {
+    @MainActor
+    func applyDemoState(screen: String) {
+        faces = 5
+        tilt = 0
+        zoom = 1
+        minZoom = 0.5
+        maxZoom = 10
+        flashAvailable = true
+        burstCount = 5
+        timerSeconds = 10
+        autoCapture = .palm
+        lastThumbnail = DemoMode.sceneImage(width: 180)
+        switch screen {
+        case "countdown":
+            countdown = 3
+        case "main":
+            showsGrid = true
+            toast = String(localized: "Best shot picked from \(burstCount) photos")
+        default:
+            break
+        }
+    }
+
+    /// Fills the gallery with illustrated group shots.
+    @MainActor
+    func loadDemoShots() {
+        shots.deleteAll()
+        for burst in 0 ..< 3 {
+            let burstID = UUID()
+            for variant in [burst * 2 + 1, burst * 2, burst * 2 + 1] {
+                let data = DemoMode.sceneJPEG(variant: variant)
+                shots.addPhoto(data, burstID: burstID) { [weak self] shot in
+                    if variant % 2 == 0 { self?.shots.markBest(shot.id, inBurst: burstID) }
+                }
+            }
+        }
+    }
+}
+#endif
+
+// MARK: - Shots, bursts and review frames (main)
+
+private extension CameraController {
+    func handleCapturedPhoto(_ data: Data, thumbnail: UIImage?, burstID: UUID?) {
+        if settings.saveToPhotos {
+            saveToLibrary({ request in
+                request.addResource(with: .photo, data: data, options: nil)
+            }, thumbnail: thumbnail)
+        } else {
+            didSave(thumbnail: thumbnail)
+        }
+        shots.addPhoto(data, burstID: burstID) { [weak self] shot in
+            guard let self else { return }
+            if let burstID {
+                self.collectBurstPhoto(shot, data: data, burstID: burstID)
+            } else {
+                self.sendReview(of: data)
+            }
+        }
+    }
+
+    func burstPhotoFailed(_ burstID: UUID) {
+        pendingBursts[burstID]?.expected -= 1
+        finishBurstIfComplete(burstID)
+    }
+
+    func collectBurstPhoto(_ shot: Shot, data: Data, burstID: UUID) {
+        pendingBursts[burstID]?.received.append((shot, data))
+        finishBurstIfComplete(burstID)
+    }
+
+    func finishBurstIfComplete(_ burstID: UUID) {
+        // Still shooting: more photos may be added to `expected`.
+        guard burstID != activeBurstID,
+              let burst = pendingBursts[burstID], burst.received.count >= burst.expected else { return }
+        pendingBursts[burstID] = nil
+        let candidates = burst.received
+        guard !candidates.isEmpty else { return }
+        DispatchQueue.global(qos: .userInitiated).async {
+            let scored = candidates.map { ($0.0, $0.1, SceneAnalyzer.score(photoData: $0.1)) }
+            // Ties go to the earliest frame.
+            guard let best = scored.max(by: { $0.2 < $1.2 }) else { return }
+            DispatchQueue.main.async {
+                self.shots.markBest(best.0.id, inBurst: burstID)
+                self.showToast(String(localized: "Best shot picked from \(candidates.count) photos"))
+                self.sendReview(of: best.1)
+            }
+        }
+    }
+
+    func sendReview(of data: Data) {
+        guard settings.sendPhotosToRemote, let onReviewFrame else { return }
+        DispatchQueue.global(qos: .utility).async {
+            guard let jpeg = ShotStore.thumbnail(fromImageData: data, maxPixel: Self.reviewLongEdge) else { return }
+            DispatchQueue.main.async { onReviewFrame(jpeg) }
+        }
+    }
+}
+
+// MARK: - Hands-free triggers, toasts and countdown light
+
+extension CameraController {
+    func showToast(_ message: String) {
+        toastHide?.cancel()
+        toast = message
+        let hide = DispatchWorkItem { [weak self] in self?.toast = nil }
+        toastHide = hide
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.5, execute: hide)
+    }
+
+    fileprivate func handleAnalysis(_ result: SceneAnalyzer.Result) {
+        if faces != result.faces { faces = result.faces }
+        if edgeWarning != result.edgeWarning { edgeWarning = result.edgeWarning }
+
+        let triggered: Bool
+        switch autoCapture {
+        case .palm:
+            triggered = result.palmRaised
+        case .smile:
+            if !result.everyoneSmiling { smileArmed = true }
+            triggered = result.everyoneSmiling && smileArmed
+        case .off, .clap:
+            triggered = false
+        }
+        // About 0.6 s of the gesture/smile before firing.
+        triggerStreak = triggered ? triggerStreak + 1 : 0
+        if triggerStreak >= 3 {
+            triggerStreak = 0
+            autoTrigger()
+        }
+    }
+
+    /// Starts a shot from a hands-free trigger (palm, smile, clap).
+    fileprivate func autoTrigger() {
+        guard autoCapture != .off, countdown == nil, !isBusy, burstTimer == nil,
+              Date() > autoTriggerQuietUntil,
+              Date().timeIntervalSince(lastAutoTrigger) > Self.autoTriggerCooldown else { return }
+        lastAutoTrigger = Date()
+        smileArmed = false
+        UINotificationFeedbackGenerator().notificationOccurred(.success)
+        switch autoCapture {
+        case .smile:
+            // Everyone is already smiling: shoot now.
+            fire()
+        default:
+            startCountdown(seconds: max(timerSeconds, Self.minimumAutoTimer))
+        }
+    }
+
+    /// Short torch blinks that people in front of the camera can see during a countdown.
+    fileprivate func pulseTorch(times: Int) {
+        guard !isRecording else { return }
+        sessionQueue.async {
+            guard let device = self.videoInput?.device, device.hasTorch, device.isTorchAvailable else { return }
+            for index in 0 ..< times {
+                let start = Double(index) * 0.25
+                self.sessionQueue.asyncAfter(deadline: .now() + start) { self.setTorch(device, on: true) }
+                self.sessionQueue.asyncAfter(deadline: .now() + start + 0.12) { self.setTorch(device, on: false) }
+            }
+        }
+    }
+
+    private func setTorch(_ device: AVCaptureDevice, on: Bool) {
+        guard device === videoInput?.device else { return }
+        do {
+            try device.lockForConfiguration()
+            if on {
+                try device.setTorchModeOn(level: 0.6)
+            } else {
+                device.torchMode = .off
+            }
+            device.unlockForConfiguration()
+        } catch {
+            print("Torch pulse failed: \(error)")
+        }
     }
 }
 
@@ -770,11 +1095,16 @@ extension CameraController: AVCapturePhotoCaptureDelegate {
 
 extension CameraController: AVCaptureVideoDataOutputSampleBufferDelegate, AVCaptureAudioDataOutputSampleBufferDelegate {
     func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
+        let detection = detectionMode
         if output === audioOutput {
             recorder?.appendAudio(sampleBuffer)
+            if detection == .clap { clapDetector.process(sampleBuffer) }
             return
         }
         recorder?.appendVideo(sampleBuffer)
         emitPreviewFrameIfNeeded(sampleBuffer)
+        if let pixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) {
+            analyzer.submit(pixelBuffer, detectPalm: detection == .palm, detectSmiles: detection == .smile)
+        }
     }
 }
