@@ -27,6 +27,10 @@ shot() { # lang bundle screen name [launch args...]
 xcrun simctl install $D $P/ShutterLink.app
 for L in ko en; do
   shot $L com.devkoan.shutterlink main 01-main -hasSeenOnboarding YES
+  shot $L com.devkoan.shutterlink banner banner -hasSeenOnboarding YES
+  shot $L com.devkoan.shutterlink cloth cloth -hasSeenOnboarding YES
+  shot $L com.devkoan.shutterlink bannerDesign bannerDesign -hasSeenOnboarding YES
+  shot $L com.devkoan.shutterlink bannerAdjust bannerAdjust -hasSeenOnboarding YES
   shot $L com.devkoan.shutterlink countdown 04-countdown -hasSeenOnboarding YES
   shot $L com.devkoan.shutterlink gallery 05-gallery -hasSeenOnboarding YES
   shot $L com.devkoan.shutterlink pairing 07-pairing -hasSeenOnboarding YES

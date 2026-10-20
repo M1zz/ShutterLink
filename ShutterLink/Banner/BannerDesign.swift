@@ -252,9 +252,9 @@ struct BannerTheme: Identifiable {
 
 @Observable
 final class BannerDesign {
-    var title: String = String(localized: "2026 Our Company")
-    var subtitle: String = String(localized: "Autumn Outing Together")
-    var footer: String = String(localized: "Oct 24–25, 2026  Yeongildae Beach, Pohang")
+    var title: String = String(localized: "Our Team 2026")
+    var subtitle: String = String(localized: "Fall Retreat Together")
+    var footer: String = String(localized: "Oct 24–25, 2026  Lake Tahoe, CA")
 
     var aspect: BannerAspect = .wide
     var background: BannerBackground = .solid

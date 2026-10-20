@@ -247,7 +247,7 @@ private struct CameraScreen: View {
             }
             if let toast = camera.toast {
                 ToastView(message: toast)
-            } else if bannerMode, showBannerHint {
+            } else if bannerMode, showBannerHint, Self.demoScreen?.hasPrefix("banner") != true {
                 ToastView(message: banner.controller.status)
             }
         }

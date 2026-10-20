@@ -14,27 +14,30 @@ out = str(ROOT / "docs" / "screenshots" / "marketing")
 W, H = 1242, 2688   # App Store Connect 제출 규격 (iPhone 6.5")
 FONT = "/System/Library/Fonts/AppleSDGothicNeo.ttc"
 
+# (출력 파일, 원본 캡처, 헤드라인, 부제) — 번호 순서가 스토어 순서다. 1·2장은 현수막 단체사진.
 CAPTIONS = {
- "ko": {
-  "01-main": ("단체사진, 아무도 빠지지 않게", "인원 카운터 · 수평계 · 가장자리 잘림 경고"),
-  "02-remote": ("설치 없이 QR 한 번으로 리모컨", "App Clip으로 미리보기 보며 줌 · 초점 · 셔터"),
-  "03-reviews": ("찍은 사진은 리모컨 폰으로 바로", "앱 없는 친구도 사진을 저장하고 공유해요"),
-  "04-countdown": ("손바닥 하나로 셔터", "손바닥 · 박수 · 미소로 찍고, 음성과 불빛으로 카운트다운"),
-  "05-gallery": ("눈 감은 사진은 이제 그만", "연사 중 모두 눈 뜬 베스트샷을 자동으로 골라요"),
-  "06-simple": ("누구나 쉬운 큰 버튼 모드", "어르신도 버튼 하나로 단체사진 완성"),
-  "07-pairing": ("QR만 보여주면 준비 끝", "계정도, 페어링도, 추가 장비도 필요 없어요"),
-  "08-onboarding": ("손 안 대고 찍는 단체사진", "타이머보다 똑똑한 핸즈프리 셔터"),
- },
- "en": {
-  "01-main": ("Group photos, nobody left out", "People counter, level and edge warnings"),
-  "02-remote": ("Scan once, control the camera", "App Clip remote with live preview, zoom and focus"),
-  "03-reviews": ("Photos land on the remote", "Friends without the app can save and share them"),
-  "04-countdown": ("Raise your palm to shoot", "Palm, clap or smile shutter with voice and light countdown"),
-  "05-gallery": ("No more closed eyes", "Group shot picks the frame where everyone's eyes are open"),
-  "06-simple": ("Big buttons for everyone", "One large shutter anyone can press"),
-  "07-pairing": ("Show the QR and you're ready", "No account, no pairing, no extra hardware"),
-  "08-onboarding": ("Hands-free group photos", "Smarter than a self-timer"),
- },
+ "ko": [
+  ("01-banner", "banner", "현수막 든 단체사진, 현수막 없이", "바닥을 탭하면 모두의 앞에 현수막이 놓여요"),
+  ("02-banner-design", "bannerDesign", "테마 고르고 문구만 적으면 끝", "야유회 · 동창회 · 졸업 · 생일 등 테마 13가지"),
+  ("03-remote", "02-remote", "친구 iPhone이 설치 없이 리모컨", "QR 한 번이면 미리보기 보며 셔터"),
+  ("04-countdown", "04-countdown", "손바닥 하나로 셔터", "손바닥 · 박수 · 미소로 찍고, 음성과 불빛으로 카운트다운"),
+  ("05-bestshot", "01-main", "눈 감은 사진은 이제 그만", "연사 중 모두 눈 뜬 베스트샷을 골라 두고, 잘리는 사람도 알려 줘요"),
+  ("06-reviews", "03-reviews", "찍은 사진은 리모컨 폰으로 바로", "앱 없는 친구도 사진을 저장하고 공유해요"),
+  ("07-gallery", "05-gallery", "베스트샷만 모아 보기", "연사 중 다른 장으로 바꾸고 AirDrop으로 나눠요"),
+  ("08-pairing", "07-pairing", "QR만 보여 주면 준비 끝", "계정도, 페어링도, 추가 장비도 필요 없어요"),
+  ("09-simple", "06-simple", "누구나 쉬운 큰 버튼 모드", "어르신도 버튼 하나로 단체사진 완성"),
+ ],
+ "en": [
+  ("01-banner", "banner", "The banner group photo, no printing", "Tap the ground and a banner appears in front of everyone"),
+  ("02-banner-design", "bannerDesign", "Pick a theme, add your words", "13 themes for reunions, parties, graduations and more"),
+  ("03-remote", "02-remote", "Any iPhone becomes the remote", "Scan one QR code, nothing to install"),
+  ("04-countdown", "04-countdown", "Raise your palm to shoot", "Palm, clap or smile shutter with voice and light countdown"),
+  ("05-bestshot", "01-main", "No more closed eyes", "Bursts keep the shot where everyone's eyes are open"),
+  ("06-reviews", "03-reviews", "Photos land on the remote", "Friends without the app can save and share them"),
+  ("07-gallery", "05-gallery", "Best shots, all in one place", "Swap in another frame and share with AirDrop"),
+  ("08-pairing", "07-pairing", "Show the QR and you're ready", "No account, no pairing, no extra hardware"),
+  ("09-simple", "06-simple", "Big buttons for everyone", "One large shutter anyone can press"),
+ ],
 }
 
 def font(size, bold):
@@ -51,8 +54,8 @@ def wrap(draw, text, f, maxw):
 
 for lang, caps in CAPTIONS.items():
     os.makedirs(os.path.join(out, lang), exist_ok=True)
-    for name, (title, sub) in caps.items():
-        src = os.path.join(raw, f"{lang}_{name}.png")
+    for name, source, title, sub in caps:
+        src = os.path.join(raw, f"{lang}_{source}.png")
         if not os.path.exists(src): print("missing", src); continue
         canvas = Image.new("RGB", (W, H), (16, 16, 18))
         d = ImageDraw.Draw(canvas)
