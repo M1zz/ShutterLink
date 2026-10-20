@@ -28,9 +28,9 @@ struct ShutterButton: View {
     private var accessibilityTitle: String {
         if isCountingDown { return String(localized: "Cancel timer") }
         if isRecording {
-            return mode == .photo ? String(localized: "Stop interval shooting") : String(localized: "Stop recording")
+            return mode == .video ? String(localized: "Stop recording") : String(localized: "Stop interval shooting")
         }
-        return mode == .photo ? String(localized: "Take photo") : String(localized: "Start recording")
+        return mode == .video ? String(localized: "Start recording") : String(localized: "Take photo")
     }
 }
 
@@ -76,7 +76,7 @@ struct TimerButton: View {
             }
         } label: {
             SettingLabel(systemImage: seconds == 0 ? "timer" : "timer.circle.fill",
-                         title: Format.timer(seconds), isOn: seconds > 0)
+                         title: Format.timer(seconds), isOn: seconds > 0, compactShowsTitle: true)
         }
         .accessibilityLabel(String(localized: "Timer"))
         .accessibilityValue(Format.timer(seconds))
@@ -93,12 +93,12 @@ struct CameraSettingsBar: View {
 
     var body: some View {
         HStack(spacing: 2) {
-            FlashButton(mode: status.flash, isAvailable: status.flashAvailable) {
+            FlashButton(mode: status.flash, isAvailable: status.flashAvailable && status.mode.usesCaptureSession) {
                 send(.setFlash(status.flash.next))
             }
             TimerButton(seconds: status.timerSeconds) { send(.setTimer(seconds: $0)) }
             DriveMenu(burstCount: status.burstCount, intervalSeconds: status.intervalSeconds, send: send)
-                .disabled(status.isBusy || status.mode == .video)
+                .disabled(status.isBusy || status.mode != .photo)
             SettingButton(systemImage: "grid", title: String(localized: "Grid"), isOn: status.showsGrid) {
                 send(.setGrid(!status.showsGrid))
             }
@@ -116,13 +116,46 @@ struct CameraSettingsBar: View {
     }
 }
 
+extension EnvironmentValues {
+    /// Icon-only setting controls (the camera app's viewfinder). The remote keeps the captions.
+    @Entry var compactSettingControls = false
+}
+
 /// Icon over a short caption, yellow when active. Same footprint as `TimerButton`.
 struct SettingLabel: View {
     let systemImage: String
     let title: String
     let isOn: Bool
+    /// In compact mode, show `title` next to the icon while on (e.g. "10s", "×5") — for values the icon can't tell.
+    var compactShowsTitle = false
+    @Environment(\.compactSettingControls) private var compact
 
     var body: some View {
+        if compact {
+            compactBody
+        } else {
+            captionedBody
+        }
+    }
+
+    private var compactBody: some View {
+        HStack(spacing: 4) {
+            Image(systemName: systemImage)
+                .font(.title3)
+            if compactShowsTitle, isOn {
+                Text(title)
+                    .font(.body.weight(.semibold).monospacedDigit())
+                    .lineLimit(1)
+                    .fixedSize()
+            }
+        }
+        .foregroundStyle(isOn ? Color.yellow : Color.white)
+        .frame(minWidth: 38, minHeight: 44)
+        .padding(.horizontal, compactShowsTitle && isOn ? 4 : 0)
+        .contentShape(Rectangle())
+    }
+
+    private var captionedBody: some View {
         VStack(spacing: 2) {
             Image(systemName: systemImage)
                 .font(.title2)
@@ -222,7 +255,8 @@ struct DriveMenu: View {
                 }
             }
         } label: {
-            SettingLabel(systemImage: icon, title: title, isOn: intervalSeconds > 0 || burstCount > 1)
+            SettingLabel(systemImage: icon, title: title, isOn: intervalSeconds > 0 || burstCount > 1,
+                         compactShowsTitle: true)
         }
         .accessibilityLabel(String(localized: "Drive mode"))
         .accessibilityValue(accessibilityValue)

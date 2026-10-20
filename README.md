@@ -27,6 +27,7 @@
 | 찍힌 사진 1024px 사본을 리모컨으로 전송 → 리모컨에서 저장/공유 | | O |
 | 간편 모드(큰 버튼) | | O |
 | 온보딩, 설정, QR 공유, 한국어/영어 String Catalog | O | O |
+| 현수막 모드: 문구·색·로고로 디자인한 현수막을 AR로 띄우고 사람 가림(People Occlusion)으로 "들고 있는" 단체사진 | O | 셔터 |
 
 ## 구성
 
@@ -73,6 +74,23 @@ App Store Connect 에서 사람이 할 일:
 1. 버전 페이지 ▸ App Clip ▸ 기본 경험: 헤더 이미지·부제·동작(열기)
 2. 앱 ▸ App Clip 경험 ▸ 고급 경험 추가: URL `https://m1zz.github.io/ShutterLink/r` (접두사 매칭 — 세션마다 `?c=` 가 달라짐)
 3. App Clip 용량: QR로 여는 App Clip은 **압축 해제 15MB** 제한 (현재 구조는 외부 의존성 없음)
+
+## 현수막 모드 (`ShutterLink/Banner/`, BannerAR 에서 흡수)
+
+`CaptureMode.banner` — 사진·동영상과 같은 카메라 모드입니다. 카메라 앱과 리모컨(App Clip) 모드 줄 모두에 `현수막` 이 있고, 고르면 같은 화면에서 뷰파인더가 AR 로 바뀝니다.
+바닥을 탭하면 들고 있는 높이에, 벽을 탭하면 벽에 붙여 배치. 현수막을 직접 끌기 · 두 손가락 회전/크기, 또는 `위치 조정` 패널(셔터 자리에 뜸): 이동 패드(앞뒤·좌우) · 높이 · 방향 · 크기 · 정면. 패널이 열려 있는 동안은 탭해도 다시 배치되지 않습니다.
+- 기본은 현수막이 항상 사람 앞 (사람이 뚫고 나오지 않음). 옵션의 `앞에 선 사람 보이기` 를 켜야 ARKit 사람 깊이 가림(personSegmentationWithDepth)을 씁니다 — 깊이 추정이 거칠어 현수막 바로 뒤 사람이 비칠 수 있음.
+오른쪽 위 붓 버튼 = 현수막 디자인(미리보기 + 테마 13종 카드, 문구 3줄, 비율, 배경 5종, 글꼴 4종, 장식 12종, 색, 로고, 재질, 막대, 바람, 가로 길이).
+
+- 테마(`BannerTheme.all`)는 배경·색·글꼴·장식만 바꾸고 문구·로고는 그대로 둡니다.
+- 천 재질: `ClothShape` 가 처짐 · 세로 주름 · 모서리 당김 주름 · 바람(24fps로 메시 갱신)을 만들고 실제 표면 법선을 계산합니다. 재질은 직조 노멀맵 + sheen, 텍스처에 직조 무늬 · 박음질 단 · 쇠고리를 넣습니다. 비닐은 주름이 약하고, 종이는 평평합니다.
+- 시뮬레이터 확인용: `-screenshots cloth` (AR 없이 RealityKit 으로 현수막만 렌더, `-closeUp` 추가하면 근접), `-screenshots bannerDesign`.
+
+- 촬영 흐름은 `CameraController` 하나: 화면 셔터·리모컨 셔터·손 안 대고 찍기 → 타이머 · 음성/불빛 카운트다운 → `fire()` 가 `.banner` 면 `onBannerShot` → AR 스냅샷 → `addBannerPhoto` (사진 앱 · 갤러리 · 리모컨 사본).
+- ARKit 과 AVCaptureSession 은 카메라를 같이 못 씀: `setMode(.banner)` 가 세션을 멈춘 뒤 `onBannerStart`, 다른 모드로 갈 때 `onBannerEnd` 로 AR 을 먼저 멈추고 세션 재시작.
+- AR 카메라 프레임 → `analyzeBannerFrame` (인원 수 · 가장자리 경고 · 손바닥/미소 셔터), AR 마이크 → `analyzeBannerAudio` (박수 셔터), AR 화면 스냅샷 6fps → `addBannerPreviewFrame` (리모컨 미리보기에 현수막까지 보임).
+- 현수막 모드에서 쓸 수 없는 것: 플래시 · 연사/인터벌 · 노출 · 줌 · 전면 카메라 (카메라·리모컨 모두 숨기거나 비활성).
+- 스크린샷 모드: `-screenshots banner` (옵션 펼친 상태는 `-showOptions` 추가).
 
 ## 설계 메모
 

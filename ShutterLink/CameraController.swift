@@ -6,7 +6,9 @@ import UIKit
 
 /// Owns the capture session. UI state is published on the main thread;
 /// session work runs on `sessionQueue`, sample buffers on `dataQueue`.
-final class CameraController: NSObject, ObservableObject {
+// State is confined by hand: published state on main, session work on `sessionQueue`, buffers on `dataQueue`,
+// shared flags behind locks.
+final class CameraController: NSObject, ObservableObject, @unchecked Sendable {
     // MARK: Published state (main thread)
 
     @Published private(set) var mode: CaptureMode = .photo
@@ -178,6 +180,44 @@ final class CameraController: NSObject, ObservableObject {
         }
     }
 
+    // MARK: Banner mode
+    //
+    // ARKit and the capture session can't share the camera. Banner mode stops the session and the AR view
+    // feeds shots, preview frames and analysis frames back in here, so timer, voice countdown, hands-free
+    // triggers, the gallery and the remote all work the same as in Photo mode.
+
+    /// Called on main once the capture session has stopped and ARKit may take the camera.
+    var onBannerStart: (() -> Void)?
+    /// Takes the banner shot when the countdown ends.
+    var onBannerShot: (() -> Void)?
+    /// Called on main right before the capture session restarts, so ARKit lets go of the camera first.
+    var onBannerEnd: (() -> Void)?
+
+    /// Adds a banner shot to Photos, the gallery and the remote, like any other photo.
+    func addBannerPhoto(_ data: Data) {
+        handleCapturedPhoto(data, thumbnail: Self.photoThumbnail(data: data), burstID: nil)
+    }
+
+    /// A small JPEG of the AR view for the remote's live preview.
+    func addBannerPreviewFrame(_ jpeg: Data) {
+        guard previewDemand else { return }
+        onPreviewFrame?(jpeg)
+    }
+
+    /// AR microphone audio for the clap shutter. Safe to call from any thread.
+    func analyzeBannerAudio(_ sampleBuffer: CMSampleBuffer) {
+        dataQueue.async {
+            if self.detectionMode == .clap { self.clapDetector.process(sampleBuffer) }
+        }
+    }
+
+    /// An AR camera frame for the people counter and the palm / smile triggers.
+    func analyzeBannerFrame(_ pixelBuffer: CVPixelBuffer, orientation: CGImagePropertyOrientation) {
+        let detection = detectionMode
+        analyzer.submit(pixelBuffer, orientation: orientation,
+                        detectPalm: detection == .palm, detectSmiles: detection == .smile)
+    }
+
     func attachPreviewLayer(_ layer: AVCaptureVideoPreviewLayer) {
         previewLayer = layer
         sessionQueue.async { self.refreshRotationCoordinator() }
@@ -298,8 +338,20 @@ final class CameraController: NSObject, ObservableObject {
         guard newMode != mode, !isBusy else { return }
         cancelCountdown()
         stopBurst()
+        let leavingBanner = mode == .banner
         mode = newMode
+        faces = 0
+        edgeWarning = false
+        if newMode == .banner {
+            sessionQueue.async {
+                self.session.stopRunning()
+                DispatchQueue.main.async { self.onBannerStart?() }
+            }
+            return
+        }
+        if leavingBanner { onBannerEnd?() }
         sessionQueue.async {
+            if leavingBanner, self.didStart { self.session.startRunning() }
             let preset: AVCaptureSession.Preset = newMode == .photo ? .photo : .high
             self.session.beginConfiguration()
             if self.session.canSetSessionPreset(preset) {
@@ -318,6 +370,7 @@ final class CameraController: NSObject, ObservableObject {
     }
 
     func setZoom(_ value: Double) {
+        guard mode.usesCaptureSession else { return }
         let clamped = min(max(value, minZoom), maxZoom)
         zoom = clamped.rounded2
         sessionQueue.async {
@@ -335,7 +388,7 @@ final class CameraController: NSObject, ObservableObject {
     }
 
     func flipCamera() {
-        guard !isBusy else { return }
+        guard !isBusy, mode.usesCaptureSession else { return }
         cancelCountdown()
         stopBurst()
         let target: CameraPosition = position == .back ? .front : .back
@@ -371,6 +424,7 @@ final class CameraController: NSObject, ObservableObject {
     }
 
     func setExposure(_ value: Double) {
+        guard mode.usesCaptureSession else { return }
         let steps = (value / ExposureOptions.step).rounded()
         let clamped = min(max(steps * ExposureOptions.step, ExposureOptions.range.lowerBound), ExposureOptions.range.upperBound)
         exposureBias = clamped.rounded2
@@ -401,6 +455,7 @@ final class CameraController: NSObject, ObservableObject {
 
     /// Tap on the camera's own preview.
     func focus(atLayerPoint point: CGPoint) {
+        guard mode.usesCaptureSession else { return }
         guard let previewLayer else { return }
         showFocusIndicator(at: point)
         applyFocus(at: previewLayer.captureDevicePointConverted(fromLayerPoint: point))
@@ -655,6 +710,7 @@ final class CameraController: NSObject, ObservableObject {
         case .photo where intervalSeconds > 0: startInterval()
         case .photo: startBurst()
         case .video: startRecording()
+        case .banner: onBannerShot?()
         }
     }
 
@@ -766,7 +822,7 @@ final class CameraController: NSObject, ObservableObject {
             .appendingPathExtension("mov")
         sessionQueue.async {
             let audioSettings = self.hasAudio
-                ? self.audioOutput.recommendedAudioSettingsForAssetWriter(writingTo: .mov) as? [String: Any]
+                ? self.audioOutput.recommendedAudioSettingsForAssetWriter(writingTo: .mov)
                 : nil
             self.dataQueue.async {
                 do {
@@ -793,8 +849,7 @@ final class CameraController: NSObject, ObservableObject {
             self.dataQueue.async {
                 guard let recorder = self.recorder else { return }
                 self.recorder = nil
-                recorder.finish { [weak self] url in
-                    guard let self else { return }
+                recorder.finish { url in
                     guard let url else {
                         DispatchQueue.main.async { self.alertMessage = String(localized: "Recording failed.") }
                         return
@@ -1104,7 +1159,8 @@ extension CameraController: AVCaptureVideoDataOutputSampleBufferDelegate, AVCapt
         recorder?.appendVideo(sampleBuffer)
         emitPreviewFrameIfNeeded(sampleBuffer)
         if let pixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) {
-            analyzer.submit(pixelBuffer, detectPalm: detection == .palm, detectSmiles: detection == .smile)
+            analyzer.submit(pixelBuffer, orientation: .up,
+                            detectPalm: detection == .palm, detectSmiles: detection == .smile)
         }
     }
 }

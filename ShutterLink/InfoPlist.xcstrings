@@ -2,8 +2,7 @@
   "sourceLanguage": "en",
   "strings": {
     "CFBundleDisplayName": {
-      "comment": "",
-      "extractionState": "extracted_with_value",
+      "comment": "Bundle display name",
       "localizations": {
         "en": {
           "stringUnit": {
@@ -19,9 +18,20 @@
         }
       }
     },
-    "NSBluetoothAlwaysUsageDescription": {
-      "comment": "",
+    "CFBundleName": {
+      "comment": "Bundle name",
       "extractionState": "extracted_with_value",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "ShutterLink"
+          }
+        }
+      }
+    },
+    "NSBluetoothAlwaysUsageDescription": {
+      "comment": "Privacy - Bluetooth Always Usage Description",
       "localizations": {
         "en": {
           "stringUnit": {
@@ -38,26 +48,24 @@
       }
     },
     "NSCameraUsageDescription": {
-      "comment": "",
-      "extractionState": "extracted_with_value",
+      "comment": "Privacy - Camera Usage Description",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "ShutterLink uses the camera to take photos and videos."
+            "value": "ShutterLink uses the camera to take photos and videos, and to place an AR banner in the scene."
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "사진과 동영상을 촬영하기 위해 카메라를 사용합니다."
+            "value": "사진과 동영상을 촬영하고, AR 현수막를 화면에 띄우기 위해 카메라를 사용합니다."
           }
         }
       }
     },
     "NSMicrophoneUsageDescription": {
-      "comment": "",
-      "extractionState": "extracted_with_value",
+      "comment": "Privacy - Microphone Usage Description",
       "localizations": {
         "en": {
           "stringUnit": {
@@ -74,8 +82,7 @@
       }
     },
     "NSPhotoLibraryAddUsageDescription": {
-      "comment": "",
-      "extractionState": "extracted_with_value",
+      "comment": "Privacy - Photo Library Additions Usage Description",
       "localizations": {
         "en": {
           "stringUnit": {

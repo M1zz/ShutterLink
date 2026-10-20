@@ -49,9 +49,21 @@ enum RemoteUUID {
 enum CaptureMode: String, Codable, CaseIterable, Identifiable {
     case photo
     case video
+    /// A designed banner floats in the scene (ARKit); shots are photos of the AR view.
+    case banner
 
     var id: String { rawValue }
-    var title: String { self == .photo ? String(localized: "Photo") : String(localized: "Video") }
+
+    var title: String {
+        switch self {
+        case .photo: return String(localized: "Photo")
+        case .video: return String(localized: "Video")
+        case .banner: return String(localized: "Banner")
+        }
+    }
+
+    /// Flash, zoom, exposure, burst and the front camera only exist on the regular capture session.
+    var usesCaptureSession: Bool { self != .banner }
 }
 
 enum CameraPosition: String, Codable {

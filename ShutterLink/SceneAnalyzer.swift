@@ -31,7 +31,9 @@ final class SceneAnalyzer {
                                                           CIDetectorTracking: true])
 
     /// Call from the capture data queue. Frames are dropped while the previous one is being analyzed.
-    func submit(_ pixelBuffer: CVPixelBuffer, detectPalm: Bool, detectSmiles: Bool) {
+    /// `orientation` is how the buffer is turned relative to upright (AR camera frames arrive sideways).
+    func submit(_ pixelBuffer: CVPixelBuffer, orientation: CGImagePropertyOrientation,
+                detectPalm: Bool, detectSmiles: Bool) {
         let now = CACurrentMediaTime()
         let accepted = lock.withLock { () -> Bool in
             guard !isBusy, now - lastSubmit >= Self.interval else { return false }
@@ -42,13 +44,15 @@ final class SceneAnalyzer {
         guard accepted else { return }
 
         queue.async {
-            let result = self.analyze(pixelBuffer, detectPalm: detectPalm, detectSmiles: detectSmiles)
+            let result = self.analyze(pixelBuffer, orientation: orientation,
+                                      detectPalm: detectPalm, detectSmiles: detectSmiles)
             self.lock.withLock { self.isBusy = false }
             DispatchQueue.main.async { self.onResult?(result) }
         }
     }
 
-    private func analyze(_ pixelBuffer: CVPixelBuffer, detectPalm: Bool, detectSmiles: Bool) -> Result {
+    private func analyze(_ pixelBuffer: CVPixelBuffer, orientation: CGImagePropertyOrientation,
+                         detectPalm: Bool, detectSmiles: Bool) -> Result {
         var result = Result()
         let faceRequest = VNDetectFaceRectanglesRequest()
         let handRequest = VNDetectHumanHandPoseRequest()
@@ -56,7 +60,7 @@ final class SceneAnalyzer {
 
         var requests: [VNRequest] = [faceRequest]
         if detectPalm { requests.append(handRequest) }
-        let handler = VNImageRequestHandler(cvPixelBuffer: pixelBuffer, orientation: .up)
+        let handler = VNImageRequestHandler(cvPixelBuffer: pixelBuffer, orientation: orientation)
         try? handler.perform(requests)
 
         let faces = faceRequest.results ?? []
@@ -72,7 +76,7 @@ final class SceneAnalyzer {
         }
 
         if detectSmiles, !faces.isEmpty {
-            let image = CIImage(cvPixelBuffer: pixelBuffer)
+            let image = CIImage(cvPixelBuffer: pixelBuffer).oriented(orientation)
             let features = smileDetector?.features(in: image, options: [CIDetectorSmile: true,
                                                                         CIDetectorEyeBlink: true])
                 .compactMap { $0 as? CIFaceFeature } ?? []

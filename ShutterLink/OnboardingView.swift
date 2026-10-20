@@ -29,7 +29,10 @@ struct OnboardingView: View {
              text: "Raise your palm, clap, or let ShutterLink shoot when everyone smiles. A voice and light countdown tells the group when to pose."),
         Page(id: 3, symbol: "star.square.on.square.fill",
              title: "Nobody blinks",
-             text: "Group shot takes several photos and picks the one where everyone's eyes are open. The remote gets a copy to keep.")
+             text: "Group shot takes several photos and picks the one where everyone's eyes are open. The remote gets a copy to keep."),
+        Page(id: 4, symbol: "rectangle.inset.filled.and.person.filled",
+             title: "Hold a banner without bringing one",
+             text: "Choose Banner, write your text and pick colors, then tap the floor. The banner stays in place, and people standing in front look like they're holding it.")
     ]
 
     var body: some View {

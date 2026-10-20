@@ -17,6 +17,8 @@ settings:
     ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
     ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
     MARKETING_VERSION: "1.0"
+    # Linking AppIntents (system, weak) silences Xcode's "Metadata extraction skipped" build warning.
+    OTHER_LDFLAGS: ["$(inherited)", "-weak_framework", "AppIntents"]
     CURRENT_PROJECT_VERSION: "1"
 packages:
   LeeoKit:
@@ -35,7 +37,7 @@ targets:
         PRODUCT_BUNDLE_IDENTIFIER: com.devkoan.shutterlink
         CODE_SIGN_ENTITLEMENTS: Config/ShutterLink.entitlements
         INFOPLIST_KEY_CFBundleDisplayName: ShutterLink
-        INFOPLIST_KEY_NSCameraUsageDescription: ShutterLink uses the camera to take photos and videos.
+        INFOPLIST_KEY_NSCameraUsageDescription: ShutterLink uses the camera to take photos and videos, and to place an AR banner in the scene.
         INFOPLIST_KEY_NSMicrophoneUsageDescription: ShutterLink records audio with your videos and listens for a clap when Clap shutter is on.
         INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription: ShutterLink saves your photos and videos to your library.
         INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription: ShutterLink uses Bluetooth so a nearby iPhone can act as a remote shutter.

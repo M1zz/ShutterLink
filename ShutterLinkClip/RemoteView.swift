@@ -128,9 +128,12 @@ private struct RemoteControlView: View {
             if simpleMode {
                 simpleControls
             } else {
-                ExposureControl(value: status.exposureBias, send: remote.send)
-                ZoomChips(current: status.zoom, minZoom: status.minZoom, maxZoom: status.maxZoom) {
-                    remote.send(.setZoom($0))
+                // Banner mode runs on ARKit: no exposure or zoom to drive.
+                if status.mode.usesCaptureSession {
+                    ExposureControl(value: status.exposureBias, send: remote.send)
+                    ZoomChips(current: status.zoom, minZoom: status.minZoom, maxZoom: status.maxZoom) {
+                        remote.send(.setZoom($0))
+                    }
                 }
                 Picker("Mode", selection: Binding(get: { status.mode }, set: { remote.send(.setMode($0)) })) {
                     ForEach(CaptureMode.allCases) { mode in
@@ -138,7 +141,7 @@ private struct RemoteControlView: View {
                     }
                 }
                 .pickerStyle(.segmented)
-                .frame(maxWidth: 240)
+                .frame(maxWidth: 300)
                 .disabled(status.isBusy)
                 controls
             }
@@ -284,7 +287,7 @@ private struct RemoteControlView: View {
                     .frame(width: 56, height: 56)
                     .background(Color.white.opacity(0.12), in: Circle())
             }
-            .disabled(status.isBusy)
+            .disabled(status.isBusy || !status.mode.usesCaptureSession)
             .accessibilityLabel(String(localized: "Switch camera"))
         }
         .padding(.bottom, 8)

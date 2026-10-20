@@ -91,6 +91,46 @@
         }
       }
     },
+    "2026 Our Company": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2026 우리 회사"
+          }
+        }
+      }
+    },
+    "Accent (Border · Stripe)": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "포인트색 (테두리·띠)"
+          }
+        }
+      }
+    },
+    "Add Logo Image": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "로고 이미지 추가"
+          }
+        }
+      }
+    },
+    "Adjust Position": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "위치 조정"
+          }
+        }
+      }
+    },
     "Advertising failed: %@": {
       "localizations": {
         "ko": {
@@ -131,12 +171,33 @@
         }
       }
     },
+    "Apply": {
+      "extractionState": "stale",
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "적용"
+          }
+        }
+      }
+    },
     "Ask everyone to look at the camera": {
       "localizations": {
         "ko": {
           "stringUnit": {
             "state": "translated",
             "value": "모두 카메라를 보도록 안내"
+          }
+        }
+      }
+    },
+    "Aspect Ratio": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "비율"
           }
         }
       }
@@ -157,6 +218,86 @@
           "stringUnit": {
             "state": "translated",
             "value": "자동 촬영 끔"
+          }
+        }
+      }
+    },
+    "Autumn Leaves": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "낙엽"
+          }
+        }
+      }
+    },
+    "Autumn Outing": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "가을 야유회"
+          }
+        }
+      }
+    },
+    "Autumn Outing Together": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "함께 걷는 가을 야유회"
+          }
+        }
+      }
+    },
+    "Background": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "배경"
+          }
+        }
+      }
+    },
+    "Background Color": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "배경색"
+          }
+        }
+      }
+    },
+    "Balloons": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "풍선"
+          }
+        }
+      }
+    },
+    "Banner": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "현수막"
+          }
+        }
+      }
+    },
+    "Banner Design": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "현수막 디자인"
           }
         }
       }
@@ -187,6 +328,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "베스트샷"
+          }
+        }
+      }
+    },
+    "Birthday": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "생일"
           }
         }
       }
@@ -237,6 +388,36 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bluetooth를 사용할 수 없습니다"
+          }
+        }
+      }
+    },
+    "Bold Sans": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "굵은 고딕"
+          }
+        }
+      }
+    },
+    "Bottom Text": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "하단 글씨"
+          }
+        }
+      }
+    },
+    "Bottom line: date · place": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "하단 날짜 · 장소"
           }
         }
       }
@@ -301,12 +482,62 @@
         }
       }
     },
+    "Celebration": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "축하"
+          }
+        }
+      }
+    },
+    "Change Logo": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "로고 바꾸기"
+          }
+        }
+      }
+    },
     "Check Photos access in Settings.": {
       "localizations": {
         "ko": {
           "stringUnit": {
             "state": "translated",
             "value": "설정에서 사진 접근 권한을 확인하세요."
+          }
+        }
+      }
+    },
+    "Cheer": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "응원"
+          }
+        }
+      }
+    },
+    "Choose Banner, write your text and pick colors, then tap the floor. The banner stays in place, and people standing in front look like they're holding it.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "현수막 모드에서 문구와 색을 정하고 바닥을 탭하세요. 현수막이 그 자리에 떠 있고, 앞에 선 사람들이 들고 있는 것처럼 찍혀요."
+          }
+        }
+      }
+    },
+    "Christmas": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "크리스마스"
           }
         }
       }
@@ -351,12 +582,52 @@
         }
       }
     },
+    "Classic": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "기본"
+          }
+        }
+      }
+    },
     "Close": {
       "localizations": {
         "ko": {
           "stringUnit": {
             "state": "translated",
             "value": "닫기"
+          }
+        }
+      }
+    },
+    "Colors": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "색상"
+          }
+        }
+      }
+    },
+    "Company Workshop": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "회사 워크숍"
+          }
+        }
+      }
+    },
+    "Condensed Sans": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "좁은 고딕"
           }
         }
       }
@@ -391,6 +662,16 @@
         }
       }
     },
+    "Couldn't create the banner: %@": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "현수막을 만들지 못했습니다: %@"
+          }
+        }
+      }
+    },
     "Couldn't find the camera. Make sure ShutterLink is open on the camera iPhone and Bluetooth is on.": {
       "localizations": {
         "ko": {
@@ -421,12 +702,32 @@
         }
       }
     },
+    "Couldn't show the banner: %@": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "현수막을 띄우지 못했습니다: %@"
+          }
+        }
+      }
+    },
     "Couldn't start recording: %@": {
       "localizations": {
         "ko": {
           "stringUnit": {
             "state": "translated",
             "value": "녹화를 시작하지 못했습니다: %@"
+          }
+        }
+      }
+    },
+    "Couldn't update the design.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "디자인을 바꾸지 못했습니다."
           }
         }
       }
@@ -451,6 +752,16 @@
         }
       }
     },
+    "Decoration": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "장식"
+          }
+        }
+      }
+    },
     "Delete": {
       "localizations": {
         "ko": {
@@ -471,6 +782,26 @@
         }
       }
     },
+    "Diagonal Stripes": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "사선 줄무늬"
+          }
+        }
+      }
+    },
+    "Direction": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "방향"
+          }
+        }
+      }
+    },
     "Disconnect": {
       "localizations": {
         "ko": {
@@ -487,6 +818,26 @@
           "stringUnit": {
             "state": "translated",
             "value": "완료"
+          }
+        }
+      }
+    },
+    "Drag the banner to move it, or use Adjust Position below.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "현수막을 끌어서 옮기거나, 아래 위치 조정으로 맞춰 보세요."
+          }
+        }
+      }
+    },
+    "Drag to slide the banner across the floor.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "끌어서 현수막을 바닥 위로 옮겨요."
           }
         }
       }
@@ -551,6 +902,26 @@
         }
       }
     },
+    "Fabric (Matte)": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "천 (무광)"
+          }
+        }
+      }
+    },
+    "Face Me": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "정면"
+          }
+        }
+      }
+    },
     "Filter": {
       "localizations": {
         "ko": {
@@ -581,12 +952,52 @@
         }
       }
     },
+    "Flowers": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "꽃"
+          }
+        }
+      }
+    },
+    "Font": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "글꼴"
+          }
+        }
+      }
+    },
     "Gallery": {
       "localizations": {
         "ko": {
           "stringUnit": {
             "state": "translated",
             "value": "갤러리"
+          }
+        }
+      }
+    },
+    "Gradient": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "그라데이션"
+          }
+        }
+      }
+    },
+    "Graduation": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "졸업"
           }
         }
       }
@@ -641,12 +1052,52 @@
         }
       }
     },
+    "Hearts": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "하트"
+          }
+        }
+      }
+    },
+    "Height": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "세로 길이"
+          }
+        }
+      }
+    },
+    "Height above floor": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "높이"
+          }
+        }
+      }
+    },
     "Help": {
       "localizations": {
         "ko": {
           "stringUnit": {
             "state": "translated",
             "value": "도움말"
+          }
+        }
+      }
+    },
+    "Hold a banner without bringing one": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "현수막 없이 현수막 사진"
           }
         }
       }
@@ -681,6 +1132,16 @@
         }
       }
     },
+    "Logo": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "로고"
+          }
+        }
+      }
+    },
     "Look": {
       "localizations": {
         "ko": {
@@ -701,12 +1162,72 @@
         }
       }
     },
+    "Main Text": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "메인 글씨"
+          }
+        }
+      }
+    },
+    "Main message": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "메인 문구"
+          }
+        }
+      }
+    },
+    "Material": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "재질"
+          }
+        }
+      }
+    },
+    "Material · Size": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "재질 · 크기"
+          }
+        }
+      }
+    },
     "Mode": {
       "localizations": {
         "ko": {
           "stringUnit": {
             "state": "translated",
             "value": "모드"
+          }
+        }
+      }
+    },
+    "More": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "더 보기"
+          }
+        }
+      }
+    },
+    "Move banner": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "현수막 옮기기"
           }
         }
       }
@@ -761,12 +1282,43 @@
         }
       }
     },
+    "None": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "없음"
+          }
+        }
+      }
+    },
+    "Now": {
+      "extractionState": "stale",
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "즉시"
+          }
+        }
+      }
+    },
     "OK": {
       "localizations": {
         "ko": {
           "stringUnit": {
             "state": "translated",
             "value": "확인"
+          }
+        }
+      }
+    },
+    "Oct 24–25, 2026  Yeongildae Beach, Pohang": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2026. 10. 24 ~ 25  포항 영일대 해변"
           }
         }
       }
@@ -861,12 +1413,42 @@
         }
       }
     },
+    "Paper": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "종이"
+          }
+        }
+      }
+    },
+    "Party Night": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "파티"
+          }
+        }
+      }
+    },
     "People counter": {
       "localizations": {
         "ko": {
           "stringUnit": {
             "state": "translated",
             "value": "인원 카운터"
+          }
+        }
+      }
+    },
+    "People standing in front of the banner now show over it.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "현수막 앞에 선 사람이 현수막 위로 보여요."
           }
         }
       }
@@ -961,12 +1543,42 @@
         }
       }
     },
+    "Remove Logo": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "로고 제거"
+          }
+        }
+      }
+    },
+    "Reset": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "다시"
+          }
+        }
+      }
+    },
     "Reset exposure": {
       "localizations": {
         "ko": {
           "stringUnit": {
             "state": "translated",
             "value": "노출 초기화"
+          }
+        }
+      }
+    },
+    "Rounded Sans": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "둥근 고딕"
           }
         }
       }
@@ -1031,6 +1643,16 @@
         }
       }
     },
+    "Sea": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "바다"
+          }
+        }
+      }
+    },
     "Select": {
       "localizations": {
         "ko": {
@@ -1047,6 +1669,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "리모컨으로 사진 보내기"
+          }
+        }
+      }
+    },
+    "Serif": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "명조"
           }
         }
       }
@@ -1081,6 +1713,16 @@
         }
       }
     },
+    "Shape": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "모양"
+          }
+        }
+      }
+    },
     "Share": {
       "localizations": {
         "ko": {
@@ -1111,6 +1753,16 @@
         }
       }
     },
+    "Shooting options": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "촬영 옵션"
+          }
+        }
+      }
+    },
     "Shoots automatically when everyone is smiling with eyes open.": {
       "localizations": {
         "ko": {
@@ -1121,12 +1773,32 @@
         }
       }
     },
+    "Show Side Poles": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "양쪽 막대 표시"
+          }
+        }
+      }
+    },
     "Show pairing QR code": {
       "localizations": {
         "ko": {
           "stringUnit": {
             "state": "translated",
             "value": "페어링 QR 코드 보기"
+          }
+        }
+      }
+    },
+    "Show people in front": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "앞에 선 사람 보이기"
           }
         }
       }
@@ -1191,6 +1863,16 @@
         }
       }
     },
+    "Small top line (e.g. 2026 Acme Inc.)": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "상단 작은 글씨 (예: 2026 OO기업)"
+          }
+        }
+      }
+    },
     "Smile": {
       "localizations": {
         "ko": {
@@ -1211,12 +1893,72 @@
         }
       }
     },
+    "Snow": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "눈"
+          }
+        }
+      }
+    },
+    "Solid": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "단색"
+          }
+        }
+      }
+    },
     "Someone is at the edge of the frame": {
       "localizations": {
         "ko": {
           "stringUnit": {
             "state": "translated",
             "value": "화면 가장자리에 걸린 사람이 있어요"
+          }
+        }
+      }
+    },
+    "Sports": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "운동"
+          }
+        }
+      }
+    },
+    "Sports Day": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "체육대회"
+          }
+        }
+      }
+    },
+    "Spring Blossoms": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "봄 꽃놀이"
+          }
+        }
+      }
+    },
+    "Stars": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "별"
           }
         }
       }
@@ -1271,6 +2013,26 @@
         }
       }
     },
+    "Summer Beach": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "여름 바다"
+          }
+        }
+      }
+    },
+    "Sway in the breeze": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "바람에 살랑이기"
+          }
+        }
+      }
+    },
     "Switch camera": {
       "localizations": {
         "ko": {
@@ -1311,12 +2073,52 @@
         }
       }
     },
+    "Tap the floor or a wall to place the banner": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "바닥이나 벽을 탭하면 현수막이 놓여요"
+          }
+        }
+      }
+    },
     "Tap to focus": {
       "localizations": {
         "ko": {
           "stringUnit": {
             "state": "translated",
             "value": "탭하여 초점 맞추기"
+          }
+        }
+      }
+    },
+    "Text": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "문구"
+          }
+        }
+      }
+    },
+    "The banner paused for a moment": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "현수막이 잠시 멈췄어요"
+          }
+        }
+      }
+    },
+    "The banner stays in front of everyone.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "현수막이 항상 사람들 앞에 보여요."
           }
         }
       }
@@ -1337,6 +2139,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "페어링 코드가 거부되었습니다. QR 코드를 다시 스캔하세요."
+          }
+        }
+      }
+    },
+    "Theme": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "테마"
           }
         }
       }
@@ -1371,6 +2183,16 @@
         }
       }
     },
+    "This iPhone doesn't support AR.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "이 iPhone은 AR을 지원하지 않습니다."
+          }
+        }
+      }
+    },
     "Tilted %lld degrees": {
       "localizations": {
         "ko": {
@@ -1387,6 +2209,36 @@
           "stringUnit": {
             "state": "translated",
             "value": "타이머"
+          }
+        }
+      }
+    },
+    "Top Stripe": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "상단 띠"
+          }
+        }
+      }
+    },
+    "Top Text": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "상단 글씨"
+          }
+        }
+      }
+    },
+    "Top and Bottom Bands": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "위아래 띠"
           }
         }
       }
@@ -1461,6 +2313,16 @@
         }
       }
     },
+    "Vinyl (Glossy)": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "비닐 (유광)"
+          }
+        }
+      }
+    },
     "Voice countdown": {
       "localizations": {
         "ko": {
@@ -1497,6 +2359,56 @@
           "stringUnit": {
             "state": "translated",
             "value": "미리보기 기다리는 중…"
+          }
+        }
+      }
+    },
+    "Wedding": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "결혼"
+          }
+        }
+      }
+    },
+    "Width": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "가로 길이"
+          }
+        }
+      }
+    },
+    "Winter": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "겨울"
+          }
+        }
+      }
+    },
+    "Year-End Party": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "송년회"
+          }
+        }
+      }
+    },
+    "Zoom": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "줌"
           }
         }
       }
