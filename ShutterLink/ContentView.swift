@@ -42,6 +42,8 @@ private struct CameraScreen: View {
             Color.black.ignoresSafeArea()
 
             // Top bar, a 3:4 viewfinder with its overlays inside, then mode tabs and the shutter — nothing straddles the frame edge.
+            // The screen stays portrait like the system Camera: held sideways, the overlays move to the scene's top and
+            // bottom and the icons turn upright.
             VStack(spacing: 0) {
                 topBar
                     .padding(.horizontal, 16)
@@ -49,9 +51,7 @@ private struct CameraScreen: View {
                 viewfinder
                     .aspectRatio(3 / 4, contentMode: .fit)
                     .frame(maxWidth: .infinity)
-                    .overlay(alignment: .top) { topOverlays.padding(.top, 10).padding(.horizontal, 12) }
-                    .overlay(alignment: .bottom) { bottomOverlays.padding(.bottom, 10).padding(.horizontal, 16) }
-                    .overlay { countdownText }
+                    .overlay { viewfinderOverlays.modifier(UprightBox(turn: camera.turn)) }
                     .clipped()
                 if isAdjustingBanner {
                     // Positioning takes the shutter's place, so the panel never covers the banner it moves.
@@ -83,6 +83,7 @@ private struct CameraScreen: View {
         .animation(.easeInOut(duration: 0.2), value: camera.mode)
         .animation(.easeInOut(duration: 0.2), value: banner.controller.isPlaced)
         .animation(.easeInOut(duration: 0.2), value: banner.controller.isAdjusting)
+        .animation(.easeInOut(duration: 0.3), value: camera.turn)
         .sheet(isPresented: $showPairing) {
             PairingSheet(url: model.invocationURL, code: model.sessionCode, remote: remote)
         }
@@ -204,6 +205,19 @@ private struct CameraScreen: View {
             .scaledToFill()
     }
     #endif
+
+    /// Everything drawn over the viewfinder, laid out as the scene stands.
+    private var viewfinderOverlays: some View {
+        VStack(spacing: 0) {
+            topOverlays.padding(.top, 10).padding(.horizontal, 12)
+            Spacer(minLength: 0)
+            bottomOverlays.padding(.bottom, 10).padding(.horizontal, 16)
+        }
+        .overlay { countdownText }
+    }
+
+    /// Icons outside the viewfinder keep their place and only turn upright.
+    private var iconAngle: Angle { camera.turn.angle }
 
     @ViewBuilder
     private var countdownText: some View {
@@ -345,6 +359,7 @@ private struct CameraScreen: View {
             } label: {
                 Image(systemName: remote.connectedRemotes > 0 ? "iphone.radiowaves.left.and.right" : "qrcode")
                     .foregroundStyle(remote.connectedRemotes > 0 ? Color.green : Color.white)
+                    .rotationEffect(iconAngle)
                     .modifier(RoundIcon())
             }
             .accessibilityLabel(remoteText)
@@ -371,6 +386,7 @@ private struct CameraScreen: View {
                 } label: {
                     Image(systemName: "paintbrush.pointed.fill")
                         .foregroundStyle(.white)
+                        .rotationEffect(iconAngle)
                         .modifier(RoundIcon())
                 }
                 .accessibilityLabel(String(localized: "Banner Design"))
@@ -383,6 +399,7 @@ private struct CameraScreen: View {
             } label: {
                 Image(systemName: showOptions ? "chevron.up" : "slider.horizontal.3")
                     .foregroundStyle(hasActiveOptions ? Color.yellow : Color.white)
+                    .rotationEffect(iconAngle)
                     .modifier(RoundIcon())
             }
             .accessibilityLabel(String(localized: "Shooting options"))
@@ -537,6 +554,7 @@ private struct CameraScreen: View {
     private var bottomBar: some View {
         HStack {
             LastCaptureButton(thumbnail: camera.lastThumbnail) { showGallery = true }
+                .rotationEffect(iconAngle)
             Spacer()
             ShutterButton(mode: camera.mode,
                           isRecording: camera.isBusy,
@@ -551,6 +569,7 @@ private struct CameraScreen: View {
                 Image(systemName: "arrow.triangle.2.circlepath.camera")
                     .font(.title2)
                     .foregroundStyle(.white)
+                    .rotationEffect(iconAngle)
                     .frame(width: 56, height: 56)
                     .background(Color.black.opacity(0.4), in: Circle())
             }
@@ -566,6 +585,23 @@ private struct CameraScreen: View {
         remote.connectedRemotes > 0
             ? String(localized: "\(remote.connectedRemotes) remote connected")
             : remote.bluetoothState
+    }
+}
+
+/// Lays its content out in a box the shape of the scene: with the phone on its side the box swaps width and height
+/// and turns, so "top" stays at the top of what the camera sees.
+private struct UprightBox: ViewModifier {
+    let turn: DeviceTurn
+
+    func body(content: Content) -> some View {
+        GeometryReader { proxy in
+            let size = proxy.size
+            content
+                .frame(width: turn.isSideways ? size.height : size.width,
+                       height: turn.isSideways ? size.width : size.height)
+                .rotationEffect(turn.angle)
+                .frame(width: size.width, height: size.height)
+        }
     }
 }
 

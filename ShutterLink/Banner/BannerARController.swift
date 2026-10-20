@@ -331,13 +331,14 @@ final class BannerARController: NSObject, ARSessionDelegate, UIGestureRecognizer
 
     // MARK: Capture
 
-    func capture() {
+    /// `turn` is how the phone is held: the snapshot of the portrait screen is turned so the scene is upright.
+    func capture(turn: DeviceTurn) {
         guard let arView else { return }
         arView.snapshot(saveToHDR: false) { [weak self] image in
             guard let self, let image else { return }
             Task { @MainActor in
                 // ShutterLink's camera saves it like any other shot: Photos, the gallery, a copy to the remote.
-                if let data = image.jpegData(compressionQuality: 0.92) {
+                if let data = image.upright(for: turn).jpegData(compressionQuality: 0.92) {
                     self.onCapture?(data)
                 }
             }

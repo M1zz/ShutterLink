@@ -30,8 +30,11 @@ final class BannerSession {
         camera.onBannerShot = { [weak self] in self?.shoot() }
         camera.onBannerEnd = { [weak self] in self?.stop() }
         controller.onCapture = { [weak camera] data in camera?.addBannerPhoto(data) }
-        // Portrait-only app: the sensor image is rotated a quarter turn from upright.
-        controller.onFrame = { [weak camera] buffer in camera?.analyzeBannerFrame(buffer, orientation: .right) }
+        // Portrait-only app: the sensor image is turned from upright by however the phone is held.
+        controller.onFrame = { [weak camera] buffer in
+            guard let camera else { return }
+            camera.analyzeBannerFrame(buffer, orientation: camera.turn.arFrameOrientation)
+        }
         controller.onAudio = { [weak camera] buffer in camera?.analyzeBannerAudio(buffer) }
     }
 
@@ -52,20 +55,21 @@ final class BannerSession {
 
     private func shoot() {
         AudioServicesPlaySystemSound(1108) // shutter
-        controller.capture()
+        controller.capture(turn: camera?.turn ?? .portrait)
     }
 
     /// The remote sees the banner too: a small snapshot of the AR view, only while someone is watching.
     private func sendPreviewFrame() {
         guard let camera, camera.previewDemand, !isSendingPreview, let arView = controller.arView else { return }
         isSendingPreview = true
+        let turn = camera.turn
         arView.snapshot(saveToHDR: false) { [weak self] image in
             guard let image else {
                 self?.isSendingPreview = false
                 return
             }
             Task.detached(priority: .utility) {
-                let jpeg = Self.previewJPEG(image)
+                let jpeg = Self.previewJPEG(image.upright(for: turn))
                 await MainActor.run {
                     self?.isSendingPreview = false
                     if let jpeg { self?.camera?.addBannerPreviewFrame(jpeg) }

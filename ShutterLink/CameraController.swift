@@ -38,6 +38,8 @@ final class CameraController: NSObject, ObservableObject, @unchecked Sendable {
     @Published private(set) var faces = 0
     @Published private(set) var edgeWarning = false
     @Published private(set) var tilt: Int?
+    /// Which way the phone is held; icons turn with it and banner shots are saved upright.
+    @Published private(set) var turn = DeviceTurn.portrait
     /// Short message shown over the viewfinder (e.g. "Best shot picked").
     @Published private(set) var toast: String?
     @Published var alertMessage: String?
@@ -155,6 +157,7 @@ final class CameraController: NSObject, ObservableObject, @unchecked Sendable {
             DispatchQueue.main.async { self?.autoTrigger() }
         }
         levelMonitor.onChange = { [weak self] value in self?.tilt = value }
+        levelMonitor.onTurn = { [weak self] value in self?.turn = value }
     }
 
     // MARK: Lifecycle
@@ -980,6 +983,7 @@ extension CameraController {
         timerSeconds = 10
         autoCapture = .palm
         lastThumbnail = DemoMode.sceneImage(width: 180)
+        if ProcessInfo.processInfo.arguments.contains("-landscape") { turn = .landscapeLeft }
         switch screen {
         case "countdown":
             countdown = 3
