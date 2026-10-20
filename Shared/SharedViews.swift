@@ -406,10 +406,14 @@ struct LevelIndicator: View {
             let isLevel = abs(tilt) <= 1
             HStack(spacing: 10) {
                 Capsule().frame(width: 36, height: 2)
-                Text(isLevel ? String(localized: "Level") : "\(tilt)°")
-                    .font(.body.weight(.semibold).monospacedDigit())
+                // Level shows only the line; tilted shows the angle.
+                if !isLevel {
+                    Text("\(tilt)°")
+                        .font(.body.weight(.semibold).monospacedDigit())
+                }
                 Capsule().frame(width: 36, height: 2)
             }
+            .frame(minHeight: 24)
             .foregroundStyle(isLevel ? Color.green : Color.white)
             .rotationEffect(.degrees(Double(-tilt)))
             .padding(.horizontal, 10)
@@ -422,39 +426,40 @@ struct LevelIndicator: View {
     }
 }
 
-/// People counter and "someone is cut off" warning for group photos.
+/// People counter and "someone is cut off" warning for group photos — symbols and a number, no words.
+/// Someone at the edge turns the counter yellow with a warning sign.
 struct SceneBadges: View {
     let faces: Int
     let edgeWarning: Bool
     let autoCapture: AutoCapture
 
     var body: some View {
-        VStack(spacing: 6) {
-            HStack(spacing: 8) {
-                Label(String(localized: "\(faces) in frame"), systemImage: "person.2.fill")
-                    .font(.body.weight(.semibold))
-                    .padding(.horizontal, 12)
-                    .padding(.vertical, 6)
-                    .background(Color.black.opacity(0.5), in: Capsule())
-                if autoCapture != .off {
-                    Label(autoCapture.title, systemImage: autoCapture.symbol)
-                        .font(.body.weight(.semibold))
-                        .foregroundStyle(.yellow)
-                        .padding(.horizontal, 12)
-                        .padding(.vertical, 6)
-                        .background(Color.black.opacity(0.5), in: Capsule())
+        HStack(spacing: 8) {
+            HStack(spacing: 6) {
+                Image(systemName: "person.2.fill")
+                Text("\(faces)")
+                    .monospacedDigit()
+                if edgeWarning {
+                    Image(systemName: "exclamationmark.triangle.fill")
                 }
             }
-            if edgeWarning {
-                Label(String(localized: "Someone is at the edge of the frame"), systemImage: "exclamationmark.triangle.fill")
+            .font(.body.weight(.semibold))
+            .foregroundStyle(edgeWarning ? Color.black : Color.white)
+            .padding(.horizontal, 12)
+            .padding(.vertical, 6)
+            .background(edgeWarning ? Color.yellow : Color.black.opacity(0.5), in: Capsule())
+            .accessibilityElement(children: .ignore)
+            .accessibilityLabel(String(localized: "\(faces) in frame"))
+            .accessibilityValue(edgeWarning ? String(localized: "Someone is at the edge of the frame") : "")
+            if autoCapture != .off {
+                Image(systemName: autoCapture.symbol)
                     .font(.body.weight(.semibold))
-                    .foregroundStyle(.black)
-                    .padding(.horizontal, 12)
-                    .padding(.vertical, 6)
-                    .background(Color.yellow, in: Capsule())
+                    .foregroundStyle(.yellow)
+                    .frame(width: 34, height: 34)
+                    .background(Color.black.opacity(0.5), in: Circle())
+                    .accessibilityLabel(autoCapture.title)
             }
         }
-        .foregroundStyle(.white)
         .allowsHitTesting(false)
     }
 }

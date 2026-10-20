@@ -822,16 +822,6 @@
         }
       }
     },
-    "Drag the banner to move it, or use Adjust Position below.": {
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "현수막을 끌어서 옮기거나, 아래 위치 조정으로 맞춰 보세요."
-          }
-        }
-      }
-    },
     "Drag to slide the banner across the floor.": {
       "localizations": {
         "ko": {

@@ -34,7 +34,7 @@ ShutterLink: 현수막 단체사진
 문구를 적고 테마를 고르면 화면 속 현수막이 모두의 앞에 걸리고, 친구 iPhone이 설치 없이 리모컨이 됩니다.
 
 현수막 모드
-카메라 화면에서 현수막을 고르고 바닥을 탭하면, 사람들이 들고 있는 높이에 현수막이 놓입니다. 벽을 탭하면 벽에 붙습니다. 손가락으로 끌어 옮기고, 두 손가락으로 돌리거나 크기를 바꿉니다. 위치 조정 패널로 앞뒤, 좌우, 높이, 방향을 조금씩 맞출 수도 있습니다.
+카메라 화면에서 현수막을 고르고 바닥을 탭하면, 사람들이 들고 있는 높이에 현수막이 놓입니다. 벽을 탭하면 벽에 붙습니다. 손가락으로 끌면 위아래, 좌우로 손가락을 따라오고, 두 손가락으로 돌리거나 크기를 바꿉니다. 이동 버튼을 누르면 앞뒤, 좌우, 높이, 방향을 조금씩 맞출 수 있습니다.
 현수막은 늘 사람들 앞에 보여서, 다 같이 펼쳐 든 것처럼 찍힙니다.
 
 내 모임에 맞는 디자인
@@ -122,7 +122,7 @@ Take the classic "everyone holding the banner" group photo, without printing a b
 Write your words, pick a theme, and a banner appears in front of your group. A friend's iPhone becomes the remote, with nothing to install.
 
 Banner mode
-Switch to Banner, tap the ground, and the banner appears at the height people would hold it. Tap a wall to hang it there instead. Drag it to move it, and use two fingers to turn or resize it. The Adjust Position panel lets you fine tune it forward, back, side to side, up and down.
+Switch to Banner, tap the ground, and the banner appears at the height people would hold it. Tap a wall to hang it there instead. Drag it up, down or sideways and it follows your finger. Use two fingers to turn or resize it, or tap the move button to fine tune it forward, back, side to side, up and down.
 The banner always stays in front of your group, so it looks like everyone is holding it up together.
 
 Make it yours

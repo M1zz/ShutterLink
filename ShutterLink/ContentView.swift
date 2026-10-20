@@ -31,7 +31,6 @@ private struct CameraScreen: View {
     /// Banner mode swaps the viewfinder for the AR scene in place; the design survives leaving the mode.
     @State private var banner = BannerSession()
     @State private var showBannerDesign = false
-    @State private var showBannerHint = true
     @State private var showExposure = false
     /// Shooting options stay folded behind one button until asked for.
     @State private var showOptions = false
@@ -82,7 +81,7 @@ private struct CameraScreen: View {
         .animation(.easeInOut(duration: 0.2), value: showOptions)
         .animation(.easeInOut(duration: 0.2), value: showZoomPresets)
         .animation(.easeInOut(duration: 0.2), value: camera.mode)
-        .animation(.easeInOut(duration: 0.2), value: showBannerHint)
+        .animation(.easeInOut(duration: 0.2), value: banner.controller.isPlaced)
         .animation(.easeInOut(duration: 0.2), value: banner.controller.isAdjusting)
         .sheet(isPresented: $showPairing) {
             PairingSheet(url: model.invocationURL, code: model.sessionCode, remote: remote)
@@ -119,13 +118,6 @@ private struct CameraScreen: View {
         .onChange(of: remote.connectedRemotes) { oldValue, newValue in
             // Close the QR sheet automatically once a remote pairs.
             if newValue > oldValue { showPairing = false }
-        }
-        .task(id: banner.controller.isPlaced) {
-            // Placing the banner swaps the hint for the gesture tips, which fade after a few seconds.
-            showBannerHint = true
-            guard banner.controller.isPlaced else { return }
-            try? await Task.sleep(for: .seconds(4))
-            showBannerHint = false
         }
         .onAppear {
             banner.connect(camera)
@@ -247,8 +239,18 @@ private struct CameraScreen: View {
             }
             if let toast = camera.toast {
                 ToastView(message: toast)
-            } else if bannerMode, showBannerHint, Self.demoScreen?.hasPrefix("banner") != true {
-                ToastView(message: banner.controller.status)
+            } else if bannerMode, let problem = banner.controller.problem {
+                ToastView(message: problem)
+            } else if bannerMode, !bannerPlaced {
+                // Before placing: a tapping hand says "tap the floor or a wall".
+                Image(systemName: "hand.tap.fill")
+                    .font(.title)
+                    .foregroundStyle(.white)
+                    .frame(width: 56, height: 56)
+                    .background(.ultraThinMaterial, in: Circle())
+                    .symbolEffect(.pulse)
+                    .allowsHitTesting(false)
+                    .accessibilityLabel(String(localized: "Tap the floor or a wall to place the banner"))
             }
         }
     }
@@ -261,14 +263,12 @@ private struct CameraScreen: View {
                     Button {
                         banner.controller.isAdjusting = true
                     } label: {
-                        Label("Adjust Position", systemImage: "arrow.up.and.down.and.arrow.left.and.right")
-                            .font(.body.weight(.semibold))
+                        Image(systemName: "arrow.up.and.down.and.arrow.left.and.right")
                             .foregroundStyle(.white)
-                            .padding(.horizontal, 14)
-                            .padding(.vertical, 8)
-                            .background(Color.black.opacity(0.5), in: Capsule())
+                            .modifier(RoundIcon())
                     }
                     .buttonStyle(.plain)
+                    .accessibilityLabel(String(localized: "Adjust Position"))
                 }
             }
         } else {

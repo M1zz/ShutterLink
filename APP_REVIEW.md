@@ -104,7 +104,7 @@ Thank you for your earlier feedback. Since our last submission we have substanti
 How to test (one iPhone is enough for Banner mode; iOS 17 or later):
 1. Open ShutterLink and allow Camera, Microphone, Bluetooth and Photos access.
 2. In the mode row above the shutter, choose Banner. Tap the brush button at the top right to edit the text or pick a theme, then tap Done.
-3. Point the camera at the floor a few meters away and tap it. The banner appears. Drag it, or use Adjust Position.
+3. Point the camera at the floor a few meters away and tap it. The banner appears. Drag it to move it up, down or sideways, or tap the four-arrow button to fine tune it.
 4. Press the shutter, or set a 3 second timer and raise your palm toward the camera.
 Remote (optional, needs a second iPhone): tap the phone symbol at the top left of the camera iPhone, scan the QR code with the other iPhone's Camera and tap Open on the App Clip card. The App Clip can also be opened at https://m1zz.github.io/ShutterLink/r?c=<code>, or by entering the 4-digit code.
 

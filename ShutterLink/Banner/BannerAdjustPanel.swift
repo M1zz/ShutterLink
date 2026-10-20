@@ -10,14 +10,12 @@ struct BannerAdjustPanel: View {
             HStack(alignment: .center, spacing: 14) {
                 MovePad { right, away in controller.nudge(right: right, away: away) }
                 VStack(spacing: 2) {
-                    if controller.isOnFloor {
-                        sliderRow(systemImage: "arrow.up.and.down",
-                                  label: String(localized: "Height above floor"),
-                                  value: Binding(get: { controller.holdHeight },
-                                                 set: { controller.updateHoldHeight($0) }),
-                                  range: 0.3 ... 2.0,
-                                  text: String(format: "%.1fm", controller.holdHeight))
-                    }
+                    // On a wall or in the air there is no floor to measure from, so it shows the shift instead.
+                    sliderRow(systemImage: "arrow.up.and.down",
+                              label: String(localized: "Height above floor"),
+                              value: Binding(get: { controller.lift }, set: { controller.setLift($0) }),
+                              range: controller.liftRange,
+                              text: String(format: controller.isOnFloor ? "%.1fm" : "%+.1fm", controller.lift))
                     sliderRow(systemImage: "arrow.triangle.2.circlepath",
                               label: String(localized: "Direction"),
                               value: Binding(get: { controller.turnDegrees }, set: { controller.setTurn($0) }),
@@ -34,20 +32,23 @@ struct BannerAdjustPanel: View {
                 Button {
                     controller.faceCamera()
                 } label: {
-                    Label("Face Me", systemImage: "camera.viewfinder")
-                        .font(.body.weight(.semibold))
+                    Image(systemName: "camera.viewfinder")
+                        .font(.title3)
+                        .frame(width: 44, height: 36)
+                        .background(Color.white.opacity(0.12), in: Capsule())
                 }
+                .accessibilityLabel(String(localized: "Face Me"))
                 Spacer()
                 Button {
                     controller.isAdjusting = false
                 } label: {
-                    Text("Done")
-                        .font(.body.weight(.semibold))
+                    Image(systemName: "checkmark")
+                        .font(.title3.weight(.bold))
                         .foregroundStyle(.black)
-                        .padding(.horizontal, 16)
-                        .padding(.vertical, 6)
+                        .frame(width: 56, height: 36)
                         .background(Color.yellow, in: Capsule())
                 }
+                .accessibilityLabel(String(localized: "Done"))
             }
             .buttonStyle(.plain)
         }
