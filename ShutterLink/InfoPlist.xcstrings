@@ -1,103 +1,133 @@
 {
-  "sourceLanguage": "en",
-  "strings": {
-    "CFBundleDisplayName": {
-      "comment": "Bundle display name",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ShutterLink"
+  "sourceLanguage" : "en",
+  "strings" : {
+    "CFBundleDisplayName" : {
+      "comment" : "Bundle display name",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ShutterLink"
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
           }
         }
       }
     },
-    "CFBundleName": {
-      "comment": "Bundle name",
-      "extractionState": "extracted_with_value",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "new",
-            "value": "ShutterLink"
+    "CFBundleName" : {
+      "comment" : "Bundle name",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "ShutterLink"
           }
         }
       }
     },
-    "NSBluetoothAlwaysUsageDescription": {
-      "comment": "Privacy - Bluetooth Always Usage Description",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ShutterLink uses Bluetooth so a nearby iPhone can act as a remote shutter."
+    "NSBluetoothAlwaysUsageDescription" : {
+      "comment" : "Privacy - Bluetooth Always Usage Description",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink uses Bluetooth so a nearby iPhone can act as a remote shutter."
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "주변 iPhone을 리모컨 셔터로 쓰기 위해 Bluetooth를 사용합니다."
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "주변 iPhone을 리모컨 셔터로 쓰기 위해 Bluetooth를 사용합니다."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "近くのiPhoneをリモコンシャッターとして使うために、Bluetoothを使用します。"
           }
         }
       }
     },
-    "NSCameraUsageDescription": {
-      "comment": "Privacy - Camera Usage Description",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ShutterLink uses the camera to take photos and videos, and to place an AR banner in the scene."
+    "NSCameraUsageDescription" : {
+      "comment" : "Privacy - Camera Usage Description",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink uses the camera to take photos and videos, and to place an AR banner in the scene."
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "사진과 동영상을 촬영하고, AR 현수막를 화면에 띄우기 위해 카메라를 사용합니다."
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사진과 동영상을 촬영하고, AR 현수막를 화면에 띄우기 위해 카메라를 사용합니다."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真やビデオを撮影し、ARの横断幕を画面に表示するために、カメラを使用します。"
           }
         }
       }
     },
-    "NSMicrophoneUsageDescription": {
-      "comment": "Privacy - Microphone Usage Description",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ShutterLink records audio with your videos and listens for a clap when Clap shutter is on."
+    "NSMicrophoneUsageDescription" : {
+      "comment" : "Privacy - Microphone Usage Description",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink records audio with your videos and listens for a clap when Clap shutter is on."
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "동영상 소리 녹음과 박수 셔터를 위해 마이크를 사용합니다."
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "동영상 소리 녹음과 박수 셔터를 위해 마이크를 사용합니다."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ビデオの音声を録音し、拍手シャッターを使うために、マイクを使用します。"
           }
         }
       }
     },
-    "NSPhotoLibraryAddUsageDescription": {
-      "comment": "Privacy - Photo Library Additions Usage Description",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ShutterLink saves your photos and videos to your library."
+    "NSPhotoLibraryAddUsageDescription" : {
+      "comment" : "Privacy - Photo Library Additions Usage Description",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink saves your photos and videos to your library."
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "촬영한 사진과 동영상을 사진 보관함에 저장합니다."
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "촬영한 사진과 동영상을 사진 보관함에 저장합니다."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "撮影した写真やビデオを写真ライブラリに保存します。"
           }
         }
       }
     }
   },
-  "version": "1.0"
+  "version" : "1.0"
 }

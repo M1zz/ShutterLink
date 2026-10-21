@@ -38,6 +38,17 @@ CAPTIONS = {
   ("08-pairing", "07-pairing", "Show the QR and you're ready", "No account, no pairing, no extra hardware"),
   ("09-simple", "06-simple", "Big buttons for everyone", "One large shutter anyone can press"),
  ],
+ "ja": [
+  ("01-banner", "banner", "横断幕なしで横断幕の集合写真", "床をタップすると、みんなの前に横断幕が置かれます"),
+  ("02-banner-design", "bannerDesign", "テーマを選んで文字を入れるだけ", "同窓会、パーティー、卒業など13種類のテーマ"),
+  ("03-remote", "02-remote", "どのiPhoneもリモコンに", "QRコードを読み取るだけ。インストール不要"),
+  ("04-countdown", "04-countdown", "手のひらをかざして撮影", "手のひら、拍手、笑顔で撮影。音声と光のカウントダウン付き"),
+  ("05-bestshot", "01-main", "目を閉じた写真とさよなら", "連写から、全員が目を開けている1枚を選びます"),
+  ("06-reviews", "03-reviews", "撮った写真はリモコンにも届く", "アプリのないお友だちも保存・共有できます"),
+  ("07-gallery", "05-gallery", "ベストショットをまとめて見る", "別のコマに差し替えて、AirDropで共有"),
+  ("08-pairing", "07-pairing", "QRを見せれば準備完了", "アカウントもペアリング設定も追加の機器も不要です"),
+  ("09-simple", "06-simple", "だれでも押せる大きなボタン", "大きなシャッターボタンがひとつだけ"),
+ ],
 }
 
 def font(size, bold):

@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ShutterLink プライバシーポリシー</title>
+<meta name="description" content="ShutterLinkおよびShutterLinkリモコン（Appクリップ）のプライバシーポリシーです。">
+<link rel="icon" href="../../icon.png">
+<link rel="canonical" href="https://m1zz.github.io/ShutterLink/ja/privacy/">
+<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/privacy/">
+<link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/privacy/">
+<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/privacy/">
+<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/privacy/">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<nav class="nav">
+  <a class="brand" href="../"><img src="../../icon.png" alt="">ShutterLink</a>
+  <a href="../">アプリについて</a>
+  <a href="../support/">サポート</a>
+  <a href="./" aria-current="page">プライバシーポリシー</a>
+  <a href="../../privacy/" hreflang="ko" lang="ko">한국어</a>
+  <a href="../../en/privacy/" hreflang="en" lang="en">English</a>
+</nav>
+<main class="doc">
+  <h1>プライバシーポリシー</h1>
+  <p class="meta">施行日：2026年10月16日 &middot; ShutterLink（iPhoneアプリ）およびShutterLinkリモコン（Appクリップ）に適用されます</p>
+
+  <section class="panel">
+    <h2>概要</h2>
+    <p><strong>ShutterLinkは、お名前や連絡先、位置情報、写真などの個人情報を収集しません。</strong>
+      開発者が運営するサーバーも、アカウントも、広告や追跡ツールもありません。
+      撮影した写真やビデオは、撮影したiPhoneの写真ライブラリにのみ保存され、2台のiPhoneはBluetoothで直接やり取りします。
+      利用状況の把握と不具合の修正のため、匿名の利用統計とクラッシュレポートだけをAppleのiCloudに送信します（第4項）。</p>
+  </section>
+
+  <section class="panel">
+    <h2>1. 2台のiPhoneがやり取りする内容</h2>
+    <p>撮影側のiPhone（ShutterLink）とリモコン側のiPhone（ShutterLinkリモコン）は、近距離でBluetooth Low Energyにより直接つながります。
+      インターネットや外部のサーバーは経由しません。</p>
+    <div class="table-wrap">
+      <table>
+        <tr><th>方向</th><th>内容</th><th>目的</th></tr>
+        <tr><td>リモコン &rarr; カメラ</td><td>4桁のペアリングコード、シャッター・録画・タイマー・ズーム・カメラ切り替えの操作</td><td>接続の確認と撮影の操作</td></tr>
+        <tr><td>カメラ &rarr; リモコン</td><td>撮影モード、録画時間、タイマー、ズーム倍率などの状態</td><td>リモコンでの状態表示</td></tr>
+        <tr><td>カメラ &rarr; リモコン</td><td>低解像度のプレビュー映像（カメラが見ている映像）</td><td>リモコンでの構図の確認</td></tr>
+      </table>
+    </div>
+    <p>プレビューは接続中にだけリアルタイムで送られ、リモコン側には保存されません。
+      ペアリングコードはアプリを起動するたびに新しく作られ、コードを知っているリモコンだけが操作とプレビューの受信を行えます。</p>
+  </section>
+
+  <section class="panel">
+    <h2>2. 使用する権限</h2>
+    <ul>
+      <li><strong>カメラ</strong>（ShutterLink）&mdash; 写真やビデオを撮影するため。</li>
+      <li><strong>マイク</strong>（ShutterLink）&mdash; ビデオの音声を録音するため。</li>
+      <li><strong>写真への追加</strong>（ShutterLink）&mdash; 撮影した写真やビデオを保存するため。
+        追加のみの権限で、すでにある写真を読み取ることはありません。</li>
+      <li><strong>Bluetooth</strong>（ShutterLinkとShutterLinkリモコン）&mdash; 2台のiPhoneを接続するため。</li>
+    </ul>
+    <p>これらの権限は、iPhoneの「設定」アプリからいつでもオフにできます。その権限が必要な機能だけが使えなくなります。</p>
+  </section>
+
+  <section class="panel">
+    <h2>3. 端末に保存される情報</h2>
+    <p>ShutterLinkが保存するコンテンツは、撮影した写真とビデオだけで、撮影したiPhoneの写真ライブラリに保存されます。
+      そのほか、アプリを開いた回数や初回インストール日などの値を端末内に保持します。これらは下記の匿名の利用統計にのみ使われます。ShutterLinkリモコンは何も保存しません。</p>
+  </section>
+
+  <section class="panel">
+    <h2>4. 匿名の利用統計</h2>
+    <p>どのくらいの方に使われているかを把握し、不具合を直すため、ShutterLinkは次の匿名の統計をAppleのiCloud（CloudKit）に送信します。閲覧できるのは開発者のみです。</p>
+    <ul>
+      <li>インストール時に作られるランダムなID（端末、Apple ID、ほかのアプリとは結び付いておらず、再インストールすると変わります）</li>
+      <li>アプリのバージョン、iOSのバージョン、地域と言語の設定</li>
+      <li>アプリを開いた回数と日、インストール日、インストールからの日数</li>
+      <li>クラッシュやフリーズのレポート（アプリのバージョン、iOSのバージョン、機種、エラーの技術的な詳細）</li>
+    </ul>
+    <p>お名前、連絡先、位置情報、写真、ビデオ、ライブプレビューは一切含まれません。送信されるのは、iCloudにサインインしているときだけです。
+      ShutterLinkリモコン（Appクリップ）は何も送信しません。</p>
+  </section>
+
+  <section class="panel">
+    <h2>5. Appクリップ</h2>
+    <p>ShutterLinkリモコンはAppクリップなので、QRコードを読み取るとインストールなしで開きます。Appクリップのダウンロードは、
+      <a href="https://www.apple.com/legal/privacy/">Appleプライバシーポリシー</a>に基づいてAppleが行います。
+      QRコードのアドレスに含まれるのは、4桁のペアリングコードだけです。</p>
+  </section>
+
+  <section class="panel">
+    <h2>6. このウェブサイト</h2>
+    <p>アプリについて、サポート、プライバシーポリシーの各ページはGitHub Pagesで公開しています。ページを開くと、
+      <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub一般プライバシーステートメント</a>に基づき、GitHubがIPアドレスなどのアクセスログを処理することがあります。
+      このサイトでは、Cookieや解析スクリプトは使用しません。</p>
+  </section>
+
+  <section class="panel">
+    <h2>7. お子さまのプライバシー</h2>
+    <p>本アプリは、お子さまを含め、だれの個人情報も収集しません。</p>
+  </section>
+
+  <section class="panel">
+    <h2>8. 変更について</h2>
+    <p>本ポリシーを変更する場合は、このページと上記の施行日を更新します。アプリが情報を収集するようになる変更の場合は、施行前にこのページとアプリのアップデート内容でお知らせします。</p>
+  </section>
+
+  <section class="panel">
+    <h2>9. お問い合わせ</h2>
+    <p>プライバシーに関するご質問は、<a href="https://github.com/M1zz/ShutterLink/issues">GitHub Issues</a>からお寄せください。</p>
+  </section>
+
+  <footer>
+    <span><a href="../">アプリについて</a></span><span><a href="../support/">サポート</a></span>
+  </footer>
+</main>
+</body>
+</html>

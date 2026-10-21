@@ -1,7 +1,7 @@
 #!/bin/zsh
 # 실제 앱 화면으로 App Store 스크린샷 원본을 찍는다 (Debug 빌드의 -screenshots 모드, Shared/DemoMode.swift).
 # 실행: scripts/screens/capture_simulator.sh [시뮬레이터 UDID]   (레포 최상단에서)
-# 출력: scripts/screens/build/sim/{ko,en}_<화면>.png → compose_simulator.py 가 docs/screenshots/marketing 으로 합성
+# 출력: scripts/screens/build/sim/{ko,en,ja}_<화면>.png → compose_simulator.py 가 docs/screenshots/marketing 으로 합성
 set -u
 ROOT=${0:A:h:h:h}
 OUT=$ROOT/scripts/screens/build/sim
@@ -25,7 +25,7 @@ shot() { # lang bundle screen name [launch args...]
 }
 
 xcrun simctl install $D $P/ShutterLink.app
-for L in ko en; do
+for L in ko en ja; do
   shot $L com.devkoan.shutterlink main 01-main -hasSeenOnboarding YES
   shot $L com.devkoan.shutterlink banner banner -hasSeenOnboarding YES
   shot $L com.devkoan.shutterlink cloth cloth -hasSeenOnboarding YES
@@ -40,7 +40,7 @@ done
 # 부모 앱이 깔려 있으면 시뮬레이터가 App Clip 을 지운다 — 부모 앱을 내리고 App Clip 만 설치.
 xcrun simctl uninstall $D com.devkoan.shutterlink
 xcrun simctl install $D $P/ShutterLinkClip.app
-for L in ko en; do
+for L in ko en ja; do
   shot $L com.devkoan.shutterlink.Clip remote 02-remote -simpleMode NO
   shot $L com.devkoan.shutterlink.Clip reviews 03-reviews -simpleMode NO
   shot $L com.devkoan.shutterlink.Clip simple 06-simple -simpleMode YES

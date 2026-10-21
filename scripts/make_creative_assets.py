@@ -22,8 +22,8 @@ RAW = ROOT / "docs" / "screenshots" / "raw"
 OUT = ROOT / "docs" / "screenshots" / "creative"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
-# 앱 언어 코드 → App Store Connect 로케일 (deploy.env LOCALES=ko,en-US)
-STORE = {"en": "en-US"}
+# 앱 언어 코드 → App Store Connect 로케일 (deploy.env LOCALES=ko,en-US,ja)
+STORE = {"en": "en-US", "ja": "ja"}
 
 # (가로, 세로, 안전 영역 left, top, right, bottom)
 SPEC = {
@@ -36,6 +36,7 @@ SPEC = {
 SEARCH = {
     "ko": ("단체사진 현수막", "현수막 든 단체사진<br>현수막 없이", "바닥을 탭하면 모두의 앞에 현수막이 놓여요"),
     "en": ("Group photo banner", "The banner photo,<br>no printing", "Tap the ground and everyone's holding it"),
+    "ja": ("集合写真 横断幕", "横断幕なしで<br>横断幕の集合写真", "床をタップすると、みんなの前に横断幕が置かれます"),
 }
 
 # 헤더는 한 가지 약속: 우리 모임 현수막을 들고 찍는 단체사진.
@@ -43,6 +44,7 @@ SEARCH = {
 HEADER = {
     "ko": ("현수막 단체사진", "우리 모임 현수막,<br>화면에 띄워 찰칵"),
     "en": ("Group photo banner", "Your banner,<br>in every group shot"),
+    "ja": ("集合写真 横断幕", "みんなの横断幕を<br>そのまま写真に"),
 }
 
 # ⚠️ 바탕 · 글자색은 마케팅 스크린샷(scripts/screens/make_marketing_screenshots.py)과 같다.
