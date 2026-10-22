@@ -1286,6 +1286,88 @@ https://m1zz.github.io/ShutterLink/cs/privacy/
 
 https://m1zz.github.io/ShutterLink/cs/
 
+## da
+
+<!-- Dansk -->
+
+### 이름
+
+ShutterLink: bannerfoto
+
+### 부제
+
+Fjernbetjening uden download
+
+### 키워드
+
+gensyn,fest,hold,begivenhed,familie,selfie,stativ,timer,AR,fotoboks,smil,klap,håndflade,bluetooth
+
+### 프로모션 텍스트
+
+Sæt et eget banner ind i gruppebilledet uden at printe. Skriv din tekst, vælg et tema, og alle holder det. En vens iPhone bliver fjernbetjening med ét QR-scan.
+
+### 설명
+
+Tag det klassiske gruppebillede, hvor alle holder et banner, uden at printe et banner.
+Skriv din tekst, vælg et tema, og et banner dukker op foran din gruppe. En vens iPhone bliver fjernbetjening uden installation.
+
+Bannertilstand
+Skift til Banner, tryk på gulvet, og banneret dukker op i den højde, folk ville holde det. Tryk på en væg for at hænge det op der i stedet. Træk det op, ned eller til siden, så følger det din finger. Brug to fingre til at dreje eller ændre størrelsen, eller tryk på flytteknappen for at finjustere frem, tilbage, til siden, op og ned.
+Banneret bliver altid foran din gruppe, så det ser ud, som om alle holder det sammen.
+
+Gør det til dit eget
+Start med et af 13 temaer, blandt andet efterårstur, forårspicnic, strand, nytårsfest, fødselsdag, idrætsdag, heppekor, eksamensfest, bryllup og teamudflugt.
+Skriv op til tre linjer tekst. Skift baggrund, skrifttype, pynt, farver og form, og tilføj dit eget logo.
+Vælg stof, vinyl eller papir. Et stofbanner hænger, krøller og svajer i vinden som et rigtigt.
+
+Alle kommer med på billedet
+Timer, håndfri udløser og fjernbetjening virker i Bannertilstand. Sæt telefonen på et stativ, og stil dig med i gruppen. Billeder gemmes i Fotos og i galleriet i appen.
+
+En fjernbetjening uden installation
+Vis QR-koden på kamera-iPhonen, og scan den med en anden iPhones kamera. ShutterLink-fjernbetjeningen åbner med det samme som App Clip og opretter forbindelse. Ram billedet ind i live-visningen, og tryk på udløseren. I Bannertilstand ses banneret også i live-visningen. Kan QR-koden ikke scannes, kan du indtaste den firecifrede kode i stedet.
+
+Håndfri udløser
+Løft håndfladen, smil sammen, eller klap, så udløses billedet.
+Indstil en timer fra 3 til 30 sekunder. En stemme tæller ned, blitzen blinker med, og fjernbetjeningen vibrerer i din hånd.
+En stemmebesked “Kig på kameraet” samler alles opmærksomhed.
+
+Ingen blinker
+Tag en serie på 3 eller 5 billeder, og ShutterLink vælger det, hvor alle har øjnene åbne og smiler. Filtrér galleriet til de bedste billeder, eller vælg selv et andet.
+
+Ingen bliver skåret af
+Se, hvor mange personer der er i billedet, og få en advarsel, når nogen er i kanten. Et vaterpas dukker op, når iPhonen vipper.
+
+Billeder lander på fjernbetjeningen
+Hvert billede, du tager, vises med det samme på fjernbetjenings-iPhonen. En ven uden appen kan gemme og dele det på stedet.
+
+Fuld kamerastyring fra fjernbetjeningen
+Tryk for at fokusere og eksponere, eksponeringskompensation, blitz og lys, gitter, zoom fra 0,5× til 10× afhængigt af din iPhone, for- og bagkamera og video.
+Intervaloptagelse hver 3. sekund op til 1 minut til solnedgange eller projekter undervejs.
+En enkel tilstand på fjernbetjeningen viser én stor udløserknap, som alle kan trykke på.
+
+Direkte Bluetooth, uden internet
+De to iPhones forbindes direkte via Bluetooth. Når de er forbundet, virker det på bjerget, ved stranden eller i udlandet uden Wi‑Fi eller mobildata. Du behøver ingen konto.
+
+Dine billeder bliver hos dig
+Billeder og videoer bliver på kamera-iPhonen og den fjernbetjening, du har forbundet, og uploades aldrig. Parringskoden ændres, hver gang du åbner appen, så kun en fjernbetjening, der kender den, kan udløse billedet.
+
+Godt at vide
+Kræver iOS 17 eller nyere. Fjernbetjeningen kræver en anden iPhone.
+Fjernbetjenings-iPhonen skal have internet én gang, første gang den henter App Clip’en.
+Blitz, serier, zoom og frontkameraet er ikke tilgængelige i Bannertilstand.
+
+### 지원 URL
+
+https://m1zz.github.io/ShutterLink/da/support/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/ShutterLink/da/privacy/
+
+### 마케팅 URL
+
+https://m1zz.github.io/ShutterLink/da/
+
 ## 연령 등급
 
 <!-- 내용 문항이 전부 '해당 없음' 인 앱이면 아래 줄의 주석을 풀어라.

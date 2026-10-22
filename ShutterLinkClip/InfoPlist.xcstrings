@@ -93,6 +93,12 @@
             "state" : "translated",
             "value" : "Ovladač ShutterLink"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink-fjernbetjening"
+          }
         }
       }
     },
@@ -200,6 +206,12 @@
             "state" : "translated",
             "value" : "Ovladač ShutterLink používá Bluetooth k ovládání blízkého iPhonu s fotoaparátem."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink-fjernbetjeningen bruger Bluetooth til at styre kamera-iPhonen i nærheden."
+          }
         }
       }
     },
@@ -294,6 +306,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ovladač ShutterLink ukládá pořízené fotky do vaší knihovny."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink-fjernbetjeningen gemmer de billeder, du tager, i dit fotobibliotek."
           }
         }
       }

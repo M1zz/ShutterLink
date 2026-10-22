@@ -93,6 +93,12 @@
             "state" : "translated",
             "value" : "ShutterLink"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
         }
       }
     },
@@ -200,6 +206,12 @@
             "state" : "translated",
             "value" : "ShutterLink používá Bluetooth, aby mohl blízký iPhone sloužit jako dálkový ovladač spouště."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink bruger Bluetooth, så en iPhone i nærheden kan fungere som fjernudløser."
+          }
         }
       }
     },
@@ -294,6 +306,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink používá fotoaparát k pořizování fotek a videí a k umístění AR banneru do scény."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink bruger kameraet til at tage billeder og videoer og til at placere et AR-banner i scenen."
           }
         }
       }
@@ -390,6 +408,12 @@
             "state" : "translated",
             "value" : "ShutterLink nahrává zvuk k videím a naslouchá tlesknutí, když je zapnutá spoušť tleskáním."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink optager lyd til dine videoer og lytter efter et klap, når klapudløseren er slået til."
+          }
         }
       }
     },
@@ -484,6 +508,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink ukládá vaše fotky a videa do knihovny."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink gemmer dine billeder og videoer i dit fotobibliotek."
           }
         }
       }

@@ -170,6 +170,17 @@ CAPTIONS = {
  ("08-pairing", "07-pairing", "Ukažte QR kód a hotovo", "Bez účtu, bez párování, bez příslušenství"),
  ("09-simple", "06-simple", "Velké tlačítko pro každého", "Jediná velká spoušť, kterou zmáčkne kdokoli"),
  ],
+ "da": [
+ ("01-banner", "banner", "Gruppebillede med banner, uden print", "Tryk på gulvet, og banneret dukker op foran alle"),
+ ("02-banner-design", "bannerDesign", "Vælg et tema, skriv din tekst", "13 temaer til rejsegilde, fester, eksamen og mere"),
+ ("03-remote", "02-remote", "En anden iPhone bliver fjernbetjening", "Scan QR-koden, installér intet"),
+ ("04-countdown", "04-countdown", "Tag billeder med håndfladen", "Håndflade, klap eller smil med nedtælling i stemme og lys"),
+ ("05-bestshot", "01-main", "Slut med lukkede øjne", "Vælger billedet, hvor alle har øjnene åbne"),
+ ("06-reviews", "03-reviews", "Billeder direkte til fjernbetjeningen", "Også venner uden appen kan gemme og dele dem"),
+ ("07-gallery", "05-gallery", "Alle de bedste billeder samlet", "Byt til et andet fra serien og del via AirDrop"),
+ ("08-pairing", "07-pairing", "Vis QR-koden, så er du klar", "Ingen konto, ingen parringsopsætning, intet ekstra udstyr"),
+ ("09-simple", "06-simple", "Stor knap til alle", "Én stor udløser, som alle kan trykke på"),
+ ],
 }
 
 def font(size, bold):

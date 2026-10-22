@@ -86,6 +86,12 @@
             "state" : "translated",
             "value" : "%lld"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
         }
       }
     },
@@ -173,6 +179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "V záběru: %lld"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld i billedet"
           }
         }
       }
@@ -262,6 +274,12 @@
             "state" : "translated",
             "value" : "Fotek: %lld"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld billeder"
+          }
         }
       }
     },
@@ -349,6 +367,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fotek: %lld, vybrána nejlepší"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld billeder, bedste valgt"
           }
         }
       }
@@ -438,6 +462,12 @@
             "state" : "translated",
             "value" : "Připojeno ovladačů: %lld"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld fjernbetjening tilsluttet"
+          }
         }
       }
     },
@@ -526,6 +556,12 @@
             "state" : "translated",
             "value" : "Vybráno: %lld"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld valgt"
+          }
         }
       }
     },
@@ -612,6 +648,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld°"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld°"
@@ -704,6 +746,12 @@
             "state" : "translated",
             "value" : "%lld min"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min."
+          }
         }
       }
     },
@@ -792,6 +840,12 @@
             "state" : "translated",
             "value" : "%lld s"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld sek."
+          }
         }
       }
     },
@@ -876,6 +930,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0000"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "0000"
@@ -968,6 +1028,12 @@
             "state" : "translated",
             "value" : "Akcent (okraj · pruh)"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accent (kant · stribe)"
+          }
         }
       }
     },
@@ -1055,6 +1121,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přidat obrázek loga"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilføj logobillede"
           }
         }
       }
@@ -1144,6 +1216,12 @@
             "state" : "translated",
             "value" : "Upravit polohu"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Juster placering"
+          }
         }
       }
     },
@@ -1231,6 +1309,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Oznámení selhalo: %@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annoncering mislykkedes: %@"
           }
         }
       }
@@ -1320,6 +1404,12 @@
             "state" : "translated",
             "value" : "Vše"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle"
+          }
         }
       }
     },
@@ -1408,6 +1498,12 @@
             "state" : "translated",
             "value" : "Povolte přístup k Bluetooth v Nastavení, abyste mohli ovládat fotoaparát."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tillad Bluetooth-adgang i Indstillinger for at styre kameraet."
+          }
         }
       }
     },
@@ -1495,6 +1591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ovladačem může být kdokoli"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle kan være fjernbetjeningen"
           }
         }
       }
@@ -1585,6 +1687,12 @@
             "state" : "translated",
             "value" : "Použít"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anvend"
+          }
         }
       }
     },
@@ -1672,6 +1780,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Požádat všechny, ať se dívají do objektivu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bed alle om at kigge på kameraet"
           }
         }
       }
@@ -1761,6 +1875,12 @@
             "state" : "translated",
             "value" : "Poměr stran"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Højde-bredde-forhold"
+          }
         }
       }
     },
@@ -1845,6 +1965,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Auto"
@@ -1937,6 +2063,12 @@
             "state" : "translated",
             "value" : "Automatické focení vypnuto"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatisk optagelse slået fra"
+          }
         }
       }
     },
@@ -2024,6 +2156,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Podzimní listí"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Efterårsblade"
           }
         }
       }
@@ -2113,6 +2251,12 @@
             "state" : "translated",
             "value" : "Podzimní výlet"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Efterårstur"
+          }
         }
       }
     },
@@ -2200,6 +2344,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pozadí"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baggrund"
           }
         }
       }
@@ -2289,6 +2439,12 @@
             "state" : "translated",
             "value" : "Barva pozadí"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baggrundsfarve"
+          }
         }
       }
     },
@@ -2377,6 +2533,12 @@
             "state" : "translated",
             "value" : "Balonky"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Balloner"
+          }
         }
       }
     },
@@ -2461,6 +2623,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banner"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Banner"
@@ -2553,6 +2721,12 @@
             "state" : "translated",
             "value" : "Design banneru"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bannerdesign"
+          }
         }
       }
     },
@@ -2640,6 +2814,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nejlepší snímek"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bedste billede"
           }
         }
       }
@@ -2729,6 +2909,12 @@
             "state" : "translated",
             "value" : "Nejlepší snímek z %lld fotek"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bedste billede blandt %lld"
+          }
         }
       }
     },
@@ -2816,6 +3002,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nejlepší snímky"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bedste billeder"
           }
         }
       }
@@ -2905,6 +3097,12 @@
             "state" : "translated",
             "value" : "Narozeniny"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fødselsdag"
+          }
         }
       }
     },
@@ -2992,6 +3190,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bluetooth je vypnutý"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth er slået fra"
           }
         }
       }
@@ -3081,6 +3285,12 @@
             "state" : "translated",
             "value" : "Bluetooth LE není podporován"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth LE understøttes ikke"
+          }
         }
       }
     },
@@ -3168,6 +3378,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přístup k Bluetooth zamítnut"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth-adgang afvist"
           }
         }
       }
@@ -3257,6 +3473,12 @@
             "state" : "translated",
             "value" : "Bluetooth je připraven"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth er klar"
+          }
         }
       }
     },
@@ -3344,6 +3566,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bluetooth není dostupný"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth er utilgængelig"
           }
         }
       }
@@ -3433,6 +3661,12 @@
             "state" : "translated",
             "value" : "Tučné bezpatkové"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fed sans"
+          }
         }
       }
     },
@@ -3520,6 +3754,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spodní řádek: datum · místo"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nederste linje: dato · sted"
           }
         }
       }
@@ -3609,6 +3849,12 @@
             "state" : "translated",
             "value" : "Spodní text"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nederste tekst"
+          }
         }
       }
     },
@@ -3696,6 +3942,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Světlejší"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lysere"
           }
         }
       }
@@ -3785,6 +4037,12 @@
             "state" : "translated",
             "value" : "Série"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serie"
+          }
         }
       }
     },
@@ -3872,6 +4130,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je potřeba přístup k fotoaparátu. Zapněte ho v Nastavení > ShutterLink."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der kræves adgang til kameraet. Slå det til i Indstillinger > ShutterLink."
           }
         }
       }
@@ -3961,6 +4225,12 @@
             "state" : "translated",
             "value" : "Zrušit"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuller"
+          }
         }
       }
     },
@@ -4048,6 +4318,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zrušit časovač"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuller timer"
           }
         }
       }
@@ -4137,6 +4413,12 @@
             "state" : "translated",
             "value" : "Focení se nezdařilo: %@"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Optagelse mislykkedes: %@"
+          }
         }
       }
     },
@@ -4224,6 +4506,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Oslava"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fest"
           }
         }
       }
@@ -4313,6 +4601,12 @@
             "state" : "translated",
             "value" : "Změnit logo"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skift logo"
+          }
         }
       }
     },
@@ -4400,6 +4694,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zkontrolujte přístup k Fotkám v Nastavení."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tjek adgangen til Fotos i Indstillinger."
           }
         }
       }
@@ -4489,6 +4789,12 @@
             "state" : "translated",
             "value" : "Fandění"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heppekor"
+          }
         }
       }
     },
@@ -4576,6 +4882,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zvolte Banner, napište text, vyberte barvy a klepněte na podlahu. Banner zůstane na místě a lidé, kteří před ním stojí, vypadají, jako by ho drželi."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg Banner, skriv din tekst og vælg farver, og tryk så på gulvet. Banneret bliver på plads, og folk, der står foran, ser ud, som om de holder det."
           }
         }
       }
@@ -4665,6 +4977,12 @@
             "state" : "translated",
             "value" : "Vánoce"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jul"
+          }
         }
       }
     },
@@ -4752,6 +5070,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tlesknutí"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klap"
           }
         }
       }
@@ -4841,6 +5165,12 @@
             "state" : "translated",
             "value" : "Hlasitě jednou tleskněte a spustíte časovač."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klap højt én gang for at starte timeren."
+          }
         }
       }
     },
@@ -4928,6 +5258,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spoušť tleskáním"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klapudløser"
           }
         }
       }
@@ -5017,6 +5353,12 @@
             "state" : "translated",
             "value" : "Spoušť tleskáním potřebuje přístup k mikrofonu. Zapněte ho v Nastavení > ShutterLink."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klapudløseren kræver adgang til mikrofonen. Slå den til i Indstillinger > ShutterLink."
+          }
         }
       }
     },
@@ -5104,6 +5446,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Klasický"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klassisk"
           }
         }
       }
@@ -5193,6 +5541,12 @@
             "state" : "translated",
             "value" : "Zavřít"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luk"
+          }
         }
       }
     },
@@ -5280,6 +5634,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Barvy"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farver"
           }
         }
       }
@@ -5369,6 +5729,12 @@
             "state" : "translated",
             "value" : "Firemní workshop"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Firmaworkshop"
+          }
         }
       }
     },
@@ -5456,6 +5822,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Úzké bezpatkové"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smal sans"
           }
         }
       }
@@ -5545,6 +5917,12 @@
             "state" : "translated",
             "value" : "Připojit"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opret forbindelse"
+          }
         }
       }
     },
@@ -5632,6 +6010,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Připojeno"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forbundet"
           }
         }
       }
@@ -5721,6 +6105,12 @@
             "state" : "translated",
             "value" : "Připojování…"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opretter forbindelse …"
+          }
         }
       }
     },
@@ -5808,6 +6198,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Banner se nepodařilo vytvořit: %@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banneret kunne ikke oprettes: %@"
           }
         }
       }
@@ -5897,6 +6293,12 @@
             "state" : "translated",
             "value" : "Fotoaparát se nepodařilo najít. Ujistěte se, že je na iPhonu s fotoaparátem otevřený ShutterLink a zapnutý Bluetooth."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kameraet blev ikke fundet. Sørg for, at ShutterLink er åben på kamera-iPhonen, og at Bluetooth er slået til."
+          }
         }
       }
     },
@@ -5984,6 +6386,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "S fotoaparátem se nepodařilo spárovat."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunne ikke parre med kameraet."
           }
         }
       }
@@ -6073,6 +6481,12 @@
             "state" : "translated",
             "value" : "Uložení do Fotek se nezdařilo. %@"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunne ikke gemme i Fotos. %@"
+          }
         }
       }
     },
@@ -6160,6 +6574,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Banner se nepodařilo zobrazit: %@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banneret kunne ikke vises: %@"
           }
         }
       }
@@ -6249,6 +6669,12 @@
             "state" : "translated",
             "value" : "Nahrávání se nepodařilo spustit: %@"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Optagelsen kunne ikke startes: %@"
+          }
         }
       }
     },
@@ -6336,6 +6762,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Design se nepodařilo aktualizovat."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Designet kunne ikke opdateres."
           }
         }
       }
@@ -6425,6 +6857,12 @@
             "state" : "translated",
             "value" : "Odpočet"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nedtælling"
+          }
         }
       }
     },
@@ -6512,6 +6950,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tmavší"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mørkere"
           }
         }
       }
@@ -6601,6 +7045,12 @@
             "state" : "translated",
             "value" : "Dekorace"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pynt"
+          }
         }
       }
     },
@@ -6688,6 +7138,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Smazat"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slet"
           }
         }
       }
@@ -6777,6 +7233,12 @@
             "state" : "translated",
             "value" : "Smazat vybrané snímky?"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vil du slette de valgte billeder?"
+          }
         }
       }
     },
@@ -6864,6 +7326,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Šikmé pruhy"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diagonale striber"
           }
         }
       }
@@ -6953,6 +7421,12 @@
             "state" : "translated",
             "value" : "Směr"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retning"
+          }
         }
       }
     },
@@ -7040,6 +7514,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Odpojit"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afbryd"
           }
         }
       }
@@ -7129,6 +7609,12 @@
             "state" : "translated",
             "value" : "Hotovo"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Færdig"
+          }
         }
       }
     },
@@ -7216,6 +7702,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přetažením posunete banner po podlaze."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Træk for at skubbe banneret hen over gulvet."
           }
         }
       }
@@ -7305,6 +7797,12 @@
             "state" : "translated",
             "value" : "Režim řízení"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Køretilstand"
+          }
         }
       }
     },
@@ -7392,6 +7890,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zadejte 4místný kód zobrazený na iPhonu s fotoaparátem."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indtast den firecifrede kode, der vises på kamera-iPhonen."
           }
         }
       }
@@ -7481,6 +7985,12 @@
             "state" : "translated",
             "value" : "Každých %@"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hver %@"
+          }
         }
       }
     },
@@ -7568,6 +8078,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Každý snímek se také uchovává v galerii ShutterLink. Je-li odesílání zapnuté, dostane ten, kdo drží ovladač, kopii každé fotky, kterou pořídí."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvert billede gemmes også i ShutterLink-galleriet. Når afsendelse er slået til, får den, der holder fjernbetjeningen, en kopi af hvert billede, vedkommende tager."
           }
         }
       }
@@ -7657,6 +8173,12 @@
             "state" : "translated",
             "value" : "Všichni se dívejte do objektivu!"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle sammen, kig på kameraet!"
+          }
         }
       }
     },
@@ -7744,6 +8266,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Expozice"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eksponering"
           }
         }
       }
@@ -7833,6 +8361,12 @@
             "state" : "translated",
             "value" : "Látka (matná)"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stof (mat)"
+          }
         }
       }
     },
@@ -7920,6 +8454,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Otočit ke mně"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vend mod mig"
           }
         }
       }
@@ -8009,6 +8549,12 @@
             "state" : "translated",
             "value" : "Společně na podzimní výlet"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Efterårstur sammen"
+          }
         }
       }
     },
@@ -8096,6 +8642,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Filtr"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filter"
           }
         }
       }
@@ -8185,6 +8737,12 @@
             "state" : "translated",
             "value" : "Blesk"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blitz"
+          }
         }
       }
     },
@@ -8272,6 +8830,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Odpočet bleskem"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nedtælling med blitz"
           }
         }
       }
@@ -8361,6 +8925,12 @@
             "state" : "translated",
             "value" : "Květiny"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blomster"
+          }
         }
       }
     },
@@ -8448,6 +9018,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Písmo"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrifttype"
           }
         }
       }
@@ -8537,6 +9113,12 @@
             "state" : "translated",
             "value" : "Galerie"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Galleri"
+          }
         }
       }
     },
@@ -8624,6 +9206,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přechod"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farveovergang"
           }
         }
       }
@@ -8713,6 +9301,12 @@
             "state" : "translated",
             "value" : "Promoce"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eksamensfest"
+          }
         }
       }
     },
@@ -8800,6 +9394,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mřížka"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gitter"
           }
         }
       }
@@ -8889,6 +9489,12 @@
             "state" : "translated",
             "value" : "Skupinová fotka · klepnutím označíte snímek jako nejlepší"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gruppebillede · tryk på et billede for at markere det som bedst"
+          }
         }
       }
     },
@@ -8976,6 +9582,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skupinová fotka pořídí několik snímků a vybere ten, na kterém mají všichni otevřené oči. Ovladač dostane kopii."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gruppebilledet tager flere billeder og vælger det, hvor alle har øjnene åbne. Fjernbetjeningen får en kopi til at beholde."
           }
         }
       }
@@ -9065,6 +9677,12 @@
             "state" : "translated",
             "value" : "Gesta"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Håndbevægelser"
+          }
         }
       }
     },
@@ -9152,6 +9770,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spoušť bez doteku"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Håndfri udløser"
           }
         }
       }
@@ -9241,6 +9865,12 @@
             "state" : "translated",
             "value" : "Srdce"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hjerter"
+          }
         }
       }
     },
@@ -9328,6 +9958,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Výška"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Højde"
           }
         }
       }
@@ -9417,6 +10053,12 @@
             "state" : "translated",
             "value" : "Výška nad podlahou"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Højde over gulvet"
+          }
         }
       }
     },
@@ -9504,6 +10146,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nápověda"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hjælp"
           }
         }
       }
@@ -9593,6 +10241,12 @@
             "state" : "translated",
             "value" : "Držte banner, aniž byste ho nosili"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hold et banner uden at have et med"
+          }
         }
       }
     },
@@ -9681,6 +10335,12 @@
             "state" : "translated",
             "value" : "Jak používat ShutterLink"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sådan bruger du ShutterLink"
+          }
         }
       }
     },
@@ -9765,6 +10425,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Interval"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Interval"
@@ -9857,6 +10523,12 @@
             "state" : "translated",
             "value" : "Vodováha"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaterpas"
+          }
         }
       }
     },
@@ -9941,6 +10613,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logo"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Logo"
@@ -10033,6 +10711,12 @@
             "state" : "translated",
             "value" : "Vzhled"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udseende"
+          }
         }
       }
     },
@@ -10120,6 +10804,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hledání fotoaparátu %@…"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Søger efter kamera %@ …"
           }
         }
       }
@@ -10209,6 +10899,12 @@
             "state" : "translated",
             "value" : "Hlavní sdělení"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hovedbudskab"
+          }
         }
       }
     },
@@ -10296,6 +10992,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hlavní text"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hovedtekst"
           }
         }
       }
@@ -10385,6 +11087,12 @@
             "state" : "translated",
             "value" : "Materiál"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Materiale"
+          }
         }
       }
     },
@@ -10472,6 +11180,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Materiál · Velikost"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Materiale · Størrelse"
           }
         }
       }
@@ -10561,6 +11275,12 @@
             "state" : "translated",
             "value" : "Režim"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilstand"
+          }
         }
       }
     },
@@ -10648,6 +11368,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Více"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mere"
           }
         }
       }
@@ -10737,6 +11463,12 @@
             "state" : "translated",
             "value" : "Přesunout banner"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flyt banner"
+          }
         }
       }
     },
@@ -10824,6 +11556,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Další"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Næste"
           }
         }
       }
@@ -10913,6 +11651,12 @@
             "state" : "translated",
             "value" : "Další snímek za %lld s"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Næste billede om %lld sek."
+          }
         }
       }
     },
@@ -11000,6 +11744,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Na tomto zařízení není k dispozici žádný fotoaparát."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der er intet kamera på denne enhed."
           }
         }
       }
@@ -11089,6 +11839,12 @@
             "state" : "translated",
             "value" : "Zatím žádné snímky"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen billeder endnu"
+          }
         }
       }
     },
@@ -11177,6 +11933,12 @@
             "state" : "translated",
             "value" : "Nikdo nemrká"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen blinker"
+          }
         }
       }
     },
@@ -11264,6 +12026,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Žádné"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen"
           }
         }
       }
@@ -11354,6 +12122,12 @@
             "state" : "translated",
             "value" : "Teď"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nu"
+          }
         }
       }
     },
@@ -11441,6 +12215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "24.–25. 10. 2026  Lake Tahoe, Kalifornie"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "24.–25. okt. 2026  Lake Tahoe, Californien"
           }
         }
       }
@@ -11530,6 +12310,12 @@
             "state" : "translated",
             "value" : "Vyp"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fra"
+          }
         }
       }
     },
@@ -11614,6 +12400,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -11706,6 +12498,12 @@
             "state" : "translated",
             "value" : "Zap"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Til"
+          }
         }
       }
     },
@@ -11793,6 +12591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Otevřít galerii"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åbn galleri"
           }
         }
       }
@@ -11882,6 +12686,12 @@
             "state" : "translated",
             "value" : "Možnosti"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valg"
+          }
         }
       }
     },
@@ -11969,6 +12779,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nebo fotit bez doteku"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eller tag billeder uden hænder"
           }
         }
       }
@@ -12058,6 +12874,12 @@
             "state" : "translated",
             "value" : "Náš tým 2026"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vores hold 2026"
+          }
         }
       }
     },
@@ -12145,6 +12967,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Párovací kód"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parringskode"
           }
         }
       }
@@ -12234,6 +13062,12 @@
             "state" : "translated",
             "value" : "Párování…"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parrer …"
+          }
         }
       }
     },
@@ -12321,6 +13155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dlaň"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Håndflade"
           }
         }
       }
@@ -12410,6 +13250,12 @@
             "state" : "translated",
             "value" : "Gesto dlaní"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Håndfladebevægelse"
+          }
         }
       }
     },
@@ -12497,6 +13343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Papír"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papir"
           }
         }
       }
@@ -12586,6 +13438,12 @@
             "state" : "translated",
             "value" : "Večírek"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Festaften"
+          }
         }
       }
     },
@@ -12673,6 +13531,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Počítadlo lidí"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Persontæller"
           }
         }
       }
@@ -12762,6 +13626,12 @@
             "state" : "translated",
             "value" : "Lidé stojící před bannerem se teď zobrazují přes něj."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nu vises folk, der står foran banneret, oven på det."
+          }
         }
       }
     },
@@ -12849,6 +13719,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fotka"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Billede"
           }
         }
       }
@@ -12938,6 +13814,12 @@
             "state" : "translated",
             "value" : "Fotky"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Billeder"
+          }
         }
       }
     },
@@ -13025,6 +13907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fotky a videa pořízené v ShutterLink se zobrazí tady."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Billeder og videoer, du tager med ShutterLink, vises her."
           }
         }
       }
@@ -13114,6 +14002,12 @@
             "state" : "translated",
             "value" : "Fotky z tohoto focení"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Billeder fra denne session"
+          }
         }
       }
     },
@@ -13201,6 +14095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Postavte tento iPhone na stativ nebo ho opřete o něco pevného. Pomocí vodováhy a počítadla lidí dostanete do záběru všechny."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sæt denne iPhone på et stativ, eller lad den læne sig mod noget stabilt. Brug vaterpasset og personælleren til at få alle med i billedet."
           }
         }
       }
@@ -13290,6 +14190,12 @@
             "state" : "translated",
             "value" : "Namiřte fotoaparát druhého iPhonu na QR kód. App Clip Ovladač ShutterLink se otevře bez instalace. Při focení nechte tuto aplikaci otevřenou."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ret den anden iPhones kamera mod QR-koden. App Clip’en ShutterLink-fjernbetjening åbner uden installation. Hold denne app åben, mens du tager billeder."
+          }
         }
       }
     },
@@ -13377,6 +14283,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zvedněte otevřenou dlaň k fotoaparátu a spustíte časovač."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løft en åben håndflade mod kameraet for at starte timeren."
           }
         }
       }
@@ -13466,6 +14378,12 @@
             "state" : "translated",
             "value" : "Zvedněte dlaň, tleskněte, nebo nechte ShutterLink vyfotit, když se všichni usmívají. Hlasový a světelný odpočet skupině napoví, kdy se postavit do pozice."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løft håndfladen, klap, eller lad ShutterLink tage billedet, når alle smiler. En nedtælling med stemme og lys fortæller gruppen, hvornår de skal stille op."
+          }
         }
       }
     },
@@ -13553,6 +14471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nahrávání se nezdařilo."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Optagelsen mislykkedes."
           }
         }
       }
@@ -13642,6 +14566,12 @@
             "state" : "translated",
             "value" : "Odebrat logo"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjern logo"
+          }
         }
       }
     },
@@ -13729,6 +14659,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Obnovit"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nulstil"
           }
         }
       }
@@ -13818,6 +14754,12 @@
             "state" : "translated",
             "value" : "Obnovit expozici"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nulstil eksponering"
+          }
         }
       }
     },
@@ -13905,6 +14847,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zaoblené bezpatkové"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afrundet sans"
           }
         }
       }
@@ -13994,6 +14942,12 @@
             "state" : "translated",
             "value" : "Uložit nebo sdílet tuto fotku"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gem eller del dette billede"
+          }
         }
       }
     },
@@ -14081,6 +15035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Než ovladač zavřete, uložte nebo sdílejte svou kopii."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gem eller del din kopi, før du lukker fjernbetjeningen."
           }
         }
       }
@@ -14170,6 +15130,12 @@
             "state" : "translated",
             "value" : "Uložit do Fotek"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gem i Fotos"
+          }
         }
       }
     },
@@ -14257,6 +15223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Naskenujte QR kód na iPhonu s fotoaparátem nebo zadejte 4místný párovací kód."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scan QR-koden på kamera-iPhonen, eller indtast den firecifrede parringskode."
           }
         }
       }
@@ -14346,6 +15318,12 @@
             "state" : "translated",
             "value" : "Naskenujte a ovládejte fotoaparát: %@"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scan for at styre kameraet: %@"
+          }
         }
       }
     },
@@ -14433,6 +15411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Naskenujte druhým iPhonem"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scan med en anden iPhone"
           }
         }
       }
@@ -14522,6 +15506,12 @@
             "state" : "translated",
             "value" : "Moře"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hav"
+          }
         }
       }
     },
@@ -14609,6 +15599,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vybrat"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg"
           }
         }
       }
@@ -14698,6 +15694,12 @@
             "state" : "translated",
             "value" : "Posílat fotky na ovladač"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send billeder til fjernbetjeningen"
+          }
         }
       }
     },
@@ -14785,6 +15787,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Patkové"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serif"
           }
         }
       }
@@ -14874,6 +15882,12 @@
             "state" : "translated",
             "value" : "Chyba služby: %@"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Servicefejl: %@"
+          }
         }
       }
     },
@@ -14961,6 +15975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nastavit fotoaparát"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indstil kameraet"
           }
         }
       }
@@ -15050,6 +16070,12 @@
             "state" : "translated",
             "value" : "Nastavení"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indstillinger"
+          }
         }
       }
     },
@@ -15137,6 +16163,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tvar"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Form"
           }
         }
       }
@@ -15226,6 +16258,12 @@
             "state" : "translated",
             "value" : "Sdílet"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Del"
+          }
         }
       }
     },
@@ -15313,6 +16351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sdílet QR kód"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Del QR-kode"
           }
         }
       }
@@ -15402,6 +16446,12 @@
             "state" : "translated",
             "value" : "Fotit jen tlačítkem spouště."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tag kun billeder med udløserknappen."
+          }
         }
       }
     },
@@ -15489,6 +16539,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Možnosti focení"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Optagelsesvalg"
           }
         }
       }
@@ -15578,6 +16634,12 @@
             "state" : "translated",
             "value" : "Vyfotí automaticky, když se všichni usmívají s otevřenýma očima."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tager automatisk billedet, når alle smiler med åbne øjne."
+          }
         }
       }
     },
@@ -15665,6 +16727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zobrazit párovací QR kód"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vis QR-kode til parring"
           }
         }
       }
@@ -15754,6 +16822,12 @@
             "state" : "translated",
             "value" : "Zobrazit lidi vpředu"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vis personer foran"
+          }
         }
       }
     },
@@ -15842,6 +16916,12 @@
             "state" : "translated",
             "value" : "Zobrazit boční tyče"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vis sidestænger"
+          }
         }
       }
     },
@@ -15926,6 +17006,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink"
@@ -16018,6 +17104,12 @@
             "state" : "translated",
             "value" : "Fotka ze ShutterLink"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink-billede"
+          }
         }
       }
     },
@@ -16105,6 +17197,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ovladač ShutterLink"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink-fjernbetjening"
           }
         }
       }
@@ -16194,6 +17292,12 @@
             "state" : "translated",
             "value" : "Jednoduchý režim (velká tlačítka)"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enkel tilstand (store knapper)"
+          }
         }
       }
     },
@@ -16281,6 +17385,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jednotlivě"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enkelt"
           }
         }
       }
@@ -16370,6 +17480,12 @@
             "state" : "translated",
             "value" : "Jedna fotka"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enkelt billede"
+          }
         }
       }
     },
@@ -16457,6 +17573,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Malý horní řádek (např. Acme s.r.o. 2026)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lille øverste linje (fx Acme ApS 2026)"
           }
         }
       }
@@ -16546,6 +17668,12 @@
             "state" : "translated",
             "value" : "Úsměv"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smil"
+          }
         }
       }
     },
@@ -16633,6 +17761,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spoušť úsměvem"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smileudløser"
           }
         }
       }
@@ -16722,6 +17856,12 @@
             "state" : "translated",
             "value" : "Sníh"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sne"
+          }
         }
       }
     },
@@ -16809,6 +17949,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jednobarevné"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ensfarvet"
           }
         }
       }
@@ -16898,6 +18044,12 @@
             "state" : "translated",
             "value" : "Někdo je na okraji záběru"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nogen er i kanten af billedet"
+          }
         }
       }
     },
@@ -16982,6 +18134,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sport"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sport"
@@ -17074,6 +18232,12 @@
             "state" : "translated",
             "value" : "Sportovní den"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Idrætsdag"
+          }
         }
       }
     },
@@ -17161,6 +18325,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jarní květy"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forårsblomster"
           }
         }
       }
@@ -17250,6 +18420,12 @@
             "state" : "translated",
             "value" : "Hvězdy"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stjerner"
+          }
         }
       }
     },
@@ -17337,6 +18513,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spustit nahrávání"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start optagelse"
           }
         }
       }
@@ -17426,6 +18608,12 @@
             "state" : "translated",
             "value" : "Začít fotit"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Begynd at tage billeder"
+          }
         }
       }
     },
@@ -17513,6 +18701,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spouštění Bluetooth…"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starter Bluetooth …"
           }
         }
       }
@@ -17602,6 +18796,12 @@
             "state" : "translated",
             "value" : "Zastavit intervalové focení"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop intervaloptagelse"
+          }
         }
       }
     },
@@ -17689,6 +18889,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zastavit nahrávání"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop optagelse"
           }
         }
       }
@@ -17778,6 +18984,12 @@
             "state" : "translated",
             "value" : "Letní pláž"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sommerstrand"
+          }
         }
       }
     },
@@ -17865,6 +19077,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vlaje ve vánku"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svajer i vinden"
           }
         }
       }
@@ -17954,6 +19172,12 @@
             "state" : "translated",
             "value" : "Přepnout fotoaparát"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skift kamera"
+          }
         }
       }
     },
@@ -18041,6 +19265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vyfotit"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tag billede"
           }
         }
       }
@@ -18130,6 +19360,12 @@
             "state" : "translated",
             "value" : "Fotka za %lld s."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tager et billede om %lld sekunder."
+          }
         }
       }
     },
@@ -18217,6 +19453,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Klepnutím na podlahu nebo zeď umístíte banner"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryk på gulvet eller en væg for at placere banneret"
           }
         }
       }
@@ -18306,6 +19548,12 @@
             "state" : "translated",
             "value" : "Klepněte na tlačítko QR. Druhý iPhone ho naskenuje aplikací Fotoaparát a během pár sekund se z něj stane ovladač, bez jakékoli instalace."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryk på QR-knappen. En anden iPhone scanner den med Kamera-appen og bliver til en fjernbetjening på få sekunder uden at installere noget."
+          }
         }
       }
     },
@@ -18393,6 +19641,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Klepnutím zaostříte"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryk for at fokusere"
           }
         }
       }
@@ -18482,6 +19736,12 @@
             "state" : "translated",
             "value" : "Text"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekst"
+          }
         }
       }
     },
@@ -18569,6 +19829,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Banner se na chvíli zastavil"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banneret holdt en pause et øjeblik"
           }
         }
       }
@@ -18658,6 +19924,12 @@
             "state" : "translated",
             "value" : "Banner zůstává před všemi."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banneret bliver foran alle."
+          }
         }
       }
     },
@@ -18745,6 +20017,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fotoaparát odpočítává nahlas a bliká světlem, takže i vzdálená skupina přesně ví, kdy se fotí."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kameraet tæller højt ned og blinker med lyset, så en gruppe, der står langt væk, ved præcis, hvornår billedet tages."
           }
         }
       }
@@ -18834,6 +20112,12 @@
             "state" : "translated",
             "value" : "Párovací kód byl odmítnut. Naskenujte QR kód znovu."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parringskoden blev afvist. Scan QR-koden igen."
+          }
         }
       }
     },
@@ -18921,6 +20205,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Motiv"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tema"
           }
         }
       }
@@ -19010,6 +20300,12 @@
             "state" : "translated",
             "value" : "Zůstanou ve vaší knihovně Fotek, pokud se tam uložily."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De bliver i dit fotobibliotek, hvis de blev gemt der."
+          }
         }
       }
     },
@@ -19097,6 +20393,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toto zařízení nepodporuje Bluetooth LE."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Denne enhed understøtter ikke Bluetooth LE."
           }
         }
       }
@@ -19186,6 +20488,12 @@
             "state" : "translated",
             "value" : "Toto zařízení není fotoaparát ShutterLink."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Denne enhed er ikke et ShutterLink-kamera."
+          }
         }
       }
     },
@@ -19273,6 +20581,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tento iPhone nepodporuje AR."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Denne iPhone understøtter ikke AR."
           }
         }
       }
@@ -19362,6 +20676,12 @@
             "state" : "translated",
             "value" : "Nakloněno o %lld stupňů"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vippet %lld grader"
+          }
         }
       }
     },
@@ -19449,6 +20769,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Časovač"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timer"
           }
         }
       }
@@ -19538,6 +20864,12 @@
             "state" : "translated",
             "value" : "Horní a dolní pruh"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bånd øverst og nederst"
+          }
         }
       }
     },
@@ -19625,6 +20957,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Horní pruh"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Øverste stribe"
           }
         }
       }
@@ -19714,6 +21052,12 @@
             "state" : "translated",
             "value" : "Horní text"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Øverste tekst"
+          }
         }
       }
     },
@@ -19801,6 +21145,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zkusit znovu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prøv igen"
           }
         }
       }
@@ -19890,6 +21240,12 @@
             "state" : "translated",
             "value" : "Zapněte Bluetooth a připojte se k fotoaparátu."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slå Bluetooth til for at oprette forbindelse til kameraet."
+          }
         }
       }
     },
@@ -19977,6 +21333,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nedostupné"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ikke tilgængelig"
           }
         }
       }
@@ -20066,6 +21428,12 @@
             "state" : "translated",
             "value" : "Verze"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version"
+          }
         }
       }
     },
@@ -20150,6 +21518,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Video"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Video"
@@ -20242,6 +21616,12 @@
             "state" : "translated",
             "value" : "Videa"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Videoer"
+          }
         }
       }
     },
@@ -20329,6 +21709,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hledáček"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Søger"
           }
         }
       }
@@ -20418,6 +21804,12 @@
             "state" : "translated",
             "value" : "Vinyl (lesklý)"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vinyl (blank)"
+          }
         }
       }
     },
@@ -20505,6 +21897,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hlasový odpočet"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nedtælling med stemme"
           }
         }
       }
@@ -20594,6 +21992,12 @@
             "state" : "translated",
             "value" : "Čekání na ovladač"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Venter på en fjernbetjening"
+          }
         }
       }
     },
@@ -20681,6 +22085,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Čekání na Bluetooth…"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Venter på Bluetooth …"
           }
         }
       }
@@ -20770,6 +22180,12 @@
             "state" : "translated",
             "value" : "Čekání na náhled…"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Venter på forhåndsvisning …"
+          }
         }
       }
     },
@@ -20857,6 +22273,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Svatba"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bryllup"
           }
         }
       }
@@ -20946,6 +22368,12 @@
             "state" : "translated",
             "value" : "Šířka"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bredde"
+          }
         }
       }
     },
@@ -21033,6 +22461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zima"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vinter"
           }
         }
       }
@@ -21122,6 +22556,12 @@
             "state" : "translated",
             "value" : "Silvestrovský večírek"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nytårsfest"
+          }
         }
       }
     },
@@ -21209,6 +22649,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přiblížení"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoom"
           }
         }
       }
