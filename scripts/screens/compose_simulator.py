@@ -104,6 +104,17 @@ CAPTIONS = {
  ("08-pairing", "07-pairing", "QR-Code zeigen und loslegen", "Kein Konto, keine Kopplung, kein Zubehör"),
  ("09-simple", "06-simple", "Große Taste für alle", "Ein großer Auslöser, den jeder drücken kann"),
  ],
+ "fr": [
+ ("01-banner", "banner", "Photo de groupe avec banderole, sans imprimer", "Touchez le sol et la banderole apparaît devant tout le monde"),
+ ("02-banner-design", "bannerDesign", "Un thème, quelques mots, et c’est prêt", "13 thèmes pour retrouvailles, fêtes, remises de diplômes et plus"),
+ ("03-remote", "02-remote", "Un autre iPhone devient télécommande", "Scannez le QR code, rien à installer"),
+ ("04-countdown", "04-countdown", "Déclenchez d’un geste de la paume", "Paume, applaudissement ou sourire, avec compte à rebours vocal et lumineux"),
+ ("05-bestshot", "01-main", "Fini les yeux fermés", "Choisit la photo où tout le monde a les yeux ouverts"),
+ ("06-reviews", "03-reviews", "Les photos arrivent sur la télécommande", "Même sans l’app, vos amis peuvent les enregistrer et les partager"),
+ ("07-gallery", "05-gallery", "Toutes les meilleures photos", "Remplacez-en une par une autre de la rafale et partagez par AirDrop"),
+ ("08-pairing", "07-pairing", "Montrez le QR code, c’est prêt", "Ni compte, ni association à configurer, ni accessoire"),
+ ("09-simple", "06-simple", "Un gros bouton pour tous", "Un seul grand déclencheur que chacun peut presser"),
+ ],
 }
 
 def font(size, bold):

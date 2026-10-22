@@ -57,6 +57,12 @@
             "state" : "translated",
             "value" : "ShutterLink Fernbedienung"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Télécommande ShutterLink"
+          }
         }
       }
     },
@@ -128,6 +134,12 @@
             "state" : "translated",
             "value" : "Die ShutterLink Fernbedienung nutzt Bluetooth, um das Kamera-iPhone in der Nähe zu steuern."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La télécommande ShutterLink utilise le Bluetooth pour piloter l’iPhone photographe à proximité."
+          }
         }
       }
     },
@@ -186,6 +198,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Die ShutterLink Fernbedienung speichert die von dir aufgenommenen Fotos in deiner Fotomediathek."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La télécommande ShutterLink enregistre dans votre photothèque les photos que vous prenez."
           }
         }
       }

@@ -57,6 +57,12 @@
             "state" : "translated",
             "value" : "ShutterLink"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
         }
       }
     },
@@ -128,6 +134,12 @@
             "state" : "translated",
             "value" : "ShutterLink nutzt Bluetooth, damit ein iPhone in der Nähe als Fernauslöser dienen kann."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink utilise le Bluetooth pour qu’un iPhone à proximité serve de télécommande de déclencheur."
+          }
         }
       }
     },
@@ -186,6 +198,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink nutzt die Kamera, um Fotos und Videos aufzunehmen und ein AR-Banner in die Szene zu setzen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink utilise l’appareil photo pour prendre des photos et des vidéos et pour placer une banderole en RA dans la scène."
           }
         }
       }
@@ -246,6 +264,12 @@
             "state" : "translated",
             "value" : "ShutterLink nimmt den Ton deiner Videos auf und lauscht auf ein Klatschen, wenn der Klatsch-Auslöser aktiv ist."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink enregistre le son de vos vidéos et écoute un claquement de mains lorsque le déclencheur par applaudissement est activé."
+          }
         }
       }
     },
@@ -304,6 +328,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink speichert deine Fotos und Videos in deiner Fotomediathek."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink enregistre vos photos et vidéos dans votre photothèque."
           }
         }
       }

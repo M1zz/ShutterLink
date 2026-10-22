@@ -794,6 +794,88 @@ https://m1zz.github.io/ShutterLink/de/privacy/
 
 https://m1zz.github.io/ShutterLink/de/
 
+## fr-FR
+
+<!-- Français -->
+
+### 이름
+
+ShutterLink : photo banderole
+
+### 부제
+
+Télécommande sans installation
+
+### 키워드
+
+retrouvailles,fête,équipe,événement,famille,selfie,trépied,minuteur,RA,photomaton,sourire,applaudir
+
+### 프로모션 텍스트
+
+Ajoutez une banderole à votre photo de groupe, sans imprimer. Écrivez, choisissez un thème : tous la tiennent. L’iPhone d’un ami devient télécommande d’un scan.
+
+### 설명
+
+Faites la photo de groupe classique où tout le monde tient une banderole, sans en imprimer.
+Écrivez votre texte, choisissez un thème, et une banderole apparaît devant votre groupe. L’iPhone d’un ami devient la télécommande, sans rien installer.
+
+Mode Banderole
+Passez en Banderole, touchez le sol, et la banderole apparaît à la hauteur où on la tiendrait. Touchez un mur pour l’y accrocher. Faites-la glisser vers le haut, le bas ou les côtés : elle suit votre doigt. À deux doigts, faites-la pivoter ou redimensionnez-la, ou utilisez le bouton de déplacement pour l’ajuster finement vers l’avant, l’arrière, les côtés, le haut et le bas.
+La banderole reste toujours devant votre groupe, comme si tout le monde la tenait ensemble.
+
+Personnalisez-la
+Partez de 13 thèmes : escapade d’automne, pique-nique de printemps, plage, fête de fin d’année, anniversaire, journée sportive, encouragements, remise de diplôme, mariage et séminaire d’équipe.
+Écrivez jusqu’à trois lignes de texte. Changez l’arrière-plan, la police, la décoration, les couleurs et la forme, et ajoutez votre propre logo.
+Choisissez tissu, vinyle ou papier. Une banderole en tissu s’affaisse, se plisse et ondule dans la brise comme une vraie.
+
+Tout le monde sur la photo
+Le minuteur, le déclencheur mains libres et la télécommande fonctionnent en mode Banderole. Posez le téléphone sur un trépied et rejoignez le groupe. Les photos sont enregistrées dans Photos et dans la galerie de l’app.
+
+Une télécommande sans rien installer
+Affichez le code QR sur l’iPhone photographe et scannez-le avec l’appareil photo d’un autre iPhone. La Télécommande ShutterLink s’ouvre aussitôt en App Clip et se connecte. Cadrez depuis l’image en direct et appuyez sur le déclencheur. En mode Banderole, la banderole s’affiche aussi dans l’image en direct. Si le code QR ne se scanne pas, saisissez le code à 4 chiffres.
+
+Déclencheur mains libres
+Levez la paume, souriez ensemble ou applaudissez, et le déclencheur part.
+Réglez un minuteur de 3 à 30 secondes. Une voix décompte, le flash clignote en rythme et la télécommande vibre dans votre main.
+Une invite vocale « Regardez l’objectif » attire l’attention de tous.
+
+Personne ne cligne des yeux
+Prenez une rafale de 3 ou 5 photos et ShutterLink choisit celle où tout le monde a les yeux ouverts et sourit. Filtrez la galerie sur les meilleures photos ou choisissez-en une autre vous-même.
+
+Personne n’est coupé
+Voyez combien de personnes sont dans le cadre et soyez prévenu quand quelqu’un est au bord. Un niveau apparaît quand l’iPhone est incliné.
+
+Les photos arrivent sur la télécommande
+Chaque photo prise apparaît tout de suite sur l’iPhone télécommande. Un ami sans l’app peut l’enregistrer et la partager sur-le-champ.
+
+Contrôle complet de l’appareil depuis la télécommande
+Mise au point et exposition au toucher, correction d’exposition, flash et lumière, grille, zoom de 0,5× à 10× selon votre iPhone, caméras avant et arrière, et vidéo.
+Prise de vue par intervalle de 3 secondes à 1 minute pour les couchers de soleil ou les projets en cours.
+Un mode simple sur la télécommande affiche un seul gros bouton de déclenchement que chacun peut presser.
+
+Bluetooth direct, sans Internet
+Les deux iPhone se connectent directement en Bluetooth. Une fois connectés, ça marche en montagne, à la plage ou à l’étranger sans Wi‑Fi ni réseau mobile. Aucun compte nécessaire.
+
+Vos photos restent chez vous
+Les photos et vidéos restent sur l’iPhone photographe et sur la télécommande connectée, et ne sont jamais envoyées. Le code d’association change à chaque ouverture de l’app : seule une télécommande qui le connaît peut déclencher.
+
+Bon à savoir
+Nécessite iOS 17 ou ultérieur. La télécommande demande un second iPhone.
+L’iPhone télécommande a besoin d’Internet une fois, au premier téléchargement de l’App Clip.
+Le flash, les rafales, le zoom et la caméra avant ne sont pas disponibles en mode Banderole.
+
+### 지원 URL
+
+https://m1zz.github.io/ShutterLink/fr/support/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/ShutterLink/fr/privacy/
+
+### 마케팅 URL
+
+https://m1zz.github.io/ShutterLink/fr/
+
 ## 연령 등급
 
 <!-- 내용 문항이 전부 '해당 없음' 인 앱이면 아래 줄의 주석을 풀어라.
