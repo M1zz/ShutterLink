@@ -134,6 +134,12 @@
             "state" : "translated",
             "value" : "%lld"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
         }
       }
     },
@@ -269,6 +275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld i bild"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kadrajda %lld kişi"
           }
         }
       }
@@ -406,6 +418,12 @@
             "state" : "translated",
             "value" : "%lld foton"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld fotoğraf"
+          }
         }
       }
     },
@@ -541,6 +559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld foton, bästa vald"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld fotoğraf, en iyisi seçildi"
           }
         }
       }
@@ -678,6 +702,12 @@
             "state" : "translated",
             "value" : "%lld fjärrkontroll ansluten"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld kumanda bağlı"
+          }
         }
       }
     },
@@ -814,6 +844,12 @@
             "state" : "translated",
             "value" : "%lld valda"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld seçili"
+          }
         }
       }
     },
@@ -948,6 +984,12 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld°"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld°"
@@ -1088,6 +1130,12 @@
             "state" : "translated",
             "value" : "%lld min"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld dk"
+          }
         }
       }
     },
@@ -1224,6 +1272,12 @@
             "state" : "translated",
             "value" : "%lld s"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld sn"
+          }
         }
       }
     },
@@ -1356,6 +1410,12 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0000"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "0000"
@@ -1496,6 +1556,12 @@
             "state" : "translated",
             "value" : "Accent (kant · rand)"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vurgu (çerçeve · şerit)"
+          }
         }
       }
     },
@@ -1631,6 +1697,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lägg till logotypbild"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logo görseli ekle"
           }
         }
       }
@@ -1768,6 +1840,12 @@
             "state" : "translated",
             "value" : "Justera placering"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konumu ayarla"
+          }
         }
       }
     },
@@ -1903,6 +1981,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kungörelsen misslyckades: %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duyuru başarısız: %@"
           }
         }
       }
@@ -2040,6 +2124,12 @@
             "state" : "translated",
             "value" : "Alla"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tümü"
+          }
         }
       }
     },
@@ -2176,6 +2266,12 @@
             "state" : "translated",
             "value" : "Tillåt Bluetooth-åtkomst i Inställningar för att styra kameran."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamerayı kontrol etmek için Ayarlar’da Bluetooth erişimine izin verin."
+          }
         }
       }
     },
@@ -2311,6 +2407,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vem som helst kan vara fjärrkontrollen"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herkes kumanda olabilir"
           }
         }
       }
@@ -2449,6 +2551,12 @@
             "state" : "translated",
             "value" : "Använd"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygula"
+          }
         }
       }
     },
@@ -2584,6 +2692,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Be alla titta in i kameran"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herkesten kameraya bakmasını iste"
           }
         }
       }
@@ -2721,6 +2835,12 @@
             "state" : "translated",
             "value" : "Bildformat"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En boy oranı"
+          }
         }
       }
     },
@@ -2856,6 +2976,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Auto"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otomatik"
           }
         }
       }
@@ -2993,6 +3119,12 @@
             "state" : "translated",
             "value" : "Automatisk fotografering av"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otomatik çekim kapalı"
+          }
         }
       }
     },
@@ -3128,6 +3260,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Höstlöv"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonbahar yaprakları"
           }
         }
       }
@@ -3265,6 +3403,12 @@
             "state" : "translated",
             "value" : "Höstutflykt"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonbahar gezisi"
+          }
         }
       }
     },
@@ -3400,6 +3544,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bakgrund"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arka plan"
           }
         }
       }
@@ -3537,6 +3687,12 @@
             "state" : "translated",
             "value" : "Bakgrundsfärg"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arka plan rengi"
+          }
         }
       }
     },
@@ -3672,6 +3828,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ballonger"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Balonlar"
           }
         }
       }
@@ -3809,6 +3971,12 @@
             "state" : "translated",
             "value" : "Banderoll"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pankart"
+          }
         }
       }
     },
@@ -3944,6 +4112,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Banderolldesign"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pankart tasarımı"
           }
         }
       }
@@ -4081,6 +4255,12 @@
             "state" : "translated",
             "value" : "Bästa bilden"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En iyi kare"
+          }
         }
       }
     },
@@ -4216,6 +4396,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bästa bilden av %lld foton"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld fotoğraftan en iyi kare"
           }
         }
       }
@@ -4353,6 +4539,12 @@
             "state" : "translated",
             "value" : "Bästa bilderna"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En iyi kareler"
+          }
         }
       }
     },
@@ -4488,6 +4680,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Födelsedag"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doğum günü"
           }
         }
       }
@@ -4625,6 +4823,12 @@
             "state" : "translated",
             "value" : "Bluetooth är avstängt"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth kapalı"
+          }
         }
       }
     },
@@ -4760,6 +4964,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bluetooth LE stöds inte"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth LE desteklenmiyor"
           }
         }
       }
@@ -4897,6 +5107,12 @@
             "state" : "translated",
             "value" : "Bluetooth-behörighet nekad"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth izni reddedildi"
+          }
         }
       }
     },
@@ -5032,6 +5248,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bluetooth är redo"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth hazır"
           }
         }
       }
@@ -5169,6 +5391,12 @@
             "state" : "translated",
             "value" : "Bluetooth är inte tillgängligt"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth kullanılamıyor"
+          }
         }
       }
     },
@@ -5304,6 +5532,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fet sans"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kalın sans"
           }
         }
       }
@@ -5441,6 +5675,12 @@
             "state" : "translated",
             "value" : "Nedersta raden: datum · plats"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alt satır: tarih · yer"
+          }
         }
       }
     },
@@ -5576,6 +5816,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Text längst ned"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alt metin"
           }
         }
       }
@@ -5713,6 +5959,12 @@
             "state" : "translated",
             "value" : "Ljusare"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daha parlak"
+          }
         }
       }
     },
@@ -5848,6 +6100,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Serie"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seri çekim"
           }
         }
       }
@@ -5985,6 +6243,12 @@
             "state" : "translated",
             "value" : "Åtkomst till kameran krävs. Aktivera den i Inställningar > ShutterLink."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera erişimi gerekli. Ayarlar > ShutterLink’ten açın."
+          }
         }
       }
     },
@@ -6120,6 +6384,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avbryt"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İptal"
           }
         }
       }
@@ -6257,6 +6527,12 @@
             "state" : "translated",
             "value" : "Avbryt timer"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zamanlayıcıyı iptal et"
+          }
         }
       }
     },
@@ -6392,6 +6668,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fotograferingen misslyckades: %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çekim başarısız: %@"
           }
         }
       }
@@ -6529,6 +6811,12 @@
             "state" : "translated",
             "value" : "Firande"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kutlama"
+          }
         }
       }
     },
@@ -6664,6 +6952,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Byt logotyp"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logoyu değiştir"
           }
         }
       }
@@ -6801,6 +7095,12 @@
             "state" : "translated",
             "value" : "Kontrollera åtkomsten till Bilder i Inställningar."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayarlar’da Fotoğraflar erişimini kontrol edin."
+          }
         }
       }
     },
@@ -6936,6 +7236,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hejarop"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tezahürat"
           }
         }
       }
@@ -7073,6 +7379,12 @@
             "state" : "translated",
             "value" : "Välj Banderoll, skriv din text och välj färger och tryck sedan på golvet. Banderollen står kvar, och de som står framför ser ut att hålla i den."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pankart’ı seçin, metninizi yazın ve renkleri belirleyin, ardından zemine dokunun. Pankart yerinde kalır ve önünde duranlar onu tutuyormuş gibi görünür."
+          }
         }
       }
     },
@@ -7208,6 +7520,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jul"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noel"
           }
         }
       }
@@ -7345,6 +7663,12 @@
             "state" : "translated",
             "value" : "Handklapp"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alkış"
+          }
         }
       }
     },
@@ -7480,6 +7804,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Klappa högt en gång för att starta timern."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zamanlayıcıyı başlatmak için bir kez yüksek sesle alkışlayın."
           }
         }
       }
@@ -7617,6 +7947,12 @@
             "state" : "translated",
             "value" : "Klapputlösare"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alkış deklanşörü"
+          }
         }
       }
     },
@@ -7752,6 +8088,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Klapputlösaren behöver åtkomst till mikrofonen. Aktivera den i Inställningar > ShutterLink."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alkış deklanşörü mikrofon erişimi gerektirir. Ayarlar > ShutterLink’ten açın."
           }
         }
       }
@@ -7889,6 +8231,12 @@
             "state" : "translated",
             "value" : "Klassisk"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klasik"
+          }
         }
       }
     },
@@ -8024,6 +8372,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stäng"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kapat"
           }
         }
       }
@@ -8161,6 +8515,12 @@
             "state" : "translated",
             "value" : "Färger"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renkler"
+          }
         }
       }
     },
@@ -8296,6 +8656,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Företagsworkshop"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şirket çalıştayı"
           }
         }
       }
@@ -8433,6 +8799,12 @@
             "state" : "translated",
             "value" : "Smal sans"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dar sans"
+          }
         }
       }
     },
@@ -8568,6 +8940,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anslut"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bağlan"
           }
         }
       }
@@ -8705,6 +9083,12 @@
             "state" : "translated",
             "value" : "Ansluten"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bağlandı"
+          }
         }
       }
     },
@@ -8840,6 +9224,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ansluter …"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bağlanıyor…"
           }
         }
       }
@@ -8977,6 +9367,12 @@
             "state" : "translated",
             "value" : "Det gick inte att skapa banderollen: %@"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pankart oluşturulamadı: %@"
+          }
         }
       }
     },
@@ -9112,6 +9508,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kameran hittades inte. Kontrollera att ShutterLink är öppet på kamera-iPhonen och att Bluetooth är på."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera bulunamadı. Kamera iPhone’unda ShutterLink’in açık ve Bluetooth’un etkin olduğundan emin olun."
           }
         }
       }
@@ -9249,6 +9651,12 @@
             "state" : "translated",
             "value" : "Det gick inte att para ihop med kameran."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamerayla eşleşilemedi."
+          }
         }
       }
     },
@@ -9384,6 +9792,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Det gick inte att spara i Bilder. %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoğraflar’a kaydedilemedi. %@"
           }
         }
       }
@@ -9521,6 +9935,12 @@
             "state" : "translated",
             "value" : "Det gick inte att visa banderollen: %@"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pankart gösterilemedi: %@"
+          }
         }
       }
     },
@@ -9656,6 +10076,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Det gick inte att starta inspelningen: %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kayıt başlatılamadı: %@"
           }
         }
       }
@@ -9793,6 +10219,12 @@
             "state" : "translated",
             "value" : "Det gick inte att uppdatera designen."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tasarım güncellenemedi."
+          }
         }
       }
     },
@@ -9928,6 +10360,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nedräkning"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geri sayım"
           }
         }
       }
@@ -10065,6 +10503,12 @@
             "state" : "translated",
             "value" : "Mörkare"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daha koyu"
+          }
         }
       }
     },
@@ -10200,6 +10644,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dekor"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Süsleme"
           }
         }
       }
@@ -10337,6 +10787,12 @@
             "state" : "translated",
             "value" : "Radera"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sil"
+          }
         }
       }
     },
@@ -10472,6 +10928,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vill du radera de valda bilderna?"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seçilen kareler silinsin mi?"
           }
         }
       }
@@ -10609,6 +11071,12 @@
             "state" : "translated",
             "value" : "Diagonala ränder"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çapraz çizgiler"
+          }
         }
       }
     },
@@ -10744,6 +11212,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Riktning"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yön"
           }
         }
       }
@@ -10881,6 +11355,12 @@
             "state" : "translated",
             "value" : "Koppla från"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bağlantıyı kes"
+          }
         }
       }
     },
@@ -11016,6 +11496,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Klar"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bitti"
           }
         }
       }
@@ -11153,6 +11639,12 @@
             "state" : "translated",
             "value" : "Dra för att skjuta banderollen över golvet."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pankartı zeminde kaydırmak için sürükleyin."
+          }
         }
       }
     },
@@ -11288,6 +11780,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Körläge"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sürüş modu"
           }
         }
       }
@@ -11425,6 +11923,12 @@
             "state" : "translated",
             "value" : "Ange den fyrsiffriga koden som visas på kamera-iPhonen."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera iPhone’unda görünen 4 haneli kodu girin."
+          }
         }
       }
     },
@@ -11560,6 +12064,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Var %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Her %@"
           }
         }
       }
@@ -11697,6 +12207,12 @@
             "state" : "translated",
             "value" : "Varje bild sparas också i ShutterLink-galleriet. När sändning är på får den som håller fjärrkontrollen en kopia av varje foto hen tar."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Her kare ShutterLink galerisinde de saklanır. Gönderim açıkken, kumandayı tutan kişi çektiği her fotoğrafın bir kopyasını alır."
+          }
         }
       }
     },
@@ -11832,6 +12348,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alla, titta in i kameran!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herkes lütfen kameraya baksın!"
           }
         }
       }
@@ -11969,6 +12491,12 @@
             "state" : "translated",
             "value" : "Exponering"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pozlama"
+          }
         }
       }
     },
@@ -12104,6 +12632,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tyg (matt)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kumaş (mat)"
           }
         }
       }
@@ -12241,6 +12775,12 @@
             "state" : "translated",
             "value" : "Vänd mot mig"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bana dönük"
+          }
         }
       }
     },
@@ -12376,6 +12916,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Höstutflykt tillsammans"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Birlikte sonbahar gezisi"
           }
         }
       }
@@ -12513,6 +13059,12 @@
             "state" : "translated",
             "value" : "Filter"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filtre"
+          }
         }
       }
     },
@@ -12648,6 +13200,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Blixt"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flaş"
           }
         }
       }
@@ -12785,6 +13343,12 @@
             "state" : "translated",
             "value" : "Nedräkning med blixt"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flaşla geri sayım"
+          }
         }
       }
     },
@@ -12920,6 +13484,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Blommor"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çiçekler"
           }
         }
       }
@@ -13057,6 +13627,12 @@
             "state" : "translated",
             "value" : "Typsnitt"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yazı tipi"
+          }
         }
       }
     },
@@ -13192,6 +13768,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Galleri"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Galeri"
           }
         }
       }
@@ -13329,6 +13911,12 @@
             "state" : "translated",
             "value" : "Övertoning"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geçişli"
+          }
         }
       }
     },
@@ -13464,6 +14052,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Examen"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mezuniyet"
           }
         }
       }
@@ -13601,6 +14195,12 @@
             "state" : "translated",
             "value" : "Rutnät"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Izgara"
+          }
         }
       }
     },
@@ -13736,6 +14336,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gruppbild · tryck på en bild för att markera den som bäst"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grup fotoğrafı · en iyi olarak işaretlemek için bir kareye dokunun"
           }
         }
       }
@@ -13873,6 +14479,12 @@
             "state" : "translated",
             "value" : "Gruppbilden tar flera foton och väljer det där alla har ögonen öppna. Fjärrkontrollen får en kopia att behålla."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grup fotoğrafı birkaç kare çeker ve herkesin gözlerinin açık olduğunu seçer. Kumanda saklaması için bir kopya alır."
+          }
         }
       }
     },
@@ -14008,6 +14620,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Handgester"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El hareketleri"
           }
         }
       }
@@ -14145,6 +14763,12 @@
             "state" : "translated",
             "value" : "Handsfree-utlösare"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elsiz deklanşör"
+          }
         }
       }
     },
@@ -14280,6 +14904,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hjärtan"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kalpler"
           }
         }
       }
@@ -14417,6 +15047,12 @@
             "state" : "translated",
             "value" : "Höjd"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yükseklik"
+          }
         }
       }
     },
@@ -14552,6 +15188,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Höjd över golvet"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeminden yükseklik"
           }
         }
       }
@@ -14689,6 +15331,12 @@
             "state" : "translated",
             "value" : "Hjälp"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yardım"
+          }
         }
       }
     },
@@ -14824,6 +15472,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Håll i en banderoll utan att ha med någon"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pankart getirmeden pankart tutun"
           }
         }
       }
@@ -14961,6 +15615,12 @@
             "state" : "translated",
             "value" : "Så använder du ShutterLink"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink nasıl kullanılır"
+          }
         }
       }
     },
@@ -15096,6 +15756,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Intervall"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aralık"
           }
         }
       }
@@ -15233,6 +15899,12 @@
             "state" : "translated",
             "value" : "Vattenpass"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Su terazisi"
+          }
         }
       }
     },
@@ -15368,6 +16040,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Logotyp"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logo"
           }
         }
       }
@@ -15505,6 +16183,12 @@
             "state" : "translated",
             "value" : "Utseende"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Görünüm"
+          }
         }
       }
     },
@@ -15640,6 +16324,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Söker efter kameran %@ …"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ kamerası aranıyor…"
           }
         }
       }
@@ -15777,6 +16467,12 @@
             "state" : "translated",
             "value" : "Huvudbudskap"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ana mesaj"
+          }
         }
       }
     },
@@ -15912,6 +16608,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Huvudtext"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ana metin"
           }
         }
       }
@@ -16049,6 +16751,12 @@
             "state" : "translated",
             "value" : "Material"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Malzeme"
+          }
         }
       }
     },
@@ -16184,6 +16892,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Material · Storlek"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Malzeme · Boyut"
           }
         }
       }
@@ -16321,6 +17035,12 @@
             "state" : "translated",
             "value" : "Läge"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mod"
+          }
         }
       }
     },
@@ -16456,6 +17176,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mer"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daha fazla"
           }
         }
       }
@@ -16593,6 +17319,12 @@
             "state" : "translated",
             "value" : "Flytta banderoll"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pankartı taşı"
+          }
         }
       }
     },
@@ -16728,6 +17460,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nästa"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İleri"
           }
         }
       }
@@ -16865,6 +17603,12 @@
             "state" : "translated",
             "value" : "Nästa bild om %lld s"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonraki kare %lld sn sonra"
+          }
         }
       }
     },
@@ -17000,6 +17744,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ingen kamera finns tillgänglig på den här enheten."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu aygıtta kullanılabilir kamera yok."
           }
         }
       }
@@ -17137,6 +17887,12 @@
             "state" : "translated",
             "value" : "Inga bilder än"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Henüz kare yok"
+          }
         }
       }
     },
@@ -17273,6 +18029,12 @@
             "state" : "translated",
             "value" : "Ingen blinkar"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kimse göz kırpmıyor"
+          }
         }
       }
     },
@@ -17408,6 +18170,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ingen"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yok"
           }
         }
       }
@@ -17546,6 +18314,12 @@
             "state" : "translated",
             "value" : "Nu"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şimdi"
+          }
         }
       }
     },
@@ -17681,6 +18455,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "24–25 okt 2026  Lake Tahoe, Kalifornien"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "24–25 Eki 2026  Tahoe Gölü, Kaliforniya"
           }
         }
       }
@@ -17818,6 +18598,12 @@
             "state" : "translated",
             "value" : "Av"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kapalı"
+          }
         }
       }
     },
@@ -17953,6 +18739,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tamam"
           }
         }
       }
@@ -18090,6 +18882,12 @@
             "state" : "translated",
             "value" : "På"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Açık"
+          }
         }
       }
     },
@@ -18225,6 +19023,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Öppna galleri"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Galeriyi aç"
           }
         }
       }
@@ -18362,6 +19166,12 @@
             "state" : "translated",
             "value" : "Alternativ"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seçenekler"
+          }
         }
       }
     },
@@ -18497,6 +19307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eller fota handsfree"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ya da elsiz çekin"
           }
         }
       }
@@ -18634,6 +19450,12 @@
             "state" : "translated",
             "value" : "Vårt lag 2026"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ekibimiz 2026"
+          }
         }
       }
     },
@@ -18769,6 +19591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Parkopplingskod"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eşleşme kodu"
           }
         }
       }
@@ -18906,6 +19734,12 @@
             "state" : "translated",
             "value" : "Parkopplar …"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eşleşiliyor…"
+          }
         }
       }
     },
@@ -19041,6 +19875,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Handflata"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avuç içi"
           }
         }
       }
@@ -19178,6 +20018,12 @@
             "state" : "translated",
             "value" : "Handflatsgest"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avuç içi hareketi"
+          }
         }
       }
     },
@@ -19313,6 +20159,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Papper"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kâğıt"
           }
         }
       }
@@ -19450,6 +20302,12 @@
             "state" : "translated",
             "value" : "Festkväll"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parti gecesi"
+          }
         }
       }
     },
@@ -19585,6 +20443,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Personräknare"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kişi sayacı"
           }
         }
       }
@@ -19722,6 +20586,12 @@
             "state" : "translated",
             "value" : "Personer som står framför banderollen syns nu ovanpå den."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pankartın önünde duran kişiler artık pankartın üzerinde görünüyor."
+          }
         }
       }
     },
@@ -19857,6 +20727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Foto"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoğraf"
           }
         }
       }
@@ -19994,6 +20870,12 @@
             "state" : "translated",
             "value" : "Foton"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoğraflar"
+          }
         }
       }
     },
@@ -20129,6 +21011,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Foton och videor du tar med ShutterLink visas här."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink ile çektiğiniz fotoğraf ve videolar burada görünür."
           }
         }
       }
@@ -20266,6 +21154,12 @@
             "state" : "translated",
             "value" : "Foton från den här fotograferingen"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu çekimin fotoğrafları"
+          }
         }
       }
     },
@@ -20401,6 +21295,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ställ den här iPhonen på ett stativ eller luta den mot något stabilt. Använd vattenpasset och personräknaren för att få med alla i bild."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu iPhone’u bir tripoda yerleştirin ya da sağlam bir yere yaslayın. Herkesi kadraja almak için su terazisini ve kişi sayacını kullanın."
           }
         }
       }
@@ -20538,6 +21438,12 @@
             "state" : "translated",
             "value" : "Rikta den andra iPhonens kamera mot QR-koden. App Clip-en ShutterLink-fjärrkontroll öppnas utan installation. Håll den här appen öppen medan du fotograferar."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diğer iPhone’un kamerasını QR koda doğrultun. ShutterLink Kumanda App Clip’i hiçbir şey yüklemeden açılır. Çekim sırasında bu uygulamayı açık tutun."
+          }
         }
       }
     },
@@ -20673,6 +21579,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Håll upp en öppen handflata mot kameran för att starta timern."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zamanlayıcıyı başlatmak için açık avucunuzu kameraya doğru kaldırın."
           }
         }
       }
@@ -20810,6 +21722,12 @@
             "state" : "translated",
             "value" : "Håll upp handflatan, klappa eller låt ShutterLink ta bilden när alla ler. En nedräkning med röst och ljus talar om för gruppen när det är dags att posera."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avucunuzu kaldırın, alkışlayın ya da herkes gülümsediğinde ShutterLink’in çekmesine izin verin. Sesli ve ışıklı geri sayım gruba ne zaman poz vereceğini söyler."
+          }
         }
       }
     },
@@ -20945,6 +21863,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inspelningen misslyckades."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kayıt başarısız."
           }
         }
       }
@@ -21082,6 +22006,12 @@
             "state" : "translated",
             "value" : "Ta bort logotyp"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logoyu kaldır"
+          }
         }
       }
     },
@@ -21217,6 +22147,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Återställ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sıfırla"
           }
         }
       }
@@ -21354,6 +22290,12 @@
             "state" : "translated",
             "value" : "Återställ exponering"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pozlamayı sıfırla"
+          }
         }
       }
     },
@@ -21489,6 +22431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rundad sans"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yuvarlak sans"
           }
         }
       }
@@ -21626,6 +22574,12 @@
             "state" : "translated",
             "value" : "Spara eller dela det här fotot"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu fotoğrafı kaydet veya paylaş"
+          }
         }
       }
     },
@@ -21761,6 +22715,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spara eller dela din kopia innan du stänger fjärrkontrollen."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kumandayı kapatmadan önce kopyanızı kaydedin veya paylaşın."
           }
         }
       }
@@ -21898,6 +22858,12 @@
             "state" : "translated",
             "value" : "Spara i Bilder"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoğraflar’a kaydet"
+          }
         }
       }
     },
@@ -22033,6 +22999,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skanna QR-koden på kamera-iPhonen eller ange den fyrsiffriga parkopplingskoden."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera iPhone’undaki QR kodu tarayın ya da 4 haneli eşleşme kodunu girin."
           }
         }
       }
@@ -22170,6 +23142,12 @@
             "state" : "translated",
             "value" : "Skanna för att styra kameran: %@"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamerayı kontrol etmek için tarayın: %@"
+          }
         }
       }
     },
@@ -22305,6 +23283,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skanna med en annan iPhone"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başka bir iPhone ile tarayın"
           }
         }
       }
@@ -22442,6 +23426,12 @@
             "state" : "translated",
             "value" : "Hav"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deniz"
+          }
         }
       }
     },
@@ -22577,6 +23567,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Välj"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seç"
           }
         }
       }
@@ -22714,6 +23710,12 @@
             "state" : "translated",
             "value" : "Skicka foton till fjärrkontrollen"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoğrafları kumandaya gönder"
+          }
         }
       }
     },
@@ -22849,6 +23851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Serif"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serifli"
           }
         }
       }
@@ -22986,6 +23994,12 @@
             "state" : "translated",
             "value" : "Tjänstefel: %@"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hizmet hatası: %@"
+          }
         }
       }
     },
@@ -23121,6 +24135,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ställ in kameran"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamerayı ayarla"
           }
         }
       }
@@ -23258,6 +24278,12 @@
             "state" : "translated",
             "value" : "Inställningar"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayarlar"
+          }
         }
       }
     },
@@ -23393,6 +24419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Form"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şekil"
           }
         }
       }
@@ -23530,6 +24562,12 @@
             "state" : "translated",
             "value" : "Dela"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paylaş"
+          }
         }
       }
     },
@@ -23665,6 +24703,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dela QR-kod"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR kodu paylaş"
           }
         }
       }
@@ -23802,6 +24846,12 @@
             "state" : "translated",
             "value" : "Fota bara med utlösarknappen."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yalnızca deklanşör düğmesiyle çek."
+          }
         }
       }
     },
@@ -23937,6 +24987,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fotograferingsalternativ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çekim seçenekleri"
           }
         }
       }
@@ -24074,6 +25130,12 @@
             "state" : "translated",
             "value" : "Tar bilden automatiskt när alla ler med öppna ögon."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herkes gözleri açık gülümserken otomatik çeker."
+          }
         }
       }
     },
@@ -24209,6 +25271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Visa QR-kod för parkoppling"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eşleşme QR kodunu göster"
           }
         }
       }
@@ -24346,6 +25414,12 @@
             "state" : "translated",
             "value" : "Visa personer framför"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öndeki kişileri göster"
+          }
         }
       }
     },
@@ -24482,6 +25556,12 @@
             "state" : "translated",
             "value" : "Visa sidostänger"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yan direkleri göster"
+          }
         }
       }
     },
@@ -24614,6 +25694,12 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink"
@@ -24754,6 +25840,12 @@
             "state" : "translated",
             "value" : "ShutterLink-foto"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink fotoğrafı"
+          }
         }
       }
     },
@@ -24889,6 +25981,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink-fjärrkontroll"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink Kumanda"
           }
         }
       }
@@ -25026,6 +26124,12 @@
             "state" : "translated",
             "value" : "Enkelt läge (stora knappar)"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basit mod (büyük düğmeler)"
+          }
         }
       }
     },
@@ -25161,6 +26265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enstaka"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tek"
           }
         }
       }
@@ -25298,6 +26408,12 @@
             "state" : "translated",
             "value" : "Enstaka foto"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tek fotoğraf"
+          }
         }
       }
     },
@@ -25433,6 +26549,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Liten översta rad (t.ex. Acme AB 2026)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Küçük üst satır (ör. Acme A.Ş. 2026)"
           }
         }
       }
@@ -25570,6 +26692,12 @@
             "state" : "translated",
             "value" : "Leende"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gülümseme"
+          }
         }
       }
     },
@@ -25705,6 +26833,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Leendeutlösare"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gülümseme deklanşörü"
           }
         }
       }
@@ -25842,6 +26976,12 @@
             "state" : "translated",
             "value" : "Snö"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kar"
+          }
         }
       }
     },
@@ -25977,6 +27117,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enfärgad"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Düz renk"
           }
         }
       }
@@ -26114,6 +27260,12 @@
             "state" : "translated",
             "value" : "Någon står i bildkanten"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biri kadrajın kenarında"
+          }
         }
       }
     },
@@ -26249,6 +27401,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sport"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spor"
           }
         }
       }
@@ -26386,6 +27544,12 @@
             "state" : "translated",
             "value" : "Idrottsdag"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spor günü"
+          }
         }
       }
     },
@@ -26521,6 +27685,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vårblommor"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bahar çiçekleri"
           }
         }
       }
@@ -26658,6 +27828,12 @@
             "state" : "translated",
             "value" : "Stjärnor"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yıldızlar"
+          }
         }
       }
     },
@@ -26793,6 +27969,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Starta inspelning"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaydı başlat"
           }
         }
       }
@@ -26930,6 +28112,12 @@
             "state" : "translated",
             "value" : "Börja fota"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çekime başla"
+          }
         }
       }
     },
@@ -27065,6 +28253,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Startar Bluetooth …"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth başlatılıyor…"
           }
         }
       }
@@ -27202,6 +28396,12 @@
             "state" : "translated",
             "value" : "Stoppa intervallfotografering"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aralıklı çekimi durdur"
+          }
         }
       }
     },
@@ -27337,6 +28537,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stoppa inspelning"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaydı durdur"
           }
         }
       }
@@ -27474,6 +28680,12 @@
             "state" : "translated",
             "value" : "Sommarstrand"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yaz plajı"
+          }
         }
       }
     },
@@ -27609,6 +28821,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vajar i vinden"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rüzgârda sallanır"
           }
         }
       }
@@ -27746,6 +28964,12 @@
             "state" : "translated",
             "value" : "Byt kamera"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamerayı değiştir"
+          }
         }
       }
     },
@@ -27881,6 +29105,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ta foto"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoğraf çek"
           }
         }
       }
@@ -28018,6 +29248,12 @@
             "state" : "translated",
             "value" : "Tar ett foto om %lld sekunder."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld saniye sonra fotoğraf çekilecek."
+          }
         }
       }
     },
@@ -28153,6 +29389,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tryck på golvet eller en vägg för att placera banderollen"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pankartı yerleştirmek için zemine veya duvara dokunun"
           }
         }
       }
@@ -28290,6 +29532,12 @@
             "state" : "translated",
             "value" : "Tryck på QR-knappen. En annan iPhone skannar den med appen Kamera och blir en fjärrkontroll på några sekunder, utan att installera något."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR düğmesine dokunun. Başka bir iPhone Kamera uygulamasıyla tarar ve hiçbir şey yüklemeden saniyeler içinde kumanda olur."
+          }
         }
       }
     },
@@ -28425,6 +29673,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tryck för att fokusera"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odaklamak için dokunun"
           }
         }
       }
@@ -28562,6 +29816,12 @@
             "state" : "translated",
             "value" : "Text"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Metin"
+          }
         }
       }
     },
@@ -28697,6 +29957,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Banderollen stannade till en stund"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pankart bir an durakladı"
           }
         }
       }
@@ -28834,6 +30100,12 @@
             "state" : "translated",
             "value" : "Banderollen är alltid framför alla."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pankart herkesin önünde kalır."
+          }
         }
       }
     },
@@ -28969,6 +30241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kameran räknar ned högt och blinkar med ljuset, så även en grupp som står långt bort vet exakt när bilden tas."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera sesli geri sayar ve ışığını yakıp söndürür; böylece uzakta duran bir grup fotoğrafın tam ne zaman çekileceğini bilir."
           }
         }
       }
@@ -29106,6 +30384,12 @@
             "state" : "translated",
             "value" : "Parkopplingskoden avvisades. Skanna QR-koden igen."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eşleşme kodu reddedildi. QR kodu yeniden tarayın."
+          }
         }
       }
     },
@@ -29238,6 +30522,12 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tema"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tema"
@@ -29378,6 +30668,12 @@
             "state" : "translated",
             "value" : "De ligger kvar i ditt fotobibliotek om de sparades där."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orada kaydedildilerse Fotoğraflar kitaplığınızda kalırlar."
+          }
         }
       }
     },
@@ -29513,6 +30809,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Den här enheten stöder inte Bluetooth LE."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu aygıt Bluetooth LE’yi desteklemiyor."
           }
         }
       }
@@ -29650,6 +30952,12 @@
             "state" : "translated",
             "value" : "Den här enheten är inte en ShutterLink-kamera."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu aygıt bir ShutterLink kamerası değil."
+          }
         }
       }
     },
@@ -29785,6 +31093,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Den här iPhonen stöder inte AR."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu iPhone AR’yi desteklemiyor."
           }
         }
       }
@@ -29922,6 +31236,12 @@
             "state" : "translated",
             "value" : "Lutar %lld grader"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld derece eğik"
+          }
         }
       }
     },
@@ -30057,6 +31377,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Timer"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zamanlayıcı"
           }
         }
       }
@@ -30194,6 +31520,12 @@
             "state" : "translated",
             "value" : "Band upptill och nedtill"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Üst ve alt bantlar"
+          }
         }
       }
     },
@@ -30329,6 +31661,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rand upptill"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Üst şerit"
           }
         }
       }
@@ -30466,6 +31804,12 @@
             "state" : "translated",
             "value" : "Text upptill"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Üst metin"
+          }
         }
       }
     },
@@ -30601,6 +31945,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Försök igen"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekrar dene"
           }
         }
       }
@@ -30738,6 +32088,12 @@
             "state" : "translated",
             "value" : "Slå på Bluetooth för att ansluta till kameran."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kameraya bağlanmak için Bluetooth’u açın."
+          }
         }
       }
     },
@@ -30873,6 +32229,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inte tillgänglig"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kullanılamıyor"
           }
         }
       }
@@ -31010,6 +32372,12 @@
             "state" : "translated",
             "value" : "Version"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sürüm"
+          }
         }
       }
     },
@@ -31142,6 +32510,12 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Video"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Video"
@@ -31282,6 +32656,12 @@
             "state" : "translated",
             "value" : "Videor"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Videolar"
+          }
         }
       }
     },
@@ -31417,6 +32797,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sökare"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vizör"
           }
         }
       }
@@ -31554,6 +32940,12 @@
             "state" : "translated",
             "value" : "Vinyl (blank)"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vinil (parlak)"
+          }
         }
       }
     },
@@ -31689,6 +33081,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nedräkning med röst"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sesli geri sayım"
           }
         }
       }
@@ -31826,6 +33224,12 @@
             "state" : "translated",
             "value" : "Väntar på en fjärrkontroll"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kumanda bekleniyor"
+          }
         }
       }
     },
@@ -31961,6 +33365,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Väntar på Bluetooth …"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth bekleniyor…"
           }
         }
       }
@@ -32098,6 +33508,12 @@
             "state" : "translated",
             "value" : "Väntar på förhandsvisning …"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Önizleme bekleniyor…"
+          }
         }
       }
     },
@@ -32233,6 +33649,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bröllop"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Düğün"
           }
         }
       }
@@ -32370,6 +33792,12 @@
             "state" : "translated",
             "value" : "Bredd"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Genişlik"
+          }
         }
       }
     },
@@ -32505,6 +33933,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vinter"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kış"
           }
         }
       }
@@ -32642,6 +34076,12 @@
             "state" : "translated",
             "value" : "Julfest"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yılbaşı partisi"
+          }
         }
       }
     },
@@ -32777,6 +34217,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zoom"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yakınlaştırma"
           }
         }
       }

@@ -258,6 +258,17 @@ CAPTIONS = {
  ("08-pairing", "07-pairing", "Visa QR-koden så är du redo", "Inget konto, ingen parkoppling att ställa in, ingen extrautrustning"),
  ("09-simple", "06-simple", "Stor knapp för alla", "En enda stor utlösare som vem som helst kan trycka på"),
  ],
+ "tr": [
+ ("01-banner", "banner", "Pankartlı grup fotoğrafı, baskı yok", "Zemine dokunun, pankart herkesin önünde belirsin"),
+ ("02-banner-design", "bannerDesign", "Tema seçin, metninizi yazın", "Buluşma, parti, mezuniyet ve daha fazlası için 13 tema"),
+ ("03-remote", "02-remote", "Başka bir iPhone kumanda olur", "QR kodu tarayın, hiçbir şey yüklemeyin"),
+ ("04-countdown", "04-countdown", "Tek avuçla çekin", "Avuç, alkış veya gülümseme; sesli ve ışıklı geri sayımla"),
+ ("05-bestshot", "01-main", "Kapalı gözlere elveda", "Herkesin gözlerinin açık olduğu kareyi seçer"),
+ ("06-reviews", "03-reviews", "Fotoğraflar doğrudan kumandaya", "Uygulaması olmayan arkadaşlar da kaydedip paylaşabilir"),
+ ("07-gallery", "05-gallery", "Tüm en iyi kareler bir arada", "Seriden başka bir kareyle değiştirin, AirDrop ile paylaşın"),
+ ("08-pairing", "07-pairing", "QR kodu gösterin, hazırsınız", "Hesap yok, eşleştirme ayarı yok, ek donanım yok"),
+ ("09-simple", "06-simple", "Herkes için büyük düğme", "Herkesin basabileceği tek büyük deklanşör"),
+ ],
 }
 
 def font(size, bold):

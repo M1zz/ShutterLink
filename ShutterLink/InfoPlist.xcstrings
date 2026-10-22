@@ -141,6 +141,12 @@
             "state" : "translated",
             "value" : "ShutterLink"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
         }
       }
     },
@@ -296,6 +302,12 @@
             "state" : "translated",
             "value" : "ShutterLink använder Bluetooth så att en iPhone i närheten kan fungera som fjärrutlösare."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink, yakındaki bir iPhone’un uzaktan deklanşör olarak çalışabilmesi için Bluetooth kullanır."
+          }
         }
       }
     },
@@ -438,6 +450,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink använder kameran för att ta foton och videor och för att placera en AR-banderoll i bilden."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink, fotoğraf ve video çekmek ve sahneye AR pankartı yerleştirmek için kamerayı kullanır."
           }
         }
       }
@@ -582,6 +600,12 @@
             "state" : "translated",
             "value" : "ShutterLink spelar in ljud till dina videor och lyssnar efter ett handklapp när klapputlösaren är på."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink, videolarınızla birlikte ses kaydeder ve alkış deklanşörü açıkken alkış sesini dinler."
+          }
         }
       }
     },
@@ -724,6 +748,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink sparar dina foton och videor i ditt fotobibliotek."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink, fotoğraf ve videolarınızı fotoğraf kitaplığınıza kaydeder."
           }
         }
       }

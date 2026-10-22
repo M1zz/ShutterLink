@@ -1942,6 +1942,88 @@ https://m1zz.github.io/ShutterLink/sv/privacy/
 
 https://m1zz.github.io/ShutterLink/sv/
 
+## tr
+
+<!-- Türkçe -->
+
+### 이름
+
+ShutterLink: pankartlı foto
+
+### 부제
+
+Kurulumsuz uzaktan kumanda
+
+### 키워드
+
+buluşma,parti,ekip,etkinlik,aile,selfie,tripod,zamanlayıcı,AR,gülümseme,alkış,avuç,bluetooth
+
+### 프로모션 텍스트
+
+Grup fotoğrafınıza baskı olmadan kendi pankartınızı ekleyin. Metninizi yazın, tema seçin; herkes pankartı tutsun. Arkadaşınızın iPhone’u tek QR taramasıyla kumanda olur.
+
+### 설명
+
+Pankart bastırmadan, herkesin pankart tuttuğu klasik grup fotoğrafını çekin.
+Metninizi yazın, bir tema seçin; pankart grubunuzun önünde belirsin. Bir arkadaşınızın iPhone’u yüklemeden kumanda olur.
+
+Pankart modu
+Pankart’a geçin, zemine dokunun; pankart insanların tutacağı yükseklikte belirir. Duvara dokunarak oraya asabilirsiniz. Yukarı, aşağı veya yana sürükleyin, parmağınızı takip eder. İki parmakla döndürebilir ya da boyutlandırabilir veya taşıma düğmesiyle ileri, geri, yana, yukarı ve aşağı ince ayar yapabilirsiniz.
+Pankart her zaman grubunuzun önünde kalır; böylece herkes onu birlikte tutuyormuş gibi görünür.
+
+Kendinize göre yapın
+13 temayla başlayın: sonbahar gezisi, bahar pikniği, plaj, yılbaşı partisi, doğum günü, spor günü, tezahürat, mezuniyet, düğün ve ekip gezisi.
+En fazla üç satır metin yazın. Arka planı, yazı tipini, süslemeyi, renkleri ve şekli değiştirin; kendi logonuzu ekleyin.
+Kumaş, vinil veya kâğıt seçin. Kumaş pankart gerçeği gibi sarkar, kırışır ve rüzgârda dalgalanır.
+
+Herkes karede
+Zamanlayıcı, elsiz deklanşör ve kumanda Pankart modunda çalışır. Telefonu tripoda koyun ve gruba katılın. Fotoğraflar Fotoğraflar’a ve uygulama içi galeriye kaydedilir.
+
+Yüklemesiz kumanda
+Kamera iPhone’unda QR kodu gösterin ve başka bir iPhone’un kamerasıyla tarayın. ShutterLink Kumanda hemen App Clip olarak açılır ve bağlanır. Kadrajı canlı görüntüden ayarlayın ve deklanşöre basın. Pankart modunda pankart canlı görüntüde de görünür. QR kod taranmazsa 4 haneli kodu girin.
+
+Elsiz deklanşör
+Avucunuzu kaldırın, birlikte gülümseyin veya alkışlayın; deklanşör tetiklenir.
+3 ila 30 saniyelik bir zamanlayıcı ayarlayın. Bir ses geri sayar, flaş birlikte yanıp söner ve kumanda elinizde titrer.
+“Kameraya bakın” sesli uyarısı herkesin dikkatini toplar.
+
+Kimse göz kırpmıyor
+3 veya 5 karelik bir seri çekin; ShutterLink herkesin gözlerinin açık ve gülümsediği kareyi seçsin. Galeriyi en iyi karelere göre filtreleyin ya da başka birini kendiniz seçin.
+
+Kimse kesilmez
+Kadrajda kaç kişi olduğunu görün, biri kenardayken uyarı alın. iPhone eğildiğinde su terazisi görünür.
+
+Fotoğraflar kumandaya düşer
+Çektiğiniz her fotoğraf hemen kumanda iPhone’unda görünür. Uygulaması olmayan bir arkadaş onu anında kaydedip paylaşabilir.
+
+Kumandadan tam kamera kontrolü
+Odak ve pozlama için dokunma, pozlama telafisi, flaş ve ışık, ızgara, iPhone’unuza bağlı olarak 0,5× ile 10× arası yakınlaştırma, ön ve arka kamera ve video.
+Gün batımı veya süren projeler için 3 saniyeden 1 dakikaya kadar aralıklı çekim.
+Kumandadaki basit mod, herkesin basabileceği tek büyük bir deklanşör düğmesi gösterir.
+
+Doğrudan Bluetooth, internet yok
+İki iPhone doğrudan Bluetooth ile bağlanır. Bağlandıktan sonra dağda, plajda veya yurt dışında Wi‑Fi ya da mobil veri olmadan çalışır. Hesap gerekmez.
+
+Fotoğraflarınız sizde kalır
+Fotoğraf ve videolar kamera iPhone’unda ve bağladığınız kumandada kalır, asla yüklenmez. Eşleşme kodu uygulamayı her açışınızda değişir; böylece deklanşörü yalnızca kodu bilen bir kumanda tetikleyebilir.
+
+Bilmekte fayda var
+iOS 17 veya üzeri gerekir. Kumanda için ikinci bir iPhone gerekir.
+Kumanda iPhone’unun App Clip’i ilk kez indirirken bir kez internete ihtiyacı vardır.
+Flaş, seri çekim, yakınlaştırma ve ön kamera Pankart modunda kullanılamaz.
+
+### 지원 URL
+
+https://m1zz.github.io/ShutterLink/tr/support/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/ShutterLink/tr/privacy/
+
+### 마케팅 URL
+
+https://m1zz.github.io/ShutterLink/tr/
+
 ## 연령 등급
 
 <!-- 내용 문항이 전부 '해당 없음' 인 앱이면 아래 줄의 주석을 풀어라.

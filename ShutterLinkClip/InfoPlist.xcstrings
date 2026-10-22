@@ -141,6 +141,12 @@
             "state" : "translated",
             "value" : "ShutterLink-fjärrkontroll"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink Kumanda"
+          }
         }
       }
     },
@@ -296,6 +302,12 @@
             "state" : "translated",
             "value" : "ShutterLink-fjärrkontrollen använder Bluetooth för att styra kamera-iPhonen i närheten."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink Kumanda, yakındaki kamera iPhone’unu yönetmek için Bluetooth kullanır."
+          }
         }
       }
     },
@@ -438,6 +450,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink-fjärrkontrollen sparar de foton du tar i ditt fotobibliotek."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink Kumanda, çektiğiniz fotoğrafları fotoğraf kitaplığınıza kaydeder."
           }
         }
       }

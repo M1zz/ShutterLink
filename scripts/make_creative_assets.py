@@ -22,8 +22,8 @@ RAW = ROOT / "docs" / "screenshots" / "raw"
 OUT = ROOT / "docs" / "screenshots" / "creative"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
-# 앱 언어 코드 → App Store Connect 로케일 (deploy.env LOCALES=ko,en-US,ja,en-GB,zh-Hans,zh-Hant,ru,es-ES,de-DE,fr-FR,it,pt-BR,th,vi,cs,da,el,fi,id,no,nl-NL,pl,sv)
-STORE = {"en": "en-US", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "no", "nl": "nl-NL", "pl": "pl", "sv": "sv"}
+# 앱 언어 코드 → App Store Connect 로케일 (deploy.env LOCALES=ko,en-US,ja,en-GB,zh-Hans,zh-Hant,ru,es-ES,de-DE,fr-FR,it,pt-BR,th,vi,cs,da,el,fi,id,no,nl-NL,pl,sv,tr)
+STORE = {"en": "en-US", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "no", "nl": "nl-NL", "pl": "pl", "sv": "sv", "tr": "tr"}
 
 # (가로, 세로, 안전 영역 left, top, right, bottom)
 SPEC = {
@@ -56,6 +56,7 @@ SEARCH = {
     "nl": ("Spandoek groepsfoto", "De groepsfoto met spandoek,<br>zonder te printen", "Tik op de vloer en iedereen houdt het vast"),
     "pl": ("Baner zdjęcie grupowe", "Zdjęcie grupowe z banerem,<br>bez drukowania", "Dotknij podłogi i wszyscy go trzymają"),
     "sv": ("Banderoll gruppbild", "Gruppbilden med banderoll,<br>utan att skriva ut", "Tryck på golvet så håller alla i den"),
+    "tr": ("Pankart grup fotoğrafı", "Pankartlı grup fotoğrafı,<br>baskı yok", "Zemine dokunun, herkes pankartı tutsun"),
 }
 
 # 헤더는 한 가지 약속: 우리 모임 현수막을 들고 찍는 단체사진.
@@ -83,6 +84,7 @@ HEADER = {
     "nl": ("Groepsfoto met spandoek", "Jullie spandoek<br>op elke groepsfoto"),
     "pl": ("Zdjęcie grupowe z banerem", "Wasz baner<br>na każdym zdjęciu grupowym"),
     "sv": ("Gruppbild med banderoll", "Er banderoll<br>på varje gruppbild"),
+    "tr": ("Pankartlı grup fotoğrafı", "Pankartınız<br>her grup fotoğrafında"),
 }
 
 # ⚠️ 바탕 · 글자색은 마케팅 스크린샷(scripts/screens/make_marketing_screenshots.py)과 같다.
