@@ -123,6 +123,12 @@
             "state" : "translated",
             "value" : "ShutterLink-fjernkontroll"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink-afstandsbediening"
+          }
         }
       }
     },
@@ -260,6 +266,12 @@
             "state" : "translated",
             "value" : "ShutterLink-fjernkontrollen bruker Bluetooth til å styre kamera-iPhonen i nærheten."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De ShutterLink-afstandsbediening gebruikt Bluetooth om de iPhone met de camera in de buurt te bedienen."
+          }
         }
       }
     },
@@ -384,6 +396,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink-fjernkontrollen lagrer bildene du tar, i bildebiblioteket ditt."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De ShutterLink-afstandsbediening bewaart de foto’s die je maakt in je fotobibliotheek."
           }
         }
       }

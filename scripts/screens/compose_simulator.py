@@ -225,6 +225,17 @@ CAPTIONS = {
  ("08-pairing", "07-pairing", "Vis QR-koden, så er du klar", "Ingen konto, ingen paringsoppsett, ikke noe ekstrautstyr"),
  ("09-simple", "06-simple", "Stor knapp for alle", "Én stor utløser som alle kan trykke på"),
  ],
+ "nl": [
+ ("01-banner", "banner", "Groepsfoto met spandoek, zonder printen", "Tik op de vloer en het spandoek staat voor iedereen"),
+ ("02-banner-design", "bannerDesign", "Kies een thema, schrijf je tekst", "13 thema’s voor reünies, feesten, diploma-uitreikingen en meer"),
+ ("03-remote", "02-remote", "Een andere iPhone wordt afstandsbediening", "Scan de QR-code, niets installeren"),
+ ("04-countdown", "04-countdown", "Fotografeer met je handpalm", "Handpalm, klap of lach, met aftellen via stem en licht"),
+ ("05-bestshot", "01-main", "Geen dichte ogen meer", "Kiest de foto waarop iedereen de ogen open heeft"),
+ ("06-reviews", "03-reviews", "Foto’s direct op de afstandsbediening", "Ook vrienden zonder de app bewaren en delen ze"),
+ ("07-gallery", "05-gallery", "Alle beste foto’s bij elkaar", "Wissel met een andere uit de serie en deel via AirDrop"),
+ ("08-pairing", "07-pairing", "Toon de QR-code en je bent klaar", "Geen account, geen koppelinstellingen, geen extra apparatuur"),
+ ("09-simple", "06-simple", "Grote knop voor iedereen", "Eén grote ontspanner die iedereen kan indrukken"),
+ ],
 }
 
 def font(size, bold):

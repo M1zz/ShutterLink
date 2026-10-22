@@ -123,6 +123,12 @@
             "state" : "translated",
             "value" : "ShutterLink"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
         }
       }
     },
@@ -260,6 +266,12 @@
             "state" : "translated",
             "value" : "ShutterLink bruker Bluetooth slik at en iPhone i nærheten kan fungere som fjernutløser."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink gebruikt Bluetooth zodat een iPhone in de buurt als afstandsbediening voor de sluiter kan dienen."
+          }
         }
       }
     },
@@ -384,6 +396,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink bruker kameraet til å ta bilder og videoer og til å plassere et AR-banner i scenen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink gebruikt de camera om foto’s en video’s te maken en om een AR-spandoek in beeld te plaatsen."
           }
         }
       }
@@ -510,6 +528,12 @@
             "state" : "translated",
             "value" : "ShutterLink tar opp lyd til videoene dine og lytter etter et klapp når klappeutløseren er på."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink neemt geluid op bij je video’s en luistert naar een klap als de klapontspanner aan staat."
+          }
         }
       }
     },
@@ -634,6 +658,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink lagrer bildene og videoene dine i bildebiblioteket ditt."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink bewaart je foto’s en video’s in je fotobibliotheek."
           }
         }
       }

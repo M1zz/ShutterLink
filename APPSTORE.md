@@ -1696,6 +1696,88 @@ https://m1zz.github.io/ShutterLink/nb/privacy/
 
 https://m1zz.github.io/ShutterLink/nb/
 
+## nl-NL
+
+<!-- Nederlands -->
+
+### 이름
+
+ShutterLink: spandoekfoto
+
+### 부제
+
+Afstandsbediening zonder app
+
+### 키워드
+
+reünie,feest,team,evenement,familie,selfie,statief,timer,AR,fotohokje,lach,klap,handpalm,bluetooth
+
+### 프로모션 텍스트
+
+Zet een eigen spandoek in je groepsfoto, zonder printen. Schrijf je tekst, kies een thema en iedereen houdt het vast. Een iPhone wordt afstandsbediening met één QR-scan.
+
+### 설명
+
+Maak de klassieke groepsfoto waarop iedereen een spandoek vasthoudt, zonder een spandoek te printen.
+Schrijf je tekst, kies een thema en er verschijnt een spandoek voor je groep. De iPhone van een vriend wordt de afstandsbediening, zonder installatie.
+
+Spandoekmodus
+Schakel naar Spandoek, tik op de vloer en het spandoek verschijnt op de hoogte waarop mensen het zouden vasthouden. Tik op een muur om het daar op te hangen. Sleep het omhoog, omlaag of opzij en het volgt je vinger. Met twee vingers draai of schaal je het, of tik op de verplaatsknop om fijn af te stellen naar voren, achter, opzij, omhoog en omlaag.
+Het spandoek blijft altijd voor je groep, dus het lijkt alsof iedereen het samen omhooghoudt.
+
+Maak het van jou
+Begin met een van de 13 thema’s, waaronder herfstuitje, lentepicknick, strand, eindejaarsfeest, verjaardag, sportdag, aanmoedigen, diploma-uitreiking, bruiloft en teamuitje.
+Schrijf tot drie regels tekst. Pas achtergrond, lettertype, versiering, kleuren en vorm aan en voeg je eigen logo toe.
+Kies stof, vinyl of papier. Een stoffen spandoek hangt door, vouwt en wappert in de bries als een echt.
+
+Iedereen staat erop
+De timer, de handsfree ontspanner en de afstandsbediening werken in de spandoekmodus. Zet de telefoon op een statief en ga bij de groep staan. Foto’s worden bewaard in Foto’s en in de galerij in de app.
+
+Een afstandsbediening zonder installatie
+Toon de QR-code op de iPhone met de camera en scan hem met de camera van een andere iPhone. De ShutterLink-afstandsbediening opent meteen als App Clip en maakt verbinding. Kadreer in de live weergave en druk op de ontspanner. In de spandoekmodus is het spandoek ook te zien in de live weergave. Lukt het scannen van de QR-code niet, typ dan de code van 4 cijfers.
+
+Handsfree ontspanner
+Hef je handpalm, lach samen of klap, en de ontspanner gaat af.
+Stel een timer in van 3 tot 30 seconden. Een stem telt af, de flits knippert mee en de afstandsbediening trilt in je hand.
+Een gesproken ‘Kijk in de camera’ trekt ieders aandacht.
+
+Niemand knippert
+Maak een serie van 3 of 5 foto’s en ShutterLink kiest die waarop iedereen de ogen open heeft en lacht. Filter de galerij op de beste foto’s of kies zelf een andere.
+
+Niemand valt buiten beeld
+Zie hoeveel mensen er in beeld zijn en krijg een waarschuwing als iemand aan de rand staat. Er verschijnt een waterpas als de iPhone kantelt.
+
+Foto’s komen op de afstandsbediening
+Elke foto die je maakt, verschijnt meteen op de iPhone met de afstandsbediening. Een vriend zonder de app kan hem ter plekke bewaren en delen.
+
+Volledige camerabediening vanaf de afstandsbediening
+Tik om scherp te stellen en te belichten, belichtingscorrectie, flits en licht, raster, zoom van 0,5× tot 10× afhankelijk van je iPhone, voor- en achtercamera en video.
+Intervalopnamen elke 3 seconden tot 1 minuut voor zonsondergangen of projecten in uitvoering.
+Een eenvoudige modus op de afstandsbediening toont één grote ontspanknop die iedereen kan indrukken.
+
+Rechtstreeks Bluetooth, zonder internet
+De twee iPhones verbinden rechtstreeks via Bluetooth. Eenmaal verbonden werkt het op een berg, op het strand of in het buitenland zonder wifi of mobiele data. Een account is niet nodig.
+
+Je foto’s blijven van jou
+Foto’s en video’s blijven op de iPhone met de camera en de afstandsbediening die je verbond, en worden nooit geüpload. De koppelcode verandert elke keer dat je de app opent, dus alleen een afstandsbediening die hem kent, kan de ontspanner bedienen.
+
+Goed om te weten
+Vereist iOS 17 of nieuwer. Voor de afstandsbediening heb je een tweede iPhone nodig.
+De iPhone met de afstandsbediening heeft één keer internet nodig, de eerste keer dat hij de App Clip downloadt.
+Flits, series, zoom en de frontcamera zijn niet beschikbaar in de spandoekmodus.
+
+### 지원 URL
+
+https://m1zz.github.io/ShutterLink/nl/support/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/ShutterLink/nl/privacy/
+
+### 마케팅 URL
+
+https://m1zz.github.io/ShutterLink/nl/
+
 ## 연령 등급
 
 <!-- 내용 문항이 전부 '해당 없음' 인 앱이면 아래 줄의 주석을 풀어라.
