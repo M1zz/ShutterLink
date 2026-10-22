@@ -624,6 +624,94 @@ https://m1zz.github.io/ShutterLink/ru/privacy/
 
 https://m1zz.github.io/ShutterLink/ru/
 
+## es-ES
+
+<!-- Español -->
+
+### 이름
+
+ShutterLink: foto con pancarta
+
+### 부제
+
+Control remoto sin instalar
+
+### 키워드
+
+reencuentro,fiesta,equipo,evento,familia,selfi,trípode,temporizador,AR,fotomatón,sonrisa,palmada
+
+### 프로모션 텍스트
+
+Pon una pancarta propia en tu foto de grupo, sin imprimir. Escribe tu texto, elige un tema y todos la sujetan. El iPhone de un amigo hace de control con un QR.
+
+### 설명
+
+Haz la clásica foto de grupo con todos sujetando una pancarta, sin imprimirla.
+Escribe tu texto, elige un tema y la pancarta aparece delante de tu grupo. El iPhone de un amigo se convierte en el control, sin instalar nada.
+
+Modo Pancarta
+Cambia a Pancarta, toca el suelo y la pancarta aparece a la altura a la que la sujetaría la gente. Toca una pared para colgarla allí. Arrástrala hacia arriba, abajo o a los lados y te sigue con el dedo. Con dos dedos puedes girarla o cambiarla de tamaño, o toca el botón de mover para ajustarla con precisión hacia delante, atrás, a los lados, arriba y abajo.
+La pancarta siempre se queda delante de tu grupo, así que parece que todos la sujetan juntos.
+
+Hazla tuya
+Empieza con uno de los 13 temas: escapada de otoño, picnic de primavera, playa, fiesta de fin de año, cumpleaños, día del deporte, ánimo, graduación, boda y encuentro de equipo.
+Escribe hasta tres líneas de texto. Cambia el fondo, la fuente, la decoración, los colores y la forma, y añade tu propio logotipo.
+Elige tela, vinilo o papel. Una pancarta de tela se comba, se arruga y ondea con la brisa como la de verdad.
+
+Todos salen en la foto
+El temporizador, el disparo sin manos y el control funcionan en el modo Pancarta. Deja el móvil en un trípode y únete al grupo. Las fotos se guardan en Fotos y en la galería de la app.
+
+Un control sin instalar nada
+Muestra el código QR en el iPhone de la cámara y escanéalo con la cámara de otro iPhone. El control de ShutterLink se abre al instante como App Clip y se conecta. Encuadra con la vista en directo y pulsa el obturador. En el modo Pancarta, la pancarta también se ve en la vista en directo. Si el código QR no se escanea, introduce el código de 4 dígitos.
+
+Disparo sin manos
+Levanta la palma, sonreíd juntos o dad una palmada y el obturador dispara.
+Configura un temporizador de 3 a 30 segundos. Una voz cuenta atrás, el flash parpadea al ritmo y el control vibra en tu mano.
+Un aviso de voz de «Mirad a la cámara» capta la atención de todos.
+
+Nadie parpadea
+Haz una ráfaga de 3 o 5 fotos y ShutterLink elige la toma en la que todos tienen los ojos abiertos y sonríen. Filtra la galería para ver solo las mejores tomas o elige tú otra.
+
+Nadie queda cortado
+Mira cuántas personas hay en el encuadre y recibe un aviso cuando alguien está en el borde. Aparece un nivel cuando el iPhone se inclina.
+
+Las fotos llegan al control
+Cada foto que haces aparece enseguida en el iPhone del control. Un amigo sin la app puede guardarla y compartirla al momento.
+
+Control total de la cámara desde el control
+Toca para enfocar y exponer, compensación de exposición, flash y luz, cuadrícula, zoom de 0,5× hasta 10× según tu iPhone, cámaras frontal y trasera, y vídeo.
+Disparo por intervalos de 3 segundos a 1 minuto para atardeceres o proyectos en marcha.
+Un modo sencillo en el control muestra un único botón grande que cualquiera puede pulsar.
+
+Bluetooth directo, sin internet
+Los dos iPhone se conectan directamente por Bluetooth. Una vez conectados, funciona en la montaña, en la playa o en el extranjero sin Wi‑Fi ni datos móviles. No hace falta cuenta.
+
+Tus fotos se quedan contigo
+Las fotos y los vídeos se quedan en el iPhone de la cámara y en el control que conectaste, y nunca se suben. El código de emparejamiento cambia cada vez que abres la app, así que solo un control que lo conozca puede disparar el obturador.
+
+Cómo funciona
+Abre ShutterLink en el iPhone de la cámara y colócalo en un trípode o en una estantería.
+Elige Pancarta abajo y toca el pincel para ajustar el texto y el tema.
+Toca el suelo donde estará tu grupo para colocar la pancarta.
+Levanta la palma o pulsa el obturador en el control.
+
+Conviene saber
+Requiere iOS 17 o posterior. El control necesita un segundo iPhone.
+El iPhone del control necesita internet una vez, la primera vez que descarga el App Clip.
+El flash, las ráfagas, el zoom y la cámara frontal no están disponibles en el modo Pancarta.
+
+### 지원 URL
+
+https://m1zz.github.io/ShutterLink/es/support/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/ShutterLink/es/privacy/
+
+### 마케팅 URL
+
+https://m1zz.github.io/ShutterLink/es/
+
 ## 연령 등급
 
 <!-- 내용 문항이 전부 '해당 없음' 인 앱이면 아래 줄의 주석을 풀어라.

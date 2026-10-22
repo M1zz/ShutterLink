@@ -45,6 +45,12 @@
             "state" : "translated",
             "value" : "ShutterLink"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
         }
       }
     },
@@ -104,6 +110,12 @@
             "state" : "translated",
             "value" : "ShutterLink использует Bluetooth, чтобы соседний iPhone мог работать как пульт затвора."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink usa Bluetooth para que un iPhone cercano funcione como disparador remoto."
+          }
         }
       }
     },
@@ -150,6 +162,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink использует камеру, чтобы снимать фото и видео и показывать AR-баннер в кадре."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink usa la cámara para hacer fotos y vídeos y para colocar una pancarta AR en la escena."
           }
         }
       }
@@ -198,6 +216,12 @@
             "state" : "translated",
             "value" : "ShutterLink записывает звук для видео и слушает хлопок, когда включён затвор по хлопку."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink graba audio con tus vídeos y escucha una palmada cuando el disparador por palmada está activado."
+          }
         }
       }
     },
@@ -244,6 +268,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink сохраняет ваши фото и видео в медиатеку."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink guarda tus fotos y vídeos en tu fototeca."
           }
         }
       }

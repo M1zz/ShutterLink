@@ -38,6 +38,12 @@
             "state" : "translated",
             "value" : "%lld"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
         }
       }
     },
@@ -77,6 +83,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "В кадре: %lld"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld en el encuadre"
           }
         }
       }
@@ -118,6 +130,12 @@
             "state" : "translated",
             "value" : "Фото: %lld"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld fotos"
+          }
         }
       }
     },
@@ -157,6 +175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Снято %lld, выбрано лучшее"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld fotos y elige la mejor"
           }
         }
       }
@@ -198,6 +222,12 @@
             "state" : "translated",
             "value" : "Подключено пультов: %lld"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld control conectado"
+          }
         }
       }
     },
@@ -238,6 +268,12 @@
             "state" : "translated",
             "value" : "Выбрано: %lld"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld seleccionadas"
+          }
         }
       }
     },
@@ -276,6 +312,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld°"
+          }
+        },
+        "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld°"
@@ -320,6 +362,12 @@
             "state" : "translated",
             "value" : "%lld мин"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
         }
       }
     },
@@ -360,6 +408,12 @@
             "state" : "translated",
             "value" : "%lld с"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld s"
+          }
         }
       }
     },
@@ -396,6 +450,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0000"
+          }
+        },
+        "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "0000"
@@ -440,6 +500,12 @@
             "state" : "translated",
             "value" : "Акцент (рамка · полоса)"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acento (borde · franja)"
+          }
         }
       }
     },
@@ -479,6 +545,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Добавить логотип"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añadir imagen de logotipo"
           }
         }
       }
@@ -520,6 +592,12 @@
             "state" : "translated",
             "value" : "Настроить положение"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustar posición"
+          }
         }
       }
     },
@@ -559,6 +637,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Не удалось начать поиск: %@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error al anunciarse: %@"
           }
         }
       }
@@ -600,6 +684,12 @@
             "state" : "translated",
             "value" : "Все"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Todas"
+          }
         }
       }
     },
@@ -640,6 +730,12 @@
             "state" : "translated",
             "value" : "Разрешите доступ к Bluetooth в настройках, чтобы управлять камерой."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permite el acceso a Bluetooth en Ajustes para controlar la cámara."
+          }
         }
       }
     },
@@ -679,6 +775,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Любой iPhone может стать пультом"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cualquiera puede ser el control"
           }
         }
       }
@@ -721,6 +823,12 @@
             "state" : "translated",
             "value" : "Применить"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplicar"
+          }
         }
       }
     },
@@ -760,6 +868,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Попросить всех смотреть в камеру"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pedir a todos que miren a la cámara"
           }
         }
       }
@@ -801,6 +915,12 @@
             "state" : "translated",
             "value" : "Соотношение сторон"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Proporción"
+          }
         }
       }
     },
@@ -840,6 +960,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Авто"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto"
           }
         }
       }
@@ -881,6 +1007,12 @@
             "state" : "translated",
             "value" : "Автосъёмка выключена"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disparo automático desactivado"
+          }
         }
       }
     },
@@ -920,6 +1052,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Осенние листья"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hojas de otoño"
           }
         }
       }
@@ -961,6 +1099,12 @@
             "state" : "translated",
             "value" : "Осенний выезд"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Excursión de otoño"
+          }
         }
       }
     },
@@ -1000,6 +1144,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Фон"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fondo"
           }
         }
       }
@@ -1041,6 +1191,12 @@
             "state" : "translated",
             "value" : "Цвет фона"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Color de fondo"
+          }
         }
       }
     },
@@ -1080,6 +1236,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Воздушные шары"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Globos"
           }
         }
       }
@@ -1121,6 +1283,12 @@
             "state" : "translated",
             "value" : "Баннер"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pancarta"
+          }
         }
       }
     },
@@ -1160,6 +1328,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Дизайн баннера"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diseño de pancarta"
           }
         }
       }
@@ -1201,6 +1375,12 @@
             "state" : "translated",
             "value" : "Лучший кадр"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mejor toma"
+          }
         }
       }
     },
@@ -1240,6 +1420,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Лучший кадр из %lld фото"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mejor toma entre %lld fotos"
           }
         }
       }
@@ -1281,6 +1467,12 @@
             "state" : "translated",
             "value" : "Лучшие кадры"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mejores tomas"
+          }
         }
       }
     },
@@ -1320,6 +1512,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "День рождения"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cumpleaños"
           }
         }
       }
@@ -1361,6 +1559,12 @@
             "state" : "translated",
             "value" : "Bluetooth выключен"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth desactivado"
+          }
         }
       }
     },
@@ -1400,6 +1604,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bluetooth LE не поддерживается"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth LE no compatible"
           }
         }
       }
@@ -1441,6 +1651,12 @@
             "state" : "translated",
             "value" : "Нет доступа к Bluetooth"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permiso de Bluetooth denegado"
+          }
         }
       }
     },
@@ -1480,6 +1696,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bluetooth готов"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth listo"
           }
         }
       }
@@ -1521,6 +1743,12 @@
             "state" : "translated",
             "value" : "Bluetooth недоступен"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth no disponible"
+          }
         }
       }
     },
@@ -1560,6 +1788,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Жирный без засечек"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sans negrita"
           }
         }
       }
@@ -1601,6 +1835,12 @@
             "state" : "translated",
             "value" : "Нижняя строка: дата · место"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Línea inferior: fecha · lugar"
+          }
         }
       }
     },
@@ -1640,6 +1880,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нижний текст"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Texto inferior"
           }
         }
       }
@@ -1681,6 +1927,12 @@
             "state" : "translated",
             "value" : "Ярче"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Más claro"
+          }
         }
       }
     },
@@ -1720,6 +1972,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Серия"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ráfaga"
           }
         }
       }
@@ -1761,6 +2019,12 @@
             "state" : "translated",
             "value" : "Нужен доступ к камере. Включите его в «Настройки» > ShutterLink."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se necesita acceso a la cámara. Actívalo en Ajustes > ShutterLink."
+          }
         }
       }
     },
@@ -1800,6 +2064,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Отмена"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
           }
         }
       }
@@ -1841,6 +2111,12 @@
             "state" : "translated",
             "value" : "Отменить таймер"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar temporizador"
+          }
         }
       }
     },
@@ -1880,6 +2156,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Не удалось снять: %@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error al capturar: %@"
           }
         }
       }
@@ -1921,6 +2203,12 @@
             "state" : "translated",
             "value" : "Праздник"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Celebración"
+          }
         }
       }
     },
@@ -1960,6 +2248,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сменить логотип"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambiar logotipo"
           }
         }
       }
@@ -2001,6 +2295,12 @@
             "state" : "translated",
             "value" : "Проверьте доступ к «Фото» в настройках."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Revisa el acceso a Fotos en Ajustes."
+          }
         }
       }
     },
@@ -2040,6 +2340,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Болельщики"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ánimo"
           }
         }
       }
@@ -2081,6 +2387,12 @@
             "state" : "translated",
             "value" : "Выберите «Баннер», напишите текст и подберите цвета, затем коснитесь пола. Баннер останется на месте, а стоящие перед ним люди будут выглядеть так, будто держат его."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elige Pancarta, escribe tu texto y escoge los colores; luego toca el suelo. La pancarta se queda en su sitio y las personas que se ponen delante parecen sujetarla."
+          }
         }
       }
     },
@@ -2120,6 +2432,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Рождество"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Navidad"
           }
         }
       }
@@ -2161,6 +2479,12 @@
             "state" : "translated",
             "value" : "Хлопок"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palmada"
+          }
         }
       }
     },
@@ -2200,6 +2524,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Громко хлопните один раз, чтобы запустить таймер."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Da una palmada fuerte para iniciar el temporizador."
           }
         }
       }
@@ -2241,6 +2571,12 @@
             "state" : "translated",
             "value" : "Затвор по хлопку"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disparo por palmada"
+          }
         }
       }
     },
@@ -2280,6 +2616,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Для затвора по хлопку нужен доступ к микрофону. Включите его в «Настройки» > ShutterLink."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El disparo por palmada necesita acceso al micrófono. Actívalo en Ajustes > ShutterLink."
           }
         }
       }
@@ -2321,6 +2663,12 @@
             "state" : "translated",
             "value" : "Классика"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clásico"
+          }
         }
       }
     },
@@ -2360,6 +2708,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Закрыть"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cerrar"
           }
         }
       }
@@ -2401,6 +2755,12 @@
             "state" : "translated",
             "value" : "Цвета"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Colores"
+          }
         }
       }
     },
@@ -2440,6 +2800,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Корпоративный семинар"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taller de empresa"
           }
         }
       }
@@ -2481,6 +2847,12 @@
             "state" : "translated",
             "value" : "Узкий без засечек"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sans condensada"
+          }
         }
       }
     },
@@ -2520,6 +2892,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Подключить"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conectar"
           }
         }
       }
@@ -2561,6 +2939,12 @@
             "state" : "translated",
             "value" : "Подключено"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conectado"
+          }
         }
       }
     },
@@ -2600,6 +2984,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Подключение…"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conectando…"
           }
         }
       }
@@ -2641,6 +3031,12 @@
             "state" : "translated",
             "value" : "Не удалось создать баннер: %@"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudo crear la pancarta: %@"
+          }
         }
       }
     },
@@ -2680,6 +3076,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Камера не найдена. Убедитесь, что на снимающем iPhone открыт ShutterLink и включён Bluetooth."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se encuentra la cámara. Comprueba que ShutterLink esté abierto en el iPhone de la cámara y que Bluetooth esté activado."
           }
         }
       }
@@ -2721,6 +3123,12 @@
             "state" : "translated",
             "value" : "Не удалось связаться с камерой."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudo emparejar con la cámara."
+          }
         }
       }
     },
@@ -2760,6 +3168,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Не удалось сохранить в «Фото». %@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudo guardar en Fotos. %@"
           }
         }
       }
@@ -2801,6 +3215,12 @@
             "state" : "translated",
             "value" : "Не удалось показать баннер: %@"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudo mostrar la pancarta: %@"
+          }
         }
       }
     },
@@ -2840,6 +3260,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Не удалось начать запись: %@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudo iniciar la grabación: %@"
           }
         }
       }
@@ -2881,6 +3307,12 @@
             "state" : "translated",
             "value" : "Не удалось обновить дизайн."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudo actualizar el diseño."
+          }
         }
       }
     },
@@ -2920,6 +3352,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Отсчёт"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuenta atrás"
           }
         }
       }
@@ -2961,6 +3399,12 @@
             "state" : "translated",
             "value" : "Темнее"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Más oscuro"
+          }
         }
       }
     },
@@ -3000,6 +3444,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Украшения"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Decoración"
           }
         }
       }
@@ -3041,6 +3491,12 @@
             "state" : "translated",
             "value" : "Удалить"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar"
+          }
         }
       }
     },
@@ -3080,6 +3536,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Удалить выбранные кадры?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Eliminar las tomas seleccionadas?"
           }
         }
       }
@@ -3121,6 +3583,12 @@
             "state" : "translated",
             "value" : "Диагональные полосы"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rayas diagonales"
+          }
         }
       }
     },
@@ -3160,6 +3628,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Направление"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dirección"
           }
         }
       }
@@ -3201,6 +3675,12 @@
             "state" : "translated",
             "value" : "Отключить"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desconectar"
+          }
         }
       }
     },
@@ -3240,6 +3720,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Готово"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hecho"
           }
         }
       }
@@ -3281,6 +3767,12 @@
             "state" : "translated",
             "value" : "Перетащите, чтобы сдвинуть баннер по полу."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arrastra para deslizar la pancarta por el suelo."
+          }
         }
       }
     },
@@ -3320,6 +3812,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Режим вождения"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modo conducción"
           }
         }
       }
@@ -3361,6 +3859,12 @@
             "state" : "translated",
             "value" : "Введите 4-значный код с экрана снимающего iPhone."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Introduce el código de 4 dígitos que aparece en el iPhone de la cámara."
+          }
         }
       }
     },
@@ -3400,6 +3904,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Каждые %@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cada %@"
           }
         }
       }
@@ -3441,6 +3951,12 @@
             "state" : "translated",
             "value" : "Каждый кадр также сохраняется в галерее ShutterLink. Если отправка включена, тот, у кого пульт, получает копию каждого снятого фото."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cada toma también se guarda en la galería de ShutterLink. Con el envío activado, quien tiene el control recibe una copia de cada foto que hace."
+          }
         }
       }
     },
@@ -3480,6 +3996,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Все, смотрим в камеру!"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Todos, mirad a la cámara!"
           }
         }
       }
@@ -3521,6 +4043,12 @@
             "state" : "translated",
             "value" : "Экспозиция"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exposición"
+          }
         }
       }
     },
@@ -3560,6 +4088,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ткань (матовая)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tela (mate)"
           }
         }
       }
@@ -3601,6 +4135,12 @@
             "state" : "translated",
             "value" : "Лицом ко мне"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mirar hacia mí"
+          }
         }
       }
     },
@@ -3640,6 +4180,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Вместе на осенний выезд"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escapada de otoño juntos"
           }
         }
       }
@@ -3681,6 +4227,12 @@
             "state" : "translated",
             "value" : "Фильтр"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filtrar"
+          }
         }
       }
     },
@@ -3720,6 +4272,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Вспышка"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flash"
           }
         }
       }
@@ -3761,6 +4319,12 @@
             "state" : "translated",
             "value" : "Отсчёт вспышкой"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuenta atrás con flash"
+          }
         }
       }
     },
@@ -3800,6 +4364,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Цветы"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flores"
           }
         }
       }
@@ -3841,6 +4411,12 @@
             "state" : "translated",
             "value" : "Шрифт"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fuente"
+          }
         }
       }
     },
@@ -3880,6 +4456,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Галерея"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Galería"
           }
         }
       }
@@ -3921,6 +4503,12 @@
             "state" : "translated",
             "value" : "Градиент"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Degradado"
+          }
         }
       }
     },
@@ -3960,6 +4548,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Выпускной"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Graduación"
           }
         }
       }
@@ -4001,6 +4595,12 @@
             "state" : "translated",
             "value" : "Сетка"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuadrícula"
+          }
         }
       }
     },
@@ -4040,6 +4640,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Групповое фото · коснитесь кадра, чтобы сделать его лучшим"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto de grupo · toca una toma para marcarla como mejor"
           }
         }
       }
@@ -4081,6 +4687,12 @@
             "state" : "translated",
             "value" : "Групповой снимок делает несколько кадров и выбирает тот, где у всех открыты глаза. Копия остаётся на пульте."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La foto de grupo hace varias tomas y elige la que sale con todos los ojos abiertos. El control recibe una copia para guardar."
+          }
         }
       }
     },
@@ -4120,6 +4732,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Жесты"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manos"
           }
         }
       }
@@ -4161,6 +4779,12 @@
             "state" : "translated",
             "value" : "Съёмка без рук"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disparo sin manos"
+          }
         }
       }
     },
@@ -4200,6 +4824,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сердечки"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Corazones"
           }
         }
       }
@@ -4241,6 +4871,12 @@
             "state" : "translated",
             "value" : "Высота"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Altura"
+          }
         }
       }
     },
@@ -4280,6 +4916,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Высота над полом"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Altura sobre el suelo"
           }
         }
       }
@@ -4321,6 +4963,12 @@
             "state" : "translated",
             "value" : "Справка"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayuda"
+          }
         }
       }
     },
@@ -4360,6 +5008,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Держите баннер, не принося его с собой"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sujeta una pancarta sin llevarla"
           }
         }
       }
@@ -4401,6 +5055,12 @@
             "state" : "translated",
             "value" : "Как пользоваться ShutterLink"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cómo usar ShutterLink"
+          }
         }
       }
     },
@@ -4440,6 +5100,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Интервал"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Intervalo"
           }
         }
       }
@@ -4481,6 +5147,12 @@
             "state" : "translated",
             "value" : "Уровень"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nivel"
+          }
         }
       }
     },
@@ -4520,6 +5192,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Логотип"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logotipo"
           }
         }
       }
@@ -4561,6 +5239,12 @@
             "state" : "translated",
             "value" : "Вид"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aspecto"
+          }
         }
       }
     },
@@ -4600,6 +5284,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Поиск камеры %@…"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscando la cámara %@…"
           }
         }
       }
@@ -4641,6 +5331,12 @@
             "state" : "translated",
             "value" : "Главная надпись"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mensaje principal"
+          }
         }
       }
     },
@@ -4680,6 +5376,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Основной текст"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Texto principal"
           }
         }
       }
@@ -4721,6 +5423,12 @@
             "state" : "translated",
             "value" : "Материал"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Material"
+          }
         }
       }
     },
@@ -4760,6 +5468,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Материал · Размер"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Material · Tamaño"
           }
         }
       }
@@ -4801,6 +5515,12 @@
             "state" : "translated",
             "value" : "Режим"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modo"
+          }
         }
       }
     },
@@ -4840,6 +5560,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ещё"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Más"
           }
         }
       }
@@ -4881,6 +5607,12 @@
             "state" : "translated",
             "value" : "Переместить баннер"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mover pancarta"
+          }
         }
       }
     },
@@ -4920,6 +5652,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Далее"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siguiente"
           }
         }
       }
@@ -4961,6 +5699,12 @@
             "state" : "translated",
             "value" : "Следующий кадр через %lld с"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siguiente toma en %lld s"
+          }
         }
       }
     },
@@ -5000,6 +5744,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "На этом устройстве нет доступной камеры."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No hay ninguna cámara disponible en este dispositivo."
           }
         }
       }
@@ -5041,6 +5791,12 @@
             "state" : "translated",
             "value" : "Пока нет кадров"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aún no hay tomas"
+          }
         }
       }
     },
@@ -5081,6 +5837,12 @@
             "state" : "translated",
             "value" : "Никто не моргнул"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nadie parpadea"
+          }
         }
       }
     },
@@ -5120,6 +5882,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нет"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ninguno"
           }
         }
       }
@@ -5162,6 +5930,12 @@
             "state" : "translated",
             "value" : "Сейчас"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ahora"
+          }
         }
       }
     },
@@ -5201,6 +5975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "24–25 октября 2026  озеро Тахо, Калифорния"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "24–25 oct 2026  Lago Tahoe, CA"
           }
         }
       }
@@ -5242,6 +6022,12 @@
             "state" : "translated",
             "value" : "Выкл."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No"
+          }
         }
       }
     },
@@ -5281,6 +6067,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ОК"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
           }
         }
       }
@@ -5322,6 +6114,12 @@
             "state" : "translated",
             "value" : "Вкл."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sí"
+          }
         }
       }
     },
@@ -5361,6 +6159,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Открыть галерею"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrir galería"
           }
         }
       }
@@ -5402,6 +6206,12 @@
             "state" : "translated",
             "value" : "Параметры"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opciones"
+          }
         }
       }
     },
@@ -5441,6 +6251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Или снимайте без рук"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O dispara sin manos"
           }
         }
       }
@@ -5482,6 +6298,12 @@
             "state" : "translated",
             "value" : "Наша команда 2026"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuestro equipo 2026"
+          }
         }
       }
     },
@@ -5521,6 +6343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Код подключения"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Código de emparejamiento"
           }
         }
       }
@@ -5562,6 +6390,12 @@
             "state" : "translated",
             "value" : "Подключение…"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Emparejando…"
+          }
         }
       }
     },
@@ -5601,6 +6435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ладонь"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palma"
           }
         }
       }
@@ -5642,6 +6482,12 @@
             "state" : "translated",
             "value" : "Жест ладонью"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gesto de palma"
+          }
         }
       }
     },
@@ -5681,6 +6527,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Бумага"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papel"
           }
         }
       }
@@ -5722,6 +6574,12 @@
             "state" : "translated",
             "value" : "Вечеринка"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noche de fiesta"
+          }
         }
       }
     },
@@ -5761,6 +6619,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Счётчик людей"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contador de personas"
           }
         }
       }
@@ -5802,6 +6666,12 @@
             "state" : "translated",
             "value" : "Теперь люди, стоящие перед баннером, отображаются поверх него."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ahora las personas que están delante de la pancarta se ven por encima de ella."
+          }
         }
       }
     },
@@ -5841,6 +6711,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Фото"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto"
           }
         }
       }
@@ -5882,6 +6758,12 @@
             "state" : "translated",
             "value" : "Фото"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotos"
+          }
         }
       }
     },
@@ -5921,6 +6803,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Фото и видео, снятые в ShutterLink, появятся здесь."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aquí aparecen las fotos y los vídeos que haces con ShutterLink."
           }
         }
       }
@@ -5962,6 +6850,12 @@
             "state" : "translated",
             "value" : "Фото этой съёмки"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotos de esta sesión"
+          }
         }
       }
     },
@@ -6001,6 +6895,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Поставьте этот iPhone на штатив или обоприте его о что-нибудь устойчивое. Уровень и счётчик людей помогут уместить в кадр всех."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coloca este iPhone en un trípode o apóyalo en un sitio estable. Usa el nivel y el contador de personas para encuadrar a todos."
           }
         }
       }
@@ -6042,6 +6942,12 @@
             "state" : "translated",
             "value" : "Наведите камеру другого iPhone на QR-код. Мини-приложение «Пульт ShutterLink» откроется без установки. Во время съёмки не закрывайте это приложение."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apunta la cámara del otro iPhone al código QR. El App Clip del control de ShutterLink se abre sin instalar nada. Mantén esta app abierta mientras haces fotos."
+          }
         }
       }
     },
@@ -6081,6 +6987,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Поднимите раскрытую ладонь к камере, чтобы запустить таймер."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Levanta la palma abierta hacia la cámara para iniciar el temporizador."
           }
         }
       }
@@ -6122,6 +7034,12 @@
             "state" : "translated",
             "value" : "Поднимите ладонь, хлопните или дайте ShutterLink снять, когда все улыбаются. Голосовой и световой отсчёт подскажет группе, когда позировать."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Levanta la palma, da una palmada o deja que ShutterLink dispare cuando todos sonrían. Una cuenta atrás con voz y luz avisa al grupo de cuándo posar."
+          }
         }
       }
     },
@@ -6161,6 +7079,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Не удалось записать."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error en la grabación."
           }
         }
       }
@@ -6202,6 +7126,12 @@
             "state" : "translated",
             "value" : "Удалить логотип"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quitar logotipo"
+          }
         }
       }
     },
@@ -6241,6 +7171,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сбросить"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restablecer"
           }
         }
       }
@@ -6282,6 +7218,12 @@
             "state" : "translated",
             "value" : "Сбросить экспозицию"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restablecer exposición"
+          }
         }
       }
     },
@@ -6321,6 +7263,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Скруглённый без засечек"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sans redondeada"
           }
         }
       }
@@ -6362,6 +7310,12 @@
             "state" : "translated",
             "value" : "Сохранить или отправить это фото"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guardar o compartir esta foto"
+          }
         }
       }
     },
@@ -6401,6 +7355,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сохраните или отправьте свою копию, прежде чем закрывать пульт."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guarda o comparte tu copia antes de cerrar el control."
           }
         }
       }
@@ -6442,6 +7402,12 @@
             "state" : "translated",
             "value" : "Сохранить в «Фото»"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guardar en Fotos"
+          }
         }
       }
     },
@@ -6481,6 +7447,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Отсканируйте QR-код на снимающем iPhone или введите 4-значный код подключения."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escanea el código QR del iPhone de la cámara o introduce el código de emparejamiento de 4 dígitos."
           }
         }
       }
@@ -6522,6 +7494,12 @@
             "state" : "translated",
             "value" : "Отсканируйте, чтобы управлять камерой: %@"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escanea para controlar la cámara: %@"
+          }
         }
       }
     },
@@ -6561,6 +7539,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Отсканируйте другим iPhone"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escanea con otro iPhone"
           }
         }
       }
@@ -6602,6 +7586,12 @@
             "state" : "translated",
             "value" : "Море"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mar"
+          }
         }
       }
     },
@@ -6641,6 +7631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Выбрать"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seleccionar"
           }
         }
       }
@@ -6682,6 +7678,12 @@
             "state" : "translated",
             "value" : "Отправлять фото на пульт"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enviar fotos al control"
+          }
         }
       }
     },
@@ -6721,6 +7723,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "С засечками"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serif"
           }
         }
       }
@@ -6762,6 +7770,12 @@
             "state" : "translated",
             "value" : "Ошибка службы: %@"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error del servicio: %@"
+          }
         }
       }
     },
@@ -6801,6 +7815,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Настройка камеры"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configurar la cámara"
           }
         }
       }
@@ -6842,6 +7862,12 @@
             "state" : "translated",
             "value" : "Настройки"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustes"
+          }
         }
       }
     },
@@ -6881,6 +7907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Форма"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forma"
           }
         }
       }
@@ -6922,6 +7954,12 @@
             "state" : "translated",
             "value" : "Поделиться"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compartir"
+          }
         }
       }
     },
@@ -6961,6 +7999,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Поделиться QR-кодом"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compartir código QR"
           }
         }
       }
@@ -7002,6 +8046,12 @@
             "state" : "translated",
             "value" : "Снимать только кнопкой затвора."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disparar solo con el botón del obturador."
+          }
         }
       }
     },
@@ -7041,6 +8091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Параметры съёмки"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opciones de disparo"
           }
         }
       }
@@ -7082,6 +8138,12 @@
             "state" : "translated",
             "value" : "Снимает сам, когда все улыбаются с открытыми глазами."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dispara solo cuando todos sonríen con los ojos abiertos."
+          }
         }
       }
     },
@@ -7121,6 +8183,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Показать QR-код подключения"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar código QR de emparejamiento"
           }
         }
       }
@@ -7162,6 +8230,12 @@
             "state" : "translated",
             "value" : "Показывать людей впереди"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar a las personas delante"
+          }
         }
       }
     },
@@ -7202,6 +8276,12 @@
             "state" : "translated",
             "value" : "Показать боковые шесты"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar postes laterales"
+          }
         }
       }
     },
@@ -7238,6 +8318,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
+        },
+        "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink"
@@ -7282,6 +8368,12 @@
             "state" : "translated",
             "value" : "Фото ShutterLink"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto de ShutterLink"
+          }
         }
       }
     },
@@ -7321,6 +8413,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Пульт ShutterLink"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Control ShutterLink"
           }
         }
       }
@@ -7362,6 +8460,12 @@
             "state" : "translated",
             "value" : "Простой режим (крупные кнопки)"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modo sencillo (botones grandes)"
+          }
         }
       }
     },
@@ -7401,6 +8505,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Одиночный"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sencilla"
           }
         }
       }
@@ -7442,6 +8552,12 @@
             "state" : "translated",
             "value" : "Одно фото"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto sencilla"
+          }
         }
       }
     },
@@ -7481,6 +8597,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Маленькая верхняя строка (например, ООО «Ромашка» 2026)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Línea pequeña superior (p. ej., Acme S.L. 2026)"
           }
         }
       }
@@ -7522,6 +8644,12 @@
             "state" : "translated",
             "value" : "Улыбка"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonrisa"
+          }
         }
       }
     },
@@ -7561,6 +8689,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Затвор по улыбке"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disparo por sonrisa"
           }
         }
       }
@@ -7602,6 +8736,12 @@
             "state" : "translated",
             "value" : "Снег"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nieve"
+          }
         }
       }
     },
@@ -7641,6 +8781,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Однотонный"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liso"
           }
         }
       }
@@ -7682,6 +8828,12 @@
             "state" : "translated",
             "value" : "Кто-то на краю кадра"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alguien está en el borde del encuadre"
+          }
         }
       }
     },
@@ -7721,6 +8873,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Спорт"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deportes"
           }
         }
       }
@@ -7762,6 +8920,12 @@
             "state" : "translated",
             "value" : "День спорта"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Día del deporte"
+          }
         }
       }
     },
@@ -7801,6 +8965,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Цветение весны"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flores de primavera"
           }
         }
       }
@@ -7842,6 +9012,12 @@
             "state" : "translated",
             "value" : "Звёзды"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estrellas"
+          }
         }
       }
     },
@@ -7881,6 +9057,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Начать запись"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iniciar grabación"
           }
         }
       }
@@ -7922,6 +9104,12 @@
             "state" : "translated",
             "value" : "Начать съёмку"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Empezar a disparar"
+          }
         }
       }
     },
@@ -7961,6 +9149,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Запуск Bluetooth…"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iniciando Bluetooth…"
           }
         }
       }
@@ -8002,6 +9196,12 @@
             "state" : "translated",
             "value" : "Остановить интервальную съёмку"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detener disparo por intervalos"
+          }
         }
       }
     },
@@ -8041,6 +9241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Остановить запись"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detener grabación"
           }
         }
       }
@@ -8082,6 +9288,12 @@
             "state" : "translated",
             "value" : "Летний пляж"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Playa de verano"
+          }
         }
       }
     },
@@ -8121,6 +9333,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Колышется на ветру"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se mece con la brisa"
           }
         }
       }
@@ -8162,6 +9380,12 @@
             "state" : "translated",
             "value" : "Сменить камеру"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambiar de cámara"
+          }
         }
       }
     },
@@ -8201,6 +9425,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сделать фото"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hacer foto"
           }
         }
       }
@@ -8242,6 +9472,12 @@
             "state" : "translated",
             "value" : "Снимок через %lld с."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto en %lld segundos."
+          }
         }
       }
     },
@@ -8281,6 +9517,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Коснитесь пола или стены, чтобы разместить баннер"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toca el suelo o una pared para colocar la pancarta"
           }
         }
       }
@@ -8322,6 +9564,12 @@
             "state" : "translated",
             "value" : "Нажмите кнопку QR. Другой iPhone отсканирует код в приложении «Камера» и за пару секунд станет пультом — без установки."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toca el botón QR. Otro iPhone lo escanea con la app Cámara y en segundos se convierte en control, sin instalar nada."
+          }
         }
       }
     },
@@ -8361,6 +9609,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Коснитесь, чтобы навести фокус"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toca para enfocar"
           }
         }
       }
@@ -8402,6 +9656,12 @@
             "state" : "translated",
             "value" : "Текст"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Texto"
+          }
         }
       }
     },
@@ -8441,6 +9701,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Баннер ненадолго замер"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La pancarta se detuvo un momento"
           }
         }
       }
@@ -8482,6 +9748,12 @@
             "state" : "translated",
             "value" : "Баннер всегда перед всеми."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La pancarta se queda delante de todos."
+          }
         }
       }
     },
@@ -8521,6 +9793,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Камера считает вслух и мигает подсветкой, поэтому даже далеко стоящая группа точно знает, когда будет снимок."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La cámara cuenta atrás en voz alta y parpadea con su luz, así un grupo que está lejos sabe justo cuándo se hace la foto."
           }
         }
       }
@@ -8562,6 +9840,12 @@
             "state" : "translated",
             "value" : "Код подключения не принят. Отсканируйте QR-код ещё раз."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se rechazó el código de emparejamiento. Vuelve a escanear el código QR."
+          }
         }
       }
     },
@@ -8601,6 +9885,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Тема"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tema"
           }
         }
       }
@@ -8642,6 +9932,12 @@
             "state" : "translated",
             "value" : "Они останутся в вашей медиатеке, если были туда сохранены."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se quedan en tu fototeca si se guardaron allí."
+          }
         }
       }
     },
@@ -8681,6 +9977,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Это устройство не поддерживает Bluetooth LE."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este dispositivo no admite Bluetooth LE."
           }
         }
       }
@@ -8722,6 +10024,12 @@
             "state" : "translated",
             "value" : "Это устройство не является камерой ShutterLink."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este dispositivo no es una cámara ShutterLink."
+          }
         }
       }
     },
@@ -8761,6 +10069,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Этот iPhone не поддерживает AR."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este iPhone no admite AR."
           }
         }
       }
@@ -8802,6 +10116,12 @@
             "state" : "translated",
             "value" : "Наклон: %lld°"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inclinado %lld grados"
+          }
         }
       }
     },
@@ -8841,6 +10161,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Таймер"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temporizador"
           }
         }
       }
@@ -8882,6 +10208,12 @@
             "state" : "translated",
             "value" : "Верхняя и нижняя полосы"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bandas superior e inferior"
+          }
         }
       }
     },
@@ -8921,6 +10253,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Верхняя полоса"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Franja superior"
           }
         }
       }
@@ -8962,6 +10300,12 @@
             "state" : "translated",
             "value" : "Верхний текст"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Texto superior"
+          }
         }
       }
     },
@@ -9001,6 +10345,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Повторить"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reintentar"
           }
         }
       }
@@ -9042,6 +10392,12 @@
             "state" : "translated",
             "value" : "Включите Bluetooth, чтобы подключиться к камере."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Activa Bluetooth para conectar con la cámara."
+          }
         }
       }
     },
@@ -9081,6 +10437,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Недоступно"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No disponible"
           }
         }
       }
@@ -9122,6 +10484,12 @@
             "state" : "translated",
             "value" : "Версия"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versión"
+          }
         }
       }
     },
@@ -9161,6 +10529,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Видео"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vídeo"
           }
         }
       }
@@ -9202,6 +10576,12 @@
             "state" : "translated",
             "value" : "Видео"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vídeos"
+          }
         }
       }
     },
@@ -9241,6 +10621,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Видоискатель"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visor"
           }
         }
       }
@@ -9282,6 +10668,12 @@
             "state" : "translated",
             "value" : "Винил (глянец)"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vinilo (brillante)"
+          }
         }
       }
     },
@@ -9321,6 +10713,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Голосовой отсчёт"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuenta atrás por voz"
           }
         }
       }
@@ -9362,6 +10760,12 @@
             "state" : "translated",
             "value" : "Ожидание пульта"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esperando un control"
+          }
         }
       }
     },
@@ -9401,6 +10805,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ожидание Bluetooth…"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esperando a Bluetooth…"
           }
         }
       }
@@ -9442,6 +10852,12 @@
             "state" : "translated",
             "value" : "Ожидание превью…"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esperando la vista previa…"
+          }
         }
       }
     },
@@ -9481,6 +10897,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Свадьба"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boda"
           }
         }
       }
@@ -9522,6 +10944,12 @@
             "state" : "translated",
             "value" : "Ширина"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anchura"
+          }
         }
       }
     },
@@ -9561,6 +10989,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Зима"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invierno"
           }
         }
       }
@@ -9602,6 +11036,12 @@
             "state" : "translated",
             "value" : "Новогодний корпоратив"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fiesta de fin de año"
+          }
         }
       }
     },
@@ -9641,6 +11081,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Зум"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoom"
           }
         }
       }

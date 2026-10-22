@@ -183,6 +183,7 @@
 				zh-Hans,
 				zh-Hant,
 				ru,
+				es,
 				Base,
 			);
 			mainGroup = AA0000000000000000000002;

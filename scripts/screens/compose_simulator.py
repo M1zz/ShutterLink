@@ -82,6 +82,17 @@ CAPTIONS = {
  ("08-pairing", "07-pairing", "Покажите QR — и готово", "Ни аккаунтов, ни настройки подключения, ни доп. устройств"),
  ("09-simple", "06-simple", "Крупная кнопка для всех", "Один большой затвор, который нажмёт любой"),
  ],
+ "es": [
+ ("01-banner", "banner", "Foto con pancarta, sin imprimir", "Toca el suelo y la pancarta aparece delante de todos"),
+ ("02-banner-design", "bannerDesign", "Elige un tema y escribe tu texto", "13 temas para reencuentros, fiestas, graduaciones y más"),
+ ("03-remote", "02-remote", "Otro iPhone es tu control", "Escanea el QR, sin instalar nada"),
+ ("04-countdown", "04-countdown", "Dispara con la palma de la mano", "Palma, palmada o sonrisa, con cuenta atrás por voz y luz"),
+ ("05-bestshot", "01-main", "Se acabaron los ojos cerrados", "Elige la toma en la que todos tienen los ojos abiertos"),
+ ("06-reviews", "03-reviews", "Las fotos llegan al control", "Los amigos sin la app también pueden guardarlas y compartirlas"),
+ ("07-gallery", "05-gallery", "Todas las mejores tomas", "Cambia por otra de la ráfaga y compártela con AirDrop"),
+ ("08-pairing", "07-pairing", "Enseña el QR y listo", "Sin cuentas, sin ajustes de emparejamiento, sin accesorios"),
+ ("09-simple", "06-simple", "Botón grande para todos", "Un único obturador grande que cualquiera puede pulsar"),
+ ],
 }
 
 def font(size, bold):

@@ -45,6 +45,12 @@
             "state" : "translated",
             "value" : "Пульт ShutterLink"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Control ShutterLink"
+          }
         }
       }
     },
@@ -104,6 +110,12 @@
             "state" : "translated",
             "value" : "Пульт ShutterLink использует Bluetooth, чтобы управлять соседним iPhone, который снимает."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El control de ShutterLink usa Bluetooth para manejar el iPhone de la cámara que está cerca."
+          }
         }
       }
     },
@@ -150,6 +162,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Пульт ShutterLink сохраняет сделанные вами фото в медиатеку."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El control de ShutterLink guarda en tu fototeca las fotos que haces."
           }
         }
       }
