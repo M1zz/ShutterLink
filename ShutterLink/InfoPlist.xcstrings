@@ -21,6 +21,12 @@
             "state" : "translated",
             "value" : "ShutterLink"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
         }
       }
     },
@@ -56,6 +62,12 @@
             "state" : "translated",
             "value" : "近くのiPhoneをリモコンシャッターとして使うために、Bluetoothを使用します。"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink uses Bluetooth so a nearby iPhone can act as a remote shutter."
+          }
         }
       }
     },
@@ -78,6 +90,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "写真やビデオを撮影し、ARの横断幕を画面に表示するために、カメラを使用します。"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink uses the camera to take photos and videos, and to place an AR banner in the scene."
           }
         }
       }
@@ -102,6 +120,12 @@
             "state" : "translated",
             "value" : "ビデオの音声を録音し、拍手シャッターを使うために、マイクを使用します。"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink records audio with your videos and listens for a clap when Clap shutter is on."
+          }
         }
       }
     },
@@ -124,6 +148,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "撮影した写真やビデオを写真ライブラリに保存します。"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink saves your photos and videos to your library."
           }
         }
       }

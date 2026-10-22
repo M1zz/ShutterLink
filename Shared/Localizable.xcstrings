@@ -14,6 +14,12 @@
             "state" : "translated",
             "value" : "%lld"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
         }
       }
     },
@@ -29,6 +35,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld人を検出"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld in frame"
           }
         }
       }
@@ -46,6 +58,12 @@
             "state" : "translated",
             "value" : "写真 %lld枚"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld photos"
+          }
         }
       }
     },
@@ -61,6 +79,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld枚撮ってベストを選ぶ"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld photos, best one picked"
           }
         }
       }
@@ -78,6 +102,12 @@
             "state" : "translated",
             "value" : "リモコン %lld台が接続中"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld remote connected"
+          }
         }
       }
     },
@@ -94,6 +124,12 @@
             "state" : "translated",
             "value" : "%lld件を選択中"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld selected"
+          }
         }
       }
     },
@@ -108,6 +144,12 @@
           }
         },
         "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld°"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld°"
@@ -128,6 +170,12 @@
             "state" : "translated",
             "value" : "%lld分"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lldm"
+          }
         }
       }
     },
@@ -144,6 +192,12 @@
             "state" : "translated",
             "value" : "%lld秒"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%llds"
+          }
         }
       }
     },
@@ -156,6 +210,12 @@
           }
         },
         "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0000"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "0000"
@@ -176,6 +236,12 @@
             "state" : "translated",
             "value" : "アクセント色（縁・ライン）"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accent (Border · Stripe)"
+          }
         }
       }
     },
@@ -191,6 +257,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ロゴ画像を追加"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Logo Image"
           }
         }
       }
@@ -208,6 +280,12 @@
             "state" : "translated",
             "value" : "位置を調整"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adjust Position"
+          }
         }
       }
     },
@@ -223,6 +301,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "アドバタイズに失敗しました：%@"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Advertising failed: %@"
           }
         }
       }
@@ -240,6 +324,12 @@
             "state" : "translated",
             "value" : "すべて"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All"
+          }
         }
       }
     },
@@ -256,6 +346,12 @@
             "state" : "translated",
             "value" : "カメラを操作するには、設定でBluetoothへのアクセスを許可してください。"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allow Bluetooth access in Settings to control the camera."
+          }
         }
       }
     },
@@ -271,6 +367,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "だれでもリモコンになれます"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anyone can be the remote"
           }
         }
       }
@@ -289,6 +391,12 @@
             "state" : "translated",
             "value" : "適用"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apply"
+          }
         }
       }
     },
@@ -304,6 +412,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "全員にカメラを見るよう声をかける"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ask everyone to look at the camera"
           }
         }
       }
@@ -321,6 +435,12 @@
             "state" : "translated",
             "value" : "縦横比"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aspect Ratio"
+          }
         }
       }
     },
@@ -336,6 +456,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "自動"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto"
           }
         }
       }
@@ -353,6 +479,12 @@
             "state" : "translated",
             "value" : "自動撮影オフ"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto capture off"
+          }
         }
       }
     },
@@ -368,6 +500,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "紅葉"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autumn Leaves"
           }
         }
       }
@@ -385,6 +523,12 @@
             "state" : "translated",
             "value" : "秋の遠足"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autumn Outing"
+          }
         }
       }
     },
@@ -400,6 +544,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "背景"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Background"
           }
         }
       }
@@ -417,6 +567,12 @@
             "state" : "translated",
             "value" : "背景色"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Background Colour"
+          }
         }
       }
     },
@@ -432,6 +588,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "風船"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Balloons"
           }
         }
       }
@@ -449,6 +611,12 @@
             "state" : "translated",
             "value" : "横断幕"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banner"
+          }
         }
       }
     },
@@ -464,6 +632,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "横断幕のデザイン"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banner Design"
           }
         }
       }
@@ -481,6 +655,12 @@
             "state" : "translated",
             "value" : "ベストショット"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Best shot"
+          }
         }
       }
     },
@@ -496,6 +676,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld枚の中からベストショットを選びました"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Best shot picked from %lld photos"
           }
         }
       }
@@ -513,6 +699,12 @@
             "state" : "translated",
             "value" : "ベストショット"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Best shots"
+          }
         }
       }
     },
@@ -528,6 +720,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "誕生日"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Birthday"
           }
         }
       }
@@ -545,6 +743,12 @@
             "state" : "translated",
             "value" : "Bluetoothがオフです"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth is off"
+          }
         }
       }
     },
@@ -560,6 +764,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bluetooth LEに対応していないデバイスです"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth LE not supported"
           }
         }
       }
@@ -577,6 +787,12 @@
             "state" : "translated",
             "value" : "Bluetoothの使用が許可されていません"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth permission denied"
+          }
         }
       }
     },
@@ -592,6 +808,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bluetoothの準備ができました"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth ready"
           }
         }
       }
@@ -609,6 +831,12 @@
             "state" : "translated",
             "value" : "Bluetoothを使用できません"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth unavailable"
+          }
         }
       }
     },
@@ -624,6 +852,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "太ゴシック"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bold Sans"
           }
         }
       }
@@ -641,6 +875,12 @@
             "state" : "translated",
             "value" : "下段：日付・場所"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bottom line: date · place"
+          }
         }
       }
     },
@@ -656,6 +896,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "下の文字"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bottom Text"
           }
         }
       }
@@ -673,6 +919,12 @@
             "state" : "translated",
             "value" : "明るく"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brighter"
+          }
         }
       }
     },
@@ -688,6 +940,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "連写"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Burst"
           }
         }
       }
@@ -705,6 +963,12 @@
             "state" : "translated",
             "value" : "カメラへのアクセスが必要です。設定 > ShutterLink で許可してください。"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camera access is required. Enable it in Settings > ShutterLink."
+          }
         }
       }
     },
@@ -720,6 +984,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "キャンセル"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
           }
         }
       }
@@ -737,6 +1007,12 @@
             "state" : "translated",
             "value" : "タイマーを取り消す"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel timer"
+          }
         }
       }
     },
@@ -752,6 +1028,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "撮影に失敗しました：%@"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Capture failed: %@"
           }
         }
       }
@@ -769,6 +1051,12 @@
             "state" : "translated",
             "value" : "お祝い"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Celebration"
+          }
         }
       }
     },
@@ -784,6 +1072,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ロゴを変更"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Change Logo"
           }
         }
       }
@@ -801,6 +1095,12 @@
             "state" : "translated",
             "value" : "設定で写真へのアクセスを確認してください。"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Check Photos access in Settings."
+          }
         }
       }
     },
@@ -816,6 +1116,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "応援"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cheer"
           }
         }
       }
@@ -833,6 +1139,12 @@
             "state" : "translated",
             "value" : "「横断幕」を選び、文字と色を決めて床をタップ。横断幕がその場に浮かび、前に立つ人たちが持っているように写ります。"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose Banner, write your text and pick colours, then tap the floor. The banner stays in place, and people standing in front look like they're holding it."
+          }
         }
       }
     },
@@ -848,6 +1160,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "クリスマス"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Christmas"
           }
         }
       }
@@ -865,6 +1183,12 @@
             "state" : "translated",
             "value" : "拍手"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clap"
+          }
         }
       }
     },
@@ -880,6 +1204,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "大きく1回拍手すると、タイマーが始まります。"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clap loudly once to start the timer."
           }
         }
       }
@@ -897,6 +1227,12 @@
             "state" : "translated",
             "value" : "拍手シャッター"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clap shutter"
+          }
         }
       }
     },
@@ -912,6 +1248,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "拍手シャッターにはマイクへのアクセスが必要です。設定 > ShutterLink で許可してください。"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clap shutter needs microphone access. Enable it in Settings > ShutterLink."
           }
         }
       }
@@ -929,6 +1271,12 @@
             "state" : "translated",
             "value" : "クラシック"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Classic"
+          }
         }
       }
     },
@@ -944,6 +1292,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "閉じる"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close"
           }
         }
       }
@@ -961,6 +1315,12 @@
             "state" : "translated",
             "value" : "カラー"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Colours"
+          }
         }
       }
     },
@@ -976,6 +1336,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "社内研修"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Company Workshop"
           }
         }
       }
@@ -993,6 +1359,12 @@
             "state" : "translated",
             "value" : "細めゴシック"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Condensed Sans"
+          }
         }
       }
     },
@@ -1008,6 +1380,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "接続"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connect"
           }
         }
       }
@@ -1025,6 +1403,12 @@
             "state" : "translated",
             "value" : "接続済み"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connected"
+          }
         }
       }
     },
@@ -1040,6 +1424,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "接続中…"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connecting…"
           }
         }
       }
@@ -1057,6 +1447,12 @@
             "state" : "translated",
             "value" : "横断幕を作成できませんでした：%@"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn't create the banner: %@"
+          }
         }
       }
     },
@@ -1072,6 +1468,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "カメラが見つかりません。撮影側のiPhoneでShutterLinkが開いていて、Bluetoothがオンになっているか確認してください。"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn't find the camera. Make sure ShutterLink is open on the camera iPhone and Bluetooth is on."
           }
         }
       }
@@ -1089,6 +1491,12 @@
             "state" : "translated",
             "value" : "カメラとペアリングできませんでした。"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn't pair with the camera."
+          }
         }
       }
     },
@@ -1104,6 +1512,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "写真に保存できませんでした。%@"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn't save to Photos. %@"
           }
         }
       }
@@ -1121,6 +1535,12 @@
             "state" : "translated",
             "value" : "横断幕を表示できませんでした：%@"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn't show the banner: %@"
+          }
         }
       }
     },
@@ -1136,6 +1556,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "録画を開始できませんでした：%@"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn't start recording: %@"
           }
         }
       }
@@ -1153,6 +1579,12 @@
             "state" : "translated",
             "value" : "デザインを更新できませんでした。"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn't update the design."
+          }
         }
       }
     },
@@ -1168,6 +1600,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "カウントダウン"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Countdown"
           }
         }
       }
@@ -1185,6 +1623,12 @@
             "state" : "translated",
             "value" : "暗く"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Darker"
+          }
         }
       }
     },
@@ -1200,6 +1644,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "デコレーション"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Decoration"
           }
         }
       }
@@ -1217,6 +1667,12 @@
             "state" : "translated",
             "value" : "削除"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete"
+          }
         }
       }
     },
@@ -1232,6 +1688,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "選択した写真を削除しますか？"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete selected shots?"
           }
         }
       }
@@ -1249,6 +1711,12 @@
             "state" : "translated",
             "value" : "斜めストライプ"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diagonal Stripes"
+          }
         }
       }
     },
@@ -1264,6 +1732,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "向き"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Direction"
           }
         }
       }
@@ -1281,6 +1755,12 @@
             "state" : "translated",
             "value" : "接続を解除"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disconnect"
+          }
         }
       }
     },
@@ -1296,6 +1776,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "完了"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done"
           }
         }
       }
@@ -1313,6 +1799,12 @@
             "state" : "translated",
             "value" : "ドラッグして、横断幕を床の上で動かします。"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drag to slide the banner across the floor."
+          }
         }
       }
     },
@@ -1328,6 +1820,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "撮影方法"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drive mode"
           }
         }
       }
@@ -1345,6 +1843,12 @@
             "state" : "translated",
             "value" : "撮影側のiPhoneに表示されている4桁のコードを入力してください。"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter the 4-digit code shown on the camera iPhone."
+          }
         }
       }
     },
@@ -1360,6 +1864,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ごと"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Every %@"
           }
         }
       }
@@ -1377,6 +1887,12 @@
             "state" : "translated",
             "value" : "撮影した写真はすべてShutterLinkのギャラリーにも保存されます。送信をオンにしておくと、リモコンを持つ人も1枚ずつ写真を受け取れます。"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Every shot is also kept in the ShutterLink gallery. When sending is on, the person holding the remote gets a copy of each photo they take."
+          }
         }
       }
     },
@@ -1392,6 +1908,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "みなさん、カメラを見てください！"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Everyone, please look at the camera!"
           }
         }
       }
@@ -1409,6 +1931,12 @@
             "state" : "translated",
             "value" : "露出"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exposure"
+          }
         }
       }
     },
@@ -1424,6 +1952,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "布（マット）"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fabric (Matt)"
           }
         }
       }
@@ -1441,6 +1975,12 @@
             "state" : "translated",
             "value" : "正面"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face Me"
+          }
         }
       }
     },
@@ -1456,6 +1996,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "みんなで歩く秋の遠足"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autumn Retreat Together"
           }
         }
       }
@@ -1473,6 +2019,12 @@
             "state" : "translated",
             "value" : "フィルタ"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filter"
+          }
         }
       }
     },
@@ -1488,6 +2040,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "フラッシュ"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flash"
           }
         }
       }
@@ -1505,6 +2063,12 @@
             "state" : "translated",
             "value" : "フラッシュのカウントダウン"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flash light countdown"
+          }
         }
       }
     },
@@ -1520,6 +2084,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "花"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flowers"
           }
         }
       }
@@ -1537,6 +2107,12 @@
             "state" : "translated",
             "value" : "フォント"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Font"
+          }
         }
       }
     },
@@ -1552,6 +2128,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ギャラリー"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gallery"
           }
         }
       }
@@ -1569,6 +2151,12 @@
             "state" : "translated",
             "value" : "グラデーション"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gradient"
+          }
         }
       }
     },
@@ -1584,6 +2172,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "卒業"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Graduation"
           }
         }
       }
@@ -1601,6 +2195,12 @@
             "state" : "translated",
             "value" : "グリッド"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grid"
+          }
         }
       }
     },
@@ -1616,6 +2216,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "集合写真の連写・タップしてベストに指定"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Group shot · tap a frame to mark it best"
           }
         }
       }
@@ -1633,6 +2239,12 @@
             "state" : "translated",
             "value" : "集合写真モードは何枚か連写して、全員が目を開けている1枚を選びます。リモコン側にも写真が届きます。"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Group shot takes several photos and picks the one where everyone's eyes are open. The remote gets a copy to keep."
+          }
         }
       }
     },
@@ -1648,6 +2260,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ハンズフリー"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hands"
           }
         }
       }
@@ -1665,6 +2283,12 @@
             "state" : "translated",
             "value" : "ハンズフリーシャッター"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hands-free shutter"
+          }
         }
       }
     },
@@ -1680,6 +2304,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ハート"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hearts"
           }
         }
       }
@@ -1697,6 +2327,12 @@
             "state" : "translated",
             "value" : "高さ"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Height"
+          }
         }
       }
     },
@@ -1712,6 +2348,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "床からの高さ"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Height above floor"
           }
         }
       }
@@ -1729,6 +2371,12 @@
             "state" : "translated",
             "value" : "ヘルプ"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Help"
+          }
         }
       }
     },
@@ -1744,6 +2392,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "横断幕なしで横断幕の写真"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hold a banner without bringing one"
           }
         }
       }
@@ -1761,6 +2415,12 @@
             "state" : "translated",
             "value" : "ShutterLinkの使い方"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "How to use ShutterLink"
+          }
         }
       }
     },
@@ -1776,6 +2436,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "インターバル"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Interval"
           }
         }
       }
@@ -1793,6 +2459,12 @@
             "state" : "translated",
             "value" : "水準器"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Level"
+          }
         }
       }
     },
@@ -1808,6 +2480,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ロゴ"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logo"
           }
         }
       }
@@ -1825,6 +2503,12 @@
             "state" : "translated",
             "value" : "注目"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Look"
+          }
         }
       }
     },
@@ -1840,6 +2524,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "カメラ %@ を探しています…"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Looking for camera %@…"
           }
         }
       }
@@ -1857,6 +2547,12 @@
             "state" : "translated",
             "value" : "メインのメッセージ"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Main message"
+          }
         }
       }
     },
@@ -1872,6 +2568,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "メインの文字"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Main Text"
           }
         }
       }
@@ -1889,6 +2591,12 @@
             "state" : "translated",
             "value" : "素材"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Material"
+          }
         }
       }
     },
@@ -1904,6 +2612,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "素材・サイズ"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Material · Size"
           }
         }
       }
@@ -1921,6 +2635,12 @@
             "state" : "translated",
             "value" : "モード"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mode"
+          }
         }
       }
     },
@@ -1936,6 +2656,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "その他"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "More"
           }
         }
       }
@@ -1953,6 +2679,12 @@
             "state" : "translated",
             "value" : "横断幕を動かす"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Move banner"
+          }
         }
       }
     },
@@ -1968,6 +2700,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "次へ"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next"
           }
         }
       }
@@ -1985,6 +2723,12 @@
             "state" : "translated",
             "value" : "%lld秒後に次の撮影"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next shot in %llds"
+          }
         }
       }
     },
@@ -2000,6 +2744,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "このデバイスで使えるカメラがありません。"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No camera available on this device."
           }
         }
       }
@@ -2017,6 +2767,12 @@
             "state" : "translated",
             "value" : "まだ写真がありません"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No shots yet"
+          }
         }
       }
     },
@@ -2033,6 +2789,12 @@
             "state" : "translated",
             "value" : "全員目を開けて"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nobody blinks"
+          }
         }
       }
     },
@@ -2048,6 +2810,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "なし"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "None"
           }
         }
       }
@@ -2066,6 +2834,12 @@
             "state" : "translated",
             "value" : "すぐに"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Now"
+          }
         }
       }
     },
@@ -2081,6 +2855,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2026年10月24日〜25日　海辺のキャンプ場"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "24–25 Oct 2026  Lake Tahoe, CA"
           }
         }
       }
@@ -2098,6 +2878,12 @@
             "state" : "translated",
             "value" : "オフ"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Off"
+          }
         }
       }
     },
@@ -2110,6 +2896,12 @@
           }
         },
         "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -2130,6 +2922,12 @@
             "state" : "translated",
             "value" : "オン"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On"
+          }
         }
       }
     },
@@ -2145,6 +2943,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ギャラリーを開く"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open gallery"
           }
         }
       }
@@ -2162,6 +2966,12 @@
             "state" : "translated",
             "value" : "オプション"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Options"
+          }
         }
       }
     },
@@ -2177,6 +2987,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "手を使わずに撮る"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Or go hands-free"
           }
         }
       }
@@ -2194,6 +3010,12 @@
             "state" : "translated",
             "value" : "2026 わたしたちのチーム"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Our Team 2026"
+          }
         }
       }
     },
@@ -2209,6 +3031,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ペアリングコード"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pairing code"
           }
         }
       }
@@ -2226,6 +3054,12 @@
             "state" : "translated",
             "value" : "ペアリング中…"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pairing…"
+          }
         }
       }
     },
@@ -2241,6 +3075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "手のひら"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palm"
           }
         }
       }
@@ -2258,6 +3098,12 @@
             "state" : "translated",
             "value" : "手のひらジェスチャー"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palm gesture"
+          }
         }
       }
     },
@@ -2273,6 +3119,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "紙"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paper"
           }
         }
       }
@@ -2290,6 +3142,12 @@
             "state" : "translated",
             "value" : "パーティー"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Party Night"
+          }
         }
       }
     },
@@ -2305,6 +3163,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "人数カウンター"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "People counter"
           }
         }
       }
@@ -2322,6 +3186,12 @@
             "state" : "translated",
             "value" : "横断幕の前に立つ人が、横断幕の手前に表示されます。"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "People standing in front of the banner now show over it."
+          }
         }
       }
     },
@@ -2337,6 +3207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "写真"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photo"
           }
         }
       }
@@ -2354,6 +3230,12 @@
             "state" : "translated",
             "value" : "写真"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photos"
+          }
         }
       }
     },
@@ -2369,6 +3251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLinkで撮影した写真やビデオがここに表示されます。"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photos and videos you take with ShutterLink appear here."
           }
         }
       }
@@ -2386,6 +3274,12 @@
             "state" : "translated",
             "value" : "今回撮影した写真"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photos from this session"
+          }
         }
       }
     },
@@ -2401,6 +3295,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "このiPhoneを三脚に載せるか、安定した場所に立てかけてください。水準器と人数カウンターで、全員が収まるように調整できます。"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Place this iPhone on a tripod or lean it somewhere steady. Use the level and the people counter to frame everyone."
           }
         }
       }
@@ -2418,6 +3318,12 @@
             "state" : "translated",
             "value" : "別のiPhoneのカメラでQRコードを読み取ってください。インストール不要でShutterLinkリモコンのAppクリップが開きます。撮影中はこのアプリを開いたままにしておいてください。"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Point the other iPhone's Camera at the QR code. The ShutterLink Remote App Clip opens without installing anything. Keep this app open while shooting."
+          }
         }
       }
     },
@@ -2433,6 +3339,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "カメラに向けて手のひらを開いて掲げると、タイマーが始まります。"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raise an open palm toward the camera to start the timer."
           }
         }
       }
@@ -2450,6 +3362,12 @@
             "state" : "translated",
             "value" : "手のひらを掲げる、拍手する、または全員が笑ったら自動で撮影。音声と光のカウントダウンで、ポーズのタイミングをみんなに伝えます。"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raise your palm, clap, or let ShutterLink shoot when everyone smiles. A voice and light countdown tells the group when to pose."
+          }
         }
       }
     },
@@ -2465,6 +3383,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "録画に失敗しました。"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recording failed."
           }
         }
       }
@@ -2482,6 +3406,12 @@
             "state" : "translated",
             "value" : "ロゴを削除"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remove Logo"
+          }
         }
       }
     },
@@ -2497,6 +3427,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "リセット"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reset"
           }
         }
       }
@@ -2514,6 +3450,12 @@
             "state" : "translated",
             "value" : "露出をリセット"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reset exposure"
+          }
         }
       }
     },
@@ -2529,6 +3471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "丸ゴシック"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rounded Sans"
           }
         }
       }
@@ -2546,6 +3494,12 @@
             "state" : "translated",
             "value" : "この写真を保存または共有"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save or share this photo"
+          }
         }
       }
     },
@@ -2561,6 +3515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "リモコンを閉じる前に、写真を保存または共有してください。"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save or share your copy before closing the remote."
           }
         }
       }
@@ -2578,6 +3538,12 @@
             "state" : "translated",
             "value" : "写真に保存"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save to Photos"
+          }
         }
       }
     },
@@ -2593,6 +3559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "撮影側のiPhoneのQRコードを読み取るか、4桁のペアリングコードを入力してください。"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scan the QR code on the camera iPhone, or enter the 4-digit pairing code."
           }
         }
       }
@@ -2610,6 +3582,12 @@
             "state" : "translated",
             "value" : "読み取るとカメラを操作できます：%@"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scan to control the camera: %@"
+          }
         }
       }
     },
@@ -2625,6 +3603,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "別のiPhoneで読み取ってください"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scan with another iPhone"
           }
         }
       }
@@ -2642,6 +3626,12 @@
             "state" : "translated",
             "value" : "海"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sea"
+          }
         }
       }
     },
@@ -2657,6 +3647,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "選択"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select"
           }
         }
       }
@@ -2674,6 +3670,12 @@
             "state" : "translated",
             "value" : "写真をリモコンに送る"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send photos to the remote"
+          }
         }
       }
     },
@@ -2689,6 +3691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "明朝"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serif"
           }
         }
       }
@@ -2706,6 +3714,12 @@
             "state" : "translated",
             "value" : "サービスエラー：%@"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Service error: %@"
+          }
         }
       }
     },
@@ -2721,6 +3735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "カメラを立てておく"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Set up the camera"
           }
         }
       }
@@ -2738,6 +3758,12 @@
             "state" : "translated",
             "value" : "設定"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
         }
       }
     },
@@ -2753,6 +3779,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "形"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shape"
           }
         }
       }
@@ -2770,6 +3802,12 @@
             "state" : "translated",
             "value" : "共有"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Share"
+          }
         }
       }
     },
@@ -2785,6 +3823,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "QRコードを共有"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Share QR code"
           }
         }
       }
@@ -2802,6 +3846,12 @@
             "state" : "translated",
             "value" : "シャッターボタンでのみ撮影します。"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shoot only with the shutter button."
+          }
         }
       }
     },
@@ -2817,6 +3867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "撮影オプション"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shooting options"
           }
         }
       }
@@ -2834,6 +3890,12 @@
             "state" : "translated",
             "value" : "全員が目を開けて笑うと、自動で撮影します。"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shoots automatically when everyone is smiling with eyes open."
+          }
         }
       }
     },
@@ -2849,6 +3911,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ペアリング用QRコードを表示"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show pairing QR code"
           }
         }
       }
@@ -2866,6 +3934,12 @@
             "state" : "translated",
             "value" : "手前の人を前面に表示"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show people in front"
+          }
         }
       }
     },
@@ -2882,6 +3956,12 @@
             "state" : "translated",
             "value" : "両側のポールを表示"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show Side Poles"
+          }
         }
       }
     },
@@ -2894,6 +3974,12 @@
           }
         },
         "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink"
@@ -2914,6 +4000,12 @@
             "state" : "translated",
             "value" : "ShutterLinkの写真"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink photo"
+          }
         }
       }
     },
@@ -2929,6 +4021,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLinkリモコン"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink Remote"
           }
         }
       }
@@ -2946,6 +4044,12 @@
             "state" : "translated",
             "value" : "かんたんモード（大きなボタン）"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simple mode (big buttons)"
+          }
         }
       }
     },
@@ -2961,6 +4065,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1枚"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Single"
           }
         }
       }
@@ -2978,6 +4088,12 @@
             "state" : "translated",
             "value" : "1枚"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Single photo"
+          }
         }
       }
     },
@@ -2993,6 +4109,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "上段の小さな文字（例：2026 〇〇株式会社）"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Small top line (e.g. 2026 Acme Inc.)"
           }
         }
       }
@@ -3010,6 +4132,12 @@
             "state" : "translated",
             "value" : "笑顔"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smile"
+          }
         }
       }
     },
@@ -3025,6 +4153,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "スマイルシャッター"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smile shutter"
           }
         }
       }
@@ -3042,6 +4176,12 @@
             "state" : "translated",
             "value" : "雪"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snow"
+          }
         }
       }
     },
@@ -3057,6 +4197,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "単色"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solid"
           }
         }
       }
@@ -3074,6 +4220,12 @@
             "state" : "translated",
             "value" : "画面の端に切れそうな人がいます"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Someone is at the edge of the frame"
+          }
         }
       }
     },
@@ -3089,6 +4241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "スポーツ"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sports"
           }
         }
       }
@@ -3106,6 +4264,12 @@
             "state" : "translated",
             "value" : "運動会"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sports Day"
+          }
         }
       }
     },
@@ -3121,6 +4285,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "春のお花見"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spring Blossoms"
           }
         }
       }
@@ -3138,6 +4308,12 @@
             "state" : "translated",
             "value" : "星"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stars"
+          }
         }
       }
     },
@@ -3153,6 +4329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "録画を開始"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start recording"
           }
         }
       }
@@ -3170,6 +4352,12 @@
             "state" : "translated",
             "value" : "撮影を開始"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start shooting"
+          }
         }
       }
     },
@@ -3185,6 +4373,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bluetoothを起動中…"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starting Bluetooth…"
           }
         }
       }
@@ -3202,6 +4396,12 @@
             "state" : "translated",
             "value" : "インターバル撮影を停止"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop interval shooting"
+          }
         }
       }
     },
@@ -3217,6 +4417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "録画を停止"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop recording"
           }
         }
       }
@@ -3234,6 +4440,12 @@
             "state" : "translated",
             "value" : "夏の海"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Summer Beach"
+          }
         }
       }
     },
@@ -3249,6 +4461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "風にゆれる"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sway in the breeze"
           }
         }
       }
@@ -3266,6 +4484,12 @@
             "state" : "translated",
             "value" : "カメラを切り替え"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Switch camera"
+          }
         }
       }
     },
@@ -3281,6 +4505,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "写真を撮る"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Take photo"
           }
         }
       }
@@ -3298,6 +4528,12 @@
             "state" : "translated",
             "value" : "%lld秒後に撮影します。"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taking a photo in %lld seconds."
+          }
         }
       }
     },
@@ -3313,6 +4549,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "床か壁をタップすると横断幕が置かれます"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap the floor or a wall to place the banner"
           }
         }
       }
@@ -3330,6 +4572,12 @@
             "state" : "translated",
             "value" : "QRボタンをタップ。別のiPhoneが標準のカメラで読み取るだけで、インストール不要で数秒でリモコンになります。"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap the QR button. Another iPhone scans it with the Camera app and becomes a remote in seconds, without installing anything."
+          }
         }
       }
     },
@@ -3345,6 +4593,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "タップしてピント合わせ"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap to focus"
           }
         }
       }
@@ -3362,6 +4616,12 @@
             "state" : "translated",
             "value" : "文字"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Text"
+          }
         }
       }
     },
@@ -3377,6 +4637,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "横断幕が一瞬止まりました"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The banner paused for a moment"
           }
         }
       }
@@ -3394,6 +4660,12 @@
             "state" : "translated",
             "value" : "横断幕はいつもみんなの前に表示されます。"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The banner stays in front of everyone."
+          }
         }
       }
     },
@@ -3409,6 +4681,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "カメラが声に出してカウントダウンし、ライトも点滅するので、離れて立つ人たちにも撮影のタイミングがはっきり伝わります。"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The camera counts down out loud and blinks its light, so a group standing far away knows exactly when the photo is taken."
           }
         }
       }
@@ -3426,6 +4704,12 @@
             "state" : "translated",
             "value" : "ペアリングコードが受け付けられませんでした。QRコードをもう一度読み取ってください。"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The pairing code was rejected. Scan the QR code again."
+          }
         }
       }
     },
@@ -3441,6 +4725,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "テーマ"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Theme"
           }
         }
       }
@@ -3458,6 +4748,12 @@
             "state" : "translated",
             "value" : "写真に保存済みのものは、そのまま残ります。"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "They stay in your Photos library if they were saved there."
+          }
         }
       }
     },
@@ -3473,6 +4769,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "このデバイスはBluetooth LEに対応していません。"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This device doesn't support Bluetooth LE."
           }
         }
       }
@@ -3490,6 +4792,12 @@
             "state" : "translated",
             "value" : "このデバイスはShutterLinkのカメラではありません。"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This device isn't a ShutterLink camera."
+          }
         }
       }
     },
@@ -3505,6 +4813,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "このiPhoneはARに対応していません。"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This iPhone doesn't support AR."
           }
         }
       }
@@ -3522,6 +4836,12 @@
             "state" : "translated",
             "value" : "%lld度傾いています"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilted %lld degrees"
+          }
         }
       }
     },
@@ -3537,6 +4857,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "タイマー"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timer"
           }
         }
       }
@@ -3554,6 +4880,12 @@
             "state" : "translated",
             "value" : "上下のバンド"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Top and Bottom Bands"
+          }
         }
       }
     },
@@ -3569,6 +4901,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "上のライン"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Top Stripe"
           }
         }
       }
@@ -3586,6 +4924,12 @@
             "state" : "translated",
             "value" : "上の文字"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Top Text"
+          }
         }
       }
     },
@@ -3601,6 +4945,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "再試行"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try again"
           }
         }
       }
@@ -3618,6 +4968,12 @@
             "state" : "translated",
             "value" : "カメラに接続するには、Bluetoothをオンにしてください。"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Turn on Bluetooth to connect to the camera."
+          }
         }
       }
     },
@@ -3633,6 +4989,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "利用できません"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unavailable"
           }
         }
       }
@@ -3650,6 +5012,12 @@
             "state" : "translated",
             "value" : "バージョン"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version"
+          }
         }
       }
     },
@@ -3665,6 +5033,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ビデオ"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Video"
           }
         }
       }
@@ -3682,6 +5056,12 @@
             "state" : "translated",
             "value" : "ビデオ"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Videos"
+          }
         }
       }
     },
@@ -3697,6 +5077,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ファインダー"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viewfinder"
           }
         }
       }
@@ -3714,6 +5100,12 @@
             "state" : "translated",
             "value" : "ビニール（光沢）"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vinyl (Glossy)"
+          }
         }
       }
     },
@@ -3729,6 +5121,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "音声カウントダウン"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voice countdown"
           }
         }
       }
@@ -3746,6 +5144,12 @@
             "state" : "translated",
             "value" : "リモコンの接続を待っています"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Waiting for a remote"
+          }
         }
       }
     },
@@ -3761,6 +5165,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bluetoothを待っています…"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Waiting for Bluetooth…"
           }
         }
       }
@@ -3778,6 +5188,12 @@
             "state" : "translated",
             "value" : "プレビューを待っています…"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Waiting for preview…"
+          }
         }
       }
     },
@@ -3793,6 +5209,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "結婚式"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wedding"
           }
         }
       }
@@ -3810,6 +5232,12 @@
             "state" : "translated",
             "value" : "幅"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Width"
+          }
         }
       }
     },
@@ -3825,6 +5253,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "冬"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Winter"
           }
         }
       }
@@ -3842,6 +5276,12 @@
             "state" : "translated",
             "value" : "忘年会"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Year-End Party"
+          }
         }
       }
     },
@@ -3857,6 +5297,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ズーム"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoom"
           }
         }
       }

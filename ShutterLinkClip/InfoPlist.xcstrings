@@ -21,6 +21,12 @@
             "state" : "translated",
             "value" : "ShutterLinkリモコン"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink Remote"
+          }
         }
       }
     },
@@ -56,6 +62,12 @@
             "state" : "translated",
             "value" : "近くの撮影用iPhoneを操作するために、Bluetoothを使用します。"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink Remote uses Bluetooth to control the camera iPhone nearby."
+          }
         }
       }
     },
@@ -78,6 +90,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "撮影した写真を写真ライブラリに保存します。"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink Remote saves the photos you took to your library."
           }
         }
       }

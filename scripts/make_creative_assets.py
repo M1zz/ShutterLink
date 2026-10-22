@@ -22,8 +22,8 @@ RAW = ROOT / "docs" / "screenshots" / "raw"
 OUT = ROOT / "docs" / "screenshots" / "creative"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
-# 앱 언어 코드 → App Store Connect 로케일 (deploy.env LOCALES=ko,en-US,ja)
-STORE = {"en": "en-US", "ja": "ja"}
+# 앱 언어 코드 → App Store Connect 로케일 (deploy.env LOCALES=ko,en-US,ja,en-GB)
+STORE = {"en": "en-US", "ja": "ja"}  # en-GB 는 en 그림을 같이 쓴다
 
 # (가로, 세로, 안전 영역 left, top, right, bottom)
 SPEC = {

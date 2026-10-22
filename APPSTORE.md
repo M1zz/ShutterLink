@@ -184,6 +184,94 @@ https://m1zz.github.io/ShutterLink/en/privacy/
 
 https://m1zz.github.io/ShutterLink/en/
 
+## en-GB
+
+<!-- English (UK) -->
+
+### 이름
+
+ShutterLink: Banner Group Shot
+
+### 부제
+
+Hands-free remote, no install
+
+### 키워드
+
+reunion,party,team,event,family,selfie,tripod,timer,ar,photo booth,smile,clap,palm,bluetooth,burst,banner
+
+### 프로모션 텍스트
+
+Put a custom banner in your group photo, no printing needed. Write your words, pick a theme, and everyone holds it. A friend's iPhone becomes the remote with one QR scan.
+
+### 설명
+
+Take the classic "everyone holding the banner" group photo, without printing a banner.
+Write your words, pick a theme, and a banner appears in front of your group. A friend's iPhone becomes the remote, with nothing to install.
+
+Banner mode
+Switch to Banner, tap the ground, and the banner appears at the height people would hold it. Tap a wall to hang it there instead. Drag it up, down or sideways and it follows your finger. Use two fingers to turn or resize it, or tap the move button to fine tune it forward, back, side to side, up and down.
+The banner always stays in front of your group, so it looks like everyone is holding it up together.
+
+Make it yours
+Start from 13 themes, including autumn retreat, spring picnic, beach day, year-end party, birthday, sports day, cheering, graduation, wedding and team offsite.
+Write up to three lines of text. Change the background, font, decorations, colours and shape, and add your own logo.
+Choose fabric, vinyl or paper. A fabric banner sags, wrinkles and ripples in the breeze like the real thing.
+
+Everyone gets in the shot
+The timer, hands-free shutter and remote all work in Banner mode. Set the phone on a tripod and join the group. Photos are saved to your Photos library and to the in-app gallery.
+
+A remote with nothing to install
+Show the QR code on the camera iPhone and scan it with another iPhone's Camera. ShutterLink Remote opens right away as an App Clip and connects. Frame the shot from the live view and press the shutter. In Banner mode, the banner shows in the live view too. If the QR code won't scan, type the 4-digit code instead.
+
+Hands-free shutter
+Raise your palm, smile together or clap, and the shutter fires.
+Set a timer from 3 to 30 seconds. A voice counts down, the flash blinks along, and the remote buzzes in your hand.
+A "Look at the camera" voice prompt gets everyone's attention.
+
+Nobody blinks
+Shoot a burst of 3 or 5 photos and ShutterLink picks the one where everyone's eyes are open and smiling. Filter the gallery to best shots, or pick a different one yourself.
+
+Nobody gets cut off
+See how many people are in the frame and get a warning when someone is at the edge. A level appears when the iPhone tilts.
+
+Photos land on the remote
+Each photo you take shows up on the remote iPhone right away. A friend without the app can save and share it on the spot.
+
+Full camera control from the remote
+Tap to focus and expose, exposure compensation, flash and light, grid, zoom from 0.5x up to 10x depending on your iPhone, front and back cameras, and video.
+Interval shooting every 3 seconds to 1 minute for sunsets or projects in progress.
+A simple mode on the remote shows one big shutter button anyone can press.
+
+Direct Bluetooth, no internet
+The two iPhones connect directly over Bluetooth. Once connected, it works on a mountain, at the beach or abroad with no Wi‑Fi or cellular. No account needed.
+
+Your photos stay with you
+Photos and videos stay on the camera iPhone and the remote you connected, and are never uploaded. The pairing code changes every time you open the app, so only a remote that knows it can fire the shutter.
+
+How it works
+Open ShutterLink on the camera iPhone and set it on a tripod or shelf.
+Choose Banner at the bottom, then tap the brush to set your words and theme.
+Tap the ground where your group will stand to place the banner.
+Raise your palm or press the shutter on the remote.
+
+Good to know
+Requires iOS 17 or later. The remote needs a second iPhone.
+The remote iPhone needs internet once, the first time it downloads the App Clip.
+Flash, bursts, zoom and the front camera aren't available in Banner mode.
+
+### 지원 URL
+
+https://m1zz.github.io/ShutterLink/en/support/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/ShutterLink/en/privacy/
+
+### 마케팅 URL
+
+https://m1zz.github.io/ShutterLink/en/
+
 ## ja
 
 <!-- 日本語 -->
