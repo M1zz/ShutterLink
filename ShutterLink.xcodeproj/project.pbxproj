@@ -180,6 +180,7 @@
 				ko,
 				ja,
 				en-GB,
+				zh-Hans,
 				Base,
 			);
 			mainGroup = AA0000000000000000000002;

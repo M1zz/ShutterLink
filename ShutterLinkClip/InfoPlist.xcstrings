@@ -27,6 +27,12 @@
             "state" : "translated",
             "value" : "ShutterLink Remote"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink 遥控器"
+          }
         }
       }
     },
@@ -68,6 +74,12 @@
             "state" : "translated",
             "value" : "ShutterLink Remote uses Bluetooth to control the camera iPhone nearby."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink 遥控器使用蓝牙控制附近的拍摄 iPhone。"
+          }
         }
       }
     },
@@ -96,6 +108,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink Remote saves the photos you took to your library."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink 遥控器会将你拍摄的照片存入相册。"
           }
         }
       }

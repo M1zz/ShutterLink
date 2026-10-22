@@ -20,6 +20,12 @@
             "state" : "translated",
             "value" : "%lld"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
         }
       }
     },
@@ -41,6 +47,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld in frame"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画面中有 %lld 人"
           }
         }
       }
@@ -64,6 +76,12 @@
             "state" : "translated",
             "value" : "%lld photos"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 张照片"
+          }
         }
       }
     },
@@ -85,6 +103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld photos, best one picked"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "连拍 %lld 张，选出最佳"
           }
         }
       }
@@ -108,6 +132,12 @@
             "state" : "translated",
             "value" : "%lld remote connected"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已连接 %lld 台遥控器"
+          }
         }
       }
     },
@@ -130,6 +160,12 @@
             "state" : "translated",
             "value" : "%lld selected"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已选择 %lld 项"
+          }
         }
       }
     },
@@ -150,6 +186,12 @@
           }
         },
         "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld°"
+          }
+        },
+        "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld°"
@@ -176,6 +218,12 @@
             "state" : "translated",
             "value" : "%lldm"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 分钟"
+          }
         }
       }
     },
@@ -198,6 +246,12 @@
             "state" : "translated",
             "value" : "%llds"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 秒"
+          }
         }
       }
     },
@@ -216,6 +270,12 @@
           }
         },
         "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0000"
+          }
+        },
+        "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "0000"
@@ -242,6 +302,12 @@
             "state" : "translated",
             "value" : "Accent (Border · Stripe)"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "强调色（边框 · 条纹）"
+          }
         }
       }
     },
@@ -263,6 +329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add Logo Image"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "添加标志图片"
           }
         }
       }
@@ -286,6 +358,12 @@
             "state" : "translated",
             "value" : "Adjust Position"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "调整位置"
+          }
         }
       }
     },
@@ -307,6 +385,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Advertising failed: %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "广播失败：%@"
           }
         }
       }
@@ -330,6 +414,12 @@
             "state" : "translated",
             "value" : "All"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全部"
+          }
         }
       }
     },
@@ -352,6 +442,12 @@
             "state" : "translated",
             "value" : "Allow Bluetooth access in Settings to control the camera."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请在“设置”中允许蓝牙访问，以控制相机。"
+          }
         }
       }
     },
@@ -373,6 +469,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anyone can be the remote"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "任何 iPhone 都能当遥控器"
           }
         }
       }
@@ -397,6 +499,12 @@
             "state" : "translated",
             "value" : "Apply"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "应用"
+          }
         }
       }
     },
@@ -418,6 +526,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ask everyone to look at the camera"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "提醒大家看镜头"
           }
         }
       }
@@ -441,6 +555,12 @@
             "state" : "translated",
             "value" : "Aspect Ratio"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画幅比例"
+          }
         }
       }
     },
@@ -462,6 +582,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Auto"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自动"
           }
         }
       }
@@ -485,6 +611,12 @@
             "state" : "translated",
             "value" : "Auto capture off"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自动拍摄已关闭"
+          }
         }
       }
     },
@@ -506,6 +638,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Autumn Leaves"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "红叶"
           }
         }
       }
@@ -529,6 +667,12 @@
             "state" : "translated",
             "value" : "Autumn Outing"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "秋季郊游"
+          }
         }
       }
     },
@@ -550,6 +694,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Background"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "背景"
           }
         }
       }
@@ -573,6 +723,12 @@
             "state" : "translated",
             "value" : "Background Colour"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "背景颜色"
+          }
         }
       }
     },
@@ -594,6 +750,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Balloons"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "气球"
           }
         }
       }
@@ -617,6 +779,12 @@
             "state" : "translated",
             "value" : "Banner"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "横幅"
+          }
         }
       }
     },
@@ -638,6 +806,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Banner Design"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "横幅设计"
           }
         }
       }
@@ -661,6 +835,12 @@
             "state" : "translated",
             "value" : "Best shot"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最佳照片"
+          }
         }
       }
     },
@@ -682,6 +862,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Best shot picked from %lld photos"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已从 %lld 张照片中选出最佳"
           }
         }
       }
@@ -705,6 +891,12 @@
             "state" : "translated",
             "value" : "Best shots"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最佳照片"
+          }
         }
       }
     },
@@ -726,6 +918,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Birthday"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "生日"
           }
         }
       }
@@ -749,6 +947,12 @@
             "state" : "translated",
             "value" : "Bluetooth is off"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "蓝牙已关闭"
+          }
         }
       }
     },
@@ -770,6 +974,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bluetooth LE not supported"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不支持低功耗蓝牙"
           }
         }
       }
@@ -793,6 +1003,12 @@
             "state" : "translated",
             "value" : "Bluetooth permission denied"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "蓝牙权限被拒绝"
+          }
         }
       }
     },
@@ -814,6 +1030,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bluetooth ready"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "蓝牙已就绪"
           }
         }
       }
@@ -837,6 +1059,12 @@
             "state" : "translated",
             "value" : "Bluetooth unavailable"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "蓝牙不可用"
+          }
         }
       }
     },
@@ -858,6 +1086,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bold Sans"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "粗黑体"
           }
         }
       }
@@ -881,6 +1115,12 @@
             "state" : "translated",
             "value" : "Bottom line: date · place"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "底部一行：日期 · 地点"
+          }
         }
       }
     },
@@ -902,6 +1142,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bottom Text"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "底部文字"
           }
         }
       }
@@ -925,6 +1171,12 @@
             "state" : "translated",
             "value" : "Brighter"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更亮"
+          }
         }
       }
     },
@@ -946,6 +1198,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Burst"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "连拍"
           }
         }
       }
@@ -969,6 +1227,12 @@
             "state" : "translated",
             "value" : "Camera access is required. Enable it in Settings > ShutterLink."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "需要相机权限。请在“设置 > ShutterLink”中开启。"
+          }
         }
       }
     },
@@ -990,6 +1254,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cancel"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消"
           }
         }
       }
@@ -1013,6 +1283,12 @@
             "state" : "translated",
             "value" : "Cancel timer"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消定时"
+          }
         }
       }
     },
@@ -1034,6 +1310,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Capture failed: %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拍摄失败：%@"
           }
         }
       }
@@ -1057,6 +1339,12 @@
             "state" : "translated",
             "value" : "Celebration"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "庆典"
+          }
         }
       }
     },
@@ -1078,6 +1366,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Change Logo"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更换标志"
           }
         }
       }
@@ -1101,6 +1395,12 @@
             "state" : "translated",
             "value" : "Check Photos access in Settings."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请在“设置”中检查照片访问权限。"
+          }
         }
       }
     },
@@ -1122,6 +1422,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cheer"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "加油"
           }
         }
       }
@@ -1145,6 +1451,12 @@
             "state" : "translated",
             "value" : "Choose Banner, write your text and pick colours, then tap the floor. The banner stays in place, and people standing in front look like they're holding it."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选择“横幅”，写好文字、挑好颜色，然后点一下地面。横幅会固定在原处，站在前面的人看起来就像举着它。"
+          }
         }
       }
     },
@@ -1166,6 +1478,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Christmas"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "圣诞"
           }
         }
       }
@@ -1189,6 +1507,12 @@
             "state" : "translated",
             "value" : "Clap"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拍手"
+          }
         }
       }
     },
@@ -1210,6 +1534,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Clap loudly once to start the timer."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大声拍一下手，开始倒计时。"
           }
         }
       }
@@ -1233,6 +1563,12 @@
             "state" : "translated",
             "value" : "Clap shutter"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拍手快门"
+          }
         }
       }
     },
@@ -1254,6 +1590,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Clap shutter needs microphone access. Enable it in Settings > ShutterLink."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拍手快门需要麦克风权限。请在“设置 > ShutterLink”中开启。"
           }
         }
       }
@@ -1277,6 +1619,12 @@
             "state" : "translated",
             "value" : "Classic"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "经典"
+          }
         }
       }
     },
@@ -1298,6 +1646,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Close"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关闭"
           }
         }
       }
@@ -1321,6 +1675,12 @@
             "state" : "translated",
             "value" : "Colours"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "颜色"
+          }
         }
       }
     },
@@ -1342,6 +1702,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Company Workshop"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "公司研讨会"
           }
         }
       }
@@ -1365,6 +1731,12 @@
             "state" : "translated",
             "value" : "Condensed Sans"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "窄黑体"
+          }
         }
       }
     },
@@ -1386,6 +1758,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Connect"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "连接"
           }
         }
       }
@@ -1409,6 +1787,12 @@
             "state" : "translated",
             "value" : "Connected"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已连接"
+          }
         }
       }
     },
@@ -1430,6 +1814,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Connecting…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在连接…"
           }
         }
       }
@@ -1453,6 +1843,12 @@
             "state" : "translated",
             "value" : "Couldn't create the banner: %@"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法创建横幅：%@"
+          }
         }
       }
     },
@@ -1474,6 +1870,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Couldn't find the camera. Make sure ShutterLink is open on the camera iPhone and Bluetooth is on."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "找不到相机。请确认拍摄用的 iPhone 上已打开 ShutterLink，并且蓝牙已开启。"
           }
         }
       }
@@ -1497,6 +1899,12 @@
             "state" : "translated",
             "value" : "Couldn't pair with the camera."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法与相机配对。"
+          }
         }
       }
     },
@@ -1518,6 +1926,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Couldn't save to Photos. %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法存入相册。%@"
           }
         }
       }
@@ -1541,6 +1955,12 @@
             "state" : "translated",
             "value" : "Couldn't show the banner: %@"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法显示横幅：%@"
+          }
         }
       }
     },
@@ -1562,6 +1982,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Couldn't start recording: %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法开始录制：%@"
           }
         }
       }
@@ -1585,6 +2011,12 @@
             "state" : "translated",
             "value" : "Couldn't update the design."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法更新设计。"
+          }
         }
       }
     },
@@ -1606,6 +2038,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Countdown"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "倒计时"
           }
         }
       }
@@ -1629,6 +2067,12 @@
             "state" : "translated",
             "value" : "Darker"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更暗"
+          }
         }
       }
     },
@@ -1650,6 +2094,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Decoration"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "装饰"
           }
         }
       }
@@ -1673,6 +2123,12 @@
             "state" : "translated",
             "value" : "Delete"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "删除"
+          }
         }
       }
     },
@@ -1694,6 +2150,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete selected shots?"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "删除所选照片？"
           }
         }
       }
@@ -1717,6 +2179,12 @@
             "state" : "translated",
             "value" : "Diagonal Stripes"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "斜纹"
+          }
         }
       }
     },
@@ -1738,6 +2206,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Direction"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "方向"
           }
         }
       }
@@ -1761,6 +2235,12 @@
             "state" : "translated",
             "value" : "Disconnect"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "断开连接"
+          }
         }
       }
     },
@@ -1782,6 +2262,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Done"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完成"
           }
         }
       }
@@ -1805,6 +2291,12 @@
             "state" : "translated",
             "value" : "Drag to slide the banner across the floor."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拖动即可让横幅在地面上滑动。"
+          }
         }
       }
     },
@@ -1826,6 +2318,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Drive mode"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "行车模式"
           }
         }
       }
@@ -1849,6 +2347,12 @@
             "state" : "translated",
             "value" : "Enter the 4-digit code shown on the camera iPhone."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请输入拍摄 iPhone 上显示的 4 位数字码。"
+          }
         }
       }
     },
@@ -1870,6 +2374,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Every %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每隔 %@"
           }
         }
       }
@@ -1893,6 +2403,12 @@
             "state" : "translated",
             "value" : "Every shot is also kept in the ShutterLink gallery. When sending is on, the person holding the remote gets a copy of each photo they take."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每张照片也会保存在 ShutterLink 图库中。开启发送后，拿着遥控器的人会收到自己拍的每张照片的副本。"
+          }
         }
       }
     },
@@ -1914,6 +2430,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Everyone, please look at the camera!"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请大家看镜头！"
           }
         }
       }
@@ -1937,6 +2459,12 @@
             "state" : "translated",
             "value" : "Exposure"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "曝光"
+          }
         }
       }
     },
@@ -1958,6 +2486,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fabric (Matt)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "布料（哑光）"
           }
         }
       }
@@ -1981,6 +2515,12 @@
             "state" : "translated",
             "value" : "Face Me"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "朝向我"
+          }
         }
       }
     },
@@ -2002,6 +2542,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Autumn Retreat Together"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一起去秋游"
           }
         }
       }
@@ -2025,6 +2571,12 @@
             "state" : "translated",
             "value" : "Filter"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "筛选"
+          }
         }
       }
     },
@@ -2046,6 +2598,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Flash"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "闪光灯"
           }
         }
       }
@@ -2069,6 +2627,12 @@
             "state" : "translated",
             "value" : "Flash light countdown"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "闪光灯倒计时"
+          }
         }
       }
     },
@@ -2090,6 +2654,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Flowers"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "花朵"
           }
         }
       }
@@ -2113,6 +2683,12 @@
             "state" : "translated",
             "value" : "Font"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "字体"
+          }
         }
       }
     },
@@ -2134,6 +2710,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gallery"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "图库"
           }
         }
       }
@@ -2157,6 +2739,12 @@
             "state" : "translated",
             "value" : "Gradient"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "渐变"
+          }
         }
       }
     },
@@ -2178,6 +2766,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Graduation"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "毕业"
           }
         }
       }
@@ -2201,6 +2795,12 @@
             "state" : "translated",
             "value" : "Grid"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "网格"
+          }
         }
       }
     },
@@ -2222,6 +2822,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Group shot · tap a frame to mark it best"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "合影 · 点一张设为最佳"
           }
         }
       }
@@ -2245,6 +2851,12 @@
             "state" : "translated",
             "value" : "Group shot takes several photos and picks the one where everyone's eyes are open. The remote gets a copy to keep."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "合影会连拍多张，并选出所有人都睁着眼的一张。遥控器也会收到一份副本。"
+          }
         }
       }
     },
@@ -2266,6 +2878,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hands"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "手势"
           }
         }
       }
@@ -2289,6 +2907,12 @@
             "state" : "translated",
             "value" : "Hands-free shutter"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "免触碰快门"
+          }
         }
       }
     },
@@ -2310,6 +2934,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hearts"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "爱心"
           }
         }
       }
@@ -2333,6 +2963,12 @@
             "state" : "translated",
             "value" : "Height"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "高度"
+          }
         }
       }
     },
@@ -2354,6 +2990,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Height above floor"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "离地高度"
           }
         }
       }
@@ -2377,6 +3019,12 @@
             "state" : "translated",
             "value" : "Help"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "帮助"
+          }
         }
       }
     },
@@ -2398,6 +3046,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hold a banner without bringing one"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不用带横幅，也能举着横幅"
           }
         }
       }
@@ -2421,6 +3075,12 @@
             "state" : "translated",
             "value" : "How to use ShutterLink"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink 使用方法"
+          }
         }
       }
     },
@@ -2442,6 +3102,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Interval"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "间隔"
           }
         }
       }
@@ -2465,6 +3131,12 @@
             "state" : "translated",
             "value" : "Level"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "水平仪"
+          }
         }
       }
     },
@@ -2486,6 +3158,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Logo"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "标志"
           }
         }
       }
@@ -2509,6 +3187,12 @@
             "state" : "translated",
             "value" : "Look"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "外观"
+          }
         }
       }
     },
@@ -2530,6 +3214,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Looking for camera %@…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在查找相机 %@…"
           }
         }
       }
@@ -2553,6 +3243,12 @@
             "state" : "translated",
             "value" : "Main message"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "主标语"
+          }
         }
       }
     },
@@ -2574,6 +3270,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Main Text"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "主文字"
           }
         }
       }
@@ -2597,6 +3299,12 @@
             "state" : "translated",
             "value" : "Material"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "材质"
+          }
         }
       }
     },
@@ -2618,6 +3326,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Material · Size"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "材质 · 尺寸"
           }
         }
       }
@@ -2641,6 +3355,12 @@
             "state" : "translated",
             "value" : "Mode"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "模式"
+          }
         }
       }
     },
@@ -2662,6 +3382,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "More"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更多"
           }
         }
       }
@@ -2685,6 +3411,12 @@
             "state" : "translated",
             "value" : "Move banner"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移动横幅"
+          }
         }
       }
     },
@@ -2706,6 +3438,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Next"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下一步"
           }
         }
       }
@@ -2729,6 +3467,12 @@
             "state" : "translated",
             "value" : "Next shot in %llds"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 秒后拍下一张"
+          }
         }
       }
     },
@@ -2750,6 +3494,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No camera available on this device."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此设备没有可用的相机。"
           }
         }
       }
@@ -2773,6 +3523,12 @@
             "state" : "translated",
             "value" : "No shots yet"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "还没有照片"
+          }
         }
       }
     },
@@ -2795,6 +3551,12 @@
             "state" : "translated",
             "value" : "Nobody blinks"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没人闭眼"
+          }
         }
       }
     },
@@ -2816,6 +3578,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "None"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无"
           }
         }
       }
@@ -2840,6 +3608,12 @@
             "state" : "translated",
             "value" : "Now"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "立即"
+          }
         }
       }
     },
@@ -2861,6 +3635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "24–25 Oct 2026  Lake Tahoe, CA"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2026 年 10 月 24–25 日  加州太浩湖"
           }
         }
       }
@@ -2884,6 +3664,12 @@
             "state" : "translated",
             "value" : "Off"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关"
+          }
         }
       }
     },
@@ -2905,6 +3691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好"
           }
         }
       }
@@ -2928,6 +3720,12 @@
             "state" : "translated",
             "value" : "On"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开"
+          }
         }
       }
     },
@@ -2949,6 +3747,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Open gallery"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打开图库"
           }
         }
       }
@@ -2972,6 +3776,12 @@
             "state" : "translated",
             "value" : "Options"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选项"
+          }
         }
       }
     },
@@ -2993,6 +3803,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Or go hands-free"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "或者免触碰拍摄"
           }
         }
       }
@@ -3016,6 +3832,12 @@
             "state" : "translated",
             "value" : "Our Team 2026"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我们的团队 2026"
+          }
         }
       }
     },
@@ -3037,6 +3859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pairing code"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "配对码"
           }
         }
       }
@@ -3060,6 +3888,12 @@
             "state" : "translated",
             "value" : "Pairing…"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在配对…"
+          }
         }
       }
     },
@@ -3081,6 +3915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Palm"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "手掌"
           }
         }
       }
@@ -3104,6 +3944,12 @@
             "state" : "translated",
             "value" : "Palm gesture"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "手掌手势"
+          }
         }
       }
     },
@@ -3125,6 +3971,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Paper"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "纸张"
           }
         }
       }
@@ -3148,6 +4000,12 @@
             "state" : "translated",
             "value" : "Party Night"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "派对之夜"
+          }
         }
       }
     },
@@ -3169,6 +4027,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "People counter"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "人数统计"
           }
         }
       }
@@ -3192,6 +4056,12 @@
             "state" : "translated",
             "value" : "People standing in front of the banner now show over it."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "现在，站在横幅前面的人会显示在横幅之上。"
+          }
         }
       }
     },
@@ -3213,6 +4083,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Photo"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "照片"
           }
         }
       }
@@ -3236,6 +4112,12 @@
             "state" : "translated",
             "value" : "Photos"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "照片"
+          }
         }
       }
     },
@@ -3257,6 +4139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Photos and videos you take with ShutterLink appear here."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你用 ShutterLink 拍摄的照片和视频会显示在这里。"
           }
         }
       }
@@ -3280,6 +4168,12 @@
             "state" : "translated",
             "value" : "Photos from this session"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本次拍摄的照片"
+          }
         }
       }
     },
@@ -3301,6 +4195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Place this iPhone on a tripod or lean it somewhere steady. Use the level and the people counter to frame everyone."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把这台 iPhone 固定在三脚架上，或靠在稳固的地方。借助水平仪和人数统计，把所有人都框进画面。"
           }
         }
       }
@@ -3324,6 +4224,12 @@
             "state" : "translated",
             "value" : "Point the other iPhone's Camera at the QR code. The ShutterLink Remote App Clip opens without installing anything. Keep this app open while shooting."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用另一台 iPhone 的相机对准二维码，无需安装即可打开 ShutterLink 遥控器 App Clip。拍摄期间请保持此 App 开启。"
+          }
         }
       }
     },
@@ -3345,6 +4251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Raise an open palm toward the camera to start the timer."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "向镜头举起张开的手掌，开始倒计时。"
           }
         }
       }
@@ -3368,6 +4280,12 @@
             "state" : "translated",
             "value" : "Raise your palm, clap, or let ShutterLink shoot when everyone smiles. A voice and light countdown tells the group when to pose."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "举起手掌、拍手，或者在大家微笑时让 ShutterLink 自动拍摄。语音和灯光倒计时会提醒大家摆好姿势。"
+          }
         }
       }
     },
@@ -3389,6 +4307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recording failed."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "录制失败。"
           }
         }
       }
@@ -3412,6 +4336,12 @@
             "state" : "translated",
             "value" : "Remove Logo"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移除标志"
+          }
         }
       }
     },
@@ -3433,6 +4363,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reset"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重置"
           }
         }
       }
@@ -3456,6 +4392,12 @@
             "state" : "translated",
             "value" : "Reset exposure"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重置曝光"
+          }
         }
       }
     },
@@ -3477,6 +4419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rounded Sans"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "圆体"
           }
         }
       }
@@ -3500,6 +4448,12 @@
             "state" : "translated",
             "value" : "Save or share this photo"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存或分享这张照片"
+          }
         }
       }
     },
@@ -3521,6 +4475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Save or share your copy before closing the remote."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关闭遥控器前，请先保存或分享你的副本。"
           }
         }
       }
@@ -3544,6 +4504,12 @@
             "state" : "translated",
             "value" : "Save to Photos"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "存入相册"
+          }
         }
       }
     },
@@ -3565,6 +4531,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Scan the QR code on the camera iPhone, or enter the 4-digit pairing code."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "扫描拍摄 iPhone 上的二维码，或输入 4 位配对码。"
           }
         }
       }
@@ -3588,6 +4560,12 @@
             "state" : "translated",
             "value" : "Scan to control the camera: %@"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "扫码控制相机：%@"
+          }
         }
       }
     },
@@ -3609,6 +4587,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Scan with another iPhone"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用另一台 iPhone 扫描"
           }
         }
       }
@@ -3632,6 +4616,12 @@
             "state" : "translated",
             "value" : "Sea"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "海边"
+          }
         }
       }
     },
@@ -3653,6 +4643,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Select"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选择"
           }
         }
       }
@@ -3676,6 +4672,12 @@
             "state" : "translated",
             "value" : "Send photos to the remote"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把照片发送到遥控器"
+          }
         }
       }
     },
@@ -3697,6 +4699,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Serif"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "衬线体"
           }
         }
       }
@@ -3720,6 +4728,12 @@
             "state" : "translated",
             "value" : "Service error: %@"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "服务出错：%@"
+          }
         }
       }
     },
@@ -3741,6 +4755,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Set up the camera"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设置相机"
           }
         }
       }
@@ -3764,6 +4784,12 @@
             "state" : "translated",
             "value" : "Settings"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设置"
+          }
         }
       }
     },
@@ -3785,6 +4811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Shape"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "形状"
           }
         }
       }
@@ -3808,6 +4840,12 @@
             "state" : "translated",
             "value" : "Share"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分享"
+          }
         }
       }
     },
@@ -3829,6 +4867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Share QR code"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分享二维码"
           }
         }
       }
@@ -3852,6 +4896,12 @@
             "state" : "translated",
             "value" : "Shoot only with the shutter button."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "只用快门按钮拍摄。"
+          }
         }
       }
     },
@@ -3873,6 +4923,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Shooting options"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拍摄选项"
           }
         }
       }
@@ -3896,6 +4952,12 @@
             "state" : "translated",
             "value" : "Shoots automatically when everyone is smiling with eyes open."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "当所有人都微笑并睁着眼时自动拍摄。"
+          }
         }
       }
     },
@@ -3917,6 +4979,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Show pairing QR code"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示配对二维码"
           }
         }
       }
@@ -3940,6 +5008,12 @@
             "state" : "translated",
             "value" : "Show people in front"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "让人显示在前面"
+          }
         }
       }
     },
@@ -3962,6 +5036,12 @@
             "state" : "translated",
             "value" : "Show Side Poles"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示两侧支杆"
+          }
         }
       }
     },
@@ -3980,6 +5060,12 @@
           }
         },
         "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
+        },
+        "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink"
@@ -4006,6 +5092,12 @@
             "state" : "translated",
             "value" : "ShutterLink photo"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink 照片"
+          }
         }
       }
     },
@@ -4027,6 +5119,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink Remote"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink 遥控器"
           }
         }
       }
@@ -4050,6 +5148,12 @@
             "state" : "translated",
             "value" : "Simple mode (big buttons)"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "简易模式（大按钮）"
+          }
         }
       }
     },
@@ -4071,6 +5175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Single"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "单张"
           }
         }
       }
@@ -4094,6 +5204,12 @@
             "state" : "translated",
             "value" : "Single photo"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "单张照片"
+          }
         }
       }
     },
@@ -4115,6 +5231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Small top line (e.g. 2026 Acme Inc.)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "顶部小字（如 2026 某某公司）"
           }
         }
       }
@@ -4138,6 +5260,12 @@
             "state" : "translated",
             "value" : "Smile"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "微笑"
+          }
         }
       }
     },
@@ -4159,6 +5287,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Smile shutter"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "微笑快门"
           }
         }
       }
@@ -4182,6 +5316,12 @@
             "state" : "translated",
             "value" : "Snow"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "雪"
+          }
         }
       }
     },
@@ -4203,6 +5343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Solid"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "纯色"
           }
         }
       }
@@ -4226,6 +5372,12 @@
             "state" : "translated",
             "value" : "Someone is at the edge of the frame"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "有人在画面边缘"
+          }
         }
       }
     },
@@ -4247,6 +5399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sports"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "运动"
           }
         }
       }
@@ -4270,6 +5428,12 @@
             "state" : "translated",
             "value" : "Sports Day"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "运动会"
+          }
         }
       }
     },
@@ -4291,6 +5455,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spring Blossoms"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "春日花开"
           }
         }
       }
@@ -4314,6 +5484,12 @@
             "state" : "translated",
             "value" : "Stars"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "星星"
+          }
         }
       }
     },
@@ -4335,6 +5511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Start recording"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开始录制"
           }
         }
       }
@@ -4358,6 +5540,12 @@
             "state" : "translated",
             "value" : "Start shooting"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开始拍摄"
+          }
         }
       }
     },
@@ -4379,6 +5567,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Starting Bluetooth…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在启动蓝牙…"
           }
         }
       }
@@ -4402,6 +5596,12 @@
             "state" : "translated",
             "value" : "Stop interval shooting"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "停止定时连拍"
+          }
         }
       }
     },
@@ -4423,6 +5623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stop recording"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "停止录制"
           }
         }
       }
@@ -4446,6 +5652,12 @@
             "state" : "translated",
             "value" : "Summer Beach"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "夏日海滩"
+          }
         }
       }
     },
@@ -4467,6 +5679,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sway in the breeze"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "随风摆动"
           }
         }
       }
@@ -4490,6 +5708,12 @@
             "state" : "translated",
             "value" : "Switch camera"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "切换相机"
+          }
         }
       }
     },
@@ -4511,6 +5735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Take photo"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拍照"
           }
         }
       }
@@ -4534,6 +5764,12 @@
             "state" : "translated",
             "value" : "Taking a photo in %lld seconds."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 秒后拍照。"
+          }
         }
       }
     },
@@ -4555,6 +5791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tap the floor or a wall to place the banner"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "点一下地面或墙壁来放置横幅"
           }
         }
       }
@@ -4578,6 +5820,12 @@
             "state" : "translated",
             "value" : "Tap the QR button. Another iPhone scans it with the Camera app and becomes a remote in seconds, without installing anything."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "点一下二维码按钮，另一台 iPhone 用相机 App 扫描后，几秒内就能变成遥控器，无需安装任何东西。"
+          }
         }
       }
     },
@@ -4599,6 +5847,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tap to focus"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "点按对焦"
           }
         }
       }
@@ -4622,6 +5876,12 @@
             "state" : "translated",
             "value" : "Text"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文字"
+          }
         }
       }
     },
@@ -4643,6 +5903,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The banner paused for a moment"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "横幅暂时停住了"
           }
         }
       }
@@ -4666,6 +5932,12 @@
             "state" : "translated",
             "value" : "The banner stays in front of everyone."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "横幅始终在所有人前面。"
+          }
         }
       }
     },
@@ -4687,6 +5959,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The camera counts down out loud and blinks its light, so a group standing far away knows exactly when the photo is taken."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "相机会语音倒计时并闪烁灯光，站得远的大家也能清楚知道什么时候拍照。"
           }
         }
       }
@@ -4710,6 +5988,12 @@
             "state" : "translated",
             "value" : "The pairing code was rejected. Scan the QR code again."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "配对码被拒绝。请重新扫描二维码。"
+          }
         }
       }
     },
@@ -4731,6 +6015,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Theme"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "主题"
           }
         }
       }
@@ -4754,6 +6044,12 @@
             "state" : "translated",
             "value" : "They stay in your Photos library if they were saved there."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "如果已存入相册，它们会继续保留在你的相册中。"
+          }
         }
       }
     },
@@ -4775,6 +6071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "This device doesn't support Bluetooth LE."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此设备不支持低功耗蓝牙。"
           }
         }
       }
@@ -4798,6 +6100,12 @@
             "state" : "translated",
             "value" : "This device isn't a ShutterLink camera."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此设备不是 ShutterLink 相机。"
+          }
         }
       }
     },
@@ -4819,6 +6127,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "This iPhone doesn't support AR."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "这台 iPhone 不支持 AR。"
           }
         }
       }
@@ -4842,6 +6156,12 @@
             "state" : "translated",
             "value" : "Tilted %lld degrees"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "倾斜了 %lld 度"
+          }
         }
       }
     },
@@ -4863,6 +6183,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Timer"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "定时"
           }
         }
       }
@@ -4886,6 +6212,12 @@
             "state" : "translated",
             "value" : "Top and Bottom Bands"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上下色带"
+          }
         }
       }
     },
@@ -4907,6 +6239,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Top Stripe"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "顶部条纹"
           }
         }
       }
@@ -4930,6 +6268,12 @@
             "state" : "translated",
             "value" : "Top Text"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "顶部文字"
+          }
         }
       }
     },
@@ -4951,6 +6295,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Try again"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重试"
           }
         }
       }
@@ -4974,6 +6324,12 @@
             "state" : "translated",
             "value" : "Turn on Bluetooth to connect to the camera."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请开启蓝牙以连接相机。"
+          }
         }
       }
     },
@@ -4995,6 +6351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Unavailable"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不可用"
           }
         }
       }
@@ -5018,6 +6380,12 @@
             "state" : "translated",
             "value" : "Version"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "版本"
+          }
         }
       }
     },
@@ -5039,6 +6407,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Video"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "视频"
           }
         }
       }
@@ -5062,6 +6436,12 @@
             "state" : "translated",
             "value" : "Videos"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "视频"
+          }
         }
       }
     },
@@ -5083,6 +6463,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Viewfinder"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取景器"
           }
         }
       }
@@ -5106,6 +6492,12 @@
             "state" : "translated",
             "value" : "Vinyl (Glossy)"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "喷绘布（亮面）"
+          }
         }
       }
     },
@@ -5127,6 +6519,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voice countdown"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "语音倒计时"
           }
         }
       }
@@ -5150,6 +6548,12 @@
             "state" : "translated",
             "value" : "Waiting for a remote"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "等待遥控器连接"
+          }
         }
       }
     },
@@ -5171,6 +6575,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Waiting for Bluetooth…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在等待蓝牙…"
           }
         }
       }
@@ -5194,6 +6604,12 @@
             "state" : "translated",
             "value" : "Waiting for preview…"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在等待预览…"
+          }
         }
       }
     },
@@ -5215,6 +6631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wedding"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "婚礼"
           }
         }
       }
@@ -5238,6 +6660,12 @@
             "state" : "translated",
             "value" : "Width"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "宽度"
+          }
         }
       }
     },
@@ -5259,6 +6687,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Winter"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "冬日"
           }
         }
       }
@@ -5282,6 +6716,12 @@
             "state" : "translated",
             "value" : "Year-End Party"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "年会"
+          }
         }
       }
     },
@@ -5303,6 +6743,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zoom"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "变焦"
           }
         }
       }

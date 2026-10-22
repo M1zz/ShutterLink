@@ -27,6 +27,12 @@
             "state" : "translated",
             "value" : "ShutterLink"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
         }
       }
     },
@@ -68,6 +74,12 @@
             "state" : "translated",
             "value" : "ShutterLink uses Bluetooth so a nearby iPhone can act as a remote shutter."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink 使用蓝牙，让附近的 iPhone 可以作为遥控快门。"
+          }
         }
       }
     },
@@ -96,6 +108,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink uses the camera to take photos and videos, and to place an AR banner in the scene."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink 使用相机拍摄照片和视频，并在画面中放置 AR 横幅。"
           }
         }
       }
@@ -126,6 +144,12 @@
             "state" : "translated",
             "value" : "ShutterLink records audio with your videos and listens for a clap when Clap shutter is on."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink 会在录制视频时录入声音，并在开启拍手快门时监听拍手声。"
+          }
         }
       }
     },
@@ -154,6 +178,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink saves your photos and videos to your library."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink 会将你拍摄的照片和视频存入相册。"
           }
         }
       }
