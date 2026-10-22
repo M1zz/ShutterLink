@@ -128,6 +128,12 @@
             "state" : "translated",
             "value" : "%lld"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
         }
       }
     },
@@ -257,6 +263,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "W kadrze: %lld"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld i bild"
           }
         }
       }
@@ -388,6 +400,12 @@
             "state" : "translated",
             "value" : "Zdjęcia: %lld"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld foton"
+          }
         }
       }
     },
@@ -517,6 +535,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zdjęć: %lld, wybrano najlepsze"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld foton, bästa vald"
           }
         }
       }
@@ -648,6 +672,12 @@
             "state" : "translated",
             "value" : "Połączone piloty: %lld"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld fjärrkontroll ansluten"
+          }
         }
       }
     },
@@ -778,6 +808,12 @@
             "state" : "translated",
             "value" : "Wybrano: %lld"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld valda"
+          }
         }
       }
     },
@@ -906,6 +942,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld°"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld°"
@@ -1040,6 +1082,12 @@
             "state" : "translated",
             "value" : "%lld min"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
         }
       }
     },
@@ -1166,6 +1214,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld s"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld s"
@@ -1300,6 +1354,12 @@
             "state" : "translated",
             "value" : "0000"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0000"
+          }
         }
       }
     },
@@ -1429,6 +1489,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Akcent (ramka · pasek)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accent (kant · rand)"
           }
         }
       }
@@ -1560,6 +1626,12 @@
             "state" : "translated",
             "value" : "Dodaj obraz logo"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägg till logotypbild"
+          }
         }
       }
     },
@@ -1689,6 +1761,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dostosuj położenie"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Justera placering"
           }
         }
       }
@@ -1820,6 +1898,12 @@
             "state" : "translated",
             "value" : "Ogłaszanie nie powiodło się: %@"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kungörelsen misslyckades: %@"
+          }
         }
       }
     },
@@ -1949,6 +2033,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wszystkie"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alla"
           }
         }
       }
@@ -2080,6 +2170,12 @@
             "state" : "translated",
             "value" : "Zezwól na dostęp do Bluetooth w Ustawieniach, aby sterować aparatem."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tillåt Bluetooth-åtkomst i Inställningar för att styra kameran."
+          }
         }
       }
     },
@@ -2209,6 +2305,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Każdy może być pilotem"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vem som helst kan vara fjärrkontrollen"
           }
         }
       }
@@ -2341,6 +2443,12 @@
             "state" : "translated",
             "value" : "Zastosuj"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Använd"
+          }
         }
       }
     },
@@ -2470,6 +2578,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Poproś wszystkich, by patrzyli w obiektyw"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Be alla titta in i kameran"
           }
         }
       }
@@ -2601,6 +2715,12 @@
             "state" : "translated",
             "value" : "Proporcje"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bildformat"
+          }
         }
       }
     },
@@ -2727,6 +2847,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Auto"
@@ -2861,6 +2987,12 @@
             "state" : "translated",
             "value" : "Automatyczne zdjęcia wyłączone"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatisk fotografering av"
+          }
         }
       }
     },
@@ -2990,6 +3122,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jesienne liście"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Höstlöv"
           }
         }
       }
@@ -3121,6 +3259,12 @@
             "state" : "translated",
             "value" : "Jesienna wycieczka"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Höstutflykt"
+          }
         }
       }
     },
@@ -3250,6 +3394,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tło"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bakgrund"
           }
         }
       }
@@ -3381,6 +3531,12 @@
             "state" : "translated",
             "value" : "Kolor tła"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bakgrundsfärg"
+          }
         }
       }
     },
@@ -3510,6 +3666,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Balony"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ballonger"
           }
         }
       }
@@ -3641,6 +3803,12 @@
             "state" : "translated",
             "value" : "Baner"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banderoll"
+          }
         }
       }
     },
@@ -3770,6 +3938,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Projekt baneru"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banderolldesign"
           }
         }
       }
@@ -3901,6 +4075,12 @@
             "state" : "translated",
             "value" : "Najlepsze ujęcie"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bästa bilden"
+          }
         }
       }
     },
@@ -4030,6 +4210,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Najlepsze ujęcie z %lld zdjęć"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bästa bilden av %lld foton"
           }
         }
       }
@@ -4161,6 +4347,12 @@
             "state" : "translated",
             "value" : "Najlepsze ujęcia"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bästa bilderna"
+          }
         }
       }
     },
@@ -4290,6 +4482,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Urodziny"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Födelsedag"
           }
         }
       }
@@ -4421,6 +4619,12 @@
             "state" : "translated",
             "value" : "Bluetooth jest wyłączony"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth är avstängt"
+          }
         }
       }
     },
@@ -4550,6 +4754,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bluetooth LE nie jest obsługiwany"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth LE stöds inte"
           }
         }
       }
@@ -4681,6 +4891,12 @@
             "state" : "translated",
             "value" : "Odmowa dostępu do Bluetooth"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth-behörighet nekad"
+          }
         }
       }
     },
@@ -4810,6 +5026,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bluetooth gotowy"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth är redo"
           }
         }
       }
@@ -4941,6 +5163,12 @@
             "state" : "translated",
             "value" : "Bluetooth niedostępny"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth är inte tillgängligt"
+          }
         }
       }
     },
@@ -5070,6 +5298,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pogrubiony bezszeryfowy"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fet sans"
           }
         }
       }
@@ -5201,6 +5435,12 @@
             "state" : "translated",
             "value" : "Dolny wiersz: data · miejsce"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nedersta raden: datum · plats"
+          }
         }
       }
     },
@@ -5330,6 +5570,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tekst na dole"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Text längst ned"
           }
         }
       }
@@ -5461,6 +5707,12 @@
             "state" : "translated",
             "value" : "Jaśniej"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ljusare"
+          }
         }
       }
     },
@@ -5590,6 +5842,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Seria"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serie"
           }
         }
       }
@@ -5721,6 +5979,12 @@
             "state" : "translated",
             "value" : "Wymagany jest dostęp do aparatu. Włącz go w Ustawienia > ShutterLink."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åtkomst till kameran krävs. Aktivera den i Inställningar > ShutterLink."
+          }
         }
       }
     },
@@ -5850,6 +6114,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anuluj"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryt"
           }
         }
       }
@@ -5981,6 +6251,12 @@
             "state" : "translated",
             "value" : "Anuluj minutnik"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryt timer"
+          }
         }
       }
     },
@@ -6110,6 +6386,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nie udało się zrobić zdjęcia: %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotograferingen misslyckades: %@"
           }
         }
       }
@@ -6241,6 +6523,12 @@
             "state" : "translated",
             "value" : "Uroczystość"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Firande"
+          }
         }
       }
     },
@@ -6370,6 +6658,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zmień logo"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Byt logotyp"
           }
         }
       }
@@ -6501,6 +6795,12 @@
             "state" : "translated",
             "value" : "Sprawdź dostęp do Zdjęć w Ustawieniach."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontrollera åtkomsten till Bilder i Inställningar."
+          }
         }
       }
     },
@@ -6630,6 +6930,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kibicowanie"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hejarop"
           }
         }
       }
@@ -6761,6 +7067,12 @@
             "state" : "translated",
             "value" : "Wybierz Baner, wpisz tekst i wybierz kolory, a następnie dotknij podłogi. Baner zostaje na miejscu, a osoby stojące przed nim wyglądają, jakby go trzymały."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj Banderoll, skriv din text och välj färger och tryck sedan på golvet. Banderollen står kvar, och de som står framför ser ut att hålla i den."
+          }
         }
       }
     },
@@ -6890,6 +7202,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Boże Narodzenie"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jul"
           }
         }
       }
@@ -7021,6 +7339,12 @@
             "state" : "translated",
             "value" : "Klaśnięcie"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Handklapp"
+          }
         }
       }
     },
@@ -7150,6 +7474,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Klaśnij głośno raz, aby uruchomić minutnik."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klappa högt en gång för att starta timern."
           }
         }
       }
@@ -7281,6 +7611,12 @@
             "state" : "translated",
             "value" : "Migawka na klaśnięcie"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klapputlösare"
+          }
         }
       }
     },
@@ -7410,6 +7746,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Migawka na klaśnięcie wymaga dostępu do mikrofonu. Włącz go w Ustawienia > ShutterLink."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klapputlösaren behöver åtkomst till mikrofonen. Aktivera den i Inställningar > ShutterLink."
           }
         }
       }
@@ -7541,6 +7883,12 @@
             "state" : "translated",
             "value" : "Klasyczny"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klassisk"
+          }
         }
       }
     },
@@ -7670,6 +8018,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zamknij"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stäng"
           }
         }
       }
@@ -7801,6 +8155,12 @@
             "state" : "translated",
             "value" : "Kolory"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Färger"
+          }
         }
       }
     },
@@ -7930,6 +8290,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Warsztaty firmowe"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Företagsworkshop"
           }
         }
       }
@@ -8061,6 +8427,12 @@
             "state" : "translated",
             "value" : "Wąski bezszeryfowy"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smal sans"
+          }
         }
       }
     },
@@ -8190,6 +8562,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Połącz"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anslut"
           }
         }
       }
@@ -8321,6 +8699,12 @@
             "state" : "translated",
             "value" : "Połączono"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ansluten"
+          }
         }
       }
     },
@@ -8450,6 +8834,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Łączenie…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ansluter …"
           }
         }
       }
@@ -8581,6 +8971,12 @@
             "state" : "translated",
             "value" : "Nie udało się utworzyć baneru: %@"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det gick inte att skapa banderollen: %@"
+          }
         }
       }
     },
@@ -8710,6 +9106,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nie znaleziono aparatu. Upewnij się, że ShutterLink jest otwarty na iPhonie z aparatem, a Bluetooth jest włączony."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kameran hittades inte. Kontrollera att ShutterLink är öppet på kamera-iPhonen och att Bluetooth är på."
           }
         }
       }
@@ -8841,6 +9243,12 @@
             "state" : "translated",
             "value" : "Nie udało się sparować z aparatem."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det gick inte att para ihop med kameran."
+          }
         }
       }
     },
@@ -8970,6 +9378,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nie udało się zapisać w Zdjęciach. %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det gick inte att spara i Bilder. %@"
           }
         }
       }
@@ -9101,6 +9515,12 @@
             "state" : "translated",
             "value" : "Nie udało się wyświetlić baneru: %@"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det gick inte att visa banderollen: %@"
+          }
         }
       }
     },
@@ -9230,6 +9650,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nie udało się rozpocząć nagrywania: %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det gick inte att starta inspelningen: %@"
           }
         }
       }
@@ -9361,6 +9787,12 @@
             "state" : "translated",
             "value" : "Nie udało się zaktualizować projektu."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det gick inte att uppdatera designen."
+          }
         }
       }
     },
@@ -9490,6 +9922,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Odliczanie"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nedräkning"
           }
         }
       }
@@ -9621,6 +10059,12 @@
             "state" : "translated",
             "value" : "Ciemniej"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mörkare"
+          }
         }
       }
     },
@@ -9750,6 +10194,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dekoracje"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dekor"
           }
         }
       }
@@ -9881,6 +10331,12 @@
             "state" : "translated",
             "value" : "Usuń"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Radera"
+          }
         }
       }
     },
@@ -10010,6 +10466,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usunąć wybrane zdjęcia?"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vill du radera de valda bilderna?"
           }
         }
       }
@@ -10141,6 +10603,12 @@
             "state" : "translated",
             "value" : "Ukośne paski"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diagonala ränder"
+          }
         }
       }
     },
@@ -10270,6 +10738,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kierunek"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riktning"
           }
         }
       }
@@ -10401,6 +10875,12 @@
             "state" : "translated",
             "value" : "Rozłącz"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koppla från"
+          }
         }
       }
     },
@@ -10530,6 +11010,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gotowe"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klar"
           }
         }
       }
@@ -10661,6 +11147,12 @@
             "state" : "translated",
             "value" : "Przeciągnij, aby przesunąć baner po podłodze."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dra för att skjuta banderollen över golvet."
+          }
         }
       }
     },
@@ -10790,6 +11282,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tryb jazdy"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Körläge"
           }
         }
       }
@@ -10921,6 +11419,12 @@
             "state" : "translated",
             "value" : "Wpisz 4-cyfrowy kod widoczny na iPhonie z aparatem."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ange den fyrsiffriga koden som visas på kamera-iPhonen."
+          }
         }
       }
     },
@@ -11050,6 +11554,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Co %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Var %@"
           }
         }
       }
@@ -11181,6 +11691,12 @@
             "state" : "translated",
             "value" : "Każde zdjęcie jest też zachowywane w galerii ShutterLink. Gdy wysyłanie jest włączone, osoba z pilotem dostaje kopię każdego zrobionego przez siebie zdjęcia."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Varje bild sparas också i ShutterLink-galleriet. När sändning är på får den som håller fjärrkontrollen en kopia av varje foto hen tar."
+          }
         }
       }
     },
@@ -11310,6 +11826,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wszyscy, patrzymy w obiektyw!"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alla, titta in i kameran!"
           }
         }
       }
@@ -11441,6 +11963,12 @@
             "state" : "translated",
             "value" : "Ekspozycja"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exponering"
+          }
         }
       }
     },
@@ -11570,6 +12098,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tkanina (matowa)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tyg (matt)"
           }
         }
       }
@@ -11701,6 +12235,12 @@
             "state" : "translated",
             "value" : "Przodem do mnie"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vänd mot mig"
+          }
         }
       }
     },
@@ -11830,6 +12370,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Razem na jesienną wycieczkę"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Höstutflykt tillsammans"
           }
         }
       }
@@ -11961,6 +12507,12 @@
             "state" : "translated",
             "value" : "Filtr"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filter"
+          }
         }
       }
     },
@@ -12090,6 +12642,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lampa błyskowa"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blixt"
           }
         }
       }
@@ -12221,6 +12779,12 @@
             "state" : "translated",
             "value" : "Odliczanie lampą błyskową"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nedräkning med blixt"
+          }
         }
       }
     },
@@ -12350,6 +12914,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kwiaty"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blommor"
           }
         }
       }
@@ -12481,6 +13051,12 @@
             "state" : "translated",
             "value" : "Czcionka"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Typsnitt"
+          }
         }
       }
     },
@@ -12610,6 +13186,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Galeria"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Galleri"
           }
         }
       }
@@ -12741,6 +13323,12 @@
             "state" : "translated",
             "value" : "Gradient"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Övertoning"
+          }
         }
       }
     },
@@ -12870,6 +13458,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rozdanie dyplomów"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Examen"
           }
         }
       }
@@ -13001,6 +13595,12 @@
             "state" : "translated",
             "value" : "Siatka"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rutnät"
+          }
         }
       }
     },
@@ -13130,6 +13730,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zdjęcie grupowe · dotknij ujęcia, aby oznaczyć je jako najlepsze"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gruppbild · tryck på en bild för att markera den som bäst"
           }
         }
       }
@@ -13261,6 +13867,12 @@
             "state" : "translated",
             "value" : "Zdjęcie grupowe robi kilka ujęć i wybiera to, na którym wszyscy mają otwarte oczy. Pilot dostaje kopię na pamiątkę."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gruppbilden tar flera foton och väljer det där alla har ögonen öppna. Fjärrkontrollen får en kopia att behålla."
+          }
         }
       }
     },
@@ -13390,6 +14002,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gesty"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Handgester"
           }
         }
       }
@@ -13521,6 +14139,12 @@
             "state" : "translated",
             "value" : "Migawka bez dotykania"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Handsfree-utlösare"
+          }
         }
       }
     },
@@ -13650,6 +14274,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Serca"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hjärtan"
           }
         }
       }
@@ -13781,6 +14411,12 @@
             "state" : "translated",
             "value" : "Wysokość"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Höjd"
+          }
         }
       }
     },
@@ -13910,6 +14546,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wysokość nad podłogą"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Höjd över golvet"
           }
         }
       }
@@ -14041,6 +14683,12 @@
             "state" : "translated",
             "value" : "Pomoc"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hjälp"
+          }
         }
       }
     },
@@ -14170,6 +14818,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trzymaj baner, nie zabierając go ze sobą"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Håll i en banderoll utan att ha med någon"
           }
         }
       }
@@ -14301,6 +14955,12 @@
             "state" : "translated",
             "value" : "Jak korzystać z ShutterLink"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Så använder du ShutterLink"
+          }
         }
       }
     },
@@ -14430,6 +15090,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Odstęp"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Intervall"
           }
         }
       }
@@ -14561,6 +15227,12 @@
             "state" : "translated",
             "value" : "Poziomica"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vattenpass"
+          }
         }
       }
     },
@@ -14690,6 +15362,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Logo"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logotyp"
           }
         }
       }
@@ -14821,6 +15499,12 @@
             "state" : "translated",
             "value" : "Wygląd"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utseende"
+          }
         }
       }
     },
@@ -14950,6 +15634,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Szukanie aparatu %@…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Söker efter kameran %@ …"
           }
         }
       }
@@ -15081,6 +15771,12 @@
             "state" : "translated",
             "value" : "Główne hasło"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Huvudbudskap"
+          }
         }
       }
     },
@@ -15210,6 +15906,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tekst główny"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Huvudtext"
           }
         }
       }
@@ -15341,6 +16043,12 @@
             "state" : "translated",
             "value" : "Materiał"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Material"
+          }
         }
       }
     },
@@ -15470,6 +16178,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Materiał · Rozmiar"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Material · Storlek"
           }
         }
       }
@@ -15601,6 +16315,12 @@
             "state" : "translated",
             "value" : "Tryb"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Läge"
+          }
         }
       }
     },
@@ -15730,6 +16450,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Więcej"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mer"
           }
         }
       }
@@ -15861,6 +16587,12 @@
             "state" : "translated",
             "value" : "Przesuń baner"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flytta banderoll"
+          }
         }
       }
     },
@@ -15990,6 +16722,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dalej"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nästa"
           }
         }
       }
@@ -16121,6 +16859,12 @@
             "state" : "translated",
             "value" : "Następne zdjęcie za %lld s"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nästa bild om %lld s"
+          }
         }
       }
     },
@@ -16250,6 +16994,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Na tym urządzeniu nie ma dostępnego aparatu."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen kamera finns tillgänglig på den här enheten."
           }
         }
       }
@@ -16381,6 +17131,12 @@
             "state" : "translated",
             "value" : "Brak zdjęć"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inga bilder än"
+          }
         }
       }
     },
@@ -16511,6 +17267,12 @@
             "state" : "translated",
             "value" : "Nikt nie mruga"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen blinkar"
+          }
         }
       }
     },
@@ -16640,6 +17402,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brak"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen"
           }
         }
       }
@@ -16772,6 +17540,12 @@
             "state" : "translated",
             "value" : "Teraz"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nu"
+          }
         }
       }
     },
@@ -16901,6 +17675,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "24–25 paź 2026  Jezioro Tahoe, Kalifornia"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "24–25 okt 2026  Lake Tahoe, Kalifornien"
           }
         }
       }
@@ -17032,6 +17812,12 @@
             "state" : "translated",
             "value" : "Wył."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Av"
+          }
         }
       }
     },
@@ -17158,6 +17944,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -17292,6 +18084,12 @@
             "state" : "translated",
             "value" : "Wł."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "På"
+          }
         }
       }
     },
@@ -17421,6 +18219,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Otwórz galerię"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öppna galleri"
           }
         }
       }
@@ -17552,6 +18356,12 @@
             "state" : "translated",
             "value" : "Opcje"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alternativ"
+          }
         }
       }
     },
@@ -17681,6 +18491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Albo rób zdjęcia bez dotykania"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eller fota handsfree"
           }
         }
       }
@@ -17812,6 +18628,12 @@
             "state" : "translated",
             "value" : "Nasz zespół 2026"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vårt lag 2026"
+          }
         }
       }
     },
@@ -17941,6 +18763,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kod parowania"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parkopplingskod"
           }
         }
       }
@@ -18072,6 +18900,12 @@
             "state" : "translated",
             "value" : "Parowanie…"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parkopplar …"
+          }
         }
       }
     },
@@ -18201,6 +19035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dłoń"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Handflata"
           }
         }
       }
@@ -18332,6 +19172,12 @@
             "state" : "translated",
             "value" : "Gest dłonią"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Handflatsgest"
+          }
         }
       }
     },
@@ -18461,6 +19307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Papier"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papper"
           }
         }
       }
@@ -18592,6 +19444,12 @@
             "state" : "translated",
             "value" : "Imprezowy wieczór"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Festkväll"
+          }
         }
       }
     },
@@ -18721,6 +19579,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Licznik osób"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Personräknare"
           }
         }
       }
@@ -18852,6 +19716,12 @@
             "state" : "translated",
             "value" : "Osoby stojące przed banerem są teraz widoczne nad nim."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Personer som står framför banderollen syns nu ovanpå den."
+          }
         }
       }
     },
@@ -18981,6 +19851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zdjęcie"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto"
           }
         }
       }
@@ -19112,6 +19988,12 @@
             "state" : "translated",
             "value" : "Zdjęcia"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foton"
+          }
         }
       }
     },
@@ -19241,6 +20123,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tutaj pojawiają się zdjęcia i filmy zrobione w ShutterLink."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foton och videor du tar med ShutterLink visas här."
           }
         }
       }
@@ -19372,6 +20260,12 @@
             "state" : "translated",
             "value" : "Zdjęcia z tej sesji"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foton från den här fotograferingen"
+          }
         }
       }
     },
@@ -19501,6 +20395,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Postaw ten iPhone na statywie lub oprzyj go o coś stabilnego. Poziomica i licznik osób pomogą zmieścić wszystkich w kadrze."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ställ den här iPhonen på ett stativ eller luta den mot något stabilt. Använd vattenpasset och personräknaren för att få med alla i bild."
           }
         }
       }
@@ -19632,6 +20532,12 @@
             "state" : "translated",
             "value" : "Skieruj aparat drugiego iPhone’a na kod QR. App Clip Pilot ShutterLink otworzy się bez instalowania czegokolwiek. Podczas robienia zdjęć nie zamykaj tej aplikacji."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rikta den andra iPhonens kamera mot QR-koden. App Clip-en ShutterLink-fjärrkontroll öppnas utan installation. Håll den här appen öppen medan du fotograferar."
+          }
         }
       }
     },
@@ -19761,6 +20667,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Unieś otwartą dłoń w stronę aparatu, aby uruchomić minutnik."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Håll upp en öppen handflata mot kameran för att starta timern."
           }
         }
       }
@@ -19892,6 +20804,12 @@
             "state" : "translated",
             "value" : "Unieś dłoń, klaśnij albo pozwól ShutterLink zrobić zdjęcie, gdy wszyscy się uśmiechają. Odliczanie głosem i światłem podpowiada grupie, kiedy pozować."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Håll upp handflatan, klappa eller låt ShutterLink ta bilden när alla ler. En nedräkning med röst och ljus talar om för gruppen när det är dags att posera."
+          }
         }
       }
     },
@@ -20021,6 +20939,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nagrywanie nie powiodło się."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inspelningen misslyckades."
           }
         }
       }
@@ -20152,6 +21076,12 @@
             "state" : "translated",
             "value" : "Usuń logo"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta bort logotyp"
+          }
         }
       }
     },
@@ -20281,6 +21211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zresetuj"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Återställ"
           }
         }
       }
@@ -20412,6 +21348,12 @@
             "state" : "translated",
             "value" : "Zresetuj ekspozycję"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Återställ exponering"
+          }
         }
       }
     },
@@ -20541,6 +21483,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zaokrąglony bezszeryfowy"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rundad sans"
           }
         }
       }
@@ -20672,6 +21620,12 @@
             "state" : "translated",
             "value" : "Zapisz lub udostępnij to zdjęcie"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara eller dela det här fotot"
+          }
         }
       }
     },
@@ -20801,6 +21755,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zapisz lub udostępnij swoją kopię, zanim zamkniesz pilota."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara eller dela din kopia innan du stänger fjärrkontrollen."
           }
         }
       }
@@ -20932,6 +21892,12 @@
             "state" : "translated",
             "value" : "Zapisz w Zdjęciach"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara i Bilder"
+          }
         }
       }
     },
@@ -21061,6 +22027,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zeskanuj kod QR na iPhonie z aparatem albo wpisz 4-cyfrowy kod parowania."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skanna QR-koden på kamera-iPhonen eller ange den fyrsiffriga parkopplingskoden."
           }
         }
       }
@@ -21192,6 +22164,12 @@
             "state" : "translated",
             "value" : "Zeskanuj, aby sterować aparatem: %@"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skanna för att styra kameran: %@"
+          }
         }
       }
     },
@@ -21321,6 +22299,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zeskanuj drugim iPhone’em"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skanna med en annan iPhone"
           }
         }
       }
@@ -21452,6 +22436,12 @@
             "state" : "translated",
             "value" : "Morze"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hav"
+          }
         }
       }
     },
@@ -21581,6 +22571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wybierz"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj"
           }
         }
       }
@@ -21712,6 +22708,12 @@
             "state" : "translated",
             "value" : "Wysyłaj zdjęcia na pilota"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skicka foton till fjärrkontrollen"
+          }
         }
       }
     },
@@ -21841,6 +22843,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Szeryfowy"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serif"
           }
         }
       }
@@ -21972,6 +22980,12 @@
             "state" : "translated",
             "value" : "Błąd usługi: %@"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tjänstefel: %@"
+          }
         }
       }
     },
@@ -22101,6 +23115,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skonfiguruj aparat"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ställ in kameran"
           }
         }
       }
@@ -22232,6 +23252,12 @@
             "state" : "translated",
             "value" : "Ustawienia"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inställningar"
+          }
         }
       }
     },
@@ -22361,6 +23387,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kształt"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Form"
           }
         }
       }
@@ -22492,6 +23524,12 @@
             "state" : "translated",
             "value" : "Udostępnij"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dela"
+          }
         }
       }
     },
@@ -22621,6 +23659,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Udostępnij kod QR"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dela QR-kod"
           }
         }
       }
@@ -22752,6 +23796,12 @@
             "state" : "translated",
             "value" : "Rób zdjęcia tylko przyciskiem migawki."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fota bara med utlösarknappen."
+          }
         }
       }
     },
@@ -22881,6 +23931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Opcje zdjęć"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotograferingsalternativ"
           }
         }
       }
@@ -23012,6 +24068,12 @@
             "state" : "translated",
             "value" : "Robi zdjęcie automatycznie, gdy wszyscy uśmiechają się z otwartymi oczami."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tar bilden automatiskt när alla ler med öppna ögon."
+          }
         }
       }
     },
@@ -23141,6 +24203,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pokaż kod QR do parowania"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visa QR-kod för parkoppling"
           }
         }
       }
@@ -23272,6 +24340,12 @@
             "state" : "translated",
             "value" : "Pokaż osoby z przodu"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visa personer framför"
+          }
         }
       }
     },
@@ -23402,6 +24476,12 @@
             "state" : "translated",
             "value" : "Pokaż boczne słupki"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visa sidostänger"
+          }
         }
       }
     },
@@ -23528,6 +24608,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink"
@@ -23662,6 +24748,12 @@
             "state" : "translated",
             "value" : "Zdjęcie ShutterLink"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink-foto"
+          }
         }
       }
     },
@@ -23791,6 +24883,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pilot ShutterLink"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink-fjärrkontroll"
           }
         }
       }
@@ -23922,6 +25020,12 @@
             "state" : "translated",
             "value" : "Tryb prosty (duże przyciski)"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enkelt läge (stora knappar)"
+          }
         }
       }
     },
@@ -24051,6 +25155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pojedyncze"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enstaka"
           }
         }
       }
@@ -24182,6 +25292,12 @@
             "state" : "translated",
             "value" : "Pojedyncze zdjęcie"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enstaka foto"
+          }
         }
       }
     },
@@ -24311,6 +25427,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mały górny wiersz (np. Acme Sp. z o.o. 2026)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liten översta rad (t.ex. Acme AB 2026)"
           }
         }
       }
@@ -24442,6 +25564,12 @@
             "state" : "translated",
             "value" : "Uśmiech"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leende"
+          }
         }
       }
     },
@@ -24571,6 +25699,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Migawka na uśmiech"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leendeutlösare"
           }
         }
       }
@@ -24702,6 +25836,12 @@
             "state" : "translated",
             "value" : "Śnieg"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snö"
+          }
         }
       }
     },
@@ -24831,6 +25971,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jednolite"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enfärgad"
           }
         }
       }
@@ -24962,6 +26108,12 @@
             "state" : "translated",
             "value" : "Ktoś jest na skraju kadru"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Någon står i bildkanten"
+          }
         }
       }
     },
@@ -25088,6 +26240,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sport"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sport"
@@ -25222,6 +26380,12 @@
             "state" : "translated",
             "value" : "Dzień sportu"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Idrottsdag"
+          }
         }
       }
     },
@@ -25351,6 +26515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wiosenne kwiaty"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vårblommor"
           }
         }
       }
@@ -25482,6 +26652,12 @@
             "state" : "translated",
             "value" : "Gwiazdy"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stjärnor"
+          }
         }
       }
     },
@@ -25611,6 +26787,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rozpocznij nagrywanie"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starta inspelning"
           }
         }
       }
@@ -25742,6 +26924,12 @@
             "state" : "translated",
             "value" : "Zacznij robić zdjęcia"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Börja fota"
+          }
         }
       }
     },
@@ -25871,6 +27059,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uruchamianie Bluetooth…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Startar Bluetooth …"
           }
         }
       }
@@ -26002,6 +27196,12 @@
             "state" : "translated",
             "value" : "Zatrzymaj zdjęcia w odstępach"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stoppa intervallfotografering"
+          }
         }
       }
     },
@@ -26131,6 +27331,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zatrzymaj nagrywanie"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stoppa inspelning"
           }
         }
       }
@@ -26262,6 +27468,12 @@
             "state" : "translated",
             "value" : "Letnia plaża"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sommarstrand"
+          }
         }
       }
     },
@@ -26391,6 +27603,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Powiewa na wietrze"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vajar i vinden"
           }
         }
       }
@@ -26522,6 +27740,12 @@
             "state" : "translated",
             "value" : "Przełącz aparat"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Byt kamera"
+          }
         }
       }
     },
@@ -26651,6 +27875,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zrób zdjęcie"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta foto"
           }
         }
       }
@@ -26782,6 +28012,12 @@
             "state" : "translated",
             "value" : "Zdjęcie za %lld s."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tar ett foto om %lld sekunder."
+          }
         }
       }
     },
@@ -26911,6 +28147,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dotknij podłogi lub ściany, aby umieścić baner"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryck på golvet eller en vägg för att placera banderollen"
           }
         }
       }
@@ -27042,6 +28284,12 @@
             "state" : "translated",
             "value" : "Dotknij przycisku QR. Drugi iPhone zeskanuje kod aplikacją Aparat i w kilka sekund stanie się pilotem — bez instalowania czegokolwiek."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryck på QR-knappen. En annan iPhone skannar den med appen Kamera och blir en fjärrkontroll på några sekunder, utan att installera något."
+          }
         }
       }
     },
@@ -27171,6 +28419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dotknij, aby ustawić ostrość"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryck för att fokusera"
           }
         }
       }
@@ -27302,6 +28556,12 @@
             "state" : "translated",
             "value" : "Tekst"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Text"
+          }
         }
       }
     },
@@ -27431,6 +28691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Baner na chwilę się zatrzymał"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banderollen stannade till en stund"
           }
         }
       }
@@ -27562,6 +28828,12 @@
             "state" : "translated",
             "value" : "Baner zawsze jest przed wszystkimi."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banderollen är alltid framför alla."
+          }
         }
       }
     },
@@ -27691,6 +28963,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aparat odlicza na głos i miga światłem, więc nawet odległa grupa wie dokładnie, kiedy zostanie zrobione zdjęcie."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kameran räknar ned högt och blinkar med ljuset, så även en grupp som står långt bort vet exakt när bilden tas."
           }
         }
       }
@@ -27822,6 +29100,12 @@
             "state" : "translated",
             "value" : "Kod parowania został odrzucony. Zeskanuj kod QR jeszcze raz."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parkopplingskoden avvisades. Skanna QR-koden igen."
+          }
         }
       }
     },
@@ -27951,6 +29235,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Motyw"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tema"
           }
         }
       }
@@ -28082,6 +29372,12 @@
             "state" : "translated",
             "value" : "Zostają w Twojej bibliotece zdjęć, jeśli tam je zapisano."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De ligger kvar i ditt fotobibliotek om de sparades där."
+          }
         }
       }
     },
@@ -28211,6 +29507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "To urządzenie nie obsługuje Bluetooth LE."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den här enheten stöder inte Bluetooth LE."
           }
         }
       }
@@ -28342,6 +29644,12 @@
             "state" : "translated",
             "value" : "To urządzenie nie jest aparatem ShutterLink."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den här enheten är inte en ShutterLink-kamera."
+          }
         }
       }
     },
@@ -28471,6 +29779,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ten iPhone nie obsługuje AR."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den här iPhonen stöder inte AR."
           }
         }
       }
@@ -28602,6 +29916,12 @@
             "state" : "translated",
             "value" : "Przechył: %lld stopni"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lutar %lld grader"
+          }
         }
       }
     },
@@ -28731,6 +30051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Minutnik"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timer"
           }
         }
       }
@@ -28862,6 +30188,12 @@
             "state" : "translated",
             "value" : "Pasy u góry i u dołu"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Band upptill och nedtill"
+          }
         }
       }
     },
@@ -28991,6 +30323,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Górny pasek"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rand upptill"
           }
         }
       }
@@ -29122,6 +30460,12 @@
             "state" : "translated",
             "value" : "Tekst u góry"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Text upptill"
+          }
         }
       }
     },
@@ -29251,6 +30595,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spróbuj ponownie"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Försök igen"
           }
         }
       }
@@ -29382,6 +30732,12 @@
             "state" : "translated",
             "value" : "Włącz Bluetooth, aby połączyć się z aparatem."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slå på Bluetooth för att ansluta till kameran."
+          }
         }
       }
     },
@@ -29511,6 +30867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Niedostępne"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inte tillgänglig"
           }
         }
       }
@@ -29642,6 +31004,12 @@
             "state" : "translated",
             "value" : "Wersja"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version"
+          }
         }
       }
     },
@@ -29771,6 +31139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Film"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Video"
           }
         }
       }
@@ -29902,6 +31276,12 @@
             "state" : "translated",
             "value" : "Filmy"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Videor"
+          }
         }
       }
     },
@@ -30031,6 +31411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wizjer"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sökare"
           }
         }
       }
@@ -30162,6 +31548,12 @@
             "state" : "translated",
             "value" : "Winyl (błyszczący)"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vinyl (blank)"
+          }
         }
       }
     },
@@ -30291,6 +31683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Odliczanie głosem"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nedräkning med röst"
           }
         }
       }
@@ -30422,6 +31820,12 @@
             "state" : "translated",
             "value" : "Oczekiwanie na pilota"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Väntar på en fjärrkontroll"
+          }
         }
       }
     },
@@ -30551,6 +31955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Oczekiwanie na Bluetooth…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Väntar på Bluetooth …"
           }
         }
       }
@@ -30682,6 +32092,12 @@
             "state" : "translated",
             "value" : "Oczekiwanie na podgląd…"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Väntar på förhandsvisning …"
+          }
         }
       }
     },
@@ -30811,6 +32227,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ślub"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bröllop"
           }
         }
       }
@@ -30942,6 +32364,12 @@
             "state" : "translated",
             "value" : "Szerokość"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bredd"
+          }
         }
       }
     },
@@ -31071,6 +32499,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zima"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vinter"
           }
         }
       }
@@ -31202,6 +32636,12 @@
             "state" : "translated",
             "value" : "Impreza na koniec roku"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Julfest"
+          }
         }
       }
     },
@@ -31328,6 +32768,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoom"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zoom"

@@ -135,6 +135,12 @@
             "state" : "translated",
             "value" : "Pilot ShutterLink"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink-fjärrkontroll"
+          }
         }
       }
     },
@@ -284,6 +290,12 @@
             "state" : "translated",
             "value" : "Pilot ShutterLink używa Bluetooth do sterowania pobliskim iPhone’em z aparatem."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink-fjärrkontrollen använder Bluetooth för att styra kamera-iPhonen i närheten."
+          }
         }
       }
     },
@@ -420,6 +432,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pilot ShutterLink zapisuje zrobione przez Ciebie zdjęcia w bibliotece zdjęć."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink-fjärrkontrollen sparar de foton du tar i ditt fotobibliotek."
           }
         }
       }
