@@ -198,7 +198,7 @@ Hands-free remote, no install
 
 ### 키워드
 
-reunion,party,team,event,family,selfie,tripod,timer,ar,photo booth,smile,clap,palm,bluetooth,burst,banner
+reunion,party,team,event,family,selfie,tripod,timer,ar,photo booth,smile,clap,palm,bluetooth,burst
 
 ### 프로모션 텍스트
 
