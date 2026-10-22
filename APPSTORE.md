@@ -712,6 +712,88 @@ https://m1zz.github.io/ShutterLink/es/privacy/
 
 https://m1zz.github.io/ShutterLink/es/
 
+## de-DE
+
+<!-- Deutsch -->
+
+### 이름
+
+ShutterLink: Bannerfoto
+
+### 부제
+
+Fernbedienung ohne Download
+
+### 키워드
+
+klassentreffen,party,team,event,familie,selfie,stativ,timer,ar,fotobox,lächeln,klatschen,bluetooth
+
+### 프로모션 텍스트
+
+Setz ein eigenes Banner ins Gruppenfoto, ohne zu drucken. Schreib deinen Text, wähl ein Motiv, und alle halten es. Ein iPhone wird per QR-Scan zur Fernbedienung.
+
+### 설명
+
+Mach das klassische Gruppenfoto, auf dem alle ein Banner halten, ohne ein Banner zu drucken.
+Schreib deinen Text, wähl ein Motiv, und ein Banner erscheint vor deiner Gruppe. Das iPhone eines Freundes wird zur Fernbedienung, ganz ohne Installation.
+
+Banner-Modus
+Wechsle zu „Banner“, tippe auf den Boden, und das Banner erscheint in der Höhe, in der man es halten würde. Tippe auf eine Wand, um es stattdessen dort aufzuhängen. Zieh es nach oben, unten oder zur Seite, und es folgt deinem Finger. Mit zwei Fingern drehst oder skalierst du es, oder du justierst es mit der Verschieben-Taste nach vorn, hinten, seitlich, oben und unten fein.
+Das Banner bleibt immer vor deiner Gruppe, sodass es aussieht, als würden es alle gemeinsam hochhalten.
+
+Mach es zu deinem
+Starte mit einem von 13 Motiven, darunter Herbstausflug, Frühlingspicknick, Strandtag, Jahresabschlussfeier, Geburtstag, Sporttag, Anfeuern, Abschluss, Hochzeit und Teamausflug.
+Schreib bis zu drei Textzeilen. Ändere Hintergrund, Schrift, Dekoration, Farben und Form und füge dein eigenes Logo hinzu.
+Wähle Stoff, Vinyl oder Papier. Ein Stoffbanner hängt durch, wirft Falten und bewegt sich im Wind wie ein echtes.
+
+Alle sind im Bild
+Timer, Freihand-Auslöser und Fernbedienung funktionieren im Banner-Modus. Stell das Handy auf ein Stativ und stell dich zur Gruppe. Die Fotos werden in Fotos und in der App-Galerie gesichert.
+
+Eine Fernbedienung ohne Installation
+Zeig den QR-Code auf dem Kamera-iPhone und scanne ihn mit der Kamera eines anderen iPhone. Die ShutterLink Fernbedienung öffnet sich sofort als App Clip und verbindet sich. Wähle den Ausschnitt in der Live-Ansicht und drück den Auslöser. Im Banner-Modus ist das Banner auch in der Live-Ansicht zu sehen. Lässt sich der QR-Code nicht scannen, gib stattdessen den 4-stelligen Code ein.
+
+Freihand-Auslöser
+Heb die Handfläche, lächelt gemeinsam oder klatscht, und der Auslöser feuert.
+Stell einen Timer von 3 bis 30 Sekunden ein. Eine Stimme zählt herunter, der Blitz blinkt mit, und die Fernbedienung vibriert in deiner Hand.
+Eine Sprachansage „Schaut in die Kamera“ holt die Aufmerksamkeit aller.
+
+Niemand blinzelt
+Mach eine Serie aus 3 oder 5 Fotos, und ShutterLink wählt das, auf dem alle die Augen offen haben und lächeln. Filtere die Galerie auf die besten Fotos oder wähle selbst ein anderes.
+
+Niemand wird abgeschnitten
+Sieh, wie viele Personen im Bild sind, und erhalte eine Warnung, wenn jemand am Rand steht. Eine Wasserwaage erscheint, wenn das iPhone kippt.
+
+Fotos landen auf der Fernbedienung
+Jedes Foto, das du aufnimmst, erscheint sofort auf dem Fernbedienungs-iPhone. Ein Freund ohne die App kann es gleich sichern und teilen.
+
+Volle Kamerasteuerung von der Fernbedienung
+Zum Fokussieren und Belichten tippen, Belichtungskorrektur, Blitz und Licht, Raster, Zoom von 0,5× bis 10× je nach iPhone, Front- und Rückkamera sowie Video.
+Intervallaufnahmen alle 3 Sekunden bis 1 Minute für Sonnenuntergänge oder laufende Projekte.
+Ein einfacher Modus auf der Fernbedienung zeigt eine große Auslöser-Taste, die jeder drücken kann.
+
+Direkt per Bluetooth, ohne Internet
+Die beiden iPhones verbinden sich direkt per Bluetooth. Einmal verbunden, funktioniert es auf dem Berg, am Strand oder im Ausland ohne WLAN oder Mobilfunk. Ein Konto brauchst du nicht.
+
+Deine Fotos bleiben bei dir
+Fotos und Videos bleiben auf dem Kamera-iPhone und der verbundenen Fernbedienung und werden nie hochgeladen. Der Kopplungscode ändert sich bei jedem Öffnen der App, sodass nur eine Fernbedienung, die ihn kennt, den Auslöser betätigen kann.
+
+Gut zu wissen
+Erfordert iOS 17 oder neuer. Für die Fernbedienung brauchst du ein zweites iPhone.
+Das Fernbedienungs-iPhone braucht einmal Internet, wenn es den App Clip zum ersten Mal lädt.
+Blitz, Serien, Zoom und die Frontkamera sind im Banner-Modus nicht verfügbar.
+
+### 지원 URL
+
+https://m1zz.github.io/ShutterLink/de/support/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/ShutterLink/de/privacy/
+
+### 마케팅 URL
+
+https://m1zz.github.io/ShutterLink/de/
+
 ## 연령 등급
 
 <!-- 내용 문항이 전부 '해당 없음' 인 앱이면 아래 줄의 주석을 풀어라.

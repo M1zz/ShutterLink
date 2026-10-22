@@ -51,6 +51,12 @@
             "state" : "translated",
             "value" : "Control ShutterLink"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink Fernbedienung"
+          }
         }
       }
     },
@@ -116,6 +122,12 @@
             "state" : "translated",
             "value" : "El control de ShutterLink usa Bluetooth para manejar el iPhone de la cámara que está cerca."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die ShutterLink Fernbedienung nutzt Bluetooth, um das Kamera-iPhone in der Nähe zu steuern."
+          }
         }
       }
     },
@@ -168,6 +180,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "El control de ShutterLink guarda en tu fototeca las fotos que haces."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die ShutterLink Fernbedienung speichert die von dir aufgenommenen Fotos in deiner Fotomediathek."
           }
         }
       }

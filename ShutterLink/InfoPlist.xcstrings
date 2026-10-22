@@ -51,6 +51,12 @@
             "state" : "translated",
             "value" : "ShutterLink"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
         }
       }
     },
@@ -116,6 +122,12 @@
             "state" : "translated",
             "value" : "ShutterLink usa Bluetooth para que un iPhone cercano funcione como disparador remoto."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink nutzt Bluetooth, damit ein iPhone in der Nähe als Fernauslöser dienen kann."
+          }
         }
       }
     },
@@ -168,6 +180,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink usa la cámara para hacer fotos y vídeos y para colocar una pancarta AR en la escena."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink nutzt die Kamera, um Fotos und Videos aufzunehmen und ein AR-Banner in die Szene zu setzen."
           }
         }
       }
@@ -222,6 +240,12 @@
             "state" : "translated",
             "value" : "ShutterLink graba audio con tus vídeos y escucha una palmada cuando el disparador por palmada está activado."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink nimmt den Ton deiner Videos auf und lauscht auf ein Klatschen, wenn der Klatsch-Auslöser aktiv ist."
+          }
         }
       }
     },
@@ -274,6 +298,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink guarda tus fotos y vídeos en tu fototeca."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink speichert deine Fotos und Videos in deiner Fotomediathek."
           }
         }
       }

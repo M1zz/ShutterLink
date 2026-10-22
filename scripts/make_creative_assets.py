@@ -22,8 +22,8 @@ RAW = ROOT / "docs" / "screenshots" / "raw"
 OUT = ROOT / "docs" / "screenshots" / "creative"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
-# 앱 언어 코드 → App Store Connect 로케일 (deploy.env LOCALES=ko,en-US,ja,en-GB,zh-Hans,zh-Hant,ru,es-ES)
-STORE = {"en": "en-US", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES"}
+# 앱 언어 코드 → App Store Connect 로케일 (deploy.env LOCALES=ko,en-US,ja,en-GB,zh-Hans,zh-Hant,ru,es-ES,de-DE)
+STORE = {"en": "en-US", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE"}
 
 # (가로, 세로, 안전 영역 left, top, right, bottom)
 SPEC = {
@@ -41,6 +41,7 @@ SEARCH = {
     "zh-Hant": ("團體照 布條", "不用印布條，<br>也能拍布條團體照", "點一下地面，布條就出現在大家面前"),
     "ru": ("Групповое фото с баннером", "Групповое фото<br>с баннером без печати", "Коснитесь пола — и баннер у всех в руках"),
     "es": ("Pancarta foto de grupo", "La foto de grupo con<br>pancarta, sin imprimir", "Toca el suelo y todos la sujetan"),
+    "de": ("Gruppenfoto Banner", "Das Gruppenfoto mit Banner,<br>ohne Druck", "Tippe auf den Boden — alle halten es"),
 }
 
 # 헤더는 한 가지 약속: 우리 모임 현수막을 들고 찍는 단체사진.
@@ -53,6 +54,7 @@ HEADER = {
     "zh-Hant": ("布條團體照", "把你們的布條，<br>帶進每張團體照"),
     "ru": ("Фото с баннером", "Ваш баннер —<br>в каждом кадре"),
     "es": ("Foto de grupo con pancarta", "Tu pancarta,<br>en cada foto de grupo"),
+    "de": ("Gruppenfoto mit Banner", "Euer Banner<br>auf jedem Gruppenfoto"),
 }
 
 # ⚠️ 바탕 · 글자색은 마케팅 스크린샷(scripts/screens/make_marketing_screenshots.py)과 같다.

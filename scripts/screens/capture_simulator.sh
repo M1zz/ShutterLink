@@ -25,7 +25,7 @@ shot() { # lang bundle screen name [launch args...]
 }
 
 xcrun simctl install $D $P/ShutterLink.app
-for L in ko en ja zh-Hans zh-Hant ru es; do
+for L in ko en ja zh-Hans zh-Hant ru es de; do
   shot $L com.devkoan.shutterlink main 01-main -hasSeenOnboarding YES
   shot $L com.devkoan.shutterlink banner banner -hasSeenOnboarding YES
   shot $L com.devkoan.shutterlink cloth cloth -hasSeenOnboarding YES
@@ -40,7 +40,7 @@ done
 # 부모 앱이 깔려 있으면 시뮬레이터가 App Clip 을 지운다 — 부모 앱을 내리고 App Clip 만 설치.
 xcrun simctl uninstall $D com.devkoan.shutterlink
 xcrun simctl install $D $P/ShutterLinkClip.app
-for L in ko en ja zh-Hans zh-Hant ru es; do
+for L in ko en ja zh-Hans zh-Hant ru es de; do
   shot $L com.devkoan.shutterlink.Clip remote 02-remote -simpleMode NO
   shot $L com.devkoan.shutterlink.Clip reviews 03-reviews -simpleMode NO
   shot $L com.devkoan.shutterlink.Clip simple 06-simple -simpleMode YES
