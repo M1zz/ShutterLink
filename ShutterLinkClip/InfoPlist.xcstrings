@@ -117,6 +117,12 @@
             "state" : "translated",
             "value" : "Remote ShutterLink"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink-fjernkontroll"
+          }
         }
       }
     },
@@ -248,6 +254,12 @@
             "state" : "translated",
             "value" : "Remote ShutterLink memakai Bluetooth untuk mengendalikan iPhone kamera di dekatnya."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink-fjernkontrollen bruker Bluetooth til å styre kamera-iPhonen i nærheten."
+          }
         }
       }
     },
@@ -366,6 +378,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Remote ShutterLink menyimpan foto yang Anda ambil ke pustaka foto."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink-fjernkontrollen lagrer bildene du tar, i bildebiblioteket ditt."
           }
         }
       }

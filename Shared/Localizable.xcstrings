@@ -110,6 +110,12 @@
             "state" : "translated",
             "value" : "%lld"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
         }
       }
     },
@@ -221,6 +227,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld orang di bingkai"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld i bildet"
           }
         }
       }
@@ -334,6 +346,12 @@
             "state" : "translated",
             "value" : "%lld foto"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld bilder"
+          }
         }
       }
     },
@@ -445,6 +463,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld foto, yang terbaik dipilih"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld bilder, beste valgt"
           }
         }
       }
@@ -558,6 +582,12 @@
             "state" : "translated",
             "value" : "%lld remote terhubung"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld fjernkontroll tilkoblet"
+          }
         }
       }
     },
@@ -670,6 +700,12 @@
             "state" : "translated",
             "value" : "%lld dipilih"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld valgt"
+          }
         }
       }
     },
@@ -780,6 +816,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld°"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld°"
@@ -896,6 +938,12 @@
             "state" : "translated",
             "value" : "%lld mnt"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
         }
       }
     },
@@ -1008,6 +1056,12 @@
             "state" : "translated",
             "value" : "%lld dtk"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld sek"
+          }
         }
       }
     },
@@ -1116,6 +1170,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0000"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "0000"
@@ -1232,6 +1292,12 @@
             "state" : "translated",
             "value" : "Aksen (tepi · garis)"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aksent (kant · stripe)"
+          }
         }
       }
     },
@@ -1343,6 +1409,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tambah gambar logo"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Legg til logobilde"
           }
         }
       }
@@ -1456,6 +1528,12 @@
             "state" : "translated",
             "value" : "Atur posisi"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Juster plassering"
+          }
         }
       }
     },
@@ -1567,6 +1645,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gagal menyiarkan: %@"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annonsering mislyktes: %@"
           }
         }
       }
@@ -1680,6 +1764,12 @@
             "state" : "translated",
             "value" : "Semua"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle"
+          }
         }
       }
     },
@@ -1792,6 +1882,12 @@
             "state" : "translated",
             "value" : "Izinkan akses Bluetooth di Pengaturan untuk mengendalikan kamera."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tillat Bluetooth-tilgang i Innstillinger for å styre kameraet."
+          }
         }
       }
     },
@@ -1903,6 +1999,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siapa pun bisa jadi remote"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvem som helst kan være fjernkontrollen"
           }
         }
       }
@@ -2017,6 +2119,12 @@
             "state" : "translated",
             "value" : "Terapkan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bruk"
+          }
         }
       }
     },
@@ -2128,6 +2236,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Minta semua orang melihat ke kamera"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Be alle se på kameraet"
           }
         }
       }
@@ -2241,6 +2355,12 @@
             "state" : "translated",
             "value" : "Rasio aspek"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sideforhold"
+          }
         }
       }
     },
@@ -2352,6 +2472,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Otomatis"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto"
           }
         }
       }
@@ -2465,6 +2591,12 @@
             "state" : "translated",
             "value" : "Pemotretan otomatis nonaktif"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatisk opptak er av"
+          }
         }
       }
     },
@@ -2576,6 +2708,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Daun musim gugur"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Høstløv"
           }
         }
       }
@@ -2689,6 +2827,12 @@
             "state" : "translated",
             "value" : "Piknik musim gugur"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Høsttur"
+          }
         }
       }
     },
@@ -2800,6 +2944,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Latar"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bakgrunn"
           }
         }
       }
@@ -2913,6 +3063,12 @@
             "state" : "translated",
             "value" : "Warna latar"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bakgrunnsfarge"
+          }
         }
       }
     },
@@ -3024,6 +3180,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Balon"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ballonger"
           }
         }
       }
@@ -3137,6 +3299,12 @@
             "state" : "translated",
             "value" : "Spanduk"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banner"
+          }
         }
       }
     },
@@ -3248,6 +3416,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Desain spanduk"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bannerdesign"
           }
         }
       }
@@ -3361,6 +3535,12 @@
             "state" : "translated",
             "value" : "Foto terbaik"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beste bilde"
+          }
         }
       }
     },
@@ -3472,6 +3652,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Foto terbaik dari %lld foto"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beste bilde blant %lld"
           }
         }
       }
@@ -3585,6 +3771,12 @@
             "state" : "translated",
             "value" : "Foto terbaik"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beste bilder"
+          }
         }
       }
     },
@@ -3696,6 +3888,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ulang tahun"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bursdag"
           }
         }
       }
@@ -3809,6 +4007,12 @@
             "state" : "translated",
             "value" : "Bluetooth mati"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth er av"
+          }
         }
       }
     },
@@ -3920,6 +4124,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bluetooth LE tidak didukung"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth LE støttes ikke"
           }
         }
       }
@@ -4033,6 +4243,12 @@
             "state" : "translated",
             "value" : "Izin Bluetooth ditolak"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth-tillatelse avslått"
+          }
         }
       }
     },
@@ -4144,6 +4360,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bluetooth siap"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth er klar"
           }
         }
       }
@@ -4257,6 +4479,12 @@
             "state" : "translated",
             "value" : "Bluetooth tidak tersedia"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth er utilgjengelig"
+          }
         }
       }
     },
@@ -4368,6 +4596,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sans tebal"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fet sans"
           }
         }
       }
@@ -4481,6 +4715,12 @@
             "state" : "translated",
             "value" : "Baris bawah: tanggal · tempat"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nederste linje: dato · sted"
+          }
         }
       }
     },
@@ -4592,6 +4832,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Teks bawah"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nederste tekst"
           }
         }
       }
@@ -4705,6 +4951,12 @@
             "state" : "translated",
             "value" : "Lebih terang"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lysere"
+          }
         }
       }
     },
@@ -4816,6 +5068,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Beruntun"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serie"
           }
         }
       }
@@ -4929,6 +5187,12 @@
             "state" : "translated",
             "value" : "Akses kamera diperlukan. Aktifkan di Pengaturan > ShutterLink."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilgang til kameraet kreves. Slå det på i Innstillinger > ShutterLink."
+          }
         }
       }
     },
@@ -5040,6 +5304,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Batal"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryt"
           }
         }
       }
@@ -5153,6 +5423,12 @@
             "state" : "translated",
             "value" : "Batalkan timer"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryt timer"
+          }
         }
       }
     },
@@ -5264,6 +5540,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pengambilan gagal: %@"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opptak mislyktes: %@"
           }
         }
       }
@@ -5377,6 +5659,12 @@
             "state" : "translated",
             "value" : "Perayaan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Feiring"
+          }
         }
       }
     },
@@ -5488,6 +5776,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ganti logo"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bytt logo"
           }
         }
       }
@@ -5601,6 +5895,12 @@
             "state" : "translated",
             "value" : "Periksa akses Foto di Pengaturan."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sjekk tilgangen til Bilder i Innstillinger."
+          }
         }
       }
     },
@@ -5712,6 +6012,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sorak"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heiarop"
           }
         }
       }
@@ -5825,6 +6131,12 @@
             "state" : "translated",
             "value" : "Pilih Spanduk, tulis teks dan pilih warna, lalu ketuk lantai. Spanduk tetap di tempatnya, dan orang yang berdiri di depannya tampak seperti sedang memegangnya."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velg Banner, skriv teksten din og velg farger, og trykk deretter på gulvet. Banneret blir værende, og de som står foran, ser ut som de holder det."
+          }
         }
       }
     },
@@ -5936,6 +6248,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Natal"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jul"
           }
         }
       }
@@ -6049,6 +6367,12 @@
             "state" : "translated",
             "value" : "Tepuk tangan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klapp"
+          }
         }
       }
     },
@@ -6160,6 +6484,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tepuk tangan keras sekali untuk memulai timer."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klapp høyt én gang for å starte timeren."
           }
         }
       }
@@ -6273,6 +6603,12 @@
             "state" : "translated",
             "value" : "Rana tepuk tangan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klappeutløser"
+          }
         }
       }
     },
@@ -6384,6 +6720,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rana tepuk tangan memerlukan akses mikrofon. Aktifkan di Pengaturan > ShutterLink."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klappeutløseren trenger tilgang til mikrofonen. Slå den på i Innstillinger > ShutterLink."
           }
         }
       }
@@ -6497,6 +6839,12 @@
             "state" : "translated",
             "value" : "Klasik"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klassisk"
+          }
         }
       }
     },
@@ -6608,6 +6956,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tutup"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lukk"
           }
         }
       }
@@ -6721,6 +7075,12 @@
             "state" : "translated",
             "value" : "Warna"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farger"
+          }
         }
       }
     },
@@ -6832,6 +7192,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lokakarya perusahaan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bedriftsverksted"
           }
         }
       }
@@ -6945,6 +7311,12 @@
             "state" : "translated",
             "value" : "Sans sempit"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smal sans"
+          }
         }
       }
     },
@@ -7056,6 +7428,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hubungkan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koble til"
           }
         }
       }
@@ -7169,6 +7547,12 @@
             "state" : "translated",
             "value" : "Terhubung"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilkoblet"
+          }
         }
       }
     },
@@ -7280,6 +7664,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Menghubungkan…"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kobler til …"
           }
         }
       }
@@ -7393,6 +7783,12 @@
             "state" : "translated",
             "value" : "Tidak dapat membuat spanduk: %@"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunne ikke lage banneret: %@"
+          }
         }
       }
     },
@@ -7504,6 +7900,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kamera tidak ditemukan. Pastikan ShutterLink terbuka di iPhone kamera dan Bluetooth menyala."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fant ikke kameraet. Kontroller at ShutterLink er åpen på kamera-iPhonen og at Bluetooth er på."
           }
         }
       }
@@ -7617,6 +8019,12 @@
             "state" : "translated",
             "value" : "Tidak dapat memasangkan dengan kamera."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunne ikke pare med kameraet."
+          }
         }
       }
     },
@@ -7728,6 +8136,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tidak dapat menyimpan ke Foto. %@"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunne ikke lagre i Bilder. %@"
           }
         }
       }
@@ -7841,6 +8255,12 @@
             "state" : "translated",
             "value" : "Tidak dapat menampilkan spanduk: %@"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunne ikke vise banneret: %@"
+          }
         }
       }
     },
@@ -7952,6 +8372,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tidak dapat memulai perekaman: %@"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunne ikke starte opptaket: %@"
           }
         }
       }
@@ -8065,6 +8491,12 @@
             "state" : "translated",
             "value" : "Tidak dapat memperbarui desain."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunne ikke oppdatere designet."
+          }
         }
       }
     },
@@ -8176,6 +8608,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hitung mundur"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nedtelling"
           }
         }
       }
@@ -8289,6 +8727,12 @@
             "state" : "translated",
             "value" : "Lebih gelap"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mørkere"
+          }
         }
       }
     },
@@ -8400,6 +8844,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dekorasi"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dekor"
           }
         }
       }
@@ -8513,6 +8963,12 @@
             "state" : "translated",
             "value" : "Hapus"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slett"
+          }
         }
       }
     },
@@ -8624,6 +9080,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hapus foto yang dipilih?"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vil du slette de valgte bildene?"
           }
         }
       }
@@ -8737,6 +9199,12 @@
             "state" : "translated",
             "value" : "Garis diagonal"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diagonale striper"
+          }
         }
       }
     },
@@ -8848,6 +9316,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Arah"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retning"
           }
         }
       }
@@ -8961,6 +9435,12 @@
             "state" : "translated",
             "value" : "Putuskan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koble fra"
+          }
         }
       }
     },
@@ -9072,6 +9552,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Selesai"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ferdig"
           }
         }
       }
@@ -9185,6 +9671,12 @@
             "state" : "translated",
             "value" : "Seret untuk menggeser spanduk di lantai."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dra for å skyve banneret over gulvet."
+          }
         }
       }
     },
@@ -9296,6 +9788,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mode berkendara"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kjøremodus"
           }
         }
       }
@@ -9409,6 +9907,12 @@
             "state" : "translated",
             "value" : "Masukkan kode 4 digit yang tampil di iPhone kamera."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv inn den firesifrede koden som vises på kamera-iPhonen."
+          }
         }
       }
     },
@@ -9520,6 +10024,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Setiap %@"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hver %@"
           }
         }
       }
@@ -9633,6 +10143,12 @@
             "state" : "translated",
             "value" : "Setiap foto juga tersimpan di galeri ShutterLink. Saat pengiriman aktif, pemegang remote menerima salinan setiap foto yang diambilnya."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvert bilde lagres også i ShutterLink-galleriet. Når sending er på, får den som holder fjernkontrollen, en kopi av hvert bilde vedkommende tar."
+          }
         }
       }
     },
@@ -9744,6 +10260,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Semuanya, lihat ke kamera ya!"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle sammen, se på kameraet!"
           }
         }
       }
@@ -9857,6 +10379,12 @@
             "state" : "translated",
             "value" : "Eksposur"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eksponering"
+          }
         }
       }
     },
@@ -9968,6 +10496,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kain (doff)"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stoff (matt)"
           }
         }
       }
@@ -10081,6 +10615,12 @@
             "state" : "translated",
             "value" : "Menghadap saya"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vend mot meg"
+          }
         }
       }
     },
@@ -10193,6 +10733,12 @@
             "state" : "translated",
             "value" : "Piknik musim gugur bersama"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Høsttur sammen"
+          }
         }
       }
     },
@@ -10301,6 +10847,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filter"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Filter"
@@ -10417,6 +10969,12 @@
             "state" : "translated",
             "value" : "Lampu kilat"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blits"
+          }
         }
       }
     },
@@ -10528,6 +11086,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hitung mundur dengan lampu kilat"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nedtelling med blits"
           }
         }
       }
@@ -10641,6 +11205,12 @@
             "state" : "translated",
             "value" : "Bunga"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blomster"
+          }
         }
       }
     },
@@ -10752,6 +11322,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Font"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrift"
           }
         }
       }
@@ -10865,6 +11441,12 @@
             "state" : "translated",
             "value" : "Galeri"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Galleri"
+          }
         }
       }
     },
@@ -10976,6 +11558,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gradasi"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fargeovergang"
           }
         }
       }
@@ -11089,6 +11677,12 @@
             "state" : "translated",
             "value" : "Wisuda"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eksamensfeiring"
+          }
         }
       }
     },
@@ -11200,6 +11794,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kisi"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rutenett"
           }
         }
       }
@@ -11313,6 +11913,12 @@
             "state" : "translated",
             "value" : "Foto grup · ketuk satu foto untuk menandainya sebagai terbaik"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gruppebilde · trykk på et bilde for å merke det som best"
+          }
         }
       }
     },
@@ -11424,6 +12030,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Foto grup mengambil beberapa foto dan memilih yang matanya terbuka semua. Remote mendapat salinan untuk disimpan."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gruppebildet tar flere bilder og velger det der alle har øynene åpne. Fjernkontrollen får en kopi å beholde."
           }
         }
       }
@@ -11537,6 +12149,12 @@
             "state" : "translated",
             "value" : "Gestur tangan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Håndbevegelser"
+          }
         }
       }
     },
@@ -11648,6 +12266,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rana tanpa sentuh"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Håndfri utløser"
           }
         }
       }
@@ -11761,6 +12385,12 @@
             "state" : "translated",
             "value" : "Hati"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hjerter"
+          }
         }
       }
     },
@@ -11872,6 +12502,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tinggi"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Høyde"
           }
         }
       }
@@ -11985,6 +12621,12 @@
             "state" : "translated",
             "value" : "Tinggi dari lantai"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Høyde over gulvet"
+          }
         }
       }
     },
@@ -12096,6 +12738,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bantuan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hjelp"
           }
         }
       }
@@ -12209,6 +12857,12 @@
             "state" : "translated",
             "value" : "Pegang spanduk tanpa membawanya"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hold et banner uten å ha med et"
+          }
         }
       }
     },
@@ -12320,6 +12974,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cara memakai ShutterLink"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slik bruker du ShutterLink"
           }
         }
       }
@@ -12433,6 +13093,12 @@
             "state" : "translated",
             "value" : "Interval"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Intervall"
+          }
         }
       }
     },
@@ -12545,6 +13211,12 @@
             "state" : "translated",
             "value" : "Waterpas"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vater"
+          }
         }
       }
     },
@@ -12653,6 +13325,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logo"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Logo"
@@ -12769,6 +13447,12 @@
             "state" : "translated",
             "value" : "Tampilan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utseende"
+          }
         }
       }
     },
@@ -12880,6 +13564,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mencari kamera %@…"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leter etter kamera %@ …"
           }
         }
       }
@@ -12993,6 +13683,12 @@
             "state" : "translated",
             "value" : "Pesan utama"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hovedbudskap"
+          }
         }
       }
     },
@@ -13104,6 +13800,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Teks utama"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hovedtekst"
           }
         }
       }
@@ -13217,6 +13919,12 @@
             "state" : "translated",
             "value" : "Bahan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Materiale"
+          }
         }
       }
     },
@@ -13328,6 +14036,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bahan · Ukuran"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Materiale · Størrelse"
           }
         }
       }
@@ -13441,6 +14155,12 @@
             "state" : "translated",
             "value" : "Mode"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modus"
+          }
         }
       }
     },
@@ -13552,6 +14272,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lainnya"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mer"
           }
         }
       }
@@ -13665,6 +14391,12 @@
             "state" : "translated",
             "value" : "Pindahkan spanduk"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flytt banner"
+          }
         }
       }
     },
@@ -13776,6 +14508,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lanjut"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neste"
           }
         }
       }
@@ -13889,6 +14627,12 @@
             "state" : "translated",
             "value" : "Foto berikutnya dalam %lld dtk"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neste bilde om %lld sek"
+          }
         }
       }
     },
@@ -14000,6 +14744,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tidak ada kamera yang tersedia di perangkat ini."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen kamera er tilgjengelig på denne enheten."
           }
         }
       }
@@ -14113,6 +14863,12 @@
             "state" : "translated",
             "value" : "Belum ada foto"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen bilder ennå"
+          }
         }
       }
     },
@@ -14225,6 +14981,12 @@
             "state" : "translated",
             "value" : "Tak ada yang berkedip"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen blunker"
+          }
         }
       }
     },
@@ -14336,6 +15098,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tidak ada"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen"
           }
         }
       }
@@ -14450,6 +15218,12 @@
             "state" : "translated",
             "value" : "Sekarang"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nå"
+          }
         }
       }
     },
@@ -14561,6 +15335,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "24–25 Okt 2026  Danau Tahoe, CA"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "24.–25. okt. 2026  Lake Tahoe, California"
           }
         }
       }
@@ -14674,6 +15454,12 @@
             "state" : "translated",
             "value" : "Mati"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Av"
+          }
         }
       }
     },
@@ -14782,6 +15568,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -14898,6 +15690,12 @@
             "state" : "translated",
             "value" : "Nyala"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "På"
+          }
         }
       }
     },
@@ -15009,6 +15807,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Buka galeri"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åpne galleri"
           }
         }
       }
@@ -15122,6 +15926,12 @@
             "state" : "translated",
             "value" : "Opsi"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valg"
+          }
         }
       }
     },
@@ -15233,6 +16043,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Atau ambil foto tanpa sentuh"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eller ta bilder uten hender"
           }
         }
       }
@@ -15346,6 +16162,12 @@
             "state" : "translated",
             "value" : "Tim Kami 2026"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vårt lag 2026"
+          }
         }
       }
     },
@@ -15457,6 +16279,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kode pemasangan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paringskode"
           }
         }
       }
@@ -15570,6 +16398,12 @@
             "state" : "translated",
             "value" : "Memasangkan…"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parer …"
+          }
         }
       }
     },
@@ -15681,6 +16515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Telapak tangan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Håndflate"
           }
         }
       }
@@ -15794,6 +16634,12 @@
             "state" : "translated",
             "value" : "Gestur telapak tangan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Håndflatebevegelse"
+          }
         }
       }
     },
@@ -15905,6 +16751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kertas"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papir"
           }
         }
       }
@@ -16018,6 +16870,12 @@
             "state" : "translated",
             "value" : "Malam pesta"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Festkveld"
+          }
         }
       }
     },
@@ -16129,6 +16987,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Penghitung orang"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Personteller"
           }
         }
       }
@@ -16242,6 +17106,12 @@
             "state" : "translated",
             "value" : "Kini orang yang berdiri di depan spanduk tampil di atasnya."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Folk som står foran banneret, vises nå oppå det."
+          }
         }
       }
     },
@@ -16353,6 +17223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Foto"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bilde"
           }
         }
       }
@@ -16466,6 +17342,12 @@
             "state" : "translated",
             "value" : "Foto"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bilder"
+          }
         }
       }
     },
@@ -16577,6 +17459,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Foto dan video yang Anda ambil dengan ShutterLink muncul di sini."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bilder og videoer du tar med ShutterLink, vises her."
           }
         }
       }
@@ -16690,6 +17578,12 @@
             "state" : "translated",
             "value" : "Foto dari sesi ini"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bilder fra denne økten"
+          }
         }
       }
     },
@@ -16801,6 +17695,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Letakkan iPhone ini di tripod atau sandarkan di tempat yang kokoh. Pakai waterpas dan penghitung orang agar semua orang masuk bingkai."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sett denne iPhonen på et stativ, eller len den mot noe stødig. Bruk vateret og persontelleren for å få alle med i bildet."
           }
         }
       }
@@ -16914,6 +17814,12 @@
             "state" : "translated",
             "value" : "Arahkan Kamera iPhone lain ke kode QR. App Clip Remote ShutterLink terbuka tanpa perlu memasang apa pun. Biarkan app ini terbuka saat memotret."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rett kameraet på den andre iPhonen mot QR-koden. App Clip-en ShutterLink-fjernkontroll åpnes uten installasjon. Hold denne appen åpen mens du tar bilder."
+          }
         }
       }
     },
@@ -17025,6 +17931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Angkat telapak tangan terbuka ke arah kamera untuk memulai timer."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hold en åpen håndflate mot kameraet for å starte timeren."
           }
         }
       }
@@ -17138,6 +18050,12 @@
             "state" : "translated",
             "value" : "Angkat telapak tangan, bertepuk tangan, atau biarkan ShutterLink memotret saat semua tersenyum. Hitung mundur suara dan cahaya memberi tahu grup kapan harus bergaya."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løft håndflaten, klapp, eller la ShutterLink ta bildet når alle smiler. En nedtelling med stemme og lys forteller gruppen når de skal stille opp."
+          }
         }
       }
     },
@@ -17249,6 +18167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Perekaman gagal."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opptaket mislyktes."
           }
         }
       }
@@ -17362,6 +18286,12 @@
             "state" : "translated",
             "value" : "Hapus logo"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjern logo"
+          }
         }
       }
     },
@@ -17473,6 +18403,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Setel ulang"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilbakestill"
           }
         }
       }
@@ -17586,6 +18522,12 @@
             "state" : "translated",
             "value" : "Setel ulang eksposur"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilbakestill eksponering"
+          }
         }
       }
     },
@@ -17697,6 +18639,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sans bulat"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avrundet sans"
           }
         }
       }
@@ -17810,6 +18758,12 @@
             "state" : "translated",
             "value" : "Simpan atau bagikan foto ini"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lagre eller del dette bildet"
+          }
         }
       }
     },
@@ -17921,6 +18875,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Simpan atau bagikan salinan Anda sebelum menutup remote."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lagre eller del kopien din før du lukker fjernkontrollen."
           }
         }
       }
@@ -18034,6 +18994,12 @@
             "state" : "translated",
             "value" : "Simpan ke Foto"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lagre i Bilder"
+          }
         }
       }
     },
@@ -18145,6 +19111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pindai kode QR di iPhone kamera, atau masukkan kode pemasangan 4 digit."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skann QR-koden på kamera-iPhonen, eller skriv inn den firesifrede paringskoden."
           }
         }
       }
@@ -18258,6 +19230,12 @@
             "state" : "translated",
             "value" : "Pindai untuk mengendalikan kamera: %@"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skann for å styre kameraet: %@"
+          }
         }
       }
     },
@@ -18369,6 +19347,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pindai dengan iPhone lain"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skann med en annen iPhone"
           }
         }
       }
@@ -18482,6 +19466,12 @@
             "state" : "translated",
             "value" : "Laut"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hav"
+          }
         }
       }
     },
@@ -18593,6 +19583,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pilih"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velg"
           }
         }
       }
@@ -18706,6 +19702,12 @@
             "state" : "translated",
             "value" : "Kirim foto ke remote"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send bilder til fjernkontrollen"
+          }
         }
       }
     },
@@ -18814,6 +19816,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serif"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Serif"
@@ -18930,6 +19938,12 @@
             "state" : "translated",
             "value" : "Kesalahan layanan: %@"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tjenestefeil: %@"
+          }
         }
       }
     },
@@ -19041,6 +20055,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siapkan kamera"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sett opp kameraet"
           }
         }
       }
@@ -19154,6 +20174,12 @@
             "state" : "translated",
             "value" : "Pengaturan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Innstillinger"
+          }
         }
       }
     },
@@ -19265,6 +20291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bentuk"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Form"
           }
         }
       }
@@ -19378,6 +20410,12 @@
             "state" : "translated",
             "value" : "Bagikan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Del"
+          }
         }
       }
     },
@@ -19489,6 +20527,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bagikan kode QR"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Del QR-kode"
           }
         }
       }
@@ -19602,6 +20646,12 @@
             "state" : "translated",
             "value" : "Potret hanya dengan tombol rana."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta bilder bare med utløserknappen."
+          }
         }
       }
     },
@@ -19713,6 +20763,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Opsi pemotretan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opptaksvalg"
           }
         }
       }
@@ -19826,6 +20882,12 @@
             "state" : "translated",
             "value" : "Memotret otomatis saat semua tersenyum dengan mata terbuka."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tar bildet automatisk når alle smiler med åpne øyne."
+          }
         }
       }
     },
@@ -19937,6 +20999,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tampilkan kode QR pemasangan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vis QR-kode for paring"
           }
         }
       }
@@ -20050,6 +21118,12 @@
             "state" : "translated",
             "value" : "Tampilkan orang di depan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vis folk foran"
+          }
         }
       }
     },
@@ -20162,6 +21236,12 @@
             "state" : "translated",
             "value" : "Tampilkan tiang samping"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vis sidestenger"
+          }
         }
       }
     },
@@ -20270,6 +21350,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink"
@@ -20386,6 +21472,12 @@
             "state" : "translated",
             "value" : "Foto ShutterLink"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink-bilde"
+          }
         }
       }
     },
@@ -20497,6 +21589,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Remote ShutterLink"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink-fjernkontroll"
           }
         }
       }
@@ -20610,6 +21708,12 @@
             "state" : "translated",
             "value" : "Mode sederhana (tombol besar)"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enkel modus (store knapper)"
+          }
         }
       }
     },
@@ -20721,6 +21825,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tunggal"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enkelt"
           }
         }
       }
@@ -20834,6 +21944,12 @@
             "state" : "translated",
             "value" : "Foto tunggal"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enkeltbilde"
+          }
         }
       }
     },
@@ -20945,6 +22061,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Baris kecil di atas (mis. PT Acme 2026)"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liten øverste linje (f.eks. Acme AS 2026)"
           }
         }
       }
@@ -21058,6 +22180,12 @@
             "state" : "translated",
             "value" : "Senyum"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smil"
+          }
         }
       }
     },
@@ -21169,6 +22297,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rana senyum"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smileutløser"
           }
         }
       }
@@ -21282,6 +22416,12 @@
             "state" : "translated",
             "value" : "Salju"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snø"
+          }
         }
       }
     },
@@ -21393,6 +22533,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Polos"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ensfarget"
           }
         }
       }
@@ -21506,6 +22652,12 @@
             "state" : "translated",
             "value" : "Ada yang berada di tepi bingkai"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noen står i kanten av bildet"
+          }
         }
       }
     },
@@ -21617,6 +22769,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Olahraga"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sport"
           }
         }
       }
@@ -21730,6 +22888,12 @@
             "state" : "translated",
             "value" : "Hari olahraga"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Idrettsdag"
+          }
         }
       }
     },
@@ -21841,6 +23005,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bunga musim semi"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vårblomster"
           }
         }
       }
@@ -21954,6 +23124,12 @@
             "state" : "translated",
             "value" : "Bintang"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stjerner"
+          }
         }
       }
     },
@@ -22065,6 +23241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mulai merekam"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start opptak"
           }
         }
       }
@@ -22178,6 +23360,12 @@
             "state" : "translated",
             "value" : "Mulai memotret"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Begynn å ta bilder"
+          }
         }
       }
     },
@@ -22289,6 +23477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Memulai Bluetooth…"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starter Bluetooth …"
           }
         }
       }
@@ -22402,6 +23596,12 @@
             "state" : "translated",
             "value" : "Hentikan pemotretan interval"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stopp intervallopptak"
+          }
         }
       }
     },
@@ -22513,6 +23713,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Berhenti merekam"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stopp opptak"
           }
         }
       }
@@ -22626,6 +23832,12 @@
             "state" : "translated",
             "value" : "Pantai musim panas"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sommerstrand"
+          }
         }
       }
     },
@@ -22737,6 +23949,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Berayun tertiup angin"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svaier i vinden"
           }
         }
       }
@@ -22850,6 +24068,12 @@
             "state" : "translated",
             "value" : "Ganti kamera"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bytt kamera"
+          }
         }
       }
     },
@@ -22961,6 +24185,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ambil foto"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta bilde"
           }
         }
       }
@@ -23074,6 +24304,12 @@
             "state" : "translated",
             "value" : "Mengambil foto dalam %lld detik."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tar bilde om %lld sekunder."
+          }
         }
       }
     },
@@ -23185,6 +24421,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ketuk lantai atau dinding untuk menempatkan spanduk"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trykk på gulvet eller en vegg for å plassere banneret"
           }
         }
       }
@@ -23298,6 +24540,12 @@
             "state" : "translated",
             "value" : "Ketuk tombol QR. iPhone lain memindainya dengan app Kamera dan dalam hitungan detik menjadi remote, tanpa memasang apa pun."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trykk på QR-knappen. En annen iPhone skanner den med Kamera-appen og blir en fjernkontroll på få sekunder, uten å installere noe."
+          }
         }
       }
     },
@@ -23409,6 +24657,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ketuk untuk fokus"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trykk for å fokusere"
           }
         }
       }
@@ -23522,6 +24776,12 @@
             "state" : "translated",
             "value" : "Teks"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekst"
+          }
         }
       }
     },
@@ -23633,6 +24893,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spanduk berhenti sejenak"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banneret stoppet et øyeblikk"
           }
         }
       }
@@ -23746,6 +25012,12 @@
             "state" : "translated",
             "value" : "Spanduk selalu berada di depan semua orang."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banneret blir værende foran alle."
+          }
         }
       }
     },
@@ -23857,6 +25129,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kamera menghitung mundur dengan suara dan mengedipkan lampunya, sehingga grup yang berdiri jauh tahu persis kapan foto diambil."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kameraet teller ned høyt og blinker med lyset, slik at en gruppe som står langt unna, vet nøyaktig når bildet tas."
           }
         }
       }
@@ -23970,6 +25248,12 @@
             "state" : "translated",
             "value" : "Kode pemasangan ditolak. Pindai kode QR lagi."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paringskoden ble avvist. Skann QR-koden på nytt."
+          }
         }
       }
     },
@@ -24078,6 +25362,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tema"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tema"
@@ -24194,6 +25484,12 @@
             "state" : "translated",
             "value" : "Foto tetap ada di pustaka Foto Anda jika sudah tersimpan di sana."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De blir værende i bildebiblioteket ditt hvis de ble lagret der."
+          }
         }
       }
     },
@@ -24305,6 +25601,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Perangkat ini tidak mendukung Bluetooth LE."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Denne enheten støtter ikke Bluetooth LE."
           }
         }
       }
@@ -24418,6 +25720,12 @@
             "state" : "translated",
             "value" : "Perangkat ini bukan kamera ShutterLink."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Denne enheten er ikke et ShutterLink-kamera."
+          }
         }
       }
     },
@@ -24529,6 +25837,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "iPhone ini tidak mendukung AR."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Denne iPhonen støtter ikke AR."
           }
         }
       }
@@ -24642,6 +25956,12 @@
             "state" : "translated",
             "value" : "Miring %lld derajat"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vippet %lld grader"
+          }
         }
       }
     },
@@ -24750,6 +26070,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timer"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Timer"
@@ -24866,6 +26192,12 @@
             "state" : "translated",
             "value" : "Pita atas dan bawah"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bånd øverst og nederst"
+          }
         }
       }
     },
@@ -24977,6 +26309,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Garis atas"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Øverste stripe"
           }
         }
       }
@@ -25090,6 +26428,12 @@
             "state" : "translated",
             "value" : "Teks atas"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Øverste tekst"
+          }
         }
       }
     },
@@ -25201,6 +26545,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Coba lagi"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prøv igjen"
           }
         }
       }
@@ -25314,6 +26664,12 @@
             "state" : "translated",
             "value" : "Nyalakan Bluetooth untuk terhubung ke kamera."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slå på Bluetooth for å koble til kameraet."
+          }
         }
       }
     },
@@ -25425,6 +26781,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tidak tersedia"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utilgjengelig"
           }
         }
       }
@@ -25538,6 +26900,12 @@
             "state" : "translated",
             "value" : "Versi"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versjon"
+          }
         }
       }
     },
@@ -25646,6 +27014,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Video"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Video"
@@ -25762,6 +27136,12 @@
             "state" : "translated",
             "value" : "Video"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Videoer"
+          }
         }
       }
     },
@@ -25873,6 +27253,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jendela bidik"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Søker"
           }
         }
       }
@@ -25986,6 +27372,12 @@
             "state" : "translated",
             "value" : "Vinil (mengilap)"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vinyl (blank)"
+          }
         }
       }
     },
@@ -26097,6 +27489,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hitung mundur suara"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nedtelling med stemme"
           }
         }
       }
@@ -26210,6 +27608,12 @@
             "state" : "translated",
             "value" : "Menunggu remote"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Venter på en fjernkontroll"
+          }
         }
       }
     },
@@ -26321,6 +27725,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Menunggu Bluetooth…"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Venter på Bluetooth …"
           }
         }
       }
@@ -26434,6 +27844,12 @@
             "state" : "translated",
             "value" : "Menunggu pratinjau…"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Venter på forhåndsvisning …"
+          }
         }
       }
     },
@@ -26545,6 +27961,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pernikahan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bryllup"
           }
         }
       }
@@ -26658,6 +28080,12 @@
             "state" : "translated",
             "value" : "Lebar"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bredde"
+          }
         }
       }
     },
@@ -26769,6 +28197,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Musim dingin"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vinter"
           }
         }
       }
@@ -26882,6 +28316,12 @@
             "state" : "translated",
             "value" : "Pesta akhir tahun"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Julebord"
+          }
         }
       }
     },
@@ -26990,6 +28430,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoom"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zoom"
