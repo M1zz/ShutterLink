@@ -192,6 +192,17 @@ CAPTIONS = {
  ("08-pairing", "07-pairing", "Δείξτε το QR και είστε έτοιμοι", "Χωρίς λογαριασμό, χωρίς ρυθμίσεις αντιστοίχισης, χωρίς πρόσθετο εξοπλισμό"),
  ("09-simple", "06-simple", "Μεγάλο κουμπί για όλους", "Ένα μεγάλο κουμπί κλείστρου που μπορεί να πατήσει ο καθένας"),
  ],
+ "fi": [
+ ("01-banner", "banner", "Ryhmäkuva bannerilla, ei painatusta", "Napauta lattiaa, niin banneri ilmestyy kaikkien eteen"),
+ ("02-banner-design", "bannerDesign", "Valitse teema ja kirjoita teksti", "13 teemaa luokkakokouksiin, juhliin, valmistujaisiin ja muuhun"),
+ ("03-remote", "02-remote", "Toisesta iPhonesta kaukosäädin", "Skannaa QR-koodi, ei asennusta"),
+ ("04-countdown", "04-countdown", "Kuvaa kämmenellä", "Kämmen, taputus tai hymy, ääni- ja valolähtölaskennalla"),
+ ("05-bestshot", "01-main", "Ei enää suljettuja silmiä", "Valitsee kuvan, jossa kaikilla silmät auki"),
+ ("06-reviews", "03-reviews", "Kuvat suoraan kaukosäätimelle", "Ilman sovellusta olevatkin ystävät voivat tallentaa ja jakaa"),
+ ("07-gallery", "05-gallery", "Kaikki parhaat kuvat yhdessä", "Vaihda sarjasta toiseen kuvaan ja jaa AirDropilla"),
+ ("08-pairing", "07-pairing", "Näytä QR-koodi ja olet valmis", "Ei tiliä, ei paritusasetuksia, ei lisälaitteita"),
+ ("09-simple", "06-simple", "Iso painike kaikille", "Yksi iso laukaisin, jota kuka tahansa voi painaa"),
+ ],
 }
 
 def font(size, bold):

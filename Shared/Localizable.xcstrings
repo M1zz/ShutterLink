@@ -98,6 +98,12 @@
             "state" : "translated",
             "value" : "%lld"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
         }
       }
     },
@@ -197,6 +203,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld στο κάδρο"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld kuvassa"
           }
         }
       }
@@ -298,6 +310,12 @@
             "state" : "translated",
             "value" : "%lld φωτογραφίες"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld kuvaa"
+          }
         }
       }
     },
@@ -397,6 +415,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld φωτογραφίες, επιλέχθηκε η καλύτερη"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld kuvaa, paras valittu"
           }
         }
       }
@@ -498,6 +522,12 @@
             "state" : "translated",
             "value" : "%lld τηλεχειριστήριο συνδεδεμένο"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld kaukosäädin yhdistetty"
+          }
         }
       }
     },
@@ -598,6 +628,12 @@
             "state" : "translated",
             "value" : "%lld επιλεγμένες"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld valittu"
+          }
         }
       }
     },
@@ -696,6 +732,12 @@
           }
         },
         "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld°"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld°"
@@ -800,6 +842,12 @@
             "state" : "translated",
             "value" : "%lld λεπτά"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
         }
       }
     },
@@ -900,6 +948,12 @@
             "state" : "translated",
             "value" : "%lld δευτ."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld s"
+          }
         }
       }
     },
@@ -996,6 +1050,12 @@
           }
         },
         "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0000"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "0000"
@@ -1100,6 +1160,12 @@
             "state" : "translated",
             "value" : "Χρώμα έμφασης (περίγραμμα · λωρίδα)"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Korostus (reuna · raita)"
+          }
         }
       }
     },
@@ -1199,6 +1265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Προσθήκη εικόνας λογότυπου"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää logokuva"
           }
         }
       }
@@ -1300,6 +1372,12 @@
             "state" : "translated",
             "value" : "Προσαρμογή θέσης"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Säädä sijaintia"
+          }
         }
       }
     },
@@ -1399,6 +1477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Η ανακοίνωση απέτυχε: %@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ilmoittaminen epäonnistui: %@"
           }
         }
       }
@@ -1500,6 +1584,12 @@
             "state" : "translated",
             "value" : "Όλες"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaikki"
+          }
         }
       }
     },
@@ -1600,6 +1690,12 @@
             "state" : "translated",
             "value" : "Επιτρέψτε την πρόσβαση στο Bluetooth από τις Ρυθμίσεις για να ελέγχετε την κάμερα."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salli Bluetooth-käyttö Asetuksissa, jotta voit ohjata kameraa."
+          }
         }
       }
     },
@@ -1699,6 +1795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Οποιοσδήποτε μπορεί να γίνει τηλεχειριστήριο"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuka tahansa voi olla kaukosäädin"
           }
         }
       }
@@ -1801,6 +1903,12 @@
             "state" : "translated",
             "value" : "Εφαρμογή"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytä"
+          }
         }
       }
     },
@@ -1900,6 +2008,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ζητήστε από όλους να κοιτάξουν την κάμερα"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pyydä kaikkia katsomaan kameraan"
           }
         }
       }
@@ -2001,6 +2115,12 @@
             "state" : "translated",
             "value" : "Λόγος διαστάσεων"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuvasuhde"
+          }
         }
       }
     },
@@ -2100,6 +2220,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Αυτόματο"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automaattinen"
           }
         }
       }
@@ -2201,6 +2327,12 @@
             "state" : "translated",
             "value" : "Η αυτόματη λήψη είναι απενεργοποιημένη"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automaattinen kuvaus pois päältä"
+          }
         }
       }
     },
@@ -2300,6 +2432,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Φθινοπωρινά φύλλα"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Syksyn lehdet"
           }
         }
       }
@@ -2401,6 +2539,12 @@
             "state" : "translated",
             "value" : "Φθινοπωρινή εκδρομή"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Syysretki"
+          }
         }
       }
     },
@@ -2500,6 +2644,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Φόντο"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tausta"
           }
         }
       }
@@ -2601,6 +2751,12 @@
             "state" : "translated",
             "value" : "Χρώμα φόντου"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taustaväri"
+          }
         }
       }
     },
@@ -2700,6 +2856,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Μπαλόνια"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ilmapallot"
           }
         }
       }
@@ -2801,6 +2963,12 @@
             "state" : "translated",
             "value" : "Πανό"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banneri"
+          }
         }
       }
     },
@@ -2900,6 +3068,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Σχεδίαση πανό"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bannerin suunnittelu"
           }
         }
       }
@@ -3001,6 +3175,12 @@
             "state" : "translated",
             "value" : "Καλύτερη λήψη"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paras kuva"
+          }
         }
       }
     },
@@ -3100,6 +3280,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Καλύτερη λήψη από %lld φωτογραφίες"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paras kuva %lld kuvasta"
           }
         }
       }
@@ -3201,6 +3387,12 @@
             "state" : "translated",
             "value" : "Καλύτερες λήψεις"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parhaat kuvat"
+          }
         }
       }
     },
@@ -3300,6 +3492,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Γενέθλια"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Syntymäpäivä"
           }
         }
       }
@@ -3401,6 +3599,12 @@
             "state" : "translated",
             "value" : "Το Bluetooth είναι απενεργοποιημένο"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth on pois päältä"
+          }
         }
       }
     },
@@ -3500,6 +3704,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Το Bluetooth LE δεν υποστηρίζεται"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth LE ei ole tuettu"
           }
         }
       }
@@ -3601,6 +3811,12 @@
             "state" : "translated",
             "value" : "Η άδεια Bluetooth απορρίφθηκε"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth-lupa evätty"
+          }
         }
       }
     },
@@ -3700,6 +3916,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Το Bluetooth είναι έτοιμο"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth valmis"
           }
         }
       }
@@ -3801,6 +4023,12 @@
             "state" : "translated",
             "value" : "Το Bluetooth δεν είναι διαθέσιμο"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth ei ole käytettävissä"
+          }
         }
       }
     },
@@ -3900,6 +4128,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Έντονη χωρίς πατούρες"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lihavoitu groteski"
           }
         }
       }
@@ -4001,6 +4235,12 @@
             "state" : "translated",
             "value" : "Κάτω γραμμή: ημερομηνία · τόπος"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alarivi: päivämäärä · paikka"
+          }
         }
       }
     },
@@ -4100,6 +4340,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Κείμενο κάτω"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alateksti"
           }
         }
       }
@@ -4201,6 +4447,12 @@
             "state" : "translated",
             "value" : "Πιο φωτεινό"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaaleampi"
+          }
         }
       }
     },
@@ -4300,6 +4552,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ριπή"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sarja"
           }
         }
       }
@@ -4401,6 +4659,12 @@
             "state" : "translated",
             "value" : "Απαιτείται πρόσβαση στην κάμερα. Ενεργοποιήστε την από Ρυθμίσεις > ShutterLink."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kameran käyttö vaaditaan. Ota se käyttöön kohdassa Asetukset > ShutterLink."
+          }
         }
       }
     },
@@ -4500,6 +4764,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ακύρωση"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peruuta"
           }
         }
       }
@@ -4601,6 +4871,12 @@
             "state" : "translated",
             "value" : "Ακύρωση χρονομέτρου"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peruuta ajastin"
+          }
         }
       }
     },
@@ -4700,6 +4976,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Η λήψη απέτυχε: %@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuvaus epäonnistui: %@"
           }
         }
       }
@@ -4801,6 +5083,12 @@
             "state" : "translated",
             "value" : "Γιορτή"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Juhla"
+          }
         }
       }
     },
@@ -4900,6 +5188,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Αλλαγή λογότυπου"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaihda logo"
           }
         }
       }
@@ -5001,6 +5295,12 @@
             "state" : "translated",
             "value" : "Ελέγξτε την πρόσβαση στις Φωτογραφίες από τις Ρυθμίσεις."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tarkista Kuvat-käyttöoikeus Asetuksissa."
+          }
         }
       }
     },
@@ -5100,6 +5400,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ενθάρρυνση"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kannustus"
           }
         }
       }
@@ -5201,6 +5507,12 @@
             "state" : "translated",
             "value" : "Επιλέξτε Πανό, γράψτε το κείμενό σας και διαλέξτε χρώματα, και μετά πατήστε στο δάπεδο. Το πανό μένει στη θέση του και όσοι στέκονται μπροστά του φαίνεται να το κρατούν."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valitse Banneri, kirjoita teksti ja valitse värit ja napauta sitten lattiaa. Banneri pysyy paikallaan, ja sen edessä seisovat näyttävät pitelevän sitä."
+          }
         }
       }
     },
@@ -5300,6 +5612,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Χριστούγεννα"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Joulu"
           }
         }
       }
@@ -5401,6 +5719,12 @@
             "state" : "translated",
             "value" : "Χειροκρότημα"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taputus"
+          }
         }
       }
     },
@@ -5500,6 +5824,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Χειροκροτήστε δυνατά μία φορά για να ξεκινήσει το χρονόμετρο."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taputa kerran kovaa käynnistääksesi ajastimen."
           }
         }
       }
@@ -5601,6 +5931,12 @@
             "state" : "translated",
             "value" : "Κλείστρο με χειροκρότημα"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taputuslaukaisu"
+          }
         }
       }
     },
@@ -5700,6 +6036,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Το κλείστρο με χειροκρότημα απαιτεί πρόσβαση στο μικρόφωνο. Ενεργοποιήστε την από Ρυθμίσεις > ShutterLink."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taputuslaukaisu tarvitsee mikrofonin käyttöoikeuden. Ota se käyttöön kohdassa Asetukset > ShutterLink."
           }
         }
       }
@@ -5801,6 +6143,12 @@
             "state" : "translated",
             "value" : "Κλασικό"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klassinen"
+          }
         }
       }
     },
@@ -5900,6 +6248,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Κλείσιμο"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sulje"
           }
         }
       }
@@ -6001,6 +6355,12 @@
             "state" : "translated",
             "value" : "Χρώματα"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Värit"
+          }
         }
       }
     },
@@ -6100,6 +6460,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Εταιρικό εργαστήριο"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yrityksen työpaja"
           }
         }
       }
@@ -6201,6 +6567,12 @@
             "state" : "translated",
             "value" : "Στενή χωρίς πατούρες"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kapea groteski"
+          }
         }
       }
     },
@@ -6300,6 +6672,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Σύνδεση"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yhdistä"
           }
         }
       }
@@ -6401,6 +6779,12 @@
             "state" : "translated",
             "value" : "Συνδέθηκε"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yhdistetty"
+          }
         }
       }
     },
@@ -6500,6 +6884,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Σύνδεση…"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yhdistetään…"
           }
         }
       }
@@ -6601,6 +6991,12 @@
             "state" : "translated",
             "value" : "Δεν ήταν δυνατή η δημιουργία του πανό: %@"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banneria ei voitu luoda: %@"
+          }
         }
       }
     },
@@ -6700,6 +7096,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Η κάμερα δεν βρέθηκε. Βεβαιωθείτε ότι το ShutterLink είναι ανοιχτό στο iPhone της κάμερας και ότι το Bluetooth είναι ενεργό."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kameraa ei löytynyt. Varmista, että ShutterLink on auki kuvaavassa iPhonessa ja Bluetooth on päällä."
           }
         }
       }
@@ -6801,6 +7203,12 @@
             "state" : "translated",
             "value" : "Δεν ήταν δυνατή η αντιστοίχιση με την κάμερα."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kameran kanssa ei voitu muodostaa paria."
+          }
         }
       }
     },
@@ -6900,6 +7308,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Δεν ήταν δυνατή η αποθήκευση στις Φωτογραφίες. %@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallennus Kuviin epäonnistui. %@"
           }
         }
       }
@@ -7001,6 +7415,12 @@
             "state" : "translated",
             "value" : "Δεν ήταν δυνατή η εμφάνιση του πανό: %@"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banneria ei voitu näyttää: %@"
+          }
         }
       }
     },
@@ -7100,6 +7520,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Δεν ήταν δυνατή η έναρξη εγγραφής: %@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallennusta ei voitu aloittaa: %@"
           }
         }
       }
@@ -7201,6 +7627,12 @@
             "state" : "translated",
             "value" : "Δεν ήταν δυνατή η ενημέρωση του σχεδίου."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ulkoasua ei voitu päivittää."
+          }
         }
       }
     },
@@ -7300,6 +7732,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Αντίστροφη μέτρηση"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lähtölaskenta"
           }
         }
       }
@@ -7401,6 +7839,12 @@
             "state" : "translated",
             "value" : "Πιο σκούρο"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tummempi"
+          }
         }
       }
     },
@@ -7500,6 +7944,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Διακόσμηση"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koristeet"
           }
         }
       }
@@ -7601,6 +8051,12 @@
             "state" : "translated",
             "value" : "Διαγραφή"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista"
+          }
         }
       }
     },
@@ -7700,6 +8156,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Διαγραφή των επιλεγμένων λήψεων;"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poistetaanko valitut kuvat?"
           }
         }
       }
@@ -7801,6 +8263,12 @@
             "state" : "translated",
             "value" : "Διαγώνιες ρίγες"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vinot raidat"
+          }
         }
       }
     },
@@ -7900,6 +8368,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Κατεύθυνση"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suunta"
           }
         }
       }
@@ -8001,6 +8475,12 @@
             "state" : "translated",
             "value" : "Αποσύνδεση"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katkaise yhteys"
+          }
         }
       }
     },
@@ -8100,6 +8580,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Τέλος"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valmis"
           }
         }
       }
@@ -8201,6 +8687,12 @@
             "state" : "translated",
             "value" : "Σύρετε για να γλιστρήσει το πανό στο δάπεδο."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vedä liu’uttaaksesi banneria lattialla."
+          }
         }
       }
     },
@@ -8300,6 +8792,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Λειτουργία οδήγησης"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajotila"
           }
         }
       }
@@ -8401,6 +8899,12 @@
             "state" : "translated",
             "value" : "Εισαγάγετε τον 4ψήφιο κωδικό που εμφανίζεται στο iPhone της κάμερας."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Syötä kuvaavan iPhonen näyttämä nelinumeroinen koodi."
+          }
         }
       }
     },
@@ -8500,6 +9004,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Κάθε %@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ välein"
           }
         }
       }
@@ -8601,6 +9111,12 @@
             "state" : "translated",
             "value" : "Κάθε λήψη φυλάσσεται και στη συλλογή του ShutterLink. Όταν η αποστολή είναι ενεργή, όποιος κρατά το τηλεχειριστήριο λαμβάνει αντίγραφο κάθε φωτογραφίας που τραβά."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jokainen kuva säilyy myös ShutterLink-galleriassa. Kun lähetys on päällä, kaukosäädintä pitelevä saa kopion jokaisesta ottamastaan kuvasta."
+          }
         }
       }
     },
@@ -8700,6 +9216,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Όλοι, κοιτάξτε την κάμερα!"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaikki katsomaan kameraan!"
           }
         }
       }
@@ -8801,6 +9323,12 @@
             "state" : "translated",
             "value" : "Έκθεση"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valotus"
+          }
         }
       }
     },
@@ -8900,6 +9428,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ύφασμα (ματ)"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kangas (himmeä)"
           }
         }
       }
@@ -9001,6 +9535,12 @@
             "state" : "translated",
             "value" : "Προς το μέρος μου"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kohti minua"
+          }
         }
       }
     },
@@ -9100,6 +9640,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Φθινοπωρινή εκδρομή μαζί"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Syysretki yhdessä"
           }
         }
       }
@@ -9201,6 +9747,12 @@
             "state" : "translated",
             "value" : "Φίλτρο"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suodatin"
+          }
         }
       }
     },
@@ -9300,6 +9852,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Φλας"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salama"
           }
         }
       }
@@ -9401,6 +9959,12 @@
             "state" : "translated",
             "value" : "Αντίστροφη μέτρηση με φλας"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lähtölaskenta salamalla"
+          }
         }
       }
     },
@@ -9500,6 +10064,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Λουλούδια"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kukat"
           }
         }
       }
@@ -9601,6 +10171,12 @@
             "state" : "translated",
             "value" : "Γραμματοσειρά"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fontti"
+          }
         }
       }
     },
@@ -9700,6 +10276,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Συλλογή"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Galleria"
           }
         }
       }
@@ -9801,6 +10383,12 @@
             "state" : "translated",
             "value" : "Διαβάθμιση"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liukuväri"
+          }
         }
       }
     },
@@ -9900,6 +10488,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Αποφοίτηση"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valmistujaiset"
           }
         }
       }
@@ -10001,6 +10595,12 @@
             "state" : "translated",
             "value" : "Πλέγμα"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ruudukko"
+          }
         }
       }
     },
@@ -10100,6 +10700,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ομαδική φωτογραφία · πατήστε μια λήψη για να τη σημειώσετε ως καλύτερη"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ryhmäkuva · napauta kuvaa merkitäksesi sen parhaaksi"
           }
         }
       }
@@ -10201,6 +10807,12 @@
             "state" : "translated",
             "value" : "Η ομαδική φωτογραφία τραβά πολλές λήψεις και επιλέγει εκείνη όπου όλοι έχουν τα μάτια ανοιχτά. Το τηλεχειριστήριο παίρνει αντίγραφο για να το κρατήσει."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ryhmäkuva ottaa useita kuvia ja valitsee sen, jossa kaikilla on silmät auki. Kaukosäädin saa kopion talteen."
+          }
         }
       }
     },
@@ -10300,6 +10912,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Χειρονομίες"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käsieleet"
           }
         }
       }
@@ -10401,6 +11019,12 @@
             "state" : "translated",
             "value" : "Κλείστρο χωρίς χέρια"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kädetön laukaisu"
+          }
         }
       }
     },
@@ -10500,6 +11124,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Καρδιές"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sydämet"
           }
         }
       }
@@ -10601,6 +11231,12 @@
             "state" : "translated",
             "value" : "Ύψος"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Korkeus"
+          }
         }
       }
     },
@@ -10700,6 +11336,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ύψος από το δάπεδο"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Korkeus lattiasta"
           }
         }
       }
@@ -10801,6 +11443,12 @@
             "state" : "translated",
             "value" : "Βοήθεια"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ohje"
+          }
         }
       }
     },
@@ -10900,6 +11548,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Κρατήστε πανό χωρίς να φέρετε δικό σας"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pitele banneria tuomatta omaa"
           }
         }
       }
@@ -11001,6 +11655,12 @@
             "state" : "translated",
             "value" : "Πώς να χρησιμοποιήσετε το ShutterLink"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLinkin käyttö"
+          }
         }
       }
     },
@@ -11100,6 +11760,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Διάστημα"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Väli"
           }
         }
       }
@@ -11201,6 +11867,12 @@
             "state" : "translated",
             "value" : "Αλφάδι"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vesivaaka"
+          }
         }
       }
     },
@@ -11300,6 +11972,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Λογότυπο"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logo"
           }
         }
       }
@@ -11401,6 +12079,12 @@
             "state" : "translated",
             "value" : "Εμφάνιση"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ulkoasu"
+          }
         }
       }
     },
@@ -11500,6 +12184,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Αναζήτηση κάμερας %@…"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Etsitään kameraa %@…"
           }
         }
       }
@@ -11601,6 +12291,12 @@
             "state" : "translated",
             "value" : "Κύριο μήνυμα"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pääviesti"
+          }
         }
       }
     },
@@ -11700,6 +12396,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Κύριο κείμενο"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pääteksti"
           }
         }
       }
@@ -11801,6 +12503,12 @@
             "state" : "translated",
             "value" : "Υλικό"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Materiaali"
+          }
         }
       }
     },
@@ -11900,6 +12608,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Υλικό · Μέγεθος"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Materiaali · Koko"
           }
         }
       }
@@ -12001,6 +12715,12 @@
             "state" : "translated",
             "value" : "Λειτουργία"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tila"
+          }
         }
       }
     },
@@ -12100,6 +12820,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Περισσότερα"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää"
           }
         }
       }
@@ -12201,6 +12927,12 @@
             "state" : "translated",
             "value" : "Μετακίνηση πανό"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siirrä banneria"
+          }
         }
       }
     },
@@ -12300,6 +13032,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Επόμενο"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seuraava"
           }
         }
       }
@@ -12401,6 +13139,12 @@
             "state" : "translated",
             "value" : "Επόμενη λήψη σε %lld δευτ."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seuraava kuva %lld s kuluttua"
+          }
         }
       }
     },
@@ -12500,6 +13244,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Δεν υπάρχει διαθέσιμη κάμερα σε αυτή τη συσκευή."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tällä laitteella ei ole käytettävissä olevaa kameraa."
           }
         }
       }
@@ -12601,6 +13351,12 @@
             "state" : "translated",
             "value" : "Δεν υπάρχουν λήψεις ακόμη"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei vielä kuvia"
+          }
         }
       }
     },
@@ -12701,6 +13457,12 @@
             "state" : "translated",
             "value" : "Κανείς δεν ανοιγοκλείνει τα μάτια"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kukaan ei räpyttele"
+          }
         }
       }
     },
@@ -12800,6 +13562,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Κανένα"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei mitään"
           }
         }
       }
@@ -12902,6 +13670,12 @@
             "state" : "translated",
             "value" : "Τώρα"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyt"
+          }
         }
       }
     },
@@ -13001,6 +13775,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "24–25 Οκτ 2026  Λίμνη Ταχόε, Καλιφόρνια"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "24.–25.10.2026  Lake Tahoe, Kalifornia"
           }
         }
       }
@@ -13102,6 +13882,12 @@
             "state" : "translated",
             "value" : "Ανενεργό"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pois"
+          }
         }
       }
     },
@@ -13198,6 +13984,12 @@
           }
         },
         "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -13302,6 +14094,12 @@
             "state" : "translated",
             "value" : "Ενεργό"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Päällä"
+          }
         }
       }
     },
@@ -13401,6 +14199,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Άνοιγμα συλλογής"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avaa galleria"
           }
         }
       }
@@ -13502,6 +14306,12 @@
             "state" : "translated",
             "value" : "Επιλογές"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valinnat"
+          }
         }
       }
     },
@@ -13601,6 +14411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ή τραβήξτε χωρίς χέρια"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tai kuvaa ilman käsiä"
           }
         }
       }
@@ -13702,6 +14518,12 @@
             "state" : "translated",
             "value" : "Η ομάδα μας 2026"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiimimme 2026"
+          }
         }
       }
     },
@@ -13801,6 +14623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Κωδικός αντιστοίχισης"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parituskoodi"
           }
         }
       }
@@ -13902,6 +14730,12 @@
             "state" : "translated",
             "value" : "Αντιστοίχιση…"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muodostetaan paria…"
+          }
         }
       }
     },
@@ -14001,6 +14835,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Παλάμη"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kämmen"
           }
         }
       }
@@ -14102,6 +14942,12 @@
             "state" : "translated",
             "value" : "Χειρονομία παλάμης"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kämmenele"
+          }
         }
       }
     },
@@ -14201,6 +15047,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Χαρτί"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paperi"
           }
         }
       }
@@ -14302,6 +15154,12 @@
             "state" : "translated",
             "value" : "Βραδιά πάρτι"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Juhlailta"
+          }
         }
       }
     },
@@ -14401,6 +15259,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Μετρητής ατόμων"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Henkilölaskuri"
           }
         }
       }
@@ -14502,6 +15366,12 @@
             "state" : "translated",
             "value" : "Όσοι στέκονται μπροστά από το πανό εμφανίζονται πλέον πάνω από αυτό."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bannerin edessä seisovat henkilöt näkyvät nyt sen päällä."
+          }
         }
       }
     },
@@ -14601,6 +15471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Φωτογραφία"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuva"
           }
         }
       }
@@ -14702,6 +15578,12 @@
             "state" : "translated",
             "value" : "Φωτογραφίες"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuvat"
+          }
         }
       }
     },
@@ -14801,6 +15683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Οι φωτογραφίες και τα βίντεο που τραβάτε με το ShutterLink εμφανίζονται εδώ."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLinkillä ottamasi kuvat ja videot näkyvät tässä."
           }
         }
       }
@@ -14902,6 +15790,12 @@
             "state" : "translated",
             "value" : "Φωτογραφίες αυτής της λήψης"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tämän kuvauksen kuvat"
+          }
         }
       }
     },
@@ -15001,6 +15895,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Τοποθετήστε αυτό το iPhone σε τρίποδο ή στηρίξτε το κάπου σταθερά. Χρησιμοποιήστε το αλφάδι και τον μετρητή ατόμων για να χωρέσουν όλοι στο κάδρο."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aseta tämä iPhone kolmijalalle tai nojaa se johonkin tukevaan. Vesivaa’an ja henkilölaskurin avulla saat kaikki kuvaan."
           }
         }
       }
@@ -15102,6 +16002,12 @@
             "state" : "translated",
             "value" : "Στρέψτε την κάμερα του άλλου iPhone στον κωδικό QR. Το App Clip Τηλεχειριστήριο ShutterLink ανοίγει χωρίς εγκατάσταση. Κρατήστε αυτή την εφαρμογή ανοιχτή κατά τη λήψη."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Osoita toisen iPhonen kameralla QR-koodia. ShutterLink-kaukosäädin-App Clip aukeaa ilman asennusta. Pidä tämä sovellus auki kuvauksen ajan."
+          }
         }
       }
     },
@@ -15201,6 +16107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Σηκώστε την ανοιχτή παλάμη προς την κάμερα για να ξεκινήσει το χρονόμετρο."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nosta avoin kämmen kameraa kohti käynnistääksesi ajastimen."
           }
         }
       }
@@ -15302,6 +16214,12 @@
             "state" : "translated",
             "value" : "Σηκώστε την παλάμη, χειροκροτήστε ή αφήστε το ShutterLink να τραβήξει όταν όλοι χαμογελούν. Μια αντίστροφη μέτρηση με φωνή και φως λέει στην παρέα πότε να ποζάρει."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nosta kämmen, taputa tai anna ShutterLinkin ottaa kuva, kun kaikki hymyilevät. Äänellä ja valolla annettu lähtölaskenta kertoo ryhmälle, milloin poseerata."
+          }
         }
       }
     },
@@ -15401,6 +16319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Η εγγραφή απέτυχε."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallennus epäonnistui."
           }
         }
       }
@@ -15502,6 +16426,12 @@
             "state" : "translated",
             "value" : "Αφαίρεση λογότυπου"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista logo"
+          }
         }
       }
     },
@@ -15601,6 +16531,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Επαναφορά"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nollaa"
           }
         }
       }
@@ -15702,6 +16638,12 @@
             "state" : "translated",
             "value" : "Επαναφορά έκθεσης"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nollaa valotus"
+          }
         }
       }
     },
@@ -15801,6 +16743,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Στρογγυλεμένη χωρίς πατούρες"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pyöristetty groteski"
           }
         }
       }
@@ -15902,6 +16850,12 @@
             "state" : "translated",
             "value" : "Αποθήκευση ή κοινοποίηση αυτής της φωτογραφίας"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallenna tai jaa tämä kuva"
+          }
         }
       }
     },
@@ -16001,6 +16955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Αποθηκεύστε ή κοινοποιήστε το αντίγραφό σας πριν κλείσετε το τηλεχειριστήριο."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallenna tai jaa kopiosi ennen kuin suljet kaukosäätimen."
           }
         }
       }
@@ -16102,6 +17062,12 @@
             "state" : "translated",
             "value" : "Αποθήκευση στις Φωτογραφίες"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallenna Kuviin"
+          }
         }
       }
     },
@@ -16201,6 +17167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Σαρώστε τον κωδικό QR στο iPhone της κάμερας ή εισαγάγετε τον 4ψήφιο κωδικό αντιστοίχισης."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skannaa kuvaavan iPhonen QR-koodi tai syötä nelinumeroinen parituskoodi."
           }
         }
       }
@@ -16302,6 +17274,12 @@
             "state" : "translated",
             "value" : "Σαρώστε για έλεγχο της κάμερας: %@"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skannaa ohjataksesi kameraa: %@"
+          }
         }
       }
     },
@@ -16401,6 +17379,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Σάρωση με άλλο iPhone"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skannaa toisella iPhonella"
           }
         }
       }
@@ -16502,6 +17486,12 @@
             "state" : "translated",
             "value" : "Θάλασσα"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meri"
+          }
         }
       }
     },
@@ -16601,6 +17591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Επιλογή"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valitse"
           }
         }
       }
@@ -16702,6 +17698,12 @@
             "state" : "translated",
             "value" : "Αποστολή φωτογραφιών στο τηλεχειριστήριο"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lähetä kuvat kaukosäätimelle"
+          }
         }
       }
     },
@@ -16801,6 +17803,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Με πατούρες"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serif"
           }
         }
       }
@@ -16902,6 +17910,12 @@
             "state" : "translated",
             "value" : "Σφάλμα υπηρεσίας: %@"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palveluvirhe: %@"
+          }
         }
       }
     },
@@ -17001,6 +18015,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ρύθμιση της κάμερας"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Määritä kamera"
           }
         }
       }
@@ -17102,6 +18122,12 @@
             "state" : "translated",
             "value" : "Ρυθμίσεις"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asetukset"
+          }
         }
       }
     },
@@ -17201,6 +18227,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Σχήμα"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muoto"
           }
         }
       }
@@ -17302,6 +18334,12 @@
             "state" : "translated",
             "value" : "Κοινοποίηση"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jaa"
+          }
         }
       }
     },
@@ -17401,6 +18439,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Κοινοποίηση κωδικού QR"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jaa QR-koodi"
           }
         }
       }
@@ -17502,6 +18546,12 @@
             "state" : "translated",
             "value" : "Λήψη μόνο με το κουμπί κλείστρου."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuvaa vain suljinpainikkeella."
+          }
         }
       }
     },
@@ -17601,6 +18651,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Επιλογές λήψης"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuvausasetukset"
           }
         }
       }
@@ -17702,6 +18758,12 @@
             "state" : "translated",
             "value" : "Τραβά αυτόματα όταν όλοι χαμογελούν με ανοιχτά μάτια."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuvaa automaattisesti, kun kaikki hymyilevät silmät auki."
+          }
         }
       }
     },
@@ -17801,6 +18863,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Εμφάνιση QR αντιστοίχισης"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näytä paritus-QR-koodi"
           }
         }
       }
@@ -17902,6 +18970,12 @@
             "state" : "translated",
             "value" : "Εμφάνιση ατόμων μπροστά"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näytä edessä olevat henkilöt"
+          }
         }
       }
     },
@@ -18002,6 +19076,12 @@
             "state" : "translated",
             "value" : "Εμφάνιση πλαϊνών ιστών"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näytä sivutangot"
+          }
         }
       }
     },
@@ -18098,6 +19178,12 @@
           }
         },
         "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink"
@@ -18202,6 +19288,12 @@
             "state" : "translated",
             "value" : "Φωτογραφία ShutterLink"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink-kuva"
+          }
         }
       }
     },
@@ -18301,6 +19393,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Τηλεχειριστήριο ShutterLink"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink-kaukosäädin"
           }
         }
       }
@@ -18402,6 +19500,12 @@
             "state" : "translated",
             "value" : "Απλή λειτουργία (μεγάλα κουμπιά)"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yksinkertainen tila (isot painikkeet)"
+          }
         }
       }
     },
@@ -18501,6 +19605,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Μονή"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yksittäinen"
           }
         }
       }
@@ -18602,6 +19712,12 @@
             "state" : "translated",
             "value" : "Μονή φωτογραφία"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yksittäinen kuva"
+          }
         }
       }
     },
@@ -18701,6 +19817,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Μικρή πάνω γραμμή (π.χ. Acme Α.Ε. 2026)"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pieni ylärivi (esim. Acme Oy 2026)"
           }
         }
       }
@@ -18802,6 +19924,12 @@
             "state" : "translated",
             "value" : "Χαμόγελο"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hymy"
+          }
         }
       }
     },
@@ -18901,6 +20029,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Κλείστρο με χαμόγελο"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hymylaukaisu"
           }
         }
       }
@@ -19002,6 +20136,12 @@
             "state" : "translated",
             "value" : "Χιόνι"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lumi"
+          }
         }
       }
     },
@@ -19101,6 +20241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Μονόχρωμο"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yksivärinen"
           }
         }
       }
@@ -19202,6 +20348,12 @@
             "state" : "translated",
             "value" : "Κάποιος βρίσκεται στην άκρη του κάδρου"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Joku on kuvan reunalla"
+          }
         }
       }
     },
@@ -19301,6 +20453,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Αθλήματα"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Urheilu"
           }
         }
       }
@@ -19402,6 +20560,12 @@
             "state" : "translated",
             "value" : "Αθλητική ημέρα"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Urheilupäivä"
+          }
         }
       }
     },
@@ -19501,6 +20665,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ανθισμένη άνοιξη"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kevään kukat"
           }
         }
       }
@@ -19602,6 +20772,12 @@
             "state" : "translated",
             "value" : "Αστέρια"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tähdet"
+          }
         }
       }
     },
@@ -19701,6 +20877,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Έναρξη εγγραφής"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aloita tallennus"
           }
         }
       }
@@ -19802,6 +20984,12 @@
             "state" : "translated",
             "value" : "Έναρξη λήψης"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aloita kuvaus"
+          }
         }
       }
     },
@@ -19901,6 +21089,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Εκκίνηση Bluetooth…"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käynnistetään Bluetoothia…"
           }
         }
       }
@@ -20002,6 +21196,12 @@
             "state" : "translated",
             "value" : "Διακοπή λήψης ανά διάστημα"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lopeta välikuvaus"
+          }
         }
       }
     },
@@ -20101,6 +21301,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Διακοπή εγγραφής"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lopeta tallennus"
           }
         }
       }
@@ -20202,6 +21408,12 @@
             "state" : "translated",
             "value" : "Καλοκαιρινή παραλία"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kesäranta"
+          }
         }
       }
     },
@@ -20301,6 +21513,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ταλαντεύεται στο αεράκι"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heiluu tuulessa"
           }
         }
       }
@@ -20402,6 +21620,12 @@
             "state" : "translated",
             "value" : "Αλλαγή κάμερας"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaihda kameraa"
+          }
         }
       }
     },
@@ -20501,6 +21725,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Λήψη φωτογραφίας"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ota kuva"
           }
         }
       }
@@ -20602,6 +21832,12 @@
             "state" : "translated",
             "value" : "Φωτογραφία σε %lld δευτερόλεπτα."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuva %lld sekunnin kuluttua."
+          }
         }
       }
     },
@@ -20701,6 +21937,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Πατήστε στο δάπεδο ή σε έναν τοίχο για να τοποθετήσετε το πανό"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aseta banneri napauttamalla lattiaa tai seinää"
           }
         }
       }
@@ -20802,6 +22044,12 @@
             "state" : "translated",
             "value" : "Πατήστε το κουμπί QR. Ένα άλλο iPhone το σαρώνει με την εφαρμογή Κάμερα και γίνεται τηλεχειριστήριο σε δευτερόλεπτα, χωρίς εγκατάσταση."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napauta QR-painiketta. Toinen iPhone skannaa sen Kamera-sovelluksella ja muuttuu kaukosäätimeksi sekunneissa ilman asennusta."
+          }
         }
       }
     },
@@ -20901,6 +22149,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Πατήστε για εστίαση"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tarkenna napauttamalla"
           }
         }
       }
@@ -21002,6 +22256,12 @@
             "state" : "translated",
             "value" : "Κείμενο"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teksti"
+          }
         }
       }
     },
@@ -21101,6 +22361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Το πανό σταμάτησε για λίγο"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banneri pysähtyi hetkeksi"
           }
         }
       }
@@ -21202,6 +22468,12 @@
             "state" : "translated",
             "value" : "Το πανό μένει μπροστά από όλους."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banneri pysyy kaikkien edessä."
+          }
         }
       }
     },
@@ -21301,6 +22573,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Η κάμερα μετρά αντίστροφα δυνατά και αναβοσβήνει το φως της, ώστε και μια παρέα που στέκεται μακριά να ξέρει ακριβώς πότε τραβιέται η φωτογραφία."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera laskee ääneen ja vilkuttaa valoa, joten kauempanakin seisova ryhmä tietää tarkalleen, milloin kuva otetaan."
           }
         }
       }
@@ -21402,6 +22680,12 @@
             "state" : "translated",
             "value" : "Ο κωδικός αντιστοίχισης απορρίφθηκε. Σαρώστε ξανά τον κωδικό QR."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parituskoodi hylättiin. Skannaa QR-koodi uudelleen."
+          }
         }
       }
     },
@@ -21501,6 +22785,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Θέμα"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teema"
           }
         }
       }
@@ -21602,6 +22892,12 @@
             "state" : "translated",
             "value" : "Παραμένουν στη βιβλιοθήκη φωτογραφιών σας αν είχαν αποθηκευτεί εκεί."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ne säilyvät kuvakirjastossasi, jos ne tallennettiin sinne."
+          }
         }
       }
     },
@@ -21701,6 +22997,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Αυτή η συσκευή δεν υποστηρίζει Bluetooth LE."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tämä laite ei tue Bluetooth LE:tä."
           }
         }
       }
@@ -21802,6 +23104,12 @@
             "state" : "translated",
             "value" : "Αυτή η συσκευή δεν είναι κάμερα ShutterLink."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tämä laite ei ole ShutterLink-kamera."
+          }
         }
       }
     },
@@ -21901,6 +23209,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Αυτό το iPhone δεν υποστηρίζει AR."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tämä iPhone ei tue AR:ää."
           }
         }
       }
@@ -22002,6 +23316,12 @@
             "state" : "translated",
             "value" : "Κλίση %lld μοιρών"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kallistettu %lld astetta"
+          }
         }
       }
     },
@@ -22101,6 +23421,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Χρονόμετρο"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajastin"
           }
         }
       }
@@ -22202,6 +23528,12 @@
             "state" : "translated",
             "value" : "Πάνω και κάτω ζώνες"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ylä- ja alapalkit"
+          }
         }
       }
     },
@@ -22301,6 +23633,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Πάνω λωρίδα"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yläraita"
           }
         }
       }
@@ -22402,6 +23740,12 @@
             "state" : "translated",
             "value" : "Κείμενο πάνω"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yläteksti"
+          }
         }
       }
     },
@@ -22501,6 +23845,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Δοκιμάστε ξανά"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yritä uudelleen"
           }
         }
       }
@@ -22602,6 +23952,12 @@
             "state" : "translated",
             "value" : "Ενεργοποιήστε το Bluetooth για να συνδεθείτε με την κάμερα."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ota Bluetooth käyttöön yhdistääksesi kameraan."
+          }
         }
       }
     },
@@ -22701,6 +24057,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Μη διαθέσιμο"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei saatavilla"
           }
         }
       }
@@ -22802,6 +24164,12 @@
             "state" : "translated",
             "value" : "Έκδοση"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versio"
+          }
         }
       }
     },
@@ -22901,6 +24269,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Βίντεο"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Video"
           }
         }
       }
@@ -23002,6 +24376,12 @@
             "state" : "translated",
             "value" : "Βίντεο"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Videot"
+          }
         }
       }
     },
@@ -23101,6 +24481,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Σκόπευτρο"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Etsin"
           }
         }
       }
@@ -23202,6 +24588,12 @@
             "state" : "translated",
             "value" : "Βινύλιο (γυαλιστερό)"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vinyyli (kiiltävä)"
+          }
         }
       }
     },
@@ -23301,6 +24693,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Αντίστροφη μέτρηση με φωνή"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Äänilähtölaskenta"
           }
         }
       }
@@ -23402,6 +24800,12 @@
             "state" : "translated",
             "value" : "Αναμονή για τηλεχειριστήριο"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odotetaan kaukosäädintä"
+          }
         }
       }
     },
@@ -23501,6 +24905,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Αναμονή για Bluetooth…"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odotetaan Bluetoothia…"
           }
         }
       }
@@ -23602,6 +25012,12 @@
             "state" : "translated",
             "value" : "Αναμονή για προεπισκόπηση…"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odotetaan esikatselua…"
+          }
         }
       }
     },
@@ -23701,6 +25117,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Γάμος"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Häät"
           }
         }
       }
@@ -23802,6 +25224,12 @@
             "state" : "translated",
             "value" : "Πλάτος"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leveys"
+          }
         }
       }
     },
@@ -23901,6 +25329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Χειμώνας"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Talvi"
           }
         }
       }
@@ -24002,6 +25436,12 @@
             "state" : "translated",
             "value" : "Πρωτοχρονιάτικο πάρτι"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pikkujoulut"
+          }
         }
       }
     },
@@ -24101,6 +25541,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ζουμ"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoomaus"
           }
         }
       }

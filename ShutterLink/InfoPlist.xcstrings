@@ -105,6 +105,12 @@
             "state" : "translated",
             "value" : "ShutterLink"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
         }
       }
     },
@@ -224,6 +230,12 @@
             "state" : "translated",
             "value" : "Το ShutterLink χρησιμοποιεί Bluetooth, ώστε ένα κοντινό iPhone να λειτουργεί ως τηλεχειριστήριο κλείστρου."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink käyttää Bluetoothia, jotta lähellä oleva iPhone voi toimia kaukolaukaisimena."
+          }
         }
       }
     },
@@ -330,6 +342,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Το ShutterLink χρησιμοποιεί την κάμερα για λήψη φωτογραφιών και βίντεο και για την τοποθέτηση ενός πανό AR στη σκηνή."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink käyttää kameraa valokuvien ja videoiden ottamiseen sekä AR-bannerin asettamiseen kuvaan."
           }
         }
       }
@@ -438,6 +456,12 @@
             "state" : "translated",
             "value" : "Το ShutterLink εγγράφει ήχο με τα βίντεό σας και «ακούει» για χειροκρότημα όταν είναι ενεργό το κλείστρο με χειροκρότημα."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink tallentaa videoihin äänen ja kuuntelee taputusta, kun taputuslaukaisu on päällä."
+          }
         }
       }
     },
@@ -544,6 +568,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Το ShutterLink αποθηκεύει τις φωτογραφίες και τα βίντεό σας στη βιβλιοθήκη φωτογραφιών σας."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink tallentaa ottamasi kuvat ja videot kuvakirjastoosi."
           }
         }
       }

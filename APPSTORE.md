@@ -1450,6 +1450,88 @@ https://m1zz.github.io/ShutterLink/el/privacy/
 
 https://m1zz.github.io/ShutterLink/el/
 
+## fi
+
+<!-- Suomi -->
+
+### 이름
+
+ShutterLink: banneriryhmäkuva
+
+### 부제
+
+Kaukosäädin ilman asennusta
+
+### 키워드
+
+luokkakokous,juhlat,tiimi,tapahtuma,perhe,selfie,kolmijalka,ajastin,AR,hymy,taputus,kämmen,bluetooth
+
+### 프로모션 텍스트
+
+Lisää oma banneri ryhmäkuvaan ilman painatusta. Kirjoita teksti, valitse teema, ja kaikki pitelevät sitä. Ystävän iPhonesta tulee kaukosäädin yhdellä QR-skannauksella.
+
+### 설명
+
+Ota klassinen ryhmäkuva, jossa kaikki pitelevät banneria, ilman että painat bannerin.
+Kirjoita teksti, valitse teema, ja banneri ilmestyy ryhmäsi eteen. Ystävän iPhonesta tulee kaukosäädin ilman asennusta.
+
+Banneri-tila
+Vaihda Banneriin, napauta lattiaa, ja banneri ilmestyy korkeudelle, jolla sitä pideltäisiin. Napauta seinää ripustaaksesi sen sinne. Vedä sitä ylös, alas tai sivuille, niin se seuraa sormeasi. Kahdella sormella voit kääntää tai skaalata sitä, tai napauttaa siirtopainiketta hienosäätääksesi eteen, taakse, sivuille, ylös ja alas.
+Banneri pysyy aina ryhmäsi edessä, joten näyttää siltä kuin kaikki pitelisivät sitä yhdessä.
+
+Tee siitä omasi
+Aloita 13 teemasta, kuten syysretki, kevätpiknik, ranta, pikkujoulut, syntymäpäivä, urheilupäivä, kannustus, valmistujaiset, häät ja tiimiretki.
+Kirjoita enintään kolme riviä tekstiä. Vaihda tausta, fontti, koristeet, värit ja muoto ja lisää oma logosi.
+Valitse kangas, vinyyli tai paperi. Kangasbanneri lerpattaa, ryppyyntyy ja heiluu tuulessa kuin oikea.
+
+Kaikki mukaan kuvaan
+Ajastin, kädetön laukaisu ja kaukosäädin toimivat Banneri-tilassa. Aseta puhelin kolmijalalle ja liity ryhmään. Kuvat tallentuvat Kuviin ja sovelluksen galleriaan.
+
+Kaukosäädin ilman asennusta
+Näytä QR-koodi kuvaavassa iPhonessa ja skannaa se toisen iPhonen kameralla. ShutterLink-kaukosäädin aukeaa heti App Clipinä ja yhdistyy. Rajaa live-kuvasta ja paina suljinta. Banneri-tilassa banneri näkyy myös live-kuvassa. Jos QR-koodi ei skannaudu, syötä nelinumeroinen koodi.
+
+Kädetön laukaisu
+Nosta kämmen, hymyilkää yhdessä tai taputtakaa, niin suljin laukeaa.
+Aseta ajastin 3–30 sekuntiin. Ääni laskee alas, salama vilkkuu mukana ja kaukosäädin värisee kädessäsi.
+Äänikehote ”Katsokaa kameraan” saa kaikkien huomion.
+
+Kukaan ei räpyttele
+Ota 3 tai 5 kuvan sarja, ja ShutterLink valitsee sen, jossa kaikilla on silmät auki ja hymy huulilla. Suodata galleria parhaisiin kuviin tai valitse itse toinen.
+
+Ketään ei leikata pois
+Näe, kuinka monta henkilöä on kuvassa, ja saat varoituksen, kun joku on reunalla. Vesivaaka ilmestyy, kun iPhone kallistuu.
+
+Kuvat päätyvät kaukosäätimelle
+Jokainen ottamasi kuva näkyy heti kaukosäädin-iPhonessa. Ilman sovellusta oleva ystävä voi tallentaa ja jakaa sen saman tien.
+
+Kameran täysi hallinta kaukosäätimestä
+Tarkennus ja valotus napauttamalla, valotuskorjaus, salama ja valo, ruudukko, zoomaus 0,5×–10× iPhone-mallista riippuen, etu- ja takakamera sekä video.
+Välikuvaus 3 sekunnin ja 1 minuutin välein auringonlaskuihin tai keskeneräisiin projekteihin.
+Kaukosäätimen yksinkertainen tila näyttää yhden ison suljinpainikkeen, jota kuka tahansa voi painaa.
+
+Suora Bluetooth, ei internetiä
+Kaksi iPhonea yhdistyy suoraan Bluetoothilla. Kun yhteys on muodostettu, se toimii vuorella, rannalla tai ulkomailla ilman Wi‑Fiä tai mobiilidataa. Tiliä ei tarvita.
+
+Kuvasi pysyvät sinulla
+Kuvat ja videot pysyvät kuvaavassa iPhonessa ja yhdistämässäsi kaukosäätimessä, eikä niitä koskaan lähetetä verkkoon. Parituskoodi muuttuu joka kerta, kun avaat sovelluksen, joten vain koodin tunteva kaukosäädin voi laukaista sulkimen.
+
+Hyvä tietää
+Vaatii iOS 17:n tai uudemman. Kaukosäädin tarvitsee toisen iPhonen.
+Kaukosäädin-iPhone tarvitsee internetin kerran, kun se lataa App Clipin ensimmäisen kerran.
+Salama, sarjat, zoomaus ja etukamera eivät ole käytettävissä Banneri-tilassa.
+
+### 지원 URL
+
+https://m1zz.github.io/ShutterLink/fi/support/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/ShutterLink/fi/privacy/
+
+### 마케팅 URL
+
+https://m1zz.github.io/ShutterLink/fi/
+
 ## 연령 등급
 
 <!-- 내용 문항이 전부 '해당 없음' 인 앱이면 아래 줄의 주석을 풀어라.

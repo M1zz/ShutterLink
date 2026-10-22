@@ -105,6 +105,12 @@
             "state" : "translated",
             "value" : "Τηλεχειριστήριο ShutterLink"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink-kaukosäädin"
+          }
         }
       }
     },
@@ -224,6 +230,12 @@
             "state" : "translated",
             "value" : "Το Τηλεχειριστήριο ShutterLink χρησιμοποιεί Bluetooth για να ελέγχει το κοντινό iPhone που βγάζει τις φωτογραφίες."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink-kaukosäädin käyttää Bluetoothia lähellä olevan kuvaavan iPhonen ohjaamiseen."
+          }
         }
       }
     },
@@ -330,6 +342,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Το Τηλεχειριστήριο ShutterLink αποθηκεύει στη βιβλιοθήκη σας τις φωτογραφίες που τραβάτε."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink-kaukosäädin tallentaa ottamasi kuvat kuvakirjastoosi."
           }
         }
       }
