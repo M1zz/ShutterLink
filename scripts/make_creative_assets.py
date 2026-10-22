@@ -22,8 +22,8 @@ RAW = ROOT / "docs" / "screenshots" / "raw"
 OUT = ROOT / "docs" / "screenshots" / "creative"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
-# 앱 언어 코드 → App Store Connect 로케일 (deploy.env LOCALES=ko,en-US,ja,en-GB,zh-Hans)
-STORE = {"en": "en-US", "ja": "ja", "zh-Hans": "zh-Hans"}
+# 앱 언어 코드 → App Store Connect 로케일 (deploy.env LOCALES=ko,en-US,ja,en-GB,zh-Hans,zh-Hant)
+STORE = {"en": "en-US", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant"}
 
 # (가로, 세로, 안전 영역 left, top, right, bottom)
 SPEC = {
@@ -38,6 +38,7 @@ SEARCH = {
     "en": ("Group photo banner", "The banner photo,<br>no printing", "Tap the ground and everyone's holding it"),
     "ja": ("集合写真 横断幕", "横断幕なしで<br>横断幕の集合写真", "床をタップすると、みんなの前に横断幕が置かれます"),
     "zh-Hans": ("合影 横幅", "不用印横幅，<br>也能拍横幅合影", "点一下地面，横幅就出现在大家面前"),
+    "zh-Hant": ("團體照 布條", "不用印布條，<br>也能拍布條團體照", "點一下地面，布條就出現在大家面前"),
 }
 
 # 헤더는 한 가지 약속: 우리 모임 현수막을 들고 찍는 단체사진.
@@ -47,6 +48,7 @@ HEADER = {
     "en": ("Group photo banner", "Your banner,<br>in every group shot"),
     "ja": ("集合写真 横断幕", "みんなの横断幕を<br>そのまま写真に"),
     "zh-Hans": ("横幅合影", "把你们的横幅，<br>带进每张合影"),
+    "zh-Hant": ("布條團體照", "把你們的布條，<br>帶進每張團體照"),
 }
 
 # ⚠️ 바탕 · 글자색은 마케팅 스크린샷(scripts/screens/make_marketing_screenshots.py)과 같다.

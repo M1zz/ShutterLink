@@ -33,6 +33,12 @@
             "state" : "translated",
             "value" : "ShutterLink 遥控器"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink 遙控器"
+          }
         }
       }
     },
@@ -80,6 +86,12 @@
             "state" : "translated",
             "value" : "ShutterLink 遥控器使用蓝牙控制附近的拍摄 iPhone。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink 遙控器使用藍牙控制附近的拍攝用 iPhone。"
+          }
         }
       }
     },
@@ -114,6 +126,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink 遥控器会将你拍摄的照片存入相册。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink 遙控器會將你拍攝的照片儲存到相簿。"
           }
         }
       }
