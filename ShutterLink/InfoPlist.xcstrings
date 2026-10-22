@@ -63,6 +63,12 @@
             "state" : "translated",
             "value" : "ShutterLink"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
         }
       }
     },
@@ -140,6 +146,12 @@
             "state" : "translated",
             "value" : "ShutterLink utilise le Bluetooth pour qu’un iPhone à proximité serve de télécommande de déclencheur."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink usa il Bluetooth per far funzionare un iPhone vicino come telecomando dello scatto."
+          }
         }
       }
     },
@@ -204,6 +216,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink utilise l’appareil photo pour prendre des photos et des vidéos et pour placer une banderole en RA dans la scène."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink usa la fotocamera per scattare foto e girare video e per inserire uno striscione AR nella scena."
           }
         }
       }
@@ -270,6 +288,12 @@
             "state" : "translated",
             "value" : "ShutterLink enregistre le son de vos vidéos et écoute un claquement de mains lorsque le déclencheur par applaudissement est activé."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink registra l’audio dei video e ascolta un applauso quando lo scatto con applauso è attivo."
+          }
         }
       }
     },
@@ -334,6 +358,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink enregistre vos photos et vidéos dans votre photothèque."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink salva le tue foto e i tuoi video nella libreria."
           }
         }
       }

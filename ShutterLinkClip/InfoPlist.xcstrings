@@ -63,6 +63,12 @@
             "state" : "translated",
             "value" : "Télécommande ShutterLink"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Telecomando ShutterLink"
+          }
         }
       }
     },
@@ -140,6 +146,12 @@
             "state" : "translated",
             "value" : "La télécommande ShutterLink utilise le Bluetooth pour piloter l’iPhone photographe à proximité."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il telecomando ShutterLink usa il Bluetooth per controllare l’iPhone fotocamera vicino."
+          }
         }
       }
     },
@@ -204,6 +216,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La télécommande ShutterLink enregistre dans votre photothèque les photos que vous prenez."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il telecomando ShutterLink salva nella libreria le foto che scatti."
           }
         }
       }

@@ -876,6 +876,88 @@ https://m1zz.github.io/ShutterLink/fr/privacy/
 
 https://m1zz.github.io/ShutterLink/fr/
 
+## it
+
+<!-- Italiano -->
+
+### 이름
+
+ShutterLink: striscione foto
+
+### 부제
+
+Telecomando senza installare
+
+### 키워드
+
+rimpatriata,festa,team,evento,famiglia,selfie,treppiede,timer,ar,fotocabina,sorriso,applauso,palmo
+
+### 프로모션 텍스트
+
+Metti uno striscione nella foto di gruppo, senza stampare. Scrivi il testo, scegli un tema e tutti lo reggono. L’iPhone di un amico diventa telecomando con un QR.
+
+### 설명
+
+Scatta la classica foto di gruppo con tutti che reggono uno striscione, senza stamparlo.
+Scrivi il testo, scegli un tema e uno striscione compare davanti al tuo gruppo. L’iPhone di un amico diventa il telecomando, senza installare nulla.
+
+Modalità Striscione
+Passa a Striscione, tocca il pavimento e lo striscione compare all’altezza a cui lo si reggerebbe. Tocca una parete per appenderlo lì. Trascinalo in alto, in basso o di lato e ti segue col dito. Con due dita puoi ruotarlo o ridimensionarlo, oppure usare il pulsante di spostamento per rifinirlo avanti, indietro, di lato, in alto e in basso.
+Lo striscione resta sempre davanti al gruppo, così sembra che lo reggano tutti insieme.
+
+Rendilo tuo
+Parti da 13 temi: gita d’autunno, picnic di primavera, spiaggia, festa di fine anno, compleanno, giornata dello sport, tifo, laurea, matrimonio e team building.
+Scrivi fino a tre righe di testo. Cambia sfondo, carattere, decorazioni, colori e forma e aggiungi il tuo logo.
+Scegli tessuto, vinile o carta. Uno striscione di tessuto si incurva, si increspa e ondeggia nella brezza come uno vero.
+
+Ci siete tutti
+Timer, scatto a mani libere e telecomando funzionano in modalità Striscione. Metti il telefono su un treppiede e unisciti al gruppo. Le foto vengono salvate in Foto e nella galleria dell’app.
+
+Un telecomando senza installare nulla
+Mostra il codice QR sull’iPhone fotocamera e scansionalo con la fotocamera di un altro iPhone. Il Telecomando ShutterLink si apre subito come App Clip e si connette. Inquadra dalla vista dal vivo e premi il pulsante di scatto. In modalità Striscione, lo striscione si vede anche nella vista dal vivo. Se il QR non si scansiona, inserisci il codice di 4 cifre.
+
+Scatto a mani libere
+Alza il palmo, sorridete insieme o battete le mani e scatta.
+Imposta un timer da 3 a 30 secondi. Una voce conta alla rovescia, il flash lampeggia a tempo e il telecomando vibra in mano.
+Un avviso vocale «Guardate la fotocamera» attira l’attenzione di tutti.
+
+Nessuno sbatte le palpebre
+Scatta una sequenza di 3 o 5 foto e ShutterLink sceglie quella in cui tutti hanno gli occhi aperti e sorridono. Filtra la galleria sugli scatti migliori o scegline un altro tu.
+
+Nessuno tagliato fuori
+Vedi quante persone ci sono nell’inquadratura e ricevi un avviso quando qualcuno è al bordo. Compare una livella quando l’iPhone è inclinato.
+
+Le foto arrivano sul telecomando
+Ogni foto che scatti compare subito sull’iPhone telecomando. Un amico senza l’app può salvarla e condividerla all’istante.
+
+Controllo completo della fotocamera dal telecomando
+Tocca per mettere a fuoco ed esporre, compensazione dell’esposizione, flash e luce, griglia, zoom da 0,5× a 10× a seconda dell’iPhone, fotocamere anteriore e posteriore e video.
+Scatto a intervalli da 3 secondi a 1 minuto per tramonti o lavori in corso.
+Una modalità semplice sul telecomando mostra un solo grande pulsante di scatto che chiunque può premere.
+
+Bluetooth diretto, senza Internet
+I due iPhone si connettono direttamente via Bluetooth. Una volta connessi, funziona in montagna, al mare o all’estero senza Wi‑Fi né rete cellulare. Non serve alcun account.
+
+Le tue foto restano tue
+Foto e video restano sull’iPhone fotocamera e sul telecomando connesso e non vengono mai caricati. Il codice di associazione cambia a ogni apertura dell’app, così solo un telecomando che lo conosce può far scattare.
+
+Da sapere
+Richiede iOS 17 o successivo. Il telecomando richiede un secondo iPhone.
+L’iPhone telecomando ha bisogno di Internet una volta, al primo download dell’App Clip.
+Flash, sequenze, zoom e fotocamera anteriore non sono disponibili in modalità Striscione.
+
+### 지원 URL
+
+https://m1zz.github.io/ShutterLink/it/support/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/ShutterLink/it/privacy/
+
+### 마케팅 URL
+
+https://m1zz.github.io/ShutterLink/it/
+
 ## 연령 등급
 
 <!-- 내용 문항이 전부 '해당 없음' 인 앱이면 아래 줄의 주석을 풀어라.

@@ -22,8 +22,8 @@ RAW = ROOT / "docs" / "screenshots" / "raw"
 OUT = ROOT / "docs" / "screenshots" / "creative"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
-# 앱 언어 코드 → App Store Connect 로케일 (deploy.env LOCALES=ko,en-US,ja,en-GB,zh-Hans,zh-Hant,ru,es-ES,de-DE,fr-FR)
-STORE = {"en": "en-US", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR"}
+# 앱 언어 코드 → App Store Connect 로케일 (deploy.env LOCALES=ko,en-US,ja,en-GB,zh-Hans,zh-Hant,ru,es-ES,de-DE,fr-FR,it)
+STORE = {"en": "en-US", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it"}
 
 # (가로, 세로, 안전 영역 left, top, right, bottom)
 SPEC = {
@@ -43,6 +43,7 @@ SEARCH = {
     "es": ("Pancarta foto de grupo", "La foto de grupo con<br>pancarta, sin imprimir", "Toca el suelo y todos la sujetan"),
     "de": ("Gruppenfoto Banner", "Das Gruppenfoto mit Banner,<br>ohne Druck", "Tippe auf den Boden — alle halten es"),
     "fr": ("Banderole photo de groupe", "La photo de groupe avec<br>banderole, sans impression", "Touchez le sol : tout le monde la tient"),
+    "it": ("Striscione foto di gruppo", "La foto di gruppo con<br>striscione, senza stampa", "Tocca il pavimento e tutti lo reggono"),
 }
 
 # 헤더는 한 가지 약속: 우리 모임 현수막을 들고 찍는 단체사진.
@@ -57,6 +58,7 @@ HEADER = {
     "es": ("Foto de grupo con pancarta", "Tu pancarta,<br>en cada foto de grupo"),
     "de": ("Gruppenfoto mit Banner", "Euer Banner<br>auf jedem Gruppenfoto"),
     "fr": ("Photo de groupe banderole", "Votre banderole,<br>sur chaque photo de groupe"),
+    "it": ("Foto di gruppo con striscione", "Il vostro striscione<br>in ogni foto di gruppo"),
 }
 
 # ⚠️ 바탕 · 글자색은 마케팅 스크린샷(scripts/screens/make_marketing_screenshots.py)과 같다.

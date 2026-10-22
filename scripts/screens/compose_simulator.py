@@ -115,6 +115,17 @@ CAPTIONS = {
  ("08-pairing", "07-pairing", "Montrez le QR code, c’est prêt", "Ni compte, ni association à configurer, ni accessoire"),
  ("09-simple", "06-simple", "Un gros bouton pour tous", "Un seul grand déclencheur que chacun peut presser"),
  ],
+ "it": [
+ ("01-banner", "banner", "Foto con striscione, senza stampare", "Tocca il pavimento e lo striscione appare davanti a tutti"),
+ ("02-banner-design", "bannerDesign", "Scegli un tema e scrivi il testo", "13 temi per rimpatriate, feste, lauree e altro"),
+ ("03-remote", "02-remote", "Un altro iPhone diventa telecomando", "Scansiona il QR, senza installare nulla"),
+ ("04-countdown", "04-countdown", "Scatta con il palmo della mano", "Palmo, applauso o sorriso, con conto alla rovescia a voce e luce"),
+ ("05-bestshot", "01-main", "Basta occhi chiusi", "Sceglie lo scatto in cui tutti hanno gli occhi aperti"),
+ ("06-reviews", "03-reviews", "Le foto arrivano sul telecomando", "Anche gli amici senza app possono salvarle e condividerle"),
+ ("07-gallery", "05-gallery", "Tutti gli scatti migliori", "Cambia con un altro della sequenza e condividi con AirDrop"),
+ ("08-pairing", "07-pairing", "Mostra il QR e sei pronto", "Niente account, niente associazioni, niente accessori"),
+ ("09-simple", "06-simple", "Un grande pulsante per tutti", "Un solo grande pulsante di scatto che chiunque può premere"),
+ ],
 }
 
 def font(size, bold):
