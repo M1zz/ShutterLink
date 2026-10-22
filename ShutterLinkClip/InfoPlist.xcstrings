@@ -69,6 +69,12 @@
             "state" : "translated",
             "value" : "Telecomando ShutterLink"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Controle ShutterLink"
+          }
         }
       }
     },
@@ -152,6 +158,12 @@
             "state" : "translated",
             "value" : "Il telecomando ShutterLink usa il Bluetooth per controllare l’iPhone fotocamera vicino."
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O controle do ShutterLink usa o Bluetooth para comandar o iPhone da câmera que está por perto."
+          }
         }
       }
     },
@@ -222,6 +234,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Il telecomando ShutterLink salva nella libreria le foto che scatti."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O controle do ShutterLink salva na sua fototeca as fotos que você tira."
           }
         }
       }

@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade do ShutterLink</title>
+<meta name="description" content="Política de privacidade do ShutterLink e do Controle ShutterLink (App Clip).">
+<link rel="icon" href="../../icon.png">
+<link rel="canonical" href="https://m1zz.github.io/ShutterLink/pt-BR/privacy/">
+<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/privacy/">
+<link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/privacy/">
+<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/ShutterLink/en/privacy/">
+<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/privacy/">
+<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/privacy/">
+<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/privacy/">
+<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/privacy/">
+<link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/privacy/">
+<link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/privacy/">
+<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/privacy/">
+<link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/privacy/">
+<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/privacy/">
+<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/privacy/">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<nav class="nav">
+  <a class="brand" href="../"><img src="../../icon.png" alt="">ShutterLink</a>
+  <a href="../">Sobre</a>
+  <a href="../support/">Suporte</a>
+  <a href="./" aria-current="page">Política de Privacidade</a>
+  <a href="../../privacy/" hreflang="ko" lang="ko">한국어</a>
+  <a href="../../en/privacy/" hreflang="en" lang="en">English</a>
+  <a href="../../ja/privacy/" hreflang="ja" lang="ja">日本語</a>
+  <a href="../../zh-Hans/privacy/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+  <a href="../../zh-Hant/privacy/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+  <a href="../../ru/privacy/" hreflang="ru" lang="ru">Русский</a>
+  <a href="../../es/privacy/" hreflang="es" lang="es">Español</a>
+  <a href="../../de/privacy/" hreflang="de" lang="de">Deutsch</a>
+  <a href="../../fr/privacy/" hreflang="fr" lang="fr">Français</a>
+  <a href="../../it/privacy/" hreflang="it" lang="it">Italiano</a>
+</nav>
+<main class="doc">
+  <h1>Política de Privacidade</h1>
+  <p class="meta">Em vigor desde 16 de outubro de 2026 &middot; Vale para o ShutterLink (app para iPhone) e o Controle ShutterLink (App Clip)</p>
+
+  <section class="panel">
+    <h2>Resumo</h2>
+    <p><strong>O ShutterLink não coleta dados pessoais como nome, contatos, localização ou fotos.</strong> O desenvolvedor não mantém nenhum servidor; não há conta nem ferramentas de publicidade ou rastreamento. As fotos e os vídeos que você faz são salvos apenas na fototeca do iPhone que os fez, e os dois iPhones conversam direto por Bluetooth. Para saber quantos dispositivos usam o app e corrigir erros, ele envia só estatísticas de uso anônimas e relatórios de falhas ao Apple iCloud (seção 4).</p>
+  </section>
+
+  <section class="panel">
+    <h2>1. O que os dois iPhones trocam</h2>
+    <p>O iPhone da câmera (ShutterLink) e o iPhone do controle (Controle ShutterLink) se conectam diretamente por Bluetooth Low Energy a curta distância. Nada passa pela internet nem por servidores de terceiros.</p>
+    <div class="table-wrap">
+      <table>
+        <tr><th>Sentido</th><th>Conteúdo</th><th>Finalidade</th></tr>
+        <tr><td>Controle &rarr; câmera</td><td>Código de pareamento de 4 dígitos; comandos de obturador, gravação, temporizador, zoom e troca de câmera</td><td>Confirmar a conexão e controlar a foto</td></tr>
+        <tr><td>Câmera &rarr; controle</td><td>Valores de estado, como modo de disparo, tempo de gravação, temporizador e nível de zoom</td><td>Mostrar o estado no controle</td></tr>
+        <tr><td>Câmera &rarr; controle</td><td>Vídeo de prévia em baixa resolução (o que a câmera vê)</td><td>Enquadrar a foto pelo controle</td></tr>
+      </table>
+    </div>
+    <p>A prévia é transmitida em tempo real apenas enquanto há conexão, e o controle não a armazena. Um novo código de pareamento é criado toda vez que o app abre, e só um controle que conhece o código pode enviar comandos e receber a prévia.</p>
+  </section>
+
+  <section class="panel">
+    <h2>2. Permissões</h2>
+    <ul>
+      <li><strong>Câmera</strong> (ShutterLink) &mdash; para tirar fotos e gravar vídeos.</li>
+      <li><strong>Microfone</strong> (ShutterLink) &mdash; para gravar o som dos seus vídeos.</li>
+      <li><strong>Adicionar a Fotos</strong> (ShutterLink) &mdash; para salvar as fotos e os vídeos que você faz. É um acesso só de adição, então o app nunca lê as fotos que você já tem.</li>
+      <li><strong>Bluetooth</strong> (ShutterLink e Controle ShutterLink) &mdash; para conectar os dois iPhones.</li>
+    </ul>
+    <p>Você pode desativar qualquer uma delas a qualquer momento no app Ajustes do iPhone. Só deixará de funcionar o recurso que precisa dela.</p>
+  </section>
+
+  <section class="panel">
+    <h2>3. O que fica guardado no seu dispositivo</h2>
+    <p>O único conteúdo que o ShutterLink salva são as fotos e os vídeos que você faz, que vão para a fototeca do iPhone que os fez. Além disso, o app guarda no dispositivo alguns valores, como quantas vezes foi aberto e quando foi instalado pela primeira vez. Eles servem apenas para as estatísticas de uso anônimas abaixo. O Controle ShutterLink não guarda nada.</p>
+  </section>
+
+  <section class="panel">
+    <h2>4. Estatísticas de uso anônimas</h2>
+    <p>Para entender quantas pessoas usam o app e corrigir erros, o ShutterLink envia as seguintes estatísticas anônimas ao Apple iCloud (CloudKit). Só o desenvolvedor pode lê-las.</p>
+    <ul>
+      <li>Um ID aleatório criado na instalação (sem ligação com seu dispositivo, seu ID Apple ou outros apps; muda se você reinstalar)</li>
+      <li>Versão do app, versão do iOS e ajustes de região e idioma</li>
+      <li>Quantas vezes o app foi aberto e em quais dias, a data de instalação e os dias desde a instalação</li>
+      <li>Relatórios de falhas e travamentos (versão do app, versão do iOS, tipo de dispositivo e detalhes técnicos do erro)</li>
+    </ul>
+    <p>Elas nunca incluem seu nome, contatos, localização, fotos, vídeos nem a prévia ao vivo. Só são enviadas se você estiver conectado ao iCloud. O Controle ShutterLink (o App Clip) não envia nada.</p>
+  </section>
+
+  <section class="panel">
+    <h2>5. App Clip</h2>
+    <p>O Controle ShutterLink é um App Clip, então abre sem instalação quando você lê o QR code. O download do App Clip é feito pela Apple de acordo com a <a href="https://www.apple.com/legal/privacy/">Política de Privacidade da Apple</a>. O endereço do QR code contém apenas o código de pareamento de 4 dígitos.</p>
+  </section>
+
+  <section class="panel">
+    <h2>6. Este site</h2>
+    <p>As páginas Sobre, Suporte e Política de Privacidade ficam no GitHub Pages. Quando você abre uma página, o GitHub pode tratar registros de acesso, como seu endereço IP, de acordo com a <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">Declaração Geral de Privacidade do GitHub</a>. Este site não usa cookies nem scripts de análise.</p>
+  </section>
+
+  <section class="panel">
+    <h2>7. Privacidade de crianças</h2>
+    <p>O app não coleta dados pessoais de ninguém, inclusive de crianças.</p>
+  </section>
+
+  <section class="panel">
+    <h2>8. Alterações</h2>
+    <p>Se esta política mudar, atualizaremos esta página e a data de vigência acima. Se uma mudança fizer o app começar a coletar informações, avisaremos nesta página e nas notas de atualização do app antes de ela entrar em vigor.</p>
+  </section>
+
+  <section class="panel">
+    <h2>9. Contato</h2>
+    <p>Para dúvidas sobre privacidade, abra uma issue no <a href="https://github.com/M1zz/ShutterLink/issues">GitHub Issues</a>.</p>
+  </section>
+
+  <footer>
+    <span><a href="../">Sobre</a></span><span><a href="../support/">Suporte</a></span>
+  </footer>
+</main>
+</body>
+</html>

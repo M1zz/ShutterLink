@@ -69,6 +69,12 @@
             "state" : "translated",
             "value" : "ShutterLink"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
         }
       }
     },
@@ -152,6 +158,12 @@
             "state" : "translated",
             "value" : "ShutterLink usa il Bluetooth per far funzionare un iPhone vicino come telecomando dello scatto."
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O ShutterLink usa o Bluetooth para que um iPhone por perto funcione como controle remoto do obturador."
+          }
         }
       }
     },
@@ -222,6 +234,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink usa la fotocamera per scattare foto e girare video e per inserire uno striscione AR nella scena."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O ShutterLink usa a câmera para tirar fotos e gravar vídeos e para colocar uma faixa em RA na cena."
           }
         }
       }
@@ -294,6 +312,12 @@
             "state" : "translated",
             "value" : "ShutterLink registra l’audio dei video e ascolta un applauso quando lo scatto con applauso è attivo."
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O ShutterLink grava o áudio dos seus vídeos e escuta uma palma quando o disparo por palmas está ligado."
+          }
         }
       }
     },
@@ -364,6 +388,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink salva le tue foto e i tuoi video nella libreria."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O ShutterLink salva suas fotos e vídeos na sua fototeca."
           }
         }
       }

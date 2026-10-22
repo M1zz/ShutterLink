@@ -958,6 +958,88 @@ https://m1zz.github.io/ShutterLink/it/privacy/
 
 https://m1zz.github.io/ShutterLink/it/
 
+## pt-BR
+
+<!-- Português (Brasil) -->
+
+### 이름
+
+ShutterLink: foto com faixa
+
+### 부제
+
+Controle remoto sem instalar
+
+### 키워드
+
+reencontro,festa,equipe,evento,família,selfie,tripé,temporizador,ra,cabine,sorriso,palmas,bluetooth
+
+### 프로모션 텍스트
+
+Ponha uma faixa na foto em grupo, sem imprimir nada. Escreva seu texto, escolha um tema e todos a seguram. O iPhone de um amigo vira o controle com um QR code.
+
+### 설명
+
+Tire a clássica foto em grupo com todos segurando uma faixa, sem imprimir nenhuma.
+Escreva seu texto, escolha um tema e uma faixa aparece na frente do seu grupo. O iPhone de um amigo vira o controle, sem instalar nada.
+
+Modo Faixa
+Mude para Faixa, toque no chão e a faixa aparece na altura em que as pessoas a segurariam. Toque numa parede para pendurá-la ali. Arraste para cima, para baixo ou para os lados e ela acompanha seu dedo. Com dois dedos você a gira ou redimensiona, ou toque no botão de mover para ajustá-la com precisão para a frente, para trás, para os lados, para cima e para baixo.
+A faixa sempre fica na frente do grupo, então parece que todos a seguram juntos.
+
+Deixe com a sua cara
+Comece por um dos 13 temas: retiro de outono, piquenique de primavera, praia, festa de fim de ano, aniversário, dia do esporte, torcida, formatura, casamento e confraternização da equipe.
+Escreva até três linhas de texto. Mude o fundo, a fonte, a decoração, as cores e o formato, e acrescente seu próprio logotipo.
+Escolha tecido, vinil ou papel. Uma faixa de tecido cai, faz dobras e balança com a brisa como uma de verdade.
+
+Todo mundo aparece
+Temporizador, disparo sem as mãos e controle funcionam no modo Faixa. Deixe o celular num tripé e entre no grupo. As fotos são salvas em Fotos e na galeria do app.
+
+Um controle sem instalar nada
+Mostre o QR code no iPhone da câmera e leia com a câmera de outro iPhone. O Controle ShutterLink abre na hora como App Clip e se conecta. Enquadre pela imagem ao vivo e aperte o obturador. No modo Faixa, a faixa também aparece na imagem ao vivo. Se o QR code não ler, digite o código de 4 dígitos.
+
+Disparo sem as mãos
+Levante a palma, sorriam juntos ou batam palmas e o obturador dispara.
+Defina um temporizador de 3 a 30 segundos. Uma voz faz a contagem, o flash pisca junto e o controle vibra na sua mão.
+Um aviso de voz “Olhem para a câmera” chama a atenção de todos.
+
+Ninguém pisca
+Faça uma rajada de 3 ou 5 fotos e o ShutterLink escolhe aquela em que todos estão de olhos abertos e sorrindo. Filtre a galeria só com as melhores ou escolha outra você mesmo.
+
+Ninguém fica cortado
+Veja quantas pessoas estão no quadro e receba um aviso quando alguém estiver na borda. Um nível aparece quando o iPhone inclina.
+
+As fotos chegam ao controle
+Cada foto que você tira aparece na hora no iPhone do controle. Um amigo sem o app pode salvá-la e compartilhá-la na mesma hora.
+
+Controle total da câmera pelo controle
+Toque para focar e expor, compensação de exposição, flash e luz, grade, zoom de 0,5× a 10× conforme o iPhone, câmeras frontal e traseira e vídeo.
+Disparo por intervalo de 3 segundos a 1 minuto para pores do sol ou projetos em andamento.
+Um modo simples no controle mostra um único botão grande de obturador que qualquer um aperta.
+
+Bluetooth direto, sem internet
+Os dois iPhones se conectam direto por Bluetooth. Depois de conectados, funciona na montanha, na praia ou no exterior sem Wi‑Fi nem dados móveis. Não precisa de conta.
+
+Suas fotos ficam com você
+Fotos e vídeos ficam no iPhone da câmera e no controle conectado e nunca são enviados. O código de pareamento muda toda vez que você abre o app, então só um controle que o conhece pode disparar o obturador.
+
+Bom saber
+Requer iOS 17 ou posterior. O controle precisa de um segundo iPhone.
+O iPhone do controle precisa de internet uma vez, na primeira vez que baixa o App Clip.
+Flash, rajadas, zoom e câmera frontal não estão disponíveis no modo Faixa.
+
+### 지원 URL
+
+https://m1zz.github.io/ShutterLink/pt-BR/support/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/ShutterLink/pt-BR/privacy/
+
+### 마케팅 URL
+
+https://m1zz.github.io/ShutterLink/pt-BR/
+
 ## 연령 등급
 
 <!-- 내용 문항이 전부 '해당 없음' 인 앱이면 아래 줄의 주석을 풀어라.
