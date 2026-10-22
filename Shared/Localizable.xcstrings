@@ -74,6 +74,12 @@
             "state" : "translated",
             "value" : "%lld"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
         }
       }
     },
@@ -149,6 +155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld คนในเฟรม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld người trong khung"
           }
         }
       }
@@ -226,6 +238,12 @@
             "state" : "translated",
             "value" : "%lld ภาพ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ảnh"
+          }
         }
       }
     },
@@ -301,6 +319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถ่าย %lld ภาพ เลือกภาพที่ดีที่สุด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ảnh, đã chọn ảnh đẹp nhất"
           }
         }
       }
@@ -378,6 +402,12 @@
             "state" : "translated",
             "value" : "เชื่อมต่อรีโมต %lld เครื่อง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã kết nối %lld điều khiển"
+          }
         }
       }
     },
@@ -454,6 +484,12 @@
             "state" : "translated",
             "value" : "เลือกแล้ว %lld รายการ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã chọn %lld"
+          }
         }
       }
     },
@@ -528,6 +564,12 @@
           }
         },
         "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld°"
+          }
+        },
+        "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld°"
@@ -608,6 +650,12 @@
             "state" : "translated",
             "value" : "%lld นาที"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld phút"
+          }
         }
       }
     },
@@ -684,6 +732,12 @@
             "state" : "translated",
             "value" : "%lld วินาที"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld giây"
+          }
         }
       }
     },
@@ -756,6 +810,12 @@
           }
         },
         "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0000"
+          }
+        },
+        "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "0000"
@@ -836,6 +896,12 @@
             "state" : "translated",
             "value" : "สีเน้น (ขอบ · แถบ)"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Màu nhấn (viền · sọc)"
+          }
         }
       }
     },
@@ -911,6 +977,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เพิ่มภาพโลโก้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thêm ảnh logo"
           }
         }
       }
@@ -988,6 +1060,12 @@
             "state" : "translated",
             "value" : "ปรับตำแหน่ง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chỉnh vị trí"
+          }
         }
       }
     },
@@ -1063,6 +1141,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ประกาศตัวไม่สำเร็จ: %@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phát tín hiệu thất bại: %@"
           }
         }
       }
@@ -1140,6 +1224,12 @@
             "state" : "translated",
             "value" : "ทั้งหมด"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tất cả"
+          }
         }
       }
     },
@@ -1216,6 +1306,12 @@
             "state" : "translated",
             "value" : "อนุญาตการเข้าถึง Bluetooth ในการตั้งค่าเพื่อควบคุมกล้อง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy cho phép truy cập Bluetooth trong Cài đặt để điều khiển camera."
+          }
         }
       }
     },
@@ -1291,6 +1387,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใครก็เป็นรีโมตได้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ai cũng có thể làm điều khiển"
           }
         }
       }
@@ -1369,6 +1471,12 @@
             "state" : "translated",
             "value" : "ใช้"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Áp dụng"
+          }
         }
       }
     },
@@ -1444,6 +1552,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ขอให้ทุกคนมองกล้อง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhắc mọi người nhìn vào camera"
           }
         }
       }
@@ -1521,6 +1635,12 @@
             "state" : "translated",
             "value" : "สัดส่วนภาพ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tỷ lệ khung hình"
+          }
         }
       }
     },
@@ -1596,6 +1716,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "อัตโนมัติ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tự động"
           }
         }
       }
@@ -1673,6 +1799,12 @@
             "state" : "translated",
             "value" : "ปิดการถ่ายอัตโนมัติ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã tắt chụp tự động"
+          }
         }
       }
     },
@@ -1748,6 +1880,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใบไม้ร่วง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lá thu"
           }
         }
       }
@@ -1825,6 +1963,12 @@
             "state" : "translated",
             "value" : "เที่ยวฤดูใบไม้ร่วง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dã ngoại mùa thu"
+          }
         }
       }
     },
@@ -1900,6 +2044,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "พื้นหลัง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nền"
           }
         }
       }
@@ -1977,6 +2127,12 @@
             "state" : "translated",
             "value" : "สีพื้นหลัง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Màu nền"
+          }
         }
       }
     },
@@ -2052,6 +2208,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ลูกโป่ง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bóng bay"
           }
         }
       }
@@ -2129,6 +2291,12 @@
             "state" : "translated",
             "value" : "แบนเนอร์"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Băng rôn"
+          }
         }
       }
     },
@@ -2204,6 +2372,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ออกแบบแบนเนอร์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thiết kế băng rôn"
           }
         }
       }
@@ -2281,6 +2455,12 @@
             "state" : "translated",
             "value" : "ภาพที่ดีที่สุด"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ảnh đẹp nhất"
+          }
         }
       }
     },
@@ -2356,6 +2536,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เลือกภาพที่ดีที่สุดจาก %lld ภาพ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ảnh đẹp nhất trong %lld ảnh"
           }
         }
       }
@@ -2433,6 +2619,12 @@
             "state" : "translated",
             "value" : "ภาพที่ดีที่สุด"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ảnh đẹp nhất"
+          }
         }
       }
     },
@@ -2508,6 +2700,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "วันเกิด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sinh nhật"
           }
         }
       }
@@ -2585,6 +2783,12 @@
             "state" : "translated",
             "value" : "Bluetooth ปิดอยู่"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth đang tắt"
+          }
         }
       }
     },
@@ -2660,6 +2864,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่รองรับ Bluetooth LE"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không hỗ trợ Bluetooth LE"
           }
         }
       }
@@ -2737,6 +2947,12 @@
             "state" : "translated",
             "value" : "ไม่ได้รับอนุญาตใช้ Bluetooth"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quyền Bluetooth bị từ chối"
+          }
         }
       }
     },
@@ -2812,6 +3028,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bluetooth พร้อมใช้งาน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth sẵn sàng"
           }
         }
       }
@@ -2889,6 +3111,12 @@
             "state" : "translated",
             "value" : "ใช้ Bluetooth ไม่ได้"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth không khả dụng"
+          }
         }
       }
     },
@@ -2964,6 +3192,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ซานส์ตัวหนา"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sans đậm"
           }
         }
       }
@@ -3041,6 +3275,12 @@
             "state" : "translated",
             "value" : "บรรทัดล่าง: วันที่ · สถานที่"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dòng dưới: ngày · địa điểm"
+          }
         }
       }
     },
@@ -3116,6 +3356,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ข้อความด้านล่าง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chữ phía dưới"
           }
         }
       }
@@ -3193,6 +3439,12 @@
             "state" : "translated",
             "value" : "สว่างขึ้น"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sáng hơn"
+          }
         }
       }
     },
@@ -3268,6 +3520,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถ่ายต่อเนื่อง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chụp liên tiếp"
           }
         }
       }
@@ -3345,6 +3603,12 @@
             "state" : "translated",
             "value" : "ต้องอนุญาตให้เข้าถึงกล้อง เปิดได้ที่ การตั้งค่า > ShutterLink"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cần quyền truy cập camera. Hãy bật trong Cài đặt > ShutterLink."
+          }
         }
       }
     },
@@ -3420,6 +3684,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ยกเลิก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hủy"
           }
         }
       }
@@ -3497,6 +3767,12 @@
             "state" : "translated",
             "value" : "ยกเลิกตัวตั้งเวลา"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hủy hẹn giờ"
+          }
         }
       }
     },
@@ -3572,6 +3848,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถ่ายภาพไม่สำเร็จ: %@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chụp thất bại: %@"
           }
         }
       }
@@ -3649,6 +3931,12 @@
             "state" : "translated",
             "value" : "งานฉลอง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lễ kỷ niệm"
+          }
         }
       }
     },
@@ -3724,6 +4012,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เปลี่ยนโลโก้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đổi logo"
           }
         }
       }
@@ -3801,6 +4095,12 @@
             "state" : "translated",
             "value" : "ตรวจสอบการเข้าถึงรูปภาพในการตั้งค่า"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy kiểm tra quyền truy cập Ảnh trong Cài đặt."
+          }
         }
       }
     },
@@ -3876,6 +4176,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เชียร์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cổ vũ"
           }
         }
       }
@@ -3953,6 +4259,12 @@
             "state" : "translated",
             "value" : "เลือก “แบนเนอร์” พิมพ์ข้อความและเลือกสี แล้วแตะที่พื้น แบนเนอร์จะอยู่กับที่ และคนที่ยืนอยู่ด้านหน้าจะดูเหมือนกำลังถืออยู่"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn Băng rôn, viết nội dung và chọn màu, rồi chạm vào sàn. Băng rôn sẽ đứng yên tại chỗ, còn người đứng phía trước trông như đang cầm nó."
+          }
         }
       }
     },
@@ -4028,6 +4340,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คริสต์มาส"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giáng sinh"
           }
         }
       }
@@ -4105,6 +4423,12 @@
             "state" : "translated",
             "value" : "ปรบมือ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vỗ tay"
+          }
         }
       }
     },
@@ -4180,6 +4504,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ปรบมือดัง ๆ หนึ่งครั้งเพื่อเริ่มจับเวลา"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vỗ tay thật to một lần để bắt đầu hẹn giờ."
           }
         }
       }
@@ -4257,6 +4587,12 @@
             "state" : "translated",
             "value" : "ชัตเตอร์ปรบมือ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chụp bằng tiếng vỗ tay"
+          }
         }
       }
     },
@@ -4332,6 +4668,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ชัตเตอร์ปรบมือต้องใช้ไมโครโฟน เปิดได้ที่ การตั้งค่า > ShutterLink"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chụp bằng tiếng vỗ tay cần quyền truy cập micrô. Hãy bật trong Cài đặt > ShutterLink."
           }
         }
       }
@@ -4409,6 +4751,12 @@
             "state" : "translated",
             "value" : "คลาสสิก"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cổ điển"
+          }
         }
       }
     },
@@ -4484,6 +4832,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ปิด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đóng"
           }
         }
       }
@@ -4561,6 +4915,12 @@
             "state" : "translated",
             "value" : "สี"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Màu sắc"
+          }
         }
       }
     },
@@ -4636,6 +4996,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เวิร์กช็อปบริษัท"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hội thảo công ty"
           }
         }
       }
@@ -4713,6 +5079,12 @@
             "state" : "translated",
             "value" : "ซานส์แบบแคบ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sans hẹp"
+          }
         }
       }
     },
@@ -4788,6 +5160,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เชื่อมต่อ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kết nối"
           }
         }
       }
@@ -4865,6 +5243,12 @@
             "state" : "translated",
             "value" : "เชื่อมต่อแล้ว"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã kết nối"
+          }
         }
       }
     },
@@ -4940,6 +5324,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กำลังเชื่อมต่อ…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang kết nối…"
           }
         }
       }
@@ -5017,6 +5407,12 @@
             "state" : "translated",
             "value" : "สร้างแบนเนอร์ไม่ได้: %@"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không thể tạo băng rôn: %@"
+          }
         }
       }
     },
@@ -5092,6 +5488,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่พบกล้อง ตรวจสอบว่าเปิด ShutterLink บน iPhone ตัวถ่ายภาพ และเปิด Bluetooth อยู่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không tìm thấy camera. Hãy chắc chắn ShutterLink đang mở trên iPhone chụp và Bluetooth đã bật."
           }
         }
       }
@@ -5169,6 +5571,12 @@
             "state" : "translated",
             "value" : "จับคู่กับกล้องไม่ได้"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không thể ghép nối với camera."
+          }
         }
       }
     },
@@ -5244,6 +5652,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "บันทึกลงในรูปภาพไม่ได้ %@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không thể lưu vào Ảnh. %@"
           }
         }
       }
@@ -5321,6 +5735,12 @@
             "state" : "translated",
             "value" : "แสดงแบนเนอร์ไม่ได้: %@"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không thể hiển thị băng rôn: %@"
+          }
         }
       }
     },
@@ -5396,6 +5816,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เริ่มบันทึกไม่ได้: %@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không thể bắt đầu quay: %@"
           }
         }
       }
@@ -5473,6 +5899,12 @@
             "state" : "translated",
             "value" : "อัปเดตดีไซน์ไม่ได้"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không thể cập nhật thiết kế."
+          }
         }
       }
     },
@@ -5548,6 +5980,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "นับถอยหลัง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đếm ngược"
           }
         }
       }
@@ -5625,6 +6063,12 @@
             "state" : "translated",
             "value" : "มืดลง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tối hơn"
+          }
         }
       }
     },
@@ -5700,6 +6144,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ของตกแต่ง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trang trí"
           }
         }
       }
@@ -5777,6 +6227,12 @@
             "state" : "translated",
             "value" : "ลบ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa"
+          }
         }
       }
     },
@@ -5852,6 +6308,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ลบภาพที่เลือกไหม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa các ảnh đã chọn?"
           }
         }
       }
@@ -5929,6 +6391,12 @@
             "state" : "translated",
             "value" : "ลายทางเฉียง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sọc chéo"
+          }
         }
       }
     },
@@ -6004,6 +6472,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ทิศทาง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hướng"
           }
         }
       }
@@ -6081,6 +6555,12 @@
             "state" : "translated",
             "value" : "ตัดการเชื่อมต่อ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ngắt kết nối"
+          }
         }
       }
     },
@@ -6156,6 +6636,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เสร็จสิ้น"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xong"
           }
         }
       }
@@ -6233,6 +6719,12 @@
             "state" : "translated",
             "value" : "ลากเพื่อเลื่อนแบนเนอร์ไปบนพื้น"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kéo để trượt băng rôn trên sàn."
+          }
         }
       }
     },
@@ -6308,6 +6800,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โหมดขับรถ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chế độ lái xe"
           }
         }
       }
@@ -6385,6 +6883,12 @@
             "state" : "translated",
             "value" : "ใส่รหัส 4 หลักที่แสดงบน iPhone ตัวถ่ายภาพ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhập mã 4 chữ số hiển thị trên iPhone chụp."
+          }
         }
       }
     },
@@ -6460,6 +6964,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ทุก %@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mỗi %@"
           }
         }
       }
@@ -6537,6 +7047,12 @@
             "state" : "translated",
             "value" : "ทุกภาพจะถูกเก็บไว้ในแกลเลอรีของ ShutterLink ด้วย เมื่อเปิดการส่ง คนที่ถือรีโมตจะได้รับสำเนาของทุกภาพที่ถ่าย"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mọi ảnh cũng được lưu trong thư viện ShutterLink. Khi bật gửi ảnh, người cầm điều khiển sẽ nhận được bản sao của mỗi ảnh họ chụp."
+          }
         }
       }
     },
@@ -6612,6 +7128,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ทุกคนมองกล้องด้วยนะ!"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mọi người nhìn vào camera nào!"
           }
         }
       }
@@ -6689,6 +7211,12 @@
             "state" : "translated",
             "value" : "การรับแสง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phơi sáng"
+          }
         }
       }
     },
@@ -6764,6 +7292,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ผ้า (ด้าน)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vải (mờ)"
           }
         }
       }
@@ -6841,6 +7375,12 @@
             "state" : "translated",
             "value" : "หันหน้าหาฉัน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hướng về tôi"
+          }
         }
       }
     },
@@ -6916,6 +7456,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เที่ยวใบไม้ร่วงด้วยกัน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cùng đi chơi mùa thu"
           }
         }
       }
@@ -6993,6 +7539,12 @@
             "state" : "translated",
             "value" : "ตัวกรอง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lọc"
+          }
         }
       }
     },
@@ -7068,6 +7620,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แฟลช"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đèn flash"
           }
         }
       }
@@ -7145,6 +7703,12 @@
             "state" : "translated",
             "value" : "นับถอยหลังด้วยแฟลช"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đếm ngược bằng đèn flash"
+          }
         }
       }
     },
@@ -7220,6 +7784,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ดอกไม้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoa"
           }
         }
       }
@@ -7297,6 +7867,12 @@
             "state" : "translated",
             "value" : "แบบอักษร"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phông chữ"
+          }
         }
       }
     },
@@ -7372,6 +7948,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แกลเลอรี"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thư viện"
           }
         }
       }
@@ -7449,6 +8031,12 @@
             "state" : "translated",
             "value" : "ไล่สี"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chuyển màu"
+          }
         }
       }
     },
@@ -7524,6 +8112,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รับปริญญา"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lễ tốt nghiệp"
           }
         }
       }
@@ -7601,6 +8195,12 @@
             "state" : "translated",
             "value" : "เส้นตาราง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lưới"
+          }
         }
       }
     },
@@ -7676,6 +8276,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ภาพหมู่ · แตะภาพเพื่อกำหนดเป็นภาพที่ดีที่สุด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ảnh nhóm · chạm vào một ảnh để đánh dấu là đẹp nhất"
           }
         }
       }
@@ -7753,6 +8359,12 @@
             "state" : "translated",
             "value" : "ภาพหมู่จะถ่ายหลายภาพและเลือกภาพที่ทุกคนลืมตา รีโมตจะได้รับสำเนาไว้เก็บ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ảnh nhóm chụp nhiều ảnh và chọn ảnh mà mọi người đều mở mắt. Điều khiển cũng nhận một bản sao để lưu."
+          }
         }
       }
     },
@@ -7828,6 +8440,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ท่าทางมือ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cử chỉ tay"
           }
         }
       }
@@ -7905,6 +8523,12 @@
             "state" : "translated",
             "value" : "ชัตเตอร์ไม่ต้องใช้มือ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chụp rảnh tay"
+          }
         }
       }
     },
@@ -7980,6 +8604,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "หัวใจ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trái tim"
           }
         }
       }
@@ -8057,6 +8687,12 @@
             "state" : "translated",
             "value" : "ความสูง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chiều cao"
+          }
         }
       }
     },
@@ -8132,6 +8768,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ความสูงจากพื้น"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Độ cao so với sàn"
           }
         }
       }
@@ -8209,6 +8851,12 @@
             "state" : "translated",
             "value" : "ช่วยเหลือ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trợ giúp"
+          }
         }
       }
     },
@@ -8284,6 +8932,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถือแบนเนอร์โดยไม่ต้องเอามาเอง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cầm băng rôn mà không cần mang theo"
           }
         }
       }
@@ -8361,6 +9015,12 @@
             "state" : "translated",
             "value" : "วิธีใช้ ShutterLink"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cách dùng ShutterLink"
+          }
         }
       }
     },
@@ -8436,6 +9096,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ช่วงเวลา"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khoảng cách"
           }
         }
       }
@@ -8513,6 +9179,12 @@
             "state" : "translated",
             "value" : "ระดับน้ำ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thước thủy"
+          }
         }
       }
     },
@@ -8588,6 +9260,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โลโก้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logo"
           }
         }
       }
@@ -8665,6 +9343,12 @@
             "state" : "translated",
             "value" : "หน้าตา"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diện mạo"
+          }
         }
       }
     },
@@ -8740,6 +9424,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กำลังค้นหากล้อง %@…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang tìm camera %@…"
           }
         }
       }
@@ -8817,6 +9507,12 @@
             "state" : "translated",
             "value" : "ข้อความหลัก"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thông điệp chính"
+          }
         }
       }
     },
@@ -8892,6 +9588,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ข้อความหลัก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chữ chính"
           }
         }
       }
@@ -8969,6 +9671,12 @@
             "state" : "translated",
             "value" : "วัสดุ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chất liệu"
+          }
         }
       }
     },
@@ -9044,6 +9752,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "วัสดุ · ขนาด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chất liệu · Kích thước"
           }
         }
       }
@@ -9121,6 +9835,12 @@
             "state" : "translated",
             "value" : "โหมด"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chế độ"
+          }
         }
       }
     },
@@ -9196,6 +9916,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เพิ่มเติม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thêm"
           }
         }
       }
@@ -9273,6 +9999,12 @@
             "state" : "translated",
             "value" : "ย้ายแบนเนอร์"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Di chuyển băng rôn"
+          }
         }
       }
     },
@@ -9348,6 +10080,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถัดไป"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiếp"
           }
         }
       }
@@ -9425,6 +10163,12 @@
             "state" : "translated",
             "value" : "ภาพถัดไปใน %lld วินาที"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ảnh tiếp theo sau %lld giây"
+          }
         }
       }
     },
@@ -9500,6 +10244,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "อุปกรณ์นี้ไม่มีกล้องที่ใช้งานได้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thiết bị này không có camera khả dụng."
           }
         }
       }
@@ -9577,6 +10327,12 @@
             "state" : "translated",
             "value" : "ยังไม่มีภาพ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chưa có ảnh nào"
+          }
         }
       }
     },
@@ -9653,6 +10409,12 @@
             "state" : "translated",
             "value" : "ไม่มีใครกะพริบตา"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không ai chớp mắt"
+          }
         }
       }
     },
@@ -9728,6 +10490,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่มี"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không"
           }
         }
       }
@@ -9806,6 +10574,12 @@
             "state" : "translated",
             "value" : "ตอนนี้"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ngay"
+          }
         }
       }
     },
@@ -9881,6 +10655,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "24–25 ต.ค. 2026  ทะเลสาบแทโฮ แคลิฟอร์เนีย"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "24–25/10/2026  Hồ Tahoe, California"
           }
         }
       }
@@ -9958,6 +10738,12 @@
             "state" : "translated",
             "value" : "ปิด"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tắt"
+          }
         }
       }
     },
@@ -10033,6 +10819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ตกลง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
           }
         }
       }
@@ -10110,6 +10902,12 @@
             "state" : "translated",
             "value" : "เปิด"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bật"
+          }
         }
       }
     },
@@ -10185,6 +10983,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เปิดแกลเลอรี"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mở thư viện"
           }
         }
       }
@@ -10262,6 +11066,12 @@
             "state" : "translated",
             "value" : "ตัวเลือก"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tùy chọn"
+          }
         }
       }
     },
@@ -10337,6 +11147,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "หรือถ่ายโดยไม่ใช้มือ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoặc chụp rảnh tay"
           }
         }
       }
@@ -10414,6 +11230,12 @@
             "state" : "translated",
             "value" : "ทีมของเรา 2026"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đội của chúng ta 2026"
+          }
         }
       }
     },
@@ -10489,6 +11311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รหัสจับคู่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mã ghép nối"
           }
         }
       }
@@ -10566,6 +11394,12 @@
             "state" : "translated",
             "value" : "กำลังจับคู่…"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang ghép nối…"
+          }
         }
       }
     },
@@ -10641,6 +11475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ฝ่ามือ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lòng bàn tay"
           }
         }
       }
@@ -10718,6 +11558,12 @@
             "state" : "translated",
             "value" : "ท่าฝ่ามือ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cử chỉ lòng bàn tay"
+          }
         }
       }
     },
@@ -10793,6 +11639,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กระดาษ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giấy"
           }
         }
       }
@@ -10870,6 +11722,12 @@
             "state" : "translated",
             "value" : "ปาร์ตี้ยามค่ำ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đêm tiệc"
+          }
         }
       }
     },
@@ -10945,6 +11803,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ตัวนับจำนวนคน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đếm người"
           }
         }
       }
@@ -11022,6 +11886,12 @@
             "state" : "translated",
             "value" : "ตอนนี้คนที่ยืนอยู่หน้าแบนเนอร์จะแสดงทับบนแบนเนอร์"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giờ người đứng trước băng rôn sẽ hiện lên trên băng rôn."
+          }
         }
       }
     },
@@ -11097,6 +11967,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ภาพถ่าย"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ảnh"
           }
         }
       }
@@ -11174,6 +12050,12 @@
             "state" : "translated",
             "value" : "รูปภาพ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ảnh"
+          }
         }
       }
     },
@@ -11249,6 +12131,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ภาพถ่ายและวิดีโอที่คุณถ่ายด้วย ShutterLink จะแสดงที่นี่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ảnh và video bạn chụp bằng ShutterLink sẽ xuất hiện ở đây."
           }
         }
       }
@@ -11326,6 +12214,12 @@
             "state" : "translated",
             "value" : "ภาพจากการถ่ายครั้งนี้"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ảnh của buổi chụp này"
+          }
         }
       }
     },
@@ -11401,6 +12295,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "วาง iPhone เครื่องนี้บนขาตั้งกล้อง หรือพิงไว้กับที่มั่นคง ใช้ระดับน้ำและตัวนับจำนวนคนเพื่อจัดเฟรมให้ทุกคนอยู่ในภาพ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đặt iPhone này lên chân máy hoặc dựa vào chỗ chắc chắn. Dùng thước thủy và bộ đếm người để lấy hết mọi người vào khung."
           }
         }
       }
@@ -11478,6 +12378,12 @@
             "state" : "translated",
             "value" : "ใช้กล้องของ iPhone อีกเครื่องสแกน QR code แล้ว App Clip รีโมต ShutterLink จะเปิดขึ้นโดยไม่ต้องติดตั้งอะไร เปิดแอปนี้ค้างไว้ระหว่างถ่ายภาพ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hướng camera của iPhone kia vào mã QR. App Clip Điều khiển ShutterLink sẽ mở ra mà không cần cài gì. Hãy để ứng dụng này mở trong lúc chụp."
+          }
         }
       }
     },
@@ -11553,6 +12459,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ยกฝ่ามือที่แบออกไปทางกล้องเพื่อเริ่มจับเวลา"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giơ lòng bàn tay mở về phía camera để bắt đầu hẹn giờ."
           }
         }
       }
@@ -11630,6 +12542,12 @@
             "state" : "translated",
             "value" : "ยกฝ่ามือ ปรบมือ หรือให้ ShutterLink ถ่ายเองเมื่อทุกคนยิ้ม การนับถอยหลังด้วยเสียงและแสงจะบอกให้ทุกคนเตรียมโพสต์ท่า"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giơ lòng bàn tay, vỗ tay, hoặc để ShutterLink tự chụp khi mọi người cười. Đếm ngược bằng giọng nói và ánh sáng cho cả nhóm biết lúc nào tạo dáng."
+          }
         }
       }
     },
@@ -11705,6 +12623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "บันทึกไม่สำเร็จ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quay thất bại."
           }
         }
       }
@@ -11782,6 +12706,12 @@
             "state" : "translated",
             "value" : "ลบโลโก้"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa logo"
+          }
         }
       }
     },
@@ -11857,6 +12787,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รีเซ็ต"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đặt lại"
           }
         }
       }
@@ -11934,6 +12870,12 @@
             "state" : "translated",
             "value" : "รีเซ็ตการรับแสง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đặt lại phơi sáng"
+          }
         }
       }
     },
@@ -12009,6 +12951,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ซานส์มุมมน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sans bo tròn"
           }
         }
       }
@@ -12086,6 +13034,12 @@
             "state" : "translated",
             "value" : "บันทึกหรือแชร์ภาพนี้"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lưu hoặc chia sẻ ảnh này"
+          }
         }
       }
     },
@@ -12161,6 +13115,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "บันทึกหรือแชร์สำเนาของคุณก่อนปิดรีโมต"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy lưu hoặc chia sẻ bản sao của bạn trước khi đóng điều khiển."
           }
         }
       }
@@ -12238,6 +13198,12 @@
             "state" : "translated",
             "value" : "บันทึกลงรูปภาพ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lưu vào Ảnh"
+          }
         }
       }
     },
@@ -12313,6 +13279,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สแกน QR code บน iPhone ตัวถ่ายภาพ หรือใส่รหัสจับคู่ 4 หลัก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quét mã QR trên iPhone chụp hoặc nhập mã ghép nối 4 chữ số."
           }
         }
       }
@@ -12390,6 +13362,12 @@
             "state" : "translated",
             "value" : "สแกนเพื่อควบคุมกล้อง: %@"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quét để điều khiển camera: %@"
+          }
         }
       }
     },
@@ -12465,6 +13443,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สแกนด้วย iPhone อีกเครื่อง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quét bằng iPhone khác"
           }
         }
       }
@@ -12542,6 +13526,12 @@
             "state" : "translated",
             "value" : "ทะเล"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biển"
+          }
         }
       }
     },
@@ -12617,6 +13607,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เลือก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn"
           }
         }
       }
@@ -12694,6 +13690,12 @@
             "state" : "translated",
             "value" : "ส่งภาพไปยังรีโมต"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gửi ảnh đến điều khiển"
+          }
         }
       }
     },
@@ -12769,6 +13771,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เซอริฟ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Có chân"
           }
         }
       }
@@ -12846,6 +13854,12 @@
             "state" : "translated",
             "value" : "บริการผิดพลาด: %@"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lỗi dịch vụ: %@"
+          }
         }
       }
     },
@@ -12921,6 +13935,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ตั้งค่ากล้อง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thiết lập camera"
           }
         }
       }
@@ -12998,6 +14018,12 @@
             "state" : "translated",
             "value" : "การตั้งค่า"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cài đặt"
+          }
         }
       }
     },
@@ -13073,6 +14099,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รูปทรง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hình dạng"
           }
         }
       }
@@ -13150,6 +14182,12 @@
             "state" : "translated",
             "value" : "แชร์"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chia sẻ"
+          }
         }
       }
     },
@@ -13225,6 +14263,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แชร์ QR code"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chia sẻ mã QR"
           }
         }
       }
@@ -13302,6 +14346,12 @@
             "state" : "translated",
             "value" : "ถ่ายด้วยปุ่มชัตเตอร์เท่านั้น"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chỉ chụp bằng nút chụp."
+          }
         }
       }
     },
@@ -13377,6 +14427,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ตัวเลือกการถ่ายภาพ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tùy chọn chụp"
           }
         }
       }
@@ -13454,6 +14510,12 @@
             "state" : "translated",
             "value" : "ถ่ายอัตโนมัติเมื่อทุกคนยิ้มและลืมตา"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tự chụp khi mọi người cười và mở mắt."
+          }
         }
       }
     },
@@ -13529,6 +14591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แสดง QR code จับคู่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiện mã QR ghép nối"
           }
         }
       }
@@ -13606,6 +14674,12 @@
             "state" : "translated",
             "value" : "แสดงคนที่อยู่ด้านหน้า"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiện người đứng phía trước"
+          }
         }
       }
     },
@@ -13682,6 +14756,12 @@
             "state" : "translated",
             "value" : "แสดงเสาด้านข้าง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiện cột hai bên"
+          }
         }
       }
     },
@@ -13754,6 +14834,12 @@
           }
         },
         "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
+        },
+        "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink"
@@ -13834,6 +14920,12 @@
             "state" : "translated",
             "value" : "ภาพจาก ShutterLink"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ảnh ShutterLink"
+          }
         }
       }
     },
@@ -13909,6 +15001,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รีโมต ShutterLink"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điều khiển ShutterLink"
           }
         }
       }
@@ -13986,6 +15084,12 @@
             "state" : "translated",
             "value" : "โหมดง่าย (ปุ่มใหญ่)"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chế độ đơn giản (nút lớn)"
+          }
         }
       }
     },
@@ -14061,6 +15165,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ภาพเดียว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Một ảnh"
           }
         }
       }
@@ -14138,6 +15248,12 @@
             "state" : "translated",
             "value" : "ภาพเดี่ยว"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ảnh đơn"
+          }
         }
       }
     },
@@ -14213,6 +15329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "บรรทัดเล็กด้านบน (เช่น บริษัท เอซีเอ็มอี 2026)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dòng nhỏ phía trên (VD: Công ty Acme 2026)"
           }
         }
       }
@@ -14290,6 +15412,12 @@
             "state" : "translated",
             "value" : "รอยยิ้ม"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nụ cười"
+          }
         }
       }
     },
@@ -14365,6 +15493,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ชัตเตอร์ยิ้ม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chụp khi cười"
           }
         }
       }
@@ -14442,6 +15576,12 @@
             "state" : "translated",
             "value" : "หิมะ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuyết"
+          }
         }
       }
     },
@@ -14517,6 +15657,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สีเดียว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Một màu"
           }
         }
       }
@@ -14594,6 +15740,12 @@
             "state" : "translated",
             "value" : "มีคนอยู่ที่ขอบเฟรม"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Có người ở mép khung hình"
+          }
         }
       }
     },
@@ -14669,6 +15821,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กีฬา"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thể thao"
           }
         }
       }
@@ -14746,6 +15904,12 @@
             "state" : "translated",
             "value" : "วันกีฬาสี"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ngày hội thể thao"
+          }
         }
       }
     },
@@ -14821,6 +15985,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ดอกไม้ฤดูใบไม้ผลิ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoa xuân"
           }
         }
       }
@@ -14898,6 +16068,12 @@
             "state" : "translated",
             "value" : "ดาว"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ngôi sao"
+          }
         }
       }
     },
@@ -14973,6 +16149,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เริ่มบันทึก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bắt đầu quay"
           }
         }
       }
@@ -15050,6 +16232,12 @@
             "state" : "translated",
             "value" : "เริ่มถ่ายภาพ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bắt đầu chụp"
+          }
         }
       }
     },
@@ -15125,6 +16313,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กำลังเริ่ม Bluetooth…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang bật Bluetooth…"
           }
         }
       }
@@ -15202,6 +16396,12 @@
             "state" : "translated",
             "value" : "หยุดถ่ายตามช่วงเวลา"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dừng chụp theo khoảng"
+          }
         }
       }
     },
@@ -15277,6 +16477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "หยุดบันทึก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dừng quay"
           }
         }
       }
@@ -15354,6 +16560,12 @@
             "state" : "translated",
             "value" : "ชายหาดฤดูร้อน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biển mùa hè"
+          }
         }
       }
     },
@@ -15429,6 +16641,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "พลิ้วไหวตามลม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đung đưa trong gió"
           }
         }
       }
@@ -15506,6 +16724,12 @@
             "state" : "translated",
             "value" : "สลับกล้อง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đổi camera"
+          }
         }
       }
     },
@@ -15581,6 +16805,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถ่ายภาพ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chụp ảnh"
           }
         }
       }
@@ -15658,6 +16888,12 @@
             "state" : "translated",
             "value" : "จะถ่ายภาพใน %lld วินาที"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chụp ảnh sau %lld giây."
+          }
         }
       }
     },
@@ -15733,6 +16969,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แตะที่พื้นหรือผนังเพื่อวางแบนเนอร์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chạm vào sàn hoặc tường để đặt băng rôn"
           }
         }
       }
@@ -15810,6 +17052,12 @@
             "state" : "translated",
             "value" : "แตะปุ่ม QR แล้ว iPhone อีกเครื่องสแกนด้วยแอปกล้อง ก็กลายเป็นรีโมตได้ในไม่กี่วินาทีโดยไม่ต้องติดตั้งอะไร"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chạm vào nút QR. iPhone khác quét bằng ứng dụng Camera và thành điều khiển trong vài giây, không cần cài gì."
+          }
         }
       }
     },
@@ -15885,6 +17133,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แตะเพื่อโฟกัส"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chạm để lấy nét"
           }
         }
       }
@@ -15962,6 +17216,12 @@
             "state" : "translated",
             "value" : "ข้อความ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chữ"
+          }
         }
       }
     },
@@ -16037,6 +17297,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แบนเนอร์หยุดไปครู่หนึ่ง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Băng rôn tạm dừng một lát"
           }
         }
       }
@@ -16114,6 +17380,12 @@
             "state" : "translated",
             "value" : "แบนเนอร์อยู่ด้านหน้าทุกคนเสมอ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Băng rôn luôn ở phía trước mọi người."
+          }
         }
       }
     },
@@ -16189,6 +17461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กล้องจะนับถอยหลังออกเสียงและกะพริบไฟ ทำให้กลุ่มที่ยืนไกลรู้ว่าจะถ่ายภาพเมื่อไหร่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camera đếm ngược thành tiếng và nháy đèn, nên cả nhóm đứng xa cũng biết chính xác khi nào ảnh được chụp."
           }
         }
       }
@@ -16266,6 +17544,12 @@
             "state" : "translated",
             "value" : "รหัสจับคู่ถูกปฏิเสธ สแกน QR code อีกครั้ง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mã ghép nối bị từ chối. Hãy quét lại mã QR."
+          }
         }
       }
     },
@@ -16341,6 +17625,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ธีม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chủ đề"
           }
         }
       }
@@ -16418,6 +17708,12 @@
             "state" : "translated",
             "value" : "ภาพที่บันทึกไว้ในคลังรูปภาพแล้วจะยังอยู่ที่เดิม"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ảnh vẫn nằm trong thư viện Ảnh nếu đã được lưu ở đó."
+          }
         }
       }
     },
@@ -16493,6 +17789,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "อุปกรณ์นี้ไม่รองรับ Bluetooth LE"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thiết bị này không hỗ trợ Bluetooth LE."
           }
         }
       }
@@ -16570,6 +17872,12 @@
             "state" : "translated",
             "value" : "อุปกรณ์นี้ไม่ใช่กล้อง ShutterLink"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thiết bị này không phải camera ShutterLink."
+          }
         }
       }
     },
@@ -16645,6 +17953,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "iPhone เครื่องนี้ไม่รองรับ AR"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPhone này không hỗ trợ AR."
           }
         }
       }
@@ -16722,6 +18036,12 @@
             "state" : "translated",
             "value" : "เอียง %lld องศา"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nghiêng %lld độ"
+          }
         }
       }
     },
@@ -16797,6 +18117,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ตัวตั้งเวลา"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hẹn giờ"
           }
         }
       }
@@ -16874,6 +18200,12 @@
             "state" : "translated",
             "value" : "แถบบนและล่าง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dải trên và dưới"
+          }
         }
       }
     },
@@ -16949,6 +18281,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แถบด้านบน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sọc trên"
           }
         }
       }
@@ -17026,6 +18364,12 @@
             "state" : "translated",
             "value" : "ข้อความด้านบน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chữ phía trên"
+          }
         }
       }
     },
@@ -17101,6 +18445,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ลองอีกครั้ง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thử lại"
           }
         }
       }
@@ -17178,6 +18528,12 @@
             "state" : "translated",
             "value" : "เปิด Bluetooth เพื่อเชื่อมต่อกับกล้อง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy bật Bluetooth để kết nối với camera."
+          }
         }
       }
     },
@@ -17253,6 +18609,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช้งานไม่ได้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không khả dụng"
           }
         }
       }
@@ -17330,6 +18692,12 @@
             "state" : "translated",
             "value" : "เวอร์ชัน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phiên bản"
+          }
         }
       }
     },
@@ -17405,6 +18773,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "วิดีโอ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Video"
           }
         }
       }
@@ -17482,6 +18856,12 @@
             "state" : "translated",
             "value" : "วิดีโอ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Video"
+          }
         }
       }
     },
@@ -17557,6 +18937,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ช่องมองภาพ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khung ngắm"
           }
         }
       }
@@ -17634,6 +19020,12 @@
             "state" : "translated",
             "value" : "ไวนิล (มัน)"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vinyl (bóng)"
+          }
         }
       }
     },
@@ -17709,6 +19101,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "นับถอยหลังด้วยเสียง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đếm ngược bằng giọng nói"
           }
         }
       }
@@ -17786,6 +19184,12 @@
             "state" : "translated",
             "value" : "กำลังรอรีโมต"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang chờ điều khiển"
+          }
         }
       }
     },
@@ -17861,6 +19265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กำลังรอ Bluetooth…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang chờ Bluetooth…"
           }
         }
       }
@@ -17938,6 +19348,12 @@
             "state" : "translated",
             "value" : "กำลังรอภาพตัวอย่าง…"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang chờ xem trước…"
+          }
         }
       }
     },
@@ -18013,6 +19429,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "งานแต่งงาน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đám cưới"
           }
         }
       }
@@ -18090,6 +19512,12 @@
             "state" : "translated",
             "value" : "ความกว้าง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chiều rộng"
+          }
         }
       }
     },
@@ -18165,6 +19593,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ฤดูหนาว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mùa đông"
           }
         }
       }
@@ -18242,6 +19676,12 @@
             "state" : "translated",
             "value" : "งานเลี้ยงปีใหม่"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiệc cuối năm"
+          }
         }
       }
     },
@@ -18317,6 +19757,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ซูม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thu phóng"
           }
         }
       }

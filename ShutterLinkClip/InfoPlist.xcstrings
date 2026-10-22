@@ -81,6 +81,12 @@
             "state" : "translated",
             "value" : "รีโมต ShutterLink"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điều khiển ShutterLink"
+          }
         }
       }
     },
@@ -176,6 +182,12 @@
             "state" : "translated",
             "value" : "รีโมต ShutterLink ใช้ Bluetooth เพื่อควบคุม iPhone ตัวถ่ายภาพที่อยู่ใกล้ ๆ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điều khiển ShutterLink dùng Bluetooth để điều khiển iPhone chụp ở gần."
+          }
         }
       }
     },
@@ -258,6 +270,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รีโมต ShutterLink บันทึกภาพที่คุณถ่ายลงในคลังรูปภาพ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điều khiển ShutterLink lưu ảnh bạn chụp vào thư viện ảnh."
           }
         }
       }

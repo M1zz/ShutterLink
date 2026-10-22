@@ -81,6 +81,12 @@
             "state" : "translated",
             "value" : "ShutterLink"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
         }
       }
     },
@@ -176,6 +182,12 @@
             "state" : "translated",
             "value" : "ShutterLink ใช้ Bluetooth เพื่อให้ iPhone เครื่องที่อยู่ใกล้ ๆ ทำหน้าที่เป็นรีโมตชัตเตอร์"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink dùng Bluetooth để một chiếc iPhone ở gần có thể làm điều khiển từ xa cho nút chụp."
+          }
         }
       }
     },
@@ -258,6 +270,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink ใช้กล้องเพื่อถ่ายภาพและวิดีโอ และวางแบนเนอร์ AR ลงในฉาก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink dùng camera để chụp ảnh, quay video và đặt băng rôn AR vào khung cảnh."
           }
         }
       }
@@ -342,6 +360,12 @@
             "state" : "translated",
             "value" : "ShutterLink บันทึกเสียงไปกับวิดีโอ และคอยฟังเสียงปรบมือเมื่อเปิดใช้ชัตเตอร์ปรบมือ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink ghi âm thanh cùng video và lắng nghe tiếng vỗ tay khi bật chụp bằng tiếng vỗ tay."
+          }
         }
       }
     },
@@ -424,6 +448,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink บันทึกภาพถ่ายและวิดีโอของคุณลงในคลังรูปภาพ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink lưu ảnh và video của bạn vào thư viện ảnh."
           }
         }
       }

@@ -148,6 +148,17 @@ CAPTIONS = {
  ("08-pairing", "07-pairing", "โชว์ QR code ก็พร้อมถ่าย", "ไม่ต้องมีบัญชี ไม่ต้องตั้งค่าจับคู่ ไม่ต้องใช้อุปกรณ์เสริม"),
  ("09-simple", "06-simple", "ปุ่มใหญ่ที่ใครก็กดได้", "ปุ่มชัตเตอร์ใหญ่ปุ่มเดียว ใครก็กดได้"),
  ],
+ "vi": [
+ ("01-banner", "banner", "Ảnh nhóm có băng rôn, không cần in", "Chạm vào sàn, băng rôn hiện ngay trước mặt mọi người"),
+ ("02-banner-design", "bannerDesign", "Chọn chủ đề, viết lời là xong", "13 chủ đề cho họp lớp, tiệc, tốt nghiệp và hơn thế nữa"),
+ ("03-remote", "02-remote", "iPhone nào cũng thành điều khiển", "Quét mã QR, không cần cài đặt"),
+ ("04-countdown", "04-countdown", "Chụp chỉ bằng lòng bàn tay", "Lòng bàn tay, vỗ tay hay nụ cười, kèm đếm ngược bằng giọng nói và ánh sáng"),
+ ("05-bestshot", "01-main", "Không còn ảnh nhắm mắt", "Chọn ảnh mà mọi người đều mở mắt"),
+ ("06-reviews", "03-reviews", "Ảnh gửi ngay đến điều khiển", "Bạn bè không có ứng dụng cũng lưu và chia sẻ được"),
+ ("07-gallery", "05-gallery", "Xem gọn các ảnh đẹp nhất", "Đổi sang ảnh khác trong loạt và chia sẻ qua AirDrop"),
+ ("08-pairing", "07-pairing", "Chỉ cần đưa mã QR là xong", "Không tài khoản, không cài đặt ghép nối, không thiết bị thêm"),
+ ("09-simple", "06-simple", "Nút lớn cho mọi người", "Một nút chụp lớn mà ai cũng bấm được"),
+ ],
 }
 
 def font(size, bold):

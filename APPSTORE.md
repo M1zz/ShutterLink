@@ -1122,6 +1122,88 @@ https://m1zz.github.io/ShutterLink/th/privacy/
 
 https://m1zz.github.io/ShutterLink/th/
 
+## vi
+
+<!-- Tiếng Việt -->
+
+### 이름
+
+ShutterLink: ảnh nhóm băng rôn
+
+### 부제
+
+Điều khiển không cần cài đặt
+
+### 키워드
+
+họp lớp,tiệc,đội nhóm,sự kiện,gia đình,selfie,chân máy,hẹn giờ,AR,nụ cười,vỗ tay,bluetooth
+
+### 프로모션 텍스트
+
+Thêm băng rôn riêng vào ảnh nhóm mà không cần in. Viết nội dung, chọn chủ đề, mọi người cùng cầm. iPhone của bạn bè thành điều khiển chỉ bằng một lần quét mã QR.
+
+### 설명
+
+Chụp bức ảnh nhóm kinh điển mà mọi người cùng cầm băng rôn, không cần in băng rôn.
+Viết nội dung, chọn chủ đề, và băng rôn sẽ hiện ra trước mặt cả nhóm. iPhone của bạn bè trở thành điều khiển mà không cần cài đặt.
+
+Chế độ Băng rôn
+Chuyển sang Băng rôn, chạm vào sàn, và băng rôn hiện ở độ cao mà mọi người cầm. Chạm vào tường để treo lên đó. Kéo lên, xuống hoặc sang hai bên, băng rôn sẽ đi theo ngón tay. Dùng hai ngón để xoay hoặc đổi kích thước, hoặc chạm vào nút di chuyển để tinh chỉnh tới, lui, sang ngang, lên và xuống.
+Băng rôn luôn ở phía trước nhóm, nên trông như mọi người cùng giương lên.
+
+Làm theo ý bạn
+Bắt đầu từ 13 chủ đề, gồm dã ngoại mùa thu, picnic mùa xuân, đi biển, tiệc cuối năm, sinh nhật, ngày hội thể thao, cổ vũ, tốt nghiệp, đám cưới và team building.
+Viết tối đa ba dòng chữ. Đổi nền, phông chữ, trang trí, màu sắc, hình dạng và thêm logo của riêng bạn.
+Chọn vải, vinyl hoặc giấy. Băng rôn vải chùng xuống, nhăn và đung đưa trong gió như thật.
+
+Ai cũng vào khung hình
+Hẹn giờ, chụp rảnh tay và điều khiển đều dùng được ở chế độ Băng rôn. Đặt điện thoại lên chân máy và vào đứng cùng nhóm. Ảnh được lưu vào Ảnh và thư viện trong ứng dụng.
+
+Điều khiển không cần cài đặt
+Hiện mã QR trên iPhone chụp và quét bằng camera của iPhone khác. Điều khiển ShutterLink mở ngay dưới dạng App Clip và kết nối. Lấy khung từ hình ảnh trực tiếp rồi bấm nút chụp. Ở chế độ Băng rôn, băng rôn cũng hiện trong hình ảnh trực tiếp. Nếu mã QR không quét được, hãy nhập mã 4 chữ số.
+
+Chụp rảnh tay
+Giơ lòng bàn tay, cùng cười hoặc vỗ tay, nút chụp sẽ tự bấm.
+Đặt hẹn giờ từ 3 đến 30 giây. Giọng nói đếm ngược, đèn flash nháy theo và điều khiển rung trong tay bạn.
+Lời nhắc “Nhìn vào camera nào” thu hút sự chú ý của mọi người.
+
+Không ai chớp mắt
+Chụp liên tiếp 3 hoặc 5 ảnh và ShutterLink chọn ảnh mà mọi người đều mở mắt và cười. Lọc thư viện chỉ còn ảnh đẹp nhất, hoặc tự chọn ảnh khác.
+
+Không ai bị cắt mất
+Xem có bao nhiêu người trong khung và nhận cảnh báo khi có người ở mép. Thước thủy hiện ra khi iPhone nghiêng.
+
+Ảnh gửi đến điều khiển
+Mỗi ảnh bạn chụp hiện ngay trên iPhone điều khiển. Bạn bè không có ứng dụng có thể lưu và chia sẻ ngay tại chỗ.
+
+Điều khiển camera đầy đủ từ xa
+Chạm để lấy nét và đo sáng, bù phơi sáng, đèn flash và đèn sáng, lưới, thu phóng từ 0,5× đến 10× tùy iPhone, camera trước và sau, và video.
+Chụp theo khoảng từ 3 giây đến 1 phút cho hoàng hôn hoặc dự án đang làm.
+Chế độ đơn giản trên điều khiển chỉ hiện một nút chụp lớn mà ai cũng bấm được.
+
+Bluetooth trực tiếp, không cần internet
+Hai iPhone kết nối trực tiếp qua Bluetooth. Khi đã kết nối, dùng được trên núi, bên bờ biển hay ở nước ngoài mà không cần Wi‑Fi hay mạng di động. Không cần tài khoản.
+
+Ảnh của bạn ở lại với bạn
+Ảnh và video chỉ nằm trên iPhone chụp và điều khiển bạn đã kết nối, và không bao giờ được tải lên. Mã ghép nối đổi mỗi lần bạn mở ứng dụng, nên chỉ điều khiển biết mã mới bấm được nút chụp.
+
+Cần biết
+Yêu cầu iOS 17 trở lên. Điều khiển cần một iPhone thứ hai.
+iPhone điều khiển cần internet một lần, khi tải App Clip lần đầu.
+Đèn flash, chụp liên tiếp, thu phóng và camera trước không dùng được ở chế độ Băng rôn.
+
+### 지원 URL
+
+https://m1zz.github.io/ShutterLink/vi/support/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/ShutterLink/vi/privacy/
+
+### 마케팅 URL
+
+https://m1zz.github.io/ShutterLink/vi/
+
 ## 연령 등급
 
 <!-- 내용 문항이 전부 '해당 없음' 인 앱이면 아래 줄의 주석을 풀어라.
