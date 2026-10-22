@@ -203,6 +203,17 @@ CAPTIONS = {
  ("08-pairing", "07-pairing", "Näytä QR-koodi ja olet valmis", "Ei tiliä, ei paritusasetuksia, ei lisälaitteita"),
  ("09-simple", "06-simple", "Iso painike kaikille", "Yksi iso laukaisin, jota kuka tahansa voi painaa"),
  ],
+ "id": [
+ ("01-banner", "banner", "Foto grup dengan spanduk, tanpa cetak", "Ketuk lantai dan spanduk muncul di depan semua orang"),
+ ("02-banner-design", "bannerDesign", "Pilih tema, tulis teksnya", "13 tema untuk reuni, pesta, wisuda, dan lainnya"),
+ ("03-remote", "02-remote", "iPhone lain jadi remote", "Pindai QR, tanpa memasang apa pun"),
+ ("04-countdown", "04-countdown", "Potret dengan telapak tangan", "Telapak tangan, tepuk tangan, atau senyum, dengan hitung mundur suara dan cahaya"),
+ ("05-bestshot", "01-main", "Selamat tinggal mata terpejam", "Memilih foto yang matanya terbuka semua"),
+ ("06-reviews", "03-reviews", "Foto langsung ke remote", "Teman tanpa app pun bisa menyimpan dan membagikannya"),
+ ("07-gallery", "05-gallery", "Semua foto terbaik di satu tempat", "Ganti dengan foto lain dari rangkaian dan bagikan lewat AirDrop"),
+ ("08-pairing", "07-pairing", "Tunjukkan QR, langsung siap", "Tanpa akun, tanpa pengaturan pemasangan, tanpa perangkat tambahan"),
+ ("09-simple", "06-simple", "Tombol besar untuk semua", "Satu tombol rana besar yang bisa ditekan siapa saja"),
+ ],
 }
 
 def font(size, bold):

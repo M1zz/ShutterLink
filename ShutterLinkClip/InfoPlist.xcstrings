@@ -111,6 +111,12 @@
             "state" : "translated",
             "value" : "ShutterLink-kaukosäädin"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remote ShutterLink"
+          }
         }
       }
     },
@@ -236,6 +242,12 @@
             "state" : "translated",
             "value" : "ShutterLink-kaukosäädin käyttää Bluetoothia lähellä olevan kuvaavan iPhonen ohjaamiseen."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remote ShutterLink memakai Bluetooth untuk mengendalikan iPhone kamera di dekatnya."
+          }
         }
       }
     },
@@ -348,6 +360,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink-kaukosäädin tallentaa ottamasi kuvat kuvakirjastoosi."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remote ShutterLink menyimpan foto yang Anda ambil ke pustaka foto."
           }
         }
       }

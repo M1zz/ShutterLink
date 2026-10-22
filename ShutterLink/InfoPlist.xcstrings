@@ -111,6 +111,12 @@
             "state" : "translated",
             "value" : "ShutterLink"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
         }
       }
     },
@@ -236,6 +242,12 @@
             "state" : "translated",
             "value" : "ShutterLink käyttää Bluetoothia, jotta lähellä oleva iPhone voi toimia kaukolaukaisimena."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink memakai Bluetooth agar iPhone di dekatnya dapat berfungsi sebagai pemicu rana jarak jauh."
+          }
         }
       }
     },
@@ -348,6 +360,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink käyttää kameraa valokuvien ja videoiden ottamiseen sekä AR-bannerin asettamiseen kuvaan."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink memakai kamera untuk mengambil foto dan video serta menempatkan spanduk AR di tempat Anda."
           }
         }
       }
@@ -462,6 +480,12 @@
             "state" : "translated",
             "value" : "ShutterLink tallentaa videoihin äänen ja kuuntelee taputusta, kun taputuslaukaisu on päällä."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink merekam suara bersama video dan mendengarkan tepukan tangan saat rana tepuk tangan aktif."
+          }
         }
       }
     },
@@ -574,6 +598,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink tallentaa ottamasi kuvat ja videot kuvakirjastoosi."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink menyimpan foto dan video Anda ke pustaka foto."
           }
         }
       }

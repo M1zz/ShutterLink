@@ -104,6 +104,12 @@
             "state" : "translated",
             "value" : "%lld"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
         }
       }
     },
@@ -209,6 +215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld kuvassa"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld orang di bingkai"
           }
         }
       }
@@ -316,6 +328,12 @@
             "state" : "translated",
             "value" : "%lld kuvaa"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld foto"
+          }
         }
       }
     },
@@ -421,6 +439,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld kuvaa, paras valittu"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld foto, yang terbaik dipilih"
           }
         }
       }
@@ -528,6 +552,12 @@
             "state" : "translated",
             "value" : "%lld kaukosäädin yhdistetty"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld remote terhubung"
+          }
         }
       }
     },
@@ -634,6 +664,12 @@
             "state" : "translated",
             "value" : "%lld valittu"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld dipilih"
+          }
         }
       }
     },
@@ -738,6 +774,12 @@
           }
         },
         "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld°"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld°"
@@ -848,6 +890,12 @@
             "state" : "translated",
             "value" : "%lld min"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld mnt"
+          }
         }
       }
     },
@@ -954,6 +1002,12 @@
             "state" : "translated",
             "value" : "%lld s"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld dtk"
+          }
         }
       }
     },
@@ -1056,6 +1110,12 @@
           }
         },
         "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0000"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "0000"
@@ -1166,6 +1226,12 @@
             "state" : "translated",
             "value" : "Korostus (reuna · raita)"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aksen (tepi · garis)"
+          }
         }
       }
     },
@@ -1271,6 +1337,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lisää logokuva"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambah gambar logo"
           }
         }
       }
@@ -1378,6 +1450,12 @@
             "state" : "translated",
             "value" : "Säädä sijaintia"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atur posisi"
+          }
         }
       }
     },
@@ -1483,6 +1561,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ilmoittaminen epäonnistui: %@"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gagal menyiarkan: %@"
           }
         }
       }
@@ -1590,6 +1674,12 @@
             "state" : "translated",
             "value" : "Kaikki"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semua"
+          }
         }
       }
     },
@@ -1696,6 +1786,12 @@
             "state" : "translated",
             "value" : "Salli Bluetooth-käyttö Asetuksissa, jotta voit ohjata kameraa."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Izinkan akses Bluetooth di Pengaturan untuk mengendalikan kamera."
+          }
         }
       }
     },
@@ -1801,6 +1897,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kuka tahansa voi olla kaukosäädin"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siapa pun bisa jadi remote"
           }
         }
       }
@@ -1909,6 +2011,12 @@
             "state" : "translated",
             "value" : "Käytä"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terapkan"
+          }
         }
       }
     },
@@ -2014,6 +2122,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pyydä kaikkia katsomaan kameraan"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minta semua orang melihat ke kamera"
           }
         }
       }
@@ -2121,6 +2235,12 @@
             "state" : "translated",
             "value" : "Kuvasuhde"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rasio aspek"
+          }
         }
       }
     },
@@ -2226,6 +2346,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Automaattinen"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otomatis"
           }
         }
       }
@@ -2333,6 +2459,12 @@
             "state" : "translated",
             "value" : "Automaattinen kuvaus pois päältä"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pemotretan otomatis nonaktif"
+          }
         }
       }
     },
@@ -2438,6 +2570,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Syksyn lehdet"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daun musim gugur"
           }
         }
       }
@@ -2545,6 +2683,12 @@
             "state" : "translated",
             "value" : "Syysretki"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Piknik musim gugur"
+          }
         }
       }
     },
@@ -2650,6 +2794,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tausta"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Latar"
           }
         }
       }
@@ -2757,6 +2907,12 @@
             "state" : "translated",
             "value" : "Taustaväri"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warna latar"
+          }
         }
       }
     },
@@ -2862,6 +3018,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ilmapallot"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Balon"
           }
         }
       }
@@ -2969,6 +3131,12 @@
             "state" : "translated",
             "value" : "Banneri"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spanduk"
+          }
         }
       }
     },
@@ -3074,6 +3242,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bannerin suunnittelu"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desain spanduk"
           }
         }
       }
@@ -3181,6 +3355,12 @@
             "state" : "translated",
             "value" : "Paras kuva"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto terbaik"
+          }
         }
       }
     },
@@ -3286,6 +3466,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Paras kuva %lld kuvasta"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto terbaik dari %lld foto"
           }
         }
       }
@@ -3393,6 +3579,12 @@
             "state" : "translated",
             "value" : "Parhaat kuvat"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto terbaik"
+          }
         }
       }
     },
@@ -3498,6 +3690,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Syntymäpäivä"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ulang tahun"
           }
         }
       }
@@ -3605,6 +3803,12 @@
             "state" : "translated",
             "value" : "Bluetooth on pois päältä"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth mati"
+          }
         }
       }
     },
@@ -3710,6 +3914,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bluetooth LE ei ole tuettu"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth LE tidak didukung"
           }
         }
       }
@@ -3817,6 +4027,12 @@
             "state" : "translated",
             "value" : "Bluetooth-lupa evätty"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Izin Bluetooth ditolak"
+          }
         }
       }
     },
@@ -3922,6 +4138,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bluetooth valmis"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth siap"
           }
         }
       }
@@ -4029,6 +4251,12 @@
             "state" : "translated",
             "value" : "Bluetooth ei ole käytettävissä"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth tidak tersedia"
+          }
         }
       }
     },
@@ -4134,6 +4362,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lihavoitu groteski"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sans tebal"
           }
         }
       }
@@ -4241,6 +4475,12 @@
             "state" : "translated",
             "value" : "Alarivi: päivämäärä · paikka"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baris bawah: tanggal · tempat"
+          }
         }
       }
     },
@@ -4346,6 +4586,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alateksti"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teks bawah"
           }
         }
       }
@@ -4453,6 +4699,12 @@
             "state" : "translated",
             "value" : "Vaaleampi"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lebih terang"
+          }
         }
       }
     },
@@ -4558,6 +4810,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sarja"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beruntun"
           }
         }
       }
@@ -4665,6 +4923,12 @@
             "state" : "translated",
             "value" : "Kameran käyttö vaaditaan. Ota se käyttöön kohdassa Asetukset > ShutterLink."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akses kamera diperlukan. Aktifkan di Pengaturan > ShutterLink."
+          }
         }
       }
     },
@@ -4770,6 +5034,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Peruuta"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batal"
           }
         }
       }
@@ -4877,6 +5147,12 @@
             "state" : "translated",
             "value" : "Peruuta ajastin"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batalkan timer"
+          }
         }
       }
     },
@@ -4982,6 +5258,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kuvaus epäonnistui: %@"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pengambilan gagal: %@"
           }
         }
       }
@@ -5089,6 +5371,12 @@
             "state" : "translated",
             "value" : "Juhla"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perayaan"
+          }
         }
       }
     },
@@ -5194,6 +5482,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vaihda logo"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ganti logo"
           }
         }
       }
@@ -5301,6 +5595,12 @@
             "state" : "translated",
             "value" : "Tarkista Kuvat-käyttöoikeus Asetuksissa."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Periksa akses Foto di Pengaturan."
+          }
         }
       }
     },
@@ -5406,6 +5706,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kannustus"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sorak"
           }
         }
       }
@@ -5513,6 +5819,12 @@
             "state" : "translated",
             "value" : "Valitse Banneri, kirjoita teksti ja valitse värit ja napauta sitten lattiaa. Banneri pysyy paikallaan, ja sen edessä seisovat näyttävät pitelevän sitä."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilih Spanduk, tulis teks dan pilih warna, lalu ketuk lantai. Spanduk tetap di tempatnya, dan orang yang berdiri di depannya tampak seperti sedang memegangnya."
+          }
         }
       }
     },
@@ -5618,6 +5930,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Joulu"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Natal"
           }
         }
       }
@@ -5725,6 +6043,12 @@
             "state" : "translated",
             "value" : "Taputus"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tepuk tangan"
+          }
         }
       }
     },
@@ -5830,6 +6154,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Taputa kerran kovaa käynnistääksesi ajastimen."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tepuk tangan keras sekali untuk memulai timer."
           }
         }
       }
@@ -5937,6 +6267,12 @@
             "state" : "translated",
             "value" : "Taputuslaukaisu"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rana tepuk tangan"
+          }
         }
       }
     },
@@ -6042,6 +6378,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Taputuslaukaisu tarvitsee mikrofonin käyttöoikeuden. Ota se käyttöön kohdassa Asetukset > ShutterLink."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rana tepuk tangan memerlukan akses mikrofon. Aktifkan di Pengaturan > ShutterLink."
           }
         }
       }
@@ -6149,6 +6491,12 @@
             "state" : "translated",
             "value" : "Klassinen"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klasik"
+          }
         }
       }
     },
@@ -6254,6 +6602,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sulje"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutup"
           }
         }
       }
@@ -6361,6 +6715,12 @@
             "state" : "translated",
             "value" : "Värit"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warna"
+          }
         }
       }
     },
@@ -6466,6 +6826,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yrityksen työpaja"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lokakarya perusahaan"
           }
         }
       }
@@ -6573,6 +6939,12 @@
             "state" : "translated",
             "value" : "Kapea groteski"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sans sempit"
+          }
         }
       }
     },
@@ -6678,6 +7050,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yhdistä"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hubungkan"
           }
         }
       }
@@ -6785,6 +7163,12 @@
             "state" : "translated",
             "value" : "Yhdistetty"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terhubung"
+          }
         }
       }
     },
@@ -6890,6 +7274,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yhdistetään…"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menghubungkan…"
           }
         }
       }
@@ -6997,6 +7387,12 @@
             "state" : "translated",
             "value" : "Banneria ei voitu luoda: %@"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak dapat membuat spanduk: %@"
+          }
         }
       }
     },
@@ -7102,6 +7498,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kameraa ei löytynyt. Varmista, että ShutterLink on auki kuvaavassa iPhonessa ja Bluetooth on päällä."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera tidak ditemukan. Pastikan ShutterLink terbuka di iPhone kamera dan Bluetooth menyala."
           }
         }
       }
@@ -7209,6 +7611,12 @@
             "state" : "translated",
             "value" : "Kameran kanssa ei voitu muodostaa paria."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak dapat memasangkan dengan kamera."
+          }
         }
       }
     },
@@ -7314,6 +7722,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tallennus Kuviin epäonnistui. %@"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak dapat menyimpan ke Foto. %@"
           }
         }
       }
@@ -7421,6 +7835,12 @@
             "state" : "translated",
             "value" : "Banneria ei voitu näyttää: %@"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak dapat menampilkan spanduk: %@"
+          }
         }
       }
     },
@@ -7526,6 +7946,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tallennusta ei voitu aloittaa: %@"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak dapat memulai perekaman: %@"
           }
         }
       }
@@ -7633,6 +8059,12 @@
             "state" : "translated",
             "value" : "Ulkoasua ei voitu päivittää."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak dapat memperbarui desain."
+          }
         }
       }
     },
@@ -7738,6 +8170,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lähtölaskenta"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hitung mundur"
           }
         }
       }
@@ -7845,6 +8283,12 @@
             "state" : "translated",
             "value" : "Tummempi"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lebih gelap"
+          }
         }
       }
     },
@@ -7950,6 +8394,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Koristeet"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dekorasi"
           }
         }
       }
@@ -8057,6 +8507,12 @@
             "state" : "translated",
             "value" : "Poista"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus"
+          }
         }
       }
     },
@@ -8162,6 +8618,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Poistetaanko valitut kuvat?"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus foto yang dipilih?"
           }
         }
       }
@@ -8269,6 +8731,12 @@
             "state" : "translated",
             "value" : "Vinot raidat"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Garis diagonal"
+          }
         }
       }
     },
@@ -8374,6 +8842,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Suunta"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arah"
           }
         }
       }
@@ -8481,6 +8955,12 @@
             "state" : "translated",
             "value" : "Katkaise yhteys"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Putuskan"
+          }
         }
       }
     },
@@ -8586,6 +9066,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Valmis"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selesai"
           }
         }
       }
@@ -8693,6 +9179,12 @@
             "state" : "translated",
             "value" : "Vedä liu’uttaaksesi banneria lattialla."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seret untuk menggeser spanduk di lantai."
+          }
         }
       }
     },
@@ -8798,6 +9290,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajotila"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mode berkendara"
           }
         }
       }
@@ -8905,6 +9403,12 @@
             "state" : "translated",
             "value" : "Syötä kuvaavan iPhonen näyttämä nelinumeroinen koodi."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Masukkan kode 4 digit yang tampil di iPhone kamera."
+          }
         }
       }
     },
@@ -9010,6 +9514,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ välein"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setiap %@"
           }
         }
       }
@@ -9117,6 +9627,12 @@
             "state" : "translated",
             "value" : "Jokainen kuva säilyy myös ShutterLink-galleriassa. Kun lähetys on päällä, kaukosäädintä pitelevä saa kopion jokaisesta ottamastaan kuvasta."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setiap foto juga tersimpan di galeri ShutterLink. Saat pengiriman aktif, pemegang remote menerima salinan setiap foto yang diambilnya."
+          }
         }
       }
     },
@@ -9222,6 +9738,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kaikki katsomaan kameraan!"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semuanya, lihat ke kamera ya!"
           }
         }
       }
@@ -9329,6 +9851,12 @@
             "state" : "translated",
             "value" : "Valotus"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eksposur"
+          }
         }
       }
     },
@@ -9434,6 +9962,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kangas (himmeä)"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kain (doff)"
           }
         }
       }
@@ -9541,6 +10075,12 @@
             "state" : "translated",
             "value" : "Kohti minua"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menghadap saya"
+          }
         }
       }
     },
@@ -9646,6 +10186,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Syysretki yhdessä"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Piknik musim gugur bersama"
           }
         }
       }
@@ -9753,6 +10299,12 @@
             "state" : "translated",
             "value" : "Suodatin"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filter"
+          }
         }
       }
     },
@@ -9858,6 +10410,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Salama"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lampu kilat"
           }
         }
       }
@@ -9965,6 +10523,12 @@
             "state" : "translated",
             "value" : "Lähtölaskenta salamalla"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hitung mundur dengan lampu kilat"
+          }
         }
       }
     },
@@ -10070,6 +10634,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kukat"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bunga"
           }
         }
       }
@@ -10177,6 +10747,12 @@
             "state" : "translated",
             "value" : "Fontti"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Font"
+          }
         }
       }
     },
@@ -10282,6 +10858,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Galleria"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Galeri"
           }
         }
       }
@@ -10389,6 +10971,12 @@
             "state" : "translated",
             "value" : "Liukuväri"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gradasi"
+          }
         }
       }
     },
@@ -10494,6 +11082,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Valmistujaiset"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wisuda"
           }
         }
       }
@@ -10601,6 +11195,12 @@
             "state" : "translated",
             "value" : "Ruudukko"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kisi"
+          }
         }
       }
     },
@@ -10706,6 +11306,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ryhmäkuva · napauta kuvaa merkitäksesi sen parhaaksi"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto grup · ketuk satu foto untuk menandainya sebagai terbaik"
           }
         }
       }
@@ -10813,6 +11419,12 @@
             "state" : "translated",
             "value" : "Ryhmäkuva ottaa useita kuvia ja valitsee sen, jossa kaikilla on silmät auki. Kaukosäädin saa kopion talteen."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto grup mengambil beberapa foto dan memilih yang matanya terbuka semua. Remote mendapat salinan untuk disimpan."
+          }
         }
       }
     },
@@ -10918,6 +11530,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Käsieleet"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gestur tangan"
           }
         }
       }
@@ -11025,6 +11643,12 @@
             "state" : "translated",
             "value" : "Kädetön laukaisu"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rana tanpa sentuh"
+          }
         }
       }
     },
@@ -11130,6 +11754,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sydämet"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hati"
           }
         }
       }
@@ -11237,6 +11867,12 @@
             "state" : "translated",
             "value" : "Korkeus"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tinggi"
+          }
         }
       }
     },
@@ -11342,6 +11978,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Korkeus lattiasta"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tinggi dari lantai"
           }
         }
       }
@@ -11449,6 +12091,12 @@
             "state" : "translated",
             "value" : "Ohje"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bantuan"
+          }
         }
       }
     },
@@ -11554,6 +12202,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pitele banneria tuomatta omaa"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pegang spanduk tanpa membawanya"
           }
         }
       }
@@ -11661,6 +12315,12 @@
             "state" : "translated",
             "value" : "ShutterLinkin käyttö"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cara memakai ShutterLink"
+          }
         }
       }
     },
@@ -11766,6 +12426,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Väli"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Interval"
           }
         }
       }
@@ -11873,6 +12539,12 @@
             "state" : "translated",
             "value" : "Vesivaaka"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Waterpas"
+          }
         }
       }
     },
@@ -11975,6 +12647,12 @@
           }
         },
         "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logo"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Logo"
@@ -12085,6 +12763,12 @@
             "state" : "translated",
             "value" : "Ulkoasu"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tampilan"
+          }
         }
       }
     },
@@ -12190,6 +12874,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Etsitään kameraa %@…"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mencari kamera %@…"
           }
         }
       }
@@ -12297,6 +12987,12 @@
             "state" : "translated",
             "value" : "Pääviesti"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pesan utama"
+          }
         }
       }
     },
@@ -12402,6 +13098,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pääteksti"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teks utama"
           }
         }
       }
@@ -12509,6 +13211,12 @@
             "state" : "translated",
             "value" : "Materiaali"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bahan"
+          }
         }
       }
     },
@@ -12614,6 +13322,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Materiaali · Koko"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bahan · Ukuran"
           }
         }
       }
@@ -12721,6 +13435,12 @@
             "state" : "translated",
             "value" : "Tila"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mode"
+          }
         }
       }
     },
@@ -12826,6 +13546,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lisää"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lainnya"
           }
         }
       }
@@ -12933,6 +13659,12 @@
             "state" : "translated",
             "value" : "Siirrä banneria"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pindahkan spanduk"
+          }
         }
       }
     },
@@ -13038,6 +13770,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Seuraava"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lanjut"
           }
         }
       }
@@ -13145,6 +13883,12 @@
             "state" : "translated",
             "value" : "Seuraava kuva %lld s kuluttua"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto berikutnya dalam %lld dtk"
+          }
         }
       }
     },
@@ -13250,6 +13994,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tällä laitteella ei ole käytettävissä olevaa kameraa."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak ada kamera yang tersedia di perangkat ini."
           }
         }
       }
@@ -13357,6 +14107,12 @@
             "state" : "translated",
             "value" : "Ei vielä kuvia"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belum ada foto"
+          }
         }
       }
     },
@@ -13463,6 +14219,12 @@
             "state" : "translated",
             "value" : "Kukaan ei räpyttele"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tak ada yang berkedip"
+          }
         }
       }
     },
@@ -13568,6 +14330,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ei mitään"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak ada"
           }
         }
       }
@@ -13676,6 +14444,12 @@
             "state" : "translated",
             "value" : "Nyt"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sekarang"
+          }
         }
       }
     },
@@ -13781,6 +14555,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "24.–25.10.2026  Lake Tahoe, Kalifornia"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "24–25 Okt 2026  Danau Tahoe, CA"
           }
         }
       }
@@ -13888,6 +14668,12 @@
             "state" : "translated",
             "value" : "Pois"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mati"
+          }
         }
       }
     },
@@ -13990,6 +14776,12 @@
           }
         },
         "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -14100,6 +14892,12 @@
             "state" : "translated",
             "value" : "Päällä"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyala"
+          }
         }
       }
     },
@@ -14205,6 +15003,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avaa galleria"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buka galeri"
           }
         }
       }
@@ -14312,6 +15116,12 @@
             "state" : "translated",
             "value" : "Valinnat"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opsi"
+          }
         }
       }
     },
@@ -14417,6 +15227,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tai kuvaa ilman käsiä"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atau ambil foto tanpa sentuh"
           }
         }
       }
@@ -14524,6 +15340,12 @@
             "state" : "translated",
             "value" : "Tiimimme 2026"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tim Kami 2026"
+          }
         }
       }
     },
@@ -14629,6 +15451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Parituskoodi"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kode pemasangan"
           }
         }
       }
@@ -14736,6 +15564,12 @@
             "state" : "translated",
             "value" : "Muodostetaan paria…"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Memasangkan…"
+          }
         }
       }
     },
@@ -14841,6 +15675,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kämmen"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Telapak tangan"
           }
         }
       }
@@ -14948,6 +15788,12 @@
             "state" : "translated",
             "value" : "Kämmenele"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gestur telapak tangan"
+          }
         }
       }
     },
@@ -15053,6 +15899,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Paperi"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kertas"
           }
         }
       }
@@ -15160,6 +16012,12 @@
             "state" : "translated",
             "value" : "Juhlailta"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Malam pesta"
+          }
         }
       }
     },
@@ -15265,6 +16123,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Henkilölaskuri"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Penghitung orang"
           }
         }
       }
@@ -15372,6 +16236,12 @@
             "state" : "translated",
             "value" : "Bannerin edessä seisovat henkilöt näkyvät nyt sen päällä."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kini orang yang berdiri di depan spanduk tampil di atasnya."
+          }
         }
       }
     },
@@ -15477,6 +16347,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kuva"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto"
           }
         }
       }
@@ -15584,6 +16460,12 @@
             "state" : "translated",
             "value" : "Kuvat"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto"
+          }
         }
       }
     },
@@ -15689,6 +16571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLinkillä ottamasi kuvat ja videot näkyvät tässä."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto dan video yang Anda ambil dengan ShutterLink muncul di sini."
           }
         }
       }
@@ -15796,6 +16684,12 @@
             "state" : "translated",
             "value" : "Tämän kuvauksen kuvat"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto dari sesi ini"
+          }
         }
       }
     },
@@ -15901,6 +16795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aseta tämä iPhone kolmijalalle tai nojaa se johonkin tukevaan. Vesivaa’an ja henkilölaskurin avulla saat kaikki kuvaan."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letakkan iPhone ini di tripod atau sandarkan di tempat yang kokoh. Pakai waterpas dan penghitung orang agar semua orang masuk bingkai."
           }
         }
       }
@@ -16008,6 +16908,12 @@
             "state" : "translated",
             "value" : "Osoita toisen iPhonen kameralla QR-koodia. ShutterLink-kaukosäädin-App Clip aukeaa ilman asennusta. Pidä tämä sovellus auki kuvauksen ajan."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arahkan Kamera iPhone lain ke kode QR. App Clip Remote ShutterLink terbuka tanpa perlu memasang apa pun. Biarkan app ini terbuka saat memotret."
+          }
         }
       }
     },
@@ -16113,6 +17019,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nosta avoin kämmen kameraa kohti käynnistääksesi ajastimen."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Angkat telapak tangan terbuka ke arah kamera untuk memulai timer."
           }
         }
       }
@@ -16220,6 +17132,12 @@
             "state" : "translated",
             "value" : "Nosta kämmen, taputa tai anna ShutterLinkin ottaa kuva, kun kaikki hymyilevät. Äänellä ja valolla annettu lähtölaskenta kertoo ryhmälle, milloin poseerata."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Angkat telapak tangan, bertepuk tangan, atau biarkan ShutterLink memotret saat semua tersenyum. Hitung mundur suara dan cahaya memberi tahu grup kapan harus bergaya."
+          }
         }
       }
     },
@@ -16325,6 +17243,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tallennus epäonnistui."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perekaman gagal."
           }
         }
       }
@@ -16432,6 +17356,12 @@
             "state" : "translated",
             "value" : "Poista logo"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus logo"
+          }
         }
       }
     },
@@ -16537,6 +17467,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nollaa"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setel ulang"
           }
         }
       }
@@ -16644,6 +17580,12 @@
             "state" : "translated",
             "value" : "Nollaa valotus"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setel ulang eksposur"
+          }
         }
       }
     },
@@ -16749,6 +17691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pyöristetty groteski"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sans bulat"
           }
         }
       }
@@ -16856,6 +17804,12 @@
             "state" : "translated",
             "value" : "Tallenna tai jaa tämä kuva"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simpan atau bagikan foto ini"
+          }
         }
       }
     },
@@ -16961,6 +17915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tallenna tai jaa kopiosi ennen kuin suljet kaukosäätimen."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simpan atau bagikan salinan Anda sebelum menutup remote."
           }
         }
       }
@@ -17068,6 +18028,12 @@
             "state" : "translated",
             "value" : "Tallenna Kuviin"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simpan ke Foto"
+          }
         }
       }
     },
@@ -17173,6 +18139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skannaa kuvaavan iPhonen QR-koodi tai syötä nelinumeroinen parituskoodi."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pindai kode QR di iPhone kamera, atau masukkan kode pemasangan 4 digit."
           }
         }
       }
@@ -17280,6 +18252,12 @@
             "state" : "translated",
             "value" : "Skannaa ohjataksesi kameraa: %@"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pindai untuk mengendalikan kamera: %@"
+          }
         }
       }
     },
@@ -17385,6 +18363,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skannaa toisella iPhonella"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pindai dengan iPhone lain"
           }
         }
       }
@@ -17492,6 +18476,12 @@
             "state" : "translated",
             "value" : "Meri"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laut"
+          }
         }
       }
     },
@@ -17597,6 +18587,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Valitse"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilih"
           }
         }
       }
@@ -17704,6 +18700,12 @@
             "state" : "translated",
             "value" : "Lähetä kuvat kaukosäätimelle"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirim foto ke remote"
+          }
         }
       }
     },
@@ -17806,6 +18808,12 @@
           }
         },
         "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serif"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Serif"
@@ -17916,6 +18924,12 @@
             "state" : "translated",
             "value" : "Palveluvirhe: %@"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kesalahan layanan: %@"
+          }
         }
       }
     },
@@ -18021,6 +19035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Määritä kamera"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siapkan kamera"
           }
         }
       }
@@ -18128,6 +19148,12 @@
             "state" : "translated",
             "value" : "Asetukset"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pengaturan"
+          }
         }
       }
     },
@@ -18233,6 +19259,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muoto"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bentuk"
           }
         }
       }
@@ -18340,6 +19372,12 @@
             "state" : "translated",
             "value" : "Jaa"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bagikan"
+          }
         }
       }
     },
@@ -18445,6 +19483,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jaa QR-koodi"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bagikan kode QR"
           }
         }
       }
@@ -18552,6 +19596,12 @@
             "state" : "translated",
             "value" : "Kuvaa vain suljinpainikkeella."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Potret hanya dengan tombol rana."
+          }
         }
       }
     },
@@ -18657,6 +19707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kuvausasetukset"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opsi pemotretan"
           }
         }
       }
@@ -18764,6 +19820,12 @@
             "state" : "translated",
             "value" : "Kuvaa automaattisesti, kun kaikki hymyilevät silmät auki."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Memotret otomatis saat semua tersenyum dengan mata terbuka."
+          }
         }
       }
     },
@@ -18869,6 +19931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Näytä paritus-QR-koodi"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tampilkan kode QR pemasangan"
           }
         }
       }
@@ -18976,6 +20044,12 @@
             "state" : "translated",
             "value" : "Näytä edessä olevat henkilöt"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tampilkan orang di depan"
+          }
         }
       }
     },
@@ -19082,6 +20156,12 @@
             "state" : "translated",
             "value" : "Näytä sivutangot"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tampilkan tiang samping"
+          }
         }
       }
     },
@@ -19184,6 +20264,12 @@
           }
         },
         "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink"
@@ -19294,6 +20380,12 @@
             "state" : "translated",
             "value" : "ShutterLink-kuva"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto ShutterLink"
+          }
         }
       }
     },
@@ -19399,6 +20491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink-kaukosäädin"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remote ShutterLink"
           }
         }
       }
@@ -19506,6 +20604,12 @@
             "state" : "translated",
             "value" : "Yksinkertainen tila (isot painikkeet)"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mode sederhana (tombol besar)"
+          }
         }
       }
     },
@@ -19611,6 +20715,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yksittäinen"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tunggal"
           }
         }
       }
@@ -19718,6 +20828,12 @@
             "state" : "translated",
             "value" : "Yksittäinen kuva"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto tunggal"
+          }
         }
       }
     },
@@ -19823,6 +20939,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pieni ylärivi (esim. Acme Oy 2026)"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baris kecil di atas (mis. PT Acme 2026)"
           }
         }
       }
@@ -19930,6 +21052,12 @@
             "state" : "translated",
             "value" : "Hymy"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Senyum"
+          }
         }
       }
     },
@@ -20035,6 +21163,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hymylaukaisu"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rana senyum"
           }
         }
       }
@@ -20142,6 +21276,12 @@
             "state" : "translated",
             "value" : "Lumi"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salju"
+          }
         }
       }
     },
@@ -20247,6 +21387,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yksivärinen"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Polos"
           }
         }
       }
@@ -20354,6 +21500,12 @@
             "state" : "translated",
             "value" : "Joku on kuvan reunalla"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ada yang berada di tepi bingkai"
+          }
         }
       }
     },
@@ -20459,6 +21611,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Urheilu"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Olahraga"
           }
         }
       }
@@ -20566,6 +21724,12 @@
             "state" : "translated",
             "value" : "Urheilupäivä"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hari olahraga"
+          }
         }
       }
     },
@@ -20671,6 +21835,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kevään kukat"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bunga musim semi"
           }
         }
       }
@@ -20778,6 +21948,12 @@
             "state" : "translated",
             "value" : "Tähdet"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bintang"
+          }
         }
       }
     },
@@ -20883,6 +22059,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aloita tallennus"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mulai merekam"
           }
         }
       }
@@ -20990,6 +22172,12 @@
             "state" : "translated",
             "value" : "Aloita kuvaus"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mulai memotret"
+          }
         }
       }
     },
@@ -21095,6 +22283,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Käynnistetään Bluetoothia…"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Memulai Bluetooth…"
           }
         }
       }
@@ -21202,6 +22396,12 @@
             "state" : "translated",
             "value" : "Lopeta välikuvaus"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hentikan pemotretan interval"
+          }
         }
       }
     },
@@ -21307,6 +22507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lopeta tallennus"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Berhenti merekam"
           }
         }
       }
@@ -21414,6 +22620,12 @@
             "state" : "translated",
             "value" : "Kesäranta"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pantai musim panas"
+          }
         }
       }
     },
@@ -21519,6 +22731,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Heiluu tuulessa"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Berayun tertiup angin"
           }
         }
       }
@@ -21626,6 +22844,12 @@
             "state" : "translated",
             "value" : "Vaihda kameraa"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ganti kamera"
+          }
         }
       }
     },
@@ -21731,6 +22955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ota kuva"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ambil foto"
           }
         }
       }
@@ -21838,6 +23068,12 @@
             "state" : "translated",
             "value" : "Kuva %lld sekunnin kuluttua."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mengambil foto dalam %lld detik."
+          }
         }
       }
     },
@@ -21943,6 +23179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aseta banneri napauttamalla lattiaa tai seinää"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ketuk lantai atau dinding untuk menempatkan spanduk"
           }
         }
       }
@@ -22050,6 +23292,12 @@
             "state" : "translated",
             "value" : "Napauta QR-painiketta. Toinen iPhone skannaa sen Kamera-sovelluksella ja muuttuu kaukosäätimeksi sekunneissa ilman asennusta."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ketuk tombol QR. iPhone lain memindainya dengan app Kamera dan dalam hitungan detik menjadi remote, tanpa memasang apa pun."
+          }
         }
       }
     },
@@ -22155,6 +23403,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tarkenna napauttamalla"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ketuk untuk fokus"
           }
         }
       }
@@ -22262,6 +23516,12 @@
             "state" : "translated",
             "value" : "Teksti"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teks"
+          }
         }
       }
     },
@@ -22367,6 +23627,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Banneri pysähtyi hetkeksi"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spanduk berhenti sejenak"
           }
         }
       }
@@ -22474,6 +23740,12 @@
             "state" : "translated",
             "value" : "Banneri pysyy kaikkien edessä."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spanduk selalu berada di depan semua orang."
+          }
         }
       }
     },
@@ -22579,6 +23851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kamera laskee ääneen ja vilkuttaa valoa, joten kauempanakin seisova ryhmä tietää tarkalleen, milloin kuva otetaan."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera menghitung mundur dengan suara dan mengedipkan lampunya, sehingga grup yang berdiri jauh tahu persis kapan foto diambil."
           }
         }
       }
@@ -22686,6 +23964,12 @@
             "state" : "translated",
             "value" : "Parituskoodi hylättiin. Skannaa QR-koodi uudelleen."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kode pemasangan ditolak. Pindai kode QR lagi."
+          }
         }
       }
     },
@@ -22791,6 +24075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Teema"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tema"
           }
         }
       }
@@ -22898,6 +24188,12 @@
             "state" : "translated",
             "value" : "Ne säilyvät kuvakirjastossasi, jos ne tallennettiin sinne."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto tetap ada di pustaka Foto Anda jika sudah tersimpan di sana."
+          }
         }
       }
     },
@@ -23003,6 +24299,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tämä laite ei tue Bluetooth LE:tä."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perangkat ini tidak mendukung Bluetooth LE."
           }
         }
       }
@@ -23110,6 +24412,12 @@
             "state" : "translated",
             "value" : "Tämä laite ei ole ShutterLink-kamera."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perangkat ini bukan kamera ShutterLink."
+          }
         }
       }
     },
@@ -23215,6 +24523,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tämä iPhone ei tue AR:ää."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPhone ini tidak mendukung AR."
           }
         }
       }
@@ -23322,6 +24636,12 @@
             "state" : "translated",
             "value" : "Kallistettu %lld astetta"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Miring %lld derajat"
+          }
         }
       }
     },
@@ -23427,6 +24747,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajastin"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timer"
           }
         }
       }
@@ -23534,6 +24860,12 @@
             "state" : "translated",
             "value" : "Ylä- ja alapalkit"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pita atas dan bawah"
+          }
         }
       }
     },
@@ -23639,6 +24971,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yläraita"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Garis atas"
           }
         }
       }
@@ -23746,6 +25084,12 @@
             "state" : "translated",
             "value" : "Yläteksti"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teks atas"
+          }
         }
       }
     },
@@ -23851,6 +25195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yritä uudelleen"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coba lagi"
           }
         }
       }
@@ -23958,6 +25308,12 @@
             "state" : "translated",
             "value" : "Ota Bluetooth käyttöön yhdistääksesi kameraan."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyalakan Bluetooth untuk terhubung ke kamera."
+          }
         }
       }
     },
@@ -24063,6 +25419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ei saatavilla"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak tersedia"
           }
         }
       }
@@ -24170,6 +25532,12 @@
             "state" : "translated",
             "value" : "Versio"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versi"
+          }
         }
       }
     },
@@ -24272,6 +25640,12 @@
           }
         },
         "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Video"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Video"
@@ -24382,6 +25756,12 @@
             "state" : "translated",
             "value" : "Videot"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Video"
+          }
         }
       }
     },
@@ -24487,6 +25867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Etsin"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jendela bidik"
           }
         }
       }
@@ -24594,6 +25980,12 @@
             "state" : "translated",
             "value" : "Vinyyli (kiiltävä)"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vinil (mengilap)"
+          }
         }
       }
     },
@@ -24699,6 +26091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Äänilähtölaskenta"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hitung mundur suara"
           }
         }
       }
@@ -24806,6 +26204,12 @@
             "state" : "translated",
             "value" : "Odotetaan kaukosäädintä"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menunggu remote"
+          }
         }
       }
     },
@@ -24911,6 +26315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Odotetaan Bluetoothia…"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menunggu Bluetooth…"
           }
         }
       }
@@ -25018,6 +26428,12 @@
             "state" : "translated",
             "value" : "Odotetaan esikatselua…"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menunggu pratinjau…"
+          }
         }
       }
     },
@@ -25123,6 +26539,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Häät"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pernikahan"
           }
         }
       }
@@ -25230,6 +26652,12 @@
             "state" : "translated",
             "value" : "Leveys"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lebar"
+          }
         }
       }
     },
@@ -25335,6 +26763,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Talvi"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Musim dingin"
           }
         }
       }
@@ -25442,6 +26876,12 @@
             "state" : "translated",
             "value" : "Pikkujoulut"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pesta akhir tahun"
+          }
         }
       }
     },
@@ -25547,6 +26987,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zoomaus"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoom"
           }
         }
       }

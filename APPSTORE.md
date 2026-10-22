@@ -1532,6 +1532,88 @@ https://m1zz.github.io/ShutterLink/fi/privacy/
 
 https://m1zz.github.io/ShutterLink/fi/
 
+## id
+
+<!-- Bahasa Indonesia -->
+
+### 이름
+
+ShutterLink: foto spanduk grup
+
+### 부제
+
+Remote tanpa perlu dipasang
+
+### 키워드
+
+reuni,pesta,tim,acara,keluarga,swafoto,tripod,timer,AR,senyum,tepuk tangan,telapak tangan,bluetooth
+
+### 프로모션 텍스트
+
+Pasang spanduk Anda di foto grup tanpa mencetak. Tulis teks, pilih tema, dan semua ikut memegangnya. iPhone teman jadi remote dengan sekali pindai QR.
+
+### 설명
+
+Ambil foto grup klasik di mana semua orang memegang spanduk, tanpa mencetak spanduk.
+Tulis teks, pilih tema, dan spanduk muncul di depan grup Anda. iPhone teman jadi remote tanpa perlu dipasang.
+
+Mode Spanduk
+Beralih ke Spanduk, ketuk lantai, dan spanduk muncul setinggi orang memegangnya. Ketuk dinding untuk menggantungnya di sana. Seret ke atas, bawah, atau samping dan spanduk mengikuti jari Anda. Pakai dua jari untuk memutar atau mengubah ukuran, atau ketuk tombol pindah untuk mengatur halus ke depan, belakang, samping, atas, dan bawah.
+Spanduk selalu berada di depan grup Anda, jadi tampak seperti semua orang memegangnya bersama.
+
+Buat jadi milik Anda
+Mulai dari 13 tema, antara lain piknik musim gugur, piknik musim semi, pantai, pesta akhir tahun, ulang tahun, hari olahraga, sorak, wisuda, pernikahan, dan acara tim.
+Tulis hingga tiga baris teks. Ubah latar, font, dekorasi, warna, dan bentuk, serta tambahkan logo Anda sendiri.
+Pilih kain, vinil, atau kertas. Spanduk kain melorot, berkerut, dan berayun tertiup angin seperti aslinya.
+
+Semua orang ikut foto
+Timer, rana tanpa sentuh, dan remote semuanya berfungsi di mode Spanduk. Taruh ponsel di tripod dan bergabunglah dengan grup. Foto disimpan ke Foto dan ke galeri di app.
+
+Remote tanpa perlu dipasang
+Tampilkan kode QR di iPhone kamera dan pindai dengan Kamera iPhone lain. Remote ShutterLink langsung terbuka sebagai App Clip dan terhubung. Bingkai lewat tampilan langsung dan tekan rana. Di mode Spanduk, spanduk juga terlihat di tampilan langsung. Jika kode QR tidak bisa dipindai, ketik kode 4 digit.
+
+Rana tanpa sentuh
+Angkat telapak tangan, tersenyum bersama, atau bertepuk tangan, dan rana menyala.
+Atur timer 3 hingga 30 detik. Suara menghitung mundur, lampu kilat berkedip mengikuti, dan remote bergetar di tangan Anda.
+Perintah suara “Lihat ke kamera” menarik perhatian semua orang.
+
+Tak ada yang berkedip
+Ambil rangkaian 3 atau 5 foto dan ShutterLink memilih yang matanya terbuka semua dan tersenyum. Saring galeri ke foto terbaik atau pilih sendiri yang lain.
+
+Tak ada yang terpotong
+Lihat berapa banyak orang di bingkai dan dapatkan peringatan saat ada yang di tepi. Waterpas muncul saat iPhone miring.
+
+Foto masuk ke remote
+Setiap foto yang Anda ambil langsung muncul di iPhone remote. Teman tanpa app bisa menyimpan dan membagikannya saat itu juga.
+
+Kendali penuh kamera dari remote
+Ketuk untuk fokus dan eksposur, kompensasi eksposur, lampu kilat dan lampu, kisi, zoom 0,5× hingga 10× tergantung iPhone, kamera depan dan belakang, serta video.
+Pemotretan interval setiap 3 detik hingga 1 menit untuk matahari terbenam atau proyek yang sedang berjalan.
+Mode sederhana di remote menampilkan satu tombol rana besar yang bisa ditekan siapa saja.
+
+Bluetooth langsung, tanpa internet
+Kedua iPhone terhubung langsung lewat Bluetooth. Setelah terhubung, berfungsi di gunung, pantai, atau luar negeri tanpa Wi‑Fi atau data seluler. Tidak perlu akun.
+
+Foto Anda tetap milik Anda
+Foto dan video tetap di iPhone kamera dan remote yang Anda hubungkan, dan tidak pernah diunggah. Kode pemasangan berubah setiap Anda membuka app, jadi hanya remote yang mengetahuinya yang dapat memicu rana.
+
+Perlu diketahui
+Memerlukan iOS 17 atau lebih baru. Remote memerlukan iPhone kedua.
+iPhone remote memerlukan internet sekali, saat pertama mengunduh App Clip.
+Lampu kilat, rangkaian foto, zoom, dan kamera depan tidak tersedia di mode Spanduk.
+
+### 지원 URL
+
+https://m1zz.github.io/ShutterLink/id/support/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/ShutterLink/id/privacy/
+
+### 마케팅 URL
+
+https://m1zz.github.io/ShutterLink/id/
+
 ## 연령 등급
 
 <!-- 내용 문항이 전부 '해당 없음' 인 앱이면 아래 줄의 주석을 풀어라.
