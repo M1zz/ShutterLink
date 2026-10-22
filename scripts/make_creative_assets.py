@@ -22,8 +22,8 @@ RAW = ROOT / "docs" / "screenshots" / "raw"
 OUT = ROOT / "docs" / "screenshots" / "creative"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
-# 앱 언어 코드 → App Store Connect 로케일 (deploy.env LOCALES=ko,en-US,ja,en-GB,zh-Hans,zh-Hant,ru,es-ES,de-DE,fr-FR,it,pt-BR,th,vi)
-STORE = {"en": "en-US", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi"}
+# 앱 언어 코드 → App Store Connect 로케일 (deploy.env LOCALES=ko,en-US,ja,en-GB,zh-Hans,zh-Hant,ru,es-ES,de-DE,fr-FR,it,pt-BR,th,vi,cs)
+STORE = {"en": "en-US", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs"}
 
 # (가로, 세로, 안전 영역 left, top, right, bottom)
 SPEC = {
@@ -47,6 +47,7 @@ SEARCH = {
     "pt-BR": ("Faixa foto em grupo", "A foto em grupo com faixa,<br>sem imprimir", "Toque no chão e todos seguram a faixa"),
     "th": ("แบนเนอร์ ภาพหมู่", "ภาพหมู่ถือแบนเนอร์<br>ไม่ต้องสั่งพิมพ์", "แตะที่พื้น ทุกคนก็ถือแบนเนอร์"),
     "vi": ("Băng rôn ảnh nhóm", "Ảnh nhóm có băng rôn,<br>không cần in", "Chạm vào sàn, ai cũng cầm băng rôn"),
+    "cs": ("Banner skupinová fotka", "Skupinová fotka s bannerem<br>bez tisku", "Klepněte na podlahu a všichni ho drží"),
 }
 
 # 헤더는 한 가지 약속: 우리 모임 현수막을 들고 찍는 단체사진.
@@ -65,6 +66,7 @@ HEADER = {
     "pt-BR": ("Foto em grupo com faixa", "A faixa de vocês<br>em toda foto em grupo"),
     "th": ("ภาพหมู่ถือแบนเนอร์", "แบนเนอร์ของพวกเรา<br>อยู่ในทุกภาพหมู่"),
     "vi": ("Ảnh nhóm cầm băng rôn", "Băng rôn của nhóm bạn<br>trong mọi bức ảnh"),
+    "cs": ("Skupinová fotka s bannerem", "Váš banner<br>na každé společné fotce"),
 }
 
 # ⚠️ 바탕 · 글자색은 마케팅 스크린샷(scripts/screens/make_marketing_screenshots.py)과 같다.

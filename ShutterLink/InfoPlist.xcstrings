@@ -87,6 +87,12 @@
             "state" : "translated",
             "value" : "ShutterLink"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
         }
       }
     },
@@ -188,6 +194,12 @@
             "state" : "translated",
             "value" : "ShutterLink dùng Bluetooth để một chiếc iPhone ở gần có thể làm điều khiển từ xa cho nút chụp."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink používá Bluetooth, aby mohl blízký iPhone sloužit jako dálkový ovladač spouště."
+          }
         }
       }
     },
@@ -276,6 +288,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink dùng camera để chụp ảnh, quay video và đặt băng rôn AR vào khung cảnh."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink používá fotoaparát k pořizování fotek a videí a k umístění AR banneru do scény."
           }
         }
       }
@@ -366,6 +384,12 @@
             "state" : "translated",
             "value" : "ShutterLink ghi âm thanh cùng video và lắng nghe tiếng vỗ tay khi bật chụp bằng tiếng vỗ tay."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink nahrává zvuk k videím a naslouchá tlesknutí, když je zapnutá spoušť tleskáním."
+          }
         }
       }
     },
@@ -454,6 +478,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink lưu ảnh và video của bạn vào thư viện ảnh."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink ukládá vaše fotky a videa do knihovny."
           }
         }
       }

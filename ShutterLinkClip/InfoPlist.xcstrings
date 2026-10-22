@@ -87,6 +87,12 @@
             "state" : "translated",
             "value" : "Điều khiển ShutterLink"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ovladač ShutterLink"
+          }
         }
       }
     },
@@ -188,6 +194,12 @@
             "state" : "translated",
             "value" : "Điều khiển ShutterLink dùng Bluetooth để điều khiển iPhone chụp ở gần."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ovladač ShutterLink používá Bluetooth k ovládání blízkého iPhonu s fotoaparátem."
+          }
         }
       }
     },
@@ -276,6 +288,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Điều khiển ShutterLink lưu ảnh bạn chụp vào thư viện ảnh."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ovladač ShutterLink ukládá pořízené fotky do vaší knihovny."
           }
         }
       }

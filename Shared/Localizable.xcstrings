@@ -80,6 +80,12 @@
             "state" : "translated",
             "value" : "%lld"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
         }
       }
     },
@@ -161,6 +167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld người trong khung"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "V záběru: %lld"
           }
         }
       }
@@ -244,6 +256,12 @@
             "state" : "translated",
             "value" : "%lld ảnh"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotek: %lld"
+          }
         }
       }
     },
@@ -325,6 +343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld ảnh, đã chọn ảnh đẹp nhất"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotek: %lld, vybrána nejlepší"
           }
         }
       }
@@ -408,6 +432,12 @@
             "state" : "translated",
             "value" : "Đã kết nối %lld điều khiển"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Připojeno ovladačů: %lld"
+          }
         }
       }
     },
@@ -490,6 +520,12 @@
             "state" : "translated",
             "value" : "Đã chọn %lld"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vybráno: %lld"
+          }
         }
       }
     },
@@ -570,6 +606,12 @@
           }
         },
         "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld°"
+          }
+        },
+        "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld°"
@@ -656,6 +698,12 @@
             "state" : "translated",
             "value" : "%lld phút"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
         }
       }
     },
@@ -738,6 +786,12 @@
             "state" : "translated",
             "value" : "%lld giây"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld s"
+          }
         }
       }
     },
@@ -816,6 +870,12 @@
           }
         },
         "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0000"
+          }
+        },
+        "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "0000"
@@ -902,6 +962,12 @@
             "state" : "translated",
             "value" : "Màu nhấn (viền · sọc)"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akcent (okraj · pruh)"
+          }
         }
       }
     },
@@ -983,6 +1049,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thêm ảnh logo"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přidat obrázek loga"
           }
         }
       }
@@ -1066,6 +1138,12 @@
             "state" : "translated",
             "value" : "Chỉnh vị trí"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upravit polohu"
+          }
         }
       }
     },
@@ -1147,6 +1225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Phát tín hiệu thất bại: %@"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oznámení selhalo: %@"
           }
         }
       }
@@ -1230,6 +1314,12 @@
             "state" : "translated",
             "value" : "Tất cả"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vše"
+          }
         }
       }
     },
@@ -1312,6 +1402,12 @@
             "state" : "translated",
             "value" : "Hãy cho phép truy cập Bluetooth trong Cài đặt để điều khiển camera."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Povolte přístup k Bluetooth v Nastavení, abyste mohli ovládat fotoaparát."
+          }
         }
       }
     },
@@ -1393,6 +1489,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ai cũng có thể làm điều khiển"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ovladačem může být kdokoli"
           }
         }
       }
@@ -1477,6 +1579,12 @@
             "state" : "translated",
             "value" : "Áp dụng"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Použít"
+          }
         }
       }
     },
@@ -1558,6 +1666,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nhắc mọi người nhìn vào camera"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Požádat všechny, ať se dívají do objektivu"
           }
         }
       }
@@ -1641,6 +1755,12 @@
             "state" : "translated",
             "value" : "Tỷ lệ khung hình"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poměr stran"
+          }
         }
       }
     },
@@ -1722,6 +1842,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tự động"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto"
           }
         }
       }
@@ -1805,6 +1931,12 @@
             "state" : "translated",
             "value" : "Đã tắt chụp tự động"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatické focení vypnuto"
+          }
         }
       }
     },
@@ -1886,6 +2018,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lá thu"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podzimní listí"
           }
         }
       }
@@ -1969,6 +2107,12 @@
             "state" : "translated",
             "value" : "Dã ngoại mùa thu"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podzimní výlet"
+          }
         }
       }
     },
@@ -2050,6 +2194,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nền"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pozadí"
           }
         }
       }
@@ -2133,6 +2283,12 @@
             "state" : "translated",
             "value" : "Màu nền"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Barva pozadí"
+          }
         }
       }
     },
@@ -2214,6 +2370,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bóng bay"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Balonky"
           }
         }
       }
@@ -2297,6 +2459,12 @@
             "state" : "translated",
             "value" : "Băng rôn"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banner"
+          }
         }
       }
     },
@@ -2378,6 +2546,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thiết kế băng rôn"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Design banneru"
           }
         }
       }
@@ -2461,6 +2635,12 @@
             "state" : "translated",
             "value" : "Ảnh đẹp nhất"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nejlepší snímek"
+          }
         }
       }
     },
@@ -2542,6 +2722,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ảnh đẹp nhất trong %lld ảnh"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nejlepší snímek z %lld fotek"
           }
         }
       }
@@ -2625,6 +2811,12 @@
             "state" : "translated",
             "value" : "Ảnh đẹp nhất"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nejlepší snímky"
+          }
         }
       }
     },
@@ -2706,6 +2898,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sinh nhật"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Narozeniny"
           }
         }
       }
@@ -2789,6 +2987,12 @@
             "state" : "translated",
             "value" : "Bluetooth đang tắt"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth je vypnutý"
+          }
         }
       }
     },
@@ -2870,6 +3074,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Không hỗ trợ Bluetooth LE"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth LE není podporován"
           }
         }
       }
@@ -2953,6 +3163,12 @@
             "state" : "translated",
             "value" : "Quyền Bluetooth bị từ chối"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přístup k Bluetooth zamítnut"
+          }
         }
       }
     },
@@ -3034,6 +3250,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bluetooth sẵn sàng"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth je připraven"
           }
         }
       }
@@ -3117,6 +3339,12 @@
             "state" : "translated",
             "value" : "Bluetooth không khả dụng"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth není dostupný"
+          }
         }
       }
     },
@@ -3198,6 +3426,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sans đậm"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tučné bezpatkové"
           }
         }
       }
@@ -3281,6 +3515,12 @@
             "state" : "translated",
             "value" : "Dòng dưới: ngày · địa điểm"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spodní řádek: datum · místo"
+          }
         }
       }
     },
@@ -3362,6 +3602,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chữ phía dưới"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spodní text"
           }
         }
       }
@@ -3445,6 +3691,12 @@
             "state" : "translated",
             "value" : "Sáng hơn"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Světlejší"
+          }
         }
       }
     },
@@ -3526,6 +3778,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chụp liên tiếp"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Série"
           }
         }
       }
@@ -3609,6 +3867,12 @@
             "state" : "translated",
             "value" : "Cần quyền truy cập camera. Hãy bật trong Cài đặt > ShutterLink."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je potřeba přístup k fotoaparátu. Zapněte ho v Nastavení > ShutterLink."
+          }
         }
       }
     },
@@ -3690,6 +3954,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hủy"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zrušit"
           }
         }
       }
@@ -3773,6 +4043,12 @@
             "state" : "translated",
             "value" : "Hủy hẹn giờ"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zrušit časovač"
+          }
         }
       }
     },
@@ -3854,6 +4130,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chụp thất bại: %@"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Focení se nezdařilo: %@"
           }
         }
       }
@@ -3937,6 +4219,12 @@
             "state" : "translated",
             "value" : "Lễ kỷ niệm"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oslava"
+          }
         }
       }
     },
@@ -4018,6 +4306,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đổi logo"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Změnit logo"
           }
         }
       }
@@ -4101,6 +4395,12 @@
             "state" : "translated",
             "value" : "Hãy kiểm tra quyền truy cập Ảnh trong Cài đặt."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zkontrolujte přístup k Fotkám v Nastavení."
+          }
         }
       }
     },
@@ -4182,6 +4482,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cổ vũ"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fandění"
           }
         }
       }
@@ -4265,6 +4571,12 @@
             "state" : "translated",
             "value" : "Chọn Băng rôn, viết nội dung và chọn màu, rồi chạm vào sàn. Băng rôn sẽ đứng yên tại chỗ, còn người đứng phía trước trông như đang cầm nó."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zvolte Banner, napište text, vyberte barvy a klepněte na podlahu. Banner zůstane na místě a lidé, kteří před ním stojí, vypadají, jako by ho drželi."
+          }
         }
       }
     },
@@ -4346,6 +4658,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Giáng sinh"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vánoce"
           }
         }
       }
@@ -4429,6 +4747,12 @@
             "state" : "translated",
             "value" : "Vỗ tay"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tlesknutí"
+          }
         }
       }
     },
@@ -4510,6 +4834,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vỗ tay thật to một lần để bắt đầu hẹn giờ."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hlasitě jednou tleskněte a spustíte časovač."
           }
         }
       }
@@ -4593,6 +4923,12 @@
             "state" : "translated",
             "value" : "Chụp bằng tiếng vỗ tay"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spoušť tleskáním"
+          }
         }
       }
     },
@@ -4674,6 +5010,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chụp bằng tiếng vỗ tay cần quyền truy cập micrô. Hãy bật trong Cài đặt > ShutterLink."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spoušť tleskáním potřebuje přístup k mikrofonu. Zapněte ho v Nastavení > ShutterLink."
           }
         }
       }
@@ -4757,6 +5099,12 @@
             "state" : "translated",
             "value" : "Cổ điển"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klasický"
+          }
         }
       }
     },
@@ -4838,6 +5186,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đóng"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zavřít"
           }
         }
       }
@@ -4921,6 +5275,12 @@
             "state" : "translated",
             "value" : "Màu sắc"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Barvy"
+          }
         }
       }
     },
@@ -5002,6 +5362,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hội thảo công ty"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Firemní workshop"
           }
         }
       }
@@ -5085,6 +5451,12 @@
             "state" : "translated",
             "value" : "Sans hẹp"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Úzké bezpatkové"
+          }
         }
       }
     },
@@ -5166,6 +5538,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kết nối"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Připojit"
           }
         }
       }
@@ -5249,6 +5627,12 @@
             "state" : "translated",
             "value" : "Đã kết nối"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Připojeno"
+          }
         }
       }
     },
@@ -5330,6 +5714,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đang kết nối…"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Připojování…"
           }
         }
       }
@@ -5413,6 +5803,12 @@
             "state" : "translated",
             "value" : "Không thể tạo băng rôn: %@"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banner se nepodařilo vytvořit: %@"
+          }
         }
       }
     },
@@ -5494,6 +5890,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Không tìm thấy camera. Hãy chắc chắn ShutterLink đang mở trên iPhone chụp và Bluetooth đã bật."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoaparát se nepodařilo najít. Ujistěte se, že je na iPhonu s fotoaparátem otevřený ShutterLink a zapnutý Bluetooth."
           }
         }
       }
@@ -5577,6 +5979,12 @@
             "state" : "translated",
             "value" : "Không thể ghép nối với camera."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "S fotoaparátem se nepodařilo spárovat."
+          }
         }
       }
     },
@@ -5658,6 +6066,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Không thể lưu vào Ảnh. %@"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uložení do Fotek se nezdařilo. %@"
           }
         }
       }
@@ -5741,6 +6155,12 @@
             "state" : "translated",
             "value" : "Không thể hiển thị băng rôn: %@"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banner se nepodařilo zobrazit: %@"
+          }
         }
       }
     },
@@ -5822,6 +6242,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Không thể bắt đầu quay: %@"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nahrávání se nepodařilo spustit: %@"
           }
         }
       }
@@ -5905,6 +6331,12 @@
             "state" : "translated",
             "value" : "Không thể cập nhật thiết kế."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Design se nepodařilo aktualizovat."
+          }
         }
       }
     },
@@ -5986,6 +6418,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đếm ngược"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odpočet"
           }
         }
       }
@@ -6069,6 +6507,12 @@
             "state" : "translated",
             "value" : "Tối hơn"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tmavší"
+          }
         }
       }
     },
@@ -6150,6 +6594,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trang trí"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dekorace"
           }
         }
       }
@@ -6233,6 +6683,12 @@
             "state" : "translated",
             "value" : "Xóa"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smazat"
+          }
         }
       }
     },
@@ -6314,6 +6770,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Xóa các ảnh đã chọn?"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smazat vybrané snímky?"
           }
         }
       }
@@ -6397,6 +6859,12 @@
             "state" : "translated",
             "value" : "Sọc chéo"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Šikmé pruhy"
+          }
         }
       }
     },
@@ -6478,6 +6946,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hướng"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Směr"
           }
         }
       }
@@ -6561,6 +7035,12 @@
             "state" : "translated",
             "value" : "Ngắt kết nối"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odpojit"
+          }
         }
       }
     },
@@ -6642,6 +7122,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Xong"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hotovo"
           }
         }
       }
@@ -6725,6 +7211,12 @@
             "state" : "translated",
             "value" : "Kéo để trượt băng rôn trên sàn."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přetažením posunete banner po podlaze."
+          }
         }
       }
     },
@@ -6806,6 +7298,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chế độ lái xe"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Režim řízení"
           }
         }
       }
@@ -6889,6 +7387,12 @@
             "state" : "translated",
             "value" : "Nhập mã 4 chữ số hiển thị trên iPhone chụp."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zadejte 4místný kód zobrazený na iPhonu s fotoaparátem."
+          }
         }
       }
     },
@@ -6970,6 +7474,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mỗi %@"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Každých %@"
           }
         }
       }
@@ -7053,6 +7563,12 @@
             "state" : "translated",
             "value" : "Mọi ảnh cũng được lưu trong thư viện ShutterLink. Khi bật gửi ảnh, người cầm điều khiển sẽ nhận được bản sao của mỗi ảnh họ chụp."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Každý snímek se také uchovává v galerii ShutterLink. Je-li odesílání zapnuté, dostane ten, kdo drží ovladač, kopii každé fotky, kterou pořídí."
+          }
         }
       }
     },
@@ -7134,6 +7650,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mọi người nhìn vào camera nào!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Všichni se dívejte do objektivu!"
           }
         }
       }
@@ -7217,6 +7739,12 @@
             "state" : "translated",
             "value" : "Phơi sáng"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Expozice"
+          }
         }
       }
     },
@@ -7298,6 +7826,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vải (mờ)"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Látka (matná)"
           }
         }
       }
@@ -7381,6 +7915,12 @@
             "state" : "translated",
             "value" : "Hướng về tôi"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otočit ke mně"
+          }
         }
       }
     },
@@ -7462,6 +8002,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cùng đi chơi mùa thu"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Společně na podzimní výlet"
           }
         }
       }
@@ -7545,6 +8091,12 @@
             "state" : "translated",
             "value" : "Lọc"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filtr"
+          }
         }
       }
     },
@@ -7626,6 +8178,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đèn flash"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blesk"
           }
         }
       }
@@ -7709,6 +8267,12 @@
             "state" : "translated",
             "value" : "Đếm ngược bằng đèn flash"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odpočet bleskem"
+          }
         }
       }
     },
@@ -7790,6 +8354,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hoa"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Květiny"
           }
         }
       }
@@ -7873,6 +8443,12 @@
             "state" : "translated",
             "value" : "Phông chữ"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Písmo"
+          }
         }
       }
     },
@@ -7954,6 +8530,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thư viện"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Galerie"
           }
         }
       }
@@ -8037,6 +8619,12 @@
             "state" : "translated",
             "value" : "Chuyển màu"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přechod"
+          }
         }
       }
     },
@@ -8118,6 +8706,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lễ tốt nghiệp"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Promoce"
           }
         }
       }
@@ -8201,6 +8795,12 @@
             "state" : "translated",
             "value" : "Lưới"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mřížka"
+          }
         }
       }
     },
@@ -8282,6 +8882,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ảnh nhóm · chạm vào một ảnh để đánh dấu là đẹp nhất"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skupinová fotka · klepnutím označíte snímek jako nejlepší"
           }
         }
       }
@@ -8365,6 +8971,12 @@
             "state" : "translated",
             "value" : "Ảnh nhóm chụp nhiều ảnh và chọn ảnh mà mọi người đều mở mắt. Điều khiển cũng nhận một bản sao để lưu."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skupinová fotka pořídí několik snímků a vybere ten, na kterém mají všichni otevřené oči. Ovladač dostane kopii."
+          }
         }
       }
     },
@@ -8446,6 +9058,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cử chỉ tay"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gesta"
           }
         }
       }
@@ -8529,6 +9147,12 @@
             "state" : "translated",
             "value" : "Chụp rảnh tay"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spoušť bez doteku"
+          }
         }
       }
     },
@@ -8610,6 +9234,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trái tim"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Srdce"
           }
         }
       }
@@ -8693,6 +9323,12 @@
             "state" : "translated",
             "value" : "Chiều cao"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Výška"
+          }
         }
       }
     },
@@ -8774,6 +9410,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Độ cao so với sàn"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Výška nad podlahou"
           }
         }
       }
@@ -8857,6 +9499,12 @@
             "state" : "translated",
             "value" : "Trợ giúp"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nápověda"
+          }
         }
       }
     },
@@ -8938,6 +9586,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cầm băng rôn mà không cần mang theo"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Držte banner, aniž byste ho nosili"
           }
         }
       }
@@ -9021,6 +9675,12 @@
             "state" : "translated",
             "value" : "Cách dùng ShutterLink"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jak používat ShutterLink"
+          }
         }
       }
     },
@@ -9102,6 +9762,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Khoảng cách"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Interval"
           }
         }
       }
@@ -9185,6 +9851,12 @@
             "state" : "translated",
             "value" : "Thước thủy"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vodováha"
+          }
         }
       }
     },
@@ -9263,6 +9935,12 @@
           }
         },
         "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logo"
+          }
+        },
+        "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Logo"
@@ -9349,6 +10027,12 @@
             "state" : "translated",
             "value" : "Diện mạo"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vzhled"
+          }
         }
       }
     },
@@ -9430,6 +10114,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đang tìm camera %@…"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hledání fotoaparátu %@…"
           }
         }
       }
@@ -9513,6 +10203,12 @@
             "state" : "translated",
             "value" : "Thông điệp chính"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hlavní sdělení"
+          }
         }
       }
     },
@@ -9594,6 +10290,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chữ chính"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hlavní text"
           }
         }
       }
@@ -9677,6 +10379,12 @@
             "state" : "translated",
             "value" : "Chất liệu"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Materiál"
+          }
         }
       }
     },
@@ -9758,6 +10466,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chất liệu · Kích thước"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Materiál · Velikost"
           }
         }
       }
@@ -9841,6 +10555,12 @@
             "state" : "translated",
             "value" : "Chế độ"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Režim"
+          }
         }
       }
     },
@@ -9922,6 +10642,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thêm"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Více"
           }
         }
       }
@@ -10005,6 +10731,12 @@
             "state" : "translated",
             "value" : "Di chuyển băng rôn"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přesunout banner"
+          }
         }
       }
     },
@@ -10086,6 +10818,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tiếp"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Další"
           }
         }
       }
@@ -10169,6 +10907,12 @@
             "state" : "translated",
             "value" : "Ảnh tiếp theo sau %lld giây"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Další snímek za %lld s"
+          }
         }
       }
     },
@@ -10250,6 +10994,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thiết bị này không có camera khả dụng."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na tomto zařízení není k dispozici žádný fotoaparát."
           }
         }
       }
@@ -10333,6 +11083,12 @@
             "state" : "translated",
             "value" : "Chưa có ảnh nào"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zatím žádné snímky"
+          }
         }
       }
     },
@@ -10415,6 +11171,12 @@
             "state" : "translated",
             "value" : "Không ai chớp mắt"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nikdo nemrká"
+          }
         }
       }
     },
@@ -10496,6 +11258,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Không"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Žádné"
           }
         }
       }
@@ -10580,6 +11348,12 @@
             "state" : "translated",
             "value" : "Ngay"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teď"
+          }
         }
       }
     },
@@ -10661,6 +11435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "24–25/10/2026  Hồ Tahoe, California"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "24.–25. 10. 2026  Lake Tahoe, Kalifornie"
           }
         }
       }
@@ -10744,6 +11524,12 @@
             "state" : "translated",
             "value" : "Tắt"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyp"
+          }
         }
       }
     },
@@ -10822,6 +11608,12 @@
           }
         },
         "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -10908,6 +11700,12 @@
             "state" : "translated",
             "value" : "Bật"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zap"
+          }
         }
       }
     },
@@ -10989,6 +11787,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mở thư viện"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otevřít galerii"
           }
         }
       }
@@ -11072,6 +11876,12 @@
             "state" : "translated",
             "value" : "Tùy chọn"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Možnosti"
+          }
         }
       }
     },
@@ -11153,6 +11963,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hoặc chụp rảnh tay"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nebo fotit bez doteku"
           }
         }
       }
@@ -11236,6 +12052,12 @@
             "state" : "translated",
             "value" : "Đội của chúng ta 2026"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Náš tým 2026"
+          }
         }
       }
     },
@@ -11317,6 +12139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mã ghép nối"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Párovací kód"
           }
         }
       }
@@ -11400,6 +12228,12 @@
             "state" : "translated",
             "value" : "Đang ghép nối…"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Párování…"
+          }
         }
       }
     },
@@ -11481,6 +12315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lòng bàn tay"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dlaň"
           }
         }
       }
@@ -11564,6 +12404,12 @@
             "state" : "translated",
             "value" : "Cử chỉ lòng bàn tay"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gesto dlaní"
+          }
         }
       }
     },
@@ -11645,6 +12491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Giấy"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papír"
           }
         }
       }
@@ -11728,6 +12580,12 @@
             "state" : "translated",
             "value" : "Đêm tiệc"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Večírek"
+          }
         }
       }
     },
@@ -11809,6 +12667,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đếm người"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Počítadlo lidí"
           }
         }
       }
@@ -11892,6 +12756,12 @@
             "state" : "translated",
             "value" : "Giờ người đứng trước băng rôn sẽ hiện lên trên băng rôn."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lidé stojící před bannerem se teď zobrazují přes něj."
+          }
         }
       }
     },
@@ -11973,6 +12843,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ảnh"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotka"
           }
         }
       }
@@ -12056,6 +12932,12 @@
             "state" : "translated",
             "value" : "Ảnh"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotky"
+          }
         }
       }
     },
@@ -12137,6 +13019,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ảnh và video bạn chụp bằng ShutterLink sẽ xuất hiện ở đây."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotky a videa pořízené v ShutterLink se zobrazí tady."
           }
         }
       }
@@ -12220,6 +13108,12 @@
             "state" : "translated",
             "value" : "Ảnh của buổi chụp này"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotky z tohoto focení"
+          }
         }
       }
     },
@@ -12301,6 +13195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đặt iPhone này lên chân máy hoặc dựa vào chỗ chắc chắn. Dùng thước thủy và bộ đếm người để lấy hết mọi người vào khung."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Postavte tento iPhone na stativ nebo ho opřete o něco pevného. Pomocí vodováhy a počítadla lidí dostanete do záběru všechny."
           }
         }
       }
@@ -12384,6 +13284,12 @@
             "state" : "translated",
             "value" : "Hướng camera của iPhone kia vào mã QR. App Clip Điều khiển ShutterLink sẽ mở ra mà không cần cài gì. Hãy để ứng dụng này mở trong lúc chụp."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Namiřte fotoaparát druhého iPhonu na QR kód. App Clip Ovladač ShutterLink se otevře bez instalace. Při focení nechte tuto aplikaci otevřenou."
+          }
         }
       }
     },
@@ -12465,6 +13371,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Giơ lòng bàn tay mở về phía camera để bắt đầu hẹn giờ."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zvedněte otevřenou dlaň k fotoaparátu a spustíte časovač."
           }
         }
       }
@@ -12548,6 +13460,12 @@
             "state" : "translated",
             "value" : "Giơ lòng bàn tay, vỗ tay, hoặc để ShutterLink tự chụp khi mọi người cười. Đếm ngược bằng giọng nói và ánh sáng cho cả nhóm biết lúc nào tạo dáng."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zvedněte dlaň, tleskněte, nebo nechte ShutterLink vyfotit, když se všichni usmívají. Hlasový a světelný odpočet skupině napoví, kdy se postavit do pozice."
+          }
         }
       }
     },
@@ -12629,6 +13547,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quay thất bại."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nahrávání se nezdařilo."
           }
         }
       }
@@ -12712,6 +13636,12 @@
             "state" : "translated",
             "value" : "Xóa logo"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odebrat logo"
+          }
         }
       }
     },
@@ -12793,6 +13723,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đặt lại"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obnovit"
           }
         }
       }
@@ -12876,6 +13812,12 @@
             "state" : "translated",
             "value" : "Đặt lại phơi sáng"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obnovit expozici"
+          }
         }
       }
     },
@@ -12957,6 +13899,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sans bo tròn"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaoblené bezpatkové"
           }
         }
       }
@@ -13040,6 +13988,12 @@
             "state" : "translated",
             "value" : "Lưu hoặc chia sẻ ảnh này"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uložit nebo sdílet tuto fotku"
+          }
         }
       }
     },
@@ -13121,6 +14075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hãy lưu hoặc chia sẻ bản sao của bạn trước khi đóng điều khiển."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Než ovladač zavřete, uložte nebo sdílejte svou kopii."
           }
         }
       }
@@ -13204,6 +14164,12 @@
             "state" : "translated",
             "value" : "Lưu vào Ảnh"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uložit do Fotek"
+          }
         }
       }
     },
@@ -13285,6 +14251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quét mã QR trên iPhone chụp hoặc nhập mã ghép nối 4 chữ số."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Naskenujte QR kód na iPhonu s fotoaparátem nebo zadejte 4místný párovací kód."
           }
         }
       }
@@ -13368,6 +14340,12 @@
             "state" : "translated",
             "value" : "Quét để điều khiển camera: %@"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Naskenujte a ovládejte fotoaparát: %@"
+          }
         }
       }
     },
@@ -13449,6 +14427,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quét bằng iPhone khác"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Naskenujte druhým iPhonem"
           }
         }
       }
@@ -13532,6 +14516,12 @@
             "state" : "translated",
             "value" : "Biển"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moře"
+          }
         }
       }
     },
@@ -13613,6 +14603,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chọn"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vybrat"
           }
         }
       }
@@ -13696,6 +14692,12 @@
             "state" : "translated",
             "value" : "Gửi ảnh đến điều khiển"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Posílat fotky na ovladač"
+          }
         }
       }
     },
@@ -13777,6 +14779,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Có chân"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Patkové"
           }
         }
       }
@@ -13860,6 +14868,12 @@
             "state" : "translated",
             "value" : "Lỗi dịch vụ: %@"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chyba služby: %@"
+          }
         }
       }
     },
@@ -13941,6 +14955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thiết lập camera"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nastavit fotoaparát"
           }
         }
       }
@@ -14024,6 +15044,12 @@
             "state" : "translated",
             "value" : "Cài đặt"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nastavení"
+          }
         }
       }
     },
@@ -14105,6 +15131,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hình dạng"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tvar"
           }
         }
       }
@@ -14188,6 +15220,12 @@
             "state" : "translated",
             "value" : "Chia sẻ"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sdílet"
+          }
         }
       }
     },
@@ -14269,6 +15307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chia sẻ mã QR"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sdílet QR kód"
           }
         }
       }
@@ -14352,6 +15396,12 @@
             "state" : "translated",
             "value" : "Chỉ chụp bằng nút chụp."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotit jen tlačítkem spouště."
+          }
         }
       }
     },
@@ -14433,6 +15483,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tùy chọn chụp"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Možnosti focení"
           }
         }
       }
@@ -14516,6 +15572,12 @@
             "state" : "translated",
             "value" : "Tự chụp khi mọi người cười và mở mắt."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyfotí automaticky, když se všichni usmívají s otevřenýma očima."
+          }
         }
       }
     },
@@ -14597,6 +15659,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hiện mã QR ghép nối"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zobrazit párovací QR kód"
           }
         }
       }
@@ -14680,6 +15748,12 @@
             "state" : "translated",
             "value" : "Hiện người đứng phía trước"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zobrazit lidi vpředu"
+          }
         }
       }
     },
@@ -14762,6 +15836,12 @@
             "state" : "translated",
             "value" : "Hiện cột hai bên"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zobrazit boční tyče"
+          }
         }
       }
     },
@@ -14840,6 +15920,12 @@
           }
         },
         "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
+        },
+        "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink"
@@ -14926,6 +16012,12 @@
             "state" : "translated",
             "value" : "Ảnh ShutterLink"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotka ze ShutterLink"
+          }
         }
       }
     },
@@ -15007,6 +16099,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Điều khiển ShutterLink"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ovladač ShutterLink"
           }
         }
       }
@@ -15090,6 +16188,12 @@
             "state" : "translated",
             "value" : "Chế độ đơn giản (nút lớn)"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jednoduchý režim (velká tlačítka)"
+          }
         }
       }
     },
@@ -15171,6 +16275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Một ảnh"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jednotlivě"
           }
         }
       }
@@ -15254,6 +16364,12 @@
             "state" : "translated",
             "value" : "Ảnh đơn"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jedna fotka"
+          }
         }
       }
     },
@@ -15335,6 +16451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dòng nhỏ phía trên (VD: Công ty Acme 2026)"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Malý horní řádek (např. Acme s.r.o. 2026)"
           }
         }
       }
@@ -15418,6 +16540,12 @@
             "state" : "translated",
             "value" : "Nụ cười"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Úsměv"
+          }
         }
       }
     },
@@ -15499,6 +16627,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chụp khi cười"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spoušť úsměvem"
           }
         }
       }
@@ -15582,6 +16716,12 @@
             "state" : "translated",
             "value" : "Tuyết"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sníh"
+          }
         }
       }
     },
@@ -15663,6 +16803,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Một màu"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jednobarevné"
           }
         }
       }
@@ -15746,6 +16892,12 @@
             "state" : "translated",
             "value" : "Có người ở mép khung hình"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Někdo je na okraji záběru"
+          }
         }
       }
     },
@@ -15827,6 +16979,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thể thao"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sport"
           }
         }
       }
@@ -15910,6 +17068,12 @@
             "state" : "translated",
             "value" : "Ngày hội thể thao"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sportovní den"
+          }
         }
       }
     },
@@ -15991,6 +17155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hoa xuân"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jarní květy"
           }
         }
       }
@@ -16074,6 +17244,12 @@
             "state" : "translated",
             "value" : "Ngôi sao"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvězdy"
+          }
         }
       }
     },
@@ -16155,6 +17331,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bắt đầu quay"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spustit nahrávání"
           }
         }
       }
@@ -16238,6 +17420,12 @@
             "state" : "translated",
             "value" : "Bắt đầu chụp"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Začít fotit"
+          }
         }
       }
     },
@@ -16319,6 +17507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đang bật Bluetooth…"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spouštění Bluetooth…"
           }
         }
       }
@@ -16402,6 +17596,12 @@
             "state" : "translated",
             "value" : "Dừng chụp theo khoảng"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zastavit intervalové focení"
+          }
         }
       }
     },
@@ -16483,6 +17683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dừng quay"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zastavit nahrávání"
           }
         }
       }
@@ -16566,6 +17772,12 @@
             "state" : "translated",
             "value" : "Biển mùa hè"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letní pláž"
+          }
         }
       }
     },
@@ -16647,6 +17859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đung đưa trong gió"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vlaje ve vánku"
           }
         }
       }
@@ -16730,6 +17948,12 @@
             "state" : "translated",
             "value" : "Đổi camera"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přepnout fotoaparát"
+          }
         }
       }
     },
@@ -16811,6 +18035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chụp ảnh"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyfotit"
           }
         }
       }
@@ -16894,6 +18124,12 @@
             "state" : "translated",
             "value" : "Chụp ảnh sau %lld giây."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotka za %lld s."
+          }
         }
       }
     },
@@ -16975,6 +18211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chạm vào sàn hoặc tường để đặt băng rôn"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klepnutím na podlahu nebo zeď umístíte banner"
           }
         }
       }
@@ -17058,6 +18300,12 @@
             "state" : "translated",
             "value" : "Chạm vào nút QR. iPhone khác quét bằng ứng dụng Camera và thành điều khiển trong vài giây, không cần cài gì."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klepněte na tlačítko QR. Druhý iPhone ho naskenuje aplikací Fotoaparát a během pár sekund se z něj stane ovladač, bez jakékoli instalace."
+          }
         }
       }
     },
@@ -17139,6 +18387,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chạm để lấy nét"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klepnutím zaostříte"
           }
         }
       }
@@ -17222,6 +18476,12 @@
             "state" : "translated",
             "value" : "Chữ"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Text"
+          }
         }
       }
     },
@@ -17303,6 +18563,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Băng rôn tạm dừng một lát"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banner se na chvíli zastavil"
           }
         }
       }
@@ -17386,6 +18652,12 @@
             "state" : "translated",
             "value" : "Băng rôn luôn ở phía trước mọi người."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banner zůstává před všemi."
+          }
         }
       }
     },
@@ -17467,6 +18739,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Camera đếm ngược thành tiếng và nháy đèn, nên cả nhóm đứng xa cũng biết chính xác khi nào ảnh được chụp."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoaparát odpočítává nahlas a bliká světlem, takže i vzdálená skupina přesně ví, kdy se fotí."
           }
         }
       }
@@ -17550,6 +18828,12 @@
             "state" : "translated",
             "value" : "Mã ghép nối bị từ chối. Hãy quét lại mã QR."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Párovací kód byl odmítnut. Naskenujte QR kód znovu."
+          }
         }
       }
     },
@@ -17631,6 +18915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chủ đề"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Motiv"
           }
         }
       }
@@ -17714,6 +19004,12 @@
             "state" : "translated",
             "value" : "Ảnh vẫn nằm trong thư viện Ảnh nếu đã được lưu ở đó."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zůstanou ve vaší knihovně Fotek, pokud se tam uložily."
+          }
         }
       }
     },
@@ -17795,6 +19091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thiết bị này không hỗ trợ Bluetooth LE."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toto zařízení nepodporuje Bluetooth LE."
           }
         }
       }
@@ -17878,6 +19180,12 @@
             "state" : "translated",
             "value" : "Thiết bị này không phải camera ShutterLink."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toto zařízení není fotoaparát ShutterLink."
+          }
         }
       }
     },
@@ -17959,6 +19267,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "iPhone này không hỗ trợ AR."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tento iPhone nepodporuje AR."
           }
         }
       }
@@ -18042,6 +19356,12 @@
             "state" : "translated",
             "value" : "Nghiêng %lld độ"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nakloněno o %lld stupňů"
+          }
         }
       }
     },
@@ -18123,6 +19443,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hẹn giờ"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Časovač"
           }
         }
       }
@@ -18206,6 +19532,12 @@
             "state" : "translated",
             "value" : "Dải trên và dưới"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Horní a dolní pruh"
+          }
         }
       }
     },
@@ -18287,6 +19619,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sọc trên"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Horní pruh"
           }
         }
       }
@@ -18370,6 +19708,12 @@
             "state" : "translated",
             "value" : "Chữ phía trên"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Horní text"
+          }
         }
       }
     },
@@ -18451,6 +19795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thử lại"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zkusit znovu"
           }
         }
       }
@@ -18534,6 +19884,12 @@
             "state" : "translated",
             "value" : "Hãy bật Bluetooth để kết nối với camera."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapněte Bluetooth a připojte se k fotoaparátu."
+          }
         }
       }
     },
@@ -18615,6 +19971,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Không khả dụng"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nedostupné"
           }
         }
       }
@@ -18698,6 +20060,12 @@
             "state" : "translated",
             "value" : "Phiên bản"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verze"
+          }
         }
       }
     },
@@ -18776,6 +20144,12 @@
           }
         },
         "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Video"
+          }
+        },
+        "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Video"
@@ -18862,6 +20236,12 @@
             "state" : "translated",
             "value" : "Video"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Videa"
+          }
         }
       }
     },
@@ -18943,6 +20323,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Khung ngắm"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hledáček"
           }
         }
       }
@@ -19026,6 +20412,12 @@
             "state" : "translated",
             "value" : "Vinyl (bóng)"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vinyl (lesklý)"
+          }
         }
       }
     },
@@ -19107,6 +20499,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đếm ngược bằng giọng nói"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hlasový odpočet"
           }
         }
       }
@@ -19190,6 +20588,12 @@
             "state" : "translated",
             "value" : "Đang chờ điều khiển"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Čekání na ovladač"
+          }
         }
       }
     },
@@ -19271,6 +20675,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đang chờ Bluetooth…"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Čekání na Bluetooth…"
           }
         }
       }
@@ -19354,6 +20764,12 @@
             "state" : "translated",
             "value" : "Đang chờ xem trước…"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Čekání na náhled…"
+          }
         }
       }
     },
@@ -19435,6 +20851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đám cưới"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svatba"
           }
         }
       }
@@ -19518,6 +20940,12 @@
             "state" : "translated",
             "value" : "Chiều rộng"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Šířka"
+          }
         }
       }
     },
@@ -19599,6 +21027,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mùa đông"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zima"
           }
         }
       }
@@ -19682,6 +21116,12 @@
             "state" : "translated",
             "value" : "Tiệc cuối năm"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Silvestrovský večírek"
+          }
         }
       }
     },
@@ -19763,6 +21203,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thu phóng"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přiblížení"
           }
         }
       }

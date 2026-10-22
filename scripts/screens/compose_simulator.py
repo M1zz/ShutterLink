@@ -159,6 +159,17 @@ CAPTIONS = {
  ("08-pairing", "07-pairing", "Chỉ cần đưa mã QR là xong", "Không tài khoản, không cài đặt ghép nối, không thiết bị thêm"),
  ("09-simple", "06-simple", "Nút lớn cho mọi người", "Một nút chụp lớn mà ai cũng bấm được"),
  ],
+ "cs": [
+ ("01-banner", "banner", "Fotka s bannerem bez tisku", "Klepněte na podlahu a banner se objeví před všemi"),
+ ("02-banner-design", "bannerDesign", "Vyberte motiv a napište text", "13 motivů na srazy, oslavy, promoce a další"),
+ ("03-remote", "02-remote", "Druhý iPhone je ovladač", "Naskenujte QR kód, nic neinstalujte"),
+ ("04-countdown", "04-countdown", "Fotte dlaní", "Dlaň, tlesknutí nebo úsměv s hlasovým a světelným odpočtem"),
+ ("05-bestshot", "01-main", "Konec zavřených očí", "Vybere snímek, na kterém mají všichni otevřené oči"),
+ ("06-reviews", "03-reviews", "Fotky rovnou na ovladači", "Kamarádi bez aplikace je také uloží a sdílejí"),
+ ("07-gallery", "05-gallery", "Všechny nejlepší snímky", "Vyměňte za jiný ze série a sdílejte přes AirDrop"),
+ ("08-pairing", "07-pairing", "Ukažte QR kód a hotovo", "Bez účtu, bez párování, bez příslušenství"),
+ ("09-simple", "06-simple", "Velké tlačítko pro každého", "Jediná velká spoušť, kterou zmáčkne kdokoli"),
+ ],
 }
 
 def font(size, bold):

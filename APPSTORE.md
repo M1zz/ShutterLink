@@ -1204,6 +1204,88 @@ https://m1zz.github.io/ShutterLink/vi/privacy/
 
 https://m1zz.github.io/ShutterLink/vi/
 
+## cs
+
+<!-- Čeština -->
+
+### 이름
+
+ShutterLink: fotka s bannerem
+
+### 부제
+
+Ovladač bez instalace
+
+### 키워드
+
+sraz,oslava,tým,akce,rodina,selfie,stativ,časovač,AR,fotokoutek,úsměv,tlesknutí,dlaň,bluetooth
+
+### 프로모션 텍스트
+
+Vložte do skupinové fotky vlastní banner, bez tisku. Napište text, vyberte motiv a všichni ho drží. iPhone kamaráda se stane ovladačem jedním naskenováním QR kódu.
+
+### 설명
+
+Pořiďte klasickou skupinovou fotku, na které všichni drží banner, bez tisku banneru.
+Napište text, vyberte motiv a banner se objeví před vaší skupinou. iPhone kamaráda se stane ovladačem bez instalace.
+
+Režim Banner
+Přepněte na Banner, klepněte na podlahu a banner se objeví ve výšce, v jaké by ho lidé drželi. Klepnutím na zeď ho pověsíte tam. Přetáhněte ho nahoru, dolů nebo do stran a následuje váš prst. Dvěma prsty ho otočíte nebo změníte jeho velikost, případně ho tlačítkem přesunu jemně doladíte dopředu, dozadu, do stran, nahoru a dolů.
+Banner zůstává vždy před skupinou, takže to vypadá, jako by ho všichni společně drželi.
+
+Udělejte si ho po svém
+Začněte jedním z 13 motivů: podzimní výlet, jarní piknik, pláž, silvestrovský večírek, narozeniny, sportovní den, fandění, promoce, svatba a teambuilding.
+Napište až tři řádky textu. Měňte pozadí, písmo, dekorace, barvy a tvar a přidejte vlastní logo.
+Vyberte látku, vinyl nebo papír. Látkový banner se prověšuje, mačká a vlaje ve vánku jako skutečný.
+
+Všichni na fotce
+Časovač, spoušť bez doteku i ovladač fungují v režimu Banner. Postavte telefon na stativ a připojte se ke skupině. Fotky se ukládají do Fotek a do galerie v aplikaci.
+
+Ovladač bez instalace
+Zobrazte QR kód na iPhonu s fotoaparátem a naskenujte ho fotoaparátem druhého iPhonu. Ovladač ShutterLink se okamžitě otevře jako App Clip a připojí se. Kompozici zvolte podle živého obrazu a stiskněte spoušť. V režimu Banner je banner vidět i v živém obraze. Pokud se QR kód nedaří naskenovat, zadejte místo něj 4místný kód.
+
+Spoušť bez doteku
+Zvedněte dlaň, usmějte se společně nebo tleskněte a spoušť se stiskne.
+Nastavte časovač od 3 do 30 sekund. Hlas odpočítává, blesk bliká v rytmu a ovladač vám vibruje v ruce.
+Hlasová výzva „Dívejte se do objektivu“ upoutá pozornost všech.
+
+Nikdo nemrká
+Pořiďte sérii 3 nebo 5 snímků a ShutterLink vybere ten, na kterém mají všichni otevřené oči a usmívají se. Filtrujte galerii na nejlepší snímky, nebo si vyberte jiný sami.
+
+Nikdo není useknutý
+Uvidíte, kolik lidí je v záběru, a dostanete upozornění, když je někdo na okraji. Při naklonění iPhonu se objeví vodováha.
+
+Fotky přistávají na ovladači
+Každá fotka, kterou pořídíte, se okamžitě objeví na iPhonu-ovladači. Kamarád bez aplikace ji může hned uložit a sdílet.
+
+Plné ovládání fotoaparátu z ovladače
+Klepnutím zaostříte a změříte expozici, korekce expozice, blesk a světlo, mřížka, přiblížení od 0,5× do 10× podle modelu iPhonu, přední i zadní fotoaparát a video.
+Intervalové focení každé 3 sekundy až 1 minutu pro západy slunce nebo rozdělané projekty.
+Jednoduchý režim na ovladači ukáže jedno velké tlačítko spouště, které zmáčkne kdokoli.
+
+Přímý Bluetooth, bez internetu
+Oba iPhony se spojí přímo přes Bluetooth. Po připojení to funguje na horách, na pláži i v zahraničí bez Wi‑Fi a mobilních dat. Není potřeba účet.
+
+Vaše fotky zůstávají u vás
+Fotky a videa zůstávají na iPhonu s fotoaparátem a na připojeném ovladači a nikdy se nenahrávají. Párovací kód se mění při každém otevření aplikace, takže spoušť může stisknout jen ovladač, který ho zná.
+
+Dobré vědět
+Vyžaduje iOS 17 nebo novější. Ovladač potřebuje druhý iPhone.
+iPhone-ovladač potřebuje jednou internet, když poprvé stahuje App Clip.
+Blesk, série, přiblížení a přední fotoaparát nejsou v režimu Banner dostupné.
+
+### 지원 URL
+
+https://m1zz.github.io/ShutterLink/cs/support/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/ShutterLink/cs/privacy/
+
+### 마케팅 URL
+
+https://m1zz.github.io/ShutterLink/cs/
+
 ## 연령 등급
 
 <!-- 내용 문항이 전부 '해당 없음' 인 앱이면 아래 줄의 주석을 풀어라.
