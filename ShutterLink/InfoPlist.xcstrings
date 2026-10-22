@@ -75,6 +75,12 @@
             "state" : "translated",
             "value" : "ShutterLink"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
         }
       }
     },
@@ -164,6 +170,12 @@
             "state" : "translated",
             "value" : "O ShutterLink usa o Bluetooth para que um iPhone por perto funcione como controle remoto do obturador."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink ใช้ Bluetooth เพื่อให้ iPhone เครื่องที่อยู่ใกล้ ๆ ทำหน้าที่เป็นรีโมตชัตเตอร์"
+          }
         }
       }
     },
@@ -240,6 +252,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "O ShutterLink usa a câmera para tirar fotos e gravar vídeos e para colocar uma faixa em RA na cena."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink ใช้กล้องเพื่อถ่ายภาพและวิดีโอ และวางแบนเนอร์ AR ลงในฉาก"
           }
         }
       }
@@ -318,6 +336,12 @@
             "state" : "translated",
             "value" : "O ShutterLink grava o áudio dos seus vídeos e escuta uma palma quando o disparo por palmas está ligado."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink บันทึกเสียงไปกับวิดีโอ และคอยฟังเสียงปรบมือเมื่อเปิดใช้ชัตเตอร์ปรบมือ"
+          }
         }
       }
     },
@@ -394,6 +418,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "O ShutterLink salva suas fotos e vídeos na sua fototeca."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink บันทึกภาพถ่ายและวิดีโอของคุณลงในคลังรูปภาพ"
           }
         }
       }

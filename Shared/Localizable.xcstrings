@@ -68,6 +68,12 @@
             "state" : "translated",
             "value" : "%lld"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
         }
       }
     },
@@ -137,6 +143,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld no quadro"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld คนในเฟรม"
           }
         }
       }
@@ -208,6 +220,12 @@
             "state" : "translated",
             "value" : "%lld fotos"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ภาพ"
+          }
         }
       }
     },
@@ -277,6 +295,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld fotos, melhor escolhida"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถ่าย %lld ภาพ เลือกภาพที่ดีที่สุด"
           }
         }
       }
@@ -348,6 +372,12 @@
             "state" : "translated",
             "value" : "%lld controle conectado"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เชื่อมต่อรีโมต %lld เครื่อง"
+          }
         }
       }
     },
@@ -418,6 +448,12 @@
             "state" : "translated",
             "value" : "%lld selecionadas"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือกแล้ว %lld รายการ"
+          }
         }
       }
     },
@@ -486,6 +522,12 @@
           }
         },
         "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld°"
+          }
+        },
+        "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld°"
@@ -560,6 +602,12 @@
             "state" : "translated",
             "value" : "%lld min"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld นาที"
+          }
         }
       }
     },
@@ -630,6 +678,12 @@
             "state" : "translated",
             "value" : "%lld s"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld วินาที"
+          }
         }
       }
     },
@@ -696,6 +750,12 @@
           }
         },
         "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0000"
+          }
+        },
+        "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "0000"
@@ -770,6 +830,12 @@
             "state" : "translated",
             "value" : "Destaque (borda · listra)"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สีเน้น (ขอบ · แถบ)"
+          }
         }
       }
     },
@@ -839,6 +905,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Adicionar imagem do logotipo"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่มภาพโลโก้"
           }
         }
       }
@@ -910,6 +982,12 @@
             "state" : "translated",
             "value" : "Ajustar posição"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปรับตำแหน่ง"
+          }
         }
       }
     },
@@ -979,6 +1057,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Falha ao anunciar: %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ประกาศตัวไม่สำเร็จ: %@"
           }
         }
       }
@@ -1050,6 +1134,12 @@
             "state" : "translated",
             "value" : "Todas"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทั้งหมด"
+          }
         }
       }
     },
@@ -1120,6 +1210,12 @@
             "state" : "translated",
             "value" : "Permita o acesso ao Bluetooth em Ajustes para controlar a câmera."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อนุญาตการเข้าถึง Bluetooth ในการตั้งค่าเพื่อควบคุมกล้อง"
+          }
         }
       }
     },
@@ -1189,6 +1285,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Qualquer um pode ser o controle"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใครก็เป็นรีโมตได้"
           }
         }
       }
@@ -1261,6 +1363,12 @@
             "state" : "translated",
             "value" : "Aplicar"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้"
+          }
         }
       }
     },
@@ -1330,6 +1438,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pedir a todos que olhem para a câmera"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ขอให้ทุกคนมองกล้อง"
           }
         }
       }
@@ -1401,6 +1515,12 @@
             "state" : "translated",
             "value" : "Proporção"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สัดส่วนภาพ"
+          }
         }
       }
     },
@@ -1470,6 +1590,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Auto"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อัตโนมัติ"
           }
         }
       }
@@ -1541,6 +1667,12 @@
             "state" : "translated",
             "value" : "Disparo automático desligado"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปิดการถ่ายอัตโนมัติ"
+          }
         }
       }
     },
@@ -1610,6 +1742,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Folhas de outono"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใบไม้ร่วง"
           }
         }
       }
@@ -1681,6 +1819,12 @@
             "state" : "translated",
             "value" : "Passeio de outono"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เที่ยวฤดูใบไม้ร่วง"
+          }
         }
       }
     },
@@ -1750,6 +1894,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fundo"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พื้นหลัง"
           }
         }
       }
@@ -1821,6 +1971,12 @@
             "state" : "translated",
             "value" : "Cor do fundo"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สีพื้นหลัง"
+          }
         }
       }
     },
@@ -1890,6 +2046,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Balões"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลูกโป่ง"
           }
         }
       }
@@ -1961,6 +2123,12 @@
             "state" : "translated",
             "value" : "Faixa"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แบนเนอร์"
+          }
         }
       }
     },
@@ -2030,6 +2198,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Design da faixa"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ออกแบบแบนเนอร์"
           }
         }
       }
@@ -2101,6 +2275,12 @@
             "state" : "translated",
             "value" : "Melhor foto"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาพที่ดีที่สุด"
+          }
         }
       }
     },
@@ -2170,6 +2350,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Melhor foto entre %lld"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือกภาพที่ดีที่สุดจาก %lld ภาพ"
           }
         }
       }
@@ -2241,6 +2427,12 @@
             "state" : "translated",
             "value" : "Melhores fotos"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาพที่ดีที่สุด"
+          }
         }
       }
     },
@@ -2310,6 +2502,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aniversário"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วันเกิด"
           }
         }
       }
@@ -2381,6 +2579,12 @@
             "state" : "translated",
             "value" : "Bluetooth desligado"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth ปิดอยู่"
+          }
         }
       }
     },
@@ -2450,6 +2654,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bluetooth LE não compatível"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่รองรับ Bluetooth LE"
           }
         }
       }
@@ -2521,6 +2731,12 @@
             "state" : "translated",
             "value" : "Permissão de Bluetooth negada"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่ได้รับอนุญาตใช้ Bluetooth"
+          }
         }
       }
     },
@@ -2590,6 +2806,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bluetooth pronto"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth พร้อมใช้งาน"
           }
         }
       }
@@ -2661,6 +2883,12 @@
             "state" : "translated",
             "value" : "Bluetooth indisponível"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้ Bluetooth ไม่ได้"
+          }
         }
       }
     },
@@ -2730,6 +2958,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sem serifa negrito"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ซานส์ตัวหนา"
           }
         }
       }
@@ -2801,6 +3035,12 @@
             "state" : "translated",
             "value" : "Linha de baixo: data · local"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บรรทัดล่าง: วันที่ · สถานที่"
+          }
         }
       }
     },
@@ -2870,6 +3110,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Texto de baixo"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้อความด้านล่าง"
           }
         }
       }
@@ -2941,6 +3187,12 @@
             "state" : "translated",
             "value" : "Mais claro"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สว่างขึ้น"
+          }
         }
       }
     },
@@ -3010,6 +3262,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rajada"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถ่ายต่อเนื่อง"
           }
         }
       }
@@ -3081,6 +3339,12 @@
             "state" : "translated",
             "value" : "É preciso acesso à câmera. Ative em Ajustes > ShutterLink."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ต้องอนุญาตให้เข้าถึงกล้อง เปิดได้ที่ การตั้งค่า > ShutterLink"
+          }
         }
       }
     },
@@ -3150,6 +3414,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cancelar"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยกเลิก"
           }
         }
       }
@@ -3221,6 +3491,12 @@
             "state" : "translated",
             "value" : "Cancelar temporizador"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยกเลิกตัวตั้งเวลา"
+          }
         }
       }
     },
@@ -3290,6 +3566,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Falha ao capturar: %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถ่ายภาพไม่สำเร็จ: %@"
           }
         }
       }
@@ -3361,6 +3643,12 @@
             "state" : "translated",
             "value" : "Comemoração"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "งานฉลอง"
+          }
         }
       }
     },
@@ -3430,6 +3718,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trocar logotipo"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปลี่ยนโลโก้"
           }
         }
       }
@@ -3501,6 +3795,12 @@
             "state" : "translated",
             "value" : "Verifique o acesso a Fotos em Ajustes."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตรวจสอบการเข้าถึงรูปภาพในการตั้งค่า"
+          }
         }
       }
     },
@@ -3570,6 +3870,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Torcida"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เชียร์"
           }
         }
       }
@@ -3641,6 +3947,12 @@
             "state" : "translated",
             "value" : "Escolha Faixa, escreva seu texto e selecione as cores; depois toque no chão. A faixa fica no lugar e quem está na frente parece estar segurando."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือก “แบนเนอร์” พิมพ์ข้อความและเลือกสี แล้วแตะที่พื้น แบนเนอร์จะอยู่กับที่ และคนที่ยืนอยู่ด้านหน้าจะดูเหมือนกำลังถืออยู่"
+          }
         }
       }
     },
@@ -3710,6 +4022,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Natal"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คริสต์มาส"
           }
         }
       }
@@ -3781,6 +4099,12 @@
             "state" : "translated",
             "value" : "Palma"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปรบมือ"
+          }
         }
       }
     },
@@ -3850,6 +4174,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bata uma palma forte para iniciar o temporizador."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปรบมือดัง ๆ หนึ่งครั้งเพื่อเริ่มจับเวลา"
           }
         }
       }
@@ -3921,6 +4251,12 @@
             "state" : "translated",
             "value" : "Disparo por palmas"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชัตเตอร์ปรบมือ"
+          }
         }
       }
     },
@@ -3990,6 +4326,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "O disparo por palmas precisa de acesso ao microfone. Ative em Ajustes > ShutterLink."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชัตเตอร์ปรบมือต้องใช้ไมโครโฟน เปิดได้ที่ การตั้งค่า > ShutterLink"
           }
         }
       }
@@ -4061,6 +4403,12 @@
             "state" : "translated",
             "value" : "Clássico"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คลาสสิก"
+          }
         }
       }
     },
@@ -4130,6 +4478,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fechar"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปิด"
           }
         }
       }
@@ -4201,6 +4555,12 @@
             "state" : "translated",
             "value" : "Cores"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สี"
+          }
         }
       }
     },
@@ -4270,6 +4630,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Workshop da empresa"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เวิร์กช็อปบริษัท"
           }
         }
       }
@@ -4341,6 +4707,12 @@
             "state" : "translated",
             "value" : "Sem serifa condensada"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ซานส์แบบแคบ"
+          }
         }
       }
     },
@@ -4410,6 +4782,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Conectar"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เชื่อมต่อ"
           }
         }
       }
@@ -4481,6 +4859,12 @@
             "state" : "translated",
             "value" : "Conectado"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เชื่อมต่อแล้ว"
+          }
         }
       }
     },
@@ -4550,6 +4934,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Conectando…"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังเชื่อมต่อ…"
           }
         }
       }
@@ -4621,6 +5011,12 @@
             "state" : "translated",
             "value" : "Não foi possível criar a faixa: %@"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สร้างแบนเนอร์ไม่ได้: %@"
+          }
         }
       }
     },
@@ -4690,6 +5086,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Não foi possível encontrar a câmera. Confira se o ShutterLink está aberto no iPhone da câmera e se o Bluetooth está ligado."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่พบกล้อง ตรวจสอบว่าเปิด ShutterLink บน iPhone ตัวถ่ายภาพ และเปิด Bluetooth อยู่"
           }
         }
       }
@@ -4761,6 +5163,12 @@
             "state" : "translated",
             "value" : "Não foi possível parear com a câmera."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จับคู่กับกล้องไม่ได้"
+          }
         }
       }
     },
@@ -4830,6 +5238,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Não foi possível salvar em Fotos. %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บันทึกลงในรูปภาพไม่ได้ %@"
           }
         }
       }
@@ -4901,6 +5315,12 @@
             "state" : "translated",
             "value" : "Não foi possível mostrar a faixa: %@"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แสดงแบนเนอร์ไม่ได้: %@"
+          }
         }
       }
     },
@@ -4970,6 +5390,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Não foi possível iniciar a gravação: %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เริ่มบันทึกไม่ได้: %@"
           }
         }
       }
@@ -5041,6 +5467,12 @@
             "state" : "translated",
             "value" : "Não foi possível atualizar o design."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อัปเดตดีไซน์ไม่ได้"
+          }
         }
       }
     },
@@ -5110,6 +5542,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contagem regressiva"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นับถอยหลัง"
           }
         }
       }
@@ -5181,6 +5619,12 @@
             "state" : "translated",
             "value" : "Mais escuro"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มืดลง"
+          }
         }
       }
     },
@@ -5250,6 +5694,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Decoração"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ของตกแต่ง"
           }
         }
       }
@@ -5321,6 +5771,12 @@
             "state" : "translated",
             "value" : "Excluir"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบ"
+          }
         }
       }
     },
@@ -5390,6 +5846,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Excluir as fotos selecionadas?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบภาพที่เลือกไหม"
           }
         }
       }
@@ -5461,6 +5923,12 @@
             "state" : "translated",
             "value" : "Listras diagonais"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลายทางเฉียง"
+          }
         }
       }
     },
@@ -5530,6 +5998,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Direção"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทิศทาง"
           }
         }
       }
@@ -5601,6 +6075,12 @@
             "state" : "translated",
             "value" : "Desconectar"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตัดการเชื่อมต่อ"
+          }
         }
       }
     },
@@ -5670,6 +6150,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เสร็จสิ้น"
           }
         }
       }
@@ -5741,6 +6227,12 @@
             "state" : "translated",
             "value" : "Arraste para deslizar a faixa pelo chão."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลากเพื่อเลื่อนแบนเนอร์ไปบนพื้น"
+          }
         }
       }
     },
@@ -5810,6 +6302,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Modo de direção"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โหมดขับรถ"
           }
         }
       }
@@ -5881,6 +6379,12 @@
             "state" : "translated",
             "value" : "Digite o código de 4 dígitos exibido no iPhone da câmera."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใส่รหัส 4 หลักที่แสดงบน iPhone ตัวถ่ายภาพ"
+          }
         }
       }
     },
@@ -5950,6 +6454,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A cada %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทุก %@"
           }
         }
       }
@@ -6021,6 +6531,12 @@
             "state" : "translated",
             "value" : "Cada foto também fica na galeria do ShutterLink. Com o envio ligado, quem está com o controle recebe uma cópia de cada foto que tirar."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทุกภาพจะถูกเก็บไว้ในแกลเลอรีของ ShutterLink ด้วย เมื่อเปิดการส่ง คนที่ถือรีโมตจะได้รับสำเนาของทุกภาพที่ถ่าย"
+          }
         }
       }
     },
@@ -6090,6 +6606,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pessoal, olhem para a câmera!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทุกคนมองกล้องด้วยนะ!"
           }
         }
       }
@@ -6161,6 +6683,12 @@
             "state" : "translated",
             "value" : "Exposição"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การรับแสง"
+          }
         }
       }
     },
@@ -6230,6 +6758,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tecido (fosco)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผ้า (ด้าน)"
           }
         }
       }
@@ -6301,6 +6835,12 @@
             "state" : "translated",
             "value" : "De frente para mim"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หันหน้าหาฉัน"
+          }
         }
       }
     },
@@ -6370,6 +6910,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Retiro de outono juntos"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เที่ยวใบไม้ร่วงด้วยกัน"
           }
         }
       }
@@ -6441,6 +6987,12 @@
             "state" : "translated",
             "value" : "Filtrar"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตัวกรอง"
+          }
         }
       }
     },
@@ -6510,6 +7062,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Flash"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แฟลช"
           }
         }
       }
@@ -6581,6 +7139,12 @@
             "state" : "translated",
             "value" : "Contagem com flash"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นับถอยหลังด้วยแฟลช"
+          }
         }
       }
     },
@@ -6650,6 +7214,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Flores"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดอกไม้"
           }
         }
       }
@@ -6721,6 +7291,12 @@
             "state" : "translated",
             "value" : "Fonte"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แบบอักษร"
+          }
         }
       }
     },
@@ -6790,6 +7366,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Galeria"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แกลเลอรี"
           }
         }
       }
@@ -6861,6 +7443,12 @@
             "state" : "translated",
             "value" : "Degradê"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไล่สี"
+          }
         }
       }
     },
@@ -6930,6 +7518,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Formatura"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รับปริญญา"
           }
         }
       }
@@ -7001,6 +7595,12 @@
             "state" : "translated",
             "value" : "Grade"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เส้นตาราง"
+          }
         }
       }
     },
@@ -7070,6 +7670,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Foto em grupo · toque numa foto para marcá-la como melhor"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาพหมู่ · แตะภาพเพื่อกำหนดเป็นภาพที่ดีที่สุด"
           }
         }
       }
@@ -7141,6 +7747,12 @@
             "state" : "translated",
             "value" : "A foto em grupo tira várias fotos e escolhe aquela em que todos estão de olhos abertos. O controle recebe uma cópia para guardar."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาพหมู่จะถ่ายหลายภาพและเลือกภาพที่ทุกคนลืมตา รีโมตจะได้รับสำเนาไว้เก็บ"
+          }
         }
       }
     },
@@ -7210,6 +7822,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gestos"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ท่าทางมือ"
           }
         }
       }
@@ -7281,6 +7899,12 @@
             "state" : "translated",
             "value" : "Disparo sem as mãos"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชัตเตอร์ไม่ต้องใช้มือ"
+          }
         }
       }
     },
@@ -7350,6 +7974,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Corações"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หัวใจ"
           }
         }
       }
@@ -7421,6 +8051,12 @@
             "state" : "translated",
             "value" : "Altura"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ความสูง"
+          }
         }
       }
     },
@@ -7490,6 +8126,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Altura do chão"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ความสูงจากพื้น"
           }
         }
       }
@@ -7561,6 +8203,12 @@
             "state" : "translated",
             "value" : "Ajuda"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ช่วยเหลือ"
+          }
         }
       }
     },
@@ -7630,6 +8278,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Segure uma faixa sem levar uma"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถือแบนเนอร์โดยไม่ต้องเอามาเอง"
           }
         }
       }
@@ -7701,6 +8355,12 @@
             "state" : "translated",
             "value" : "Como usar o ShutterLink"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วิธีใช้ ShutterLink"
+          }
         }
       }
     },
@@ -7770,6 +8430,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Intervalo"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ช่วงเวลา"
           }
         }
       }
@@ -7841,6 +8507,12 @@
             "state" : "translated",
             "value" : "Nível"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ระดับน้ำ"
+          }
         }
       }
     },
@@ -7910,6 +8582,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Logotipo"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โลโก้"
           }
         }
       }
@@ -7981,6 +8659,12 @@
             "state" : "translated",
             "value" : "Visual"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หน้าตา"
+          }
         }
       }
     },
@@ -8050,6 +8734,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Procurando a câmera %@…"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังค้นหากล้อง %@…"
           }
         }
       }
@@ -8121,6 +8811,12 @@
             "state" : "translated",
             "value" : "Mensagem principal"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้อความหลัก"
+          }
         }
       }
     },
@@ -8190,6 +8886,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Texto principal"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้อความหลัก"
           }
         }
       }
@@ -8261,6 +8963,12 @@
             "state" : "translated",
             "value" : "Material"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วัสดุ"
+          }
         }
       }
     },
@@ -8330,6 +9038,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Material · Tamanho"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วัสดุ · ขนาด"
           }
         }
       }
@@ -8401,6 +9115,12 @@
             "state" : "translated",
             "value" : "Modo"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โหมด"
+          }
         }
       }
     },
@@ -8470,6 +9190,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mais"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่มเติม"
           }
         }
       }
@@ -8541,6 +9267,12 @@
             "state" : "translated",
             "value" : "Mover faixa"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ย้ายแบนเนอร์"
+          }
         }
       }
     },
@@ -8610,6 +9342,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Próximo"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถัดไป"
           }
         }
       }
@@ -8681,6 +9419,12 @@
             "state" : "translated",
             "value" : "Próxima foto em %lld s"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาพถัดไปใน %lld วินาที"
+          }
         }
       }
     },
@@ -8750,6 +9494,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nenhuma câmera disponível neste dispositivo."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อุปกรณ์นี้ไม่มีกล้องที่ใช้งานได้"
           }
         }
       }
@@ -8821,6 +9571,12 @@
             "state" : "translated",
             "value" : "Ainda não há fotos"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยังไม่มีภาพ"
+          }
         }
       }
     },
@@ -8891,6 +9647,12 @@
             "state" : "translated",
             "value" : "Ninguém pisca"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่มีใครกะพริบตา"
+          }
         }
       }
     },
@@ -8960,6 +9722,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nenhum"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่มี"
           }
         }
       }
@@ -9032,6 +9800,12 @@
             "state" : "translated",
             "value" : "Agora"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอนนี้"
+          }
         }
       }
     },
@@ -9101,6 +9875,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "24–25 out 2026  Lago Tahoe, CA"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "24–25 ต.ค. 2026  ทะเลสาบแทโฮ แคลิฟอร์เนีย"
           }
         }
       }
@@ -9172,6 +9952,12 @@
             "state" : "translated",
             "value" : "Não"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปิด"
+          }
         }
       }
     },
@@ -9241,6 +10027,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตกลง"
           }
         }
       }
@@ -9312,6 +10104,12 @@
             "state" : "translated",
             "value" : "Sim"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปิด"
+          }
         }
       }
     },
@@ -9381,6 +10179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abrir galeria"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปิดแกลเลอรี"
           }
         }
       }
@@ -9452,6 +10256,12 @@
             "state" : "translated",
             "value" : "Opções"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตัวเลือก"
+          }
         }
       }
     },
@@ -9521,6 +10331,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ou fotografe sem as mãos"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หรือถ่ายโดยไม่ใช้มือ"
           }
         }
       }
@@ -9592,6 +10408,12 @@
             "state" : "translated",
             "value" : "Nossa equipe 2026"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทีมของเรา 2026"
+          }
         }
       }
     },
@@ -9661,6 +10483,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Código de pareamento"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รหัสจับคู่"
           }
         }
       }
@@ -9732,6 +10560,12 @@
             "state" : "translated",
             "value" : "Pareando…"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังจับคู่…"
+          }
         }
       }
     },
@@ -9801,6 +10635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Palma"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ฝ่ามือ"
           }
         }
       }
@@ -9872,6 +10712,12 @@
             "state" : "translated",
             "value" : "Gesto da palma"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ท่าฝ่ามือ"
+          }
         }
       }
     },
@@ -9941,6 +10787,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Papel"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กระดาษ"
           }
         }
       }
@@ -10012,6 +10864,12 @@
             "state" : "translated",
             "value" : "Noite de festa"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปาร์ตี้ยามค่ำ"
+          }
         }
       }
     },
@@ -10081,6 +10939,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contador de pessoas"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตัวนับจำนวนคน"
           }
         }
       }
@@ -10152,6 +11016,12 @@
             "state" : "translated",
             "value" : "Agora as pessoas na frente da faixa aparecem por cima dela."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอนนี้คนที่ยืนอยู่หน้าแบนเนอร์จะแสดงทับบนแบนเนอร์"
+          }
         }
       }
     },
@@ -10221,6 +11091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Foto"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาพถ่าย"
           }
         }
       }
@@ -10292,6 +11168,12 @@
             "state" : "translated",
             "value" : "Fotos"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รูปภาพ"
+          }
         }
       }
     },
@@ -10361,6 +11243,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "As fotos e os vídeos que você faz com o ShutterLink aparecem aqui."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาพถ่ายและวิดีโอที่คุณถ่ายด้วย ShutterLink จะแสดงที่นี่"
           }
         }
       }
@@ -10432,6 +11320,12 @@
             "state" : "translated",
             "value" : "Fotos desta sessão"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาพจากการถ่ายครั้งนี้"
+          }
         }
       }
     },
@@ -10501,6 +11395,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Coloque este iPhone em um tripé ou apoie-o em um lugar firme. Use o nível e o contador de pessoas para enquadrar todo mundo."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วาง iPhone เครื่องนี้บนขาตั้งกล้อง หรือพิงไว้กับที่มั่นคง ใช้ระดับน้ำและตัวนับจำนวนคนเพื่อจัดเฟรมให้ทุกคนอยู่ในภาพ"
           }
         }
       }
@@ -10572,6 +11472,12 @@
             "state" : "translated",
             "value" : "Aponte a câmera do outro iPhone para o QR code. O App Clip Controle ShutterLink abre sem instalar nada. Mantenha este app aberto enquanto fotografa."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้กล้องของ iPhone อีกเครื่องสแกน QR code แล้ว App Clip รีโมต ShutterLink จะเปิดขึ้นโดยไม่ต้องติดตั้งอะไร เปิดแอปนี้ค้างไว้ระหว่างถ่ายภาพ"
+          }
         }
       }
     },
@@ -10641,6 +11547,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Levante a palma aberta para a câmera para iniciar o temporizador."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยกฝ่ามือที่แบออกไปทางกล้องเพื่อเริ่มจับเวลา"
           }
         }
       }
@@ -10712,6 +11624,12 @@
             "state" : "translated",
             "value" : "Levante a palma, bata palmas ou deixe o ShutterLink disparar quando todos sorrirem. Uma contagem regressiva com voz e luz avisa ao grupo a hora de posar."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยกฝ่ามือ ปรบมือ หรือให้ ShutterLink ถ่ายเองเมื่อทุกคนยิ้ม การนับถอยหลังด้วยเสียงและแสงจะบอกให้ทุกคนเตรียมโพสต์ท่า"
+          }
         }
       }
     },
@@ -10781,6 +11699,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Falha na gravação."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บันทึกไม่สำเร็จ"
           }
         }
       }
@@ -10852,6 +11776,12 @@
             "state" : "translated",
             "value" : "Remover logotipo"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบโลโก้"
+          }
         }
       }
     },
@@ -10921,6 +11851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Redefinir"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รีเซ็ต"
           }
         }
       }
@@ -10992,6 +11928,12 @@
             "state" : "translated",
             "value" : "Redefinir exposição"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รีเซ็ตการรับแสง"
+          }
         }
       }
     },
@@ -11061,6 +12003,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sem serifa arredondada"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ซานส์มุมมน"
           }
         }
       }
@@ -11132,6 +12080,12 @@
             "state" : "translated",
             "value" : "Salvar ou compartilhar esta foto"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บันทึกหรือแชร์ภาพนี้"
+          }
         }
       }
     },
@@ -11201,6 +12155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Salve ou compartilhe sua cópia antes de fechar o controle."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บันทึกหรือแชร์สำเนาของคุณก่อนปิดรีโมต"
           }
         }
       }
@@ -11272,6 +12232,12 @@
             "state" : "translated",
             "value" : "Salvar em Fotos"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บันทึกลงรูปภาพ"
+          }
         }
       }
     },
@@ -11341,6 +12307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Leia o QR code no iPhone da câmera ou digite o código de pareamento de 4 dígitos."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สแกน QR code บน iPhone ตัวถ่ายภาพ หรือใส่รหัสจับคู่ 4 หลัก"
           }
         }
       }
@@ -11412,6 +12384,12 @@
             "state" : "translated",
             "value" : "Leia para controlar a câmera: %@"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สแกนเพื่อควบคุมกล้อง: %@"
+          }
         }
       }
     },
@@ -11481,6 +12459,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Leia com outro iPhone"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สแกนด้วย iPhone อีกเครื่อง"
           }
         }
       }
@@ -11552,6 +12536,12 @@
             "state" : "translated",
             "value" : "Mar"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทะเล"
+          }
         }
       }
     },
@@ -11621,6 +12611,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Selecionar"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือก"
           }
         }
       }
@@ -11692,6 +12688,12 @@
             "state" : "translated",
             "value" : "Enviar fotos para o controle"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ส่งภาพไปยังรีโมต"
+          }
         }
       }
     },
@@ -11761,6 +12763,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Serifada"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เซอริฟ"
           }
         }
       }
@@ -11832,6 +12840,12 @@
             "state" : "translated",
             "value" : "Erro do serviço: %@"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บริการผิดพลาด: %@"
+          }
         }
       }
     },
@@ -11901,6 +12915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Configurar a câmera"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตั้งค่ากล้อง"
           }
         }
       }
@@ -11972,6 +12992,12 @@
             "state" : "translated",
             "value" : "Ajustes"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การตั้งค่า"
+          }
         }
       }
     },
@@ -12041,6 +13067,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Formato"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รูปทรง"
           }
         }
       }
@@ -12112,6 +13144,12 @@
             "state" : "translated",
             "value" : "Compartilhar"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แชร์"
+          }
         }
       }
     },
@@ -12181,6 +13219,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Compartilhar QR code"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แชร์ QR code"
           }
         }
       }
@@ -12252,6 +13296,12 @@
             "state" : "translated",
             "value" : "Fotografar só com o botão do obturador."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถ่ายด้วยปุ่มชัตเตอร์เท่านั้น"
+          }
         }
       }
     },
@@ -12321,6 +13371,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Opções de disparo"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตัวเลือกการถ่ายภาพ"
           }
         }
       }
@@ -12392,6 +13448,12 @@
             "state" : "translated",
             "value" : "Dispara sozinho quando todos sorriem de olhos abertos."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถ่ายอัตโนมัติเมื่อทุกคนยิ้มและลืมตา"
+          }
         }
       }
     },
@@ -12461,6 +13523,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mostrar QR code de pareamento"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แสดง QR code จับคู่"
           }
         }
       }
@@ -12532,6 +13600,12 @@
             "state" : "translated",
             "value" : "Mostrar pessoas na frente"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แสดงคนที่อยู่ด้านหน้า"
+          }
         }
       }
     },
@@ -12602,6 +13676,12 @@
             "state" : "translated",
             "value" : "Mostrar postes laterais"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แสดงเสาด้านข้าง"
+          }
         }
       }
     },
@@ -12668,6 +13748,12 @@
           }
         },
         "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
+        },
+        "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink"
@@ -12742,6 +13828,12 @@
             "state" : "translated",
             "value" : "Foto do ShutterLink"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาพจาก ShutterLink"
+          }
         }
       }
     },
@@ -12811,6 +13903,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Controle ShutterLink"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รีโมต ShutterLink"
           }
         }
       }
@@ -12882,6 +13980,12 @@
             "state" : "translated",
             "value" : "Modo simples (botões grandes)"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โหมดง่าย (ปุ่มใหญ่)"
+          }
         }
       }
     },
@@ -12951,6 +14055,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Única"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาพเดียว"
           }
         }
       }
@@ -13022,6 +14132,12 @@
             "state" : "translated",
             "value" : "Foto única"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาพเดี่ยว"
+          }
         }
       }
     },
@@ -13091,6 +14207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Linha pequena no alto (ex.: Acme Ltda. 2026)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บรรทัดเล็กด้านบน (เช่น บริษัท เอซีเอ็มอี 2026)"
           }
         }
       }
@@ -13162,6 +14284,12 @@
             "state" : "translated",
             "value" : "Sorriso"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รอยยิ้ม"
+          }
         }
       }
     },
@@ -13231,6 +14359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Disparo por sorriso"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชัตเตอร์ยิ้ม"
           }
         }
       }
@@ -13302,6 +14436,12 @@
             "state" : "translated",
             "value" : "Neve"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หิมะ"
+          }
         }
       }
     },
@@ -13371,6 +14511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Liso"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สีเดียว"
           }
         }
       }
@@ -13442,6 +14588,12 @@
             "state" : "translated",
             "value" : "Alguém está na borda do quadro"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มีคนอยู่ที่ขอบเฟรม"
+          }
         }
       }
     },
@@ -13511,6 +14663,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Esportes"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กีฬา"
           }
         }
       }
@@ -13582,6 +14740,12 @@
             "state" : "translated",
             "value" : "Dia do esporte"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วันกีฬาสี"
+          }
         }
       }
     },
@@ -13651,6 +14815,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Flores da primavera"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดอกไม้ฤดูใบไม้ผลิ"
           }
         }
       }
@@ -13722,6 +14892,12 @@
             "state" : "translated",
             "value" : "Estrelas"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดาว"
+          }
         }
       }
     },
@@ -13791,6 +14967,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Iniciar gravação"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เริ่มบันทึก"
           }
         }
       }
@@ -13862,6 +15044,12 @@
             "state" : "translated",
             "value" : "Começar a fotografar"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เริ่มถ่ายภาพ"
+          }
         }
       }
     },
@@ -13931,6 +15119,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Iniciando o Bluetooth…"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังเริ่ม Bluetooth…"
           }
         }
       }
@@ -14002,6 +15196,12 @@
             "state" : "translated",
             "value" : "Parar disparo por intervalo"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หยุดถ่ายตามช่วงเวลา"
+          }
         }
       }
     },
@@ -14071,6 +15271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Parar gravação"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หยุดบันทึก"
           }
         }
       }
@@ -14142,6 +15348,12 @@
             "state" : "translated",
             "value" : "Praia de verão"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชายหาดฤดูร้อน"
+          }
         }
       }
     },
@@ -14211,6 +15423,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Balança com a brisa"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พลิ้วไหวตามลม"
           }
         }
       }
@@ -14282,6 +15500,12 @@
             "state" : "translated",
             "value" : "Trocar de câmera"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สลับกล้อง"
+          }
         }
       }
     },
@@ -14351,6 +15575,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tirar foto"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถ่ายภาพ"
           }
         }
       }
@@ -14422,6 +15652,12 @@
             "state" : "translated",
             "value" : "Foto em %lld segundos."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จะถ่ายภาพใน %lld วินาที"
+          }
         }
       }
     },
@@ -14491,6 +15727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toque no chão ou numa parede para posicionar a faixa"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แตะที่พื้นหรือผนังเพื่อวางแบนเนอร์"
           }
         }
       }
@@ -14562,6 +15804,12 @@
             "state" : "translated",
             "value" : "Toque no botão QR. Outro iPhone lê o código com o app Câmera e vira um controle em segundos, sem instalar nada."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แตะปุ่ม QR แล้ว iPhone อีกเครื่องสแกนด้วยแอปกล้อง ก็กลายเป็นรีโมตได้ในไม่กี่วินาทีโดยไม่ต้องติดตั้งอะไร"
+          }
         }
       }
     },
@@ -14631,6 +15879,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toque para focar"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แตะเพื่อโฟกัส"
           }
         }
       }
@@ -14702,6 +15956,12 @@
             "state" : "translated",
             "value" : "Texto"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้อความ"
+          }
         }
       }
     },
@@ -14771,6 +16031,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A faixa parou por um instante"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แบนเนอร์หยุดไปครู่หนึ่ง"
           }
         }
       }
@@ -14842,6 +16108,12 @@
             "state" : "translated",
             "value" : "A faixa fica na frente de todos."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แบนเนอร์อยู่ด้านหน้าทุกคนเสมอ"
+          }
         }
       }
     },
@@ -14911,6 +16183,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A câmera faz a contagem em voz alta e pisca a luz, assim um grupo distante sabe exatamente quando a foto será tirada."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กล้องจะนับถอยหลังออกเสียงและกะพริบไฟ ทำให้กลุ่มที่ยืนไกลรู้ว่าจะถ่ายภาพเมื่อไหร่"
           }
         }
       }
@@ -14982,6 +16260,12 @@
             "state" : "translated",
             "value" : "O código de pareamento foi recusado. Leia o QR code novamente."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รหัสจับคู่ถูกปฏิเสธ สแกน QR code อีกครั้ง"
+          }
         }
       }
     },
@@ -15051,6 +16335,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tema"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ธีม"
           }
         }
       }
@@ -15122,6 +16412,12 @@
             "state" : "translated",
             "value" : "Elas continuam na sua fototeca se foram salvas lá."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาพที่บันทึกไว้ในคลังรูปภาพแล้วจะยังอยู่ที่เดิม"
+          }
         }
       }
     },
@@ -15191,6 +16487,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Este dispositivo não é compatível com Bluetooth LE."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อุปกรณ์นี้ไม่รองรับ Bluetooth LE"
           }
         }
       }
@@ -15262,6 +16564,12 @@
             "state" : "translated",
             "value" : "Este dispositivo não é uma câmera ShutterLink."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อุปกรณ์นี้ไม่ใช่กล้อง ShutterLink"
+          }
         }
       }
     },
@@ -15331,6 +16639,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Este iPhone não é compatível com RA."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPhone เครื่องนี้ไม่รองรับ AR"
           }
         }
       }
@@ -15402,6 +16716,12 @@
             "state" : "translated",
             "value" : "Inclinado %lld graus"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เอียง %lld องศา"
+          }
         }
       }
     },
@@ -15471,6 +16791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Temporizador"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตัวตั้งเวลา"
           }
         }
       }
@@ -15542,6 +16868,12 @@
             "state" : "translated",
             "value" : "Faixas de cima e de baixo"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แถบบนและล่าง"
+          }
         }
       }
     },
@@ -15611,6 +16943,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Listra de cima"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แถบด้านบน"
           }
         }
       }
@@ -15682,6 +17020,12 @@
             "state" : "translated",
             "value" : "Texto de cima"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้อความด้านบน"
+          }
         }
       }
     },
@@ -15751,6 +17095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tentar de novo"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลองอีกครั้ง"
           }
         }
       }
@@ -15822,6 +17172,12 @@
             "state" : "translated",
             "value" : "Ligue o Bluetooth para conectar à câmera."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปิด Bluetooth เพื่อเชื่อมต่อกับกล้อง"
+          }
         }
       }
     },
@@ -15891,6 +17247,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Indisponível"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้งานไม่ได้"
           }
         }
       }
@@ -15962,6 +17324,12 @@
             "state" : "translated",
             "value" : "Versão"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เวอร์ชัน"
+          }
         }
       }
     },
@@ -16031,6 +17399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vídeo"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วิดีโอ"
           }
         }
       }
@@ -16102,6 +17476,12 @@
             "state" : "translated",
             "value" : "Vídeos"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วิดีโอ"
+          }
         }
       }
     },
@@ -16171,6 +17551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Visor"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ช่องมองภาพ"
           }
         }
       }
@@ -16242,6 +17628,12 @@
             "state" : "translated",
             "value" : "Vinil (brilhante)"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไวนิล (มัน)"
+          }
         }
       }
     },
@@ -16311,6 +17703,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contagem por voz"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นับถอยหลังด้วยเสียง"
           }
         }
       }
@@ -16382,6 +17780,12 @@
             "state" : "translated",
             "value" : "Aguardando um controle"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังรอรีโมต"
+          }
         }
       }
     },
@@ -16451,6 +17855,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aguardando o Bluetooth…"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังรอ Bluetooth…"
           }
         }
       }
@@ -16522,6 +17932,12 @@
             "state" : "translated",
             "value" : "Aguardando a prévia…"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังรอภาพตัวอย่าง…"
+          }
         }
       }
     },
@@ -16591,6 +18007,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Casamento"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "งานแต่งงาน"
           }
         }
       }
@@ -16662,6 +18084,12 @@
             "state" : "translated",
             "value" : "Largura"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ความกว้าง"
+          }
         }
       }
     },
@@ -16731,6 +18159,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inverno"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ฤดูหนาว"
           }
         }
       }
@@ -16802,6 +18236,12 @@
             "state" : "translated",
             "value" : "Festa de fim de ano"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "งานเลี้ยงปีใหม่"
+          }
         }
       }
     },
@@ -16871,6 +18311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zoom"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ซูม"
           }
         }
       }
