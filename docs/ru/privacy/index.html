@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Политика конфиденциальности ShutterLink</title>
+<meta name="description" content="Политика конфиденциальности ShutterLink и «Пульта ShutterLink» (мини-приложение).">
+<link rel="icon" href="../../icon.png">
+<link rel="canonical" href="https://m1zz.github.io/ShutterLink/ru/privacy/">
+<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/privacy/">
+<link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/privacy/">
+<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/ShutterLink/en/privacy/">
+<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/privacy/">
+<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/privacy/">
+<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/privacy/">
+<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/privacy/">
+<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/privacy/">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<nav class="nav">
+  <a class="brand" href="../"><img src="../../icon.png" alt="">ShutterLink</a>
+  <a href="../">О приложении</a>
+  <a href="../support/">Поддержка</a>
+  <a href="./" aria-current="page">Политика конфиденциальности</a>
+  <a href="../../privacy/" hreflang="ko" lang="ko">한국어</a>
+  <a href="../../en/privacy/" hreflang="en" lang="en">English</a>
+  <a href="../../ja/privacy/" hreflang="ja" lang="ja">日本語</a>
+  <a href="../../zh-Hans/privacy/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+  <a href="../../zh-Hant/privacy/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+</nav>
+<main class="doc">
+  <h1>Политика конфиденциальности</h1>
+  <p class="meta">Действует с 16 октября 2026 г. &middot; Распространяется на ShutterLink (приложение для iPhone) и «Пульт ShutterLink» (мини-приложение)</p>
+
+  <section class="panel">
+    <h2>Кратко</h2>
+    <p><strong>ShutterLink не собирает персональные данные, такие как имя, контакты, местоположение или фото.</strong> У разработчика нет сервера, нет аккаунтов, рекламы и средств отслеживания. Снятые вами фото и видео сохраняются только в медиатеку iPhone, который их снял, а два iPhone общаются напрямую по Bluetooth. Чтобы понимать, сколько устройств используют приложение, и исправлять ошибки, оно отправляет в Apple iCloud только анонимную статистику использования и отчёты о сбоях (раздел 4).</p>
+  </section>
+
+  <section class="panel">
+    <h2>1. Что передают друг другу два iPhone</h2>
+    <p>Снимающий iPhone (ShutterLink) и iPhone-пульт («Пульт ShutterLink») соединяются напрямую по Bluetooth Low Energy на небольшом расстоянии. Данные не проходят через интернет или сторонние серверы.</p>
+    <div class="table-wrap">
+      <table>
+        <tr><th>Направление</th><th>Содержимое</th><th>Назначение</th></tr>
+        <tr><td>Пульт &rarr; камера</td><td>4-значный код подключения; команды затвора, записи, таймера, зума и смены камеры</td><td>Подтверждение соединения и управление съёмкой</td></tr>
+        <tr><td>Камера &rarr; пульт</td><td>Значения состояния: режим съёмки, время записи, таймер и уровень зума</td><td>Показ состояния на пульте</td></tr>
+        <tr><td>Камера &rarr; пульт</td><td>Видео предпросмотра в низком разрешении (то, что видит камера)</td><td>Кадрирование с пульта</td></tr>
+      </table>
+    </div>
+    <p>Предпросмотр передаётся в реальном времени только во время соединения, пульт его не сохраняет. Код подключения создаётся заново при каждом запуске приложения, и только пульт, знающий код, может отправлять команды и получать предпросмотр.</p>
+  </section>
+
+  <section class="panel">
+    <h2>2. Разрешения</h2>
+    <ul>
+      <li><strong>Камера</strong> (ShutterLink) &mdash; для съёмки фото и видео.</li>
+      <li><strong>Микрофон</strong> (ShutterLink) &mdash; для записи звука в видео.</li>
+      <li><strong>Добавление в «Фото»</strong> (ShutterLink) &mdash; для сохранения снятых фото и видео. Это доступ только на добавление: приложение не читает ваши прежние фото.</li>
+      <li><strong>Bluetooth</strong> (ShutterLink и «Пульт ShutterLink») &mdash; для соединения двух iPhone.</li>
+    </ul>
+    <p>Любое из разрешений можно отключить в любой момент в приложении «Настройки». Перестанет работать только функция, которой оно нужно.</p>
+  </section>
+
+  <section class="panel">
+    <h2>3. Что хранится на вашем устройстве</h2>
+    <p>ShutterLink сохраняет только фото и видео, которые вы снимаете, и они попадают в медиатеку iPhone, который их снял. Кроме того, приложение хранит на устройстве несколько значений, например число запусков и время первой установки. Они нужны только для анонимной статистики ниже. «Пульт ShutterLink» ничего не хранит.</p>
+  </section>
+
+  <section class="panel">
+    <h2>4. Анонимная статистика использования</h2>
+    <p>Чтобы понимать, сколько людей пользуются приложением, и исправлять ошибки, ShutterLink отправляет в Apple iCloud (CloudKit) следующую анонимную статистику. Прочитать её может только разработчик.</p>
+    <ul>
+      <li>Случайный идентификатор, созданный при установке (не связан с вашим устройством, Apple ID или другими приложениями; меняется при переустановке)</li>
+      <li>Версия приложения, версия iOS, регион и язык</li>
+      <li>Сколько раз и в какие дни открывалось приложение, дата установки и число дней с установки</li>
+      <li>Отчёты о сбоях и зависаниях (версия приложения, версия iOS, тип устройства и технические сведения об ошибке)</li>
+    </ul>
+    <p>В неё никогда не входят ваше имя, контакты, местоположение, фото, видео или живой предпросмотр. Данные отправляются, только если вы вошли в iCloud. «Пульт ShutterLink» (мини-приложение) ничего не отправляет.</p>
+  </section>
+
+  <section class="panel">
+    <h2>5. Мини-приложение (App Clip)</h2>
+    <p>«Пульт ShutterLink» — это мини-приложение (App Clip), поэтому оно открывается без установки после сканирования QR-кода. Загрузкой App Clip занимается Apple согласно <a href="https://www.apple.com/legal/privacy/">Политике конфиденциальности Apple</a>. Адрес в QR-коде содержит только 4-значный код подключения.</p>
+  </section>
+
+  <section class="panel">
+    <h2>6. Этот сайт</h2>
+    <p>Страницы «О приложении», «Поддержка» и «Политика конфиденциальности» размещены на GitHub Pages. Когда вы открываете страницу, GitHub может обрабатывать журналы доступа, например IP-адрес, согласно <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">Общему заявлению GitHub о конфиденциальности</a>. Сайт не использует cookie и скрипты аналитики.</p>
+  </section>
+
+  <section class="panel">
+    <h2>7. Конфиденциальность детей</h2>
+    <p>Приложение не собирает персональные данные ни у кого, включая детей.</p>
+  </section>
+
+  <section class="panel">
+    <h2>8. Изменения</h2>
+    <p>Если политика изменится, мы обновим эту страницу и дату вступления в силу выше. Если из-за изменения приложение начнёт собирать данные, мы объявим об этом на этой странице и в описании обновления до вступления изменений в силу.</p>
+  </section>
+
+  <section class="panel">
+    <h2>9. Контакты</h2>
+    <p>По вопросам конфиденциальности создайте обращение в <a href="https://github.com/M1zz/ShutterLink/issues">GitHub Issues</a>.</p>
+  </section>
+
+  <footer>
+    <span><a href="../">О приложении</a></span><span><a href="../support/">Поддержка</a></span>
+  </footer>
+</main>
+</body>
+</html>

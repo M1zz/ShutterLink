@@ -39,6 +39,12 @@
             "state" : "translated",
             "value" : "ShutterLink"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
         }
       }
     },
@@ -92,6 +98,12 @@
             "state" : "translated",
             "value" : "ShutterLink 使用藍牙，讓附近的 iPhone 可以當作遙控快門。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink использует Bluetooth, чтобы соседний iPhone мог работать как пульт затвора."
+          }
         }
       }
     },
@@ -132,6 +144,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink 使用相機拍攝照片和影片，並在畫面中放置 AR 布條。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink использует камеру, чтобы снимать фото и видео и показывать AR-баннер в кадре."
           }
         }
       }
@@ -174,6 +192,12 @@
             "state" : "translated",
             "value" : "ShutterLink 會在錄影時收錄聲音，並在開啟拍手快門時偵測拍手聲。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink записывает звук для видео и слушает хлопок, когда включён затвор по хлопку."
+          }
         }
       }
     },
@@ -214,6 +238,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink 會將你拍攝的照片和影片儲存到相簿。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink сохраняет ваши фото и видео в медиатеку."
           }
         }
       }

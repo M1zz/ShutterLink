@@ -39,6 +39,12 @@
             "state" : "translated",
             "value" : "ShutterLink 遙控器"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пульт ShutterLink"
+          }
         }
       }
     },
@@ -92,6 +98,12 @@
             "state" : "translated",
             "value" : "ShutterLink 遙控器使用藍牙控制附近的拍攝用 iPhone。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пульт ShutterLink использует Bluetooth, чтобы управлять соседним iPhone, который снимает."
+          }
         }
       }
     },
@@ -132,6 +144,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink 遙控器會將你拍攝的照片儲存到相簿。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пульт ShutterLink сохраняет сделанные вами фото в медиатеку."
           }
         }
       }

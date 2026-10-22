@@ -32,6 +32,12 @@
             "state" : "translated",
             "value" : "%lld"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
         }
       }
     },
@@ -65,6 +71,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "畫面中有 %lld 人"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "В кадре: %lld"
           }
         }
       }
@@ -100,6 +112,12 @@
             "state" : "translated",
             "value" : "%lld 張照片"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фото: %lld"
+          }
         }
       }
     },
@@ -133,6 +151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "連拍 %lld 張，挑出最佳"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Снято %lld, выбрано лучшее"
           }
         }
       }
@@ -168,6 +192,12 @@
             "state" : "translated",
             "value" : "已連接 %lld 台遙控器"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подключено пультов: %lld"
+          }
         }
       }
     },
@@ -202,6 +232,12 @@
             "state" : "translated",
             "value" : "已選取 %lld 項"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбрано: %lld"
+          }
         }
       }
     },
@@ -234,6 +270,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld°"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld°"
@@ -272,6 +314,12 @@
             "state" : "translated",
             "value" : "%lld 分鐘"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld мин"
+          }
         }
       }
     },
@@ -306,6 +354,12 @@
             "state" : "translated",
             "value" : "%lld 秒"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld с"
+          }
         }
       }
     },
@@ -336,6 +390,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0000"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "0000"
@@ -374,6 +434,12 @@
             "state" : "translated",
             "value" : "強調色（邊框 · 條紋）"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Акцент (рамка · полоса)"
+          }
         }
       }
     },
@@ -407,6 +473,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "加入標誌圖片"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавить логотип"
           }
         }
       }
@@ -442,6 +514,12 @@
             "state" : "translated",
             "value" : "調整位置"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Настроить положение"
+          }
         }
       }
     },
@@ -475,6 +553,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "廣播失敗：%@"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось начать поиск: %@"
           }
         }
       }
@@ -510,6 +594,12 @@
             "state" : "translated",
             "value" : "全部"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Все"
+          }
         }
       }
     },
@@ -544,6 +634,12 @@
             "state" : "translated",
             "value" : "請在「設定」中允許藍牙存取，以控制相機。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Разрешите доступ к Bluetooth в настройках, чтобы управлять камерой."
+          }
         }
       }
     },
@@ -577,6 +673,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "任何 iPhone 都能當遙控器"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Любой iPhone может стать пультом"
           }
         }
       }
@@ -613,6 +715,12 @@
             "state" : "translated",
             "value" : "套用"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Применить"
+          }
         }
       }
     },
@@ -646,6 +754,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "提醒大家看鏡頭"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Попросить всех смотреть в камеру"
           }
         }
       }
@@ -681,6 +795,12 @@
             "state" : "translated",
             "value" : "長寬比"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Соотношение сторон"
+          }
         }
       }
     },
@@ -714,6 +834,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "自動"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Авто"
           }
         }
       }
@@ -749,6 +875,12 @@
             "state" : "translated",
             "value" : "自動拍攝已關閉"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Автосъёмка выключена"
+          }
         }
       }
     },
@@ -782,6 +914,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "紅葉"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Осенние листья"
           }
         }
       }
@@ -817,6 +955,12 @@
             "state" : "translated",
             "value" : "秋季出遊"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Осенний выезд"
+          }
         }
       }
     },
@@ -850,6 +994,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "背景"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фон"
           }
         }
       }
@@ -885,6 +1035,12 @@
             "state" : "translated",
             "value" : "背景顏色"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Цвет фона"
+          }
         }
       }
     },
@@ -918,6 +1074,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "氣球"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Воздушные шары"
           }
         }
       }
@@ -953,6 +1115,12 @@
             "state" : "translated",
             "value" : "布條"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Баннер"
+          }
         }
       }
     },
@@ -986,6 +1154,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "布條設計"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дизайн баннера"
           }
         }
       }
@@ -1021,6 +1195,12 @@
             "state" : "translated",
             "value" : "最佳照片"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лучший кадр"
+          }
         }
       }
     },
@@ -1054,6 +1234,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已從 %lld 張照片中挑出最佳"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лучший кадр из %lld фото"
           }
         }
       }
@@ -1089,6 +1275,12 @@
             "state" : "translated",
             "value" : "最佳照片"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лучшие кадры"
+          }
         }
       }
     },
@@ -1122,6 +1314,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "生日"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "День рождения"
           }
         }
       }
@@ -1157,6 +1355,12 @@
             "state" : "translated",
             "value" : "藍牙已關閉"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth выключен"
+          }
         }
       }
     },
@@ -1190,6 +1394,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "不支援低功耗藍牙"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth LE не поддерживается"
           }
         }
       }
@@ -1225,6 +1435,12 @@
             "state" : "translated",
             "value" : "藍牙權限遭拒"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет доступа к Bluetooth"
+          }
         }
       }
     },
@@ -1258,6 +1474,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "藍牙已就緒"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth готов"
           }
         }
       }
@@ -1293,6 +1515,12 @@
             "state" : "translated",
             "value" : "藍牙無法使用"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth недоступен"
+          }
         }
       }
     },
@@ -1326,6 +1554,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "粗黑體"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Жирный без засечек"
           }
         }
       }
@@ -1361,6 +1595,12 @@
             "state" : "translated",
             "value" : "底部一行：日期 · 地點"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нижняя строка: дата · место"
+          }
         }
       }
     },
@@ -1394,6 +1634,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "底部文字"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нижний текст"
           }
         }
       }
@@ -1429,6 +1675,12 @@
             "state" : "translated",
             "value" : "更亮"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ярче"
+          }
         }
       }
     },
@@ -1462,6 +1714,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "連拍"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Серия"
           }
         }
       }
@@ -1497,6 +1755,12 @@
             "state" : "translated",
             "value" : "需要相機權限。請至「設定 > ShutterLink」開啟。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нужен доступ к камере. Включите его в «Настройки» > ShutterLink."
+          }
         }
       }
     },
@@ -1530,6 +1794,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "取消"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отмена"
           }
         }
       }
@@ -1565,6 +1835,12 @@
             "state" : "translated",
             "value" : "取消計時"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отменить таймер"
+          }
         }
       }
     },
@@ -1598,6 +1874,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "拍攝失敗：%@"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось снять: %@"
           }
         }
       }
@@ -1633,6 +1915,12 @@
             "state" : "translated",
             "value" : "慶典"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Праздник"
+          }
         }
       }
     },
@@ -1666,6 +1954,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "更換標誌"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сменить логотип"
           }
         }
       }
@@ -1701,6 +1995,12 @@
             "state" : "translated",
             "value" : "請在「設定」中檢查照片存取權限。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проверьте доступ к «Фото» в настройках."
+          }
         }
       }
     },
@@ -1734,6 +2034,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "加油"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Болельщики"
           }
         }
       }
@@ -1769,6 +2075,12 @@
             "state" : "translated",
             "value" : "選擇「布條」，寫好文字、挑好顏色，然後點一下地面。布條會固定在原處，站在前面的人看起來就像舉著它。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выберите «Баннер», напишите текст и подберите цвета, затем коснитесь пола. Баннер останется на месте, а стоящие перед ним люди будут выглядеть так, будто держат его."
+          }
         }
       }
     },
@@ -1802,6 +2114,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "聖誕"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Рождество"
           }
         }
       }
@@ -1837,6 +2155,12 @@
             "state" : "translated",
             "value" : "拍手"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Хлопок"
+          }
         }
       }
     },
@@ -1870,6 +2194,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "大聲拍一下手，開始倒數。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Громко хлопните один раз, чтобы запустить таймер."
           }
         }
       }
@@ -1905,6 +2235,12 @@
             "state" : "translated",
             "value" : "拍手快門"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Затвор по хлопку"
+          }
         }
       }
     },
@@ -1938,6 +2274,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "拍手快門需要麥克風權限。請至「設定 > ShutterLink」開啟。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Для затвора по хлопку нужен доступ к микрофону. Включите его в «Настройки» > ShutterLink."
           }
         }
       }
@@ -1973,6 +2315,12 @@
             "state" : "translated",
             "value" : "經典"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Классика"
+          }
         }
       }
     },
@@ -2006,6 +2354,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "關閉"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закрыть"
           }
         }
       }
@@ -2041,6 +2395,12 @@
             "state" : "translated",
             "value" : "顏色"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Цвета"
+          }
         }
       }
     },
@@ -2074,6 +2434,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "公司研討會"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Корпоративный семинар"
           }
         }
       }
@@ -2109,6 +2475,12 @@
             "state" : "translated",
             "value" : "窄黑體"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Узкий без засечек"
+          }
         }
       }
     },
@@ -2142,6 +2514,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "連接"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подключить"
           }
         }
       }
@@ -2177,6 +2555,12 @@
             "state" : "translated",
             "value" : "已連接"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подключено"
+          }
         }
       }
     },
@@ -2210,6 +2594,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "連接中…"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подключение…"
           }
         }
       }
@@ -2245,6 +2635,12 @@
             "state" : "translated",
             "value" : "無法建立布條：%@"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось создать баннер: %@"
+          }
         }
       }
     },
@@ -2278,6 +2674,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "找不到相機。請確認拍攝用的 iPhone 已開啟 ShutterLink，且藍牙已開啟。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Камера не найдена. Убедитесь, что на снимающем iPhone открыт ShutterLink и включён Bluetooth."
           }
         }
       }
@@ -2313,6 +2715,12 @@
             "state" : "translated",
             "value" : "無法與相機配對。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось связаться с камерой."
+          }
         }
       }
     },
@@ -2346,6 +2754,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "無法儲存到相簿。%@"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось сохранить в «Фото». %@"
           }
         }
       }
@@ -2381,6 +2795,12 @@
             "state" : "translated",
             "value" : "無法顯示布條：%@"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось показать баннер: %@"
+          }
         }
       }
     },
@@ -2414,6 +2834,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "無法開始錄影：%@"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось начать запись: %@"
           }
         }
       }
@@ -2449,6 +2875,12 @@
             "state" : "translated",
             "value" : "無法更新設計。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось обновить дизайн."
+          }
         }
       }
     },
@@ -2482,6 +2914,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "倒數"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отсчёт"
           }
         }
       }
@@ -2517,6 +2955,12 @@
             "state" : "translated",
             "value" : "更暗"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Темнее"
+          }
         }
       }
     },
@@ -2550,6 +2994,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "裝飾"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Украшения"
           }
         }
       }
@@ -2585,6 +3035,12 @@
             "state" : "translated",
             "value" : "刪除"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить"
+          }
         }
       }
     },
@@ -2618,6 +3074,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "要刪除所選照片嗎？"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить выбранные кадры?"
           }
         }
       }
@@ -2653,6 +3115,12 @@
             "state" : "translated",
             "value" : "斜紋"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Диагональные полосы"
+          }
         }
       }
     },
@@ -2686,6 +3154,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "方向"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Направление"
           }
         }
       }
@@ -2721,6 +3195,12 @@
             "state" : "translated",
             "value" : "中斷連接"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отключить"
+          }
         }
       }
     },
@@ -2754,6 +3234,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "完成"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Готово"
           }
         }
       }
@@ -2789,6 +3275,12 @@
             "state" : "translated",
             "value" : "拖曳即可讓布條在地面上滑動。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перетащите, чтобы сдвинуть баннер по полу."
+          }
         }
       }
     },
@@ -2822,6 +3314,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "行車模式"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Режим вождения"
           }
         }
       }
@@ -2857,6 +3355,12 @@
             "state" : "translated",
             "value" : "請輸入拍攝用 iPhone 上顯示的 4 位數代碼。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Введите 4-значный код с экрана снимающего iPhone."
+          }
         }
       }
     },
@@ -2890,6 +3394,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "每隔 %@"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Каждые %@"
           }
         }
       }
@@ -2925,6 +3435,12 @@
             "state" : "translated",
             "value" : "每張照片也會保存在 ShutterLink 圖庫中。開啟傳送後，拿著遙控器的人會收到自己拍的每張照片的副本。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Каждый кадр также сохраняется в галерее ShutterLink. Если отправка включена, тот, у кого пульт, получает копию каждого снятого фото."
+          }
         }
       }
     },
@@ -2958,6 +3474,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "請大家看鏡頭！"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Все, смотрим в камеру!"
           }
         }
       }
@@ -2993,6 +3515,12 @@
             "state" : "translated",
             "value" : "曝光"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Экспозиция"
+          }
         }
       }
     },
@@ -3026,6 +3554,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "布料（霧面）"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ткань (матовая)"
           }
         }
       }
@@ -3061,6 +3595,12 @@
             "state" : "translated",
             "value" : "朝向我"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лицом ко мне"
+          }
         }
       }
     },
@@ -3094,6 +3634,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "一起去秋遊"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вместе на осенний выезд"
           }
         }
       }
@@ -3129,6 +3675,12 @@
             "state" : "translated",
             "value" : "篩選"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фильтр"
+          }
         }
       }
     },
@@ -3162,6 +3714,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "閃光燈"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вспышка"
           }
         }
       }
@@ -3197,6 +3755,12 @@
             "state" : "translated",
             "value" : "閃光燈倒數"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отсчёт вспышкой"
+          }
         }
       }
     },
@@ -3230,6 +3794,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "花朵"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Цветы"
           }
         }
       }
@@ -3265,6 +3835,12 @@
             "state" : "translated",
             "value" : "字體"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шрифт"
+          }
         }
       }
     },
@@ -3298,6 +3874,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "圖庫"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Галерея"
           }
         }
       }
@@ -3333,6 +3915,12 @@
             "state" : "translated",
             "value" : "漸層"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Градиент"
+          }
         }
       }
     },
@@ -3366,6 +3954,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "畢業"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выпускной"
           }
         }
       }
@@ -3401,6 +3995,12 @@
             "state" : "translated",
             "value" : "格線"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сетка"
+          }
         }
       }
     },
@@ -3434,6 +4034,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "團體照 · 點一張設為最佳"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Групповое фото · коснитесь кадра, чтобы сделать его лучшим"
           }
         }
       }
@@ -3469,6 +4075,12 @@
             "state" : "translated",
             "value" : "團體照會連拍多張，並挑出所有人都睜著眼的一張。遙控器也會收到一份副本。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Групповой снимок делает несколько кадров и выбирает тот, где у всех открыты глаза. Копия остаётся на пульте."
+          }
         }
       }
     },
@@ -3502,6 +4114,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "手勢"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Жесты"
           }
         }
       }
@@ -3537,6 +4155,12 @@
             "state" : "translated",
             "value" : "免觸碰快門"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Съёмка без рук"
+          }
         }
       }
     },
@@ -3570,6 +4194,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "愛心"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сердечки"
           }
         }
       }
@@ -3605,6 +4235,12 @@
             "state" : "translated",
             "value" : "高度"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Высота"
+          }
         }
       }
     },
@@ -3638,6 +4274,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "離地高度"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Высота над полом"
           }
         }
       }
@@ -3673,6 +4315,12 @@
             "state" : "translated",
             "value" : "說明"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Справка"
+          }
         }
       }
     },
@@ -3706,6 +4354,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "不用帶布條，也能舉著布條"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Держите баннер, не принося его с собой"
           }
         }
       }
@@ -3741,6 +4395,12 @@
             "state" : "translated",
             "value" : "ShutterLink 使用方式"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Как пользоваться ShutterLink"
+          }
         }
       }
     },
@@ -3774,6 +4434,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "間隔"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Интервал"
           }
         }
       }
@@ -3809,6 +4475,12 @@
             "state" : "translated",
             "value" : "水平儀"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Уровень"
+          }
         }
       }
     },
@@ -3842,6 +4514,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "標誌"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Логотип"
           }
         }
       }
@@ -3877,6 +4555,12 @@
             "state" : "translated",
             "value" : "外觀"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вид"
+          }
         }
       }
     },
@@ -3910,6 +4594,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "正在尋找相機 %@…"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поиск камеры %@…"
           }
         }
       }
@@ -3945,6 +4635,12 @@
             "state" : "translated",
             "value" : "主標語"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Главная надпись"
+          }
         }
       }
     },
@@ -3978,6 +4674,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "主要文字"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Основной текст"
           }
         }
       }
@@ -4013,6 +4715,12 @@
             "state" : "translated",
             "value" : "材質"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Материал"
+          }
         }
       }
     },
@@ -4046,6 +4754,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "材質 · 尺寸"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Материал · Размер"
           }
         }
       }
@@ -4081,6 +4795,12 @@
             "state" : "translated",
             "value" : "模式"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Режим"
+          }
         }
       }
     },
@@ -4114,6 +4834,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "更多"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ещё"
           }
         }
       }
@@ -4149,6 +4875,12 @@
             "state" : "translated",
             "value" : "移動布條"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переместить баннер"
+          }
         }
       }
     },
@@ -4182,6 +4914,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "下一步"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Далее"
           }
         }
       }
@@ -4217,6 +4955,12 @@
             "state" : "translated",
             "value" : "%lld 秒後拍下一張"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Следующий кадр через %lld с"
+          }
         }
       }
     },
@@ -4250,6 +4994,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "此裝置沒有可用的相機。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "На этом устройстве нет доступной камеры."
           }
         }
       }
@@ -4285,6 +5035,12 @@
             "state" : "translated",
             "value" : "尚無照片"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пока нет кадров"
+          }
         }
       }
     },
@@ -4319,6 +5075,12 @@
             "state" : "translated",
             "value" : "沒人閉眼"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Никто не моргнул"
+          }
         }
       }
     },
@@ -4352,6 +5114,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "無"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет"
           }
         }
       }
@@ -4388,6 +5156,12 @@
             "state" : "translated",
             "value" : "立即"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сейчас"
+          }
         }
       }
     },
@@ -4421,6 +5195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2026 年 10 月 24–25 日  加州太浩湖"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "24–25 октября 2026  озеро Тахо, Калифорния"
           }
         }
       }
@@ -4456,6 +5236,12 @@
             "state" : "translated",
             "value" : "關"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выкл."
+          }
         }
       }
     },
@@ -4489,6 +5275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "好"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ОК"
           }
         }
       }
@@ -4524,6 +5316,12 @@
             "state" : "translated",
             "value" : "開"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вкл."
+          }
         }
       }
     },
@@ -4557,6 +5355,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "打開圖庫"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открыть галерею"
           }
         }
       }
@@ -4592,6 +5396,12 @@
             "state" : "translated",
             "value" : "選項"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Параметры"
+          }
         }
       }
     },
@@ -4625,6 +5435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "或是免觸碰拍攝"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Или снимайте без рук"
           }
         }
       }
@@ -4660,6 +5476,12 @@
             "state" : "translated",
             "value" : "我們的團隊 2026"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Наша команда 2026"
+          }
         }
       }
     },
@@ -4693,6 +5515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "配對碼"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Код подключения"
           }
         }
       }
@@ -4728,6 +5556,12 @@
             "state" : "translated",
             "value" : "配對中…"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подключение…"
+          }
         }
       }
     },
@@ -4761,6 +5595,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "手掌"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ладонь"
           }
         }
       }
@@ -4796,6 +5636,12 @@
             "state" : "translated",
             "value" : "手掌手勢"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Жест ладонью"
+          }
         }
       }
     },
@@ -4829,6 +5675,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "紙張"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бумага"
           }
         }
       }
@@ -4864,6 +5716,12 @@
             "state" : "translated",
             "value" : "派對之夜"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вечеринка"
+          }
         }
       }
     },
@@ -4897,6 +5755,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "人數統計"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Счётчик людей"
           }
         }
       }
@@ -4932,6 +5796,12 @@
             "state" : "translated",
             "value" : "現在，站在布條前面的人會顯示在布條之上。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Теперь люди, стоящие перед баннером, отображаются поверх него."
+          }
         }
       }
     },
@@ -4965,6 +5835,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "照片"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фото"
           }
         }
       }
@@ -5000,6 +5876,12 @@
             "state" : "translated",
             "value" : "照片"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фото"
+          }
         }
       }
     },
@@ -5033,6 +5915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "你用 ShutterLink 拍攝的照片和影片會顯示在這裡。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фото и видео, снятые в ShutterLink, появятся здесь."
           }
         }
       }
@@ -5068,6 +5956,12 @@
             "state" : "translated",
             "value" : "本次拍攝的照片"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фото этой съёмки"
+          }
         }
       }
     },
@@ -5101,6 +5995,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "把這台 iPhone 固定在腳架上，或靠在穩固的地方。借助水平儀和人數統計，把所有人都框進畫面。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поставьте этот iPhone на штатив или обоприте его о что-нибудь устойчивое. Уровень и счётчик людей помогут уместить в кадр всех."
           }
         }
       }
@@ -5136,6 +6036,12 @@
             "state" : "translated",
             "value" : "用另一台 iPhone 的相機對準 QR code，不需安裝即可開啟 ShutterLink 遙控器 App Clip。拍攝期間請保持此 App 開啟。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Наведите камеру другого iPhone на QR-код. Мини-приложение «Пульт ShutterLink» откроется без установки. Во время съёмки не закрывайте это приложение."
+          }
         }
       }
     },
@@ -5169,6 +6075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "朝鏡頭舉起張開的手掌，開始倒數。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поднимите раскрытую ладонь к камере, чтобы запустить таймер."
           }
         }
       }
@@ -5204,6 +6116,12 @@
             "state" : "translated",
             "value" : "舉起手掌、拍手，或在大家微笑時讓 ShutterLink 自動拍攝。語音和燈光倒數會提醒大家擺好姿勢。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поднимите ладонь, хлопните или дайте ShutterLink снять, когда все улыбаются. Голосовой и световой отсчёт подскажет группе, когда позировать."
+          }
         }
       }
     },
@@ -5237,6 +6155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "錄影失敗。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось записать."
           }
         }
       }
@@ -5272,6 +6196,12 @@
             "state" : "translated",
             "value" : "移除標誌"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить логотип"
+          }
         }
       }
     },
@@ -5305,6 +6235,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "重置"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сбросить"
           }
         }
       }
@@ -5340,6 +6276,12 @@
             "state" : "translated",
             "value" : "重置曝光"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сбросить экспозицию"
+          }
         }
       }
     },
@@ -5373,6 +6315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "圓體"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скруглённый без засечек"
           }
         }
       }
@@ -5408,6 +6356,12 @@
             "state" : "translated",
             "value" : "儲存或分享這張照片"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохранить или отправить это фото"
+          }
         }
       }
     },
@@ -5441,6 +6395,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "關閉遙控器前，請先儲存或分享你的副本。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохраните или отправьте свою копию, прежде чем закрывать пульт."
           }
         }
       }
@@ -5476,6 +6436,12 @@
             "state" : "translated",
             "value" : "儲存到相簿"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохранить в «Фото»"
+          }
         }
       }
     },
@@ -5509,6 +6475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "掃描拍攝用 iPhone 上的 QR code，或輸入 4 位數配對碼。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отсканируйте QR-код на снимающем iPhone или введите 4-значный код подключения."
           }
         }
       }
@@ -5544,6 +6516,12 @@
             "state" : "translated",
             "value" : "掃描以控制相機：%@"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отсканируйте, чтобы управлять камерой: %@"
+          }
         }
       }
     },
@@ -5577,6 +6555,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "用另一台 iPhone 掃描"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отсканируйте другим iPhone"
           }
         }
       }
@@ -5612,6 +6596,12 @@
             "state" : "translated",
             "value" : "海邊"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Море"
+          }
         }
       }
     },
@@ -5645,6 +6635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "選取"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбрать"
           }
         }
       }
@@ -5680,6 +6676,12 @@
             "state" : "translated",
             "value" : "將照片傳送到遙控器"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отправлять фото на пульт"
+          }
         }
       }
     },
@@ -5713,6 +6715,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "襯線體"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "С засечками"
           }
         }
       }
@@ -5748,6 +6756,12 @@
             "state" : "translated",
             "value" : "服務發生錯誤：%@"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ошибка службы: %@"
+          }
         }
       }
     },
@@ -5781,6 +6795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "設定相機"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Настройка камеры"
           }
         }
       }
@@ -5816,6 +6836,12 @@
             "state" : "translated",
             "value" : "設定"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Настройки"
+          }
         }
       }
     },
@@ -5849,6 +6875,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "形狀"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Форма"
           }
         }
       }
@@ -5884,6 +6916,12 @@
             "state" : "translated",
             "value" : "分享"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поделиться"
+          }
         }
       }
     },
@@ -5917,6 +6955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "分享 QR code"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поделиться QR-кодом"
           }
         }
       }
@@ -5952,6 +6996,12 @@
             "state" : "translated",
             "value" : "只用快門按鈕拍攝。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Снимать только кнопкой затвора."
+          }
         }
       }
     },
@@ -5985,6 +7035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "拍攝選項"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Параметры съёмки"
           }
         }
       }
@@ -6020,6 +7076,12 @@
             "state" : "translated",
             "value" : "當所有人都微笑並睜著眼時自動拍攝。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Снимает сам, когда все улыбаются с открытыми глазами."
+          }
         }
       }
     },
@@ -6053,6 +7115,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "顯示配對 QR code"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показать QR-код подключения"
           }
         }
       }
@@ -6088,6 +7156,12 @@
             "state" : "translated",
             "value" : "讓人顯示在前面"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показывать людей впереди"
+          }
         }
       }
     },
@@ -6122,6 +7196,12 @@
             "state" : "translated",
             "value" : "顯示兩側支架"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показать боковые шесты"
+          }
         }
       }
     },
@@ -6152,6 +7232,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink"
@@ -6190,6 +7276,12 @@
             "state" : "translated",
             "value" : "ShutterLink 照片"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фото ShutterLink"
+          }
         }
       }
     },
@@ -6223,6 +7315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink 遙控器"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пульт ShutterLink"
           }
         }
       }
@@ -6258,6 +7356,12 @@
             "state" : "translated",
             "value" : "簡易模式（大按鈕）"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Простой режим (крупные кнопки)"
+          }
         }
       }
     },
@@ -6291,6 +7395,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "單張"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Одиночный"
           }
         }
       }
@@ -6326,6 +7436,12 @@
             "state" : "translated",
             "value" : "單張照片"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Одно фото"
+          }
         }
       }
     },
@@ -6359,6 +7475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "頂部小字（例如 2026 某某公司）"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Маленькая верхняя строка (например, ООО «Ромашка» 2026)"
           }
         }
       }
@@ -6394,6 +7516,12 @@
             "state" : "translated",
             "value" : "微笑"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Улыбка"
+          }
         }
       }
     },
@@ -6427,6 +7555,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "微笑快門"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Затвор по улыбке"
           }
         }
       }
@@ -6462,6 +7596,12 @@
             "state" : "translated",
             "value" : "雪"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Снег"
+          }
         }
       }
     },
@@ -6495,6 +7635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "純色"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Однотонный"
           }
         }
       }
@@ -6530,6 +7676,12 @@
             "state" : "translated",
             "value" : "有人在畫面邊緣"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кто-то на краю кадра"
+          }
         }
       }
     },
@@ -6563,6 +7715,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "運動"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Спорт"
           }
         }
       }
@@ -6598,6 +7756,12 @@
             "state" : "translated",
             "value" : "運動會"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "День спорта"
+          }
         }
       }
     },
@@ -6631,6 +7795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "春日花開"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Цветение весны"
           }
         }
       }
@@ -6666,6 +7836,12 @@
             "state" : "translated",
             "value" : "星星"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Звёзды"
+          }
         }
       }
     },
@@ -6699,6 +7875,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "開始錄影"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Начать запись"
           }
         }
       }
@@ -6734,6 +7916,12 @@
             "state" : "translated",
             "value" : "開始拍攝"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Начать съёмку"
+          }
         }
       }
     },
@@ -6767,6 +7955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "正在啟動藍牙…"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запуск Bluetooth…"
           }
         }
       }
@@ -6802,6 +7996,12 @@
             "state" : "translated",
             "value" : "停止定時連拍"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Остановить интервальную съёмку"
+          }
         }
       }
     },
@@ -6835,6 +8035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "停止錄影"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Остановить запись"
           }
         }
       }
@@ -6870,6 +8076,12 @@
             "state" : "translated",
             "value" : "夏日海灘"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Летний пляж"
+          }
         }
       }
     },
@@ -6903,6 +8115,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "隨風擺動"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Колышется на ветру"
           }
         }
       }
@@ -6938,6 +8156,12 @@
             "state" : "translated",
             "value" : "切換鏡頭"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сменить камеру"
+          }
         }
       }
     },
@@ -6971,6 +8195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "拍照"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сделать фото"
           }
         }
       }
@@ -7006,6 +8236,12 @@
             "state" : "translated",
             "value" : "%lld 秒後拍照。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Снимок через %lld с."
+          }
         }
       }
     },
@@ -7039,6 +8275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "點一下地面或牆壁來放置布條"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Коснитесь пола или стены, чтобы разместить баннер"
           }
         }
       }
@@ -7074,6 +8316,12 @@
             "state" : "translated",
             "value" : "點一下 QR code 按鈕，另一台 iPhone 用相機 App 掃描後，幾秒內就能變成遙控器，不需安裝任何東西。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нажмите кнопку QR. Другой iPhone отсканирует код в приложении «Камера» и за пару секунд станет пультом — без установки."
+          }
         }
       }
     },
@@ -7107,6 +8355,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "點一下對焦"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Коснитесь, чтобы навести фокус"
           }
         }
       }
@@ -7142,6 +8396,12 @@
             "state" : "translated",
             "value" : "文字"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текст"
+          }
         }
       }
     },
@@ -7175,6 +8435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "布條暫時停住了"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Баннер ненадолго замер"
           }
         }
       }
@@ -7210,6 +8476,12 @@
             "state" : "translated",
             "value" : "布條始終在所有人前面。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Баннер всегда перед всеми."
+          }
         }
       }
     },
@@ -7243,6 +8515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "相機會語音倒數並閃爍燈光，站得遠的大家也能清楚知道什麼時候拍照。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Камера считает вслух и мигает подсветкой, поэтому даже далеко стоящая группа точно знает, когда будет снимок."
           }
         }
       }
@@ -7278,6 +8556,12 @@
             "state" : "translated",
             "value" : "配對碼遭拒。請重新掃描 QR code。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Код подключения не принят. Отсканируйте QR-код ещё раз."
+          }
         }
       }
     },
@@ -7311,6 +8595,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "主題"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тема"
           }
         }
       }
@@ -7346,6 +8636,12 @@
             "state" : "translated",
             "value" : "如果已儲存到相簿，它們會繼續保留在你的相簿中。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Они останутся в вашей медиатеке, если были туда сохранены."
+          }
         }
       }
     },
@@ -7379,6 +8675,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "此裝置不支援低功耗藍牙。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Это устройство не поддерживает Bluetooth LE."
           }
         }
       }
@@ -7414,6 +8716,12 @@
             "state" : "translated",
             "value" : "此裝置不是 ShutterLink 相機。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Это устройство не является камерой ShutterLink."
+          }
         }
       }
     },
@@ -7447,6 +8755,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "這台 iPhone 不支援 AR。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Этот iPhone не поддерживает AR."
           }
         }
       }
@@ -7482,6 +8796,12 @@
             "state" : "translated",
             "value" : "傾斜了 %lld 度"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Наклон: %lld°"
+          }
         }
       }
     },
@@ -7515,6 +8835,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "計時"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Таймер"
           }
         }
       }
@@ -7550,6 +8876,12 @@
             "state" : "translated",
             "value" : "上下色帶"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Верхняя и нижняя полосы"
+          }
         }
       }
     },
@@ -7583,6 +8915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "頂部條紋"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Верхняя полоса"
           }
         }
       }
@@ -7618,6 +8956,12 @@
             "state" : "translated",
             "value" : "頂部文字"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Верхний текст"
+          }
         }
       }
     },
@@ -7651,6 +8995,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "重試"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Повторить"
           }
         }
       }
@@ -7686,6 +9036,12 @@
             "state" : "translated",
             "value" : "請開啟藍牙以連接相機。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Включите Bluetooth, чтобы подключиться к камере."
+          }
         }
       }
     },
@@ -7719,6 +9075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "無法使用"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Недоступно"
           }
         }
       }
@@ -7754,6 +9116,12 @@
             "state" : "translated",
             "value" : "版本"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Версия"
+          }
         }
       }
     },
@@ -7787,6 +9155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "影片"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Видео"
           }
         }
       }
@@ -7822,6 +9196,12 @@
             "state" : "translated",
             "value" : "影片"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Видео"
+          }
         }
       }
     },
@@ -7855,6 +9235,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "取景器"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Видоискатель"
           }
         }
       }
@@ -7890,6 +9276,12 @@
             "state" : "translated",
             "value" : "噴繪布（亮面）"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Винил (глянец)"
+          }
         }
       }
     },
@@ -7923,6 +9315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "語音倒數"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Голосовой отсчёт"
           }
         }
       }
@@ -7958,6 +9356,12 @@
             "state" : "translated",
             "value" : "等待遙控器連接"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ожидание пульта"
+          }
         }
       }
     },
@@ -7991,6 +9395,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "正在等待藍牙…"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ожидание Bluetooth…"
           }
         }
       }
@@ -8026,6 +9436,12 @@
             "state" : "translated",
             "value" : "正在等待預覽…"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ожидание превью…"
+          }
         }
       }
     },
@@ -8059,6 +9475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "婚禮"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Свадьба"
           }
         }
       }
@@ -8094,6 +9516,12 @@
             "state" : "translated",
             "value" : "寬度"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ширина"
+          }
         }
       }
     },
@@ -8127,6 +9555,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "冬日"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зима"
           }
         }
       }
@@ -8162,6 +9596,12 @@
             "state" : "translated",
             "value" : "尾牙"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Новогодний корпоратив"
+          }
         }
       }
     },
@@ -8195,6 +9635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "變焦"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зум"
           }
         }
       }
