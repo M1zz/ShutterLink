@@ -1778,6 +1778,88 @@ https://m1zz.github.io/ShutterLink/nl/privacy/
 
 https://m1zz.github.io/ShutterLink/nl/
 
+## pl
+
+<!-- Polski -->
+
+### 이름
+
+ShutterLink: zdjęcie z banerem
+
+### 부제
+
+Pilot bez instalacji
+
+### 키워드
+
+zjazd,impreza,zespół,wydarzenie,rodzina,selfie,statyw,minutnik,AR,fotobudka,uśmiech,bluetooth
+
+### 프로모션 텍스트
+
+Dodaj własny baner do zdjęcia grupowego, bez drukowania. Wpisz tekst, wybierz motyw, a wszyscy go trzymają. iPhone znajomego staje się pilotem po jednym skanie kodu QR.
+
+### 설명
+
+Zrób klasyczne zdjęcie grupowe, na którym wszyscy trzymają baner, bez drukowania banera.
+Wpisz tekst, wybierz motyw, a baner pojawi się przed Twoją grupą. iPhone znajomego stanie się pilotem bez instalacji.
+
+Tryb Baner
+Przełącz na Baner, dotknij podłogi, a baner pojawi się na wysokości, na jakiej ludzie by go trzymali. Dotknij ściany, aby powiesić go tam. Przeciągnij w górę, w dół lub na boki, a baner podąży za palcem. Dwoma palcami możesz go obrócić lub zmienić jego rozmiar, a przyciskiem przesuwania dopracować położenie do przodu, do tyłu, na boki, w górę i w dół.
+Baner zawsze jest przed grupą, więc wygląda to tak, jakby wszyscy razem go trzymali.
+
+Zrób go po swojemu
+Zacznij od jednego z 13 motywów, m.in. jesienna wycieczka, wiosenny piknik, plaża, impreza na koniec roku, urodziny, dzień sportu, kibicowanie, rozdanie dyplomów, ślub i wyjazd integracyjny.
+Wpisz do trzech wierszy tekstu. Zmień tło, czcionkę, dekoracje, kolory i kształt oraz dodaj własne logo.
+Wybierz tkaninę, winyl lub papier. Baner z tkaniny zwisa, marszczy się i powiewa na wietrze jak prawdziwy.
+
+Wszyscy są na zdjęciu
+Minutnik, migawka bez dotykania i pilot działają w trybie Baner. Postaw telefon na statywie i dołącz do grupy. Zdjęcia zapisują się w Zdjęciach i w galerii aplikacji.
+
+Pilot bez instalacji
+Wyświetl kod QR na iPhonie z aparatem i zeskanuj go aparatem drugiego iPhone’a. Pilot ShutterLink od razu otworzy się jako App Clip i połączy się. Kadruj według obrazu na żywo i naciśnij migawkę. W trybie Baner baner widać też w obrazie na żywo. Jeśli kodu QR nie da się zeskanować, wpisz 4-cyfrowy kod.
+
+Migawka bez dotykania
+Unieś dłoń, uśmiechnijcie się razem lub klaśnijcie, a migawka zadziała.
+Ustaw minutnik od 3 do 30 sekund. Głos odlicza, lampa błyskowa miga w rytm, a pilot wibruje w dłoni.
+Komunikat głosowy „Patrzymy w obiektyw” zwraca uwagę wszystkich.
+
+Nikt nie mruga
+Zrób serię 3 lub 5 zdjęć, a ShutterLink wybierze to, na którym wszyscy mają otwarte oczy i się uśmiechają. Przefiltruj galerię do najlepszych ujęć albo wybierz inne samodzielnie.
+
+Nikt nie zostaje ucięty
+Zobacz, ile osób jest w kadrze, i otrzymaj ostrzeżenie, gdy ktoś stoi na skraju. Gdy iPhone się przechyla, pojawia się poziomica.
+
+Zdjęcia trafiają na pilota
+Każde zrobione zdjęcie od razu pojawia się na iPhonie-pilocie. Znajomy bez aplikacji może je zapisać i udostępnić na miejscu.
+
+Pełna kontrola aparatu z pilota
+Ostrość i ekspozycja dotknięciem, korekta ekspozycji, lampa błyskowa i światło, siatka, zoom od 0,5× do 10× zależnie od iPhone’a, aparat przedni i tylny oraz film.
+Zdjęcia w odstępach od 3 sekund do 1 minuty — do zachodów słońca albo prac w toku.
+Tryb prosty na pilocie pokazuje jedną dużą migawkę, którą naciśnie każdy.
+
+Bluetooth bezpośrednio, bez internetu
+Oba iPhone’y łączą się bezpośrednio przez Bluetooth. Po połączeniu działa to w górach, na plaży czy za granicą bez Wi‑Fi i danych komórkowych. Konto nie jest potrzebne.
+
+Twoje zdjęcia zostają u Ciebie
+Zdjęcia i filmy zostają na iPhonie z aparatem i połączonym pilocie i nigdy nie są przesyłane. Kod parowania zmienia się przy każdym otwarciu aplikacji, więc migawkę może uruchomić tylko pilot, który go zna.
+
+Warto wiedzieć
+Wymaga iOS 17 lub nowszego. Pilot wymaga drugiego iPhone’a.
+iPhone-pilot potrzebuje internetu raz, przy pierwszym pobraniu App Clipa.
+Lampa błyskowa, serie, zoom i aparat przedni nie są dostępne w trybie Baner.
+
+### 지원 URL
+
+https://m1zz.github.io/ShutterLink/pl/support/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/ShutterLink/pl/privacy/
+
+### 마케팅 URL
+
+https://m1zz.github.io/ShutterLink/pl/
+
 ## 연령 등급
 
 <!-- 내용 문항이 전부 '해당 없음' 인 앱이면 아래 줄의 주석을 풀어라.

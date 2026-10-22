@@ -129,6 +129,12 @@
             "state" : "translated",
             "value" : "ShutterLink"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
         }
       }
     },
@@ -272,6 +278,12 @@
             "state" : "translated",
             "value" : "ShutterLink gebruikt Bluetooth zodat een iPhone in de buurt als afstandsbediening voor de sluiter kan dienen."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink używa Bluetooth, aby pobliski iPhone mógł pełnić rolę pilota migawki."
+          }
         }
       }
     },
@@ -402,6 +414,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink gebruikt de camera om foto’s en video’s te maken en om een AR-spandoek in beeld te plaatsen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink używa aparatu do robienia zdjęć i nagrywania filmów oraz do umieszczania baneru AR w kadrze."
           }
         }
       }
@@ -534,6 +552,12 @@
             "state" : "translated",
             "value" : "ShutterLink neemt geluid op bij je video’s en luistert naar een klap als de klapontspanner aan staat."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink nagrywa dźwięk do filmów i nasłuchuje klaśnięcia, gdy włączona jest migawka na klaśnięcie."
+          }
         }
       }
     },
@@ -664,6 +688,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink bewaart je foto’s en video’s in je fotobibliotheek."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink zapisuje Twoje zdjęcia i filmy w bibliotece zdjęć."
           }
         }
       }

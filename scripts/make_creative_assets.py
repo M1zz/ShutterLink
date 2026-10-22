@@ -22,8 +22,8 @@ RAW = ROOT / "docs" / "screenshots" / "raw"
 OUT = ROOT / "docs" / "screenshots" / "creative"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
-# 앱 언어 코드 → App Store Connect 로케일 (deploy.env LOCALES=ko,en-US,ja,en-GB,zh-Hans,zh-Hant,ru,es-ES,de-DE,fr-FR,it,pt-BR,th,vi,cs,da,el,fi,id,no,nl-NL)
-STORE = {"en": "en-US", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "no", "nl": "nl-NL"}
+# 앱 언어 코드 → App Store Connect 로케일 (deploy.env LOCALES=ko,en-US,ja,en-GB,zh-Hans,zh-Hant,ru,es-ES,de-DE,fr-FR,it,pt-BR,th,vi,cs,da,el,fi,id,no,nl-NL,pl)
+STORE = {"en": "en-US", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "no", "nl": "nl-NL", "pl": "pl"}
 
 # (가로, 세로, 안전 영역 left, top, right, bottom)
 SPEC = {
@@ -54,6 +54,7 @@ SEARCH = {
     "id": ("Spanduk foto grup", "Foto grup bersama spanduk,<br>tanpa cetak", "Ketuk lantai, semua ikut memegangnya"),
     "nb": ("Banner gruppebilde", "Gruppebildet med banner,<br>uten å skrive ut", "Trykk på gulvet, så holder alle det"),
     "nl": ("Spandoek groepsfoto", "De groepsfoto met spandoek,<br>zonder te printen", "Tik op de vloer en iedereen houdt het vast"),
+    "pl": ("Baner zdjęcie grupowe", "Zdjęcie grupowe z banerem,<br>bez drukowania", "Dotknij podłogi i wszyscy go trzymają"),
 }
 
 # 헤더는 한 가지 약속: 우리 모임 현수막을 들고 찍는 단체사진.
@@ -79,6 +80,7 @@ HEADER = {
     "id": ("Foto grup dengan spanduk", "Spanduk kalian<br>di setiap foto grup"),
     "nb": ("Gruppebilde med banner", "Deres banner<br>i hvert gruppebilde"),
     "nl": ("Groepsfoto met spandoek", "Jullie spandoek<br>op elke groepsfoto"),
+    "pl": ("Zdjęcie grupowe z banerem", "Wasz baner<br>na każdym zdjęciu grupowym"),
 }
 
 # ⚠️ 바탕 · 글자색은 마케팅 스크린샷(scripts/screens/make_marketing_screenshots.py)과 같다.

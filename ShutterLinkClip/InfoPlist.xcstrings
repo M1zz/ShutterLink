@@ -129,6 +129,12 @@
             "state" : "translated",
             "value" : "ShutterLink-afstandsbediening"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilot ShutterLink"
+          }
         }
       }
     },
@@ -272,6 +278,12 @@
             "state" : "translated",
             "value" : "De ShutterLink-afstandsbediening gebruikt Bluetooth om de iPhone met de camera in de buurt te bedienen."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilot ShutterLink używa Bluetooth do sterowania pobliskim iPhone’em z aparatem."
+          }
         }
       }
     },
@@ -402,6 +414,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "De ShutterLink-afstandsbediening bewaart de foto’s die je maakt in je fotobibliotheek."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilot ShutterLink zapisuje zrobione przez Ciebie zdjęcia w bibliotece zdjęć."
           }
         }
       }

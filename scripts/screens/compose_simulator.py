@@ -236,6 +236,17 @@ CAPTIONS = {
  ("08-pairing", "07-pairing", "Toon de QR-code en je bent klaar", "Geen account, geen koppelinstellingen, geen extra apparatuur"),
  ("09-simple", "06-simple", "Grote knop voor iedereen", "Eén grote ontspanner die iedereen kan indrukken"),
  ],
+ "pl": [
+ ("01-banner", "banner", "Zdjęcie z banerem bez drukowania", "Dotknij podłogi, a baner pojawi się przed wszystkimi"),
+ ("02-banner-design", "bannerDesign", "Wybierz motyw i wpisz tekst", "13 motywów na zjazdy, imprezy, rozdania dyplomów i nie tylko"),
+ ("03-remote", "02-remote", "Inny iPhone staje się pilotem", "Zeskanuj kod QR, nic nie instaluj"),
+ ("04-countdown", "04-countdown", "Zdjęcia jedną dłonią", "Dłoń, klaśnięcie lub uśmiech, z odliczaniem głosem i światłem"),
+ ("05-bestshot", "01-main", "Koniec z zamkniętymi oczami", "Wybiera ujęcie, na którym wszyscy mają otwarte oczy"),
+ ("06-reviews", "03-reviews", "Zdjęcia od razu na pilocie", "Znajomi bez aplikacji też mogą je zapisać i udostępnić"),
+ ("07-gallery", "05-gallery", "Wszystkie najlepsze ujęcia", "Zamień na inne z serii i udostępnij przez AirDrop"),
+ ("08-pairing", "07-pairing", "Pokaż kod QR i gotowe", "Bez konta, bez ustawień parowania, bez dodatkowego sprzętu"),
+ ("09-simple", "06-simple", "Duży przycisk dla każdego", "Jedna duża migawka, którą naciśnie każdy"),
+ ],
 }
 
 def font(size, bold):
