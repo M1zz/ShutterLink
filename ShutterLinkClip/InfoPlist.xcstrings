@@ -99,6 +99,12 @@
             "state" : "translated",
             "value" : "ShutterLink-fjernbetjening"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τηλεχειριστήριο ShutterLink"
+          }
         }
       }
     },
@@ -212,6 +218,12 @@
             "state" : "translated",
             "value" : "ShutterLink-fjernbetjeningen bruger Bluetooth til at styre kamera-iPhonen i nærheden."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το Τηλεχειριστήριο ShutterLink χρησιμοποιεί Bluetooth για να ελέγχει το κοντινό iPhone που βγάζει τις φωτογραφίες."
+          }
         }
       }
     },
@@ -312,6 +324,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink-fjernbetjeningen gemmer de billeder, du tager, i dit fotobibliotek."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το Τηλεχειριστήριο ShutterLink αποθηκεύει στη βιβλιοθήκη σας τις φωτογραφίες που τραβάτε."
           }
         }
       }

@@ -22,8 +22,8 @@ RAW = ROOT / "docs" / "screenshots" / "raw"
 OUT = ROOT / "docs" / "screenshots" / "creative"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
-# 앱 언어 코드 → App Store Connect 로케일 (deploy.env LOCALES=ko,en-US,ja,en-GB,zh-Hans,zh-Hant,ru,es-ES,de-DE,fr-FR,it,pt-BR,th,vi,cs,da)
-STORE = {"en": "en-US", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da"}
+# 앱 언어 코드 → App Store Connect 로케일 (deploy.env LOCALES=ko,en-US,ja,en-GB,zh-Hans,zh-Hant,ru,es-ES,de-DE,fr-FR,it,pt-BR,th,vi,cs,da,el)
+STORE = {"en": "en-US", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el"}
 
 # (가로, 세로, 안전 영역 left, top, right, bottom)
 SPEC = {
@@ -49,6 +49,7 @@ SEARCH = {
     "vi": ("Băng rôn ảnh nhóm", "Ảnh nhóm có băng rôn,<br>không cần in", "Chạm vào sàn, ai cũng cầm băng rôn"),
     "cs": ("Banner skupinová fotka", "Skupinová fotka s bannerem<br>bez tisku", "Klepněte na podlahu a všichni ho drží"),
     "da": ("Banner gruppebillede", "Gruppebilledet med banner,<br>uden at printe", "Tryk på gulvet, så holder alle det"),
+    "el": ("Πανό ομαδική φωτογραφία", "Η ομαδική φωτογραφία με πανό<br>χωρίς εκτύπωση", "Πατήστε στο δάπεδο και όλοι το κρατούν"),
 }
 
 # 헤더는 한 가지 약속: 우리 모임 현수막을 들고 찍는 단체사진.
@@ -69,6 +70,7 @@ HEADER = {
     "vi": ("Ảnh nhóm cầm băng rôn", "Băng rôn của nhóm bạn<br>trong mọi bức ảnh"),
     "cs": ("Skupinová fotka s bannerem", "Váš banner<br>na každé společné fotce"),
     "da": ("Gruppebillede med banner", "Jeres banner<br>på alle gruppebilleder"),
+    "el": ("Ομαδική φωτογραφία με πανό", "Το πανό της παρέας σας<br>σε κάθε ομαδική φωτογραφία"),
 }
 
 # ⚠️ 바탕 · 글자색은 마케팅 스크린샷(scripts/screens/make_marketing_screenshots.py)과 같다.

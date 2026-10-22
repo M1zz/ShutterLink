@@ -99,6 +99,12 @@
             "state" : "translated",
             "value" : "ShutterLink"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ShutterLink"
+          }
         }
       }
     },
@@ -212,6 +218,12 @@
             "state" : "translated",
             "value" : "ShutterLink bruger Bluetooth, så en iPhone i nærheden kan fungere som fjernudløser."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το ShutterLink χρησιμοποιεί Bluetooth, ώστε ένα κοντινό iPhone να λειτουργεί ως τηλεχειριστήριο κλείστρου."
+          }
         }
       }
     },
@@ -312,6 +324,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink bruger kameraet til at tage billeder og videoer og til at placere et AR-banner i scenen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το ShutterLink χρησιμοποιεί την κάμερα για λήψη φωτογραφιών και βίντεο και για την τοποθέτηση ενός πανό AR στη σκηνή."
           }
         }
       }
@@ -414,6 +432,12 @@
             "state" : "translated",
             "value" : "ShutterLink optager lyd til dine videoer og lytter efter et klap, når klapudløseren er slået til."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το ShutterLink εγγράφει ήχο με τα βίντεό σας και «ακούει» για χειροκρότημα όταν είναι ενεργό το κλείστρο με χειροκρότημα."
+          }
         }
       }
     },
@@ -514,6 +538,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ShutterLink gemmer dine billeder og videoer i dit fotobibliotek."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το ShutterLink αποθηκεύει τις φωτογραφίες και τα βίντεό σας στη βιβλιοθήκη φωτογραφιών σας."
           }
         }
       }
