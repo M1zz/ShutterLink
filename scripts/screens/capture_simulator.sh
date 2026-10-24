@@ -1,8 +1,10 @@
 #!/bin/zsh
 # 실제 앱 화면으로 App Store 스크린샷 원본을 찍는다 (Debug 빌드의 -screenshots 모드, Shared/DemoMode.swift).
 # 실행: scripts/screens/capture_simulator.sh [시뮬레이터 UDID]   (레포 최상단에서)
-# 출력: scripts/screens/build/sim/{ko,en,ja}_<화면>.png → compose_simulator.py 가 docs/screenshots/marketing 으로 합성
+# 출력: scripts/screens/build/sim/<언어>_<화면>.png → compose_simulator.py 가 docs/screenshots/marketing 으로 합성
+# 일부 언어만: LANGS="en-GB ja" scripts/screens/capture_simulator.sh <UDID>   ·  빌드 생략: NOBUILD=1  ·  화면 건너뛰기: SKIP="cloth bannerAdjust"
 set -u
+LANGS=(${=LANGS:-ko en en-GB ja zh-Hans zh-Hant ru es de fr it pt-BR th vi cs da el fi id nb nl pl sv tr})
 ROOT=${0:A:h:h:h}
 OUT=$ROOT/scripts/screens/build/sim
 DD=$ROOT/scripts/screens/build/DerivedData
@@ -10,22 +12,36 @@ D=${1:-$(xcrun simctl list devices available | grep -m1 "iPhone .* Pro Max" | gr
 P=$DD/Build/Products/Debug-iphonesimulator
 mkdir -p $OUT
 cd $ROOT
-xcodebuild -project ShutterLink.xcodeproj -scheme ShutterLink -destination 'generic/platform=iOS Simulator' \
+[[ -n ${NOBUILD:-} ]] || nice -n 19 xcodebuild -project ShutterLink.xcodeproj -scheme ShutterLink -destination 'generic/platform=iOS Simulator' \
   -derivedDataPath $DD build 2>&1 | grep -E "error:|BUILD" | sort -u
-xcrun simctl boot $D 2>/dev/null
-xcrun simctl bootstatus $D >/dev/null
+perl -e "alarm 120; exec @ARGV" xcrun simctl boot $D 2>/dev/null
+perl -e "alarm 300; exec @ARGV" xcrun simctl bootstatus $D >/dev/null
 xcrun simctl status_bar $D override --time 9:41 --batteryState charged --batteryLevel 100 --wifiBars 3 --cellularBars 4
+
+# 언어 → 지역 형식(날짜 · 숫자). en-GB 는 dd/mm 처럼 영국식으로 보여야 한다.
+locale_of() {
+  case $1 in
+    en) echo en_US;; en-GB) echo en_GB;; zh-Hans) echo zh_CN;; zh-Hant) echo zh_TW;; pt-BR) echo pt_BR;;
+    ja) echo ja_JP;; ko) echo ko_KR;; es) echo es_ES;; de) echo de_DE;; fr) echo fr_FR;; it) echo it_IT;;
+    ru) echo ru_RU;; th) echo th_TH;; vi) echo vi_VN;; cs) echo cs_CZ;; da) echo da_DK;; el) echo el_GR;;
+    fi) echo fi_FI;; id) echo id_ID;; nb) echo nb_NO;; nl) echo nl_NL;; pl) echo pl_PL;; sv) echo sv_SE;; tr) echo tr_TR;;
+    *) echo $1;;
+  esac
+}
+# ⚠️ 시뮬레이터 명령은 매달릴 수 있어 전부 시간 제한을 둔다.
+lim() { perl -e 'alarm shift; exec @ARGV' "$@"; }
 
 shot() { # lang bundle screen name [launch args...]
   local lang=$1 bundle=$2 screen=$3 name=$4; shift 4
-  xcrun simctl terminate $D $bundle 2>/dev/null
-  xcrun simctl launch $D $bundle -AppleLanguages "($lang)" -screenshots $screen "$@" >/dev/null || echo "launch failed: $name"
+  [[ " ${SKIP:-} " == *" $name "* ]] && return  # SKIP="cloth 08-onboarding" 처럼 건너뛸 화면
+  lim 30 xcrun simctl terminate $D $bundle 2>/dev/null
+  lim 60 xcrun simctl launch $D $bundle -AppleLanguages "($lang)" -AppleLocale $(locale_of $lang) -screenshots $screen "$@" >/dev/null || echo "launch failed: $name"
   sleep 6
-  xcrun simctl io $D screenshot $OUT/${lang}_$name.png >/dev/null 2>&1
+  lim 60 xcrun simctl io $D screenshot $OUT/${lang}_$name.png >/dev/null 2>&1 || echo "capture failed: ${lang}_$name"
 }
 
 xcrun simctl install $D $P/ShutterLink.app
-for L in ko en ja zh-Hans zh-Hant ru es de fr it pt-BR th vi cs da el fi id nb nl pl sv tr; do
+for L in $LANGS; do
   shot $L com.devkoan.shutterlink main 01-main -hasSeenOnboarding YES
   shot $L com.devkoan.shutterlink banner banner -hasSeenOnboarding YES
   shot $L com.devkoan.shutterlink cloth cloth -hasSeenOnboarding YES
@@ -40,7 +56,7 @@ done
 # 부모 앱이 깔려 있으면 시뮬레이터가 App Clip 을 지운다 — 부모 앱을 내리고 App Clip 만 설치.
 xcrun simctl uninstall $D com.devkoan.shutterlink
 xcrun simctl install $D $P/ShutterLinkClip.app
-for L in ko en ja zh-Hans zh-Hant ru es de fr it pt-BR th vi cs da el fi id nb nl pl sv tr; do
+for L in $LANGS; do
   shot $L com.devkoan.shutterlink.Clip remote 02-remote -simpleMode NO
   shot $L com.devkoan.shutterlink.Clip reviews 03-reviews -simpleMode NO
   shot $L com.devkoan.shutterlink.Clip simple 06-simple -simpleMode YES

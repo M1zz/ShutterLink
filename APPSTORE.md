@@ -1614,7 +1614,7 @@ https://m1zz.github.io/ShutterLink/id/privacy/
 
 https://m1zz.github.io/ShutterLink/id/
 
-## no
+## nb
 
 <!-- Norsk bokmål -->
 

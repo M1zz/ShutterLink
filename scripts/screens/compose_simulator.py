@@ -38,15 +38,26 @@ CAPTIONS = {
   ("08-pairing", "07-pairing", "Show the QR and you're ready", "No account, no pairing, no extra hardware"),
   ("09-simple", "06-simple", "Big buttons for everyone", "One large shutter anyone can press"),
  ],
+ "en-GB": [
+  ("01-banner", "banner", "The banner group photo, no printing needed", "Tap the floor and a banner appears in front of everyone"),
+  ("02-banner-design", "bannerDesign", "Pick a theme, add your words", "13 themes for reunions, parties, graduations and more"),
+  ("03-remote", "02-remote", "Any iPhone becomes the remote", "Scan one QR code, nothing to install"),
+  ("04-countdown", "04-countdown", "Raise your palm to snap", "Palm, clap or smile shutter with a spoken, flashing countdown"),
+  ("05-bestshot", "01-main", "No more closed eyes", "Bursts keep the shot where everyone's eyes are open"),
+  ("06-reviews", "03-reviews", "Photos go straight to the remote", "Friends without the app can save and share them"),
+  ("07-gallery", "05-gallery", "Best shots, all in one place", "Swap in another frame and share via AirDrop"),
+  ("08-pairing", "07-pairing", "Show the QR code and you're set", "No account, no pairing, no extra kit"),
+  ("09-simple", "06-simple", "Big buttons for everyone", "One large shutter button anyone can press"),
+ ],
  "ja": [
-  ("01-banner", "banner", "横断幕なしで横断幕の集合写真", "床をタップすると、みんなの前に横断幕が置かれます"),
-  ("02-banner-design", "bannerDesign", "テーマを選んで文字を入れるだけ", "同窓会、パーティー、卒業など13種類のテーマ"),
+  ("01-banner", "banner", "横断幕なしで\n横断幕の集合写真", "床をタップすると、みんなの前に横断幕が置かれます"),
+  ("02-banner-design", "bannerDesign", "テーマを選んで\n文字を入れるだけ", "同窓会、パーティー、卒業など13種類のテーマ"),
   ("03-remote", "02-remote", "どのiPhoneもリモコンに", "QRコードを読み取るだけ。インストール不要"),
   ("04-countdown", "04-countdown", "手のひらをかざして撮影", "手のひら、拍手、笑顔で撮影。音声と光のカウントダウン付き"),
   ("05-bestshot", "01-main", "目を閉じた写真とさよなら", "連写から、全員が目を開けている1枚を選びます"),
   ("06-reviews", "03-reviews", "撮った写真はリモコンにも届く", "アプリのないお友だちも保存・共有できます"),
-  ("07-gallery", "05-gallery", "ベストショットをまとめて見る", "別のコマに差し替えて、AirDropで共有"),
-  ("08-pairing", "07-pairing", "QRを見せれば準備完了", "アカウントもペアリング設定も追加の機器も不要です"),
+  ("07-gallery", "05-gallery", "ベストショットを\nまとめて見る", "別のコマに差し替えて、AirDropで共有"),
+  ("08-pairing", "07-pairing", "QRを見せれば準備完了", "アカウントもペアリング設定も\n追加の機器も不要です"),
   ("09-simple", "06-simple", "だれでも押せる大きなボタン", "大きなシャッターボタンがひとつだけ"),
  ],
  "zh-Hans": [
@@ -140,7 +151,7 @@ CAPTIONS = {
  "th": [
  ("01-banner", "banner", "ภาพหมู่ถือแบนเนอร์ ไม่ต้องสั่งพิมพ์", "แตะที่พื้น แบนเนอร์ก็ปรากฏตรงหน้าทุกคน"),
  ("02-banner-design", "bannerDesign", "เลือกธีม พิมพ์ข้อความ ก็เสร็จ", "13 ธีมสำหรับงานเลี้ยงรุ่น ปาร์ตี้ รับปริญญา และอื่น ๆ"),
- ("03-remote", "02-remote", "iPhone เครื่องไหนก็เป็นรีโมตได้", "สแกน QR code ไม่ต้องติดตั้งอะไร"),
+ ("03-remote", "02-remote", "iPhone เครื่องไหน\nก็เป็นรีโมตได้", "สแกน QR code ไม่ต้องติดตั้งอะไร"),
  ("04-countdown", "04-countdown", "ถ่ายด้วยฝ่ามือเดียว", "ฝ่ามือ ปรบมือ หรือยิ้ม พร้อมนับถอยหลังด้วยเสียงและแสง"),
  ("05-bestshot", "01-main", "ลาก่อนภาพที่มีคนหลับตา", "เลือกภาพที่ทุกคนลืมตาจากการถ่ายต่อเนื่อง"),
  ("06-reviews", "03-reviews", "ภาพส่งไปที่รีโมตทันที", "เพื่อนที่ไม่มีแอปก็บันทึกและแชร์ได้"),
@@ -271,6 +282,68 @@ CAPTIONS = {
  ],
 }
 
+# 출력 폴더 = App Store 로케일 (deploy.env LOCALES). en 은 en-US 로 읽힌다.
+STORE = {"es": "es-ES", "de": "de-DE", "fr": "fr-FR", "nl": "nl-NL"}
+
+# ko · en 은 처음부터 Pillow 로 그렸다(그대로 둔다). 나머지 언어는 CoreText(render_text.swift)로 그린다:
+# Pillow 가 raqm 없이 돌아 태국어 기호가 깨지고, 띄어쓰기 없는 일본어 · 중국어를 줄바꿈하지 못한다.
+CT_FONTS = {  # 언어: (제목 글꼴, 부제 글꼴) — PostScript 이름
+    "ja": ("HiraginoSans-W7", "HiraginoSans-W3"),
+    "zh-Hans": ("PingFangSC-Semibold", "PingFangSC-Regular"),
+    "zh-Hant": ("PingFangTC-Semibold", "PingFangTC-Regular"),
+    "th": ("Thonburi-Bold", "Thonburi"),
+}
+CT_DEFAULT = ("system-bold", "system-regular")  # 라틴 · 키릴 · 그리스 · 베트남어
+CT_BIN = ROOT / "scripts" / "screens" / "build" / "render_text"
+
+
+def ct_render(lang, items):
+    """items = [(text, bold, size, color, width, line_height)] → PNG 이미지 목록"""
+    import json, subprocess, tempfile
+    src = ROOT / "scripts" / "screens" / "render_text.swift"
+    if not CT_BIN.exists() or CT_BIN.stat().st_mtime < src.stat().st_mtime:
+        CT_BIN.parent.mkdir(parents=True, exist_ok=True)
+        subprocess.run(["swiftc", "-O", str(src), "-o", str(CT_BIN)], check=True)
+    tmp = pathlib.Path(tempfile.mkdtemp(prefix="shutterlink-ct-"))
+    bold_font, reg_font = CT_FONTS.get(lang, CT_DEFAULT)
+    spec = [{"text": t, "font": bold_font if b else reg_font, "size": sz, "color": c, "width": w,
+             "lineHeight": lh, "lang": lang, "out": str(tmp / f"{i}.png")}
+            for i, (t, b, sz, c, w, lh) in enumerate(items)]
+    (tmp / "spec.json").write_text(json.dumps(spec, ensure_ascii=False), encoding="utf-8")
+    subprocess.run([str(CT_BIN), str(tmp / "spec.json")], check=True)
+    return [Image.open(x["out"]).convert("RGBA") for x in spec]
+
+
+BREAK_AFTER = "、。，,：:"
+
+
+def balanced(text, lang):
+    """두 줄로 넘칠 때 줄을 나눌 자리: 문장부호 뒤(일본어 · 중국어) 또는 띄어쓰기(태국어 등) 중 가운데에 가장 가까운 곳.
+    CoreText 는 일본어 · 중국어를 글자 단위로 끊어 "集合 / 写真" 처럼 단어가 갈린다."""
+    mid = len(text) / 2
+    # 문장부호 뒤가 있으면 그것만 쓴다(베트남어 "băng / rôn" 처럼 낱말 가운데서 끊기지 않게)
+    cands = [i + 1 for i, ch in enumerate(text) if ch in BREAK_AFTER and 0 < i + 1 < len(text)]
+    if not cands and lang not in ("zh-Hans", "zh-Hant", "ja"):
+        cands = [i for i, ch in enumerate(text) if ch == " " and 0 < i < len(text)]
+    if not cands: return None
+    i = min(cands, key=lambda c: abs(c - mid))
+    return text[:i].rstrip() + "\n" + text[i:].lstrip()
+
+
+def ct_lines(lang, items):
+    """한 줄에 안 들어가면 자연스러운 자리에서 직접 나눠 다시 그린다. 문구에 \n 을 적으면 그대로 따른다."""
+    imgs = ct_render(lang, items)
+    redo = {}
+    for k, ((t, *rest), im) in enumerate(zip(items, imgs)):
+        if "\n" not in t and im.height > rest[-1] * 1.5:
+            b = balanced(t, lang)
+            if b: redo[k] = (b, *rest)
+    if redo:
+        again = ct_render(lang, list(redo.values()))
+        for k, im in zip(redo, again): imgs[k] = im
+    return imgs
+
+
 def font(size, bold):
     return ImageFont.truetype(FONT, size, index=6 if bold else 2)  # Bold / Regular faces in the collection
 
@@ -283,21 +356,32 @@ def wrap(draw, text, f, maxw):
     lines.append(cur)
     return lines
 
+import sys
+only = sys.argv[1:]
 for lang, caps in CAPTIONS.items():
-    os.makedirs(os.path.join(out, lang), exist_ok=True)
+    if only and lang not in only: continue
+    dest = os.path.join(out, STORE.get(lang, lang))
+    os.makedirs(dest, exist_ok=True)
     for name, source, title, sub in caps:
         src = os.path.join(raw, f"{lang}_{source}.png")
         if not os.path.exists(src): print("missing", src); continue
         canvas = Image.new("RGB", (W, H), (16, 16, 18))
         d = ImageDraw.Draw(canvas)
         d.rectangle([0, 0, W, 16], fill=(255, 214, 10))
-        tf, sf = font(86, True), font(48, False)
         y = 150
-        for line in wrap(d, title, tf, W - 160):
-            d.text((W / 2, y), line, font=tf, fill=(255, 214, 10), anchor="mt"); y += 104
-        y += 14
-        for line in wrap(d, sub, sf, W - 180):
-            d.text((W / 2, y), line, font=sf, fill=(225, 225, 230), anchor="mt"); y += 62
+        if lang in ("ko", "en"):
+            tf, sf = font(86, True), font(48, False)
+            for line in wrap(d, title, tf, W - 160):
+                d.text((W / 2, y), line, font=tf, fill=(255, 214, 10), anchor="mt"); y += 104
+            y += 14
+            for line in wrap(d, sub, sf, W - 180):
+                d.text((W / 2, y), line, font=sf, fill=(225, 225, 230), anchor="mt"); y += 62
+        else:
+            ti, si = ct_lines(lang, [(title, True, 86, "FFD60A", W - 160, 104),
+                                     (sub, False, 48, "E1E1E6", W - 180, 62)])
+            y -= 8  # Pillow 의 anchor="mt"(글자 윗선)와 CoreText 줄 상자의 차이
+            canvas.paste(ti, ((W - ti.width) // 2, y), ti); y += ti.height + 14
+            canvas.paste(si, ((W - si.width) // 2, y), si); y += si.height
         top = y + 50
         shot = Image.open(src).convert("RGB")
         maxh = H - top - 70
@@ -309,5 +393,5 @@ for lang, caps in CAPTIONS.items():
         x = (W - sw) // 2
         d.rounded_rectangle([x - 12, top - 12, x + sw + 12, top + sh + 12], radius=82, fill=(60, 60, 66))
         canvas.paste(shot, (x, top), mask)
-        canvas.save(os.path.join(out, lang, f"{name}.png"))
+        canvas.save(os.path.join(dest, f"{name}.png"))
 print("done →", out)

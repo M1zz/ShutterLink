@@ -22,8 +22,8 @@ RAW = ROOT / "docs" / "screenshots" / "raw"
 OUT = ROOT / "docs" / "screenshots" / "creative"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
-# 앱 언어 코드 → App Store Connect 로케일 (deploy.env LOCALES=ko,en-US,ja,en-GB,zh-Hans,zh-Hant,ru,es-ES,de-DE,fr-FR,it,pt-BR,th,vi,cs,da,el,fi,id,no,nl-NL,pl,sv,tr)
-STORE = {"en": "en-US", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "no", "nl": "nl-NL", "pl": "pl", "sv": "sv", "tr": "tr"}
+# 앱 언어 코드 → App Store Connect 로케일 (deploy.env LOCALES=ko,en-US,ja,en-GB,zh-Hans,zh-Hant,ru,es-ES,de-DE,fr-FR,it,pt-BR,th,vi,cs,da,el,fi,id,nb,nl-NL,pl,sv,tr)
+STORE = {"en": "en-US", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "nb", "nl": "nl-NL", "pl": "pl", "sv": "sv", "tr": "tr"}
 
 # (가로, 세로, 안전 영역 left, top, right, bottom)
 SPEC = {
@@ -36,27 +36,28 @@ SPEC = {
 SEARCH = {
     "ko": ("단체사진 현수막", "현수막 든 단체사진<br>현수막 없이", "바닥을 탭하면 모두의 앞에 현수막이 놓여요"),
     "en": ("Group photo banner", "The banner photo,<br>no printing", "Tap the ground and everyone's holding it"),
+    "en-GB": ("Group photo banner", "The banner photo,<br>no printing needed", "Tap the floor and everyone's holding it"),
     "ja": ("集合写真 横断幕", "横断幕なしで<br>横断幕の集合写真", "床をタップすると、みんなの前に横断幕が置かれます"),
     "zh-Hans": ("合影 横幅", "不用印横幅，<br>也能拍横幅合影", "点一下地面，横幅就出现在大家面前"),
     "zh-Hant": ("團體照 布條", "不用印布條，<br>也能拍布條團體照", "點一下地面，布條就出現在大家面前"),
-    "ru": ("Групповое фото с баннером", "Групповое фото<br>с баннером без печати", "Коснитесь пола — и баннер у всех в руках"),
-    "es": ("Pancarta foto de grupo", "La foto de grupo con<br>pancarta, sin imprimir", "Toca el suelo y todos la sujetan"),
-    "de": ("Gruppenfoto Banner", "Das Gruppenfoto mit Banner,<br>ohne Druck", "Tippe auf den Boden — alle halten es"),
-    "fr": ("Banderole photo de groupe", "La photo de groupe avec<br>banderole, sans impression", "Touchez le sol : tout le monde la tient"),
-    "it": ("Striscione foto di gruppo", "La foto di gruppo con<br>striscione, senza stampa", "Tocca il pavimento e tutti lo reggono"),
-    "pt-BR": ("Faixa foto em grupo", "A foto em grupo com faixa,<br>sem imprimir", "Toque no chão e todos seguram a faixa"),
+    "ru": ("Групповое фото с баннером", "Фото с баннером<br>без печати", "Коснитесь пола — и баннер у всех в руках"),
+    "es": ("Pancarta foto de grupo", "Foto con pancarta<br>sin imprimir", "Toca el suelo y todos la sujetan"),
+    "de": ("Gruppenfoto Banner", "Das Bannerfoto,<br>ganz ohne Druck", "Tippe auf den Boden — alle halten es"),
+    "fr": ("Banderole photo de groupe", "Photo banderole<br>sans impression", "Touchez le sol : tout le monde la tient"),
+    "it": ("Striscione foto di gruppo", "Lo striscione<br>senza stampare", "Tocca il pavimento e tutti lo reggono"),
+    "pt-BR": ("Faixa foto em grupo", "Foto com faixa,<br>sem imprimir", "Toque no chão e todos seguram a faixa"),
     "th": ("แบนเนอร์ ภาพหมู่", "ภาพหมู่ถือแบนเนอร์<br>ไม่ต้องสั่งพิมพ์", "แตะที่พื้น ทุกคนก็ถือแบนเนอร์"),
-    "vi": ("Băng rôn ảnh nhóm", "Ảnh nhóm có băng rôn,<br>không cần in", "Chạm vào sàn, ai cũng cầm băng rôn"),
-    "cs": ("Banner skupinová fotka", "Skupinová fotka s bannerem<br>bez tisku", "Klepněte na podlahu a všichni ho drží"),
-    "da": ("Banner gruppebillede", "Gruppebilledet med banner,<br>uden at printe", "Tryk på gulvet, så holder alle det"),
-    "el": ("Πανό ομαδική φωτογραφία", "Η ομαδική φωτογραφία με πανό<br>χωρίς εκτύπωση", "Πατήστε στο δάπεδο και όλοι το κρατούν"),
-    "fi": ("Banneri ryhmäkuva", "Ryhmäkuva bannerilla,<br>ilman painatusta", "Napauta lattiaa, niin kaikki pitelevät sitä"),
-    "id": ("Spanduk foto grup", "Foto grup bersama spanduk,<br>tanpa cetak", "Ketuk lantai, semua ikut memegangnya"),
-    "nb": ("Banner gruppebilde", "Gruppebildet med banner,<br>uten å skrive ut", "Trykk på gulvet, så holder alle det"),
-    "nl": ("Spandoek groepsfoto", "De groepsfoto met spandoek,<br>zonder te printen", "Tik op de vloer en iedereen houdt het vast"),
-    "pl": ("Baner zdjęcie grupowe", "Zdjęcie grupowe z banerem,<br>bez drukowania", "Dotknij podłogi i wszyscy go trzymają"),
-    "sv": ("Banderoll gruppbild", "Gruppbilden med banderoll,<br>utan att skriva ut", "Tryck på golvet så håller alla i den"),
-    "tr": ("Pankart grup fotoğrafı", "Pankartlı grup fotoğrafı,<br>baskı yok", "Zemine dokunun, herkes pankartı tutsun"),
+    "vi": ("Băng rôn ảnh nhóm", "Ảnh có băng rôn,<br>không cần in", "Chạm vào sàn, ai cũng cầm băng rôn"),
+    "cs": ("Banner skupinová fotka", "Fotka s bannerem<br>bez tisku", "Klepněte na podlahu a všichni ho drží"),
+    "da": ("Banner gruppebillede", "Bannerbillede<br>uden at printe", "Tryk på gulvet, så holder alle det"),
+    "el": ("Πανό ομαδική φωτογραφία", "Το πανό σας<br>χωρίς εκτύπωση", "Πατήστε στο δάπεδο και όλοι το κρατούν"),
+    "fi": ("Banneri ryhmäkuva", "Bannerikuva<br>ilman painatusta", "Napauta lattiaa, niin kaikki pitelevät sitä"),
+    "id": ("Spanduk foto grup", "Foto spanduk<br>tanpa cetak", "Ketuk lantai, semua ikut memegangnya"),
+    "nb": ("Banner gruppebilde", "Bannerbilde<br>uten utskrift", "Trykk på gulvet, så holder alle det"),
+    "nl": ("Spandoek groepsfoto", "Foto met spandoek<br>zonder printen", "Tik op de vloer en iedereen houdt het vast"),
+    "pl": ("Baner zdjęcie grupowe", "Zdjęcie z banerem<br>bez drukowania", "Dotknij podłogi i wszyscy go trzymają"),
+    "sv": ("Banderoll gruppbild", "Banderollbilden<br>utan utskrift", "Tryck på golvet så håller alla i den"),
+    "tr": ("Pankart grup fotoğrafı", "Pankartlı foto<br>baskı gerekmez", "Zemine dokunun, herkes pankartı tutsun"),
 }
 
 # 헤더는 한 가지 약속: 우리 모임 현수막을 들고 찍는 단체사진.
@@ -64,6 +65,7 @@ SEARCH = {
 HEADER = {
     "ko": ("현수막 단체사진", "우리 모임 현수막,<br>화면에 띄워 찰칵"),
     "en": ("Group photo banner", "Your banner,<br>in every group shot"),
+    "en-GB": ("Group photo banner", "Your banner,<br>in every group photo"),
     "ja": ("集合写真 横断幕", "みんなの横断幕を<br>そのまま写真に"),
     "zh-Hans": ("横幅合影", "把你们的横幅，<br>带进每张合影"),
     "zh-Hant": ("布條團體照", "把你們的布條，<br>帶進每張團體照"),
@@ -200,7 +202,12 @@ def chrome(args, log, done, timeout=300):
                 ok = True
                 break
             if proc.poll() is not None:
-                ok = done()
+                # Chrome 이 먼저 끝났다 — 결과가 다 써졌는지 몇 번 더 본다(크기 안정 확인)
+                for _ in range(4):
+                    if done():
+                        ok = True
+                        break
+                    time.sleep(0.5)
                 break
         try:
             os.killpg(proc.pid, signal.SIGKILL)
