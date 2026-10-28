@@ -1,4 +1,5 @@
 import SwiftUI
+import LeeoKit
 
 struct SettingsView: View {
     @ObservedObject var settings: AppSettings
@@ -51,6 +52,7 @@ struct SettingsView: View {
                     } label: {
                         Label("How to use ShutterLink", systemImage: "questionmark.circle")
                     }
+                    LeeoShareAppLink<ShutterLinkSpec>()
                     LabeledContent("Version", value: Bundle.main.appVersion)
                 }
             }
