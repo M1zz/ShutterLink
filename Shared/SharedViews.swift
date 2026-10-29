@@ -56,8 +56,10 @@ struct ZoomChips: View {
                         .foregroundStyle(isActive ? Color.yellow : Color.white)
                         .frame(minWidth: 44, minHeight: 36)
                         .background(Color.black.opacity(0.45), in: Capsule())
+                        .onIndicator(isActive)
                 }
                 .buttonStyle(.plain)
+                .accessibilityAddTraits(isActive ? .isSelected : [])
             }
         }
     }
@@ -150,6 +152,7 @@ struct SettingLabel: View {
             }
         }
         .foregroundStyle(isOn ? Color.yellow : Color.white)
+        .onIndicator(isOn)
         .frame(minWidth: 38, minHeight: 44)
         .padding(.horizontal, compactShowsTitle && isOn ? 4 : 0)
         .contentShape(Rectangle())
@@ -166,7 +169,32 @@ struct SettingLabel: View {
                 .minimumScaleFactor(0.6)
         }
         .foregroundStyle(isOn ? Color.yellow : Color.white)
+        .onIndicator(isOn)
         .frame(width: 50, height: 60)
+    }
+}
+
+/// "On" is shown in yellow. With Differentiate Without Color, a short bar underneath says it too.
+private struct OnIndicator: ViewModifier {
+    let isOn: Bool
+    @Environment(\.accessibilityDifferentiateWithoutColor) private var differentiateWithoutColor
+
+    func body(content: Content) -> some View {
+        content.overlay(alignment: .bottom) {
+            if isOn && differentiateWithoutColor {
+                Capsule()
+                    .fill(Color.yellow)
+                    .frame(width: 16, height: 3)
+                    .offset(y: 5)
+                    .accessibilityHidden(true)
+            }
+        }
+    }
+}
+
+extension View {
+    func onIndicator(_ isOn: Bool) -> some View {
+        modifier(OnIndicator(isOn: isOn))
     }
 }
 
@@ -181,6 +209,10 @@ struct SettingButton: View {
             SettingLabel(systemImage: systemImage, title: title, isOn: isOn)
         }
         .buttonStyle(.plain)
+        // The bar keeps its size; with large text, a long press shows the control enlarged.
+        .accessibilityShowsLargeContentViewer {
+            Label(title, systemImage: systemImage)
+        }
     }
 }
 

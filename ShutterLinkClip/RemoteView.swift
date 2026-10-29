@@ -22,13 +22,25 @@ private struct ConnectionView: View {
     @ObservedObject var remote: RemoteCentral
     @State private var manualCode = ""
     @FocusState private var codeFocused: Bool
+    /// The code field grows with Dynamic Type.
+    @ScaledMetric(relativeTo: .title) private var codeSize: CGFloat = 28
+    @Environment(\.dynamicTypeSize) private var dynamicTypeSize
 
     var body: some View {
+        // Scrolls only when large text no longer fits.
+        ViewThatFits(in: .vertical) {
+            content
+            ScrollView { content }
+        }
+    }
+
+    private var content: some View {
         VStack(spacing: 24) {
             Spacer()
             Image(systemName: "camera.aperture")
                 .font(.system(size: 56))
                 .foregroundStyle(.yellow)
+                .accessibilityHidden(true)
             Text("ShutterLink Remote")
                 .font(.title.bold())
 
@@ -64,13 +76,16 @@ private struct ConnectionView: View {
     }
 
     private var codeEntry: some View {
-        HStack(spacing: 12) {
+        // At accessibility text sizes the button goes under the field instead of off the screen.
+        let layout = dynamicTypeSize.isAccessibilitySize
+            ? AnyLayout(VStackLayout(spacing: 12)) : AnyLayout(HStackLayout(spacing: 12))
+        return layout {
             TextField("0000", text: $manualCode)
                 .keyboardType(.numberPad)
                 .textContentType(.oneTimeCode)
-                .font(.system(size: 28, weight: .bold, design: .monospaced))
+                .font(.system(size: codeSize, weight: .bold, design: .monospaced))
                 .multilineTextAlignment(.center)
-                .frame(width: 140, height: 52)
+                .frame(width: codeSize * 5, height: codeSize * 1.85)
                 .background(Color.white.opacity(0.1), in: RoundedRectangle(cornerRadius: 12))
                 .focused($codeFocused)
                 .onChange(of: manualCode) { _, newValue in

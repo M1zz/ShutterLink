@@ -36,6 +36,8 @@ private struct CameraScreen: View {
     @State private var showOptions = false
     @State private var showZoomPresets = false
     @State private var flash = false
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    @Environment(\.accessibilityDifferentiateWithoutColor) private var differentiateWithoutColor
 
     var body: some View {
         ZStack {
@@ -226,7 +228,7 @@ private struct CameraScreen: View {
                 .font(.system(size: 140, weight: .bold, design: .rounded))
                 .foregroundStyle(.white)
                 .shadow(radius: 10)
-                .transition(.scale)
+                .transition(reduceMotion ? .opacity : .scale)
                 .allowsHitTesting(false)
         }
     }
@@ -531,6 +533,7 @@ private struct CameraScreen: View {
             Text(title)
                 .font(.body.weight(.semibold))
                 .foregroundStyle(isSelected ? Color.yellow : Color.white)
+                .underline(isSelected && differentiateWithoutColor)
                 .lineLimit(1)
                 .fixedSize()
                 .padding(.vertical, 6)

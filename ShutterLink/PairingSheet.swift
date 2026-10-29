@@ -6,6 +6,8 @@ struct PairingSheet: View {
     let code: String
     @ObservedObject var remote: RemotePeripheral
     @Environment(\.dismiss) private var dismiss
+    /// The code grows with Dynamic Type.
+    @ScaledMetric(relativeTo: .largeTitle) private var codeSize: CGFloat = 44
 
     var body: some View {
         NavigationStack {
@@ -29,7 +31,7 @@ struct PairingSheet: View {
                             .font(.body)
                             .foregroundStyle(.secondary)
                         Text(code)
-                            .font(.system(size: 44, weight: .bold, design: .monospaced))
+                            .font(.system(size: codeSize, weight: .bold, design: .monospaced))
                             .tracking(8)
                     }
 
