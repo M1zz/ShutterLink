@@ -22,118 +22,141 @@
     {
       "code": "ko",
       "path": "",
-      "name": "한국어"
+      "name": "한국어",
+      "privacy": "privacy/"
     },
     {
       "code": "en",
       "path": "en/",
       "shots": "en-US",
-      "name": "English"
+      "name": "English",
+      "privacy": "privacy/"
     },
     {
       "code": "ja",
       "path": "ja/",
-      "name": "日本語"
+      "name": "日本語",
+      "privacy": "privacy/"
     },
     {
       "code": "zh-Hans",
       "path": "zh-Hans/",
-      "name": "简体中文"
+      "name": "简体中文",
+      "privacy": "privacy/"
     },
     {
       "code": "zh-Hant",
       "path": "zh-Hant/",
-      "name": "繁體中文"
+      "name": "繁體中文",
+      "privacy": "privacy/"
     },
     {
       "code": "ru",
       "path": "ru/",
-      "name": "Русский"
+      "name": "Русский",
+      "privacy": "privacy/"
     },
     {
       "code": "es",
       "path": "es/",
-      "name": "Español"
+      "name": "Español",
+      "privacy": "privacy/"
     },
     {
       "code": "de",
       "path": "de/",
-      "name": "Deutsch"
+      "name": "Deutsch",
+      "privacy": "privacy/"
     },
     {
       "code": "fr",
       "path": "fr/",
-      "name": "Français"
+      "name": "Français",
+      "privacy": "privacy/"
     },
     {
       "code": "it",
       "path": "it/",
-      "name": "Italiano"
+      "name": "Italiano",
+      "privacy": "privacy/"
     },
     {
       "code": "pt-BR",
       "path": "pt-BR/",
-      "name": "Português (Brasil)"
+      "name": "Português (Brasil)",
+      "privacy": "privacy/"
     },
     {
       "code": "th",
       "path": "th/",
-      "name": "ไทย"
+      "name": "ไทย",
+      "privacy": "privacy/"
     },
     {
       "code": "vi",
       "path": "vi/",
-      "name": "Tiếng Việt"
+      "name": "Tiếng Việt",
+      "privacy": "privacy/"
     },
     {
       "code": "cs",
       "path": "cs/",
-      "name": "Čeština"
+      "name": "Čeština",
+      "privacy": "privacy/"
     },
     {
       "code": "da",
       "path": "da/",
-      "name": "Dansk"
+      "name": "Dansk",
+      "privacy": "privacy/"
     },
     {
       "code": "el",
       "path": "el/",
-      "name": "Ελληνικά"
+      "name": "Ελληνικά",
+      "privacy": "privacy/"
     },
     {
       "code": "fi",
       "path": "fi/",
-      "name": "Suomi"
+      "name": "Suomi",
+      "privacy": "privacy/"
     },
     {
       "code": "id",
       "path": "id/",
-      "name": "Bahasa Indonesia"
+      "name": "Bahasa Indonesia",
+      "privacy": "privacy/"
     },
     {
       "code": "nb",
       "path": "nb/",
-      "name": "Norsk bokmål"
+      "name": "Norsk bokmål",
+      "privacy": "privacy/"
     },
     {
       "code": "nl",
       "path": "nl/",
-      "name": "Nederlands"
+      "name": "Nederlands",
+      "privacy": "privacy/"
     },
     {
       "code": "pl",
       "path": "pl/",
-      "name": "Polski"
+      "name": "Polski",
+      "privacy": "privacy/"
     },
     {
       "code": "sv",
       "path": "sv/",
-      "name": "Svenska"
+      "name": "Svenska",
+      "privacy": "privacy/"
     },
     {
       "code": "tr",
       "path": "tr/",
-      "name": "Türkçe"
+      "name": "Türkçe",
+      "privacy": "privacy/"
     }
   ]
 }
