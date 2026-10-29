@@ -1,5 +1,19 @@
 import AVKit
+import LeeoKit
 import SwiftUI
+
+/// 갤러리에 쌓인 장수가 이만큼일 때 응원을 부탁한다. 큰 것부터.
+enum ShutterLinkTipMoments {
+    static let shots = [500, 200, 50]
+
+    static func reached(shots total: Int) -> [LeeoTipMoment] {
+        shots.filter { total >= $0 }.map { threshold in
+            LeeoTipMoment(id: "shots.\(threshold)",
+                          message: String(localized: "Your gallery holds \(total) shots from ShutterLink",
+                                          comment: "Tip ask card: number of photos and videos kept in the ShutterLink gallery"))
+        }
+    }
+}
 
 /// Shots taken with ShutterLink. Bursts are grouped by their best frame; share sends files via AirDrop etc.
 struct GalleryView: View {
@@ -51,6 +65,13 @@ struct GalleryView: View {
                                            description: Text("Photos and videos you take with ShutterLink appear here."))
                 } else {
                     ScrollView {
+                        // 찍은 것을 보러 온 자리. 쌓인 장수가 숫자로 보일 때만, 드물게 응원을 부탁한다.
+                        if !selecting {
+                            LeeoTipAskSlot<ShutterLinkSpec>(tipJar: ShutterLinkSpec.tipJar,
+                                                            reached: ShutterLinkTipMoments.reached(shots: store.shots.count))
+                                .padding(.horizontal)
+                                .padding(.bottom, 12)
+                        }
                         LazyVGrid(columns: columns, spacing: 2) {
                             ForEach(visible) { shot in
                                 cell(for: shot)

@@ -53,6 +53,7 @@ struct SettingsView: View {
                         Label("How to use ShutterLink", systemImage: "questionmark.circle")
                     }
                     LeeoShareAppLink<ShutterLinkSpec>()
+                    LeeoTipJarLink<ShutterLinkSpec>(tipJar: ShutterLinkSpec.tipJar)
                     LabeledContent("Version", value: Bundle.main.appVersion)
                 }
             }

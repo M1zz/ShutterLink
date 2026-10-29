@@ -35,4 +35,9 @@ enum ShutterLinkSpec: LeeoAppSpec {
 
     /// 인앱 결제 없음.
     static let monetization = LeeoMonetization.free
+
+    /// 개발자 응원(팁). 소모성 세 가지, 작은 것부터. 기능을 열지 않는다 — 무료 앱이라 혼자 돈다(`startStandalone`).
+    @MainActor static let tipJar = LeeoTipJar(config: LeeoTipJarConfig(productIDs: [
+        "com.devkoan.shutterlink.tip.small", "com.devkoan.shutterlink.tip.medium", "com.devkoan.shutterlink.tip.large",
+    ]))
 }
