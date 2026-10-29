@@ -23,7 +23,7 @@ settings:
 packages:
   LeeoKit:
     url: https://github.com/M1zz/LeeoKit.git
-    majorVersion: 3.25.1
+    majorVersion: 3.26.0
 targets:
   ShutterLink:
     type: application
