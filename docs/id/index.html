@@ -1,123 +1,184 @@
 <!doctype html>
 <html lang="id">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ShutterLink</title>
-<meta name="description" content="Ambil foto grup di mana semua orang memegang spanduk, tanpa mencetak spanduk. Pilih tema, tulis teksnya, dan iPhone teman jadi remote tanpa perlu dipasang.">
-<link rel="icon" href="../icon.png">
-<link rel="apple-touch-icon" href="../icon.png">
-<link rel="canonical" href="https://m1zz.github.io/ShutterLink/id/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
-<link rel="stylesheet" href="../style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShutterLink: foto bareng pegang spanduk, tanpa spanduk</title>
+  <meta name="description" content="Tulis teksnya, pilih tema, dan spanduk muncul di depan seluruh rombongan. iPhone teman jadi remote cukup dengan satu QR. Semua fitur gratis.">
+  <meta name="theme-color" content="#996A00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=">
+  <link rel="canonical" href="https://m1zz.github.io/ShutterLink/id/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ShutterLink: foto bareng pegang spanduk, tanpa spanduk">
+  <meta property="og:description" content="Tulis teksnya, pilih tema, dan spanduk muncul di depan seluruh rombongan. iPhone teman jadi remote cukup dengan satu QR. Semua fitur gratis.">
+  <meta property="og:url" content="https://m1zz.github.io/ShutterLink/id/">
+  <meta property="og:image" content="https://m1zz.github.io/ShutterLink/img/id/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#996A00}@media (prefers-color-scheme:dark){:root{--accent:#FFCC00}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<nav class="nav">
-  <a class="brand" href="./"><img src="../icon.png" alt="">ShutterLink</a>
-  <a href="./" aria-current="page">Tentang</a>
-  <a href="support/">Dukungan</a>
-  <a href="privacy/">Kebijakan Privasi</a>
-  <a href="../" hreflang="ko" lang="ko">한국어</a>
-  <a href="../en/" hreflang="en" lang="en">English</a>
-  <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-  <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-  <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-  <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-  <a href="../es/" hreflang="es" lang="es">Español</a>
-  <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-  <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-  <a href="../it/" hreflang="it" lang="it">Italiano</a>
-  <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-  <a href="../th/" hreflang="th" lang="th">ไทย</a>
-  <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-  <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-  <a href="../da/" hreflang="da" lang="da">Dansk</a>
-  <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-  <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-  <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-  <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-  <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-  <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-  <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-</nav>
-<main>
-  <header class="hero">
-    <img src="../icon.png" alt="">
-    <h1>Foto grup dengan spanduk, tanpa cetak</h1>
-    <p class="lead">Tulis teks, pilih tema, dan spanduk muncul di depan grup Anda. Angkat telapak tangan atau pakai remote agar si pemotret ikut masuk foto.</p>
-    <span class="pair">Remote terbuka dengan sekali pindai QR, tanpa perlu dipasang</span>
+  <a class="skip" href="#main">Langsung ke konten</a>
+  <header class="bar">
+    <a class="brand" href="../id/"><img src="../icon.png" alt="" width="32" height="32">ShutterLink</a>
+    <a class="lang-link" href="#languages">Bahasa</a>
   </header>
 
-  <section class="panel steps">
-    <h2>Cara kerjanya</h2>
-    <ol>
-      <li>Buka ShutterLink di iPhone yang akan memotret, lalu taruh di tripod atau rak.</li>
-      <li>Pilih Spanduk di baris mode di atas tombol rana, lalu ketuk kuas di kanan atas untuk mengatur teks dan tema.</li>
-      <li>Ketuk lantai tempat grup akan berdiri, dan spanduk muncul setinggi orang memegangnya. Ketuk dinding untuk menggantungnya di sana.</li>
-      <li>Atur timer lalu angkat telapak tangan, atau tekan tombol rana di remote.</li>
-    </ol>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Foto bareng pegang spanduk,<br>tanpa cetak spanduk</h1>
+        <p class="lead">Tulis teksnya, pilih tema, dan spanduk langsung muncul di depan rombongan. iPhone teman jadi remote cukup dengan sekali pindai QR, jadi yang memotret pun ikut masuk foto.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id">Unduh gratis di App Store</a><a class="try" href="#try">Coba buat spanduk ↓</a></div>
+        <p class="muted small">Semua fitur gratis. Memerlukan iOS 17 atau versi lebih baru.</p>
+      </div>
+      <div class="phone"><img src="../img/id/banner.jpg" alt="Foto bareng pegang spanduk, tanpa cetak spanduk" width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <section class="panel">
-    <h2>Spanduk</h2>
-    <ul>
-      <li>13 tema, antara lain piknik musim gugur, piknik musim semi, pesta akhir tahun, ulang tahun, hari olahraga, wisuda, pernikahan, dan acara tim.</li>
-      <li>Ubah tiga baris teks, latar, font, dekorasi, warna, bentuk, dan logo.</li>
-      <li>Kain, vinil, atau kertas. Spanduk kain melorot, berkerut, dan berayun tertiup angin.</li>
-      <li>Seret ke atas, bawah, atau samping, putar atau ubah ukuran dengan dua jari, dan atur halus dengan tombol pindah.</li>
-    </ul>
-  </section>
 
-  <section class="panel">
-    <h2>Remote tanpa perlu dipasang</h2>
-    <ul>
-      <li>Ketuk tombol remote di kiri atas untuk menampilkan kode QR dan kode pemasangan 4 digit.</li>
-      <li>Arahkan Kamera iPhone lain ke kode QR. Remote ShutterLink langsung terbuka sebagai App Clip dan terhubung.</li>
-      <li>Remote menampilkan pratinjau langsung, termasuk spanduk di mode Spanduk.</li>
-      <li>Setiap foto juga masuk ke remote, jadi teman tanpa app bisa menyimpan dan membagikannya.</li>
-      <li>Kedua iPhone terhubung langsung lewat Bluetooth, jadi berfungsi tanpa Wi‑Fi atau data seluler.</li>
-    </ul>
-  </section>
+    <section class="reveal" id="try">
+      <h2>Coba buat spanduk</h2>
+      <p class="muted">Ubah teksnya lalu ketuk salah satu tema. Tekan tombol rana, dan seperti di app, hitungan mundur 3 detik berjalan sebelum memotret.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Coba buat spanduk&quot;, &quot;lead&quot;: &quot;Ubah teksnya lalu ketuk salah satu tema. Tekan tombol rana, dan seperti di app, hitungan mundur 3 detik berjalan sebelum memotret.&quot;, &quot;textLabel&quot;: &quot;Teks&quot;, &quot;fields&quot;: [&quot;Baris atas&quot;, &quot;Baris besar di tengah&quot;, &quot;Baris bawah&quot;], &quot;themeLabel&quot;: &quot;Tema&quot;, &quot;shutter&quot;: &quot;Potret dengan timer 3 detik&quot;, &quot;shot&quot;: &quot;Cekrek! Di app, foto ini tersimpan di Foto dan langsung terkirim ke iPhone yang jadi remote.&quot;, &quot;note&quot;: &quot;Di versi web ini, spanduk hanya ditempel di atas gambar. Di app, spanduk berdiri di lantai atau dinding sungguhan di layar kamera, dan spanduk kain berkibar tertiup angin.&quot;, &quot;lines&quot;: [&quot;Tim Kami 2026&quot;, &quot;Piknik musim gugur bersama&quot;, &quot;24–25 Okt 2026  Puncak, Bogor&quot;], &quot;themes&quot;: [&quot;Klasik&quot;, &quot;Piknik musim gugur&quot;, &quot;Bunga musim semi&quot;, &quot;Pantai musim panas&quot;, &quot;Musim dingin&quot;, &quot;Malam pesta&quot;, &quot;Pesta akhir tahun&quot;, &quot;Ulang tahun&quot;, &quot;Hari olahraga&quot;, &quot;Sorak&quot;, &quot;Wisuda&quot;, &quot;Pernikahan&quot;, &quot;Lokakarya perusahaan&quot;]}"></div>
+    </section>
 
-  <section class="panel">
-    <h2>Dibuat untuk foto grup</h2>
-    <ul>
-      <li>Angkat telapak tangan, tersenyum bersama, atau bertepuk tangan untuk memicu rana.</li>
-      <li>Timer 3 hingga 30 detik dengan hitung mundur suara, lampu kilat berkedip, dan getaran di remote.</li>
-      <li>Rangkaian 3 atau 5 foto menyimpan yang matanya terbuka semua.</li>
-      <li>Penghitung orang, peringatan saat ada yang di tepi, dan waterpas saat iPhone miring.</li>
-      <li>Ketuk untuk fokus dan eksposur, kompensasi eksposur, lampu kilat, kisi, zoom 0,5× hingga 10×, kamera depan dan belakang, video, dan pemotretan interval.</li>
-      <li>Foto dan video disimpan di app Foto pada iPhone yang mengambilnya.</li>
-    </ul>
-  </section>
+    <section class="problem reveal">
+      <h2>Pesan spanduk cuma demi satu foto?</h2>
+      <p>Pesan spanduk demi satu foto piknik, dibawa ke lokasi, lalu bingung mau disimpan di mana. Tidak ada yang bisa memotret, jadi selalu ada satu orang yang tidak ikut masuk foto. ShutterLink memunculkan spanduk di layar kamera dan mengubah iPhone teman jadi remote, supaya semua orang bisa masuk foto sambil pegang spanduk.</p>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Spanduk yang pas untuk acaramu dalam semenit</h2>
+        <p>Pilih dari 13 tema, seperti piknik musim gugur, bunga musim semi, pesta akhir tahun, ulang tahun, hari olahraga, wisuda, pernikahan, dan lokakarya perusahaan, lalu tulis sendiri hingga tiga baris teks.<br>Ganti latar, huruf, hiasan, warna, dan rasio, serta tambahkan logo. Pilih bahan kain, vinil, atau kertas. Spanduk kain akan melengkung, berkerut, dan berkibar tertiup angin seperti aslinya.</p>
+      </div>
+      <div class="phone"><img src="../img/id/bannerDesign.jpg" alt="Spanduk yang pas untuk acaramu dalam semenit" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Remote tanpa instal, cukup pindai QR</h2>
+        <p>Ketuk tombol remote di kiri atas, dan kode QR akan muncul. Teman tinggal memindainya dengan app Kamera bawaan, lalu ShutterLink Remote langsung terbuka sebagai App Clip dan tersambung.<br>Tampilan langsung di remote ikut menampilkan spanduk, jadi atur bingkai lalu tekan rana. Setiap foto langsung terkirim ke iPhone yang jadi remote, jadi teman tanpa app pun bisa menyimpan dan membagikannya saat itu juga.</p>
+      </div>
+      <div class="phone"><img src="../img/id/banner.jpg" alt="Remote tanpa instal, cukup pindai QR" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Mulai dalam tiga langkah</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Pasang iPhone</h3><p>Buka ShutterLink dan letakkan iPhone di tripod atau rak.</p></li>
+<li class="card"><span class="n">2</span><h3>Taruh spanduk</h3><p>Pilih Spanduk di bawah, atur teks dan tema dengan tombol kuas, lalu ketuk lantai tempat rombongan akan berdiri.</p></li>
+<li class="card"><span class="n">3</span><h3>Angkat telapak tangan</h3><p>Angkat telapak tangan atau tekan rana di remote. Timer menghitung mundur lalu memotret.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Fitur untuk foto bareng</h2>
+      <div class="card table">
+        <dl><div><dt>Gestur telapak tangan · rana tepuk tangan</dt><dd>Angkat telapak tangan terbuka ke arah kamera atau tepuk tangan keras sekali untuk memulai timer</dd></div><div><dt>Rana senyum</dt><dd>Memotret sendiri saat semua orang tersenyum dengan mata terbuka</dd></div><div><dt>Timer 3 · 5 · 10 · 20 · 30 detik</dt><dd>Ada suara hitungan mundur, lampu kilat berkedip seirama, dan remote bergetar di tangan</dd></div><div><dt>Minta semua orang melihat ke kamera</dt><dd>Ketuk, dan iPhone yang memotret akan bersuara memanggil semua orang agar melihat ke lensa</dd></div><div><dt>Foto beruntun 3 · 5</dt><dd>Memilihkan foto terbaik saat semua orang bermata terbuka. Bisa diganti dengan foto lain di galeri</dd></div><div><dt>Jumlah orang · tepi · waterpas</dt><dd>Menghitung orang dalam bingkai, memberi tahu bila ada yang di tepi, dan menampilkan waterpas saat ponsel miring</dd></div><div><dt>Interval 3 detik sampai 1 menit</dt><dd>Abadikan matahari terbenam atau proses pengerjaan secara berkala</dd></div><div><dt>Kontrol kamera</dt><dd>Ketuk untuk fokus dan eksposur, kompensasi eksposur, lampu kilat, kisi, zoom 0,5x hingga 10x tergantung model, kamera depan dan belakang, video</dd></div><div><dt>Mode sederhana</dt><dd>Remote hanya menampilkan satu tombol rana besar yang bisa ditekan siapa saja</dd></div><div><dt>Tombol volume · Kontrol Kamera</dt><dd>Potret langsung dari iPhone yang memotret, tanpa remote</dd></div></dl>
+      </div>
+      <p class="muted">Di mode Spanduk, lampu kilat, foto beruntun, zoom, dan kamera depan tidak bisa dipakai. Timer, rana telapak tangan, dan remote tetap berfungsi.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Semua fitur gratis</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Gratis</h3>
+          <ul><li>Mode Spanduk dengan 13 tema</li><li>Remote tanpa instal (App Clip)</li><li>Rana telapak tangan, tepuk tangan, senyum, dan timer</li><li>Foto terbaik, hitung orang, waterpas</li><li>Video dan foto interval</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Beri tip (opsional)</h3>
+          <ul><li>Kirim tip kecil, sedang, atau besar dari Pengaturan</li><li>Tip tidak membuka atau mengunci fitur apa pun</li></ul>
+          <p class="muted">Bukan langganan. Kamu hanya membayar sekali saat memberi tip.</p>
+        </div>
+      </div>
+      <p class="muted">Tanpa iklan dan tanpa akun.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Pertanyaan umum</h2>
+      <div class="faq"><details><summary>Apa saja yang dibutuhkan?</summary><p>Instal ShutterLink di iPhone yang dipakai memotret (iOS 17 atau lebih baru). iPhone yang jadi remote tidak perlu menginstal apa pun, hanya perlu internet saat pertama kali membuka App Clip. Nyalakan Bluetooth di keduanya dan letakkan berdekatan, biasanya dalam jarak 10 m.</p></details>
+<details><summary>Sudah pindai QR, tapi App Clip tidak terbuka.</summary><p>Pastikan iPhone yang jadi remote terhubung ke internet. Kamu juga bisa memasukkan kode 4 digit dari iPhone yang memotret di layar ShutterLink Remote lalu ketuk Hubungkan. Periksa juga bahwa App Clip tidak diblokir di Pengaturan › Durasi Layar › Pembatasan Konten &amp; Privasi.</p></details>
+<details><summary>Tertahan di "Mencari kamera…".</summary><p>ShutterLink harus terbuka di layar iPhone yang memotret. Pastikan Bluetooth menyala di Pengaturan › Bluetooth pada kedua iPhone. Kode berubah setiap kali app dibuka, jadi kalau kamu membukanya lagi, pakai QR atau kode yang baru lalu ketuk Coba lagi.</p></details>
+<details><summary>Muncul "Izin Bluetooth ditolak".</summary><p>Aktifkan ShutterLink di Pengaturan › Privasi &amp; Keamanan › Bluetooth. Remote berupa App Clip sehingga mungkin tidak ada di daftar. Kalau begitu, pindai QR lagi dan ketuk Izinkan saat diminta.</p></details>
+<details><summary>Tampilan langsung tersendat atau buram.</summary><p>Tampilan langsung sengaja diperkecil agar bisa dikirim lewat Bluetooth. Foto dan video asli tetap tersimpan dengan kualitas penuh iPhone yang memotret. Dinding, orang, atau jarak jauh bisa membuatnya tersendat, tetapi rana dan kontrol lain tetap berfungsi.</p></details>
+<details><summary>Di mana foto yang sudah diambil?</summary><p>Di app Foto pada iPhone yang memotret dan di galeri dalam app. Remote juga menerima salinan, tetapi tidak menyimpannya sendiri, jadi simpan atau bagikan sebelum menutup remote. Kalau tidak ada di Foto, izinkan ShutterLink di Pengaturan › Privasi &amp; Keamanan › Foto.</p></details>
+<details><summary>Video tidak ada suaranya.</summary><p>Aktifkan ShutterLink di Pengaturan › Privasi &amp; Keamanan › Mikrofon.</p></details>
+<details><summary>Bisa sambungkan beberapa remote?</summary><p>Bisa. Beberapa iPhone dapat tersambung bersamaan dengan QR atau kode yang sama, dan dari remote mana pun, yang memotret tetap kamera yang sama.</p></details>
+<details><summary>Sambungan putus saat memotret.</summary><p>ShutterLink menjaga layar tetap menyala selama app terbuka. Mengunci ponsel dengan tombol samping atau pindah ke app lain akan memutus sambungan, jadi biarkan app tetap tampil di layar selama memotret.</p></details>
+<details><summary>Apakah foto saya diunggah ke mana-mana?</summary><p>Tidak. Kedua iPhone tersambung langsung lewat Bluetooth, dan foto serta video hanya ada di iPhone yang memotret dan remote yang tersambung. Bisa dipakai di gunung atau pantai tanpa sinyal, dan tidak perlu akun.</p></details></div>
+      <p class="contact">Masih belum beres atau menemukan bug? Kirim email ke <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>. Sertakan model dan versi iOS kedua iPhone supaya bisa dicek lebih cepat.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Kumpul berikutnya,<br>semua pegang spanduk</h2>
+      <a class="cta" href="https://apps.apple.com/app/id">Unduh gratis di App Store</a>
+    </section>
+  </main>
 
   <footer>
-    <span><a href="support/">Dukungan</a></span><span><a href="privacy/">Kebijakan Privasi</a></span>
+    <nav id="languages" class="langs" aria-label="Bahasa"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id" aria-current="page">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Kebijakan Privasi</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 ShutterLink</p>
   </footer>
-</main>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

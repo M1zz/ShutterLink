@@ -1,0 +1,200 @@
+{
+  "title": "ShutterLink: la foto de grupo con pancarta, sin pancarta",
+  "description": "Escribe el texto, elige un tema y la pancarta aparece delante del grupo. El iPhone de un amigo se convierte en mando con un QR. Todo gratis.",
+  "hero": {
+    "headline": "La foto de grupo con pancarta.\nSin imprimir nada.",
+    "lead": "Escribe el texto, elige un tema y la pancarta aparece justo delante del grupo. El iPhone de un amigo se convierte en mando con un solo escaneo QR, así que quien hace la foto también sale en ella.",
+    "cta": "Descárgala gratis en el App Store",
+    "note": "Todas las funciones son gratis. Requiere iOS 17 o posterior."
+  },
+  "demo": {
+    "title": "Crea una pancarta",
+    "lead": "Cambia el texto y toca un tema. Pulsa el disparador y, como en la app, cuenta tres segundos antes de hacer la foto.",
+    "textLabel": "Texto",
+    "fields": [
+      "Línea superior",
+      "Línea grande central",
+      "Línea inferior"
+    ],
+    "themeLabel": "Tema",
+    "shutter": "Disparar con temporizador de 3 s",
+    "shot": "¡Clic! En la app, esta foto se guarda en Fotos y llega al instante al iPhone que hace de mando.",
+    "note": "Esta demo web coloca la pancarta sobre un dibujo. En la app se apoya en el suelo o la pared reales que ve la cámara, y la pancarta de tela ondea con la brisa.",
+    "lines": [
+      "Nuestro equipo 2026",
+      "Escapada de otoño juntos",
+      "24–25 oct 2026  Sierra de Guadarrama"
+    ],
+    "themes": [
+      "Clásico",
+      "Excursión de otoño",
+      "Flores de primavera",
+      "Playa de verano",
+      "Invierno",
+      "Noche de fiesta",
+      "Fiesta de fin de año",
+      "Cumpleaños",
+      "Día del deporte",
+      "Ánimo",
+      "Graduación",
+      "Boda",
+      "Taller de empresa"
+    ]
+  },
+  "problem": {
+    "title": "¿Encargar una pancarta para una sola foto?",
+    "text": "La encargas, la cargas hasta la excursión y luego nadie sabe dónde guardarla. Y como no queda nadie para hacer la foto, siempre hay alguien que se queda fuera. ShutterLink pone la pancarta en la imagen de la cámara y convierte el iPhone de un amigo en mando, para que todos salgáis en la foto con la pancarta."
+  },
+  "features": [
+    {
+      "title": "Una pancarta para tu evento en un minuto",
+      "text": "Elige entre 13 temas, como excursión de otoño, flores de primavera, fiesta de fin de año, cumpleaños, día del deporte, graduación, boda o taller de empresa, y escribe hasta tres líneas de texto propio.\nCambia el fondo, la tipografía, los adornos, los colores y la proporción, y añade tu logo. Elige tela, vinilo o papel: la pancarta de tela se comba, se arruga y ondea con la brisa como una de verdad.",
+      "shot": "bannerDesign"
+    },
+    {
+      "title": "Un mando sin instalar nada, con un QR",
+      "text": "Toca el botón del mando arriba a la izquierda y aparece un código QR. Tu amigo lo enfoca con la app Cámara y ShutterLink Remote se abre al momento como App Clip y se conecta.\nEn la vista en directo del mando se ve hasta la pancarta, así que encuadras y pulsas el disparador. Cada foto llega enseguida al iPhone que hace de mando, y un amigo sin la app puede guardarla y compartirla en el acto.",
+      "shot": "banner"
+    }
+  ],
+  "steps": {
+    "title": "Empieza en tres pasos",
+    "items": [
+      {
+        "title": "Coloca el iPhone",
+        "text": "Abre ShutterLink y ponlo en un trípode o una estantería."
+      },
+      {
+        "title": "Pon la pancarta",
+        "text": "Elige Pancarta abajo, toca el pincel para fijar el texto y el tema y toca el suelo donde se colocará el grupo."
+      },
+      {
+        "title": "Levanta la palma",
+        "text": "Levanta la palma o pulsa el disparador del mando. El temporizador cuenta y hace la foto."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Pensado para fotos de grupo",
+    "rows": [
+      [
+        "Gesto de palma · disparo por palmada",
+        "Levanta la palma abierta hacia la cámara o da una palmada fuerte para iniciar el temporizador"
+      ],
+      [
+        "Disparo por sonrisa",
+        "Dispara solo cuando todos sonríen con los ojos abiertos"
+      ],
+      [
+        "Temporizador de 3 · 5 · 10 · 20 · 30 s",
+        "Una voz cuenta atrás, el flash parpadea a la vez y el mando vibra en tu mano"
+      ],
+      [
+        "Pedir a todos que miren a la cámara",
+        "Al pulsarlo, el iPhone que hace la foto llama la atención del grupo en voz alta"
+      ],
+      [
+        "Ráfaga de 3 · 5 fotos",
+        "Elige la mejor foto en la que todos tienen los ojos abiertos. Puedes cambiarla por otra en la galería"
+      ],
+      [
+        "Personas · bordes · nivel",
+        "Cuenta cuántas personas hay en el encuadre, avisa si alguien queda en el borde y muestra un nivel si el móvil se inclina"
+      ],
+      [
+        "Intervalos de 3 s a 1 min",
+        "Captura una puesta de sol o el avance de un proyecto a intervalos regulares"
+      ],
+      [
+        "Control de la cámara",
+        "Enfoque y exposición con un toque, compensación de exposición, flash, cuadrícula, zoom de 0,5x hasta 10x según el modelo, cámara frontal y trasera, vídeo"
+      ],
+      [
+        "Modo sencillo",
+        "El mando muestra un único botón de disparo grande que cualquiera puede pulsar"
+      ],
+      [
+        "Botones de volumen · Control de Cámara",
+        "Dispara desde el propio iPhone, sin mando"
+      ]
+    ],
+    "note": "En el modo Pancarta no están disponibles el flash, las ráfagas, el zoom ni la cámara frontal. El temporizador, el disparo con la palma y el mando funcionan igual."
+  },
+  "pricing": {
+    "title": "Todas las funciones son gratis",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Modo Pancarta con 13 temas",
+        "Mando sin instalar nada (App Clip)",
+        "Disparo por palma, palmada y sonrisa, y temporizador",
+        "Mejor foto, recuento de personas y nivel",
+        "Vídeo y fotos a intervalos"
+      ]
+    },
+    "pro": {
+      "name": "Deja una propina (opcional)",
+      "items": [
+        "Envía una propina pequeña, mediana o grande desde Ajustes",
+        "Las propinas no desbloquean ni bloquean nada"
+      ],
+      "note": "No es una suscripción. Pagas una vez, solo cuando das propina."
+    },
+    "note": "Sin anuncios y sin cuenta."
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "q": "¿Qué necesito?",
+        "a": "Instala ShutterLink en el iPhone que hará las fotos (iOS 17 o posterior). El iPhone que hace de mando no necesita instalar nada, solo conexión a internet la primera vez que abre el App Clip. Mantén el Bluetooth activado en los dos y los móviles cerca, normalmente a menos de 10 m."
+      },
+      {
+        "q": "Escaneo el QR y el App Clip no se abre.",
+        "a": "Comprueba que el iPhone que hace de mando tiene conexión a internet. También puedes escribir en ShutterLink Remote el código de 4 cifras del iPhone que hace la foto y tocar Conectar. Revisa además que los App Clips no estén bloqueados en Ajustes › Tiempo de uso › Restricciones de contenido y privacidad."
+      },
+      {
+        "q": "Se queda en «Buscando la cámara…».",
+        "a": "ShutterLink tiene que estar abierto en la pantalla del iPhone que hace la foto. Comprueba que el Bluetooth está activado en Ajustes › Bluetooth en los dos móviles. El código cambia cada vez que abres la app, así que si la has vuelto a abrir, usa el QR o el código nuevos y toca Reintentar."
+      },
+      {
+        "q": "Aparece «Permiso de Bluetooth denegado».",
+        "a": "Activa ShutterLink en Ajustes › Privacidad y seguridad › Bluetooth. El mando es un App Clip y puede no aparecer en la lista; en ese caso, vuelve a escanear el QR y toca Permitir cuando te lo pida."
+      },
+      {
+        "q": "La vista en directo va a saltos o se ve borrosa.",
+        "a": "La vista en directo se reduce a propósito para viajar por Bluetooth. Las fotos y los vídeos se guardan con la calidad completa del iPhone que hace la foto. Paredes, personas o mucha distancia pueden provocar cortes, pero el disparador y los demás controles siguen funcionando."
+      },
+      {
+        "q": "¿Dónde están mis fotos?",
+        "a": "En Fotos del iPhone que hace la foto y en la galería de la app. El mando también recibe una copia, pero no la guarda solo, así que guárdala o compártela antes de cerrar el mando. Si no llega nada a Fotos, permite ShutterLink en Ajustes › Privacidad y seguridad › Fotos."
+      },
+      {
+        "q": "Mis vídeos no tienen sonido.",
+        "a": "Activa ShutterLink en Ajustes › Privacidad y seguridad › Micrófono."
+      },
+      {
+        "q": "¿Puedo conectar varios mandos?",
+        "a": "Sí. Varios iPhone pueden conectarse a la vez con el mismo QR o código, y cualquiera de ellos dispara la misma cámara."
+      },
+      {
+        "q": "Se corta la conexión mientras hago fotos.",
+        "a": "ShutterLink mantiene la pantalla encendida mientras está abierto. Si bloqueas el móvil con el botón lateral o cambias de app, la conexión se corta, así que deja la app en pantalla mientras haces fotos."
+      },
+      {
+        "q": "¿Se suben mis fotos a algún sitio?",
+        "a": "No. Los dos iPhone se conectan directamente por Bluetooth y las fotos y vídeos se quedan solo en el iPhone que hace la foto y en el mando conectado. Funciona en la montaña o en la playa sin cobertura, y no necesitas cuenta."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "En la próxima quedada,\ntodos con la pancarta",
+    "cta": "Descárgala gratis en el App Store"
+  },
+  "ui": {
+    "skip": "Saltar al contenido",
+    "languages": "Idioma",
+    "privacy": "Política de privacidad",
+    "contact": "¿Sigue sin funcionar o has encontrado un fallo? Escribe a {email}. Indica el modelo y la versión de iOS de los dos iPhone para revisarlo antes."
+  }
+}

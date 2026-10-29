@@ -1,123 +1,184 @@
 <!doctype html>
 <html lang="nl">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ShutterLink</title>
-<meta name="description" content="Maak de groepsfoto waarop iedereen een spandoek vasthoudt, zonder een spandoek te printen. Kies een thema, schrijf je tekst en de iPhone van een vriend wordt de afstandsbediening, zonder installatie.">
-<link rel="icon" href="../icon.png">
-<link rel="apple-touch-icon" href="../icon.png">
-<link rel="canonical" href="https://m1zz.github.io/ShutterLink/nl/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
-<link rel="stylesheet" href="../style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShutterLink: de groepsfoto met spandoek, zonder spandoek</title>
+  <meta name="description" content="Typ je tekst, kies een thema en het spandoek staat voor de groep. De iPhone van een vriend wordt met één QR-code een afstandsbediening. Gratis.">
+  <meta name="theme-color" content="#996A00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=">
+  <link rel="canonical" href="https://m1zz.github.io/ShutterLink/nl/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ShutterLink: de groepsfoto met spandoek, zonder spandoek">
+  <meta property="og:description" content="Typ je tekst, kies een thema en het spandoek staat voor de groep. De iPhone van een vriend wordt met één QR-code een afstandsbediening. Gratis.">
+  <meta property="og:url" content="https://m1zz.github.io/ShutterLink/nl/">
+  <meta property="og:image" content="https://m1zz.github.io/ShutterLink/img/nl/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#996A00}@media (prefers-color-scheme:dark){:root{--accent:#FFCC00}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<nav class="nav">
-  <a class="brand" href="./"><img src="../icon.png" alt="">ShutterLink</a>
-  <a href="./" aria-current="page">Over</a>
-  <a href="support/">Support</a>
-  <a href="privacy/">Privacybeleid</a>
-  <a href="../" hreflang="ko" lang="ko">한국어</a>
-  <a href="../en/" hreflang="en" lang="en">English</a>
-  <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-  <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-  <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-  <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-  <a href="../es/" hreflang="es" lang="es">Español</a>
-  <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-  <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-  <a href="../it/" hreflang="it" lang="it">Italiano</a>
-  <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-  <a href="../th/" hreflang="th" lang="th">ไทย</a>
-  <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-  <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-  <a href="../da/" hreflang="da" lang="da">Dansk</a>
-  <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-  <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-  <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-  <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-  <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-  <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-  <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-</nav>
-<main>
-  <header class="hero">
-    <img src="../icon.png" alt="">
-    <h1>De groepsfoto met spandoek, zonder printen</h1>
-    <p class="lead">Schrijf je tekst, kies een thema en het spandoek verschijnt voor je groep. Hef je handpalm of gebruik de afstandsbediening, zodat ook de fotograaf op de foto komt.</p>
-    <span class="pair">De afstandsbediening opent met één QR-scan, zonder installatie</span>
+  <a class="skip" href="#main">Naar de inhoud</a>
+  <header class="bar">
+    <a class="brand" href="../nl/"><img src="../icon.png" alt="" width="32" height="32">ShutterLink</a>
+    <a class="lang-link" href="#languages">Taal</a>
   </header>
 
-  <section class="panel steps">
-    <h2>Zo werkt het</h2>
-    <ol>
-      <li>Open ShutterLink op de iPhone waarmee je fotografeert en zet hem op een statief of plank.</li>
-      <li>Kies Spandoek in de modusbalk boven de ontspanner en tik rechtsboven op het penseel om je tekst en thema in te stellen.</li>
-      <li>Tik op de vloer waar je groep gaat staan en het spandoek verschijnt op de hoogte waarop mensen het zouden vasthouden. Tik op een muur om het daar op te hangen.</li>
-      <li>Stel de timer in en hef je handpalm, of druk op de ontspanner van de afstandsbediening.</li>
-    </ol>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>De groepsfoto met spandoek.<br>Zonder iets te laten drukken.</h1>
+        <p class="lead">Typ je tekst, kies een thema en het spandoek staat recht voor de groep. De iPhone van een vriend wordt met één QR-scan een afstandsbediening, dus ook wie de foto maakt staat erop.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id">Gratis downloaden in de App Store</a><a class="try" href="#try">Maak een spandoek ↓</a></div>
+        <p class="muted small">Alle functies zijn gratis. Vereist iOS 17 of nieuwer.</p>
+      </div>
+      <div class="phone"><img src="../img/nl/banner.jpg" alt="De groepsfoto met spandoek. Zonder iets te laten drukken." width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <section class="panel">
-    <h2>Het spandoek</h2>
-    <ul>
-      <li>13 thema’s, waaronder herfstuitje, lentepicknick, eindejaarsfeest, verjaardag, sportdag, diploma-uitreiking, bruiloft en teamuitje.</li>
-      <li>Pas de drie tekstregels, achtergrond, lettertype, versiering, kleuren, vorm en logo aan.</li>
-      <li>Stof, vinyl of papier. Een stoffen spandoek hangt door, vouwt en wappert in de bries.</li>
-      <li>Sleep het omhoog, omlaag of opzij, draai of schaal het met twee vingers en stel het fijn af met de verplaatsknop.</li>
-    </ul>
-  </section>
 
-  <section class="panel">
-    <h2>Een afstandsbediening zonder installatie</h2>
-    <ul>
-      <li>Tik linksboven op de afstandsbedieningsknop om een QR-code en een koppelcode van 4 cijfers te tonen.</li>
-      <li>Richt de camera van de andere iPhone op de QR-code. De ShutterLink-afstandsbediening opent meteen als App Clip en maakt verbinding.</li>
-      <li>De afstandsbediening toont een live voorvertoning, in de modus Spandoek inclusief het spandoek.</li>
-      <li>Elke foto komt ook op de afstandsbediening terecht, dus een vriend zonder de app kan hem bewaren en delen.</li>
-      <li>De twee iPhones verbinden rechtstreeks via Bluetooth, dus het werkt zonder wifi of mobiele data.</li>
-    </ul>
-  </section>
+    <section class="reveal" id="try">
+      <h2>Maak een spandoek</h2>
+      <p class="muted">Pas de tekst aan en tik op een thema. Druk op de sluiterknop en net als in de app telt hij drie seconden af.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Maak een spandoek&quot;, &quot;lead&quot;: &quot;Pas de tekst aan en tik op een thema. Druk op de sluiterknop en net als in de app telt hij drie seconden af.&quot;, &quot;textLabel&quot;: &quot;Tekst&quot;, &quot;fields&quot;: [&quot;Bovenste regel&quot;, &quot;Grote middelste regel&quot;, &quot;Onderste regel&quot;], &quot;themeLabel&quot;: &quot;Thema&quot;, &quot;shutter&quot;: &quot;Maak foto met 3-secondentimer&quot;, &quot;shot&quot;: &quot;Klik! In de app gaat deze foto naar Foto&#x27;s en meteen ook naar de iPhone met de afstandsbediening.&quot;, &quot;note&quot;: &quot;In deze webdemo ligt het spandoek over een tekening. In de app staat het op de echte grond of muur in het camerabeeld, en een stoffen spandoek wappert in de wind.&quot;, &quot;lines&quot;: [&quot;Ons team 2026&quot;, &quot;Samen op herfstuitje&quot;, &quot;24–25 okt 2026  Veluwe&quot;], &quot;themes&quot;: [&quot;Klassiek&quot;, &quot;Herfstuitje&quot;, &quot;Lentebloesem&quot;, &quot;Zomerstrand&quot;, &quot;Winter&quot;, &quot;Feestavond&quot;, &quot;Eindejaarsfeest&quot;, &quot;Verjaardag&quot;, &quot;Sportdag&quot;, &quot;Aanmoedigen&quot;, &quot;Diploma-uitreiking&quot;, &quot;Bruiloft&quot;, &quot;Bedrijfsworkshop&quot;]}"></div>
+    </section>
 
-  <section class="panel">
-    <h2>Gemaakt voor groepsfoto’s</h2>
-    <ul>
-      <li>Hef je handpalm, lach samen of klap om af te drukken.</li>
-      <li>Timers van 3 tot 30 seconden met gesproken aftelling, knipperende flits en trilling op de afstandsbediening.</li>
-      <li>Series van 3 of 5 foto’s bewaren die waarop iedereen de ogen open heeft.</li>
-      <li>Een personenteller, een waarschuwing als iemand aan de rand staat en een waterpas als de iPhone kantelt.</li>
-      <li>Tik om scherp te stellen en te belichten, belichtingscorrectie, flits, raster, zoom van 0,5× tot 10×, voor- en achtercamera, video en intervalopnamen.</li>
-      <li>Foto’s en video’s worden bewaard in de Foto’s-app van de iPhone die ze maakte.</li>
-    </ul>
-  </section>
+    <section class="problem reveal">
+      <h2>Een spandoek laten maken voor één foto?</h2>
+      <p>Je bestelt het, sjouwt het mee naar het uitje en daarna weet niemand waar het moet blijven. En omdat er niemand over is om de foto te maken, staat er altijd iemand niet op. ShutterLink zet het spandoek in het camerabeeld en maakt van de iPhone van een vriend een afstandsbediening, zodat iedereen met spandoek op de foto staat.</p>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Het juiste spandoek in een minuut</h2>
+        <p>Kies uit 13 thema's, zoals herfstuitje, lentebloesem, eindejaarsfeest, verjaardag, sportdag, diploma-uitreiking, bruiloft en bedrijfsworkshop, en schrijf tot drie regels eigen tekst.<br>Verander achtergrond, lettertype, versiering, kleuren en verhouding, en zet je logo erop. Kies stof, vinyl of papier: een stoffen spandoek hangt door, kreukt en wappert in de wind als een echte.</p>
+      </div>
+      <div class="phone"><img src="../img/nl/bannerDesign.jpg" alt="Het juiste spandoek in een minuut" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Afstandsbediening zonder installatie</h2>
+        <p>Tik linksboven op de afstandsbedieningsknop en er verschijnt een QR-code. Je vriend scant hem met de Camera-app, en ShutterLink Remote opent meteen als App Clip en maakt verbinding.<br>In het livebeeld op de afstandsbediening zie je zelfs het spandoek: kader de foto en druk af. Elke foto komt direct binnen op de iPhone met de afstandsbediening, zodat een vriend zonder de app hem ter plekke kan bewaren en delen.</p>
+      </div>
+      <div class="phone"><img src="../img/nl/banner.jpg" alt="Afstandsbediening zonder installatie" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>In drie stappen aan de slag</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Zet de iPhone neer</h3><p>Open ShutterLink en zet de iPhone op een statief of plank.</p></li>
+<li class="card"><span class="n">2</span><h3>Plaats het spandoek</h3><p>Kies onderaan Spandoek, stel met de penseelknop tekst en thema in en tik op de grond waar de groep gaat staan.</p></li>
+<li class="card"><span class="n">3</span><h3>Steek je hand op</h3><p>Steek je handpalm op of druk af op de afstandsbediening. De timer telt af en maakt de foto.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Gemaakt voor groepsfoto's</h2>
+      <div class="card table">
+        <dl><div><dt>Handpalmgebaar · klapontspanner</dt><dd>Steek je open hand naar de camera op of klap één keer hard om de timer te starten</dd></div><div><dt>Lachontspanner</dt><dd>Maakt vanzelf een foto als iedereen lacht met de ogen open</dd></div><div><dt>Timer 3 · 5 · 10 · 20 · 30 s</dt><dd>Een stem telt af, de flitser knippert mee en de afstandsbediening trilt in je hand</dd></div><div><dt>Vraag iedereen in de camera te kijken</dt><dd>Tik erop en de camera-iPhone roept iedereen hardop om in de lens te kijken</dd></div><div><dt>Serie van 3 · 5 foto's</dt><dd>Kiest de beste foto waarop iedereen de ogen open heeft. In de galerie kun je een andere kiezen</dd></div><div><dt>Personen · randen · waterpas</dt><dd>Telt de mensen in beeld, waarschuwt als iemand aan de rand staat en toont een waterpas als de iPhone scheef staat</dd></div><div><dt>Interval van 3 s tot 1 min</dt><dd>Leg een zonsondergang of de voortgang van een klus vast met vaste tussenpozen</dd></div><div><dt>Camerabediening</dt><dd>Scherpstellen en belichten met een tik, belichtingscorrectie, flitser, raster, zoom van 0,5x tot 10x afhankelijk van het model, voor- en achtercamera, video</dd></div><div><dt>Eenvoudige modus</dt><dd>De afstandsbediening toont alleen één grote sluiterknop die iedereen kan indrukken</dd></div><div><dt>Volumeknoppen · Camerabediening</dt><dd>Druk direct af op de camera-iPhone, zonder afstandsbediening</dd></div></dl>
+      </div>
+      <p class="muted">In de spandoekmodus zijn flitser, serieopnames, zoom en de voorcamera niet beschikbaar. Timer, handpalmontspanner en afstandsbediening werken gewoon.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Alle functies zijn gratis</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Gratis</h3>
+          <ul><li>Spandoekmodus met 13 thema's</li><li>Afstandsbediening zonder installatie (App Clip)</li><li>Afdrukken met handpalm, klappen en lachen, plus timer</li><li>Beste foto, personen tellen en waterpas</li><li>Video en intervalopnames</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Fooi geven (optioneel)</h3>
+          <ul><li>Stuur een kleine, middelgrote of grote fooi via Instellingen</li><li>Een fooi ontgrendelt of blokkeert niets</li></ul>
+          <p class="muted">Geen abonnement. Je betaalt één keer, alleen als je een fooi geeft.</p>
+        </div>
+      </div>
+      <p class="muted">Geen advertenties en geen account.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Veelgestelde vragen</h2>
+      <div class="faq"><details><summary>Wat heb ik nodig?</summary><p>Installeer ShutterLink op de iPhone die de foto maakt (iOS 17 of nieuwer). Op de iPhone met de afstandsbediening hoeft niets geïnstalleerd te worden, die heeft alleen de eerste keer dat de App Clip opent internet nodig. Houd Bluetooth op beide aan en de toestellen dicht bij elkaar, meestal binnen 10 m.</p></details>
+<details><summary>Ik scan de QR-code, maar de App Clip opent niet.</summary><p>Controleer of de iPhone met de afstandsbediening internet heeft. Je kunt ook de viercijferige code van de camera-iPhone invullen in ShutterLink Remote en op Verbind tikken. Kijk ook of App Clips niet geblokkeerd zijn in Instellingen › Schermtijd › Beperkingen voor content en privacy.</p></details>
+<details><summary>Hij blijft hangen op ‘Camera zoeken…’.</summary><p>ShutterLink moet open op het scherm van de camera-iPhone staan. Controleer op beide iPhones of Bluetooth aanstaat in Instellingen › Bluetooth. De code verandert telkens als de app opent; heb je hem opnieuw geopend, gebruik dan de nieuwe QR-code of code en tik op Probeer opnieuw.</p></details>
+<details><summary>Ik zie ‘Bluetooth-toegang geweigerd’.</summary><p>Zet ShutterLink aan in Instellingen › Privacy en beveiliging › Bluetooth. De afstandsbediening is een App Clip en staat er misschien niet tussen. Scan dan de QR-code opnieuw en tik op Sta toe als erom gevraagd wordt.</p></details>
+<details><summary>Het livebeeld hapert of is wazig.</summary><p>Het livebeeld is met opzet verkleind zodat het via Bluetooth kan. Foto's en video's worden in de volle kwaliteit van de camera-iPhone bewaard. Muren, mensen of afstand kunnen haperingen geven, maar de sluiterknop en de andere bediening blijven werken.</p></details>
+<details><summary>Waar komen mijn foto's terecht?</summary><p>In Foto's op de camera-iPhone en in de galerie van de app. De afstandsbediening krijgt ook een kopie, maar bewaart die niet vanzelf. Bewaar of deel hem dus voordat je de afstandsbediening sluit. Komt er niets in Foto's, sta ShutterLink dan toe in Instellingen › Privacy en beveiliging › Foto's.</p></details>
+<details><summary>Mijn video's hebben geen geluid.</summary><p>Zet ShutterLink aan in Instellingen › Privacy en beveiliging › Microfoon.</p></details>
+<details><summary>Kan ik meerdere afstandsbedieningen verbinden?</summary><p>Ja. Meerdere iPhones kunnen tegelijk verbinden met dezelfde QR-code of code, en elk ervan bedient dezelfde camera.</p></details>
+<details><summary>De verbinding valt weg tijdens het fotograferen.</summary><p>Zolang ShutterLink open is, blijft het scherm aan. Vergrendel je de iPhone met de zijknop of wissel je van app, dan valt de verbinding weg. Houd de app dus in beeld tijdens het fotograferen.</p></details>
+<details><summary>Worden mijn foto's ergens geüpload?</summary><p>Nee. De twee iPhones verbinden rechtstreeks via Bluetooth, en foto's en video's blijven alleen op de camera-iPhone en de verbonden afstandsbediening. Het werkt ook in de bergen of op het strand zonder bereik, en je hebt geen account nodig.</p></details></div>
+      <p class="contact">Nog niet opgelost of een fout gevonden? Mail naar <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>. Vermeld het model en de iOS-versie van beide iPhones, dan kunnen we sneller kijken.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Bij het volgende uitje<br>houdt iedereen het spandoek vast</h2>
+      <a class="cta" href="https://apps.apple.com/app/id">Gratis downloaden in de App Store</a>
+    </section>
+  </main>
 
   <footer>
-    <span><a href="support/">Support</a></span><span><a href="privacy/">Privacybeleid</a></span>
+    <nav id="languages" class="langs" aria-label="Taal"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl" aria-current="page">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Privacybeleid</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 ShutterLink</p>
   </footer>
-</main>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

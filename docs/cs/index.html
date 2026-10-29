@@ -1,123 +1,184 @@
 <!doctype html>
 <html lang="cs">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ShutterLink</title>
-<meta name="description" content="Pořiďte skupinovou fotku, na které všichni drží banner, bez tisku banneru. Vyberte motiv, napište text a iPhone kamaráda se stane ovladačem bez instalace.">
-<link rel="icon" href="../icon.png">
-<link rel="apple-touch-icon" href="../icon.png">
-<link rel="canonical" href="https://m1zz.github.io/ShutterLink/cs/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
-<link rel="stylesheet" href="../style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShutterLink: skupinová fotka s bannerem, bez banneru</title>
+  <meta name="description" content="Napište text, vyberte motiv a banner se objeví před celou skupinou. iPhone kamaráda se po naskenování QR kódu stane ovladačem. Vše zdarma.">
+  <meta name="theme-color" content="#996A00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=">
+  <link rel="canonical" href="https://m1zz.github.io/ShutterLink/cs/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ShutterLink: skupinová fotka s bannerem, bez banneru">
+  <meta property="og:description" content="Napište text, vyberte motiv a banner se objeví před celou skupinou. iPhone kamaráda se po naskenování QR kódu stane ovladačem. Vše zdarma.">
+  <meta property="og:url" content="https://m1zz.github.io/ShutterLink/cs/">
+  <meta property="og:image" content="https://m1zz.github.io/ShutterLink/img/cs/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#996A00}@media (prefers-color-scheme:dark){:root{--accent:#FFCC00}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<nav class="nav">
-  <a class="brand" href="./"><img src="../icon.png" alt="">ShutterLink</a>
-  <a href="./" aria-current="page">O aplikaci</a>
-  <a href="support/">Podpora</a>
-  <a href="privacy/">Zásady ochrany soukromí</a>
-  <a href="../" hreflang="ko" lang="ko">한국어</a>
-  <a href="../en/" hreflang="en" lang="en">English</a>
-  <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-  <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-  <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-  <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-  <a href="../es/" hreflang="es" lang="es">Español</a>
-  <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-  <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-  <a href="../it/" hreflang="it" lang="it">Italiano</a>
-  <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-  <a href="../th/" hreflang="th" lang="th">ไทย</a>
-  <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-  <a href="../da/" hreflang="da" lang="da">Dansk</a>
-  <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-  <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-  <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-  <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-  <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-  <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-  <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-  <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-</nav>
-<main>
-  <header class="hero">
-    <img src="../icon.png" alt="">
-    <h1>Skupinová fotka s bannerem bez tisku</h1>
-    <p class="lead">Napište text, vyberte motiv a banner se objeví před vaší skupinou. Zvedněte dlaň nebo použijte ovladač, aby byl na fotce i fotograf.</p>
-    <span class="pair">Ovladač se otevře jedním naskenováním QR kódu, bez instalace</span>
+  <a class="skip" href="#main">Přeskočit na obsah</a>
+  <header class="bar">
+    <a class="brand" href="../cs/"><img src="../icon.png" alt="" width="32" height="32">ShutterLink</a>
+    <a class="lang-link" href="#languages">Jazyk</a>
   </header>
 
-  <section class="panel steps">
-    <h2>Jak to funguje</h2>
-    <ol>
-      <li>Otevřete ShutterLink na iPhonu, který bude fotit, a postavte ho na stativ nebo polici.</li>
-      <li>V řadě režimů nad spouští zvolte Banner a klepnutím na štětec vpravo nahoře nastavte text a motiv.</li>
-      <li>Klepněte na podlahu, kde bude skupina stát, a banner se objeví ve výšce, v jaké by ho lidé drželi. Klepnutím na zeď ho tam pověsíte.</li>
-      <li>Nastavte časovač a zvedněte dlaň, nebo stiskněte spoušť na ovladači.</li>
-    </ol>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Skupinová fotka s bannerem.<br>Bez tisknutí banneru.</h1>
+        <p class="lead">Napište text, vyberte motiv a banner stojí přímo před skupinou. iPhone kamaráda se jedním naskenováním QR kódu změní v ovladač, takže na fotce je i ten, kdo fotí.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id">Stáhnout zdarma z App Storu</a><a class="try" href="#try">Vyrobte si banner ↓</a></div>
+        <p class="muted small">Všechny funkce jsou zdarma. Vyžaduje iOS 17 nebo novější.</p>
+      </div>
+      <div class="phone"><img src="../img/cs/banner.jpg" alt="Skupinová fotka s bannerem. Bez tisknutí banneru." width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <section class="panel">
-    <h2>Banner</h2>
-    <ul>
-      <li>13 motivů včetně podzimního výletu, jarního pikniku, silvestrovského večírku, narozenin, sportovního dne, promoce, svatby a firemního teambuildingu.</li>
-      <li>Měňte tři řádky textu, pozadí, písmo, dekorace, barvy, tvar i logo.</li>
-      <li>Látka, vinyl nebo papír. Látkový banner se prověšuje, mačká a vlaje ve vánku.</li>
-      <li>Přetahujte nahoru, dolů a do stran, dvěma prsty ho otáčejte nebo měňte jeho velikost a tlačítkem přesunu ho jemně dolaďte.</li>
-    </ul>
-  </section>
 
-  <section class="panel">
-    <h2>Ovladač bez instalace</h2>
-    <ul>
-      <li>Klepnutím na tlačítko ovladače vlevo nahoře zobrazíte QR kód a 4místný párovací kód.</li>
-      <li>Namiřte fotoaparát druhého iPhonu na QR kód. Ovladač ShutterLink se okamžitě otevře jako App Clip a připojí se.</li>
-      <li>Ovladač ukazuje živý náhled, v režimu Banner i s bannerem.</li>
-      <li>Každá fotka se objeví i na ovladači, takže ji kamarád bez aplikace může uložit a sdílet.</li>
-      <li>Oba iPhony se spojí přímo přes Bluetooth, takže to funguje i bez Wi‑Fi a mobilních dat.</li>
-    </ul>
-  </section>
+    <section class="reveal" id="try">
+      <h2>Vyrobte si banner</h2>
+      <p class="muted">Změňte text a klepněte na motiv. Po stisknutí spouště se stejně jako v aplikaci odpočítají 3 sekundy.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Vyrobte si banner&quot;, &quot;lead&quot;: &quot;Změňte text a klepněte na motiv. Po stisknutí spouště se stejně jako v aplikaci odpočítají 3 sekundy.&quot;, &quot;textLabel&quot;: &quot;Text&quot;, &quot;fields&quot;: [&quot;Horní řádek&quot;, &quot;Velký prostřední řádek&quot;, &quot;Spodní řádek&quot;], &quot;themeLabel&quot;: &quot;Motiv&quot;, &quot;shutter&quot;: &quot;Vyfotit se samospouští 3 s&quot;, &quot;shot&quot;: &quot;Cvak! V aplikaci se tahle fotka uloží do Fotek a hned dorazí i do iPhonu s ovladačem.&quot;, &quot;note&quot;: &quot;Webová ukázka jen položí banner na kresbu. V aplikaci stojí na skutečné zemi nebo zdi v záběru kamery a látkový banner se vlní ve větru.&quot;, &quot;lines&quot;: [&quot;Náš tým 2026&quot;, &quot;Společně na podzimní výlet&quot;, &quot;24.–25. 10. 2026  Krkonoše&quot;], &quot;themes&quot;: [&quot;Klasický&quot;, &quot;Podzimní výlet&quot;, &quot;Jarní květy&quot;, &quot;Letní pláž&quot;, &quot;Zima&quot;, &quot;Večírek&quot;, &quot;Silvestrovský večírek&quot;, &quot;Narozeniny&quot;, &quot;Sportovní den&quot;, &quot;Fandění&quot;, &quot;Promoce&quot;, &quot;Svatba&quot;, &quot;Firemní workshop&quot;]}"></div>
+    </section>
 
-  <section class="panel">
-    <h2>Stvořeno pro skupinové fotky</h2>
-    <ul>
-      <li>Zvedněte dlaň, usmějte se společně nebo tleskněte a spoušť se stiskne.</li>
-      <li>Časovače od 3 do 30 sekund s hlasovým odpočtem, blikajícím bleskem a vibrací ovladače.</li>
-      <li>Série 3 nebo 5 snímků zachová ten, na kterém mají všichni otevřené oči.</li>
-      <li>Počítadlo lidí, upozornění, když je někdo na okraji, a vodováha při naklonění iPhonu.</li>
-      <li>Klepnutím zaostříte a změříte expozici, korekce expozice, blesk, mřížka, přiblížení od 0,5× do 10×, přední i zadní fotoaparát, video a intervalové focení.</li>
-      <li>Fotky a videa se ukládají do aplikace Fotky na iPhonu, který je pořídil.</li>
-    </ul>
-  </section>
+    <section class="problem reveal">
+      <h2>Objednáváte banner kvůli jedné fotce?</h2>
+      <p>Objednáte ho, dotáhnete na výlet a pak nikdo neví, kam s ním. A protože nezbude nikdo, kdo by fotil, někdo vždycky chybí. ShutterLink postaví banner přímo do záběru a z iPhonu kamaráda udělá ovladač, aby na fotce s bannerem byli všichni.</p>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Banner pro vaši akci za minutu</h2>
+        <p>Vyberte si z 13 motivů, například podzimní výlet, jarní květy, silvestrovský večírek, narozeniny, sportovní den, promoce, svatba nebo firemní workshop, a napište až tři řádky vlastního textu.<br>Změňte pozadí, písmo, ozdoby, barvy a poměr stran a přidejte své logo. Vyberte látku, vinyl nebo papír: látkový banner se prověsí, zvrásní a vlní ve větru jako skutečný.</p>
+      </div>
+      <div class="phone"><img src="../img/cs/bannerDesign.jpg" alt="Banner pro vaši akci za minutu" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Ovladač bez instalace, stačí QR kód</h2>
+        <p>Klepněte na tlačítko ovladače vlevo nahoře a objeví se QR kód. Kamarád ho naskenuje běžným Fotoaparátem a ShutterLink Remote se hned otevře jako App Clip a připojí se.<br>V živém náhledu na ovladači je vidět i banner, takže stačí upravit záběr a stisknout spoušť. Každá fotka hned dorazí do iPhonu s ovladačem, takže ji kamarád bez aplikace může na místě uložit a sdílet.</p>
+      </div>
+      <div class="phone"><img src="../img/cs/banner.jpg" alt="Ovladač bez instalace, stačí QR kód" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Tři kroky a můžete fotit</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Postavte iPhone</h3><p>Otevřete ShutterLink a postavte telefon na stativ nebo poličku.</p></li>
+<li class="card"><span class="n">2</span><h3>Umístěte banner</h3><p>Dole vyberte Banner, štětcem nastavte text a motiv a klepněte na zem, kde bude skupina stát.</p></li>
+<li class="card"><span class="n">3</span><h3>Zvedněte dlaň</h3><p>Zvedněte dlaň nebo stiskněte spoušť na ovladači. Samospoušť odpočítá a vyfotí.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Stvořeno pro skupinové fotky</h2>
+      <div class="card table">
+        <dl><div><dt>Gesto dlaní · spoušť tleskáním</dt><dd>Zvedněte otevřenou dlaň k fotoaparátu nebo jednou hlasitě tleskněte a spustí se samospoušť</dd></div><div><dt>Spoušť úsměvem</dt><dd>Vyfotí sama, když se všichni usmívají s otevřenýma očima</dd></div><div><dt>Samospoušť 3 · 5 · 10 · 20 · 30 s</dt><dd>Hlas odpočítává, blesk bliká do rytmu a ovladač vám zavibruje v ruce</dd></div><div><dt>Požádat všechny, ať se dívají do objektivu</dt><dd>Klepněte a iPhone, který fotí, nahlas zavolá, ať se všichni podívají do objektivu</dd></div><div><dt>Série 3 · 5 snímků</dt><dd>Vybere nejlepší snímek, kde mají všichni otevřené oči. V galerii ho můžete vyměnit za jiný</dd></div><div><dt>Počet lidí · okraje · vodováha</dt><dd>Spočítá lidi v záběru, upozorní, když je někdo na okraji, a při naklonění ukáže vodováhu</dd></div><div><dt>Interval 3 s až 1 min</dt><dd>Zachyťte západ slunce nebo postup práce v pravidelných odstupech</dd></div><div><dt>Ovládání fotoaparátu</dt><dd>Ostření a expozice klepnutím, korekce expozice, blesk, mřížka, zoom od 0,5x až do 10x podle modelu, přední i zadní fotoaparát, video</dd></div><div><dt>Jednoduchý režim</dt><dd>Ovladač ukáže jen jedno velké tlačítko spouště, které zvládne každý</dd></div><div><dt>Tlačítka hlasitosti · Ovládání fotoaparátu</dt><dd>Foťte přímo na iPhonu s fotoaparátem, bez ovladače</dd></div></dl>
+      </div>
+      <p class="muted">V režimu banneru nejsou k dispozici blesk, sériové snímání, zoom ani přední fotoaparát. Samospoušť, spoušť dlaní i ovladač fungují normálně.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Všechny funkce jsou zdarma</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Zdarma</h3>
+          <ul><li>Režim banneru a 13 motivů</li><li>Ovladač bez instalace (App Clip)</li><li>Spoušť dlaní, tleskáním a úsměvem, samospoušť</li><li>Nejlepší snímek, počítání lidí, vodováha</li><li>Video a intervalové snímání</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Spropitné (dobrovolné)</h3>
+          <ul><li>V Nastavení můžete poslat malé, střední nebo velké spropitné</li><li>Spropitné nic neodemyká ani neomezuje</li></ul>
+          <p class="muted">Nejde o předplatné. Platíte jednou, jen když spropitné pošlete.</p>
+        </div>
+      </div>
+      <p class="muted">Bez reklam a bez registrace.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Časté dotazy</h2>
+      <div class="faq"><details><summary>Co potřebuji?</summary><p>Nainstalujte ShutterLink do iPhonu, který bude fotit (iOS 17 nebo novější). Na iPhone s ovladačem nic instalovat nemusíte, internet potřebuje jen při prvním otevření App Clipu. Na obou mějte zapnutý Bluetooth a telefony blízko sebe, obvykle do 10 m.</p></details>
+<details><summary>Naskenuji QR kód, ale App Clip se neotevře.</summary><p>Zkontrolujte, že je iPhone s ovladačem připojený k internetu. Můžete také v ShutterLink Remote zadat čtyřmístný kód z iPhonu s fotoaparátem a klepnout na Připojit. Ověřte i to, že App Clipy nejsou blokované v Nastavení › Čas u obrazovky › Omezení obsahu a soukromí.</p></details>
+<details><summary>Zasekne se na „Hledání fotoaparátu…“.</summary><p>ShutterLink musí být otevřený na obrazovce iPhonu, který fotí. Na obou telefonech zkontrolujte, že je Bluetooth zapnutý v Nastavení › Bluetooth. Kód se mění při každém otevření aplikace, takže pokud jste ji otevřeli znovu, použijte nový QR kód nebo kód a klepněte na Zkusit znovu.</p></details>
+<details><summary>Zobrazuje se „Přístup k Bluetooth zamítnut“.</summary><p>Zapněte ShutterLink v Nastavení › Soukromí a zabezpečení › Bluetooth. Ovladač je App Clip a v seznamu být nemusí. V tom případě znovu naskenujte QR kód a při dotazu klepněte na Povolit.</p></details>
+<details><summary>Živý náhled se seká nebo je rozmazaný.</summary><p>Živý náhled je záměrně zmenšený, aby prošel přes Bluetooth. Fotky a videa se ukládají v plné kvalitě iPhonu, který fotí. Zdi, lidé nebo velká vzdálenost můžou způsobit sekání, ale spoušť a ostatní ovládání fungují dál.</p></details>
+<details><summary>Kde najdu fotky?</summary><p>Ve Fotkách na iPhonu, který fotí, a v galerii aplikace. Ovladač dostane taky kopii, ale sám ji neuloží, proto ji uložte nebo sdílejte, než ovladač zavřete. Pokud se do Fotek nic neukládá, povolte ShutterLink v Nastavení › Soukromí a zabezpečení › Fotky.</p></details>
+<details><summary>Videa nemají zvuk.</summary><p>Zapněte ShutterLink v Nastavení › Soukromí a zabezpečení › Mikrofon.</p></details>
+<details><summary>Můžu připojit víc ovladačů?</summary><p>Ano. Několik iPhonů se může připojit najednou stejným QR kódem nebo kódem a kterýkoli z nich spouští tentýž fotoaparát.</p></details>
+<details><summary>Při focení se spojení přeruší.</summary><p>Dokud je ShutterLink otevřený, obrazovka sama nezhasne. Zamknutí telefonu bočním tlačítkem nebo přepnutí do jiné aplikace spojení přeruší, proto mějte aplikaci při focení na obrazovce.</p></details>
+<details><summary>Nahrávají se moje fotky někam?</summary><p>Ne. Oba iPhony se spojí přímo přes Bluetooth a fotky i videa zůstávají jen v iPhonu, který fotí, a v připojeném ovladači. Funguje to i na horách nebo na pláži bez signálu a nepotřebujete účet.</p></details></div>
+      <p class="contact">Nepomohlo to, nebo jste našli chybu? Napište na <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>. Uveďte modely a verze iOS obou iPhonů, ať to můžeme prověřit rychleji.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Na příštím srazu<br>drží banner všichni</h2>
+      <a class="cta" href="https://apps.apple.com/app/id">Stáhnout zdarma z App Storu</a>
+    </section>
+  </main>
 
   <footer>
-    <span><a href="support/">Podpora</a></span><span><a href="privacy/">Zásady ochrany soukromí</a></span>
+    <nav id="languages" class="langs" aria-label="Jazyk"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs" aria-current="page">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Zásady ochrany soukromí</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 ShutterLink</p>
   </footer>
-</main>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

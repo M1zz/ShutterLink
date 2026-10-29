@@ -1,123 +1,184 @@
 <!doctype html>
 <html lang="th">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ShutterLink</title>
-<meta name="description" content="ถ่ายภาพหมู่ที่ทุกคนถือแบนเนอร์ โดยไม่ต้องสั่งพิมพ์แบนเนอร์ เลือกธีมและพิมพ์ข้อความ แล้ว iPhone ของเพื่อนก็กลายเป็นรีโมตโดยไม่ต้องติดตั้ง">
-<link rel="icon" href="../icon.png">
-<link rel="apple-touch-icon" href="../icon.png">
-<link rel="canonical" href="https://m1zz.github.io/ShutterLink/th/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
-<link rel="stylesheet" href="../style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShutterLink: ถ่ายรูปหมู่ถือแบนเนอร์ โดยไม่ต้องมีแบนเนอร์จริง</title>
+  <meta name="description" content="พิมพ์ข้อความ เลือกธีม แล้วแบนเนอร์ในจอจะไปอยู่ตรงหน้าทุกคน iPhone ของเพื่อนกลายเป็นรีโมตได้แค่สแกน QR ไม่ต้องติดตั้ง ใช้ได้ฟรีทุกฟีเจอร์">
+  <meta name="theme-color" content="#996A00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=">
+  <link rel="canonical" href="https://m1zz.github.io/ShutterLink/th/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ShutterLink: ถ่ายรูปหมู่ถือแบนเนอร์ โดยไม่ต้องมีแบนเนอร์จริง">
+  <meta property="og:description" content="พิมพ์ข้อความ เลือกธีม แล้วแบนเนอร์ในจอจะไปอยู่ตรงหน้าทุกคน iPhone ของเพื่อนกลายเป็นรีโมตได้แค่สแกน QR ไม่ต้องติดตั้ง ใช้ได้ฟรีทุกฟีเจอร์">
+  <meta property="og:url" content="https://m1zz.github.io/ShutterLink/th/">
+  <meta property="og:image" content="https://m1zz.github.io/ShutterLink/img/th/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#996A00}@media (prefers-color-scheme:dark){:root{--accent:#FFCC00}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<nav class="nav">
-  <a class="brand" href="./"><img src="../icon.png" alt="">ShutterLink</a>
-  <a href="./" aria-current="page">เกี่ยวกับ</a>
-  <a href="support/">การสนับสนุน</a>
-  <a href="privacy/">นโยบายความเป็นส่วนตัว</a>
-  <a href="../" hreflang="ko" lang="ko">한국어</a>
-  <a href="../en/" hreflang="en" lang="en">English</a>
-  <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-  <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-  <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-  <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-  <a href="../es/" hreflang="es" lang="es">Español</a>
-  <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-  <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-  <a href="../it/" hreflang="it" lang="it">Italiano</a>
-  <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-  <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-  <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-  <a href="../da/" hreflang="da" lang="da">Dansk</a>
-  <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-  <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-  <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-  <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-  <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-  <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-  <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-  <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-</nav>
-<main>
-  <header class="hero">
-    <img src="../icon.png" alt="">
-    <h1>ภาพหมู่ถือแบนเนอร์ ไม่ต้องสั่งพิมพ์</h1>
-    <p class="lead">พิมพ์ข้อความ เลือกธีม แล้วแบนเนอร์จะปรากฏตรงหน้ากลุ่มของคุณ ยกฝ่ามือหรือใช้รีโมต เพื่อให้ช่างภาพได้เข้าเฟรมด้วย</p>
-    <span class="pair">รีโมตเปิดได้ด้วยการสแกน QR code ครั้งเดียว ไม่ต้องติดตั้งอะไร</span>
+  <a class="skip" href="#main">ข้ามไปยังเนื้อหา</a>
+  <header class="bar">
+    <a class="brand" href="../th/"><img src="../icon.png" alt="" width="32" height="32">ShutterLink</a>
+    <a class="lang-link" href="#languages">ภาษา</a>
   </header>
 
-  <section class="panel steps">
-    <h2>วิธีการทำงาน</h2>
-    <ol>
-      <li>เปิด ShutterLink บน iPhone ที่จะใช้ถ่ายภาพ แล้ววางบนขาตั้งกล้องหรือชั้นวาง</li>
-      <li>เลือก “แบนเนอร์” ในแถวโหมดเหนือปุ่มชัตเตอร์ แล้วแตะแปรงที่มุมขวาบนเพื่อตั้งข้อความและธีม</li>
-      <li>แตะที่พื้นตรงที่กลุ่มจะยืน แบนเนอร์จะปรากฏในระดับที่คนถือ แตะที่ผนังเพื่อแขวนไว้ที่ผนังแทน</li>
-      <li>ตั้งเวลาแล้วยกฝ่ามือ หรือกดชัตเตอร์บนรีโมต</li>
-    </ol>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>รูปหมู่ถือแบนเนอร์<br>ไม่ต้องสั่งทำแบนเนอร์</h1>
+        <p class="lead">พิมพ์ข้อความ เลือกธีม แล้วแบนเนอร์ในจอจะไปอยู่ตรงหน้าทุกคน iPhone ของเพื่อนกลายเป็นรีโมตได้ด้วยการสแกน QR ครั้งเดียว คนถ่ายเองก็ได้อยู่ในรูปด้วย</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id">ดาวน์โหลดฟรีบน App Store</a><a class="try" href="#try">ลองทำแบนเนอร์ดู ↓</a></div>
+        <p class="muted small">ใช้ได้ฟรีทุกฟีเจอร์ รองรับ iOS 17 ขึ้นไป</p>
+      </div>
+      <div class="phone"><img src="../img/th/banner.jpg" alt="รูปหมู่ถือแบนเนอร์ ไม่ต้องสั่งทำแบนเนอร์" width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <section class="panel">
-    <h2>แบนเนอร์</h2>
-    <ul>
-      <li>13 ธีม เช่น เที่ยวใบไม้ร่วง ปิกนิกฤดูใบไม้ผลิ งานเลี้ยงปีใหม่ วันเกิด วันกีฬาสี รับปริญญา งานแต่งงาน และทริปทีม</li>
-      <li>เปลี่ยนข้อความสามบรรทัด พื้นหลัง แบบอักษร ของตกแต่ง สี รูปทรง และโลโก้ได้</li>
-      <li>ผ้า ไวนิล หรือกระดาษ แบนเนอร์ผ้าจะหย่อน ยับ และพลิ้วไหวตามลม</li>
-      <li>ลากขึ้น ลง หรือไปด้านข้าง ใช้สองนิ้วหมุนหรือปรับขนาด และปรับละเอียดด้วยปุ่มย้าย</li>
-    </ul>
-  </section>
 
-  <section class="panel">
-    <h2>รีโมตที่ไม่ต้องติดตั้ง</h2>
-    <ul>
-      <li>แตะปุ่มรีโมตที่มุมซ้ายบนเพื่อแสดง QR code และรหัสจับคู่ 4 หลัก</li>
-      <li>ใช้กล้องของ iPhone อีกเครื่องสแกน QR code รีโมต ShutterLink จะเปิดเป็น App Clip ทันทีและเชื่อมต่อ</li>
-      <li>รีโมตแสดงภาพสดตลอด รวมถึงแบนเนอร์ในโหมดแบนเนอร์</li>
-      <li>ทุกภาพจะส่งไปที่รีโมตด้วย เพื่อนที่ไม่มีแอปก็บันทึกและแชร์ได้</li>
-      <li>iPhone ทั้งสองเครื่องเชื่อมต่อกันโดยตรงผ่าน Bluetooth จึงใช้ได้โดยไม่ต้องมี Wi‑Fi หรืออินเทอร์เน็ตมือถือ</li>
-    </ul>
-  </section>
+    <section class="reveal" id="try">
+      <h2>ลองทำแบนเนอร์ดู</h2>
+      <p class="muted">แก้ข้อความแล้วแตะเลือกธีม เมื่อกดชัตเตอร์ จะนับถอยหลัง 3 วินาทีแล้วถ่ายเหมือนในแอป</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;ลองทำแบนเนอร์ดู&quot;, &quot;lead&quot;: &quot;แก้ข้อความแล้วแตะเลือกธีม เมื่อกดชัตเตอร์ จะนับถอยหลัง 3 วินาทีแล้วถ่ายเหมือนในแอป&quot;, &quot;textLabel&quot;: &quot;ข้อความ&quot;, &quot;fields&quot;: [&quot;บรรทัดบน&quot;, &quot;บรรทัดกลางตัวใหญ่&quot;, &quot;บรรทัดล่าง&quot;], &quot;themeLabel&quot;: &quot;ธีม&quot;, &quot;shutter&quot;: &quot;ถ่ายด้วยตัวจับเวลา 3 วินาที&quot;, &quot;shot&quot;: &quot;แชะ! ในแอป รูปนี้จะบันทึกลงแอปรูปภาพ และส่งไปที่ iPhone ที่เป็นรีโมตทันที&quot;, &quot;note&quot;: &quot;เว็บนี้แค่วางแบนเนอร์ซ้อนบนภาพวาด ส่วนในแอป แบนเนอร์จะวางอยู่บนพื้นหรือผนังจริงในภาพจากกล้อง และแบนเนอร์ผ้าจะพลิ้วตามลม&quot;, &quot;lines&quot;: [&quot;ทีมของเรา 2026&quot;, &quot;เที่ยวใบไม้ร่วงด้วยกัน&quot;, &quot;24–25 ต.ค. 2026  เขาใหญ่&quot;], &quot;themes&quot;: [&quot;คลาสสิก&quot;, &quot;เที่ยวฤดูใบไม้ร่วง&quot;, &quot;ดอกไม้ฤดูใบไม้ผลิ&quot;, &quot;ชายหาดฤดูร้อน&quot;, &quot;ฤดูหนาว&quot;, &quot;ปาร์ตี้ยามค่ำ&quot;, &quot;งานเลี้ยงปีใหม่&quot;, &quot;วันเกิด&quot;, &quot;วันกีฬาสี&quot;, &quot;เชียร์&quot;, &quot;รับปริญญา&quot;, &quot;งานแต่งงาน&quot;, &quot;เวิร์กช็อปบริษัท&quot;]}"></div>
+    </section>
 
-  <section class="panel">
-    <h2>ออกแบบมาเพื่อภาพหมู่</h2>
-    <ul>
-      <li>ยกฝ่ามือ ยิ้มพร้อมกัน หรือปรบมือ เพื่อลั่นชัตเตอร์</li>
-      <li>ตั้งเวลา 3 ถึง 30 วินาที พร้อมนับถอยหลังด้วยเสียง แฟลชกะพริบ และรีโมตสั่น</li>
-      <li>ถ่ายต่อเนื่อง 3 หรือ 5 ภาพ เก็บภาพที่ทุกคนลืมตาไว้</li>
-      <li>ตัวนับจำนวนคน คำเตือนเมื่อมีคนอยู่ที่ขอบ และระดับน้ำเมื่อ iPhone เอียง</li>
-      <li>แตะเพื่อโฟกัสและวัดแสง ชดเชยแสง แฟลช เส้นตาราง ซูม 0.5× ถึง 10× กล้องหน้าและหลัง วิดีโอ และการถ่ายตามช่วงเวลา</li>
-      <li>ภาพถ่ายและวิดีโอจะบันทึกลงแอปรูปภาพบน iPhone ที่ถ่าย</li>
-    </ul>
-  </section>
+    <section class="problem reveal">
+      <h2>ต้องสั่งทำแบนเนอร์เพื่อรูปแค่ใบเดียวอยู่หรือเปล่า</h2>
+      <p>สั่งทำแบนเนอร์เพื่อถ่ายรูปทริปแค่ใบเดียว วันงานต้องขนไป เสร็จแล้วก็ไม่รู้จะเก็บไว้ไหน แถมไม่มีใครถ่ายให้ สุดท้ายก็ต้องมีสักคนหลุดเฟรม ShutterLink วางแบนเนอร์ไว้ในภาพจากกล้อง และเปลี่ยน iPhone ของเพื่อนเป็นรีโมต ทุกคนจึงได้อยู่ในรูปพร้อมแบนเนอร์</p>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>แบนเนอร์ที่เข้ากับงานของคุณ ทำเสร็จในนาทีเดียว</h2>
+        <p>เลือกจาก 13 ธีม เช่น เที่ยวฤดูใบไม้ร่วง ดอกไม้ฤดูใบไม้ผลิ งานเลี้ยงปีใหม่ วันเกิด วันกีฬาสี รับปริญญา งานแต่งงาน เวิร์กช็อปบริษัท แล้วพิมพ์ข้อความเองได้ 3 บรรทัด<br>เปลี่ยนพื้นหลัง ฟอนต์ ลวดลาย สี และสัดส่วนได้ ใส่โลโก้ก็ได้ วัสดุเลือกได้ทั้งผ้า ไวนิล และกระดาษ แบนเนอร์ผ้าจะหย่อน มีรอยยับ และพลิ้วตามลมเหมือนของจริง</p>
+      </div>
+      <div class="phone"><img src="../img/th/bannerDesign.jpg" alt="แบนเนอร์ที่เข้ากับงานของคุณ ทำเสร็จในนาทีเดียว" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>รีโมตไม่ต้องติดตั้ง แค่สแกน QR</h2>
+        <p>แตะปุ่มรีโมตที่มุมซ้ายบน จะมี QR โค้ดขึ้นมา เพื่อนแค่เปิดแอปกล้องปกติส่องไป ShutterLink Remote จะเปิดขึ้นเป็น App Clip และเชื่อมต่อทันที<br>ภาพสดบนรีโมตเห็นแบนเนอร์ด้วย จัดมุมเสร็จก็กดชัตเตอร์ได้เลย รูปที่ถ่ายจะส่งไปที่ iPhone ที่เป็นรีโมตทันที เพื่อนที่ไม่มีแอปก็บันทึกและแชร์ได้ตรงนั้นเลย</p>
+      </div>
+      <div class="phone"><img src="../img/th/banner.jpg" alt="รีโมตไม่ต้องติดตั้ง แค่สแกน QR" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>เริ่มได้ใน 3 ขั้นตอน</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>ตั้ง iPhone</h3><p>เปิด ShutterLink แล้ววางบนขาตั้งกล้องหรือชั้นวาง</p></li>
+<li class="card"><span class="n">2</span><h3>วางแบนเนอร์</h3><p>เลือกแบนเนอร์ที่ด้านล่าง แตะปุ่มพู่กันเพื่อตั้งข้อความและธีม แล้วแตะพื้นตรงที่ทุกคนจะยืน</p></li>
+<li class="card"><span class="n">3</span><h3>ยกฝ่ามือ</h3><p>ยกฝ่ามือหรือกดชัตเตอร์บนรีโมต ตัวจับเวลาจะนับถอยหลังแล้วถ่าย</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>ฟีเจอร์สำหรับรูปหมู่</h2>
+      <div class="card table">
+        <dl><div><dt>ท่าฝ่ามือ · ชัตเตอร์ปรบมือ</dt><dd>ยกฝ่ามือหันเข้ากล้อง หรือปรบมือดัง ๆ หนึ่งครั้ง ตัวจับเวลาจะเริ่มนับ</dd></div><div><dt>ชัตเตอร์ยิ้ม</dt><dd>ถ่ายเองเมื่อทุกคนลืมตาและยิ้ม</dd></div><div><dt>ตัวจับเวลา 3 · 5 · 10 · 20 · 30 วินาที</dt><dd>มีเสียงนับถอยหลัง แฟลชกะพริบตาม และรีโมตสั่นในมือ</dd></div><div><dt>ขอให้ทุกคนมองกล้อง</dt><dd>กดแล้ว iPhone ที่ถ่ายจะส่งเสียงเรียกให้ทุกคนหันมามองกล้อง</dd></div><div><dt>ถ่ายต่อเนื่อง 3 · 5 ภาพ</dt><dd>เลือกภาพที่ดีที่สุดที่ทุกคนลืมตาและยิ้มไว้ให้ เปลี่ยนเป็นภาพอื่นในแกลเลอรีได้</dd></div><div><dt>จำนวนคน · ขอบภาพ · ระดับน้ำ</dt><dd>นับคนในเฟรม เตือนเมื่อมีคนอยู่ชิดขอบ และแสดงระดับน้ำเมื่อเครื่องเอียง</dd></div><div><dt>ถ่ายเป็นช่วง 3 วินาทีถึง 1 นาที</dt><dd>เก็บภาพพระอาทิตย์ตกหรือขั้นตอนการทำงานเป็นระยะ</dd></div><div><dt>ควบคุมกล้อง</dt><dd>แตะเพื่อโฟกัสและวัดแสง ชดเชยแสง แฟลช เส้นตาราง ซูม 0.5 ถึง 10 เท่า (ขึ้นอยู่กับรุ่น) สลับกล้องหน้าหลัง และวิดีโอ</dd></div><div><dt>โหมดง่าย</dt><dd>รีโมตแสดงแค่ปุ่มชัตเตอร์ใหญ่ปุ่มเดียว ผู้สูงอายุก็กดได้ง่าย</dd></div><div><dt>ปุ่มเสียง · Camera Control</dt><dd>กดชัตเตอร์บน iPhone ที่ถ่ายได้เลยโดยไม่ต้องใช้รีโมต</dd></div></dl>
+      </div>
+      <p class="muted">ในโหมดแบนเนอร์ จะใช้แฟลช ถ่ายต่อเนื่อง ซูม และกล้องหน้าไม่ได้ ส่วนตัวจับเวลา ชัตเตอร์ฝ่ามือ และรีโมตยังใช้ได้ตามปกติ</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>ใช้ได้ฟรีทุกฟีเจอร์</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>ฟรี</h3>
+          <ul><li>โหมดแบนเนอร์และ 13 ธีม</li><li>รีโมตที่ไม่ต้องติดตั้ง (App Clip)</li><li>ชัตเตอร์ฝ่ามือ ปรบมือ ยิ้ม และตัวจับเวลา</li><li>ภาพที่ดีที่สุด นับจำนวนคน ระดับน้ำ</li><li>วิดีโอและการถ่ายเป็นช่วง</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>สนับสนุนนักพัฒนา (ไม่บังคับ)</h3>
+          <ul><li>ส่งทิปขนาดเล็ก กลาง หรือใหญ่ได้จากการตั้งค่า</li><li>ทิปไม่ได้ปลดล็อกหรือจำกัดฟีเจอร์ใด ๆ</li></ul>
+          <p class="muted">ไม่ใช่การสมัครสมาชิก จ่ายครั้งเดียวเฉพาะตอนที่ส่งทิป</p>
+        </div>
+      </div>
+      <p class="muted">ไม่มีโฆษณา และไม่ต้องสมัครบัญชี</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>คำถามที่พบบ่อย</h2>
+      <div class="faq"><details><summary>ต้องเตรียมอะไรบ้าง</summary><p>ติดตั้ง ShutterLink บน iPhone ที่ใช้ถ่าย (iOS 17 ขึ้นไป) ส่วน iPhone ที่เป็นรีโมตไม่ต้องติดตั้งอะไร แค่ต้องต่ออินเทอร์เน็ตตอนเปิด App Clip ครั้งแรก เปิด Bluetooth ทั้งสองเครื่องและวางไว้ใกล้กัน (ปกติไม่เกิน 10 เมตร)</p></details>
+<details><summary>สแกน QR แล้ว App Clip ไม่เปิด</summary><p>ตรวจดูว่า iPhone ที่เป็นรีโมตต่ออินเทอร์เน็ตอยู่ หรือจะพิมพ์รหัส 4 หลักที่แสดงบน iPhone ที่ถ่ายลงในหน้า ShutterLink Remote แล้วแตะ เชื่อมต่อ ก็ได้ และตรวจดูใน การตั้งค่า › เวลาหน้าจอ › การจำกัดเนื้อหาและความเป็นส่วนตัว ว่าไม่ได้บล็อก App Clip ไว้</p></details>
+<details><summary>ค้างอยู่ที่ "กำลังค้นหากล้อง…"</summary><p>ต้องเปิด ShutterLink ค้างไว้บนหน้าจอของ iPhone ที่ถ่าย ตรวจดูว่าเปิด Bluetooth ใน การตั้งค่า › Bluetooth ทั้งสองเครื่อง รหัสเชื่อมต่อจะเปลี่ยนทุกครั้งที่เปิดแอป ถ้าเพิ่งเปิดแอปใหม่ ให้ใช้ QR หรือรหัสใหม่ แล้วแตะ ลองอีกครั้ง</p></details>
+<details><summary>ขึ้นว่า "ไม่ได้รับอนุญาตใช้ Bluetooth"</summary><p>เปิด ShutterLink ใน การตั้งค่า › ความเป็นส่วนตัวและความปลอดภัย › Bluetooth ฝั่งรีโมตเป็น App Clip จึงอาจไม่อยู่ในรายการ ให้สแกน QR อีกครั้งแล้วแตะ อนุญาต เมื่อระบบถาม</p></details>
+<details><summary>ภาพสดกระตุกหรือไม่คมชัด</summary><p>ภาพสดถูกย่อขนาดไว้เพื่อส่งผ่าน Bluetooth ส่วนรูปและวิดีโอจริงจะบันทึกด้วยคุณภาพเต็มของ iPhone ที่ถ่าย ถ้ามีผนังหรือคนกั้น หรืออยู่ห่างกันมาก ภาพอาจกระตุก แต่ชัตเตอร์และการควบคุมอื่น ๆ ยังใช้ได้</p></details>
+<details><summary>รูปที่ถ่ายไปอยู่ที่ไหน</summary><p>อยู่ในแอปรูปภาพของ iPhone ที่ถ่าย และในแกลเลอรีของแอป iPhone ที่เป็นรีโมตจะได้รับสำเนาด้วย แต่จะไม่บันทึกเอง ให้บันทึกหรือแชร์ก่อนปิดรีโมต ถ้าไม่มีรูปในแอปรูปภาพ ให้อนุญาต ShutterLink ใน การตั้งค่า › ความเป็นส่วนตัวและความปลอดภัย › รูปภาพ</p></details>
+<details><summary>วิดีโอไม่มีเสียง</summary><p>เปิด ShutterLink ใน การตั้งค่า › ความเป็นส่วนตัวและความปลอดภัย › ไมโครโฟน</p></details>
+<details><summary>เชื่อมต่อรีโมตหลายเครื่องได้ไหม</summary><p>ได้ iPhone หลายเครื่องเชื่อมต่อพร้อมกันได้ด้วย QR หรือรหัสเดียวกัน กดจากเครื่องไหนก็ถ่ายด้วยกล้องตัวเดียวกัน</p></details>
+<details><summary>การเชื่อมต่อหลุดระหว่างถ่าย</summary><p>ShutterLink จะไม่ปล่อยให้หน้าจอดับเองระหว่างที่เปิดอยู่ ถ้ากดปุ่มด้านข้างล็อกเครื่องหรือสลับไปแอปอื่น การเชื่อมต่อจะหลุด ระหว่างถ่ายจึงควรเปิดแอปค้างไว้บนหน้าจอ</p></details>
+<details><summary>รูปถูกอัปโหลดไปที่ไหนหรือเปล่า</summary><p>ไม่ iPhone สองเครื่องเชื่อมต่อกันตรง ๆ ผ่าน Bluetooth รูปและวิดีโออยู่แค่ใน iPhone ที่ถ่ายและรีโมตที่เชื่อมต่อเท่านั้น ใช้ได้แม้บนภูเขาหรือชายทะเลที่ไม่มีสัญญาณ และไม่ต้องมีบัญชี</p></details></div>
+      <p class="contact">ยังแก้ไม่ได้หรือเจอบั๊ก ส่งอีเมลมาที่ <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> ได้เลย บอกรุ่นของ iPhone ทั้งสองเครื่องและเวอร์ชัน iOS มาด้วย จะช่วยให้ตรวจสอบได้เร็วขึ้น</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>รูปหมู่ครั้งหน้า<br>ทุกคนได้ถือแบนเนอร์</h2>
+      <a class="cta" href="https://apps.apple.com/app/id">ดาวน์โหลดฟรีบน App Store</a>
+    </section>
+  </main>
 
   <footer>
-    <span><a href="support/">การสนับสนุน</a></span><span><a href="privacy/">นโยบายความเป็นส่วนตัว</a></span>
+    <nav id="languages" class="langs" aria-label="ภาษา"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th" aria-current="page">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">นโยบายความเป็นส่วนตัว</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 ShutterLink</p>
   </footer>
-</main>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

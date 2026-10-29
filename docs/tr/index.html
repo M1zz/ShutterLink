@@ -1,123 +1,184 @@
 <!doctype html>
 <html lang="tr">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ShutterLink</title>
-<meta name="description" content="Pankart bastırmadan, herkesin pankart tuttuğu grup fotoğrafını çekin. Bir tema seçin, metninizi yazın; bir arkadaşınızın iPhone’u yüklemeden kumanda olsun.">
-<link rel="icon" href="../icon.png">
-<link rel="apple-touch-icon" href="../icon.png">
-<link rel="canonical" href="https://m1zz.github.io/ShutterLink/tr/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
-<link rel="stylesheet" href="../style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShutterLink: pankartlı grup fotoğrafı, pankart olmadan</title>
+  <meta name="description" content="Yazını yaz, bir tema seç, pankart tüm grubun önünde belirsin. Bir arkadaşının iPhone&#x27;u tek bir QR koduyla kumandaya dönüşür. Her şey ücretsiz.">
+  <meta name="theme-color" content="#996A00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=">
+  <link rel="canonical" href="https://m1zz.github.io/ShutterLink/tr/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ShutterLink: pankartlı grup fotoğrafı, pankart olmadan">
+  <meta property="og:description" content="Yazını yaz, bir tema seç, pankart tüm grubun önünde belirsin. Bir arkadaşının iPhone&#x27;u tek bir QR koduyla kumandaya dönüşür. Her şey ücretsiz.">
+  <meta property="og:url" content="https://m1zz.github.io/ShutterLink/tr/">
+  <meta property="og:image" content="https://m1zz.github.io/ShutterLink/img/tr/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#996A00}@media (prefers-color-scheme:dark){:root{--accent:#FFCC00}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<nav class="nav">
-  <a class="brand" href="./"><img src="../icon.png" alt="">ShutterLink</a>
-  <a href="./" aria-current="page">Hakkında</a>
-  <a href="support/">Destek</a>
-  <a href="privacy/">Gizlilik Politikası</a>
-  <a href="../" hreflang="ko" lang="ko">한국어</a>
-  <a href="../en/" hreflang="en" lang="en">English</a>
-  <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-  <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-  <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-  <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-  <a href="../es/" hreflang="es" lang="es">Español</a>
-  <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-  <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-  <a href="../it/" hreflang="it" lang="it">Italiano</a>
-  <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-  <a href="../th/" hreflang="th" lang="th">ไทย</a>
-  <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-  <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-  <a href="../da/" hreflang="da" lang="da">Dansk</a>
-  <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-  <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-  <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-  <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-  <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-  <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-  <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-</nav>
-<main>
-  <header class="hero">
-    <img src="../icon.png" alt="">
-    <h1>Pankartlı grup fotoğrafı, baskı yok</h1>
-    <p class="lead">Metninizi yazın, bir tema seçin; pankart grubunuzun önünde belirsin. Avucunuzu kaldırın veya kumandayı kullanın, böylece fotoğrafı çeken de kareye girsin.</p>
-    <span class="pair">Kumanda tek bir QR taramasıyla açılır, yükleme gerekmez</span>
+  <a class="skip" href="#main">İçeriğe geç</a>
+  <header class="bar">
+    <a class="brand" href="../tr/"><img src="../icon.png" alt="" width="32" height="32">ShutterLink</a>
+    <a class="lang-link" href="#languages">Dil</a>
   </header>
 
-  <section class="panel steps">
-    <h2>Nasıl çalışır</h2>
-    <ol>
-      <li>Fotoğrafı çekecek iPhone’da ShutterLink’i açın ve bir tripoda ya da rafa yerleştirin.</li>
-      <li>Deklanşörün üstündeki mod satırından Pankart’ı seçin, ardından metni ve temayı ayarlamak için sağ üstteki fırçaya dokunun.</li>
-      <li>Grubun duracağı zemine dokunun; pankart insanların tutacağı yükseklikte belirir. Duvara dokunarak oraya asın.</li>
-      <li>Zamanlayıcıyı ayarlayıp avucunuzu kaldırın veya kumandadaki deklanşöre basın.</li>
-    </ol>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Pankartlı grup fotoğrafı.<br>Pankart bastırmadan.</h1>
+        <p class="lead">Yazını yaz, bir tema seç, pankart grubun tam önünde dursun. Bir arkadaşının iPhone'u tek bir QR taramasıyla kumandaya dönüşür, böylece fotoğrafı çeken de karede olur.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id">App Store'dan ücretsiz indir</a><a class="try" href="#try">Bir pankart hazırla ↓</a></div>
+        <p class="muted small">Tüm özellikler ücretsiz. iOS 17 veya sonrası gerekir.</p>
+      </div>
+      <div class="phone"><img src="../img/tr/banner.jpg" alt="Pankartlı grup fotoğrafı. Pankart bastırmadan." width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <section class="panel">
-    <h2>Pankart</h2>
-    <ul>
-      <li>Sonbahar gezisi, bahar pikniği, yılbaşı partisi, doğum günü, spor günü, mezuniyet, düğün ve ekip gezisi gibi 13 tema.</li>
-      <li>Üç satırlık metni, arka planı, yazı tipini, süslemeyi, renkleri, şekli ve logoyu değiştirin.</li>
-      <li>Kumaş, vinil veya kâğıt. Kumaş pankart sarkar, kırışır ve rüzgârda dalgalanır.</li>
-      <li>Yukarı, aşağı veya yana sürükleyin, iki parmakla döndürün veya boyutlandırın, taşıma düğmesiyle ince ayar yapın.</li>
-    </ul>
-  </section>
 
-  <section class="panel">
-    <h2>Yüklemesiz kumanda</h2>
-    <ul>
-      <li>Bir QR kod ve 4 haneli eşleşme kodu göstermek için sol üstteki kumanda düğmesine dokunun.</li>
-      <li>Diğer iPhone’un kamerasını QR koda doğrultun. ShutterLink Kumanda hemen App Clip olarak açılır ve bağlanır.</li>
-      <li>Kumanda canlı önizleme gösterir; Pankart modunda pankart da görünür.</li>
-      <li>Her fotoğraf kumandaya da düşer; uygulaması olmayan bir arkadaş kaydedip paylaşabilir.</li>
-      <li>İki iPhone doğrudan Bluetooth ile bağlanır, bu yüzden Wi‑Fi veya mobil veri olmadan çalışır.</li>
-    </ul>
-  </section>
+    <section class="reveal" id="try">
+      <h2>Bir pankart hazırla</h2>
+      <p class="muted">Yazıyı değiştir ve bir temaya dokun. Deklanşöre bastığında, uygulamadaki gibi 3 saniye geri sayar ve çeker.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Bir pankart hazırla&quot;, &quot;lead&quot;: &quot;Yazıyı değiştir ve bir temaya dokun. Deklanşöre bastığında, uygulamadaki gibi 3 saniye geri sayar ve çeker.&quot;, &quot;textLabel&quot;: &quot;Yazı&quot;, &quot;fields&quot;: [&quot;Üst satır&quot;, &quot;Ortadaki büyük satır&quot;, &quot;Alt satır&quot;], &quot;themeLabel&quot;: &quot;Tema&quot;, &quot;shutter&quot;: &quot;3 saniyelik zamanlayıcıyla çek&quot;, &quot;shot&quot;: &quot;Klik! Uygulamada bu fotoğraf Fotoğraflar&#x27;a kaydedilir ve hemen kumanda olan iPhone&#x27;a da gider.&quot;, &quot;note&quot;: &quot;Bu web denemesinde pankart bir çizimin üzerine konuyor. Uygulamada ise kamera görüntüsündeki gerçek zemine ya da duvara yerleşir, kumaş pankart da rüzgârda dalgalanır.&quot;, &quot;lines&quot;: [&quot;Ekibimiz 2026&quot;, &quot;Birlikte sonbahar gezisi&quot;, &quot;24–25 Eki 2026  Abant Gölü&quot;], &quot;themes&quot;: [&quot;Klasik&quot;, &quot;Sonbahar gezisi&quot;, &quot;Bahar çiçekleri&quot;, &quot;Yaz plajı&quot;, &quot;Kış&quot;, &quot;Parti gecesi&quot;, &quot;Yılbaşı partisi&quot;, &quot;Doğum günü&quot;, &quot;Spor günü&quot;, &quot;Tezahürat&quot;, &quot;Mezuniyet&quot;, &quot;Düğün&quot;, &quot;Şirket çalıştayı&quot;]}"></div>
+    </section>
 
-  <section class="panel">
-    <h2>Grup fotoğrafları için tasarlandı</h2>
-    <ul>
-      <li>Deklanşörü tetiklemek için avucunuzu kaldırın, birlikte gülümseyin veya alkışlayın.</li>
-      <li>3 ila 30 saniyelik zamanlayıcılar; sesli geri sayım, yanıp sönen flaş ve kumandada titreşim.</li>
-      <li>3 veya 5 karelik seriler, herkesin gözlerinin açık olduğu kareyi tutar.</li>
-      <li>Kişi sayacı, biri kenardayken uyarı ve iPhone eğilince su terazisi.</li>
-      <li>Odak ve pozlama için dokunma, pozlama telafisi, flaş, ızgara, 0,5× ile 10× arası yakınlaştırma, ön ve arka kamera, video ve aralıklı çekim.</li>
-      <li>Fotoğraf ve videolar, onları çeken iPhone’daki Fotoğraflar uygulamasına kaydedilir.</li>
-    </ul>
-  </section>
+    <section class="problem reveal">
+      <h2>Tek bir fotoğraf için pankart mı bastırıyorsun?</h2>
+      <p>Sipariş edersin, geziye kadar taşırsın, sonra kimse nereye koyacağını bilemez. Fotoğrafı çekecek kimse kalmadığı için de birileri hep karenin dışında kalır. ShutterLink pankartı kamera görüntüsüne yerleştirir ve bir arkadaşının iPhone'unu kumandaya çevirir; böylece herkes pankartla birlikte fotoğrafta olur.</p>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Etkinliğine uygun pankart bir dakikada</h2>
+        <p>Sonbahar gezisi, bahar çiçekleri, yılbaşı partisi, doğum günü, spor günü, mezuniyet, düğün ve şirket çalıştayı gibi 13 temadan birini seç, ardından üç satıra kadar kendi yazını ekle.<br>Arka planı, yazı tipini, süsleri, renkleri ve oranı değiştir, logonu ekle. Kumaş, vinil ya da kâğıt seç: Kumaş pankart gerçeği gibi sarkar, kırışır ve rüzgârda dalgalanır.</p>
+      </div>
+      <div class="phone"><img src="../img/tr/bannerDesign.jpg" alt="Etkinliğine uygun pankart bir dakikada" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Kurulum gerektirmeyen kumanda</h2>
+        <p>Sol üstteki kumanda düğmesine dokun, bir QR kodu belirsin. Arkadaşın onu Kamera uygulamasıyla tarar ve ShutterLink Remote hemen App Clip olarak açılıp bağlanır.<br>Kumandadaki canlı görüntüde pankart bile görünür; kadrajı ayarla ve deklanşöre bas. Her fotoğraf anında kumanda olan iPhone'a gelir, böylece uygulaması olmayan bir arkadaşın da onu hemen kaydedip paylaşabilir.</p>
+      </div>
+      <div class="phone"><img src="../img/tr/banner.jpg" alt="Kurulum gerektirmeyen kumanda" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Üç adımda başla</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>iPhone'u yerleştir</h3><p>ShutterLink'i aç ve iPhone'u bir tripoda ya da rafa koy.</p></li>
+<li class="card"><span class="n">2</span><h3>Pankartı yerleştir</h3><p>Alttan Pankart'ı seç, fırça düğmesiyle yazıyı ve temayı belirle, sonra grubun duracağı zemine dokun.</p></li>
+<li class="card"><span class="n">3</span><h3>Elini kaldır</h3><p>Avucunu kaldır ya da kumandadaki deklanşöre bas. Zamanlayıcı geri sayar ve çeker.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Grup fotoğrafları için</h2>
+      <div class="card table">
+        <dl><div><dt>Avuç içi hareketi · alkış deklanşörü</dt><dd>Açık avucunu kameraya doğru kaldır ya da bir kez yüksek sesle alkışla, zamanlayıcı başlasın</dd></div><div><dt>Gülümseme deklanşörü</dt><dd>Herkes gözleri açık gülümsediğinde kendiliğinden çeker</dd></div><div><dt>Zamanlayıcı 3 · 5 · 10 · 20 · 30 sn</dt><dd>Bir ses geri sayar, flaş birlikte yanıp söner ve kumanda elinde titrer</dd></div><div><dt>Herkesten kameraya bakmasını iste</dt><dd>Dokunduğunda çekim yapan iPhone sesli seslenerek herkesin objektife bakmasını sağlar</dd></div><div><dt>3 · 5 kareli seri çekim</dt><dd>Herkesin gözünün açık olduğu en iyi kareyi seçer. Galeride başka bir kareyle değiştirebilirsin</dd></div><div><dt>Kişi sayısı · kenarlar · su terazisi</dt><dd>Karedeki kişileri sayar, biri kenarda kalınca uyarır, telefon eğilince su terazisi gösterir</dd></div><div><dt>3 sn ile 1 dk arası aralıklı çekim</dt><dd>Gün batımını ya da bir işin ilerleyişini düzenli aralıklarla kaydet</dd></div><div><dt>Kamera kontrolleri</dt><dd>Dokunarak odak ve pozlama, pozlama telafisi, flaş, ızgara, modele göre 0,5x'ten 10x'e kadar zum, ön ve arka kamera, video</dd></div><div><dt>Basit mod</dt><dd>Kumandada yalnızca herkesin rahatça basabileceği büyük bir deklanşör düğmesi görünür</dd></div><div><dt>Ses düğmeleri · Kamera Denetimi</dt><dd>Kumanda olmadan doğrudan çekim yapan iPhone'dan çek</dd></div></dl>
+      </div>
+      <p class="muted">Pankart modunda flaş, seri çekim, zum ve ön kamera kullanılamaz. Zamanlayıcı, avuç içi deklanşörü ve kumanda her zamanki gibi çalışır.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Tüm özellikler ücretsiz</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Ücretsiz</h3>
+          <ul><li>Pankart modu ve 13 tema</li><li>Kurulum gerektirmeyen kumanda (App Clip)</li><li>Avuç, alkış ve gülümseme deklanşörü, zamanlayıcı</li><li>En iyi kare, kişi sayma ve su terazisi</li><li>Video ve aralıklı çekim</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Bahşiş bırak (isteğe bağlı)</h3>
+          <ul><li>Ayarlar'dan küçük, orta veya büyük bahşiş gönderebilirsin</li><li>Bahşiş hiçbir özelliği açmaz ya da kısıtlamaz</li></ul>
+          <p class="muted">Abonelik değildir. Yalnızca bahşiş verdiğinde bir kez ödersin.</p>
+        </div>
+      </div>
+      <p class="muted">Reklam yok, hesap açmak gerekmez.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Sık sorulan sorular</h2>
+      <div class="faq"><details><summary>Neye ihtiyacım var?</summary><p>ShutterLink'i fotoğraf çekecek iPhone'a yükle (iOS 17 veya sonrası). Kumanda olacak iPhone'a bir şey yüklemen gerekmez, yalnızca App Clip'i ilk açarken internet gerekir. İki telefonda da Bluetooth'u açık tut ve onları yakın tut, genellikle 10 m içinde.</p></details>
+<details><summary>QR'ı tarıyorum ama App Clip açılmıyor.</summary><p>Kumanda olan iPhone'un internete bağlı olduğundan emin ol. Dilersen ShutterLink Remote'a çekim yapan iPhone'daki 4 haneli kodu girip Bağlan'a da dokunabilirsin. Ayrıca App Clip'lerin Ayarlar › Ekran Süresi › İçerik ve Gizlilik Sınırlamaları'nda engellenmediğini kontrol et.</p></details>
+<details><summary>"Kamera aranıyor…" ekranında takılıyor.</summary><p>ShutterLink, çekim yapan iPhone'un ekranında açık olmalı. İki telefonda da Ayarlar › Bluetooth'tan Bluetooth'un açık olduğunu kontrol et. Kod, uygulama her açıldığında değişir; uygulamayı yeniden açtıysan yeni QR'ı ya da kodu kullan ve Tekrar dene'ye dokun.</p></details>
+<details><summary>"Bluetooth izni reddedildi" yazıyor.</summary><p>Ayarlar › Gizlilik ve Güvenlik › Bluetooth'tan ShutterLink'i aç. Kumanda bir App Clip olduğu için listede görünmeyebilir. Bu durumda QR'ı yeniden tara ve sorulduğunda İzin Ver'e dokun.</p></details>
+<details><summary>Canlı görüntü takılıyor veya bulanık.</summary><p>Canlı görüntü, Bluetooth üzerinden gidebilmesi için bilerek küçültülür. Fotoğraflar ve videolar çekim yapan iPhone'un tam kalitesinde kaydedilir. Duvarlar, insanlar ya da mesafe takılmaya yol açabilir, ama deklanşör ve diğer kontroller çalışmaya devam eder.</p></details>
+<details><summary>Fotoğraflarım nereye gidiyor?</summary><p>Çekim yapan iPhone'daki Fotoğraflar'a ve uygulamanın galerisine. Kumandaya da bir kopya gelir ama kendiliğinden kaydedilmez; kumandayı kapatmadan önce kaydet ya da paylaş. Fotoğraflar'a bir şey gelmiyorsa Ayarlar › Gizlilik ve Güvenlik › Fotoğraflar'dan ShutterLink'e izin ver.</p></details>
+<details><summary>Videolarımda ses yok.</summary><p>Ayarlar › Gizlilik ve Güvenlik › Mikrofon'dan ShutterLink'i aç.</p></details>
+<details><summary>Birden fazla kumanda bağlayabilir miyim?</summary><p>Evet. Birkaç iPhone aynı QR ya da kodla aynı anda bağlanabilir ve hangisinden basarsan bas aynı kamera çeker.</p></details>
+<details><summary>Çekim sırasında bağlantı kopuyor.</summary><p>ShutterLink açıkken ekranın kendiliğinden kapanmasını engeller. Yan düğmeyle telefonu kilitlersen ya da başka uygulamaya geçersen bağlantı kopar; bu yüzden çekim boyunca uygulamayı ekranda tut.</p></details>
+<details><summary>Fotoğraflarım bir yere yükleniyor mu?</summary><p>Hayır. İki iPhone doğrudan Bluetooth ile bağlanır; fotoğraflar ve videolar yalnızca çekim yapan iPhone'da ve bağlı kumandada kalır. Çekmeyen dağda ya da sahilde de çalışır, hesap da gerekmez.</p></details></div>
+      <p class="contact">Hâlâ çözülmedi mi ya da bir hata mı buldun? <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> adresine yaz. İki iPhone'un modelini ve iOS sürümünü de eklersen daha hızlı bakabiliriz.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Bir sonraki buluşmada<br>pankartı herkes tutsun</h2>
+      <a class="cta" href="https://apps.apple.com/app/id">App Store'dan ücretsiz indir</a>
+    </section>
+  </main>
 
   <footer>
-    <span><a href="support/">Destek</a></span><span><a href="privacy/">Gizlilik Politikası</a></span>
+    <nav id="languages" class="langs" aria-label="Dil"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr" aria-current="page">Türkçe</a></nav>
+    <p><a href="privacy.html">Gizlilik Politikası</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 ShutterLink</p>
   </footer>
-</main>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

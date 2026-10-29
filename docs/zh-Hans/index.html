@@ -1,123 +1,184 @@
 <!doctype html>
 <html lang="zh-Hans">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ShutterLink</title>
-<meta name="description" content="不用印横幅，也能拍出大家一起举着横幅的合影。选个主题、写上文字，朋友的 iPhone 无需安装就能当遥控器。">
-<link rel="icon" href="../icon.png">
-<link rel="apple-touch-icon" href="../icon.png">
-<link rel="canonical" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
-<link rel="stylesheet" href="../style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShutterLink：举横幅的合影，不用真横幅</title>
+  <meta name="description" content="写好文字、选个主题，画面里的横幅就会出现在大家面前。朋友的 iPhone 扫一下二维码就能当遥控器，无需安装。所有功能免费。">
+  <meta name="theme-color" content="#996A00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=">
+  <link rel="canonical" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ShutterLink：举横幅的合影，不用真横幅">
+  <meta property="og:description" content="写好文字、选个主题，画面里的横幅就会出现在大家面前。朋友的 iPhone 扫一下二维码就能当遥控器，无需安装。所有功能免费。">
+  <meta property="og:url" content="https://m1zz.github.io/ShutterLink/zh-Hans/">
+  <meta property="og:image" content="https://m1zz.github.io/ShutterLink/img/zh-Hans/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#996A00}@media (prefers-color-scheme:dark){:root{--accent:#FFCC00}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<nav class="nav">
-  <a class="brand" href="./"><img src="../icon.png" alt="">ShutterLink</a>
-  <a href="./" aria-current="page">关于</a>
-  <a href="support/">支持</a>
-  <a href="privacy/">隐私政策</a>
-  <a href="../" hreflang="ko" lang="ko">한국어</a>
-  <a href="../en/" hreflang="en" lang="en">English</a>
-  <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-  <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-  <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-  <a href="../es/" hreflang="es" lang="es">Español</a>
-  <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-  <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-  <a href="../it/" hreflang="it" lang="it">Italiano</a>
-  <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-  <a href="../th/" hreflang="th" lang="th">ไทย</a>
-  <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-  <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-  <a href="../da/" hreflang="da" lang="da">Dansk</a>
-  <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-  <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-  <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-  <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-  <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-  <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-  <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-  <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-</nav>
-<main>
-  <header class="hero">
-    <img src="../icon.png" alt="">
-    <h1>不用印横幅的横幅合影</h1>
-    <p class="lead">写上文字、选个主题，横幅就会出现在大家面前。举起手掌或用遥控器按快门，拍照的人也能一起入镜。</p>
-    <span class="pair">遥控器只需扫一下二维码，无需安装即可打开</span>
+  <a class="skip" href="#main">跳到正文</a>
+  <header class="bar">
+    <a class="brand" href="../zh-Hans/"><img src="../icon.png" alt="" width="32" height="32">ShutterLink</a>
+    <a class="lang-link" href="#languages">语言</a>
   </header>
 
-  <section class="panel steps">
-    <h2>使用方法</h2>
-    <ol>
-      <li>打开负责拍摄的 iPhone 上的 ShutterLink，把它固定在三脚架或架子上。</li>
-      <li>在快门上方的模式栏选择“横幅”，再点右上角的画笔，设置文字和主题。</li>
-      <li>点一下大家要站的地面，横幅就会出现在人们举起的高度。点一下墙壁，则会挂到墙上。</li>
-      <li>设置定时并举起手掌，或在遥控器上按下快门。</li>
-    </ol>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>举横幅的合影，<br>不用真横幅</h1>
+        <p class="lead">写好文字、选个主题，画面里的横幅就会稳稳出现在大家面前。朋友的 iPhone 扫一下二维码就成了遥控器，拍照的人也能一起入镜。</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id">在 App Store 免费下载</a><a class="try" href="#try">动手做一条横幅 ↓</a></div>
+        <p class="muted small">所有功能免费。支持 iOS 17 及以上版本。</p>
+      </div>
+      <div class="phone"><img src="../img/zh-Hans/banner.jpg" alt="举横幅的合影， 不用真横幅" width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <section class="panel">
-    <h2>横幅</h2>
-    <ul>
-      <li>13 种主题，包括秋游、春日野餐、年会、生日、运动会、毕业、婚礼和团队出游等。</li>
-      <li>三行文字、背景、字体、装饰、颜色、形状和标志都可以自由修改。</li>
-      <li>布料、喷绘布或纸张任选。布料横幅会下垂、起皱，还会随风飘动。</li>
-      <li>可上下左右拖动，用两根手指旋转或缩放，还能用移动按钮微调。</li>
-    </ul>
-  </section>
 
-  <section class="panel">
-    <h2>无需安装的遥控器</h2>
-    <ul>
-      <li>点左上角的遥控器按钮，显示二维码和 4 位配对码。</li>
-      <li>用另一台 iPhone 的相机对准二维码，ShutterLink 遥控器会作为 App Clip 立即打开并连接。</li>
-      <li>遥控器会显示实时预览，横幅模式下连横幅也能看到。</li>
-      <li>每张照片也会传到遥控器上，没有装 App 的朋友也能保存和分享。</li>
-      <li>两台 iPhone 通过蓝牙直接连接，没有 Wi‑Fi 或蜂窝网络也能使用。</li>
-    </ul>
-  </section>
+    <section class="reveal" id="try">
+      <h2>动手做一条横幅</h2>
+      <p class="muted">改改文字，点一个主题试试。按下快门后，会像 App 里一样倒数 3 秒再拍。</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;动手做一条横幅&quot;, &quot;lead&quot;: &quot;改改文字，点一个主题试试。按下快门后，会像 App 里一样倒数 3 秒再拍。&quot;, &quot;textLabel&quot;: &quot;文字&quot;, &quot;fields&quot;: [&quot;上行&quot;, &quot;中间大字&quot;, &quot;下行&quot;], &quot;themeLabel&quot;: &quot;主题&quot;, &quot;shutter&quot;: &quot;用 3 秒定时拍摄&quot;, &quot;shot&quot;: &quot;咔嚓！在 App 里，这张照片会存进“照片”，同时马上发到遥控 iPhone 上。&quot;, &quot;note&quot;: &quot;网页体验是把横幅叠在插画上。在 App 里，横幅会放在相机画面中真实的地面或墙上，布质横幅还会随风飘动。&quot;, &quot;lines&quot;: [&quot;我们的团队 2026&quot;, &quot;一起去秋游&quot;, &quot;2026 年 10 月 24–25 日  杭州西湖&quot;], &quot;themes&quot;: [&quot;经典&quot;, &quot;秋季郊游&quot;, &quot;春日花开&quot;, &quot;夏日海滩&quot;, &quot;冬日&quot;, &quot;派对之夜&quot;, &quot;年会&quot;, &quot;生日&quot;, &quot;运动会&quot;, &quot;加油&quot;, &quot;毕业&quot;, &quot;婚礼&quot;, &quot;公司研讨会&quot;]}"></div>
+    </section>
 
-  <section class="panel">
-    <h2>专为合影而生</h2>
-    <ul>
-      <li>举起手掌、一起微笑或拍手，即可触发快门。</li>
-      <li>可设 3 到 30 秒的定时，伴有语音倒计时、闪烁的闪光灯，遥控器还会震动提醒。</li>
-      <li>连拍 3 张或 5 张，自动留下所有人都睁眼的那一张。</li>
-      <li>人数统计、有人在画面边缘时的提醒，以及 iPhone 倾斜时的水平仪。</li>
-      <li>点按对焦与曝光、曝光补偿、闪光灯、网格、0.5 倍到 10 倍变焦、前后摄像头、视频和定时连拍。</li>
-      <li>照片和视频会存入拍摄用 iPhone 的“照片”App。</li>
-    </ul>
-  </section>
+    <section class="problem reveal">
+      <h2>为了一张合影，还在专门定做横幅？</h2>
+      <p>为了郊游的一张合影去定做横幅，当天还得带过去，用完又不知道放哪儿。没人帮忙拍，总有一个人进不了照片。ShutterLink 把横幅放进相机画面，再把朋友的 iPhone 变成遥控器，让每个人都能举着横幅出现在照片里。</p>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>一分钟做好适合这次聚会的横幅</h2>
+        <p>从秋季郊游、春日花开、年会、生日、运动会、毕业、婚礼、公司研讨会等 13 个主题中挑一个，再亲手写三行文字。<br>背景、字体、装饰、颜色和比例都能改，还能放上 Logo 图片。材质可选布料、喷绘布和纸张，布质横幅会像真的一样下垂、起皱、随风飘动。</p>
+      </div>
+      <div class="phone"><img src="../img/zh-Hans/bannerDesign.jpg" alt="一分钟做好适合这次聚会的横幅" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>遥控器无需安装，扫码即用</h2>
+        <p>点左上角的遥控按钮，就会出现二维码。朋友用系统相机一扫，ShutterLink Remote 会以 App Clip 的形式立即打开并连上。<br>遥控器的实时画面连横幅都能看到，构好图直接按快门就行。拍好的照片会立刻传到遥控 iPhone 上，没装 App 的朋友也能当场保存和分享。</p>
+      </div>
+      <div class="phone"><img src="../img/zh-Hans/banner.jpg" alt="遥控器无需安装，扫码即用" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>三步就能开拍</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>立好 iPhone</h3><p>打开 ShutterLink，把手机放在三脚架或架子上。</p></li>
+<li class="card"><span class="n">2</span><h3>放好横幅</h3><p>在下方选择横幅，用画笔按钮设定文字和主题，再轻点大家要站的地面。</p></li>
+<li class="card"><span class="n">3</span><h3>举起手掌</h3><p>举起手掌或按下遥控器快门，定时器倒数后就会拍摄。</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>为合影准备的功能</h2>
+      <div class="card table">
+        <dl><div><dt>手掌手势 · 拍手快门</dt><dd>对着镜头举起手掌，或用力拍一下手，定时器就会开始</dd></div><div><dt>微笑快门</dt><dd>所有人都睁眼微笑时自动拍摄</dd></div><div><dt>定时 3 · 5 · 10 · 20 · 30 秒</dt><dd>语音倒数，闪光灯同步闪烁，遥控器在手里振动提醒</dd></div><div><dt>提醒大家看镜头</dt><dd>按一下，拍摄用的 iPhone 会出声提醒，把大家的视线集中过来</dd></div><div><dt>连拍 3 张 · 5 张</dt><dd>自动挑出所有人都睁眼微笑的最佳照片，也可以在图库里换成其他一张</dd></div><div><dt>人数 · 边缘 · 水平仪</dt><dd>统计画面里的人数，有人被挤到边缘或画面歪了都会提醒</dd></div><div><dt>间隔拍摄 3 秒到 1 分钟</dt><dd>按固定间隔记录日落或制作过程</dd></div><div><dt>相机控制</dt><dd>轻点对焦与测光、曝光补偿、闪光灯、网格、0.5 倍到最高 10 倍变焦（视机型而定）、前后摄像头切换、视频</dd></div><div><dt>简易模式</dt><dd>遥控器上只显示一个大快门按钮，长辈也能轻松按</dd></div><div><dt>音量键 · 相机控制按钮</dt><dd>不用遥控器，直接在拍摄用的 iPhone 上按快门</dd></div></dl>
+      </div>
+      <p class="muted">横幅模式下不能使用闪光灯、连拍、变焦和前置摄像头。定时器、手掌快门和遥控器照常可用。</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>所有功能都免费</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>免费</h3>
+          <ul><li>横幅模式和 13 个主题</li><li>无需安装的遥控器（App Clip）</li><li>手掌、拍手、微笑快门和定时器</li><li>最佳照片、人数统计、水平仪</li><li>视频和间隔拍摄</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>打赏支持（可选）</h3>
+          <ul><li>可以在设置里选择小、中、大三种打赏</li><li>打赏不会解锁或限制任何功能</li></ul>
+          <p class="muted">不是订阅，只在打赏时付一次款。</p>
+        </div>
+      </div>
+      <p class="muted">没有广告，也不用注册账号。</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>常见问题</h2>
+      <div class="faq"><details><summary>需要准备什么？</summary><p>在拍摄用的 iPhone 上安装 ShutterLink（iOS 17 及以上）。当遥控器的 iPhone 不用安装，只在第一次打开App Clip 时需要联网。两台 iPhone 都要打开蓝牙，并放得近一些（一般在 10 米以内）。</p></details>
+<details><summary>扫了二维码，App Clip 却打不开。</summary><p>请确认遥控 iPhone 已联网。也可以不扫码，在 ShutterLink Remote 画面输入拍摄 iPhone 上显示的 4 位连接码，再点“连接”。另外请在“设置 › 屏幕使用时间 › 内容和隐私访问限制”中确认App Clip 没有被限制。</p></details>
+<details><summary>一直停在“正在查找相机…”。</summary><p>拍摄用的 iPhone 必须让 ShutterLink 保持在屏幕上。请在两台 iPhone 的“设置 › 蓝牙”中确认蓝牙已打开。连接码每次打开 App 都会变，如果重新打开过 App，请用新的二维码或连接码，然后点“重试”。</p></details>
+<details><summary>显示“蓝牙权限被拒绝”。</summary><p>请在“设置 › 隐私与安全性 › 蓝牙”中打开 ShutterLink。遥控端是App Clip，可能不在列表里，这时请重新扫一次二维码，在权限请求中点“允许”。</p></details>
+<details><summary>实时画面卡顿或模糊。</summary><p>实时画面为了通过蓝牙传输，特意压缩成了小尺寸。实际的照片和视频会以拍摄 iPhone 的原始画质保存。两台手机之间有墙、有人或距离较远时可能会卡顿，但快门和其他操作依然有效。</p></details>
+<details><summary>拍好的照片在哪里？</summary><p>保存在拍摄 iPhone 的“照片”App 和 App 内的图库里。遥控 iPhone 也会收到一份副本，但不会自动保存，请在关闭遥控器前保存或分享。如果“照片”里没有，请在“设置 › 隐私与安全性 › 照片”中允许 ShutterLink 访问。</p></details>
+<details><summary>视频没有声音。</summary><p>请在“设置 › 隐私与安全性 › 麦克风”中打开 ShutterLink。</p></details>
+<details><summary>可以连接多个遥控器吗？</summary><p>可以。多台 iPhone 能用同一个二维码或连接码同时连上，不管从哪台按快门，拍的都是同一台相机。</p></details>
+<details><summary>拍摄时连接断了。</summary><p>ShutterLink 打开时会让屏幕保持常亮。按侧边按钮锁屏或切到别的 App 都会断开连接，所以拍摄期间请让 App 一直显示在屏幕上。</p></details>
+<details><summary>照片会上传到哪里吗？</summary><p>不会。两台 iPhone 通过蓝牙直接连接，照片和视频只留在拍摄的 iPhone 和连上的遥控器上。在没有信号的山上或海边也能用，也不需要账号。</p></details></div>
+      <p class="contact">问题没解决或发现了 Bug？请发邮件到 <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>。写上两台 iPhone 的机型和 iOS 版本，能更快帮你查明原因。</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>下次聚会合影，<br>大家一起举横幅</h2>
+      <a class="cta" href="https://apps.apple.com/app/id">在 App Store 免费下载</a>
+    </section>
+  </main>
 
   <footer>
-    <span><a href="support/">支持</a></span><span><a href="privacy/">隐私政策</a></span>
+    <nav id="languages" class="langs" aria-label="语言"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans" aria-current="page">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">隐私政策</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 ShutterLink</p>
   </footer>
-</main>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

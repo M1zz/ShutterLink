@@ -1,123 +1,184 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ShutterLink</title>
-<meta name="description" content="Take the everyone-holding-the-banner group photo without printing a banner. Pick a theme and add your words, and a friend's iPhone becomes the remote with nothing to install.">
-<link rel="icon" href="../icon.png">
-<link rel="apple-touch-icon" href="../icon.png">
-<link rel="canonical" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
-<link rel="stylesheet" href="../style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShutterLink: the banner group photo, no banner needed</title>
+  <meta name="description" content="Write your words, pick a theme, and a banner appears in front of your group. A friend&#x27;s iPhone becomes the remote with one QR scan. All free.">
+  <meta name="theme-color" content="#996A00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=">
+  <link rel="canonical" href="https://m1zz.github.io/ShutterLink/en/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ShutterLink: the banner group photo, no banner needed">
+  <meta property="og:description" content="Write your words, pick a theme, and a banner appears in front of your group. A friend&#x27;s iPhone becomes the remote with one QR scan. All free.">
+  <meta property="og:url" content="https://m1zz.github.io/ShutterLink/en/">
+  <meta property="og:image" content="https://m1zz.github.io/ShutterLink/img/en/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#996A00}@media (prefers-color-scheme:dark){:root{--accent:#FFCC00}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<nav class="nav">
-  <a class="brand" href="./"><img src="../icon.png" alt="">ShutterLink</a>
-  <a href="./" aria-current="page">About</a>
-  <a href="support/">Support</a>
-  <a href="privacy/">Privacy Policy</a>
-  <a href="../" hreflang="ko" lang="ko">한국어</a>
-  <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-  <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-  <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-  <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-  <a href="../es/" hreflang="es" lang="es">Español</a>
-  <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-  <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-  <a href="../it/" hreflang="it" lang="it">Italiano</a>
-  <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-  <a href="../th/" hreflang="th" lang="th">ไทย</a>
-  <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-  <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-  <a href="../da/" hreflang="da" lang="da">Dansk</a>
-  <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-  <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-  <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-  <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-  <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-  <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-  <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-  <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-</nav>
-<main>
-  <header class="hero">
-    <img src="../icon.png" alt="">
-    <h1>The banner group photo, no printing</h1>
-    <p class="lead">Write your words, pick a theme, and a banner appears in front of your group. Raise your palm or use the remote so the photographer is in the shot too.</p>
-    <span class="pair">The remote opens with a single QR scan, with nothing to install</span>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="bar">
+    <a class="brand" href="../en/"><img src="../icon.png" alt="" width="32" height="32">ShutterLink</a>
+    <a class="lang-link" href="#languages">Language</a>
   </header>
 
-  <section class="panel steps">
-    <h2>How it works</h2>
-    <ol>
-      <li>Open ShutterLink on the iPhone that will take the shot and set it on a tripod or shelf.</li>
-      <li>Choose Banner in the mode row above the shutter, then tap the brush at the top right to set your words and theme.</li>
-      <li>Tap the ground where your group will stand, and the banner appears at the height people would hold it. Tap a wall to hang it there.</li>
-      <li>Set the timer and raise your palm, or press the shutter on the remote.</li>
-    </ol>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>The banner group photo.<br>No banner to print.</h1>
+        <p class="lead">Write your words, pick a theme, and a banner appears right in front of your group. A friend's iPhone becomes the remote with one QR scan, so whoever's taking the photo gets in it too.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id">Get it free on the App Store</a><a class="try" href="#try">Make a banner ↓</a></div>
+        <p class="muted small">Every feature is free. Requires iOS 17 or later.</p>
+      </div>
+      <div class="phone"><img src="../img/en/banner.jpg" alt="The banner group photo. No banner to print." width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <section class="panel">
-    <h2>The banner</h2>
-    <ul>
-      <li>13 themes, including fall retreat, spring picnic, year-end party, birthday, sports day, graduation, wedding and team offsite.</li>
-      <li>Change the three lines of text, background, font, decorations, colors, shape and logo.</li>
-      <li>Fabric, vinyl or paper. A fabric banner sags, wrinkles and ripples in the breeze.</li>
-      <li>Drag it up, down or sideways, use two fingers to turn or resize it, and fine tune it with the move button.</li>
-    </ul>
-  </section>
 
-  <section class="panel">
-    <h2>A remote with nothing to install</h2>
-    <ul>
-      <li>Tap the remote button at the top left to show a QR code and a 4-digit pairing code.</li>
-      <li>Point the other iPhone&rsquo;s Camera at the QR code. ShutterLink Remote opens right away as an App Clip and connects.</li>
-      <li>The remote shows a live preview, including the banner in Banner mode.</li>
-      <li>Each photo also lands on the remote, so a friend without the app can save and share it.</li>
-      <li>The two iPhones connect directly over Bluetooth, so it works without Wi&#8209;Fi or cellular.</li>
-    </ul>
-  </section>
+    <section class="reveal" id="try">
+      <h2>Make a banner</h2>
+      <p class="muted">Edit the words and tap a theme. Press the shutter and it counts down three seconds, just like the app.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Make a banner&quot;, &quot;lead&quot;: &quot;Edit the words and tap a theme. Press the shutter and it counts down three seconds, just like the app.&quot;, &quot;textLabel&quot;: &quot;Your words&quot;, &quot;fields&quot;: [&quot;Top line&quot;, &quot;Big middle line&quot;, &quot;Bottom line&quot;], &quot;themeLabel&quot;: &quot;Theme&quot;, &quot;shutter&quot;: &quot;Shoot with a 3-second timer&quot;, &quot;shot&quot;: &quot;Click! In the app, this photo goes to Photos and straight to the remote iPhone.&quot;, &quot;note&quot;: &quot;This web demo lays the banner over a drawing. In the app it sits on the real ground or wall in the camera view, and a fabric banner ripples in the breeze.&quot;, &quot;lines&quot;: [&quot;Our Team 2026&quot;, &quot;Fall Retreat Together&quot;, &quot;Oct 24–25, 2026  Lake Tahoe, CA&quot;], &quot;themes&quot;: [&quot;Classic&quot;, &quot;Autumn Outing&quot;, &quot;Spring Blossoms&quot;, &quot;Summer Beach&quot;, &quot;Winter&quot;, &quot;Party Night&quot;, &quot;Year-End Party&quot;, &quot;Birthday&quot;, &quot;Sports Day&quot;, &quot;Cheer&quot;, &quot;Graduation&quot;, &quot;Wedding&quot;, &quot;Company Workshop&quot;]}"></div>
+    </section>
 
-  <section class="panel">
-    <h2>Made for group photos</h2>
-    <ul>
-      <li>Raise your palm, smile together or clap to fire the shutter.</li>
-      <li>Timers from 3 to 30 seconds with a spoken countdown, a blinking flash and a buzz on the remote.</li>
-      <li>Bursts of 3 or 5 shots keep the one where everyone&rsquo;s eyes are open.</li>
-      <li>A people counter, a warning when someone is at the edge, and a level when the iPhone tilts.</li>
-      <li>Tap to focus and expose, exposure compensation, flash, grid, 0.5&times; to 10&times; zoom, front and back cameras, video and interval shooting.</li>
-      <li>Photos and videos are saved to the Photos app on the iPhone that took them.</li>
-    </ul>
-  </section>
+    <section class="problem reveal">
+      <h2>Ordering a banner just for one photo?</h2>
+      <p>You order it, haul it to the event, and afterwards nobody knows where to keep it. And with nobody left to take the picture, someone always ends up outside the frame. ShutterLink puts the banner in the camera view and turns a friend's iPhone into the remote, so everyone gets in the shot, banner and all.</p>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>A banner for your event in a minute</h2>
+        <p>Start from 13 themes, including fall retreat, spring picnic, year-end party, birthday, sports day, graduation, wedding and team offsite, then write up to three lines of your own.<br>Change the background, font, decorations, colors and shape, and add your logo. Choose fabric, vinyl or paper. A fabric banner sags, wrinkles and ripples in the breeze like the real thing.</p>
+      </div>
+      <div class="phone"><img src="../img/en/bannerDesign.jpg" alt="A banner for your event in a minute" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>A remote with nothing to install</h2>
+        <p>Tap the remote button at the top left and a QR code appears. A friend points their iPhone's Camera at it, and ShutterLink Remote opens right away as an App Clip and connects.<br>The live view on the remote shows the banner too, so you frame the shot and press the shutter. Each photo lands on the remote straight away, so a friend without the app can save and share it on the spot.</p>
+      </div>
+      <div class="phone"><img src="../img/en/banner.jpg" alt="A remote with nothing to install" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Three steps to start</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Stand it up</h3><p>Open ShutterLink and set the iPhone on a tripod or shelf.</p></li>
+<li class="card"><span class="n">2</span><h3>Place the banner</h3><p>Choose Banner at the bottom, tap the brush to set your words and theme, then tap the ground where your group will stand.</p></li>
+<li class="card"><span class="n">3</span><h3>Raise your palm</h3><p>Raise your palm or press the shutter on the remote. The timer counts down and takes the shot.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Built for group photos</h2>
+      <div class="card table">
+        <dl><div><dt>Palm gesture · clap shutter</dt><dd>Raise an open palm toward the camera or clap loudly once to start the timer</dd></div><div><dt>Smile shutter</dt><dd>Shoots on its own when everyone is smiling with eyes open</dd></div><div><dt>Timer 3 · 5 · 10 · 20 · 30 s</dt><dd>A voice counts down, the flash blinks along, and the remote buzzes in your hand</dd></div><div><dt>Ask everyone to look at the camera</dt><dd>Tap it and the camera iPhone calls out to get everyone's attention</dd></div><div><dt>Burst of 3 · 5</dt><dd>Picks the best shot where everyone's eyes are open. Swap it for another in the gallery</dd></div><div><dt>Head count · edges · level</dt><dd>Counts the people in frame, warns when someone is at the edge, and shows a level when the phone tilts</dd></div><div><dt>Interval 3 s to 1 min</dt><dd>Captures a sunset or a project as it happens</dd></div><div><dt>Camera controls</dt><dd>Tap to focus and expose, exposure compensation, flash, grid, zoom from 0.5x up to 10x depending on your iPhone, front and back cameras, video</dd></div><div><dt>Simple mode</dt><dd>The remote shows one big shutter button anyone can press</dd></div><div><dt>Volume buttons · Camera Control</dt><dd>Fire the shutter on the camera iPhone itself, no remote needed</dd></div></dl>
+      </div>
+      <p class="muted">Flash, bursts, zoom and the front camera aren't available in Banner mode. The timer, palm shutter and remote all still work.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Every feature is free</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Free</h3>
+          <ul><li>Banner mode with 13 themes</li><li>Remote with nothing to install (App Clip)</li><li>Palm, clap and smile shutter, plus timer</li><li>Best shot, head count and level</li><li>Video and interval shooting</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Leave a tip (optional)</h3>
+          <ul><li>Send a small, medium or large tip from Settings</li><li>Tips don't unlock or lock anything</li></ul>
+          <p class="muted">Not a subscription. You pay once, only when you tip.</p>
+        </div>
+      </div>
+      <p class="muted">No ads and no account.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Questions</h2>
+      <div class="faq"><details><summary>What do I need?</summary><p>Install ShutterLink on the camera iPhone (iOS 17 or later). The remote iPhone needs nothing installed, just internet once the first time it opens the App Clip. Keep Bluetooth on for both, and keep them close, usually within 10 m.</p></details>
+<details><summary>The App Clip doesn't open when I scan the QR code.</summary><p>Make sure the remote iPhone is online. You can also type the camera iPhone's 4-digit pairing code into ShutterLink Remote and tap Connect. Check that App Clips aren't blocked in Settings › Screen Time › Content &amp; Privacy Restrictions.</p></details>
+<details><summary>It's stuck on "Looking for camera…".</summary><p>ShutterLink has to be open on the camera iPhone's screen. Check Bluetooth is on in Settings › Bluetooth on both phones. The pairing code changes every time the app opens, so if you reopened it, use the new QR or code and tap Try again.</p></details>
+<details><summary>I see "Bluetooth permission denied".</summary><p>Turn ShutterLink on in Settings › Privacy &amp; Security › Bluetooth. The remote is an App Clip and may not be listed there. If so, scan the QR again and tap Allow when asked.</p></details>
+<details><summary>The live view is choppy or blurry.</summary><p>The live view is deliberately scaled down to travel over Bluetooth. Photos and videos are saved at the camera iPhone's full quality. Walls, people or distance between the phones can make it stutter, but the shutter and other controls keep working.</p></details>
+<details><summary>Where do my photos go?</summary><p>To Photos on the camera iPhone and the in-app gallery. The remote gets a copy too, but doesn't save it on its own, so save or share it before closing the remote. If nothing reaches Photos, allow ShutterLink in Settings › Privacy &amp; Security › Photos.</p></details>
+<details><summary>My videos have no sound.</summary><p>Turn ShutterLink on in Settings › Privacy &amp; Security › Microphone.</p></details>
+<details><summary>Can I connect more than one remote?</summary><p>Yes. Several iPhones can join with the same QR or code at once, and any of them fires the same camera.</p></details>
+<details><summary>The connection drops while shooting.</summary><p>ShutterLink keeps the screen awake while it's open. Locking the phone or switching apps ends the connection, so keep the app on screen while you shoot.</p></details>
+<details><summary>Are my photos uploaded anywhere?</summary><p>No. The two iPhones connect directly over Bluetooth, and photos and videos stay on the camera iPhone and the remote you connected. It works on a mountain or at the beach with no signal, and there's no account.</p></details></div>
+      <p class="contact">Still stuck, or found a bug? Write to <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>. Include both iPhone models and iOS versions so we can look into it quickly.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Next time, everyone<br>holds the banner</h2>
+      <a class="cta" href="https://apps.apple.com/app/id">Get it free on the App Store</a>
+    </section>
+  </main>
 
   <footer>
-    <span><a href="support/">Support</a></span><span><a href="privacy/">Privacy Policy</a></span>
+    <nav id="languages" class="langs" aria-label="Language"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en" aria-current="page">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Privacy Policy</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 ShutterLink</p>
   </footer>
-</main>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

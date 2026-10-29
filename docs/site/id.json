@@ -1,0 +1,200 @@
+{
+  "title": "ShutterLink: foto bareng pegang spanduk, tanpa spanduk",
+  "description": "Tulis teksnya, pilih tema, dan spanduk muncul di depan seluruh rombongan. iPhone teman jadi remote cukup dengan satu QR. Semua fitur gratis.",
+  "hero": {
+    "headline": "Foto bareng pegang spanduk,\ntanpa cetak spanduk",
+    "lead": "Tulis teksnya, pilih tema, dan spanduk langsung muncul di depan rombongan. iPhone teman jadi remote cukup dengan sekali pindai QR, jadi yang memotret pun ikut masuk foto.",
+    "cta": "Unduh gratis di App Store",
+    "note": "Semua fitur gratis. Memerlukan iOS 17 atau versi lebih baru."
+  },
+  "demo": {
+    "title": "Coba buat spanduk",
+    "lead": "Ubah teksnya lalu ketuk salah satu tema. Tekan tombol rana, dan seperti di app, hitungan mundur 3 detik berjalan sebelum memotret.",
+    "textLabel": "Teks",
+    "fields": [
+      "Baris atas",
+      "Baris besar di tengah",
+      "Baris bawah"
+    ],
+    "themeLabel": "Tema",
+    "shutter": "Potret dengan timer 3 detik",
+    "shot": "Cekrek! Di app, foto ini tersimpan di Foto dan langsung terkirim ke iPhone yang jadi remote.",
+    "note": "Di versi web ini, spanduk hanya ditempel di atas gambar. Di app, spanduk berdiri di lantai atau dinding sungguhan di layar kamera, dan spanduk kain berkibar tertiup angin.",
+    "lines": [
+      "Tim Kami 2026",
+      "Piknik musim gugur bersama",
+      "24–25 Okt 2026  Puncak, Bogor"
+    ],
+    "themes": [
+      "Klasik",
+      "Piknik musim gugur",
+      "Bunga musim semi",
+      "Pantai musim panas",
+      "Musim dingin",
+      "Malam pesta",
+      "Pesta akhir tahun",
+      "Ulang tahun",
+      "Hari olahraga",
+      "Sorak",
+      "Wisuda",
+      "Pernikahan",
+      "Lokakarya perusahaan"
+    ]
+  },
+  "problem": {
+    "title": "Pesan spanduk cuma demi satu foto?",
+    "text": "Pesan spanduk demi satu foto piknik, dibawa ke lokasi, lalu bingung mau disimpan di mana. Tidak ada yang bisa memotret, jadi selalu ada satu orang yang tidak ikut masuk foto. ShutterLink memunculkan spanduk di layar kamera dan mengubah iPhone teman jadi remote, supaya semua orang bisa masuk foto sambil pegang spanduk."
+  },
+  "features": [
+    {
+      "title": "Spanduk yang pas untuk acaramu dalam semenit",
+      "text": "Pilih dari 13 tema, seperti piknik musim gugur, bunga musim semi, pesta akhir tahun, ulang tahun, hari olahraga, wisuda, pernikahan, dan lokakarya perusahaan, lalu tulis sendiri hingga tiga baris teks.\nGanti latar, huruf, hiasan, warna, dan rasio, serta tambahkan logo. Pilih bahan kain, vinil, atau kertas. Spanduk kain akan melengkung, berkerut, dan berkibar tertiup angin seperti aslinya.",
+      "shot": "bannerDesign"
+    },
+    {
+      "title": "Remote tanpa instal, cukup pindai QR",
+      "text": "Ketuk tombol remote di kiri atas, dan kode QR akan muncul. Teman tinggal memindainya dengan app Kamera bawaan, lalu ShutterLink Remote langsung terbuka sebagai App Clip dan tersambung.\nTampilan langsung di remote ikut menampilkan spanduk, jadi atur bingkai lalu tekan rana. Setiap foto langsung terkirim ke iPhone yang jadi remote, jadi teman tanpa app pun bisa menyimpan dan membagikannya saat itu juga.",
+      "shot": "banner"
+    }
+  ],
+  "steps": {
+    "title": "Mulai dalam tiga langkah",
+    "items": [
+      {
+        "title": "Pasang iPhone",
+        "text": "Buka ShutterLink dan letakkan iPhone di tripod atau rak."
+      },
+      {
+        "title": "Taruh spanduk",
+        "text": "Pilih Spanduk di bawah, atur teks dan tema dengan tombol kuas, lalu ketuk lantai tempat rombongan akan berdiri."
+      },
+      {
+        "title": "Angkat telapak tangan",
+        "text": "Angkat telapak tangan atau tekan rana di remote. Timer menghitung mundur lalu memotret."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Fitur untuk foto bareng",
+    "rows": [
+      [
+        "Gestur telapak tangan · rana tepuk tangan",
+        "Angkat telapak tangan terbuka ke arah kamera atau tepuk tangan keras sekali untuk memulai timer"
+      ],
+      [
+        "Rana senyum",
+        "Memotret sendiri saat semua orang tersenyum dengan mata terbuka"
+      ],
+      [
+        "Timer 3 · 5 · 10 · 20 · 30 detik",
+        "Ada suara hitungan mundur, lampu kilat berkedip seirama, dan remote bergetar di tangan"
+      ],
+      [
+        "Minta semua orang melihat ke kamera",
+        "Ketuk, dan iPhone yang memotret akan bersuara memanggil semua orang agar melihat ke lensa"
+      ],
+      [
+        "Foto beruntun 3 · 5",
+        "Memilihkan foto terbaik saat semua orang bermata terbuka. Bisa diganti dengan foto lain di galeri"
+      ],
+      [
+        "Jumlah orang · tepi · waterpas",
+        "Menghitung orang dalam bingkai, memberi tahu bila ada yang di tepi, dan menampilkan waterpas saat ponsel miring"
+      ],
+      [
+        "Interval 3 detik sampai 1 menit",
+        "Abadikan matahari terbenam atau proses pengerjaan secara berkala"
+      ],
+      [
+        "Kontrol kamera",
+        "Ketuk untuk fokus dan eksposur, kompensasi eksposur, lampu kilat, kisi, zoom 0,5x hingga 10x tergantung model, kamera depan dan belakang, video"
+      ],
+      [
+        "Mode sederhana",
+        "Remote hanya menampilkan satu tombol rana besar yang bisa ditekan siapa saja"
+      ],
+      [
+        "Tombol volume · Kontrol Kamera",
+        "Potret langsung dari iPhone yang memotret, tanpa remote"
+      ]
+    ],
+    "note": "Di mode Spanduk, lampu kilat, foto beruntun, zoom, dan kamera depan tidak bisa dipakai. Timer, rana telapak tangan, dan remote tetap berfungsi."
+  },
+  "pricing": {
+    "title": "Semua fitur gratis",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Mode Spanduk dengan 13 tema",
+        "Remote tanpa instal (App Clip)",
+        "Rana telapak tangan, tepuk tangan, senyum, dan timer",
+        "Foto terbaik, hitung orang, waterpas",
+        "Video dan foto interval"
+      ]
+    },
+    "pro": {
+      "name": "Beri tip (opsional)",
+      "items": [
+        "Kirim tip kecil, sedang, atau besar dari Pengaturan",
+        "Tip tidak membuka atau mengunci fitur apa pun"
+      ],
+      "note": "Bukan langganan. Kamu hanya membayar sekali saat memberi tip."
+    },
+    "note": "Tanpa iklan dan tanpa akun."
+  },
+  "faq": {
+    "title": "Pertanyaan umum",
+    "items": [
+      {
+        "q": "Apa saja yang dibutuhkan?",
+        "a": "Instal ShutterLink di iPhone yang dipakai memotret (iOS 17 atau lebih baru). iPhone yang jadi remote tidak perlu menginstal apa pun, hanya perlu internet saat pertama kali membuka App Clip. Nyalakan Bluetooth di keduanya dan letakkan berdekatan, biasanya dalam jarak 10 m."
+      },
+      {
+        "q": "Sudah pindai QR, tapi App Clip tidak terbuka.",
+        "a": "Pastikan iPhone yang jadi remote terhubung ke internet. Kamu juga bisa memasukkan kode 4 digit dari iPhone yang memotret di layar ShutterLink Remote lalu ketuk Hubungkan. Periksa juga bahwa App Clip tidak diblokir di Pengaturan › Durasi Layar › Pembatasan Konten & Privasi."
+      },
+      {
+        "q": "Tertahan di \"Mencari kamera…\".",
+        "a": "ShutterLink harus terbuka di layar iPhone yang memotret. Pastikan Bluetooth menyala di Pengaturan › Bluetooth pada kedua iPhone. Kode berubah setiap kali app dibuka, jadi kalau kamu membukanya lagi, pakai QR atau kode yang baru lalu ketuk Coba lagi."
+      },
+      {
+        "q": "Muncul \"Izin Bluetooth ditolak\".",
+        "a": "Aktifkan ShutterLink di Pengaturan › Privasi & Keamanan › Bluetooth. Remote berupa App Clip sehingga mungkin tidak ada di daftar. Kalau begitu, pindai QR lagi dan ketuk Izinkan saat diminta."
+      },
+      {
+        "q": "Tampilan langsung tersendat atau buram.",
+        "a": "Tampilan langsung sengaja diperkecil agar bisa dikirim lewat Bluetooth. Foto dan video asli tetap tersimpan dengan kualitas penuh iPhone yang memotret. Dinding, orang, atau jarak jauh bisa membuatnya tersendat, tetapi rana dan kontrol lain tetap berfungsi."
+      },
+      {
+        "q": "Di mana foto yang sudah diambil?",
+        "a": "Di app Foto pada iPhone yang memotret dan di galeri dalam app. Remote juga menerima salinan, tetapi tidak menyimpannya sendiri, jadi simpan atau bagikan sebelum menutup remote. Kalau tidak ada di Foto, izinkan ShutterLink di Pengaturan › Privasi & Keamanan › Foto."
+      },
+      {
+        "q": "Video tidak ada suaranya.",
+        "a": "Aktifkan ShutterLink di Pengaturan › Privasi & Keamanan › Mikrofon."
+      },
+      {
+        "q": "Bisa sambungkan beberapa remote?",
+        "a": "Bisa. Beberapa iPhone dapat tersambung bersamaan dengan QR atau kode yang sama, dan dari remote mana pun, yang memotret tetap kamera yang sama."
+      },
+      {
+        "q": "Sambungan putus saat memotret.",
+        "a": "ShutterLink menjaga layar tetap menyala selama app terbuka. Mengunci ponsel dengan tombol samping atau pindah ke app lain akan memutus sambungan, jadi biarkan app tetap tampil di layar selama memotret."
+      },
+      {
+        "q": "Apakah foto saya diunggah ke mana-mana?",
+        "a": "Tidak. Kedua iPhone tersambung langsung lewat Bluetooth, dan foto serta video hanya ada di iPhone yang memotret dan remote yang tersambung. Bisa dipakai di gunung atau pantai tanpa sinyal, dan tidak perlu akun."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Kumpul berikutnya,\nsemua pegang spanduk",
+    "cta": "Unduh gratis di App Store"
+  },
+  "ui": {
+    "skip": "Langsung ke konten",
+    "languages": "Bahasa",
+    "privacy": "Kebijakan Privasi",
+    "contact": "Masih belum beres atau menemukan bug? Kirim email ke {email}. Sertakan model dan versi iOS kedua iPhone supaya bisa dicek lebih cepat."
+  }
+}

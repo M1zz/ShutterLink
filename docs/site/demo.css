@@ -1,0 +1,83 @@
+/* ShutterLink 웹 체험. 현수막 자신의 배경은 컨테이너 단위(cqh)를 못 쓰므로 %로 둔다.
+    현수막 비율·글자 크기는 앱(BannerCanvasView)과 같다: 4:1, 높이의 16 · 30 · 11%. */
+.demo-card { display: grid; grid-template-columns: 1.1fr 1fr; gap: var(--s5); align-items: start; }
+
+.sl-stage { position: relative; aspect-ratio: 4 / 5; overflow: hidden; border-radius: var(--r-inner);
+            background: linear-gradient(#8fd3f4 0%, #c9ecfa 55%, #bfe6a8 55%); }
+.sl-sun { position: absolute; right: 12%; top: 9%; width: 16%; aspect-ratio: 1; border-radius: 50%;
+          background: #ffd93b; box-shadow: 0 0 0 10px rgb(255 217 59 / .25); }
+.sl-hill { position: absolute; border-radius: 50%; background: #6cc04a; }
+.sl-hill.a { left: -20%; top: 42%; width: 80%; height: 40%; }
+.sl-hill.b { right: -25%; top: 47%; width: 85%; height: 40%; background: #5bb03e; }
+
+.sl-people { position: absolute; left: 4%; right: 4%; bottom: 0; height: 46%; display: flex; justify-content: center; }
+.sl-people i { position: relative; flex: 1; max-width: 21%; margin: 0 -1%; }
+.sl-people i::before { content: ""; position: absolute; left: 22%; right: 22%; top: 0; aspect-ratio: 1;
+                       border-radius: 50%; background: var(--s); box-shadow: inset 0 -4px 0 rgb(0 0 0 / .08); }
+.sl-people i::after { content: ""; position: absolute; left: 8%; right: 8%; top: 24%; bottom: 0;
+                      border-radius: 40% 40% 0 0; background: var(--c); }
+.sl-people i:nth-child(even) { margin-top: 3%; }
+
+.sl-banner { position: absolute; left: 5%; right: 5%; bottom: 13%; aspect-ratio: 4 / 1; container-type: size;
+             overflow: hidden; background: var(--bg); box-shadow: 0 10px 24px -8px rgb(0 0 0 / .45);
+             transition: background .3s var(--ease); }
+.sl-banner::after { content: ""; position: absolute; inset: 3cqh; border: 1.2cqh solid var(--ac); opacity: .9; pointer-events: none; }
+.sl-banner.bg-gradient { background: linear-gradient(90deg, var(--bg), color-mix(in srgb, var(--ac) 35%, var(--bg))); }
+.sl-banner.bg-stripe { background: linear-gradient(var(--ac) 9%, var(--bg) 9%); }
+.sl-banner.bg-bands { background: linear-gradient(var(--ac) 9%, var(--bg) 9% 91%, var(--ac) 91%); }
+.sl-banner.bg-diagonal { background: repeating-linear-gradient(-45deg, color-mix(in srgb, var(--ac) 8%, var(--bg)) 0 3.5%, var(--bg) 3.5% 7%); }
+
+.sl-deco span { position: absolute; font-size: calc(14cqh * var(--k)); line-height: 1; opacity: .9;
+                transform: translate(-50%, -50%) rotate(var(--r)); }
+.sl-text { position: absolute; inset: 0 14cqh; display: flex; flex-direction: column; justify-content: center;
+           align-items: center; gap: 4cqh; text-align: center; line-height: 1.05; }
+.bg-stripe .sl-text { top: 9cqh; }
+.bg-bands .sl-text { top: 9cqh; bottom: 9cqh; }
+.sl-text > * { display: block; max-width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sl-text b { font-size: 16cqh; color: var(--c1); }
+.sl-text strong { font-size: 30cqh; color: var(--c2); }
+.sl-text small { font: 600 11cqh/1.1 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: var(--c3); }
+.font-rounded b, .font-rounded strong { font-family: ui-rounded, "SF Pro Rounded", "Arial Rounded MT Bold", sans-serif; font-weight: 800; }
+.font-bold b, .font-bold strong { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-weight: 900; }
+.font-condensed b, .font-condensed strong { font-family: "Avenir Next Condensed", "Arial Narrow", sans-serif;
+                                            font-stretch: condensed; font-weight: 800; }
+.font-serif b, .font-serif strong { font-family: ui-serif, "New York", Georgia, "Times New Roman", serif; font-weight: 700; }
+
+.sl-count { position: absolute; inset: 0; display: grid; place-items: center; font-size: clamp(5rem, 22vw, 9rem);
+            font-weight: 800; color: #fff; text-shadow: 0 4px 24px rgb(0 0 0 / .35); opacity: 0; pointer-events: none; }
+.sl-count.on { opacity: 1; }
+.sl-flash { position: absolute; inset: 0; background: #fff; opacity: 0; pointer-events: none; }
+.sl-flash.on { animation: sl-flash .45s var(--ease); }
+@keyframes sl-flash { 0% { opacity: .75; } 100% { opacity: 0; } }
+.sl-stage.shot { animation: sl-shot .5s var(--ease); }
+@keyframes sl-shot { 0% { transform: scale(.97); } 100% { transform: none; } }
+
+.sl-controls fieldset { border: 0; padding: 0; margin: 0 0 var(--s5); min-width: 0; }
+.sl-controls legend { font-weight: 600; margin-bottom: var(--s2); padding: 0; }
+.sl-lines { display: grid; gap: var(--s2); }
+.sl-lines input { font: inherit; width: 100%; min-height: 44px; padding: 0 var(--s4); color: var(--text);
+                  background: var(--bg); border: 2px solid transparent; border-radius: var(--r-inner); }
+.sl-lines input:focus { outline: none; border-color: var(--accent); }
+.sl-themes { display: flex; flex-wrap: wrap; gap: var(--s2); }
+.chip { font: inherit; font-size: .9375rem; font-weight: 600; color: var(--text); background: var(--bg); border: 0;
+        border-radius: 999px; padding: var(--s2) var(--s4); min-height: 44px; cursor: pointer;
+        transition: background .15s var(--ease), transform .15s var(--ease); }
+.chip:hover { background: color-mix(in srgb, var(--accent) 16%, var(--bg)); }
+.chip:active { transform: scale(.95); }
+.chip[aria-pressed="true"] { background: var(--accent); color: var(--on-accent); }
+
+.sl-shutter { display: inline-flex; align-items: center; gap: var(--s3); font: inherit; font-weight: 600;
+              min-height: 52px; padding: 0 var(--s5) 0 var(--s3); border-radius: 999px; cursor: pointer;
+              color: var(--text); background: transparent; border: 2px solid var(--line);
+              transition: border-color .2s var(--ease); }
+.sl-shutter:hover:not(:disabled) { border-color: var(--accent); }
+.sl-shutter:disabled { cursor: default; opacity: .6; }
+.sl-shutter .dot { width: 32px; height: 32px; border-radius: 50%; background: var(--accent);
+                   box-shadow: 0 0 0 3px var(--surface), 0 0 0 5px var(--accent); }
+.sl-status { min-height: 1.6em; margin: var(--s3) 0 var(--s2); font-weight: 600; }
+
+@media (prefers-reduced-motion: reduce) {
+  .sl-flash.on, .sl-stage.shot { animation: none; }
+  .sl-banner, .chip { transition: none; }
+}
+@media (max-width: 760px) { .demo-card { grid-template-columns: 1fr; } }

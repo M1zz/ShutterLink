@@ -1,123 +1,184 @@
 <!doctype html>
 <html lang="it">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ShutterLink</title>
-<meta name="description" content="Fai la foto di gruppo in cui tutti reggono uno striscione, senza stamparlo. Scegli un tema e scrivi il testo: l’iPhone di un amico diventa il telecomando, senza installare nulla.">
-<link rel="icon" href="../icon.png">
-<link rel="apple-touch-icon" href="../icon.png">
-<link rel="canonical" href="https://m1zz.github.io/ShutterLink/it/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
-<link rel="stylesheet" href="../style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShutterLink: la foto di gruppo con lo striscione, senza striscione</title>
+  <meta name="description" content="Scrivi il testo, scegli un tema e lo striscione compare davanti a tutto il gruppo. L’iPhone di un amico diventa telecomando con un QR. Tutto gratis.">
+  <meta name="theme-color" content="#996A00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=">
+  <link rel="canonical" href="https://m1zz.github.io/ShutterLink/it/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ShutterLink: la foto di gruppo con lo striscione, senza striscione">
+  <meta property="og:description" content="Scrivi il testo, scegli un tema e lo striscione compare davanti a tutto il gruppo. L’iPhone di un amico diventa telecomando con un QR. Tutto gratis.">
+  <meta property="og:url" content="https://m1zz.github.io/ShutterLink/it/">
+  <meta property="og:image" content="https://m1zz.github.io/ShutterLink/img/it/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#996A00}@media (prefers-color-scheme:dark){:root{--accent:#FFCC00}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<nav class="nav">
-  <a class="brand" href="./"><img src="../icon.png" alt="">ShutterLink</a>
-  <a href="./" aria-current="page">Info</a>
-  <a href="support/">Assistenza</a>
-  <a href="privacy/">Informativa sulla privacy</a>
-  <a href="../" hreflang="ko" lang="ko">한국어</a>
-  <a href="../en/" hreflang="en" lang="en">English</a>
-  <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-  <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-  <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-  <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-  <a href="../es/" hreflang="es" lang="es">Español</a>
-  <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-  <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-  <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-  <a href="../th/" hreflang="th" lang="th">ไทย</a>
-  <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-  <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-  <a href="../da/" hreflang="da" lang="da">Dansk</a>
-  <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-  <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-  <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-  <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-  <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-  <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-  <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-  <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-</nav>
-<main>
-  <header class="hero">
-    <img src="../icon.png" alt="">
-    <h1>La foto di gruppo con striscione, senza stampa</h1>
-    <p class="lead">Scrivi il testo, scegli un tema e lo striscione compare davanti al tuo gruppo. Alza il palmo o usa il telecomando così anche chi scatta finisce nella foto.</p>
-    <span class="pair">Il telecomando si apre con una sola scansione del QR, senza installare nulla</span>
+  <a class="skip" href="#main">Vai al contenuto</a>
+  <header class="bar">
+    <a class="brand" href="../it/"><img src="../icon.png" alt="" width="32" height="32">ShutterLink</a>
+    <a class="lang-link" href="#languages">Lingua</a>
   </header>
 
-  <section class="panel steps">
-    <h2>Come funziona</h2>
-    <ol>
-      <li>Apri ShutterLink sull’iPhone che scatterà la foto e mettilo su un treppiede o su uno scaffale.</li>
-      <li>Scegli Striscione nella riga delle modalità sopra il pulsante di scatto, poi tocca il pennello in alto a destra per impostare testo e tema.</li>
-      <li>Tocca il pavimento dove starà il gruppo e lo striscione compare all’altezza a cui lo si reggerebbe. Tocca una parete per appenderlo lì.</li>
-      <li>Imposta il timer e alza il palmo, oppure premi il pulsante di scatto sul telecomando.</li>
-    </ol>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>La foto di gruppo con lo striscione.<br>Senza stampare nulla.</h1>
+        <p class="lead">Scrivi il testo, scegli un tema e lo striscione compare proprio davanti al gruppo. L’iPhone di un amico diventa telecomando con una scansione QR, così anche chi scatta finisce nella foto.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id">Scarica gratis su App Store</a><a class="try" href="#try">Crea uno striscione ↓</a></div>
+        <p class="muted small">Tutte le funzioni sono gratuite. Richiede iOS 17 o successivo.</p>
+      </div>
+      <div class="phone"><img src="../img/it/banner.jpg" alt="La foto di gruppo con lo striscione. Senza stampare nulla." width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <section class="panel">
-    <h2>Lo striscione</h2>
-    <ul>
-      <li>13 temi, tra cui gita d’autunno, picnic di primavera, festa di fine anno, compleanno, giornata dello sport, laurea, matrimonio e team building.</li>
-      <li>Cambia le tre righe di testo, lo sfondo, il carattere, le decorazioni, i colori, la forma e il logo.</li>
-      <li>Tessuto, vinile o carta. Uno striscione di tessuto si incurva, si increspa e ondeggia nella brezza.</li>
-      <li>Trascinalo in alto, in basso o di lato, ruotalo o ridimensionalo con due dita e rifinisci con il pulsante di spostamento.</li>
-    </ul>
-  </section>
 
-  <section class="panel">
-    <h2>Un telecomando senza installazione</h2>
-    <ul>
-      <li>Tocca il pulsante del telecomando in alto a sinistra per mostrare un codice QR e un codice di associazione di 4 cifre.</li>
-      <li>Inquadra il codice QR con la fotocamera dell’altro iPhone. Il Telecomando ShutterLink si apre subito come App Clip e si connette.</li>
-      <li>Il telecomando mostra un’anteprima dal vivo, compreso lo striscione in modalità Striscione.</li>
-      <li>Ogni foto arriva anche sul telecomando, così un amico senza l’app può salvarla e condividerla.</li>
-      <li>I due iPhone si connettono direttamente via Bluetooth, quindi funziona anche senza Wi‑Fi o rete cellulare.</li>
-    </ul>
-  </section>
+    <section class="reveal" id="try">
+      <h2>Crea uno striscione</h2>
+      <p class="muted">Modifica il testo e tocca un tema. Premi l’otturatore e, come nell’app, parte un conto alla rovescia di 3 secondi.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Crea uno striscione&quot;, &quot;lead&quot;: &quot;Modifica il testo e tocca un tema. Premi l’otturatore e, come nell’app, parte un conto alla rovescia di 3 secondi.&quot;, &quot;textLabel&quot;: &quot;Testo&quot;, &quot;fields&quot;: [&quot;Riga in alto&quot;, &quot;Riga grande centrale&quot;, &quot;Riga in basso&quot;], &quot;themeLabel&quot;: &quot;Tema&quot;, &quot;shutter&quot;: &quot;Scatta con timer di 3 secondi&quot;, &quot;shot&quot;: &quot;Clic! Nell’app questa foto viene salvata in Foto e arriva subito all’iPhone telecomando.&quot;, &quot;note&quot;: &quot;Questa demo web appoggia lo striscione su un disegno. Nell’app si posa sul pavimento o sulla parete veri inquadrati dalla fotocamera, e lo striscione di stoffa ondeggia al vento.&quot;, &quot;lines&quot;: [&quot;Il nostro team 2026&quot;, &quot;Gita d’autunno insieme&quot;, &quot;24–25 ott 2026  Lago di Garda&quot;], &quot;themes&quot;: [&quot;Classico&quot;, &quot;Gita d’autunno&quot;, &quot;Fiori di primavera&quot;, &quot;Spiaggia d’estate&quot;, &quot;Inverno&quot;, &quot;Serata in festa&quot;, &quot;Festa di fine anno&quot;, &quot;Compleanno&quot;, &quot;Giornata dello sport&quot;, &quot;Tifo&quot;, &quot;Laurea&quot;, &quot;Matrimonio&quot;, &quot;Workshop aziendale&quot;]}"></div>
+    </section>
 
-  <section class="panel">
-    <h2>Pensato per le foto di gruppo</h2>
-    <ul>
-      <li>Alza il palmo, sorridete insieme o battete le mani per scattare.</li>
-      <li>Timer da 3 a 30 secondi con conto alla rovescia a voce, flash lampeggiante e vibrazione sul telecomando.</li>
-      <li>Le sequenze da 3 o 5 scatti tengono quello in cui tutti hanno gli occhi aperti.</li>
-      <li>Un conta persone, un avviso se qualcuno è al bordo e una livella quando l’iPhone è inclinato.</li>
-      <li>Tocca per mettere a fuoco ed esporre, compensazione dell’esposizione, flash, griglia, zoom da 0,5× a 10×, fotocamere anteriore e posteriore, video e scatto a intervalli.</li>
-      <li>Foto e video vengono salvati nell’app Foto dell’iPhone che li ha scattati.</li>
-    </ul>
-  </section>
+    <section class="problem reveal">
+      <h2>Far stampare uno striscione per una sola foto?</h2>
+      <p>Lo ordini, lo porti alla gita e poi nessuno sa dove metterlo. E siccome non resta nessuno a scattare, c’è sempre qualcuno fuori dalla foto. ShutterLink mette lo striscione nell’inquadratura e trasforma l’iPhone di un amico in telecomando, così nella foto con lo striscione ci siete tutti.</p>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Lo striscione giusto per il tuo evento in un minuto</h2>
+        <p>Scegli tra 13 temi, come gita d’autunno, fiori di primavera, festa di fine anno, compleanno, giornata dello sport, laurea, matrimonio e workshop aziendale, poi scrivi fino a tre righe di testo.<br>Cambia sfondo, carattere, decorazioni, colori e proporzioni, e aggiungi il tuo logo. Scegli stoffa, vinile o carta: lo striscione di stoffa si incurva, si stropiccia e ondeggia al vento come uno vero.</p>
+      </div>
+      <div class="phone"><img src="../img/it/bannerDesign.jpg" alt="Lo striscione giusto per il tuo evento in un minuto" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Un telecomando senza installare nulla</h2>
+        <p>Tocca il pulsante telecomando in alto a sinistra e compare un codice QR. Il tuo amico lo inquadra con l’app Fotocamera e ShutterLink Remote si apre subito come App Clip e si collega.<br>Nell’anteprima dal vivo del telecomando si vede anche lo striscione: inquadri e scatti. Ogni foto arriva subito all’iPhone telecomando, così anche un amico senza l’app può salvarla e condividerla all’istante.</p>
+      </div>
+      <div class="phone"><img src="../img/it/banner.jpg" alt="Un telecomando senza installare nulla" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Si parte in tre passi</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Sistema l’iPhone</h3><p>Apri ShutterLink e appoggia l’iPhone su un treppiede o una mensola.</p></li>
+<li class="card"><span class="n">2</span><h3>Posiziona lo striscione</h3><p>Scegli Striscione in basso, imposta testo e tema con il pennello, poi tocca il pavimento dove starà il gruppo.</p></li>
+<li class="card"><span class="n">3</span><h3>Alza la mano</h3><p>Alza il palmo o premi l’otturatore sul telecomando. Il timer conta e scatta.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Pensato per le foto di gruppo</h2>
+      <div class="card table">
+        <dl><div><dt>Gesto del palmo · scatto con applauso</dt><dd>Alza il palmo aperto verso la fotocamera o batti forte le mani una volta per avviare il timer</dd></div><div><dt>Scatto con sorriso</dt><dd>Scatta da solo quando tutti sorridono con gli occhi aperti</dd></div><div><dt>Timer 3 · 5 · 10 · 20 · 30 s</dt><dd>Una voce fa il conto alla rovescia, il flash lampeggia a tempo e il telecomando vibra in mano</dd></div><div><dt>Chiedi a tutti di guardare la fotocamera</dt><dd>Toccalo e l’iPhone che scatta richiama a voce l’attenzione del gruppo</dd></div><div><dt>Raffica da 3 · 5 foto</dt><dd>Sceglie la foto migliore in cui tutti hanno gli occhi aperti. Puoi cambiarla con un’altra nella galleria</dd></div><div><dt>Persone · bordi · livella</dt><dd>Conta le persone inquadrate, avvisa se qualcuno è sul bordo e mostra una livella quando l’iPhone è inclinato</dd></div><div><dt>Intervalli da 3 s a 1 min</dt><dd>Riprendi un tramonto o l’avanzamento di un lavoro a intervalli regolari</dd></div><div><dt>Controlli della fotocamera</dt><dd>Messa a fuoco ed esposizione con un tocco, compensazione dell’esposizione, flash, griglia, zoom da 0,5x fino a 10x a seconda del modello, fotocamera anteriore e posteriore, video</dd></div><div><dt>Modalità semplice</dt><dd>Il telecomando mostra un solo grande pulsante di scatto che chiunque può premere</dd></div><div><dt>Tasti del volume · Controllo fotocamera</dt><dd>Scatta direttamente dall’iPhone che fotografa, senza telecomando</dd></div></dl>
+      </div>
+      <p class="muted">In modalità Striscione non sono disponibili flash, raffica, zoom e fotocamera anteriore. Timer, scatto con il palmo e telecomando funzionano normalmente.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Tutte le funzioni sono gratuite</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Gratis</h3>
+          <ul><li>Modalità Striscione con 13 temi</li><li>Telecomando senza installazione (App Clip)</li><li>Scatto con palmo, applauso e sorriso, più timer</li><li>Foto migliore, conteggio persone e livella</li><li>Video e scatti a intervalli</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Lascia una mancia (facoltativo)</h3>
+          <ul><li>Invia una mancia piccola, media o grande dalle Impostazioni</li><li>Le mance non sbloccano né bloccano nulla</li></ul>
+          <p class="muted">Non è un abbonamento: paghi una volta, solo quando lasci la mancia.</p>
+        </div>
+      </div>
+      <p class="muted">Niente pubblicità, nessun account.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Domande frequenti</h2>
+      <div class="faq"><details><summary>Cosa mi serve?</summary><p>Installa ShutterLink sull’iPhone che scatta (iOS 17 o successivo). Sull’iPhone telecomando non serve installare nulla, basta Internet la prima volta che apre l’App Clip. Tieni il Bluetooth attivo su entrambi e gli iPhone vicini, di solito entro 10 m.</p></details>
+<details><summary>Scansiono il QR ma l’App Clip non si apre.</summary><p>Controlla che l’iPhone telecomando sia connesso a Internet. Puoi anche inserire in ShutterLink Remote il codice a 4 cifre dell’iPhone che scatta e toccare Connetti. Verifica poi che le App Clip non siano bloccate in Impostazioni › Tempo di utilizzo › Restrizioni contenuti e privacy.</p></details>
+<details><summary>Resta fermo su «Ricerca della fotocamera…».</summary><p>ShutterLink deve essere aperto sullo schermo dell’iPhone che scatta. Controlla che il Bluetooth sia attivo in Impostazioni › Bluetooth su entrambi gli iPhone. Il codice cambia a ogni apertura dell’app: se l’hai riaperta, usa il nuovo QR o codice e tocca Riprova.</p></details>
+<details><summary>Vedo «Autorizzazione Bluetooth negata».</summary><p>Attiva ShutterLink in Impostazioni › Privacy e sicurezza › Bluetooth. Il telecomando è una App Clip e potrebbe non comparire nell’elenco: in quel caso scansiona di nuovo il QR e tocca Consenti quando richiesto.</p></details>
+<details><summary>L’anteprima dal vivo scatta o è sfocata.</summary><p>L’anteprima è ridotta di proposito per viaggiare via Bluetooth. Foto e video vengono salvati nella qualità piena dell’iPhone che scatta. Muri, persone o troppa distanza possono causare scatti, ma l’otturatore e gli altri controlli continuano a funzionare.</p></details>
+<details><summary>Dove finiscono le mie foto?</summary><p>In Foto sull’iPhone che scatta e nella galleria dell’app. Anche il telecomando riceve una copia, ma non la salva da solo: salvala o condividila prima di chiudere il telecomando. Se in Foto non arriva nulla, consenti ShutterLink in Impostazioni › Privacy e sicurezza › Foto.</p></details>
+<details><summary>I miei video non hanno audio.</summary><p>Attiva ShutterLink in Impostazioni › Privacy e sicurezza › Microfono.</p></details>
+<details><summary>Posso collegare più telecomandi?</summary><p>Sì. Più iPhone possono collegarsi insieme con lo stesso QR o codice, e ognuno fa scattare la stessa fotocamera.</p></details>
+<details><summary>La connessione cade mentre scatto.</summary><p>ShutterLink tiene lo schermo acceso finché è aperto. Bloccare l’iPhone con il tasto laterale o passare a un’altra app interrompe la connessione, quindi tieni l’app sullo schermo mentre scatti.</p></details>
+<details><summary>Le mie foto vengono caricate da qualche parte?</summary><p>No. I due iPhone si collegano direttamente via Bluetooth e foto e video restano solo sull’iPhone che scatta e sul telecomando collegato. Funziona anche in montagna o in spiaggia senza campo, e senza account.</p></details></div>
+      <p class="contact">Non hai risolto o hai trovato un bug? Scrivi a <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>, indicando modello e versione di iOS di entrambi gli iPhone: così possiamo controllare prima.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Alla prossima rimpatriata,<br>lo striscione lo tenete tutti</h2>
+      <a class="cta" href="https://apps.apple.com/app/id">Scarica gratis su App Store</a>
+    </section>
+  </main>
 
   <footer>
-    <span><a href="support/">Assistenza</a></span><span><a href="privacy/">Informativa sulla privacy</a></span>
+    <nav id="languages" class="langs" aria-label="Lingua"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it" aria-current="page">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Informativa sulla privacy</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 ShutterLink</p>
   </footer>
-</main>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

@@ -1,123 +1,184 @@
 <!doctype html>
 <html lang="el">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ShutterLink</title>
-<meta name="description" content="Τραβήξτε την ομαδική φωτογραφία όπου όλοι κρατούν ένα πανό, χωρίς να τυπώσετε πανό. Διαλέξτε θέμα, γράψτε το κείμενό σας και το iPhone ενός φίλου γίνεται τηλεχειριστήριο χωρίς εγκατάσταση.">
-<link rel="icon" href="../icon.png">
-<link rel="apple-touch-icon" href="../icon.png">
-<link rel="canonical" href="https://m1zz.github.io/ShutterLink/el/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
-<link rel="stylesheet" href="../style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShutterLink: ομαδική φωτογραφία με πανό, χωρίς πανό</title>
+  <meta name="description" content="Γράψτε το κείμενο, διαλέξτε θέμα και το πανό εμφανίζεται μπροστά στην παρέα. Το iPhone ενός φίλου γίνεται τηλεχειριστήριο με ένα QR. Δωρεάν.">
+  <meta name="theme-color" content="#996A00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=">
+  <link rel="canonical" href="https://m1zz.github.io/ShutterLink/el/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ShutterLink: ομαδική φωτογραφία με πανό, χωρίς πανό">
+  <meta property="og:description" content="Γράψτε το κείμενο, διαλέξτε θέμα και το πανό εμφανίζεται μπροστά στην παρέα. Το iPhone ενός φίλου γίνεται τηλεχειριστήριο με ένα QR. Δωρεάν.">
+  <meta property="og:url" content="https://m1zz.github.io/ShutterLink/el/">
+  <meta property="og:image" content="https://m1zz.github.io/ShutterLink/img/el/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#996A00}@media (prefers-color-scheme:dark){:root{--accent:#FFCC00}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<nav class="nav">
-  <a class="brand" href="./"><img src="../icon.png" alt="">ShutterLink</a>
-  <a href="./" aria-current="page">Σχετικά</a>
-  <a href="support/">Υποστήριξη</a>
-  <a href="privacy/">Πολιτική απορρήτου</a>
-  <a href="../" hreflang="ko" lang="ko">한국어</a>
-  <a href="../en/" hreflang="en" lang="en">English</a>
-  <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-  <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-  <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-  <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-  <a href="../es/" hreflang="es" lang="es">Español</a>
-  <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-  <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-  <a href="../it/" hreflang="it" lang="it">Italiano</a>
-  <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-  <a href="../th/" hreflang="th" lang="th">ไทย</a>
-  <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-  <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-  <a href="../da/" hreflang="da" lang="da">Dansk</a>
-  <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-  <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-  <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-  <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-  <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-  <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-  <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-</nav>
-<main>
-  <header class="hero">
-    <img src="../icon.png" alt="">
-    <h1>Η ομαδική φωτογραφία με πανό, χωρίς εκτύπωση</h1>
-    <p class="lead">Γράψτε το κείμενό σας, διαλέξτε θέμα και το πανό εμφανίζεται μπροστά από την παρέα σας. Σηκώστε την παλάμη ή χρησιμοποιήστε το τηλεχειριστήριο ώστε να μπει στο κάδρο και αυτός που φωτογραφίζει.</p>
-    <span class="pair">Το τηλεχειριστήριο ανοίγει με μία σάρωση QR, χωρίς εγκατάσταση</span>
+  <a class="skip" href="#main">Μετάβαση στο περιεχόμενο</a>
+  <header class="bar">
+    <a class="brand" href="../el/"><img src="../icon.png" alt="" width="32" height="32">ShutterLink</a>
+    <a class="lang-link" href="#languages">Γλώσσα</a>
   </header>
 
-  <section class="panel steps">
-    <h2>Πώς λειτουργεί</h2>
-    <ol>
-      <li>Ανοίξτε το ShutterLink στο iPhone που θα φωτογραφίζει και τοποθετήστε το σε τρίποδο ή ράφι.</li>
-      <li>Επιλέξτε Πανό στη σειρά λειτουργιών πάνω από το κλείστρο και πατήστε το πινέλο πάνω δεξιά για να ορίσετε κείμενο και θέμα.</li>
-      <li>Πατήστε στο δάπεδο εκεί που θα σταθεί η παρέα και το πανό εμφανίζεται στο ύψος που θα το κρατούσαν οι άνθρωποι. Πατήστε σε έναν τοίχο για να το κρεμάσετε εκεί.</li>
-      <li>Ορίστε το χρονόμετρο και σηκώστε την παλάμη ή πατήστε το κλείστρο στο τηλεχειριστήριο.</li>
-    </ol>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Η ομαδική με το πανό,<br>χωρίς να τυπώσετε πανό</h1>
+        <p class="lead">Γράψτε το κείμενο, διαλέξτε θέμα και το πανό εμφανίζεται ακριβώς μπροστά στην παρέα. Το iPhone ενός φίλου γίνεται τηλεχειριστήριο με ένα σκανάρισμα QR, έτσι μπαίνει στη φωτογραφία και όποιος τραβάει.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id">Δωρεάν λήψη στο App Store</a><a class="try" href="#try">Φτιάξτε ένα πανό ↓</a></div>
+        <p class="muted small">Όλες οι λειτουργίες είναι δωρεάν. Απαιτεί iOS 17 ή νεότερο.</p>
+      </div>
+      <div class="phone"><img src="../img/el/banner.jpg" alt="Η ομαδική με το πανό, χωρίς να τυπώσετε πανό" width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <section class="panel">
-    <h2>Το πανό</h2>
-    <ul>
-      <li>13 θέματα, μεταξύ άλλων φθινοπωρινή εκδρομή, ανοιξιάτικο πικνίκ, πρωτοχρονιάτικο πάρτι, γενέθλια, αθλητική ημέρα, αποφοίτηση, γάμος και εκδρομή ομάδας.</li>
-      <li>Αλλάξτε τις τρεις γραμμές κειμένου, το φόντο, τη γραμματοσειρά, τη διακόσμηση, τα χρώματα, το σχήμα και το λογότυπο.</li>
-      <li>Ύφασμα, βινύλιο ή χαρτί. Ένα υφασμάτινο πανό κρεμάει, ζαρώνει και ανεμίζει στο αεράκι.</li>
-      <li>Σύρετέ το πάνω, κάτω ή στα πλάγια, γυρίστε το ή αλλάξτε μέγεθος με δύο δάχτυλα και ρυθμίστε το λεπτομερώς με το κουμπί μετακίνησης.</li>
-    </ul>
-  </section>
 
-  <section class="panel">
-    <h2>Ένα τηλεχειριστήριο χωρίς εγκατάσταση</h2>
-    <ul>
-      <li>Πατήστε το κουμπί τηλεχειριστηρίου πάνω αριστερά για να εμφανιστεί ένας κωδικός QR και ένας 4ψήφιος κωδικός αντιστοίχισης.</li>
-      <li>Στρέψτε την κάμερα του άλλου iPhone στον κωδικό QR. Το Τηλεχειριστήριο ShutterLink ανοίγει αμέσως ως App Clip και συνδέεται.</li>
-      <li>Το τηλεχειριστήριο δείχνει ζωντανή προεπισκόπηση, μαζί με το πανό στη λειτουργία Πανό.</li>
-      <li>Κάθε φωτογραφία φτάνει και στο τηλεχειριστήριο, ώστε ένας φίλος χωρίς την εφαρμογή να τη βάλει στο άλμπουμ του και να τη μοιραστεί.</li>
-      <li>Τα δύο iPhone συνδέονται απευθείας μέσω Bluetooth, οπότε λειτουργεί χωρίς Wi‑Fi ή δεδομένα κινητής.</li>
-    </ul>
-  </section>
+    <section class="reveal" id="try">
+      <h2>Φτιάξτε ένα πανό</h2>
+      <p class="muted">Αλλάξτε το κείμενο και πατήστε ένα θέμα. Με το κλείστρο ξεκινά αντίστροφη μέτρηση 3 δευτερολέπτων, όπως στην εφαρμογή.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Φτιάξτε ένα πανό&quot;, &quot;lead&quot;: &quot;Αλλάξτε το κείμενο και πατήστε ένα θέμα. Με το κλείστρο ξεκινά αντίστροφη μέτρηση 3 δευτερολέπτων, όπως στην εφαρμογή.&quot;, &quot;textLabel&quot;: &quot;Κείμενο&quot;, &quot;fields&quot;: [&quot;Πάνω γραμμή&quot;, &quot;Μεγάλη μεσαία γραμμή&quot;, &quot;Κάτω γραμμή&quot;], &quot;themeLabel&quot;: &quot;Θέμα&quot;, &quot;shutter&quot;: &quot;Λήψη με χρονόμετρο 3 δευτ.&quot;, &quot;shot&quot;: &quot;Κλικ! Στην εφαρμογή, η φωτογραφία αποθηκεύεται στις Φωτογραφίες και φτάνει αμέσως στο iPhone-τηλεχειριστήριο.&quot;, &quot;note&quot;: &quot;Εδώ το πανό απλώς μπαίνει πάνω σε ένα σκίτσο. Στην εφαρμογή στέκεται στο πραγματικό έδαφος ή στον τοίχο μέσα στο κάδρο, και το υφασμάτινο πανό κυματίζει στον αέρα.&quot;, &quot;lines&quot;: [&quot;Η ομάδα μας 2026&quot;, &quot;Φθινοπωρινή εκδρομή μαζί&quot;, &quot;24–25 Οκτ 2026  Πήλιο&quot;], &quot;themes&quot;: [&quot;Κλασικό&quot;, &quot;Φθινοπωρινή εκδρομή&quot;, &quot;Ανθισμένη άνοιξη&quot;, &quot;Καλοκαιρινή παραλία&quot;, &quot;Χειμώνας&quot;, &quot;Βραδιά πάρτι&quot;, &quot;Πρωτοχρονιάτικο πάρτι&quot;, &quot;Γενέθλια&quot;, &quot;Αθλητική ημέρα&quot;, &quot;Ενθάρρυνση&quot;, &quot;Αποφοίτηση&quot;, &quot;Γάμος&quot;, &quot;Εταιρικό εργαστήριο&quot;]}"></div>
+    </section>
 
-  <section class="panel">
-    <h2>Φτιαγμένο για ομαδικές φωτογραφίες</h2>
-    <ul>
-      <li>Σηκώστε την παλάμη, χαμογελάστε όλοι μαζί ή χειροκροτήστε για να πατηθεί το κλείστρο.</li>
-      <li>Χρονόμετρα από 3 έως 30 δευτερόλεπτα με προφορική αντίστροφη μέτρηση, φλας που αναβοσβήνει και δόνηση στο τηλεχειριστήριο.</li>
-      <li>Ριπές των 3 ή 5 λήψεων κρατούν εκείνη όπου όλοι έχουν τα μάτια ανοιχτά.</li>
-      <li>Μετρητής ατόμων, προειδοποίηση όταν κάποιος είναι στην άκρη και αλφάδι όταν το iPhone γέρνει.</li>
-      <li>Πατήστε για εστίαση και έκθεση, αντιστάθμιση έκθεσης, φλας, πλέγμα, ζουμ από 0,5× έως 10×, μπροστινή και πίσω κάμερα, βίντεο και λήψη ανά διάστημα.</li>
-      <li>Οι φωτογραφίες και τα βίντεο αποθηκεύονται στην εφαρμογή Φωτογραφίες του iPhone που τα τράβηξε.</li>
-    </ul>
-  </section>
+    <section class="problem reveal">
+      <h2>Παραγγέλνετε πανό για μία μόνο φωτογραφία;</h2>
+      <p>Το παραγγέλνετε για τη φωτογραφία της εκδρομής, το κουβαλάτε εκείνη τη μέρα και μετά δεν ξέρετε πού να το βάλετε. Κι αφού δεν υπάρχει κανείς να τραβήξει, κάποιος μένει πάντα εκτός κάδρου. Το ShutterLink βάζει το πανό μέσα στο κάδρο και κάνει το iPhone ενός φίλου τηλεχειριστήριο, ώστε να χωρέσουν όλοι στη φωτογραφία με το πανό.</p>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Πανό για τη δική σας περίσταση σε ένα λεπτό</h2>
+        <p>Διαλέξτε ανάμεσα σε 13 θέματα, όπως φθινοπωρινή εκδρομή, ανθισμένη άνοιξη, πρωτοχρονιάτικο πάρτι, γενέθλια, αθλητική ημέρα, αποφοίτηση, γάμος και εταιρικό εργαστήριο, και γράψτε έως τρεις γραμμές δικού σας κειμένου.<br>Αλλάξτε φόντο, γραμματοσειρά, διακοσμητικά, χρώματα και αναλογίες, και προσθέστε το λογότυπό σας. Υλικό: ύφασμα, βινύλιο ή χαρτί. Το υφασμάτινο πανό κρεμάει, τσαλακώνει και κυματίζει στον αέρα σαν αληθινό.</p>
+      </div>
+      <div class="phone"><img src="../img/el/bannerDesign.jpg" alt="Πανό για τη δική σας περίσταση σε ένα λεπτό" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Τηλεχειριστήριο χωρίς εγκατάσταση, με ένα QR</h2>
+        <p>Πατήστε το κουμπί τηλεχειριστηρίου πάνω αριστερά και εμφανίζεται ένας κωδικός QR. Ο φίλος σας τον σκανάρει με την κανονική Κάμερα και το ShutterLink Remote ανοίγει αμέσως ως App Clip και συνδέεται.<br>Στη ζωντανή προβολή του τηλεχειριστηρίου φαίνεται και το πανό, οπότε στήνετε το κάδρο και πατάτε το κλείστρο. Κάθε φωτογραφία φτάνει αμέσως στο iPhone-τηλεχειριστήριο, ώστε ένας φίλος χωρίς την εφαρμογή να την αποθηκεύσει και να τη μοιραστεί επί τόπου.</p>
+      </div>
+      <div class="phone"><img src="../img/el/banner.jpg" alt="Τηλεχειριστήριο χωρίς εγκατάσταση, με ένα QR" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Τρία βήματα για να ξεκινήσετε</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Στήστε το iPhone</h3><p>Ανοίξτε το ShutterLink και βάλτε το κινητό σε τρίποδο ή ράφι.</p></li>
+<li class="card"><span class="n">2</span><h3>Τοποθετήστε το πανό</h3><p>Επιλέξτε Πανό κάτω, ορίστε κείμενο και θέμα με το κουμπί του πινέλου και πατήστε στο έδαφος όπου θα σταθεί η παρέα.</p></li>
+<li class="card"><span class="n">3</span><h3>Σηκώστε την παλάμη</h3><p>Σηκώστε την παλάμη ή πατήστε το κλείστρο στο τηλεχειριστήριο. Το χρονόμετρο μετράει και τραβάει.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Φτιαγμένο για ομαδικές φωτογραφίες</h2>
+      <div class="card table">
+        <dl><div><dt>Χειρονομία παλάμης · κλείστρο με χειροκρότημα</dt><dd>Σηκώστε ανοιχτή παλάμη προς την κάμερα ή χτυπήστε μία φορά δυνατά παλαμάκια και ξεκινά το χρονόμετρο</dd></div><div><dt>Κλείστρο με χαμόγελο</dt><dd>Τραβάει μόνο του όταν όλοι χαμογελούν με ανοιχτά μάτια</dd></div><div><dt>Χρονόμετρο 3 · 5 · 10 · 20 · 30 δευτ.</dt><dd>Μια φωνή μετράει αντίστροφα, το φλας αναβοσβήνει μαζί και το τηλεχειριστήριο δονείται στο χέρι σας</dd></div><div><dt>Ζητήστε από όλους να κοιτάξουν την κάμερα</dt><dd>Πατήστε το και το iPhone-κάμερα φωνάζει για να κοιτάξουν όλοι τον φακό</dd></div><div><dt>Ριπή 3 · 5 λήψεων</dt><dd>Κρατά την καλύτερη λήψη όπου όλοι έχουν ανοιχτά μάτια. Μπορείτε να την αλλάξετε στη συλλογή</dd></div><div><dt>Πλήθος ατόμων · άκρες · αλφάδι</dt><dd>Μετράει τα άτομα στο κάδρο, προειδοποιεί όταν κάποιος είναι στην άκρη και δείχνει αλφάδι όταν το κινητό γέρνει</dd></div><div><dt>Διαδοχικές λήψεις από 3 δευτ. έως 1 λεπτό</dt><dd>Καταγράψτε ένα ηλιοβασίλεμα ή την πρόοδο μιας δουλειάς σε σταθερά διαστήματα</dd></div><div><dt>Έλεγχος κάμερας</dt><dd>Εστίαση και έκθεση με άγγιγμα, αντιστάθμιση έκθεσης, φλας, πλέγμα, ζουμ από 0,5x έως 10x ανάλογα με το μοντέλο, μπροστινή και πίσω κάμερα, βίντεο</dd></div><div><dt>Απλή λειτουργία</dt><dd>Το τηλεχειριστήριο δείχνει μόνο ένα μεγάλο κουμπί κλείστρου που μπορεί να πατήσει ο καθένας</dd></div><div><dt>Κουμπιά έντασης · Camera Control</dt><dd>Τραβήξτε απευθείας από το iPhone-κάμερα, χωρίς τηλεχειριστήριο</dd></div></dl>
+      </div>
+      <p class="muted">Στη λειτουργία Πανό δεν είναι διαθέσιμα το φλας, οι ριπές, το ζουμ και η μπροστινή κάμερα. Το χρονόμετρο, το κλείστρο με την παλάμη και το τηλεχειριστήριο λειτουργούν κανονικά.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Όλες οι λειτουργίες είναι δωρεάν</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Δωρεάν</h3>
+          <ul><li>Λειτουργία Πανό με 13 θέματα</li><li>Τηλεχειριστήριο χωρίς εγκατάσταση (App Clip)</li><li>Κλείστρο με παλάμη, χειροκρότημα και χαμόγελο, χρονόμετρο</li><li>Καλύτερη λήψη, μέτρηση ατόμων, αλφάδι</li><li>Βίντεο και διαδοχικές λήψεις</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Φιλοδώρημα (προαιρετικό)</h3>
+          <ul><li>Στείλτε μικρό, μεσαίο ή μεγάλο φιλοδώρημα από τις Ρυθμίσεις</li><li>Το φιλοδώρημα δεν ξεκλειδώνει ούτε κλειδώνει τίποτα</li></ul>
+          <p class="muted">Δεν είναι συνδρομή. Πληρώνετε μία φορά, μόνο όταν στέλνετε φιλοδώρημα.</p>
+        </div>
+      </div>
+      <p class="muted">Χωρίς διαφημίσεις και χωρίς λογαριασμό.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Συχνές ερωτήσεις</h2>
+      <div class="faq"><details><summary>Τι χρειάζομαι;</summary><p>Εγκαταστήστε το ShutterLink στο iPhone που θα τραβάει (iOS 17 ή νεότερο). Στο iPhone-τηλεχειριστήριο δεν χρειάζεται εγκατάσταση, μόνο σύνδεση στο ίντερνετ την πρώτη φορά που ανοίγει το App Clip. Κρατήστε το Bluetooth ανοιχτό και στα δύο και τα κινητά κοντά, συνήθως σε απόσταση έως 10 μ.</p></details>
+<details><summary>Σκανάρω το QR αλλά το App Clip δεν ανοίγει.</summary><p>Ελέγξτε ότι το iPhone-τηλεχειριστήριο είναι συνδεδεμένο στο ίντερνετ. Μπορείτε επίσης να πληκτρολογήσετε στο ShutterLink Remote τον τετραψήφιο κωδικό του iPhone-κάμερας και να πατήσετε Σύνδεση. Ελέγξτε και ότι τα App Clip δεν είναι αποκλεισμένα στις Ρυθμίσεις › Χρόνος επί οθόνης › Περιορισμοί περιεχομένου και απορρήτου.</p></details>
+<details><summary>Κολλάει στο «Αναζήτηση κάμερας…».</summary><p>Το ShutterLink πρέπει να είναι ανοιχτό στην οθόνη του iPhone-κάμερας. Ελέγξτε ότι το Bluetooth είναι ενεργό στις Ρυθμίσεις › Bluetooth και στα δύο κινητά. Ο κωδικός αλλάζει κάθε φορά που ανοίγει η εφαρμογή, οπότε αν την ξανανοίξατε, χρησιμοποιήστε το νέο QR ή κωδικό και πατήστε Δοκιμάστε ξανά.</p></details>
+<details><summary>Βλέπω «Η άδεια Bluetooth απορρίφθηκε».</summary><p>Ενεργοποιήστε το ShutterLink στις Ρυθμίσεις › Απόρρητο και ασφάλεια › Bluetooth. Το τηλεχειριστήριο είναι App Clip και ίσως δεν εμφανίζεται στη λίστα. Τότε σκανάρετε ξανά το QR και πατήστε Να επιτρέπεται όταν σας ζητηθεί.</p></details>
+<details><summary>Η ζωντανή προβολή κολλάει ή είναι θολή.</summary><p>Η ζωντανή προβολή είναι σκόπιμα μικρή για να περνά μέσω Bluetooth. Οι φωτογραφίες και τα βίντεο αποθηκεύονται στην πλήρη ποιότητα του iPhone-κάμερας. Τοίχοι, άνθρωποι ή μεγάλη απόσταση μπορεί να προκαλέσουν διακοπές, αλλά το κλείστρο και τα υπόλοιπα χειριστήρια συνεχίζουν να λειτουργούν.</p></details>
+<details><summary>Πού πάνε οι φωτογραφίες μου;</summary><p>Στις Φωτογραφίες του iPhone-κάμερας και στη συλλογή της εφαρμογής. Και το τηλεχειριστήριο παίρνει ένα αντίγραφο, αλλά δεν το αποθηκεύει μόνο του, οπότε αποθηκεύστε το ή μοιραστείτε το πριν το κλείσετε. Αν δεν φτάνει τίποτα στις Φωτογραφίες, επιτρέψτε το ShutterLink στις Ρυθμίσεις › Απόρρητο και ασφάλεια › Φωτογραφίες.</p></details>
+<details><summary>Τα βίντεο δεν έχουν ήχο.</summary><p>Ενεργοποιήστε το ShutterLink στις Ρυθμίσεις › Απόρρητο και ασφάλεια › Μικρόφωνο.</p></details>
+<details><summary>Μπορώ να συνδέσω πολλά τηλεχειριστήρια;</summary><p>Ναι. Πολλά iPhone μπορούν να συνδεθούν ταυτόχρονα με το ίδιο QR ή τον ίδιο κωδικό, και από όποιο κι αν πατήσετε, τραβάει η ίδια κάμερα.</p></details>
+<details><summary>Η σύνδεση κόβεται την ώρα που τραβάω.</summary><p>Όσο το ShutterLink είναι ανοιχτό, η οθόνη δεν σβήνει μόνη της. Αν κλειδώσετε το κινητό με το πλαϊνό κουμπί ή πάτε σε άλλη εφαρμογή, η σύνδεση κόβεται, γι' αυτό κρατήστε την εφαρμογή στην οθόνη όσο τραβάτε.</p></details>
+<details><summary>Ανεβαίνουν κάπου οι φωτογραφίες μου;</summary><p>Όχι. Τα δύο iPhone συνδέονται απευθείας μέσω Bluetooth και οι φωτογραφίες και τα βίντεο μένουν μόνο στο iPhone-κάμερα και στο τηλεχειριστήριο που συνδέσατε. Λειτουργεί και στο βουνό ή στην παραλία χωρίς σήμα, χωρίς λογαριασμό.</p></details></div>
+      <p class="contact">Δεν λύθηκε ή βρήκατε σφάλμα; Γράψτε στο <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>. Αναφέρετε τα μοντέλα και τις εκδόσεις iOS και των δύο iPhone για να το εξετάσουμε πιο γρήγορα.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Στην επόμενη συνάντηση,<br>όλοι κρατάνε το πανό</h2>
+      <a class="cta" href="https://apps.apple.com/app/id">Δωρεάν λήψη στο App Store</a>
+    </section>
+  </main>
 
   <footer>
-    <span><a href="support/">Υποστήριξη</a></span><span><a href="privacy/">Πολιτική απορρήτου</a></span>
+    <nav id="languages" class="langs" aria-label="Γλώσσα"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el" aria-current="page">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Πολιτική απορρήτου</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 ShutterLink</p>
   </footer>
-</main>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

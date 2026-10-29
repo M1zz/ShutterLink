@@ -1,123 +1,184 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ShutterLink</title>
-<meta name="description" content="Tire a foto em grupo em que todos seguram uma faixa, sem imprimir nenhuma. Escolha um tema, escreva seu texto e o iPhone de um amigo vira o controle, sem instalar nada.">
-<link rel="icon" href="../icon.png">
-<link rel="apple-touch-icon" href="../icon.png">
-<link rel="canonical" href="https://m1zz.github.io/ShutterLink/pt-BR/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
-<link rel="stylesheet" href="../style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShutterLink: a foto em grupo com faixa, sem precisar de faixa</title>
+  <meta name="description" content="Escreva o texto, escolha um tema e a faixa aparece na frente da turma toda. O iPhone de um amigo vira controle remoto com um QR. Tudo grátis.">
+  <meta name="theme-color" content="#996A00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=">
+  <link rel="canonical" href="https://m1zz.github.io/ShutterLink/pt-BR/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ShutterLink: a foto em grupo com faixa, sem precisar de faixa">
+  <meta property="og:description" content="Escreva o texto, escolha um tema e a faixa aparece na frente da turma toda. O iPhone de um amigo vira controle remoto com um QR. Tudo grátis.">
+  <meta property="og:url" content="https://m1zz.github.io/ShutterLink/pt-BR/">
+  <meta property="og:image" content="https://m1zz.github.io/ShutterLink/img/pt-BR/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#996A00}@media (prefers-color-scheme:dark){:root{--accent:#FFCC00}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<nav class="nav">
-  <a class="brand" href="./"><img src="../icon.png" alt="">ShutterLink</a>
-  <a href="./" aria-current="page">Sobre</a>
-  <a href="support/">Suporte</a>
-  <a href="privacy/">Política de Privacidade</a>
-  <a href="../" hreflang="ko" lang="ko">한국어</a>
-  <a href="../en/" hreflang="en" lang="en">English</a>
-  <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-  <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-  <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-  <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-  <a href="../es/" hreflang="es" lang="es">Español</a>
-  <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-  <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-  <a href="../it/" hreflang="it" lang="it">Italiano</a>
-  <a href="../th/" hreflang="th" lang="th">ไทย</a>
-  <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-  <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-  <a href="../da/" hreflang="da" lang="da">Dansk</a>
-  <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-  <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-  <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-  <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-  <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-  <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-  <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-  <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-</nav>
-<main>
-  <header class="hero">
-    <img src="../icon.png" alt="">
-    <h1>A foto em grupo com faixa, sem imprimir</h1>
-    <p class="lead">Escreva seu texto, escolha um tema e a faixa aparece na frente do seu grupo. Levante a palma ou use o controle para que quem fotografa também entre na foto.</p>
-    <span class="pair">O controle abre com uma leitura de QR code, sem instalar nada</span>
+  <a class="skip" href="#main">Pular para o conteúdo</a>
+  <header class="bar">
+    <a class="brand" href="../pt-BR/"><img src="../icon.png" alt="" width="32" height="32">ShutterLink</a>
+    <a class="lang-link" href="#languages">Idioma</a>
   </header>
 
-  <section class="panel steps">
-    <h2>Como funciona</h2>
-    <ol>
-      <li>Abra o ShutterLink no iPhone que vai fotografar e coloque-o em um tripé ou numa prateleira.</li>
-      <li>Escolha Faixa na linha de modos acima do obturador e toque no pincel no canto superior direito para definir o texto e o tema.</li>
-      <li>Toque no chão onde o grupo vai ficar e a faixa aparece na altura em que as pessoas a segurariam. Toque numa parede para pendurá-la ali.</li>
-      <li>Defina o temporizador e levante a palma, ou aperte o obturador no controle.</li>
-    </ol>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>A foto em grupo com faixa.<br>Sem mandar imprimir.</h1>
+        <p class="lead">Escreva o texto, escolha um tema e a faixa aparece bem na frente da turma. O iPhone de um amigo vira controle remoto com uma leitura de QR, e quem tira a foto também aparece nela.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id">Baixe grátis na App Store</a><a class="try" href="#try">Monte uma faixa ↓</a></div>
+        <p class="muted small">Todos os recursos são grátis. Requer iOS 17 ou posterior.</p>
+      </div>
+      <div class="phone"><img src="../img/pt-BR/banner.jpg" alt="A foto em grupo com faixa. Sem mandar imprimir." width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <section class="panel">
-    <h2>A faixa</h2>
-    <ul>
-      <li>13 temas, incluindo retiro de outono, piquenique de primavera, festa de fim de ano, aniversário, dia do esporte, formatura, casamento e confraternização da equipe.</li>
-      <li>Mude as três linhas de texto, o fundo, a fonte, a decoração, as cores, o formato e o logotipo.</li>
-      <li>Tecido, vinil ou papel. Uma faixa de tecido cai, faz dobras e balança com a brisa.</li>
-      <li>Arraste para cima, para baixo ou para os lados, gire ou redimensione com dois dedos e faça ajustes finos com o botão de mover.</li>
-    </ul>
-  </section>
 
-  <section class="panel">
-    <h2>Um controle sem instalar nada</h2>
-    <ul>
-      <li>Toque no botão do controle, no canto superior esquerdo, para mostrar um QR code e um código de pareamento de 4 dígitos.</li>
-      <li>Aponte a câmera do outro iPhone para o QR code. O Controle ShutterLink abre na hora como App Clip e se conecta.</li>
-      <li>O controle mostra uma prévia ao vivo, com a faixa incluída no modo Faixa.</li>
-      <li>Cada foto também chega ao controle, então um amigo sem o app pode salvá-la e compartilhá-la.</li>
-      <li>Os dois iPhones se conectam direto por Bluetooth, então funciona sem Wi‑Fi nem dados móveis.</li>
-    </ul>
-  </section>
+    <section class="reveal" id="try">
+      <h2>Monte uma faixa</h2>
+      <p class="muted">Mude o texto e toque em um tema. Aperte o obturador e, como no app, ele conta 3 segundos antes de tirar a foto.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Monte uma faixa&quot;, &quot;lead&quot;: &quot;Mude o texto e toque em um tema. Aperte o obturador e, como no app, ele conta 3 segundos antes de tirar a foto.&quot;, &quot;textLabel&quot;: &quot;Texto&quot;, &quot;fields&quot;: [&quot;Linha de cima&quot;, &quot;Linha grande do meio&quot;, &quot;Linha de baixo&quot;], &quot;themeLabel&quot;: &quot;Tema&quot;, &quot;shutter&quot;: &quot;Tirar com timer de 3 s&quot;, &quot;shot&quot;: &quot;Clique! No app, esta foto vai para o Fotos e chega na hora no iPhone que está como controle.&quot;, &quot;note&quot;: &quot;Nesta demonstração a faixa fica sobre um desenho. No app ela fica no chão ou na parede de verdade que a câmera mostra, e a faixa de tecido balança com o vento.&quot;, &quot;lines&quot;: [&quot;Nossa equipe 2026&quot;, &quot;Retiro de outono juntos&quot;, &quot;24–25 out 2026  Campos do Jordão&quot;], &quot;themes&quot;: [&quot;Clássico&quot;, &quot;Passeio de outono&quot;, &quot;Flores da primavera&quot;, &quot;Praia de verão&quot;, &quot;Inverno&quot;, &quot;Noite de festa&quot;, &quot;Festa de fim de ano&quot;, &quot;Aniversário&quot;, &quot;Dia do esporte&quot;, &quot;Torcida&quot;, &quot;Formatura&quot;, &quot;Casamento&quot;, &quot;Workshop da empresa&quot;]}"></div>
+    </section>
 
-  <section class="panel">
-    <h2>Feito para fotos em grupo</h2>
-    <ul>
-      <li>Levante a palma, sorriam juntos ou batam palmas para disparar.</li>
-      <li>Temporizadores de 3 a 30 segundos com contagem por voz, flash piscando e vibração no controle.</li>
-      <li>Rajadas de 3 ou 5 fotos ficam com aquela em que todos estão de olhos abertos.</li>
-      <li>Contador de pessoas, aviso quando alguém está na borda e nível quando o iPhone inclina.</li>
-      <li>Toque para focar e expor, compensação de exposição, flash, grade, zoom de 0,5× a 10×, câmeras frontal e traseira, vídeo e disparo por intervalo.</li>
-      <li>Fotos e vídeos são salvos no app Fotos do iPhone que os fez.</li>
-    </ul>
-  </section>
+    <section class="problem reveal">
+      <h2>Mandar fazer uma faixa só para uma foto?</h2>
+      <p>Você encomenda, leva até o passeio e depois ninguém sabe onde guardar. E como não sobra ninguém para fotografar, sempre tem alguém de fora. O ShutterLink coloca a faixa na imagem da câmera e transforma o iPhone de um amigo em controle remoto, para todo mundo sair na foto segurando a faixa.</p>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>A faixa da sua turma em um minuto</h2>
+        <p>Escolha entre 13 temas, como passeio de outono, flores da primavera, festa de fim de ano, aniversário, dia do esporte, formatura, casamento e workshop da empresa, e escreva até três linhas do seu jeito.<br>Mude fundo, fonte, enfeites, cores e proporção, e coloque seu logo. Escolha tecido, lona ou papel: a faixa de tecido cede, amassa e balança com o vento como uma de verdade.</p>
+      </div>
+      <div class="phone"><img src="../img/pt-BR/bannerDesign.jpg" alt="A faixa da sua turma em um minuto" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Controle remoto sem instalar nada</h2>
+        <p>Toque no botão de controle no canto superior esquerdo e um QR code aparece. Seu amigo aponta a Câmera do iPhone e o ShutterLink Remote abre na hora como App Clip e se conecta.<br>A imagem ao vivo no controle mostra até a faixa, então é só enquadrar e apertar o obturador. Cada foto chega na hora no iPhone que está como controle, e um amigo sem o app consegue salvar e compartilhar ali mesmo.</p>
+      </div>
+      <div class="phone"><img src="../img/pt-BR/banner.jpg" alt="Controle remoto sem instalar nada" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Comece em três passos</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Apoie o iPhone</h3><p>Abra o ShutterLink e coloque o iPhone num tripé ou numa prateleira.</p></li>
+<li class="card"><span class="n">2</span><h3>Posicione a faixa</h3><p>Escolha Faixa embaixo, defina texto e tema no botão de pincel e toque no chão onde a turma vai ficar.</p></li>
+<li class="card"><span class="n">3</span><h3>Levante a mão</h3><p>Levante a palma ou aperte o obturador no controle. O timer conta e tira a foto.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Feito para fotos em grupo</h2>
+      <div class="card table">
+        <dl><div><dt>Gesto da palma · disparo por palmas</dt><dd>Levante a palma aberta para a câmera ou bata palmas forte uma vez para iniciar o timer</dd></div><div><dt>Disparo por sorriso</dt><dd>Tira a foto sozinho quando todo mundo sorri de olhos abertos</dd></div><div><dt>Timer de 3 · 5 · 10 · 20 · 30 s</dt><dd>Uma voz faz a contagem regressiva, o flash pisca junto e o controle vibra na sua mão</dd></div><div><dt>Pedir a todos que olhem para a câmera</dt><dd>Toque e o iPhone que fotografa chama a atenção da turma em voz alta</dd></div><div><dt>Sequência de 3 · 5 fotos</dt><dd>Separa a melhor foto, em que todos estão de olhos abertos. Dá para trocar por outra na galeria</dd></div><div><dt>Pessoas · bordas · nível</dt><dd>Conta quantas pessoas estão no quadro, avisa se alguém ficou na borda e mostra um nível quando o iPhone inclina</dd></div><div><dt>Intervalos de 3 s a 1 min</dt><dd>Registre um pôr do sol ou o andamento de um projeto em intervalos regulares</dd></div><div><dt>Controles da câmera</dt><dd>Foco e exposição com um toque, compensação de exposição, flash, grade, zoom de 0,5x até 10x conforme o modelo, câmera frontal e traseira, vídeo</dd></div><div><dt>Modo simples</dt><dd>O controle mostra só um botão de disparo grande que qualquer pessoa consegue usar</dd></div><div><dt>Botões de volume · Controle da Câmera</dt><dd>Dispare direto no iPhone que fotografa, sem controle remoto</dd></div></dl>
+      </div>
+      <p class="muted">No modo Faixa não dá para usar flash, sequência, zoom nem câmera frontal. Timer, disparo pela palma e controle remoto funcionam normalmente.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Todos os recursos são grátis</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Grátis</h3>
+          <ul><li>Modo Faixa com 13 temas</li><li>Controle remoto sem instalação (App Clip)</li><li>Disparo por palma, palmas e sorriso, mais timer</li><li>Melhor foto, contagem de pessoas e nível</li><li>Vídeo e fotos em intervalos</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Deixe uma gorjeta (opcional)</h3>
+          <ul><li>Envie uma gorjeta pequena, média ou grande nos Ajustes</li><li>Gorjetas não liberam nem bloqueiam nada</li></ul>
+          <p class="muted">Não é assinatura. Você paga uma vez, só quando der a gorjeta.</p>
+        </div>
+      </div>
+      <p class="muted">Sem anúncios e sem conta.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Perguntas frequentes</h2>
+      <div class="faq"><details><summary>Do que eu preciso?</summary><p>Instale o ShutterLink no iPhone que vai fotografar (iOS 17 ou posterior). O iPhone que será o controle não precisa instalar nada, só de internet na primeira vez que abrir o App Clip. Deixe o Bluetooth ligado nos dois e os aparelhos perto, normalmente a até 10 m.</p></details>
+<details><summary>Leio o QR, mas o App Clip não abre.</summary><p>Confira se o iPhone que está como controle tem internet. Você também pode digitar no ShutterLink Remote o código de 4 dígitos do iPhone que fotografa e tocar em Conectar. Veja ainda se os App Clips não estão bloqueados em Ajustes › Tempo de Uso › Conteúdo e Privacidade.</p></details>
+<details><summary>Fica parado em “Procurando a câmera…”.</summary><p>O ShutterLink precisa estar aberto na tela do iPhone que fotografa. Confira se o Bluetooth está ligado em Ajustes › Bluetooth nos dois iPhone. O código muda sempre que o app abre; se você abriu de novo, use o QR ou o código novos e toque em Tentar de novo.</p></details>
+<details><summary>Aparece “Permissão de Bluetooth negada”.</summary><p>Ative o ShutterLink em Ajustes › Privacidade e Segurança › Bluetooth. O controle é um App Clip e pode não aparecer na lista. Nesse caso, leia o QR de novo e toque em Permitir quando for pedido.</p></details>
+<details><summary>A imagem ao vivo trava ou fica borrada.</summary><p>A imagem ao vivo é reduzida de propósito para passar pelo Bluetooth. Fotos e vídeos são salvos na qualidade total do iPhone que fotografa. Paredes, pessoas ou distância podem causar travadas, mas o obturador e os outros controles continuam funcionando.</p></details>
+<details><summary>Onde ficam minhas fotos?</summary><p>No app Fotos do iPhone que fotografa e na galeria do app. O controle também recebe uma cópia, mas não salva sozinho, então salve ou compartilhe antes de fechar o controle. Se nada chegar ao Fotos, permita o ShutterLink em Ajustes › Privacidade e Segurança › Fotos.</p></details>
+<details><summary>Meus vídeos estão sem som.</summary><p>Ative o ShutterLink em Ajustes › Privacidade e Segurança › Microfone.</p></details>
+<details><summary>Dá para conectar mais de um controle?</summary><p>Sim. Vários iPhone podem se conectar ao mesmo tempo com o mesmo QR ou código, e qualquer um deles dispara a mesma câmera.</p></details>
+<details><summary>A conexão cai enquanto estou fotografando.</summary><p>O ShutterLink mantém a tela acesa enquanto está aberto. Bloquear o iPhone pelo botão lateral ou trocar de app derruba a conexão, então deixe o app na tela durante as fotos.</p></details>
+<details><summary>Minhas fotos são enviadas para algum lugar?</summary><p>Não. Os dois iPhone se conectam direto por Bluetooth, e fotos e vídeos ficam só no iPhone que fotografa e no controle conectado. Funciona na montanha ou na praia sem sinal, e não precisa de conta.</p></details></div>
+      <p class="contact">Não resolveu ou encontrou um bug? Escreva para <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>. Informe o modelo e a versão do iOS dos dois iPhone para agilizar.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>No próximo encontro,<br>todo mundo segura a faixa</h2>
+      <a class="cta" href="https://apps.apple.com/app/id">Baixe grátis na App Store</a>
+    </section>
+  </main>
 
   <footer>
-    <span><a href="support/">Suporte</a></span><span><a href="privacy/">Política de Privacidade</a></span>
+    <nav id="languages" class="langs" aria-label="Idioma"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR" aria-current="page">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Política de Privacidade</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 ShutterLink</p>
   </footer>
-</main>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

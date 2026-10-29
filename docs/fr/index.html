@@ -1,123 +1,184 @@
 <!doctype html>
 <html lang="fr">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ShutterLink</title>
-<meta name="description" content="Faites la photo de groupe où tout le monde tient une banderole, sans en imprimer. Choisissez un thème, écrivez votre texte, et l’iPhone d’un ami devient la télécommande sans rien installer.">
-<link rel="icon" href="../icon.png">
-<link rel="apple-touch-icon" href="../icon.png">
-<link rel="canonical" href="https://m1zz.github.io/ShutterLink/fr/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
-<link rel="stylesheet" href="../style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShutterLink : la photo de groupe avec banderole, sans banderole</title>
+  <meta name="description" content="Écrivez votre texte, choisissez un thème, et la banderole apparaît devant le groupe. L’iPhone d’un ami devient télécommande. Tout est gratuit.">
+  <meta name="theme-color" content="#996A00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=">
+  <link rel="canonical" href="https://m1zz.github.io/ShutterLink/fr/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ShutterLink : la photo de groupe avec banderole, sans banderole">
+  <meta property="og:description" content="Écrivez votre texte, choisissez un thème, et la banderole apparaît devant le groupe. L’iPhone d’un ami devient télécommande. Tout est gratuit.">
+  <meta property="og:url" content="https://m1zz.github.io/ShutterLink/fr/">
+  <meta property="og:image" content="https://m1zz.github.io/ShutterLink/img/fr/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#996A00}@media (prefers-color-scheme:dark){:root{--accent:#FFCC00}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<nav class="nav">
-  <a class="brand" href="./"><img src="../icon.png" alt="">ShutterLink</a>
-  <a href="./" aria-current="page">À propos</a>
-  <a href="support/">Assistance</a>
-  <a href="privacy/">Politique de confidentialité</a>
-  <a href="../" hreflang="ko" lang="ko">한국어</a>
-  <a href="../en/" hreflang="en" lang="en">English</a>
-  <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-  <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-  <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-  <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-  <a href="../es/" hreflang="es" lang="es">Español</a>
-  <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-  <a href="../it/" hreflang="it" lang="it">Italiano</a>
-  <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-  <a href="../th/" hreflang="th" lang="th">ไทย</a>
-  <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-  <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-  <a href="../da/" hreflang="da" lang="da">Dansk</a>
-  <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-  <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-  <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-  <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-  <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-  <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-  <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-  <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-</nav>
-<main>
-  <header class="hero">
-    <img src="../icon.png" alt="">
-    <h1>La photo de groupe avec banderole, sans impression</h1>
-    <p class="lead">Écrivez votre texte, choisissez un thème, et la banderole apparaît devant votre groupe. Levez la paume ou utilisez la télécommande pour que le photographe soit aussi sur la photo.</p>
-    <span class="pair">La télécommande s’ouvre d’un seul scan de QR code, sans rien installer</span>
+  <a class="skip" href="#main">Aller au contenu</a>
+  <header class="bar">
+    <a class="brand" href="../fr/"><img src="../icon.png" alt="" width="32" height="32">ShutterLink</a>
+    <a class="lang-link" href="#languages">Langue</a>
   </header>
 
-  <section class="panel steps">
-    <h2>Comment ça marche</h2>
-    <ol>
-      <li>Ouvrez ShutterLink sur l’iPhone qui prendra la photo et posez-le sur un trépied ou une étagère.</li>
-      <li>Choisissez Banderole dans la rangée de modes au-dessus du déclencheur, puis touchez le pinceau en haut à droite pour régler votre texte et votre thème.</li>
-      <li>Touchez le sol à l’endroit où se placera votre groupe : la banderole apparaît à la hauteur où on la tiendrait. Touchez un mur pour l’y accrocher.</li>
-      <li>Réglez le minuteur et levez la paume, ou appuyez sur le déclencheur de la télécommande.</li>
-    </ol>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>La photo de groupe avec banderole.<br>Sans rien imprimer.</h1>
+        <p class="lead">Écrivez votre texte, choisissez un thème, et la banderole se place juste devant le groupe. L’iPhone d’un ami devient télécommande en scannant un QR code, et la personne qui prend la photo est enfin dessus.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id">Télécharger gratuitement sur l’App Store</a><a class="try" href="#try">Créez une banderole ↓</a></div>
+        <p class="muted small">Toutes les fonctions sont gratuites. iOS 17 ou version ultérieure.</p>
+      </div>
+      <div class="phone"><img src="../img/fr/banner.jpg" alt="La photo de groupe avec banderole. Sans rien imprimer." width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <section class="panel">
-    <h2>La banderole</h2>
-    <ul>
-      <li>13 thèmes, dont escapade d’automne, pique-nique de printemps, fête de fin d’année, anniversaire, journée sportive, remise de diplôme, mariage et séminaire d’équipe.</li>
-      <li>Modifiez les trois lignes de texte, l’arrière-plan, la police, la décoration, les couleurs, la forme et le logo.</li>
-      <li>Tissu, vinyle ou papier. Une banderole en tissu s’affaisse, se plisse et ondule dans la brise.</li>
-      <li>Faites-la glisser vers le haut, le bas ou les côtés, pivotez-la ou redimensionnez-la à deux doigts, et affinez avec le bouton de déplacement.</li>
-    </ul>
-  </section>
 
-  <section class="panel">
-    <h2>Une télécommande sans rien installer</h2>
-    <ul>
-      <li>Touchez le bouton de télécommande en haut à gauche pour afficher un code QR et un code d’association à 4 chiffres.</li>
-      <li>Pointez l’appareil photo de l’autre iPhone vers le code QR. La Télécommande ShutterLink s’ouvre aussitôt en App Clip et se connecte.</li>
-      <li>La télécommande affiche un aperçu en direct, banderole comprise en mode Banderole.</li>
-      <li>Chaque photo arrive aussi sur la télécommande : un ami sans l’app peut l’enregistrer et la partager.</li>
-      <li>Les deux iPhone se connectent directement en Bluetooth, sans Wi‑Fi ni réseau mobile.</li>
-    </ul>
-  </section>
+    <section class="reveal" id="try">
+      <h2>Créez une banderole</h2>
+      <p class="muted">Modifiez le texte et touchez un thème. Appuyez sur le déclencheur : comme dans l’app, un compte à rebours de 3 secondes précède la photo.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Créez une banderole&quot;, &quot;lead&quot;: &quot;Modifiez le texte et touchez un thème. Appuyez sur le déclencheur : comme dans l’app, un compte à rebours de 3 secondes précède la photo.&quot;, &quot;textLabel&quot;: &quot;Texte&quot;, &quot;fields&quot;: [&quot;Ligne du haut&quot;, &quot;Grande ligne centrale&quot;, &quot;Ligne du bas&quot;], &quot;themeLabel&quot;: &quot;Thème&quot;, &quot;shutter&quot;: &quot;Déclencher avec le retardateur de 3 s&quot;, &quot;shot&quot;: &quot;Clic ! Dans l’app, cette photo est enregistrée dans Photos et arrive aussitôt sur l’iPhone télécommande.&quot;, &quot;note&quot;: &quot;Cette démo pose la banderole sur un dessin. Dans l’app, elle repose sur le vrai sol ou le vrai mur filmé par la caméra, et une banderole en tissu ondule au vent.&quot;, &quot;lines&quot;: [&quot;Notre équipe 2026&quot;, &quot;Escapade d’automne ensemble&quot;, &quot;24–25 oct. 2026  Lac d’Annecy&quot;], &quot;themes&quot;: [&quot;Classique&quot;, &quot;Sortie d’automne&quot;, &quot;Fleurs de printemps&quot;, &quot;Plage d’été&quot;, &quot;Hiver&quot;, &quot;Soirée festive&quot;, &quot;Fête de fin d’année&quot;, &quot;Anniversaire&quot;, &quot;Journée sportive&quot;, &quot;Encouragements&quot;, &quot;Remise de diplôme&quot;, &quot;Mariage&quot;, &quot;Atelier d’entreprise&quot;]}"></div>
+    </section>
 
-  <section class="panel">
-    <h2>Pensé pour les photos de groupe</h2>
-    <ul>
-      <li>Levez la paume, souriez ensemble ou applaudissez pour déclencher.</li>
-      <li>Minuteur de 3 à 30 secondes avec compte à rebours vocal, flash clignotant et vibration de la télécommande.</li>
-      <li>Les rafales de 3 ou 5 photos gardent celle où tout le monde a les yeux ouverts.</li>
-      <li>Un compteur de personnes, un avertissement si quelqu’un est au bord du cadre et un niveau quand l’iPhone est incliné.</li>
-      <li>Mise au point et exposition au toucher, correction d’exposition, flash, grille, zoom de 0,5× à 10×, caméras avant et arrière, vidéo et prise de vue par intervalle.</li>
-      <li>Les photos et vidéos sont enregistrées dans l’app Photos de l’iPhone qui les a prises.</li>
-    </ul>
-  </section>
+    <section class="problem reveal">
+      <h2>Commander une banderole pour une seule photo ?</h2>
+      <p>On la commande, on la transporte jusqu’à la sortie, puis personne ne sait où la ranger. Et faute de photographe, il y a toujours quelqu’un hors du cadre. ShutterLink place la banderole dans l’image de la caméra et transforme l’iPhone d’un ami en télécommande, pour que tout le monde soit sur la photo, banderole comprise.</p>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Une banderole à votre image en une minute</h2>
+        <p>Choisissez parmi 13 thèmes, dont sortie d’automne, fleurs de printemps, fête de fin d’année, anniversaire, journée sportive, remise de diplôme, mariage ou atelier d’entreprise, puis écrivez jusqu’à trois lignes de texte.<br>Changez le fond, la police, les décorations, les couleurs et le format, et ajoutez votre logo. Tissu, vinyle ou papier : une banderole en tissu s’affaisse, se froisse et ondule au vent comme une vraie.</p>
+      </div>
+      <div class="phone"><img src="../img/fr/bannerDesign.jpg" alt="Une banderole à votre image en une minute" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Une télécommande sans rien installer</h2>
+        <p>Touchez le bouton télécommande en haut à gauche : un QR code s’affiche. Votre ami le vise avec l’app Appareil photo, et ShutterLink Remote s’ouvre aussitôt en App Clip et se connecte.<br>L’aperçu en direct de la télécommande montre même la banderole : cadrez, puis déclenchez. Chaque photo arrive tout de suite sur l’iPhone télécommande, si bien qu’un ami sans l’app peut l’enregistrer et la partager sur place.</p>
+      </div>
+      <div class="phone"><img src="../img/fr/banner.jpg" alt="Une télécommande sans rien installer" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Trois étapes pour commencer</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Installez l’iPhone</h3><p>Ouvrez ShutterLink et posez l’iPhone sur un trépied ou une étagère.</p></li>
+<li class="card"><span class="n">2</span><h3>Placez la banderole</h3><p>Choisissez Banderole en bas, réglez le texte et le thème avec le pinceau, puis touchez le sol à l’endroit où se tiendra le groupe.</p></li>
+<li class="card"><span class="n">3</span><h3>Levez la main</h3><p>Levez la paume ou appuyez sur le déclencheur de la télécommande. Le retardateur compte, puis prend la photo.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Pensé pour les photos de groupe</h2>
+      <div class="card table">
+        <dl><div><dt>Geste de la paume · déclencheur par applaudissement</dt><dd>Levez la paume vers l’appareil ou frappez fort dans vos mains une fois pour lancer le retardateur</dd></div><div><dt>Déclencheur par sourire</dt><dd>Prend la photo tout seul quand tout le monde sourit les yeux ouverts</dd></div><div><dt>Retardateur 3 · 5 · 10 · 20 · 30 s</dt><dd>Une voix compte à rebours, le flash clignote en rythme et la télécommande vibre dans la main</dd></div><div><dt>Demander à tous de regarder l’objectif</dt><dd>Touchez-le et l’iPhone qui photographie interpelle le groupe à voix haute</dd></div><div><dt>Rafale de 3 · 5 photos</dt><dd>Garde la meilleure photo, celle où tout le monde a les yeux ouverts. Vous pouvez en choisir une autre dans la galerie</dd></div><div><dt>Personnes · bords · niveau</dt><dd>Compte les personnes dans le cadre, prévient si quelqu’un est au bord et affiche un niveau quand l’iPhone penche</dd></div><div><dt>Intervalles de 3 s à 1 min</dt><dd>Immortalisez un coucher de soleil ou l’avancée d’un projet à intervalles réguliers</dd></div><div><dt>Réglages de la caméra</dt><dd>Mise au point et exposition au toucher, correction d’exposition, flash, grille, zoom de 0,5x jusqu’à 10x selon le modèle, caméra avant et arrière, vidéo</dd></div><div><dt>Mode simple</dt><dd>La télécommande n’affiche qu’un grand déclencheur, que tout le monde peut utiliser</dd></div><div><dt>Boutons de volume · Commande de l’appareil photo</dt><dd>Déclenchez directement sur l’iPhone qui photographie, sans télécommande</dd></div></dl>
+      </div>
+      <p class="muted">En mode Banderole, le flash, les rafales, le zoom et la caméra avant ne sont pas disponibles. Le retardateur, le déclenchement par la paume et la télécommande fonctionnent toujours.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Toutes les fonctions sont gratuites</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Gratuit</h3>
+          <ul><li>Mode Banderole avec 13 thèmes</li><li>Télécommande sans installation (App Clip)</li><li>Déclenchement par la paume, l’applaudissement ou le sourire, retardateur</li><li>Meilleure photo, comptage des personnes, niveau</li><li>Vidéo et prises de vue à intervalles</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Laisser un pourboire (facultatif)</h3>
+          <ul><li>Envoyez un petit, moyen ou grand pourboire depuis les Réglages</li><li>Les pourboires ne débloquent ni ne bloquent rien</li></ul>
+          <p class="muted">Ce n’est pas un abonnement : vous payez une fois, seulement quand vous donnez.</p>
+        </div>
+      </div>
+      <p class="muted">Pas de publicité, pas de compte.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Questions fréquentes</h2>
+      <div class="faq"><details><summary>De quoi ai-je besoin ?</summary><p>Installez ShutterLink sur l’iPhone qui prend la photo (iOS 17 ou ultérieur). L’iPhone télécommande n’a rien à installer, il lui faut seulement Internet la première fois qu’il ouvre l’App Clip. Gardez le Bluetooth activé sur les deux et les iPhone proches, en général à moins de 10 m.</p></details>
+<details><summary>Je scanne le QR code, mais l’App Clip ne s’ouvre pas.</summary><p>Vérifiez que l’iPhone télécommande est connecté à Internet. Vous pouvez aussi saisir dans ShutterLink Remote le code à 4 chiffres de l’iPhone qui photographie, puis toucher Connecter. Vérifiez enfin que les App Clips ne sont pas bloqués dans Réglages › Temps d’écran › Restrictions de contenu et de confidentialité.</p></details>
+<details><summary>Ça reste bloqué sur « Recherche de l’appareil… ».</summary><p>ShutterLink doit être ouvert à l’écran sur l’iPhone qui photographie. Vérifiez que le Bluetooth est activé dans Réglages › Bluetooth sur les deux iPhone. Le code change à chaque ouverture de l’app : si vous l’avez rouverte, utilisez le nouveau QR code ou code, puis touchez Réessayer.</p></details>
+<details><summary>Le message « Accès Bluetooth refusé » s’affiche.</summary><p>Activez ShutterLink dans Réglages › Confidentialité et sécurité › Bluetooth. La télécommande est un App Clip et peut ne pas figurer dans la liste. Dans ce cas, scannez de nouveau le QR code et touchez Autoriser quand c’est demandé.</p></details>
+<details><summary>L’aperçu en direct saccade ou est flou.</summary><p>L’aperçu est volontairement réduit pour passer par Bluetooth. Les photos et vidéos sont enregistrées dans la qualité d’origine de l’iPhone qui photographie. Des murs, des personnes ou la distance peuvent provoquer des saccades, mais le déclencheur et les autres commandes continuent de fonctionner.</p></details>
+<details><summary>Où sont mes photos ?</summary><p>Dans Photos sur l’iPhone qui photographie et dans la galerie de l’app. La télécommande en reçoit aussi une copie, mais ne l’enregistre pas d’elle-même : enregistrez-la ou partagez-la avant de fermer la télécommande. Si rien n’arrive dans Photos, autorisez ShutterLink dans Réglages › Confidentialité et sécurité › Photos.</p></details>
+<details><summary>Mes vidéos n’ont pas de son.</summary><p>Activez ShutterLink dans Réglages › Confidentialité et sécurité › Micro.</p></details>
+<details><summary>Puis-je connecter plusieurs télécommandes ?</summary><p>Oui. Plusieurs iPhone peuvent se connecter en même temps avec le même QR code ou code, et chacun déclenche le même appareil.</p></details>
+<details><summary>La connexion se coupe pendant la prise de vue.</summary><p>ShutterLink garde l’écran allumé tant qu’il est ouvert. Verrouiller l’iPhone avec le bouton latéral ou changer d’app coupe la connexion : gardez donc l’app à l’écran pendant la prise de vue.</p></details>
+<details><summary>Mes photos sont-elles envoyées quelque part ?</summary><p>Non. Les deux iPhone se connectent directement en Bluetooth, et les photos et vidéos restent uniquement sur l’iPhone qui photographie et sur la télécommande connectée. Ça marche même en montagne ou à la plage sans réseau, et sans compte.</p></details></div>
+      <p class="contact">Toujours bloqué ou un bug à signaler ? Écrivez à <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> en précisant le modèle et la version d’iOS des deux iPhone, pour une réponse plus rapide.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>À la prochaine sortie,<br>tout le monde tient la banderole</h2>
+      <a class="cta" href="https://apps.apple.com/app/id">Télécharger gratuitement sur l’App Store</a>
+    </section>
+  </main>
 
   <footer>
-    <span><a href="support/">Assistance</a></span><span><a href="privacy/">Politique de confidentialité</a></span>
+    <nav id="languages" class="langs" aria-label="Langue"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr" aria-current="page">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Politique de confidentialité</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 ShutterLink</p>
   </footer>
-</main>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

@@ -1,0 +1,200 @@
+{
+  "title": "ShutterLink: skupinová fotka s bannerem, bez banneru",
+  "description": "Napište text, vyberte motiv a banner se objeví před celou skupinou. iPhone kamaráda se po naskenování QR kódu stane ovladačem. Vše zdarma.",
+  "hero": {
+    "headline": "Skupinová fotka s bannerem.\nBez tisknutí banneru.",
+    "lead": "Napište text, vyberte motiv a banner stojí přímo před skupinou. iPhone kamaráda se jedním naskenováním QR kódu změní v ovladač, takže na fotce je i ten, kdo fotí.",
+    "cta": "Stáhnout zdarma z App Storu",
+    "note": "Všechny funkce jsou zdarma. Vyžaduje iOS 17 nebo novější."
+  },
+  "demo": {
+    "title": "Vyrobte si banner",
+    "lead": "Změňte text a klepněte na motiv. Po stisknutí spouště se stejně jako v aplikaci odpočítají 3 sekundy.",
+    "textLabel": "Text",
+    "fields": [
+      "Horní řádek",
+      "Velký prostřední řádek",
+      "Spodní řádek"
+    ],
+    "themeLabel": "Motiv",
+    "shutter": "Vyfotit se samospouští 3 s",
+    "shot": "Cvak! V aplikaci se tahle fotka uloží do Fotek a hned dorazí i do iPhonu s ovladačem.",
+    "note": "Webová ukázka jen položí banner na kresbu. V aplikaci stojí na skutečné zemi nebo zdi v záběru kamery a látkový banner se vlní ve větru.",
+    "lines": [
+      "Náš tým 2026",
+      "Společně na podzimní výlet",
+      "24.–25. 10. 2026  Krkonoše"
+    ],
+    "themes": [
+      "Klasický",
+      "Podzimní výlet",
+      "Jarní květy",
+      "Letní pláž",
+      "Zima",
+      "Večírek",
+      "Silvestrovský večírek",
+      "Narozeniny",
+      "Sportovní den",
+      "Fandění",
+      "Promoce",
+      "Svatba",
+      "Firemní workshop"
+    ]
+  },
+  "problem": {
+    "title": "Objednáváte banner kvůli jedné fotce?",
+    "text": "Objednáte ho, dotáhnete na výlet a pak nikdo neví, kam s ním. A protože nezbude nikdo, kdo by fotil, někdo vždycky chybí. ShutterLink postaví banner přímo do záběru a z iPhonu kamaráda udělá ovladač, aby na fotce s bannerem byli všichni."
+  },
+  "features": [
+    {
+      "title": "Banner pro vaši akci za minutu",
+      "text": "Vyberte si z 13 motivů, například podzimní výlet, jarní květy, silvestrovský večírek, narozeniny, sportovní den, promoce, svatba nebo firemní workshop, a napište až tři řádky vlastního textu.\nZměňte pozadí, písmo, ozdoby, barvy a poměr stran a přidejte své logo. Vyberte látku, vinyl nebo papír: látkový banner se prověsí, zvrásní a vlní ve větru jako skutečný.",
+      "shot": "bannerDesign"
+    },
+    {
+      "title": "Ovladač bez instalace, stačí QR kód",
+      "text": "Klepněte na tlačítko ovladače vlevo nahoře a objeví se QR kód. Kamarád ho naskenuje běžným Fotoaparátem a ShutterLink Remote se hned otevře jako App Clip a připojí se.\nV živém náhledu na ovladači je vidět i banner, takže stačí upravit záběr a stisknout spoušť. Každá fotka hned dorazí do iPhonu s ovladačem, takže ji kamarád bez aplikace může na místě uložit a sdílet.",
+      "shot": "banner"
+    }
+  ],
+  "steps": {
+    "title": "Tři kroky a můžete fotit",
+    "items": [
+      {
+        "title": "Postavte iPhone",
+        "text": "Otevřete ShutterLink a postavte telefon na stativ nebo poličku."
+      },
+      {
+        "title": "Umístěte banner",
+        "text": "Dole vyberte Banner, štětcem nastavte text a motiv a klepněte na zem, kde bude skupina stát."
+      },
+      {
+        "title": "Zvedněte dlaň",
+        "text": "Zvedněte dlaň nebo stiskněte spoušť na ovladači. Samospoušť odpočítá a vyfotí."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Stvořeno pro skupinové fotky",
+    "rows": [
+      [
+        "Gesto dlaní · spoušť tleskáním",
+        "Zvedněte otevřenou dlaň k fotoaparátu nebo jednou hlasitě tleskněte a spustí se samospoušť"
+      ],
+      [
+        "Spoušť úsměvem",
+        "Vyfotí sama, když se všichni usmívají s otevřenýma očima"
+      ],
+      [
+        "Samospoušť 3 · 5 · 10 · 20 · 30 s",
+        "Hlas odpočítává, blesk bliká do rytmu a ovladač vám zavibruje v ruce"
+      ],
+      [
+        "Požádat všechny, ať se dívají do objektivu",
+        "Klepněte a iPhone, který fotí, nahlas zavolá, ať se všichni podívají do objektivu"
+      ],
+      [
+        "Série 3 · 5 snímků",
+        "Vybere nejlepší snímek, kde mají všichni otevřené oči. V galerii ho můžete vyměnit za jiný"
+      ],
+      [
+        "Počet lidí · okraje · vodováha",
+        "Spočítá lidi v záběru, upozorní, když je někdo na okraji, a při naklonění ukáže vodováhu"
+      ],
+      [
+        "Interval 3 s až 1 min",
+        "Zachyťte západ slunce nebo postup práce v pravidelných odstupech"
+      ],
+      [
+        "Ovládání fotoaparátu",
+        "Ostření a expozice klepnutím, korekce expozice, blesk, mřížka, zoom od 0,5x až do 10x podle modelu, přední i zadní fotoaparát, video"
+      ],
+      [
+        "Jednoduchý režim",
+        "Ovladač ukáže jen jedno velké tlačítko spouště, které zvládne každý"
+      ],
+      [
+        "Tlačítka hlasitosti · Ovládání fotoaparátu",
+        "Foťte přímo na iPhonu s fotoaparátem, bez ovladače"
+      ]
+    ],
+    "note": "V režimu banneru nejsou k dispozici blesk, sériové snímání, zoom ani přední fotoaparát. Samospoušť, spoušť dlaní i ovladač fungují normálně."
+  },
+  "pricing": {
+    "title": "Všechny funkce jsou zdarma",
+    "free": {
+      "name": "Zdarma",
+      "items": [
+        "Režim banneru a 13 motivů",
+        "Ovladač bez instalace (App Clip)",
+        "Spoušť dlaní, tleskáním a úsměvem, samospoušť",
+        "Nejlepší snímek, počítání lidí, vodováha",
+        "Video a intervalové snímání"
+      ]
+    },
+    "pro": {
+      "name": "Spropitné (dobrovolné)",
+      "items": [
+        "V Nastavení můžete poslat malé, střední nebo velké spropitné",
+        "Spropitné nic neodemyká ani neomezuje"
+      ],
+      "note": "Nejde o předplatné. Platíte jednou, jen když spropitné pošlete."
+    },
+    "note": "Bez reklam a bez registrace."
+  },
+  "faq": {
+    "title": "Časté dotazy",
+    "items": [
+      {
+        "q": "Co potřebuji?",
+        "a": "Nainstalujte ShutterLink do iPhonu, který bude fotit (iOS 17 nebo novější). Na iPhone s ovladačem nic instalovat nemusíte, internet potřebuje jen při prvním otevření App Clipu. Na obou mějte zapnutý Bluetooth a telefony blízko sebe, obvykle do 10 m."
+      },
+      {
+        "q": "Naskenuji QR kód, ale App Clip se neotevře.",
+        "a": "Zkontrolujte, že je iPhone s ovladačem připojený k internetu. Můžete také v ShutterLink Remote zadat čtyřmístný kód z iPhonu s fotoaparátem a klepnout na Připojit. Ověřte i to, že App Clipy nejsou blokované v Nastavení › Čas u obrazovky › Omezení obsahu a soukromí."
+      },
+      {
+        "q": "Zasekne se na „Hledání fotoaparátu…“.",
+        "a": "ShutterLink musí být otevřený na obrazovce iPhonu, který fotí. Na obou telefonech zkontrolujte, že je Bluetooth zapnutý v Nastavení › Bluetooth. Kód se mění při každém otevření aplikace, takže pokud jste ji otevřeli znovu, použijte nový QR kód nebo kód a klepněte na Zkusit znovu."
+      },
+      {
+        "q": "Zobrazuje se „Přístup k Bluetooth zamítnut“.",
+        "a": "Zapněte ShutterLink v Nastavení › Soukromí a zabezpečení › Bluetooth. Ovladač je App Clip a v seznamu být nemusí. V tom případě znovu naskenujte QR kód a při dotazu klepněte na Povolit."
+      },
+      {
+        "q": "Živý náhled se seká nebo je rozmazaný.",
+        "a": "Živý náhled je záměrně zmenšený, aby prošel přes Bluetooth. Fotky a videa se ukládají v plné kvalitě iPhonu, který fotí. Zdi, lidé nebo velká vzdálenost můžou způsobit sekání, ale spoušť a ostatní ovládání fungují dál."
+      },
+      {
+        "q": "Kde najdu fotky?",
+        "a": "Ve Fotkách na iPhonu, který fotí, a v galerii aplikace. Ovladač dostane taky kopii, ale sám ji neuloží, proto ji uložte nebo sdílejte, než ovladač zavřete. Pokud se do Fotek nic neukládá, povolte ShutterLink v Nastavení › Soukromí a zabezpečení › Fotky."
+      },
+      {
+        "q": "Videa nemají zvuk.",
+        "a": "Zapněte ShutterLink v Nastavení › Soukromí a zabezpečení › Mikrofon."
+      },
+      {
+        "q": "Můžu připojit víc ovladačů?",
+        "a": "Ano. Několik iPhonů se může připojit najednou stejným QR kódem nebo kódem a kterýkoli z nich spouští tentýž fotoaparát."
+      },
+      {
+        "q": "Při focení se spojení přeruší.",
+        "a": "Dokud je ShutterLink otevřený, obrazovka sama nezhasne. Zamknutí telefonu bočním tlačítkem nebo přepnutí do jiné aplikace spojení přeruší, proto mějte aplikaci při focení na obrazovce."
+      },
+      {
+        "q": "Nahrávají se moje fotky někam?",
+        "a": "Ne. Oba iPhony se spojí přímo přes Bluetooth a fotky i videa zůstávají jen v iPhonu, který fotí, a v připojeném ovladači. Funguje to i na horách nebo na pláži bez signálu a nepotřebujete účet."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Na příštím srazu\ndrží banner všichni",
+    "cta": "Stáhnout zdarma z App Storu"
+  },
+  "ui": {
+    "skip": "Přeskočit na obsah",
+    "languages": "Jazyk",
+    "privacy": "Zásady ochrany soukromí",
+    "contact": "Nepomohlo to, nebo jste našli chybu? Napište na {email}. Uveďte modely a verze iOS obou iPhonů, ať to můžeme prověřit rychleji."
+  }
+}

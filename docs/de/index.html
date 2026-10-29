@@ -1,123 +1,184 @@
 <!doctype html>
 <html lang="de">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ShutterLink</title>
-<meta name="description" content="Das Gruppenfoto, auf dem alle ein Banner halten, ohne ein Banner zu drucken. Wähle ein Motiv und schreib deinen Text, und das iPhone eines Freundes wird ohne Installation zur Fernbedienung.">
-<link rel="icon" href="../icon.png">
-<link rel="apple-touch-icon" href="../icon.png">
-<link rel="canonical" href="https://m1zz.github.io/ShutterLink/de/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
-<link rel="stylesheet" href="../style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShutterLink: das Gruppenfoto mit Banner, ganz ohne Banner</title>
+  <meta name="description" content="Text schreiben, Thema wählen, und das Banner steht vor der Gruppe. Das iPhone eines Freundes wird per QR-Code zur Fernbedienung. Alles kostenlos.">
+  <meta name="theme-color" content="#996A00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=">
+  <link rel="canonical" href="https://m1zz.github.io/ShutterLink/de/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ShutterLink: das Gruppenfoto mit Banner, ganz ohne Banner">
+  <meta property="og:description" content="Text schreiben, Thema wählen, und das Banner steht vor der Gruppe. Das iPhone eines Freundes wird per QR-Code zur Fernbedienung. Alles kostenlos.">
+  <meta property="og:url" content="https://m1zz.github.io/ShutterLink/de/">
+  <meta property="og:image" content="https://m1zz.github.io/ShutterLink/img/de/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#996A00}@media (prefers-color-scheme:dark){:root{--accent:#FFCC00}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<nav class="nav">
-  <a class="brand" href="./"><img src="../icon.png" alt="">ShutterLink</a>
-  <a href="./" aria-current="page">Über die App</a>
-  <a href="support/">Support</a>
-  <a href="privacy/">Datenschutzerklärung</a>
-  <a href="../" hreflang="ko" lang="ko">한국어</a>
-  <a href="../en/" hreflang="en" lang="en">English</a>
-  <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-  <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-  <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-  <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-  <a href="../es/" hreflang="es" lang="es">Español</a>
-  <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-  <a href="../it/" hreflang="it" lang="it">Italiano</a>
-  <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-  <a href="../th/" hreflang="th" lang="th">ไทย</a>
-  <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-  <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-  <a href="../da/" hreflang="da" lang="da">Dansk</a>
-  <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-  <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-  <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-  <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-  <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-  <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-  <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-  <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-</nav>
-<main>
-  <header class="hero">
-    <img src="../icon.png" alt="">
-    <h1>Das Gruppenfoto mit Banner, ohne Druck</h1>
-    <p class="lead">Schreib deinen Text, wähle ein Motiv, und das Banner erscheint vor deiner Gruppe. Heb die Handfläche oder nutze die Fernbedienung, damit auch der Fotograf mit aufs Bild kommt.</p>
-    <span class="pair">Die Fernbedienung öffnet sich mit einem QR-Scan, ganz ohne Installation</span>
+  <a class="skip" href="#main">Zum Inhalt springen</a>
+  <header class="bar">
+    <a class="brand" href="../de/"><img src="../icon.png" alt="" width="32" height="32">ShutterLink</a>
+    <a class="lang-link" href="#languages">Sprache</a>
   </header>
 
-  <section class="panel steps">
-    <h2>So funktioniert es</h2>
-    <ol>
-      <li>Öffne ShutterLink auf dem iPhone, das fotografieren soll, und stelle es auf ein Stativ oder Regal.</li>
-      <li>Wähle „Banner“ in der Modusleiste über dem Auslöser und tippe oben rechts auf den Pinsel, um Text und Motiv einzustellen.</li>
-      <li>Tippe auf den Boden, wo deine Gruppe stehen wird, und das Banner erscheint in der Höhe, in der man es halten würde. Tippe auf eine Wand, um es dort aufzuhängen.</li>
-      <li>Stelle den Timer ein und heb die Handfläche, oder drücke den Auslöser auf der Fernbedienung.</li>
-    </ol>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Das Gruppenfoto mit Banner.<br>Ohne Banner drucken.</h1>
+        <p class="lead">Text schreiben, Thema wählen, und das Banner steht direkt vor deiner Gruppe. Das iPhone eines Freundes wird mit einem QR-Scan zur Fernbedienung, damit auch die Person hinter der Kamera mit aufs Bild kommt.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id">Kostenlos im App Store laden</a><a class="try" href="#try">Gestalte ein Banner ↓</a></div>
+        <p class="muted small">Alle Funktionen sind kostenlos. Ab iOS 17.</p>
+      </div>
+      <div class="phone"><img src="../img/de/banner.jpg" alt="Das Gruppenfoto mit Banner. Ohne Banner drucken." width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <section class="panel">
-    <h2>Das Banner</h2>
-    <ul>
-      <li>13 Motive, darunter Herbstausflug, Frühlingspicknick, Jahresabschlussfeier, Geburtstag, Sporttag, Abschluss, Hochzeit und Teamausflug.</li>
-      <li>Ändere die drei Textzeilen, den Hintergrund, die Schrift, die Dekoration, die Farben, die Form und das Logo.</li>
-      <li>Stoff, Vinyl oder Papier. Ein Stoffbanner hängt durch, wirft Falten und bewegt sich im Wind.</li>
-      <li>Ziehe es nach oben, unten oder zur Seite, drehe oder skaliere es mit zwei Fingern und justiere es mit der Verschieben-Taste fein.</li>
-    </ul>
-  </section>
 
-  <section class="panel">
-    <h2>Eine Fernbedienung ohne Installation</h2>
-    <ul>
-      <li>Tippe oben links auf die Fernbedienungs-Taste, um einen QR-Code und einen 4-stelligen Kopplungscode anzuzeigen.</li>
-      <li>Richte die Kamera des anderen iPhone auf den QR-Code. Die ShutterLink Fernbedienung öffnet sich sofort als App Clip und verbindet sich.</li>
-      <li>Die Fernbedienung zeigt eine Live-Vorschau, im Banner-Modus samt Banner.</li>
-      <li>Jedes Foto landet auch auf der Fernbedienung, sodass ein Freund ohne App es sichern und teilen kann.</li>
-      <li>Die beiden iPhones verbinden sich direkt per Bluetooth, es funktioniert also ohne WLAN oder Mobilfunk.</li>
-    </ul>
-  </section>
+    <section class="reveal" id="try">
+      <h2>Gestalte ein Banner</h2>
+      <p class="muted">Ändere den Text und tippe auf ein Thema. Drückst du den Auslöser, zählt es wie in der App drei Sekunden herunter.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Gestalte ein Banner&quot;, &quot;lead&quot;: &quot;Ändere den Text und tippe auf ein Thema. Drückst du den Auslöser, zählt es wie in der App drei Sekunden herunter.&quot;, &quot;textLabel&quot;: &quot;Text&quot;, &quot;fields&quot;: [&quot;Obere Zeile&quot;, &quot;Große mittlere Zeile&quot;, &quot;Untere Zeile&quot;], &quot;themeLabel&quot;: &quot;Thema&quot;, &quot;shutter&quot;: &quot;Mit 3-Sekunden-Timer auslösen&quot;, &quot;shot&quot;: &quot;Klick! In der App landet dieses Foto in Fotos und sofort auch auf dem iPhone mit der Fernbedienung.&quot;, &quot;note&quot;: &quot;In dieser Web-Demo liegt das Banner über einer Zeichnung. In der App steht es auf dem echten Boden oder hängt an der Wand im Kamerabild, und ein Stoffbanner weht im Wind.&quot;, &quot;lines&quot;: [&quot;Unser Team 2026&quot;, &quot;Gemeinsamer Herbstausflug&quot;, &quot;24.–25. Okt. 2026  Bodensee&quot;], &quot;themes&quot;: [&quot;Klassisch&quot;, &quot;Herbstausflug&quot;, &quot;Frühlingsblüten&quot;, &quot;Sommerstrand&quot;, &quot;Winter&quot;, &quot;Partynacht&quot;, &quot;Jahresabschlussfeier&quot;, &quot;Geburtstag&quot;, &quot;Sporttag&quot;, &quot;Anfeuern&quot;, &quot;Abschluss&quot;, &quot;Hochzeit&quot;, &quot;Firmenworkshop&quot;]}"></div>
+    </section>
 
-  <section class="panel">
-    <h2>Gemacht für Gruppenfotos</h2>
-    <ul>
-      <li>Heb die Handfläche, lächelt gemeinsam oder klatscht, um auszulösen.</li>
-      <li>Timer von 3 bis 30 Sekunden mit gesprochenem Countdown, blinkendem Blitz und Vibration auf der Fernbedienung.</li>
-      <li>Serien aus 3 oder 5 Fotos behalten das, auf dem alle die Augen offen haben.</li>
-      <li>Ein Personenzähler, eine Warnung, wenn jemand am Rand steht, und eine Wasserwaage, wenn das iPhone kippt.</li>
-      <li>Zum Fokussieren und Belichten tippen, Belichtungskorrektur, Blitz, Raster, Zoom von 0,5× bis 10×, Front- und Rückkamera, Video und Intervallaufnahmen.</li>
-      <li>Fotos und Videos werden in der Fotos-App auf dem iPhone gesichert, das sie aufgenommen hat.</li>
-    </ul>
-  </section>
+    <section class="problem reveal">
+      <h2>Ein Banner bestellen, nur für ein Foto?</h2>
+      <p>Du bestellst es, schleppst es zum Ausflug, und danach weiß keiner, wohin damit. Und weil niemand übrig ist, der das Foto macht, fehlt am Ende immer jemand. ShutterLink stellt das Banner ins Kamerabild und macht das iPhone eines Freundes zur Fernbedienung, damit alle mit Banner aufs Foto kommen.</p>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Das passende Banner in einer Minute</h2>
+        <p>Wähle aus 13 Themen wie Herbstausflug, Frühlingsblüten, Jahresabschlussfeier, Geburtstag, Sporttag, Abschluss, Hochzeit oder Firmenworkshop und schreib bis zu drei Zeilen eigenen Text.<br>Hintergrund, Schrift, Deko, Farben und Seitenverhältnis lassen sich ändern, und dein Logo kommt auch drauf. Wähle Stoff, Vinyl oder Papier: Ein Stoffbanner hängt durch, wirft Falten und weht im Wind wie ein echtes.</p>
+      </div>
+      <div class="phone"><img src="../img/de/bannerDesign.jpg" alt="Das passende Banner in einer Minute" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Fernbedienung ohne Installation, per QR-Code</h2>
+        <p>Tippe oben links auf die Fernbedienungstaste, und ein QR-Code erscheint. Dein Freund scannt ihn mit der Kamera-App, und ShutterLink Remote öffnet sich sofort als App Clip und verbindet sich.<br>Im Live-Bild der Fernbedienung ist sogar das Banner zu sehen: Bild ausrichten, Auslöser drücken, fertig. Jedes Foto kommt sofort auf dem iPhone mit der Fernbedienung an, sodass auch Freunde ohne App es direkt sichern und teilen können.</p>
+      </div>
+      <div class="phone"><img src="../img/de/banner.jpg" alt="Fernbedienung ohne Installation, per QR-Code" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>In drei Schritten startklar</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>iPhone aufstellen</h3><p>Öffne ShutterLink und stell das iPhone auf ein Stativ oder Regal.</p></li>
+<li class="card"><span class="n">2</span><h3>Banner platzieren</h3><p>Wähle unten Banner, leg mit dem Pinsel Text und Thema fest und tippe auf den Boden, wo die Gruppe stehen wird.</p></li>
+<li class="card"><span class="n">3</span><h3>Hand heben</h3><p>Heb die Handfläche oder drück den Auslöser auf der Fernbedienung. Der Timer zählt herunter und löst aus.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Gemacht für Gruppenfotos</h2>
+      <div class="card table">
+        <dl><div><dt>Handflächen-Geste · Klatsch-Auslöser</dt><dd>Heb die offene Hand zur Kamera oder klatsch einmal laut, um den Timer zu starten</dd></div><div><dt>Lächel-Auslöser</dt><dd>Löst von selbst aus, wenn alle mit offenen Augen lächeln</dd></div><div><dt>Timer 3 · 5 · 10 · 20 · 30 s</dt><dd>Eine Stimme zählt herunter, der Blitz blinkt mit, und die Fernbedienung vibriert in der Hand</dd></div><div><dt>Alle bitten, in die Kamera zu schauen</dt><dd>Ein Tipp, und das Kamera-iPhone ruft laut, damit alle in die Linse schauen</dd></div><div><dt>Serie mit 3 · 5 Fotos</dt><dd>Wählt das beste Foto, auf dem alle die Augen offen haben. In der Galerie kannst du ein anderes nehmen</dd></div><div><dt>Personen · Bildrand · Wasserwaage</dt><dd>Zählt die Personen im Bild, warnt, wenn jemand am Rand steht, und zeigt eine Wasserwaage, wenn das iPhone schief ist</dd></div><div><dt>Intervall von 3 s bis 1 min</dt><dd>Halte einen Sonnenuntergang oder den Fortschritt eines Projekts in festen Abständen fest</dd></div><div><dt>Kamerasteuerung</dt><dd>Fokus und Belichtung per Tippen, Belichtungskorrektur, Blitz, Raster, Zoom von 0,5x bis 10x je nach Modell, Front- und Rückkamera, Video</dd></div><div><dt>Einfacher Modus</dt><dd>Die Fernbedienung zeigt nur einen großen Auslöser, den wirklich jeder drücken kann</dd></div><div><dt>Lautstärketasten · Kamerasteuerung</dt><dd>Direkt am Kamera-iPhone auslösen, ganz ohne Fernbedienung</dd></div></dl>
+      </div>
+      <p class="muted">Im Banner-Modus sind Blitz, Serienbilder, Zoom und Frontkamera nicht verfügbar. Timer, Handflächen-Auslöser und Fernbedienung funktionieren weiterhin.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Alle Funktionen sind kostenlos</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Kostenlos</h3>
+          <ul><li>Banner-Modus mit 13 Themen</li><li>Fernbedienung ohne Installation (App Clip)</li><li>Auslösen per Handfläche, Klatschen und Lächeln, dazu Timer</li><li>Bestes Foto, Personenzählung und Wasserwaage</li><li>Video und Intervallaufnahmen</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Trinkgeld geben (freiwillig)</h3>
+          <ul><li>In den Einstellungen ein kleines, mittleres oder großes Trinkgeld senden</li><li>Trinkgeld schaltet nichts frei und sperrt nichts</li></ul>
+          <p class="muted">Kein Abo. Du zahlst einmal, nur wenn du Trinkgeld gibst.</p>
+        </div>
+      </div>
+      <p class="muted">Keine Werbung, kein Konto.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Häufige Fragen</h2>
+      <div class="faq"><details><summary>Was brauche ich?</summary><p>Installiere ShutterLink auf dem iPhone, das fotografiert (ab iOS 17). Auf dem iPhone mit der Fernbedienung muss nichts installiert werden, es braucht nur beim ersten Öffnen des App Clips einmal Internet. Lass Bluetooth auf beiden an und die Geräte nah beieinander, meist innerhalb von 10 m.</p></details>
+<details><summary>Ich scanne den QR-Code, aber der App Clip öffnet sich nicht.</summary><p>Prüfe, ob das iPhone mit der Fernbedienung online ist. Du kannst auch den vierstelligen Code des Kamera-iPhones in ShutterLink Remote eingeben und auf Verbinden tippen. Sieh außerdem nach, ob App Clips unter Einstellungen › Bildschirmzeit › Beschränkungen blockiert sind.</p></details>
+<details><summary>Es hängt bei „Suche nach Kamera …“.</summary><p>ShutterLink muss auf dem Kamera-iPhone geöffnet und auf dem Bildschirm sein. Prüfe auf beiden iPhones unter Einstellungen › Bluetooth, ob Bluetooth an ist. Der Code ändert sich bei jedem Öffnen der App. Hast du sie neu geöffnet, nutze den neuen QR-Code oder Code und tippe auf Erneut versuchen.</p></details>
+<details><summary>Ich sehe „Bluetooth-Zugriff verweigert“.</summary><p>Aktiviere ShutterLink unter Einstellungen › Datenschutz &amp; Sicherheit › Bluetooth. Die Fernbedienung ist ein App Clip und steht dort eventuell nicht in der Liste. Scanne dann den QR-Code erneut und tippe bei der Abfrage auf Erlauben.</p></details>
+<details><summary>Das Live-Bild ruckelt oder ist unscharf.</summary><p>Das Live-Bild wird absichtlich verkleinert, damit es über Bluetooth passt. Fotos und Videos werden in voller Qualität des Kamera-iPhones gespeichert. Wände, Menschen oder viel Abstand können zu Rucklern führen, Auslöser und alle anderen Funktionen arbeiten aber weiter.</p></details>
+<details><summary>Wo landen meine Fotos?</summary><p>In Fotos auf dem Kamera-iPhone und in der Galerie der App. Die Fernbedienung bekommt auch eine Kopie, speichert sie aber nicht von selbst. Sichere oder teile sie also, bevor du die Fernbedienung schließt. Kommt in Fotos nichts an, erlaube ShutterLink unter Einstellungen › Datenschutz &amp; Sicherheit › Fotos.</p></details>
+<details><summary>Meine Videos haben keinen Ton.</summary><p>Aktiviere ShutterLink unter Einstellungen › Datenschutz &amp; Sicherheit › Mikrofon.</p></details>
+<details><summary>Kann ich mehrere Fernbedienungen verbinden?</summary><p>Ja. Mehrere iPhones können sich gleichzeitig mit demselben QR-Code oder Code verbinden, und jedes davon löst dieselbe Kamera aus.</p></details>
+<details><summary>Die Verbindung bricht beim Fotografieren ab.</summary><p>Solange ShutterLink geöffnet ist, bleibt der Bildschirm an. Sperrst du das iPhone mit der Seitentaste oder wechselst die App, bricht die Verbindung ab. Lass die App beim Fotografieren also im Vordergrund.</p></details>
+<details><summary>Werden meine Fotos irgendwo hochgeladen?</summary><p>Nein. Die beiden iPhones verbinden sich direkt per Bluetooth, und Fotos und Videos bleiben nur auf dem Kamera-iPhone und der verbundenen Fernbedienung. Das klappt auch in den Bergen oder am Strand ohne Netz, und ein Konto brauchst du nicht.</p></details></div>
+      <p class="contact">Noch nicht gelöst oder einen Fehler gefunden? Schreib an <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>. Gib die Modelle und iOS-Versionen beider iPhones an, dann geht es schneller.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Beim nächsten Treffen<br>halten alle das Banner</h2>
+      <a class="cta" href="https://apps.apple.com/app/id">Kostenlos im App Store laden</a>
+    </section>
+  </main>
 
   <footer>
-    <span><a href="support/">Support</a></span><span><a href="privacy/">Datenschutzerklärung</a></span>
+    <nav id="languages" class="langs" aria-label="Sprache"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de" aria-current="page">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Datenschutzerklärung</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 ShutterLink</p>
   </footer>
-</main>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

@@ -1,0 +1,200 @@
+{
+  "title": "ShutterLink: zdjęcie grupowe z banerem, bez banera",
+  "description": "Wpisz tekst, wybierz motyw, a baner stanie przed całą grupą. iPhone znajomego staje się pilotem po jednym zeskanowaniu kodu QR. Wszystko za darmo.",
+  "hero": {
+    "headline": "Zdjęcie grupowe z banerem.\nBez drukowania banera.",
+    "lead": "Wpisz tekst, wybierz motyw, a baner stanie tuż przed grupą. iPhone znajomego po jednym skanie kodu QR zamienia się w pilota, więc na zdjęciu jest też osoba, która je robi.",
+    "cta": "Pobierz za darmo w App Store",
+    "note": "Wszystkie funkcje są bezpłatne. Wymaga iOS 17 lub nowszego."
+  },
+  "demo": {
+    "title": "Zrób własny baner",
+    "lead": "Zmień tekst i stuknij motyw. Po naciśnięciu migawki, tak jak w aplikacji, ruszy 3-sekundowe odliczanie.",
+    "textLabel": "Tekst",
+    "fields": [
+      "Górny wiersz",
+      "Duży środkowy wiersz",
+      "Dolny wiersz"
+    ],
+    "themeLabel": "Motyw",
+    "shutter": "Zrób zdjęcie z samowyzwalaczem 3 s",
+    "shot": "Pstryk! W aplikacji to zdjęcie trafia do Zdjęć i od razu na iPhone’a z pilotem.",
+    "note": "W tej wersji webowej baner jest nałożony na rysunek. W aplikacji stoi na prawdziwej podłodze lub ścianie w kadrze, a baner z tkaniny faluje na wietrze.",
+    "lines": [
+      "Nasz zespół 2026",
+      "Razem na jesienną wycieczkę",
+      "24–25 paź 2026  Zakopane"
+    ],
+    "themes": [
+      "Klasyczny",
+      "Jesienna wycieczka",
+      "Wiosenne kwiaty",
+      "Letnia plaża",
+      "Zima",
+      "Imprezowy wieczór",
+      "Impreza na koniec roku",
+      "Urodziny",
+      "Dzień sportu",
+      "Kibicowanie",
+      "Rozdanie dyplomów",
+      "Ślub",
+      "Warsztaty firmowe"
+    ]
+  },
+  "problem": {
+    "title": "Zamawiasz baner dla jednego zdjęcia?",
+    "text": "Zamawiasz go, taszczysz na wyjazd, a potem nikt nie wie, gdzie go schować. A że nie ma kto zrobić zdjęcia, ktoś zawsze zostaje poza kadrem. ShutterLink stawia baner w kadrze i zamienia iPhone’a znajomego w pilota, żeby na zdjęciu z banerem byli wszyscy."
+  },
+  "features": [
+    {
+      "title": "Baner na Twoją okazję w minutę",
+      "text": "Wybierz jeden z 13 motywów, np. jesienną wycieczkę, wiosenne kwiaty, imprezę na koniec roku, urodziny, dzień sportu, rozdanie dyplomów, ślub czy warsztaty firmowe, i wpisz do trzech wierszy własnego tekstu.\nZmień tło, czcionkę, ozdoby, kolory i proporcje, dodaj swoje logo. Do wyboru tkanina, winyl albo papier: baner z tkaniny ugina się, marszczy i faluje na wietrze jak prawdziwy.",
+      "shot": "bannerDesign"
+    },
+    {
+      "title": "Pilot bez instalowania czegokolwiek",
+      "text": "Stuknij przycisk pilota w lewym górnym rogu, a pojawi się kod QR. Znajomy skanuje go zwykłym Aparatem, a ShutterLink Remote od razu otwiera się jako App Clip i łączy.\nNa podglądzie na żywo w pilocie widać nawet baner, więc kadrujesz i naciskasz migawkę. Każde zdjęcie od razu trafia na iPhone’a z pilotem, więc znajomy bez aplikacji może je zapisać i udostępnić na miejscu.",
+      "shot": "banner"
+    }
+  ],
+  "steps": {
+    "title": "Trzy kroki na start",
+    "items": [
+      {
+        "title": "Postaw iPhone’a",
+        "text": "Otwórz ShutterLink i postaw telefon na statywie albo półce."
+      },
+      {
+        "title": "Ustaw baner",
+        "text": "Wybierz na dole Baner, ustaw pędzlem tekst i motyw, a potem stuknij podłoże, gdzie stanie grupa."
+      },
+      {
+        "title": "Podnieś dłoń",
+        "text": "Podnieś dłoń albo naciśnij migawkę na pilocie. Samowyzwalacz odliczy i zrobi zdjęcie."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Stworzone do zdjęć grupowych",
+    "rows": [
+      [
+        "Gest dłonią · migawka na klaśnięcie",
+        "Podnieś otwartą dłoń w stronę aparatu albo raz głośno klaśnij, żeby uruchomić samowyzwalacz"
+      ],
+      [
+        "Migawka na uśmiech",
+        "Robi zdjęcie sama, gdy wszyscy uśmiechają się z otwartymi oczami"
+      ],
+      [
+        "Samowyzwalacz 3 · 5 · 10 · 20 · 30 s",
+        "Głos odlicza, lampa błyska w rytm, a pilot wibruje w dłoni"
+      ],
+      [
+        "Poproś wszystkich, by patrzyli w obiektyw",
+        "Stuknij, a iPhone robiący zdjęcie zawoła na głos, żeby wszyscy spojrzeli w obiektyw"
+      ],
+      [
+        "Seria 3 · 5 zdjęć",
+        "Wybiera najlepsze ujęcie, na którym wszyscy mają otwarte oczy. W galerii możesz wybrać inne"
+      ],
+      [
+        "Liczba osób · krawędzie · poziomica",
+        "Liczy osoby w kadrze, ostrzega, gdy ktoś jest przy krawędzi, i pokazuje poziomicę, gdy telefon się przechyla"
+      ],
+      [
+        "Interwał od 3 s do 1 min",
+        "Uchwyć zachód słońca albo postęp pracy w równych odstępach"
+      ],
+      [
+        "Sterowanie aparatem",
+        "Ostrość i ekspozycja stuknięciem, korekta ekspozycji, lampa, siatka, zoom od 0,5x do 10x zależnie od modelu, przedni i tylny aparat, wideo"
+      ],
+      [
+        "Tryb prosty",
+        "Pilot pokazuje tylko jeden duży przycisk migawki, z którym każdy sobie poradzi"
+      ],
+      [
+        "Przyciski głośności · Sterowanie aparatem",
+        "Rób zdjęcia bezpośrednio na iPhonie z aparatem, bez pilota"
+      ]
+    ],
+    "note": "W trybie banera nie działają lampa, zdjęcia seryjne, zoom ani przedni aparat. Samowyzwalacz, migawka na dłoń i pilot działają normalnie."
+  },
+  "pricing": {
+    "title": "Wszystkie funkcje są bezpłatne",
+    "free": {
+      "name": "Za darmo",
+      "items": [
+        "Tryb banera i 13 motywów",
+        "Pilot bez instalacji (App Clip)",
+        "Migawka na dłoń, klaśnięcie i uśmiech, samowyzwalacz",
+        "Najlepsze ujęcie, liczenie osób, poziomica",
+        "Wideo i zdjęcia interwałowe"
+      ]
+    },
+    "pro": {
+      "name": "Napiwek (opcjonalnie)",
+      "items": [
+        "W Ustawieniach możesz wysłać mały, średni albo duży napiwek",
+        "Napiwek niczego nie odblokowuje ani nie blokuje"
+      ],
+      "note": "To nie subskrypcja. Płacisz raz, tylko gdy dajesz napiwek."
+    },
+    "note": "Bez reklam i bez zakładania konta."
+  },
+  "faq": {
+    "title": "Najczęstsze pytania",
+    "items": [
+      {
+        "q": "Czego potrzebuję?",
+        "a": "Zainstaluj ShutterLink na iPhonie, który robi zdjęcia (iOS 17 lub nowszy). Na iPhonie z pilotem nic nie trzeba instalować, internet jest potrzebny tylko przy pierwszym otwarciu App Clip. Włącz Bluetooth na obu i trzymaj je blisko siebie, zwykle do 10 m."
+      },
+      {
+        "q": "Skanuję kod QR, ale App Clip się nie otwiera.",
+        "a": "Sprawdź, czy iPhone z pilotem ma internet. Możesz też wpisać w ShutterLink Remote czterocyfrowy kod z iPhone’a robiącego zdjęcie i stuknąć Połącz. Upewnij się też, że App Clip nie są zablokowane w Ustawienia › Czas przed ekranem › Ograniczenia treści i prywatności."
+      },
+      {
+        "q": "Zawiesza się na „Szukanie aparatu…”.",
+        "a": "ShutterLink musi być otwarty na ekranie iPhone’a robiącego zdjęcie. Sprawdź na obu telefonach, czy Bluetooth jest włączony w Ustawienia › Bluetooth. Kod zmienia się przy każdym otwarciu aplikacji, więc jeśli otworzyłeś ją ponownie, użyj nowego kodu QR lub kodu i stuknij Spróbuj ponownie."
+      },
+      {
+        "q": "Widzę „Odmowa dostępu do Bluetooth”.",
+        "a": "Włącz ShutterLink w Ustawienia › Prywatność i ochrona › Bluetooth. Pilot to App Clip i może go nie być na liście. Wtedy zeskanuj kod QR jeszcze raz i stuknij Pozwól, gdy pojawi się pytanie."
+      },
+      {
+        "q": "Podgląd na żywo się tnie albo jest rozmazany.",
+        "a": "Podgląd jest celowo pomniejszony, żeby przechodził przez Bluetooth. Zdjęcia i filmy zapisują się w pełnej jakości iPhone’a robiącego zdjęcie. Ściany, ludzie albo duża odległość mogą powodować przycięcia, ale migawka i pozostałe funkcje działają dalej."
+      },
+      {
+        "q": "Gdzie są moje zdjęcia?",
+        "a": "W Zdjęciach na iPhonie robiącym zdjęcie i w galerii aplikacji. Pilot też dostaje kopię, ale sam jej nie zapisuje, więc zapisz ją lub udostępnij przed zamknięciem pilota. Jeśli w Zdjęciach nic się nie pojawia, zezwól ShutterLink w Ustawienia › Prywatność i ochrona › Zdjęcia."
+      },
+      {
+        "q": "Moje filmy nie mają dźwięku.",
+        "a": "Włącz ShutterLink w Ustawienia › Prywatność i ochrona › Mikrofon."
+      },
+      {
+        "q": "Czy mogę połączyć kilka pilotów?",
+        "a": "Tak. Kilka iPhone’ów może połączyć się naraz tym samym kodem QR lub kodem, a każdy z nich wyzwala ten sam aparat."
+      },
+      {
+        "q": "Połączenie zrywa się podczas robienia zdjęć.",
+        "a": "Gdy ShutterLink jest otwarty, ekran nie gaśnie sam. Zablokowanie telefonu bocznym przyciskiem lub przejście do innej aplikacji zrywa połączenie, więc podczas zdjęć trzymaj aplikację na ekranie."
+      },
+      {
+        "q": "Czy moje zdjęcia są gdzieś wysyłane?",
+        "a": "Nie. Oba iPhone’y łączą się bezpośrednio przez Bluetooth, a zdjęcia i filmy zostają tylko na iPhonie robiącym zdjęcie i połączonym pilocie. Działa też w górach czy na plaży bez zasięgu i nie wymaga konta."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Na następnym spotkaniu\nbaner trzymają wszyscy",
+    "cta": "Pobierz za darmo w App Store"
+  },
+  "ui": {
+    "skip": "Przejdź do treści",
+    "languages": "Język",
+    "privacy": "Polityka prywatności",
+    "contact": "Nadal nie działa albo znalazłeś błąd? Napisz na {email}. Podaj modele i wersje iOS obu iPhone’ów, wtedy sprawdzimy to szybciej."
+  }
+}

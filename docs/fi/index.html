@@ -1,123 +1,184 @@
 <!doctype html>
 <html lang="fi">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ShutterLink</title>
-<meta name="description" content="Ota ryhmäkuva, jossa kaikki pitelevät bannerin, ilman että painat bannerin. Valitse teema, kirjoita teksti, ja ystävän iPhone muuttuu kaukosäätimeksi ilman asennusta.">
-<link rel="icon" href="../icon.png">
-<link rel="apple-touch-icon" href="../icon.png">
-<link rel="canonical" href="https://m1zz.github.io/ShutterLink/fi/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
-<link rel="stylesheet" href="../style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShutterLink: ryhmäkuva bannerin kanssa ilman banneria</title>
+  <meta name="description" content="Kirjoita teksti, valitse teema, ja banneri ilmestyy koko porukan eteen. Kaverin iPhonesta tulee kaukosäädin yhdellä QR-koodilla. Kaikki ilmaiseksi.">
+  <meta name="theme-color" content="#996A00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=">
+  <link rel="canonical" href="https://m1zz.github.io/ShutterLink/fi/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ShutterLink: ryhmäkuva bannerin kanssa ilman banneria">
+  <meta property="og:description" content="Kirjoita teksti, valitse teema, ja banneri ilmestyy koko porukan eteen. Kaverin iPhonesta tulee kaukosäädin yhdellä QR-koodilla. Kaikki ilmaiseksi.">
+  <meta property="og:url" content="https://m1zz.github.io/ShutterLink/fi/">
+  <meta property="og:image" content="https://m1zz.github.io/ShutterLink/img/fi/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#996A00}@media (prefers-color-scheme:dark){:root{--accent:#FFCC00}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<nav class="nav">
-  <a class="brand" href="./"><img src="../icon.png" alt="">ShutterLink</a>
-  <a href="./" aria-current="page">Tietoa</a>
-  <a href="support/">Tuki</a>
-  <a href="privacy/">Tietosuojakäytäntö</a>
-  <a href="../" hreflang="ko" lang="ko">한국어</a>
-  <a href="../en/" hreflang="en" lang="en">English</a>
-  <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-  <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-  <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-  <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-  <a href="../es/" hreflang="es" lang="es">Español</a>
-  <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-  <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-  <a href="../it/" hreflang="it" lang="it">Italiano</a>
-  <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-  <a href="../th/" hreflang="th" lang="th">ไทย</a>
-  <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-  <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-  <a href="../da/" hreflang="da" lang="da">Dansk</a>
-  <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-  <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-  <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-  <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-  <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-  <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-  <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-</nav>
-<main>
-  <header class="hero">
-    <img src="../icon.png" alt="">
-    <h1>Ryhmäkuva bannerilla, ei painatusta</h1>
-    <p class="lead">Kirjoita teksti, valitse teema, ja banneri ilmestyy ryhmäsi eteen. Nosta kämmen tai käytä kaukosäädintä, niin kuvaajakin pääsee kuvaan.</p>
-    <span class="pair">Kaukosäädin aukeaa yhdellä QR-skannauksella, ilman asennusta</span>
+  <a class="skip" href="#main">Siirry sisältöön</a>
+  <header class="bar">
+    <a class="brand" href="../fi/"><img src="../icon.png" alt="" width="32" height="32">ShutterLink</a>
+    <a class="lang-link" href="#languages">Kieli</a>
   </header>
 
-  <section class="panel steps">
-    <h2>Näin se toimii</h2>
-    <ol>
-      <li>Avaa ShutterLink iPhonessa, jolla kuvaat, ja aseta se kolmijalalle tai hyllylle.</li>
-      <li>Valitse Banneri laukaisimen yläpuolella olevalta tilariviltä ja napauta oikean yläkulman sivellintä asettaaksesi tekstin ja teeman.</li>
-      <li>Napauta lattiaa kohdasta, johon ryhmä asettuu, ja banneri ilmestyy korkeudelle, jolla sitä pideltäisiin. Napauta seinää ripustaaksesi sen sinne.</li>
-      <li>Aseta ajastin ja nosta kämmen tai paina laukaisinta kaukosäätimestä.</li>
-    </ol>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Ryhmäkuva bannerin kanssa.<br>Ilman painettua banneria.</h1>
+        <p class="lead">Kirjoita teksti, valitse teema, ja banneri asettuu suoraan porukan eteen. Kaverin iPhonesta tulee kaukosäädin yhdellä QR-skannauksella, joten myös kuvaaja pääsee kuvaan.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id">Lataa ilmaiseksi App Storesta</a><a class="try" href="#try">Tee oma banneri ↓</a></div>
+        <p class="muted small">Kaikki ominaisuudet ovat ilmaisia. Vaatii iOS 17:n tai uudemman.</p>
+      </div>
+      <div class="phone"><img src="../img/fi/banner.jpg" alt="Ryhmäkuva bannerin kanssa. Ilman painettua banneria." width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <section class="panel">
-    <h2>Banneri</h2>
-    <ul>
-      <li>13 teemaa, muun muassa syysretki, kevätpiknik, pikkujoulut, syntymäpäivä, urheilupäivä, valmistujaiset, häät ja tiimiretki.</li>
-      <li>Muokkaa kolmea tekstiriviä, taustaa, fonttia, koristeita, värejä, muotoa ja logoa.</li>
-      <li>Kangas, vinyyli tai paperi. Kangasbanneri lerpattaa, ryppyyntyy ja heiluu tuulessa.</li>
-      <li>Vedä ylös, alas tai sivuille, käännä tai muuta kokoa kahdella sormella ja hienosäädä siirtopainikkeella.</li>
-    </ul>
-  </section>
 
-  <section class="panel">
-    <h2>Kaukosäädin ilman asennusta</h2>
-    <ul>
-      <li>Napauta vasemman yläkulman kaukosäädinpainiketta, niin näkyviin tulee QR-koodi ja nelinumeroinen parituskoodi.</li>
-      <li>Osoita toisen iPhonen kameralla QR-koodia. ShutterLink-kaukosäädin aukeaa heti App Clipinä ja yhdistyy.</li>
-      <li>Kaukosäädin näyttää live-esikatselun, Banneri-tilassa myös bannerin.</li>
-      <li>Jokainen kuva päätyy myös kaukosäätimelle, joten ilman sovellusta oleva ystävä voi tallentaa ja jakaa sen.</li>
-      <li>Kaksi iPhonea yhdistyy suoraan Bluetoothilla, joten se toimii ilman Wi‑Fiä tai mobiilidataa.</li>
-    </ul>
-  </section>
+    <section class="reveal" id="try">
+      <h2>Tee oma banneri</h2>
+      <p class="muted">Muokkaa tekstiä ja napauta teemaa. Kun painat laukaisinta, se laskee kolmeen kuten sovelluksessa.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Tee oma banneri&quot;, &quot;lead&quot;: &quot;Muokkaa tekstiä ja napauta teemaa. Kun painat laukaisinta, se laskee kolmeen kuten sovelluksessa.&quot;, &quot;textLabel&quot;: &quot;Teksti&quot;, &quot;fields&quot;: [&quot;Ylärivi&quot;, &quot;Iso keskirivi&quot;, &quot;Alarivi&quot;], &quot;themeLabel&quot;: &quot;Teema&quot;, &quot;shutter&quot;: &quot;Ota kuva 3 sekunnin ajastimella&quot;, &quot;shot&quot;: &quot;Naps! Sovelluksessa kuva tallentuu Kuviin ja tulee heti kaukosäätimenä olevaan iPhoneen.&quot;, &quot;note&quot;: &quot;Tässä verkkokokeilussa banneri on piirroksen päällä. Sovelluksessa se seisoo kamerakuvan oikealla lattialla tai seinällä, ja kangasbanneri hulmuaa tuulessa.&quot;, &quot;lines&quot;: [&quot;Tiimimme 2026&quot;, &quot;Syysretki yhdessä&quot;, &quot;24.–25.10.2026  Nuuksio&quot;], &quot;themes&quot;: [&quot;Klassinen&quot;, &quot;Syysretki&quot;, &quot;Kevään kukat&quot;, &quot;Kesäranta&quot;, &quot;Talvi&quot;, &quot;Juhlailta&quot;, &quot;Pikkujoulut&quot;, &quot;Syntymäpäivä&quot;, &quot;Urheilupäivä&quot;, &quot;Kannustus&quot;, &quot;Valmistujaiset&quot;, &quot;Häät&quot;, &quot;Yrityksen työpaja&quot;]}"></div>
+    </section>
 
-  <section class="panel">
-    <h2>Tehty ryhmäkuviin</h2>
-    <ul>
-      <li>Nosta kämmen, hymyilkää yhdessä tai taputtakaa, niin suljin laukeaa.</li>
-      <li>Ajastimet 3–30 sekuntia puhutulla lähtölaskennalla, vilkkuvalla salamalla ja kaukosäätimen värinällä.</li>
-      <li>3 tai 5 kuvan sarjat säilyttävät sen, jossa kaikilla on silmät auki.</li>
-      <li>Henkilölaskuri, varoitus kun joku on reunalla ja vesivaaka kun iPhone kallistuu.</li>
-      <li>Tarkennus ja valotus napauttamalla, valotuskorjaus, salama, ruudukko, zoomaus 0,5×–10×, etu- ja takakamera, video ja välikuvaus.</li>
-      <li>Kuvat ja videot tallentuvat sen iPhonen Kuvat-sovellukseen, joka ne otti.</li>
-    </ul>
-  </section>
+    <section class="problem reveal">
+      <h2>Tilaatko bannerin yhtä kuvaa varten?</h2>
+      <p>Tilaat sen, raahaat retkelle, ja jälkeenpäin kukaan ei tiedä, minne sen laittaisi. Eikä kukaan jää ottamaan kuvaa, joten joku puuttuu aina. ShutterLink tuo bannerin kamerakuvaan ja tekee kaverin iPhonesta kaukosäätimen, jotta koko porukka pääsee bannerin kanssa kuvaan.</p>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Sopiva banneri minuutissa</h2>
+        <p>Valitse 13 teemasta, kuten syysretki, kevään kukat, pikkujoulut, syntymäpäivä, urheilupäivä, valmistujaiset, häät ja yrityksen työpaja, ja kirjoita enintään kolme riviä omaa tekstiä.<br>Vaihda taustaa, fonttia, koristeita, värejä ja mittasuhteita, ja lisää oma logo. Valitse kangas, vinyyli tai paperi: kangasbanneri notkahtaa, rypistyy ja hulmuaa tuulessa kuin oikea.</p>
+      </div>
+      <div class="phone"><img src="../img/fi/bannerDesign.jpg" alt="Sopiva banneri minuutissa" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Kaukosäädin ilman asennusta</h2>
+        <p>Napauta vasemman yläkulman kaukosäädinpainiketta, niin näkyviin tulee QR-koodi. Kaveri skannaa sen tavallisella Kamera-apilla, ja ShutterLink Remote aukeaa heti App Clipinä ja yhdistää.<br>Kaukosäätimen livekuvassa näkyy jopa banneri, joten rajaa kuva ja paina laukaisinta. Jokainen kuva tulee heti kaukosäätimenä olevaan iPhoneen, joten kaveri ilman sovellusta voi tallentaa ja jakaa sen saman tien.</p>
+      </div>
+      <div class="phone"><img src="../img/fi/banner.jpg" alt="Kaukosäädin ilman asennusta" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Kolme vaihetta alkuun</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Aseta iPhone</h3><p>Avaa ShutterLink ja aseta iPhone jalustalle tai hyllylle.</p></li>
+<li class="card"><span class="n">2</span><h3>Sijoita banneri</h3><p>Valitse alhaalta Banneri, aseta siveltimellä teksti ja teema ja napauta lattiaa siinä, missä porukka seisoo.</p></li>
+<li class="card"><span class="n">3</span><h3>Nosta kämmen</h3><p>Nosta kämmen tai paina kaukosäätimen laukaisinta. Ajastin laskee ja ottaa kuvan.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Tehty ryhmäkuviin</h2>
+      <div class="card table">
+        <dl><div><dt>Kämmenele · taputuslaukaisu</dt><dd>Nosta avoin kämmen kameraa kohti tai taputa kerran kovaa, niin ajastin käynnistyy</dd></div><div><dt>Hymylaukaisu</dt><dd>Ottaa kuvan itse, kun kaikki hymyilevät silmät auki</dd></div><div><dt>Ajastin 3 · 5 · 10 · 20 · 30 s</dt><dd>Ääni laskee alaspäin, salama vilkkuu tahdissa ja kaukosäädin värisee kädessä</dd></div><div><dt>Pyydä kaikkia katsomaan kameraan</dt><dd>Napauta, niin kuvaava iPhone huutaa kaikkia katsomaan objektiiviin</dd></div><div><dt>Sarja 3 · 5 kuvaa</dt><dd>Valitsee parhaan kuvan, jossa kaikilla on silmät auki. Voit vaihtaa sen toiseen galleriassa</dd></div><div><dt>Henkilöt · reunat · vesivaaka</dt><dd>Laskee kuvassa olevat ihmiset, varoittaa jos joku on reunalla ja näyttää vesivaa'an, kun puhelin on vinossa</dd></div><div><dt>Intervalli 3 s – 1 min</dt><dd>Tallenna auringonlasku tai työn eteneminen tasaisin välein</dd></div><div><dt>Kameran säätimet</dt><dd>Tarkennus ja valotus napauttamalla, valotuksen korjaus, salama, ruudukko, zoom 0,5x:stä jopa 10x:ään mallin mukaan, etu- ja takakamera, video</dd></div><div><dt>Helppo tila</dt><dd>Kaukosäädin näyttää vain yhden ison laukaisinpainikkeen, jota kuka tahansa osaa painaa</dd></div><div><dt>Äänenvoimakkuuspainikkeet · Kameran säädin</dt><dd>Ota kuva suoraan kuvaavalla iPhonella ilman kaukosäädintä</dd></div></dl>
+      </div>
+      <p class="muted">Banneritilassa salama, sarjakuvaus, zoom ja etukamera eivät ole käytössä. Ajastin, kämmenlaukaisu ja kaukosäädin toimivat normaalisti.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Kaikki ominaisuudet ovat ilmaisia</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Ilmainen</h3>
+          <ul><li>Banneritila ja 13 teemaa</li><li>Kaukosäädin ilman asennusta (App Clip)</li><li>Laukaisu kämmenellä, taputuksella ja hymyllä sekä ajastin</li><li>Paras kuva, henkilölaskuri ja vesivaaka</li><li>Video ja intervallikuvaus</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Anna tippiä (vapaaehtoinen)</h3>
+          <ul><li>Lähetä pieni, keskikokoinen tai iso tippi Asetuksista</li><li>Tippi ei avaa eikä lukitse mitään</li></ul>
+          <p class="muted">Ei tilaus. Maksat kerran, vain kun annat tippiä.</p>
+        </div>
+      </div>
+      <p class="muted">Ei mainoksia eikä tiliä.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Usein kysyttyä</h2>
+      <div class="faq"><details><summary>Mitä tarvitsen?</summary><p>Asenna ShutterLink kuvaavaan iPhoneen (iOS 17 tai uudempi). Kaukosäätimenä olevaan iPhoneen ei asenneta mitään, se tarvitsee internetin vain ensimmäisellä App Clipin avauskerralla. Pidä Bluetooth päällä kummassakin ja puhelimet lähellä toisiaan, yleensä alle 10 metrin päässä.</p></details>
+<details><summary>Skannaan QR-koodin, mutta App Clip ei aukea.</summary><p>Tarkista, että kaukosäätimenä olevalla iPhonella on internetyhteys. Voit myös syöttää ShutterLink Remoteen kuvaavan iPhonen nelinumeroisen koodin ja napauttaa Yhdistä. Tarkista lisäksi, ettei App Clipejä ole estetty kohdassa Asetukset › Ruutuaika › Sisältö- ja tietosuojarajoitukset.</p></details>
+<details><summary>Se jää kohtaan ”Etsitään kameraa…”.</summary><p>ShutterLinkin täytyy olla auki kuvaavan iPhonen näytöllä. Tarkista kummastakin puhelimesta, että Bluetooth on päällä kohdassa Asetukset › Bluetooth. Koodi vaihtuu aina, kun sovellus avataan, joten jos avasit sen uudelleen, käytä uutta QR-koodia tai koodia ja napauta Yritä uudelleen.</p></details>
+<details><summary>Näkyviin tulee ”Bluetooth-lupa evätty”.</summary><p>Laita ShutterLink päälle kohdassa Asetukset › Tietosuoja ja suojaus › Bluetooth. Kaukosäädin on App Clip, eikä se välttämättä näy listassa. Skannaa silloin QR-koodi uudelleen ja napauta Salli, kun sitä kysytään.</p></details>
+<details><summary>Livekuva nykii tai on sumea.</summary><p>Livekuva on tarkoituksella pienennetty, jotta se kulkee Bluetoothilla. Kuvat ja videot tallentuvat kuvaavan iPhonen täydellä laadulla. Seinät, ihmiset tai pitkä välimatka voivat aiheuttaa nykimistä, mutta laukaisin ja muut säätimet toimivat silti.</p></details>
+<details><summary>Minne kuvani tallentuvat?</summary><p>Kuvaavan iPhonen Kuviin ja sovelluksen galleriaan. Kaukosäädin saa myös kopion, mutta ei tallenna sitä itse, joten tallenna tai jaa se ennen kaukosäätimen sulkemista. Jos Kuviin ei tule mitään, salli ShutterLink kohdassa Asetukset › Tietosuoja ja suojaus › Kuvat.</p></details>
+<details><summary>Videoissa ei ole ääntä.</summary><p>Laita ShutterLink päälle kohdassa Asetukset › Tietosuoja ja suojaus › Mikrofoni.</p></details>
+<details><summary>Voinko yhdistää useamman kaukosäätimen?</summary><p>Kyllä. Useampi iPhone voi yhdistää samaan aikaan samalla QR-koodilla tai koodilla, ja mikä tahansa niistä laukaisee saman kameran.</p></details>
+<details><summary>Yhteys katkeaa kesken kuvaamisen.</summary><p>ShutterLink pitää näytön päällä niin kauan kuin sovellus on auki. Jos lukitset puhelimen sivupainikkeella tai vaihdat sovellusta, yhteys katkeaa, joten pidä sovellus näytöllä kuvaamisen ajan.</p></details>
+<details><summary>Lähetetäänkö kuviani jonnekin?</summary><p>Ei. Kaksi iPhonea yhdistyvät suoraan Bluetoothilla, ja kuvat ja videot jäävät vain kuvaavaan iPhoneen ja yhdistettyyn kaukosäätimeen. Toimii myös tuntureilla tai rannalla ilman kenttää, eikä tiliä tarvita.</p></details></div>
+      <p class="contact">Eikö ratkennut, tai löysitkö bugin? Kirjoita osoitteeseen <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>. Kerro molempien iPhonejen mallit ja iOS-versiot, niin asiaa on nopeampi selvittää.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Seuraavissa kekkereissä<br>kaikki pitelevät banneria</h2>
+      <a class="cta" href="https://apps.apple.com/app/id">Lataa ilmaiseksi App Storesta</a>
+    </section>
+  </main>
 
   <footer>
-    <span><a href="support/">Tuki</a></span><span><a href="privacy/">Tietosuojakäytäntö</a></span>
+    <nav id="languages" class="langs" aria-label="Kieli"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi" aria-current="page">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Tietosuojakäytäntö</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 ShutterLink</p>
   </footer>
-</main>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

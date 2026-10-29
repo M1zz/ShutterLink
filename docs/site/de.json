@@ -1,0 +1,200 @@
+{
+  "title": "ShutterLink: das Gruppenfoto mit Banner, ganz ohne Banner",
+  "description": "Text schreiben, Thema wählen, und das Banner steht vor der Gruppe. Das iPhone eines Freundes wird per QR-Code zur Fernbedienung. Alles kostenlos.",
+  "hero": {
+    "headline": "Das Gruppenfoto mit Banner.\nOhne Banner drucken.",
+    "lead": "Text schreiben, Thema wählen, und das Banner steht direkt vor deiner Gruppe. Das iPhone eines Freundes wird mit einem QR-Scan zur Fernbedienung, damit auch die Person hinter der Kamera mit aufs Bild kommt.",
+    "cta": "Kostenlos im App Store laden",
+    "note": "Alle Funktionen sind kostenlos. Ab iOS 17."
+  },
+  "demo": {
+    "title": "Gestalte ein Banner",
+    "lead": "Ändere den Text und tippe auf ein Thema. Drückst du den Auslöser, zählt es wie in der App drei Sekunden herunter.",
+    "textLabel": "Text",
+    "fields": [
+      "Obere Zeile",
+      "Große mittlere Zeile",
+      "Untere Zeile"
+    ],
+    "themeLabel": "Thema",
+    "shutter": "Mit 3-Sekunden-Timer auslösen",
+    "shot": "Klick! In der App landet dieses Foto in Fotos und sofort auch auf dem iPhone mit der Fernbedienung.",
+    "note": "In dieser Web-Demo liegt das Banner über einer Zeichnung. In der App steht es auf dem echten Boden oder hängt an der Wand im Kamerabild, und ein Stoffbanner weht im Wind.",
+    "lines": [
+      "Unser Team 2026",
+      "Gemeinsamer Herbstausflug",
+      "24.–25. Okt. 2026  Bodensee"
+    ],
+    "themes": [
+      "Klassisch",
+      "Herbstausflug",
+      "Frühlingsblüten",
+      "Sommerstrand",
+      "Winter",
+      "Partynacht",
+      "Jahresabschlussfeier",
+      "Geburtstag",
+      "Sporttag",
+      "Anfeuern",
+      "Abschluss",
+      "Hochzeit",
+      "Firmenworkshop"
+    ]
+  },
+  "problem": {
+    "title": "Ein Banner bestellen, nur für ein Foto?",
+    "text": "Du bestellst es, schleppst es zum Ausflug, und danach weiß keiner, wohin damit. Und weil niemand übrig ist, der das Foto macht, fehlt am Ende immer jemand. ShutterLink stellt das Banner ins Kamerabild und macht das iPhone eines Freundes zur Fernbedienung, damit alle mit Banner aufs Foto kommen."
+  },
+  "features": [
+    {
+      "title": "Das passende Banner in einer Minute",
+      "text": "Wähle aus 13 Themen wie Herbstausflug, Frühlingsblüten, Jahresabschlussfeier, Geburtstag, Sporttag, Abschluss, Hochzeit oder Firmenworkshop und schreib bis zu drei Zeilen eigenen Text.\nHintergrund, Schrift, Deko, Farben und Seitenverhältnis lassen sich ändern, und dein Logo kommt auch drauf. Wähle Stoff, Vinyl oder Papier: Ein Stoffbanner hängt durch, wirft Falten und weht im Wind wie ein echtes.",
+      "shot": "bannerDesign"
+    },
+    {
+      "title": "Fernbedienung ohne Installation, per QR-Code",
+      "text": "Tippe oben links auf die Fernbedienungstaste, und ein QR-Code erscheint. Dein Freund scannt ihn mit der Kamera-App, und ShutterLink Remote öffnet sich sofort als App Clip und verbindet sich.\nIm Live-Bild der Fernbedienung ist sogar das Banner zu sehen: Bild ausrichten, Auslöser drücken, fertig. Jedes Foto kommt sofort auf dem iPhone mit der Fernbedienung an, sodass auch Freunde ohne App es direkt sichern und teilen können.",
+      "shot": "banner"
+    }
+  ],
+  "steps": {
+    "title": "In drei Schritten startklar",
+    "items": [
+      {
+        "title": "iPhone aufstellen",
+        "text": "Öffne ShutterLink und stell das iPhone auf ein Stativ oder Regal."
+      },
+      {
+        "title": "Banner platzieren",
+        "text": "Wähle unten Banner, leg mit dem Pinsel Text und Thema fest und tippe auf den Boden, wo die Gruppe stehen wird."
+      },
+      {
+        "title": "Hand heben",
+        "text": "Heb die Handfläche oder drück den Auslöser auf der Fernbedienung. Der Timer zählt herunter und löst aus."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Gemacht für Gruppenfotos",
+    "rows": [
+      [
+        "Handflächen-Geste · Klatsch-Auslöser",
+        "Heb die offene Hand zur Kamera oder klatsch einmal laut, um den Timer zu starten"
+      ],
+      [
+        "Lächel-Auslöser",
+        "Löst von selbst aus, wenn alle mit offenen Augen lächeln"
+      ],
+      [
+        "Timer 3 · 5 · 10 · 20 · 30 s",
+        "Eine Stimme zählt herunter, der Blitz blinkt mit, und die Fernbedienung vibriert in der Hand"
+      ],
+      [
+        "Alle bitten, in die Kamera zu schauen",
+        "Ein Tipp, und das Kamera-iPhone ruft laut, damit alle in die Linse schauen"
+      ],
+      [
+        "Serie mit 3 · 5 Fotos",
+        "Wählt das beste Foto, auf dem alle die Augen offen haben. In der Galerie kannst du ein anderes nehmen"
+      ],
+      [
+        "Personen · Bildrand · Wasserwaage",
+        "Zählt die Personen im Bild, warnt, wenn jemand am Rand steht, und zeigt eine Wasserwaage, wenn das iPhone schief ist"
+      ],
+      [
+        "Intervall von 3 s bis 1 min",
+        "Halte einen Sonnenuntergang oder den Fortschritt eines Projekts in festen Abständen fest"
+      ],
+      [
+        "Kamerasteuerung",
+        "Fokus und Belichtung per Tippen, Belichtungskorrektur, Blitz, Raster, Zoom von 0,5x bis 10x je nach Modell, Front- und Rückkamera, Video"
+      ],
+      [
+        "Einfacher Modus",
+        "Die Fernbedienung zeigt nur einen großen Auslöser, den wirklich jeder drücken kann"
+      ],
+      [
+        "Lautstärketasten · Kamerasteuerung",
+        "Direkt am Kamera-iPhone auslösen, ganz ohne Fernbedienung"
+      ]
+    ],
+    "note": "Im Banner-Modus sind Blitz, Serienbilder, Zoom und Frontkamera nicht verfügbar. Timer, Handflächen-Auslöser und Fernbedienung funktionieren weiterhin."
+  },
+  "pricing": {
+    "title": "Alle Funktionen sind kostenlos",
+    "free": {
+      "name": "Kostenlos",
+      "items": [
+        "Banner-Modus mit 13 Themen",
+        "Fernbedienung ohne Installation (App Clip)",
+        "Auslösen per Handfläche, Klatschen und Lächeln, dazu Timer",
+        "Bestes Foto, Personenzählung und Wasserwaage",
+        "Video und Intervallaufnahmen"
+      ]
+    },
+    "pro": {
+      "name": "Trinkgeld geben (freiwillig)",
+      "items": [
+        "In den Einstellungen ein kleines, mittleres oder großes Trinkgeld senden",
+        "Trinkgeld schaltet nichts frei und sperrt nichts"
+      ],
+      "note": "Kein Abo. Du zahlst einmal, nur wenn du Trinkgeld gibst."
+    },
+    "note": "Keine Werbung, kein Konto."
+  },
+  "faq": {
+    "title": "Häufige Fragen",
+    "items": [
+      {
+        "q": "Was brauche ich?",
+        "a": "Installiere ShutterLink auf dem iPhone, das fotografiert (ab iOS 17). Auf dem iPhone mit der Fernbedienung muss nichts installiert werden, es braucht nur beim ersten Öffnen des App Clips einmal Internet. Lass Bluetooth auf beiden an und die Geräte nah beieinander, meist innerhalb von 10 m."
+      },
+      {
+        "q": "Ich scanne den QR-Code, aber der App Clip öffnet sich nicht.",
+        "a": "Prüfe, ob das iPhone mit der Fernbedienung online ist. Du kannst auch den vierstelligen Code des Kamera-iPhones in ShutterLink Remote eingeben und auf Verbinden tippen. Sieh außerdem nach, ob App Clips unter Einstellungen › Bildschirmzeit › Beschränkungen blockiert sind."
+      },
+      {
+        "q": "Es hängt bei „Suche nach Kamera …“.",
+        "a": "ShutterLink muss auf dem Kamera-iPhone geöffnet und auf dem Bildschirm sein. Prüfe auf beiden iPhones unter Einstellungen › Bluetooth, ob Bluetooth an ist. Der Code ändert sich bei jedem Öffnen der App. Hast du sie neu geöffnet, nutze den neuen QR-Code oder Code und tippe auf Erneut versuchen."
+      },
+      {
+        "q": "Ich sehe „Bluetooth-Zugriff verweigert“.",
+        "a": "Aktiviere ShutterLink unter Einstellungen › Datenschutz & Sicherheit › Bluetooth. Die Fernbedienung ist ein App Clip und steht dort eventuell nicht in der Liste. Scanne dann den QR-Code erneut und tippe bei der Abfrage auf Erlauben."
+      },
+      {
+        "q": "Das Live-Bild ruckelt oder ist unscharf.",
+        "a": "Das Live-Bild wird absichtlich verkleinert, damit es über Bluetooth passt. Fotos und Videos werden in voller Qualität des Kamera-iPhones gespeichert. Wände, Menschen oder viel Abstand können zu Rucklern führen, Auslöser und alle anderen Funktionen arbeiten aber weiter."
+      },
+      {
+        "q": "Wo landen meine Fotos?",
+        "a": "In Fotos auf dem Kamera-iPhone und in der Galerie der App. Die Fernbedienung bekommt auch eine Kopie, speichert sie aber nicht von selbst. Sichere oder teile sie also, bevor du die Fernbedienung schließt. Kommt in Fotos nichts an, erlaube ShutterLink unter Einstellungen › Datenschutz & Sicherheit › Fotos."
+      },
+      {
+        "q": "Meine Videos haben keinen Ton.",
+        "a": "Aktiviere ShutterLink unter Einstellungen › Datenschutz & Sicherheit › Mikrofon."
+      },
+      {
+        "q": "Kann ich mehrere Fernbedienungen verbinden?",
+        "a": "Ja. Mehrere iPhones können sich gleichzeitig mit demselben QR-Code oder Code verbinden, und jedes davon löst dieselbe Kamera aus."
+      },
+      {
+        "q": "Die Verbindung bricht beim Fotografieren ab.",
+        "a": "Solange ShutterLink geöffnet ist, bleibt der Bildschirm an. Sperrst du das iPhone mit der Seitentaste oder wechselst die App, bricht die Verbindung ab. Lass die App beim Fotografieren also im Vordergrund."
+      },
+      {
+        "q": "Werden meine Fotos irgendwo hochgeladen?",
+        "a": "Nein. Die beiden iPhones verbinden sich direkt per Bluetooth, und Fotos und Videos bleiben nur auf dem Kamera-iPhone und der verbundenen Fernbedienung. Das klappt auch in den Bergen oder am Strand ohne Netz, und ein Konto brauchst du nicht."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Beim nächsten Treffen\nhalten alle das Banner",
+    "cta": "Kostenlos im App Store laden"
+  },
+  "ui": {
+    "skip": "Zum Inhalt springen",
+    "languages": "Sprache",
+    "privacy": "Datenschutzerklärung",
+    "contact": "Noch nicht gelöst oder einen Fehler gefunden? Schreib an {email}. Gib die Modelle und iOS-Versionen beider iPhones an, dann geht es schneller."
+  }
+}

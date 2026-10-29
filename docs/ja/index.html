@@ -1,123 +1,184 @@
 <!doctype html>
 <html lang="ja">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ShutterLink</title>
-<meta name="description" content="横断幕を用意しなくても、みんなで横断幕を持った集合写真が撮れます。テーマを選んで文字を入れるだけ。お友だちのiPhoneがインストール不要でリモコンになります。">
-<link rel="icon" href="../icon.png">
-<link rel="apple-touch-icon" href="../icon.png">
-<link rel="canonical" href="https://m1zz.github.io/ShutterLink/ja/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
-<link rel="stylesheet" href="../style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShutterLink：横断幕を持った集合写真を、横断幕なしで</title>
+  <meta name="description" content="文字とテーマを選ぶと、画面の中の横断幕がみんなの前に置かれます。友だちのiPhoneはQRを読むだけでリモコンに。すべての機能が無料です。">
+  <meta name="theme-color" content="#996A00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=">
+  <link rel="canonical" href="https://m1zz.github.io/ShutterLink/ja/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ShutterLink：横断幕を持った集合写真を、横断幕なしで">
+  <meta property="og:description" content="文字とテーマを選ぶと、画面の中の横断幕がみんなの前に置かれます。友だちのiPhoneはQRを読むだけでリモコンに。すべての機能が無料です。">
+  <meta property="og:url" content="https://m1zz.github.io/ShutterLink/ja/">
+  <meta property="og:image" content="https://m1zz.github.io/ShutterLink/img/ja/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#996A00}@media (prefers-color-scheme:dark){:root{--accent:#FFCC00}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<nav class="nav">
-  <a class="brand" href="./"><img src="../icon.png" alt="">ShutterLink</a>
-  <a href="./" aria-current="page">アプリについて</a>
-  <a href="support/">サポート</a>
-  <a href="privacy/">プライバシーポリシー</a>
-  <a href="../" hreflang="ko" lang="ko">한국어</a>
-  <a href="../en/" hreflang="en" lang="en">English</a>
-  <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-  <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-  <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-  <a href="../es/" hreflang="es" lang="es">Español</a>
-  <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-  <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-  <a href="../it/" hreflang="it" lang="it">Italiano</a>
-  <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-  <a href="../th/" hreflang="th" lang="th">ไทย</a>
-  <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-  <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-  <a href="../da/" hreflang="da" lang="da">Dansk</a>
-  <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-  <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-  <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-  <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-  <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-  <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-  <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-  <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-</nav>
-<main>
-  <header class="hero">
-    <img src="../icon.png" alt="">
-    <h1>横断幕なしで、横断幕の集合写真</h1>
-    <p class="lead">文字を入れてテーマを選ぶと、グループの前に横断幕が現れます。手のひらをかざしたりリモコンを使ったりすれば、撮影する人も一緒に写れます。</p>
-    <span class="pair">QRコードを1回読み取るだけでリモコンが開きます。インストールは不要です</span>
+  <a class="skip" href="#main">本文へスキップ</a>
+  <header class="bar">
+    <a class="brand" href="../ja/"><img src="../icon.png" alt="" width="32" height="32">ShutterLink</a>
+    <a class="lang-link" href="#languages">言語</a>
   </header>
 
-  <section class="panel steps">
-    <h2>使い方</h2>
-    <ol>
-      <li>撮影するiPhoneでShutterLinkを開き、三脚や棚に立てます。</li>
-      <li>シャッターの上のモード欄で「横断幕」を選び、右上のブラシをタップして文字とテーマを決めます。</li>
-      <li>みんなが立つ場所の床をタップすると、人が持つ高さに横断幕が置かれます。壁をタップすると壁に掛けられます。</li>
-      <li>タイマーをセットして手のひらをかざすか、リモコンのシャッターを押します。</li>
-    </ol>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>横断幕を持った集合写真、<br>横断幕なしで</h1>
+        <p class="lead">文字を入れてテーマを選ぶと、画面の中の横断幕がみんなの前に置かれます。友だちのiPhoneはQRを読むだけでリモコンになり、撮る人も一緒に写れます。</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id">App Storeで無料ダウンロード</a><a class="try" href="#try">横断幕を作ってみましょう ↓</a></div>
+        <p class="muted small">すべての機能が無料です。iOS 17以降に対応しています。</p>
+      </div>
+      <div class="phone"><img src="../img/ja/banner.jpg" alt="横断幕を持った集合写真、 横断幕なしで" width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <section class="panel">
-    <h2>横断幕</h2>
-    <ul>
-      <li>秋の遠足、春のお花見、忘年会、誕生日、運動会、卒業、結婚式、社内研修など、13種類のテーマ。</li>
-      <li>3行の文字、背景、フォント、デコレーション、色、形、ロゴを自由に変更できます。</li>
-      <li>布、ビニール、紙から選べます。布の横断幕は、本物のようにたるんで、しわが寄り、風にゆれます。</li>
-      <li>ドラッグで上下左右に動かし、2本指で回転や拡大縮小。移動ボタンで細かく微調整もできます。</li>
-    </ul>
-  </section>
 
-  <section class="panel">
-    <h2>インストール不要のリモコン</h2>
-    <ul>
-      <li>左上のリモコンボタンをタップすると、QRコードと4桁のペアリングコードが表示されます。</li>
-      <li>別のiPhoneのカメラでQRコードを読み取ると、ShutterLinkリモコンがAppクリップとしてすぐに開き、接続されます。</li>
-      <li>リモコンにはライブプレビューが表示され、横断幕モードでは横断幕も見えます。</li>
-      <li>撮った写真はリモコンにも届くので、アプリを持っていないお友だちもその場で保存・共有できます。</li>
-      <li>2台のiPhoneはBluetoothで直接つながるため、Wi&#8209;Fiやモバイル通信がなくても使えます。</li>
-    </ul>
-  </section>
+    <section class="reveal" id="try">
+      <h2>横断幕を作ってみましょう</h2>
+      <p class="muted">文字を書き換えて、テーマを選んでみてください。シャッターを押すと、アプリと同じように3秒数えてから撮ります。</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;横断幕を作ってみましょう&quot;, &quot;lead&quot;: &quot;文字を書き換えて、テーマを選んでみてください。シャッターを押すと、アプリと同じように3秒数えてから撮ります。&quot;, &quot;textLabel&quot;: &quot;文字&quot;, &quot;fields&quot;: [&quot;上の行&quot;, &quot;中央の大きな行&quot;, &quot;下の行&quot;], &quot;themeLabel&quot;: &quot;テーマ&quot;, &quot;shutter&quot;: &quot;3秒タイマーで撮る&quot;, &quot;shot&quot;: &quot;パシャッ！アプリではこの写真が写真アプリに保存され、リモコンのiPhoneにもすぐ届きます。&quot;, &quot;note&quot;: &quot;Web版の体験ではイラストの上に横断幕を重ねています。アプリではカメラに映る地面や壁に横断幕が置かれ、布の横断幕は風に揺れます。&quot;, &quot;lines&quot;: [&quot;2026 わたしたちのチーム&quot;, &quot;みんなで歩く秋の遠足&quot;, &quot;2026年10月24日〜25日　海辺のキャンプ場&quot;], &quot;themes&quot;: [&quot;クラシック&quot;, &quot;秋の遠足&quot;, &quot;春のお花見&quot;, &quot;夏の海&quot;, &quot;冬&quot;, &quot;パーティー&quot;, &quot;忘年会&quot;, &quot;誕生日&quot;, &quot;運動会&quot;, &quot;応援&quot;, &quot;卒業&quot;, &quot;結婚式&quot;, &quot;社内研修&quot;]}"></div>
+    </section>
 
-  <section class="panel">
-    <h2>集合写真のための機能</h2>
-    <ul>
-      <li>手のひらをかざす、みんなで笑う、拍手をするとシャッターが切れます。</li>
-      <li>3秒から30秒のタイマー。音声のカウントダウン、フラッシュの点滅、リモコンの振動でタイミングをお知らせします。</li>
-      <li>3枚または5枚の連写から、全員が目を開けている1枚を残します。</li>
-      <li>人数カウンター、画面の端に人がいるときの警告、iPhoneが傾いたときの水準器。</li>
-      <li>タップでピントと露出を合わせ、露出補正、フラッシュ、グリッド、0.5倍〜10倍のズーム、前面・背面カメラ、ビデオ、インターバル撮影に対応。</li>
-      <li>写真とビデオは、撮影したiPhoneの「写真」アプリに保存されます。</li>
-    </ul>
-  </section>
+    <section class="problem reveal">
+      <h2>写真1枚のために横断幕を作っていませんか？</h2>
+      <p>遠足の記念写真のために横断幕を注文して、当日持って行き、終わったらしまう場所に困る。撮ってくれる人もいないので、誰か1人はいつも写真に入れません。ShutterLinkは横断幕を画面の中に出し、友だちのiPhoneをリモコンにして、全員が横断幕を持った写真に収まれるようにします。</p>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>集まりにぴったりの横断幕を1分で</h2>
+        <p>秋の遠足、春のお花見、忘年会、誕生日、運動会、卒業、結婚式、社内研修など13のテーマから選び、3行の文字を自分で入れます。<br>背景、フォント、飾り、色、縦横比を変えたり、ロゴ画像を入れたりもできます。素材は布、ビニール、紙から選べて、布の横断幕は本物のようにたわみ、しわが寄り、風に揺れます。</p>
+      </div>
+      <div class="phone"><img src="../img/ja/bannerDesign.jpg" alt="集まりにぴったりの横断幕を1分で" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>リモコンはインストール不要、QRを読むだけ</h2>
+        <p>左上のリモコンボタンを押すとQRコードが出ます。友だちが標準のカメラで読み取ると、ShutterLink RemoteがApp Clipとしてすぐに開いてつながります。<br>リモコンのライブビューには横断幕まで映るので、構図を決めてそのままシャッターを押すだけ。撮った写真はリモコンのiPhoneにもすぐ届くので、アプリを持っていない友だちもその場で保存して共有できます。</p>
+      </div>
+      <div class="phone"><img src="../img/ja/banner.jpg" alt="リモコンはインストール不要、QRを読むだけ" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>始め方は3ステップ</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>iPhoneを立てる</h3><p>ShutterLinkを開いて、三脚や棚に立てます。</p></li>
+<li class="card"><span class="n">2</span><h3>横断幕を置く</h3><p>下で横断幕を選び、筆のボタンで文字とテーマを決めたら、みんなが立つ場所の地面をタップします。</p></li>
+<li class="card"><span class="n">3</span><h3>手のひらを上げる</h3><p>手のひらを上げるか、リモコンのシャッターを押すと、タイマーが数えて撮影します。</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>集合写真のための機能</h2>
+      <div class="card table">
+        <dl><div><dt>手のひらジェスチャー・拍手シャッター</dt><dd>カメラに向かって手のひらを上げるか、大きく1回手をたたくとタイマーが始まります</dd></div><div><dt>スマイルシャッター</dt><dd>全員が目を開けて笑うと自動で撮ります</dd></div><div><dt>タイマー 3・5・10・20・30秒</dt><dd>音声でカウントダウンし、フラッシュも一緒に点滅。リモコンは手元で振動して知らせます</dd></div><div><dt>全員にカメラを見るよう声をかける</dt><dd>押すとカメラ側のiPhoneが声をかけて、みんなの視線を集めます</dd></div><div><dt>連写 3枚・5枚</dt><dd>全員が目を開けて笑っているベストショットを選んでおきます。ギャラリーで別の1枚に変えることもできます</dd></div><div><dt>人数・端・水準器</dt><dd>写っている人数を数え、端で切れそうな人や画面の傾きを知らせます</dd></div><div><dt>インターバル 3秒〜1分</dt><dd>夕焼けや作業の様子を一定間隔で残せます</dd></div><div><dt>カメラ操作</dt><dd>タップでピントと露出、露出補正、フラッシュ、グリッド、0.5倍から最大10倍のズーム（機種による）、前面・背面の切り替え、ビデオ</dd></div><div><dt>かんたんモード</dt><dd>リモコンに大きなシャッターボタンだけを表示。年配の方でも押しやすくなります</dd></div><div><dt>音量ボタン・カメラコントロール</dt><dd>リモコンがなくても、カメラ側のiPhoneでそのままシャッターを切れます</dd></div></dl>
+      </div>
+      <p class="muted">横断幕モードでは、フラッシュ、連写、ズーム、前面カメラは使えません。タイマー、手のひらシャッター、リモコンはそのまま使えます。</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>すべての機能が無料です</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>無料</h3>
+          <ul><li>横断幕モードと13のテーマ</li><li>インストール不要のリモコン（App Clip）</li><li>手のひら・拍手・スマイルシャッターとタイマー</li><li>ベストショット、人数カウント、水準器</li><li>ビデオとインターバル撮影</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>応援する（任意）</h3>
+          <ul><li>設定から小・中・大の3種類のチップを送れます</li><li>チップで機能が増えたり制限されたりすることはありません</li></ul>
+          <p class="muted">サブスクリプションではなく、送るときだけ1回支払います。</p>
+        </div>
+      </div>
+      <p class="muted">広告もアカウント登録もありません。</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>よくある質問</h2>
+      <div class="faq"><details><summary>何が必要ですか？</summary><p>撮影するiPhoneにShutterLinkをインストールします（iOS 17以降）。リモコンにするiPhoneはインストール不要で、App Clipを初めて開くときだけインターネット接続が必要です。どちらのiPhoneもBluetoothをオンにして、近く（通常10m以内）に置いてください。</p></details>
+<details><summary>QRを読み取ってもApp Clipが開きません。</summary><p>リモコン側のiPhoneがインターネットにつながっているか確認してください。QRの代わりに、ShutterLink Remoteの画面でカメラ側のiPhoneに出ている4桁の接続コードを入れて「接続」を押してもつながります。設定 › スクリーンタイム › コンテンツとプライバシーの制限でApp Clipが制限されていないかも確認してください。</p></details>
+<details><summary>「カメラを探しています…」のまま進みません。</summary><p>カメラ側のiPhoneでShutterLinkが画面に表示されている必要があります。両方のiPhoneで、設定 › BluetoothからBluetoothがオンになっているか確認してください。接続コードはアプリを開くたびに変わるので、アプリを開き直した場合は新しいQRかコードでつなぎ、「再試行」を押してください。</p></details>
+<details><summary>「Bluetoothの使用が許可されていません」と表示されます。</summary><p>設定 › プライバシーとセキュリティ › BluetoothでShutterLinkをオンにしてください。リモコン側はApp Clipのため一覧に出ないことがあります。その場合はQRをもう一度読み取り、許可を求められたら「許可」を押してください。</p></details>
+<details><summary>ライブビューが途切れたりぼやけたりします。</summary><p>ライブビューはBluetoothで送るために、あえて小さくした映像です。実際の写真とビデオはカメラ側のiPhoneの本来の画質で保存されます。2台の間に壁や人がいたり距離が離れたりすると途切れることがありますが、その間もシャッターなどの操作は使えます。</p></details>
+<details><summary>撮った写真はどこにありますか？</summary><p>カメラ側のiPhoneの写真アプリと、アプリ内のギャラリーに保存されます。リモコン側にもコピーが届きますが自動では保存されないので、リモコンを閉じる前に保存するか共有してください。写真アプリに保存されない場合は、設定 › プライバシーとセキュリティ › 写真でShutterLinkを許可してください。</p></details>
+<details><summary>ビデオに音が入りません。</summary><p>設定 › プライバシーとセキュリティ › マイクでShutterLinkをオンにしてください。</p></details>
+<details><summary>リモコンを複数台つなげますか？</summary><p>はい。同じQRや接続コードで複数のiPhoneを同時につなげられ、どのリモコンから押しても同じカメラで撮影します。</p></details>
+<details><summary>撮影中に接続が切れます。</summary><p>ShutterLinkは開いている間、画面が自動で消えないようにしています。サイドボタンでロックしたり別のアプリに切り替えたりすると接続が切れるので、撮影中はアプリを画面に表示したままにしてください。</p></details>
+<details><summary>写真がどこかにアップロードされますか？</summary><p>いいえ。2台のiPhoneはBluetoothで直接つながり、写真とビデオは撮影したiPhoneとつないだリモコンにだけ残ります。電波のない山や海でも使え、アカウントも不要です。</p></details></div>
+      <p class="contact">解決しない場合や不具合を見つけた場合は <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> までお知らせください。2台のiPhoneの機種とiOSのバージョンを書いていただけると、早く確認できます。</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>次の集まりの写真は、<br>みんなで横断幕を持って</h2>
+      <a class="cta" href="https://apps.apple.com/app/id">App Storeで無料ダウンロード</a>
+    </section>
+  </main>
 
   <footer>
-    <span><a href="support/">サポート</a></span><span><a href="privacy/">プライバシーポリシー</a></span>
+    <nav id="languages" class="langs" aria-label="言語"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja" aria-current="page">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">プライバシーポリシー</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 ShutterLink</p>
   </footer>
-</main>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

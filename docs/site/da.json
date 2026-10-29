@@ -1,0 +1,200 @@
+{
+  "title": "ShutterLink: gruppebilledet med banner, uden banner",
+  "description": "Skriv teksten, vælg et tema, og banneret står foran hele gruppen. En vens iPhone bliver fjernbetjening med én QR-kode. Alt er gratis.",
+  "hero": {
+    "headline": "Gruppebilledet med banner.\nUden at trykke et banner.",
+    "lead": "Skriv teksten, vælg et tema, og banneret står lige foran gruppen. En vens iPhone bliver fjernbetjening med én QR-scanning, så den, der tager billedet, også kommer med.",
+    "cta": "Hent gratis i App Store",
+    "note": "Alle funktioner er gratis. Kræver iOS 17 eller nyere."
+  },
+  "demo": {
+    "title": "Lav et banner",
+    "lead": "Ret teksten, og tryk på et tema. Tryk på udløseren, så tæller den ned fra 3, ligesom i appen.",
+    "textLabel": "Tekst",
+    "fields": [
+      "Øverste linje",
+      "Stor midterlinje",
+      "Nederste linje"
+    ],
+    "themeLabel": "Tema",
+    "shutter": "Tag billede med 3-sekunders selvudløser",
+    "shot": "Klik! I appen gemmes billedet i Fotos og lander med det samme på iPhonen med fjernbetjeningen.",
+    "note": "Her på nettet ligger banneret oven på en tegning. I appen står det på det rigtige gulv eller den rigtige væg i kamerabilledet, og et stofbanner blafrer i vinden.",
+    "lines": [
+      "Vores hold 2026",
+      "Efterårstur sammen",
+      "24.–25. okt. 2026  Skagen"
+    ],
+    "themes": [
+      "Klassisk",
+      "Efterårstur",
+      "Forårsblomster",
+      "Sommerstrand",
+      "Vinter",
+      "Festaften",
+      "Nytårsfest",
+      "Fødselsdag",
+      "Idrætsdag",
+      "Heppekor",
+      "Eksamensfest",
+      "Bryllup",
+      "Firmaworkshop"
+    ]
+  },
+  "problem": {
+    "title": "Bestiller du et banner til ét billede?",
+    "text": "Du bestiller det, slæber det med på udflugten, og bagefter ved ingen, hvor det skal være. Og fordi der ikke er nogen tilbage til at tage billedet, mangler der altid én. ShutterLink sætter banneret ind i kamerabilledet og gør en vens iPhone til fjernbetjening, så alle kommer med på billedet med banneret."
+  },
+  "features": [
+    {
+      "title": "Det rigtige banner på et minut",
+      "text": "Vælg mellem 13 temaer som efterårstur, forårsblomster, nytårsfest, fødselsdag, idrætsdag, eksamensfest, bryllup og firmaworkshop, og skriv op til tre linjer med din egen tekst.\nSkift baggrund, skrifttype, pynt, farver og format, og tilføj dit logo. Vælg stof, vinyl eller papir: Et stofbanner hænger, krøller og blafrer i vinden som et rigtigt.",
+      "shot": "bannerDesign"
+    },
+    {
+      "title": "Fjernbetjening uden installation",
+      "text": "Tryk på fjernbetjeningsknappen øverst til venstre, og en QR-kode dukker op. Din ven scanner den med Kamera-appen, og ShutterLink Remote åbner straks som App Clip og forbinder.\nI live-visningen på fjernbetjeningen kan du endda se banneret, så du bare sætter billedet op og trykker. Hvert billede lander straks på iPhonen med fjernbetjeningen, så en ven uden appen kan gemme og dele det på stedet.",
+      "shot": "banner"
+    }
+  ],
+  "steps": {
+    "title": "Tre trin, så er du i gang",
+    "items": [
+      {
+        "title": "Stil iPhonen op",
+        "text": "Åbn ShutterLink, og stil iPhonen på et stativ eller en hylde."
+      },
+      {
+        "title": "Placer banneret",
+        "text": "Vælg Banner nederst, indstil tekst og tema med penslen, og tryk på gulvet, hvor gruppen skal stå."
+      },
+      {
+        "title": "Løft hånden",
+        "text": "Løft håndfladen, eller tryk på udløseren på fjernbetjeningen. Selvudløseren tæller ned og tager billedet."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Lavet til gruppebilleder",
+    "rows": [
+      [
+        "Håndfladebevægelse · klapudløser",
+        "Løft en åben hånd mod kameraet, eller klap én gang højt for at starte selvudløseren"
+      ],
+      [
+        "Smileudløser",
+        "Tager selv billedet, når alle smiler med åbne øjne"
+      ],
+      [
+        "Selvudløser 3 · 5 · 10 · 20 · 30 s",
+        "En stemme tæller ned, blitzen blinker med, og fjernbetjeningen vibrerer i hånden"
+      ],
+      [
+        "Bed alle om at kigge på kameraet",
+        "Tryk, og kamera-iPhonen kalder højt på alle, så de kigger i linsen"
+      ],
+      [
+        "Serie på 3 · 5 billeder",
+        "Vælger det bedste billede, hvor alle har åbne øjne. Du kan skifte til et andet i galleriet"
+      ],
+      [
+        "Antal personer · kanter · vaterpas",
+        "Tæller personerne i billedet, advarer når nogen står i kanten, og viser et vaterpas når telefonen hælder"
+      ],
+      [
+        "Interval fra 3 s til 1 min",
+        "Fang en solnedgang eller et projekt undervejs med faste mellemrum"
+      ],
+      [
+        "Kamerastyring",
+        "Fokus og eksponering med et tryk, eksponeringskorrektion, blitz, gitter, zoom fra 0,5x op til 10x afhængigt af modellen, front- og bagkamera, video"
+      ],
+      [
+        "Enkel tilstand",
+        "Fjernbetjeningen viser kun én stor udløserknap, som alle kan finde ud af"
+      ],
+      [
+        "Lydstyrkeknapper · Kamerastyring",
+        "Tag billedet direkte på kamera-iPhonen, uden fjernbetjening"
+      ]
+    ],
+    "note": "I bannertilstand kan du ikke bruge blitz, serieoptagelse, zoom eller frontkameraet. Selvudløser, håndfladeudløser og fjernbetjening virker som normalt."
+  },
+  "pricing": {
+    "title": "Alle funktioner er gratis",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Bannertilstand med 13 temaer",
+        "Fjernbetjening uden installation (App Clip)",
+        "Udløser med håndflade, klap og smil, plus selvudløser",
+        "Bedste billede, personoptælling og vaterpas",
+        "Video og intervaloptagelse"
+      ]
+    },
+    "pro": {
+      "name": "Giv drikkepenge (valgfrit)",
+      "items": [
+        "Send små, mellemstore eller store drikkepenge fra Indstillinger",
+        "Drikkepenge låser intet op og spærrer intet"
+      ],
+      "note": "Ikke et abonnement. Du betaler én gang, kun når du giver drikkepenge."
+    },
+    "note": "Ingen reklamer og ingen konto."
+  },
+  "faq": {
+    "title": "Ofte stillede spørgsmål",
+    "items": [
+      {
+        "q": "Hvad skal jeg bruge?",
+        "a": "Installer ShutterLink på den iPhone, der tager billedet (iOS 17 eller nyere). På iPhonen med fjernbetjeningen skal intet installeres, den skal kun have internet første gang App Clip'et åbner. Hold Bluetooth slået til på begge, og hold dem tæt på hinanden, typisk inden for 10 m."
+      },
+      {
+        "q": "Jeg scanner QR-koden, men App Clip'et åbner ikke.",
+        "a": "Tjek, at iPhonen med fjernbetjeningen er på internettet. Du kan også skrive kamera-iPhonens firecifrede kode i ShutterLink Remote og trykke på Opret forbindelse. Tjek også, at App Clips ikke er blokeret i Indstillinger › Skærmtid › Indholds- og anonymitetsbegrænsninger."
+      },
+      {
+        "q": "Den hænger ved \"Søger efter kamera …\".",
+        "a": "ShutterLink skal være åben på skærmen på kamera-iPhonen. Tjek, at Bluetooth er slået til i Indstillinger › Bluetooth på begge telefoner. Koden skifter, hver gang appen åbnes, så har du åbnet den igen, skal du bruge den nye QR-kode eller kode og trykke på Prøv igen."
+      },
+      {
+        "q": "Jeg ser \"Bluetooth-adgang afvist\".",
+        "a": "Slå ShutterLink til i Indstillinger › Anonymitet og sikkerhed › Bluetooth. Fjernbetjeningen er et App Clip og står måske ikke på listen. Scan i så fald QR-koden igen, og tryk på Tillad, når du bliver spurgt."
+      },
+      {
+        "q": "Live-visningen hakker eller er sløret.",
+        "a": "Live-visningen er med vilje gjort lille, så den kan sendes over Bluetooth. Billeder og videoer gemmes i kamera-iPhonens fulde kvalitet. Vægge, mennesker eller afstand kan give hak, men udløseren og de andre funktioner virker stadig."
+      },
+      {
+        "q": "Hvor havner mine billeder?",
+        "a": "I Fotos på kamera-iPhonen og i appens galleri. Fjernbetjeningen får også en kopi, men gemmer den ikke selv, så gem eller del den, før du lukker fjernbetjeningen. Kommer der intet i Fotos, så giv ShutterLink adgang i Indstillinger › Anonymitet og sikkerhed › Fotos."
+      },
+      {
+        "q": "Mine videoer har ingen lyd.",
+        "a": "Slå ShutterLink til i Indstillinger › Anonymitet og sikkerhed › Mikrofon."
+      },
+      {
+        "q": "Kan jeg forbinde flere fjernbetjeninger?",
+        "a": "Ja. Flere iPhones kan forbinde på samme tid med samme QR-kode eller kode, og alle udløser det samme kamera."
+      },
+      {
+        "q": "Forbindelsen ryger, mens jeg fotograferer.",
+        "a": "ShutterLink holder skærmen tændt, så længe appen er åben. Låser du telefonen med sideknappen eller skifter app, ryger forbindelsen, så hold appen på skærmen, mens du fotograferer."
+      },
+      {
+        "q": "Bliver mine billeder uploadet nogen steder?",
+        "a": "Nej. De to iPhones forbinder direkte via Bluetooth, og billeder og videoer bliver kun på kamera-iPhonen og den forbundne fjernbetjening. Det virker også i bjergene eller på stranden uden dækning, og der skal ingen konto til."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Til næste komsammen\nholder alle banneret",
+    "cta": "Hent gratis i App Store"
+  },
+  "ui": {
+    "skip": "Spring til indhold",
+    "languages": "Sprog",
+    "privacy": "Privatlivspolitik",
+    "contact": "Er det stadig ikke løst, eller har du fundet en fejl? Skriv til {email}. Nævn model og iOS-version for begge iPhones, så kan vi hurtigere se på det."
+  }
+}

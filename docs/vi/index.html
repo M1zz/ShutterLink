@@ -1,123 +1,184 @@
 <!doctype html>
 <html lang="vi">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ShutterLink</title>
-<meta name="description" content="Chụp bức ảnh nhóm kinh điển mà mọi người cùng cầm băng rôn, không cần in băng rôn. Chọn chủ đề, viết nội dung, và iPhone của bạn bè trở thành điều khiển mà không cần cài đặt.">
-<link rel="icon" href="../icon.png">
-<link rel="apple-touch-icon" href="../icon.png">
-<link rel="canonical" href="https://m1zz.github.io/ShutterLink/vi/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
-<link rel="stylesheet" href="../style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShutterLink: Ảnh nhóm cầm băng rôn, không cần băng rôn thật</title>
+  <meta name="description" content="Nhập chữ, chọn chủ đề, băng rôn sẽ nằm ngay trước cả nhóm. iPhone của bạn bè thành điều khiển chỉ với một lần quét QR. Hoàn toàn miễn phí.">
+  <meta name="theme-color" content="#996A00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=">
+  <link rel="canonical" href="https://m1zz.github.io/ShutterLink/vi/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ShutterLink: Ảnh nhóm cầm băng rôn, không cần băng rôn thật">
+  <meta property="og:description" content="Nhập chữ, chọn chủ đề, băng rôn sẽ nằm ngay trước cả nhóm. iPhone của bạn bè thành điều khiển chỉ với một lần quét QR. Hoàn toàn miễn phí.">
+  <meta property="og:url" content="https://m1zz.github.io/ShutterLink/vi/">
+  <meta property="og:image" content="https://m1zz.github.io/ShutterLink/img/vi/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#996A00}@media (prefers-color-scheme:dark){:root{--accent:#FFCC00}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<nav class="nav">
-  <a class="brand" href="./"><img src="../icon.png" alt="">ShutterLink</a>
-  <a href="./" aria-current="page">Giới thiệu</a>
-  <a href="support/">Hỗ trợ</a>
-  <a href="privacy/">Chính sách quyền riêng tư</a>
-  <a href="../" hreflang="ko" lang="ko">한국어</a>
-  <a href="../en/" hreflang="en" lang="en">English</a>
-  <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-  <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-  <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-  <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-  <a href="../es/" hreflang="es" lang="es">Español</a>
-  <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-  <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-  <a href="../it/" hreflang="it" lang="it">Italiano</a>
-  <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-  <a href="../th/" hreflang="th" lang="th">ไทย</a>
-  <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-  <a href="../da/" hreflang="da" lang="da">Dansk</a>
-  <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-  <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-  <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-  <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-  <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-  <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-  <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-  <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-</nav>
-<main>
-  <header class="hero">
-    <img src="../icon.png" alt="">
-    <h1>Ảnh nhóm có băng rôn, không cần in</h1>
-    <p class="lead">Viết nội dung, chọn chủ đề, và băng rôn sẽ hiện ra trước mặt cả nhóm. Giơ lòng bàn tay hoặc dùng điều khiển để người chụp cũng vào khung hình.</p>
-    <span class="pair">Điều khiển mở chỉ bằng một lần quét mã QR, không cần cài đặt</span>
+  <a class="skip" href="#main">Chuyển đến nội dung</a>
+  <header class="bar">
+    <a class="brand" href="../vi/"><img src="../icon.png" alt="" width="32" height="32">ShutterLink</a>
+    <a class="lang-link" href="#languages">Ngôn ngữ</a>
   </header>
 
-  <section class="panel steps">
-    <h2>Cách hoạt động</h2>
-    <ol>
-      <li>Mở ShutterLink trên iPhone dùng để chụp và đặt nó lên chân máy hoặc giá.</li>
-      <li>Chọn Băng rôn ở hàng chế độ phía trên nút chụp, rồi chạm vào cây cọ ở góc trên bên phải để đặt nội dung và chủ đề.</li>
-      <li>Chạm vào sàn nơi cả nhóm sẽ đứng, băng rôn sẽ hiện ở độ cao mà mọi người cầm. Chạm vào tường để treo lên đó.</li>
-      <li>Đặt hẹn giờ rồi giơ lòng bàn tay, hoặc bấm nút chụp trên điều khiển.</li>
-    </ol>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Ảnh nhóm cầm băng rôn,<br>không cần in băng rôn</h1>
+        <p class="lead">Nhập chữ, chọn chủ đề, băng rôn trên màn hình sẽ nằm ngay trước cả nhóm. iPhone của bạn bè thành điều khiển chỉ với một lần quét QR, nên người chụp cũng có mặt trong ảnh.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id">Tải miễn phí trên App Store</a><a class="try" href="#try">Thử làm một băng rôn ↓</a></div>
+        <p class="muted small">Mọi tính năng đều miễn phí. Yêu cầu iOS 17 trở lên.</p>
+      </div>
+      <div class="phone"><img src="../img/vi/banner.jpg" alt="Ảnh nhóm cầm băng rôn, không cần in băng rôn" width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <section class="panel">
-    <h2>Băng rôn</h2>
-    <ul>
-      <li>13 chủ đề, gồm dã ngoại mùa thu, picnic mùa xuân, tiệc cuối năm, sinh nhật, ngày hội thể thao, tốt nghiệp, đám cưới và team building.</li>
-      <li>Đổi ba dòng chữ, nền, phông chữ, trang trí, màu sắc, hình dạng và logo.</li>
-      <li>Vải, vinyl hoặc giấy. Băng rôn vải sẽ chùng xuống, nhăn và đung đưa trong gió.</li>
-      <li>Kéo lên, xuống hoặc sang hai bên, dùng hai ngón để xoay hoặc đổi kích thước, và tinh chỉnh bằng nút di chuyển.</li>
-    </ul>
-  </section>
 
-  <section class="panel">
-    <h2>Điều khiển không cần cài đặt</h2>
-    <ul>
-      <li>Chạm vào nút điều khiển ở góc trên bên trái để hiện mã QR và mã ghép nối 4 chữ số.</li>
-      <li>Hướng camera của iPhone kia vào mã QR. Điều khiển ShutterLink mở ngay dưới dạng App Clip và kết nối.</li>
-      <li>Điều khiển hiển thị bản xem trước trực tiếp, kèm cả băng rôn ở chế độ Băng rôn.</li>
-      <li>Mỗi ảnh cũng được gửi đến điều khiển, nên bạn bè không có ứng dụng vẫn lưu và chia sẻ được.</li>
-      <li>Hai iPhone kết nối trực tiếp qua Bluetooth, nên dùng được cả khi không có Wi‑Fi hay mạng di động.</li>
-    </ul>
-  </section>
+    <section class="reveal" id="try">
+      <h2>Thử làm một băng rôn</h2>
+      <p class="muted">Sửa chữ và chạm vào một chủ đề. Nhấn nút chụp, trang sẽ đếm ngược 3 giây rồi chụp giống như trong ứng dụng.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Thử làm một băng rôn&quot;, &quot;lead&quot;: &quot;Sửa chữ và chạm vào một chủ đề. Nhấn nút chụp, trang sẽ đếm ngược 3 giây rồi chụp giống như trong ứng dụng.&quot;, &quot;textLabel&quot;: &quot;Chữ trên băng rôn&quot;, &quot;fields&quot;: [&quot;Dòng trên&quot;, &quot;Dòng lớn ở giữa&quot;, &quot;Dòng dưới&quot;], &quot;themeLabel&quot;: &quot;Chủ đề&quot;, &quot;shutter&quot;: &quot;Chụp với hẹn giờ 3 giây&quot;, &quot;shot&quot;: &quot;Tách! Trong ứng dụng, ảnh này được lưu vào Ảnh và gửi ngay sang iPhone điều khiển.&quot;, &quot;note&quot;: &quot;Bản thử trên web chỉ đặt băng rôn lên hình minh họa. Trong ứng dụng, băng rôn nằm trên mặt đất hoặc bức tường thật trong khung hình, và băng rôn vải còn bay nhẹ trong gió.&quot;, &quot;lines&quot;: [&quot;Đội của chúng ta 2026&quot;, &quot;Cùng đi chơi mùa thu&quot;, &quot;24–25/10/2026  Đà Lạt&quot;], &quot;themes&quot;: [&quot;Cổ điển&quot;, &quot;Dã ngoại mùa thu&quot;, &quot;Hoa xuân&quot;, &quot;Biển mùa hè&quot;, &quot;Mùa đông&quot;, &quot;Đêm tiệc&quot;, &quot;Tiệc cuối năm&quot;, &quot;Sinh nhật&quot;, &quot;Ngày hội thể thao&quot;, &quot;Cổ vũ&quot;, &quot;Lễ tốt nghiệp&quot;, &quot;Đám cưới&quot;, &quot;Hội thảo công ty&quot;]}"></div>
+    </section>
 
-  <section class="panel">
-    <h2>Dành cho ảnh nhóm</h2>
-    <ul>
-      <li>Giơ lòng bàn tay, cùng cười hoặc vỗ tay để chụp.</li>
-      <li>Hẹn giờ từ 3 đến 30 giây với đếm ngược bằng giọng nói, đèn flash nháy và điều khiển rung.</li>
-      <li>Chụp liên tiếp 3 hoặc 5 ảnh để giữ lại ảnh mà mọi người đều mở mắt.</li>
-      <li>Bộ đếm người, cảnh báo khi có người ở mép khung và thước thủy khi iPhone nghiêng.</li>
-      <li>Chạm để lấy nét và đo sáng, bù phơi sáng, đèn flash, lưới, thu phóng từ 0,5× đến 10×, camera trước và sau, video và chụp theo khoảng thời gian.</li>
-      <li>Ảnh và video được lưu vào ứng dụng Ảnh trên iPhone đã chụp.</li>
-    </ul>
-  </section>
+    <section class="problem reveal">
+      <h2>Đặt in băng rôn chỉ để chụp một tấm ảnh?</h2>
+      <p>Đặt in băng rôn cho một tấm ảnh dã ngoại, hôm đó phải mang theo, xong việc lại chẳng biết cất đâu. Không có ai chụp giúp nên lúc nào cũng có một người đứng ngoài khung hình. ShutterLink đặt băng rôn ngay trong khung hình và biến iPhone của bạn bè thành điều khiển, để ai cũng có mặt trong tấm ảnh cầm băng rôn.</p>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Băng rôn hợp với buổi gặp mặt, xong trong một phút</h2>
+        <p>Chọn một trong 13 chủ đề như dã ngoại mùa thu, hoa xuân, tiệc cuối năm, sinh nhật, ngày hội thể thao, lễ tốt nghiệp, đám cưới, hội thảo công ty, rồi tự viết ba dòng chữ.<br>Đổi nền, phông chữ, họa tiết, màu sắc, tỉ lệ và thêm logo của bạn. Chất liệu có vải, bạt hoặc giấy. Băng rôn vải sẽ võng xuống, nhăn nhẹ và bay trong gió như thật.</p>
+      </div>
+      <div class="phone"><img src="../img/vi/bannerDesign.jpg" alt="Băng rôn hợp với buổi gặp mặt, xong trong một phút" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Điều khiển không cần cài đặt, chỉ cần quét QR</h2>
+        <p>Chạm nút điều khiển ở góc trên bên trái, mã QR sẽ hiện ra. Bạn bè chỉ cần mở ứng dụng Camera có sẵn để quét, ShutterLink Remote sẽ mở ngay dưới dạng App Clip và kết nối.<br>Hình ảnh trực tiếp trên điều khiển thấy cả băng rôn, căn khung xong là bấm chụp. Ảnh chụp được gửi ngay sang iPhone điều khiển, nên bạn bè không cài ứng dụng vẫn lưu và chia sẻ được tại chỗ.</p>
+      </div>
+      <div class="phone"><img src="../img/vi/banner.jpg" alt="Điều khiển không cần cài đặt, chỉ cần quét QR" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Bắt đầu với 3 bước</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Dựng iPhone</h3><p>Mở ShutterLink và đặt máy lên chân máy hoặc kệ.</p></li>
+<li class="card"><span class="n">2</span><h3>Đặt băng rôn</h3><p>Chọn Băng rôn ở phía dưới, chạm nút cọ vẽ để nhập chữ và chọn chủ đề, rồi chạm vào mặt đất nơi cả nhóm sẽ đứng.</p></li>
+<li class="card"><span class="n">3</span><h3>Giơ lòng bàn tay</h3><p>Giơ lòng bàn tay hoặc nhấn nút chụp trên điều khiển. Hẹn giờ đếm ngược rồi chụp.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Tính năng dành cho ảnh nhóm</h2>
+      <div class="card table">
+        <dl><div><dt>Cử chỉ lòng bàn tay · chụp bằng tiếng vỗ tay</dt><dd>Giơ lòng bàn tay về phía camera hoặc vỗ tay thật to một lần để bắt đầu hẹn giờ</dd></div><div><dt>Chụp khi cười</dt><dd>Tự chụp khi mọi người đều mở mắt và cười</dd></div><div><dt>Hẹn giờ 3 · 5 · 10 · 20 · 30 giây</dt><dd>Có giọng đếm ngược, đèn flash nháy theo và điều khiển rung trong tay</dd></div><div><dt>Nhắc mọi người nhìn vào camera</dt><dd>Nhấn là iPhone chụp sẽ cất tiếng gọi để cả nhóm nhìn vào ống kính</dd></div><div><dt>Chụp liên tiếp 3 · 5 ảnh</dt><dd>Chọn sẵn tấm đẹp nhất khi mọi người đều mở mắt và cười. Có thể đổi sang tấm khác trong thư viện</dd></div><div><dt>Số người · mép khung · thước cân bằng</dt><dd>Đếm số người trong khung, báo khi có người sát mép và hiện thước cân bằng khi máy bị nghiêng</dd></div><div><dt>Chụp ngắt quãng 3 giây đến 1 phút</dt><dd>Ghi lại hoàng hôn hay quá trình làm việc theo từng khoảng</dd></div><div><dt>Điều khiển camera</dt><dd>Chạm để lấy nét và đo sáng, bù sáng, đèn flash, lưới, zoom từ 0,5x đến tối đa 10x (tùy máy), đổi camera trước và sau, quay video</dd></div><div><dt>Chế độ đơn giản</dt><dd>Điều khiển chỉ hiện một nút chụp lớn, người lớn tuổi cũng bấm dễ dàng</dd></div><div><dt>Nút âm lượng · Camera Control</dt><dd>Chụp ngay trên iPhone chụp mà không cần điều khiển</dd></div></dl>
+      </div>
+      <p class="muted">Ở chế độ Băng rôn không dùng được đèn flash, chụp liên tiếp, zoom và camera trước. Hẹn giờ, chụp bằng lòng bàn tay và điều khiển vẫn hoạt động bình thường.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Mọi tính năng đều miễn phí</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Miễn phí</h3>
+          <ul><li>Chế độ Băng rôn và 13 chủ đề</li><li>Điều khiển không cần cài đặt (App Clip)</li><li>Chụp bằng lòng bàn tay, vỗ tay, nụ cười và hẹn giờ</li><li>Ảnh đẹp nhất, đếm người, thước cân bằng</li><li>Quay video và chụp ngắt quãng</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Ủng hộ nhà phát triển (tùy chọn)</h3>
+          <ul><li>Gửi tiền tip nhỏ, vừa hoặc lớn trong phần Cài đặt</li><li>Tiền tip không mở khóa hay giới hạn tính năng nào</li></ul>
+          <p class="muted">Không phải gói đăng ký. Chỉ thanh toán một lần khi bạn gửi tip.</p>
+        </div>
+      </div>
+      <p class="muted">Không quảng cáo, không cần tạo tài khoản.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Câu hỏi thường gặp</h2>
+      <div class="faq"><details><summary>Cần chuẩn bị gì?</summary><p>Cài ShutterLink trên iPhone dùng để chụp (iOS 17 trở lên). iPhone làm điều khiển không cần cài gì, chỉ cần có Internet lần đầu mở App Clip. Bật Bluetooth trên cả hai máy và để gần nhau (thường trong vòng 10 m).</p></details>
+<details><summary>Quét QR nhưng App Clip không mở.</summary><p>Kiểm tra iPhone điều khiển đã kết nối Internet chưa. Bạn cũng có thể nhập mã 4 số hiện trên iPhone chụp vào màn hình ShutterLink Remote rồi chạm Kết nối. Hãy kiểm tra App Clip không bị chặn trong Cài đặt › Thời gian sử dụng › Giới hạn nội dung &amp; quyền riêng tư.</p></details>
+<details><summary>Bị đứng ở "Đang tìm camera…".</summary><p>ShutterLink phải đang mở trên màn hình của iPhone chụp. Kiểm tra Bluetooth đã bật trong Cài đặt › Bluetooth trên cả hai máy. Mã kết nối đổi mỗi lần mở ứng dụng, nên nếu vừa mở lại ứng dụng, hãy dùng QR hoặc mã mới rồi chạm Thử lại.</p></details>
+<details><summary>Hiện thông báo "Quyền Bluetooth bị từ chối".</summary><p>Bật ShutterLink trong Cài đặt › Quyền riêng tư &amp; Bảo mật › Bluetooth. Phía điều khiển là App Clip nên có thể không có trong danh sách. Khi đó hãy quét lại QR và chạm Cho phép khi được hỏi.</p></details>
+<details><summary>Hình ảnh trực tiếp bị giật hoặc mờ.</summary><p>Hình ảnh trực tiếp được thu nhỏ có chủ ý để truyền qua Bluetooth. Ảnh và video thật vẫn được lưu với chất lượng gốc của iPhone chụp. Nếu giữa hai máy có tường, có người hoặc cách xa nhau, hình có thể bị giật, nhưng nút chụp và các điều khiển khác vẫn hoạt động.</p></details>
+<details><summary>Ảnh đã chụp nằm ở đâu?</summary><p>Trong ứng dụng Ảnh của iPhone chụp và thư viện trong ứng dụng. iPhone điều khiển cũng nhận được một bản sao nhưng không tự lưu, hãy lưu hoặc chia sẻ trước khi đóng điều khiển. Nếu không thấy ảnh trong Ảnh, hãy cho phép ShutterLink trong Cài đặt › Quyền riêng tư &amp; Bảo mật › Ảnh.</p></details>
+<details><summary>Video không có tiếng.</summary><p>Bật ShutterLink trong Cài đặt › Quyền riêng tư &amp; Bảo mật › Micrô.</p></details>
+<details><summary>Có thể kết nối nhiều điều khiển không?</summary><p>Có. Nhiều iPhone có thể cùng kết nối bằng một mã QR hoặc mã kết nối, bấm từ máy nào cũng chụp bằng cùng một camera.</p></details>
+<details><summary>Đang chụp thì mất kết nối.</summary><p>ShutterLink giữ màn hình luôn sáng khi đang mở. Nếu bấm nút sườn để khóa máy hoặc chuyển sang ứng dụng khác, kết nối sẽ bị ngắt, vì vậy hãy để ứng dụng mở trên màn hình trong lúc chụp.</p></details>
+<details><summary>Ảnh có bị tải lên đâu không?</summary><p>Không. Hai iPhone kết nối trực tiếp qua Bluetooth, ảnh và video chỉ nằm trên iPhone chụp và điều khiển đã kết nối. Dùng được cả trên núi hay ngoài biển không có sóng, và không cần tài khoản.</p></details></div>
+      <p class="contact">Vẫn chưa giải quyết được hoặc phát hiện lỗi? Hãy gửi thư đến <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>. Ghi kèm đời máy và phiên bản iOS của cả hai iPhone để được kiểm tra nhanh hơn.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Lần gặp mặt tới,<br>cả nhóm cùng cầm băng rôn</h2>
+      <a class="cta" href="https://apps.apple.com/app/id">Tải miễn phí trên App Store</a>
+    </section>
+  </main>
 
   <footer>
-    <span><a href="support/">Hỗ trợ</a></span><span><a href="privacy/">Chính sách quyền riêng tư</a></span>
+    <nav id="languages" class="langs" aria-label="Ngôn ngữ"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi" aria-current="page">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Chính sách quyền riêng tư</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 ShutterLink</p>
   </footer>
-</main>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

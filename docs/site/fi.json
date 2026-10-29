@@ -1,0 +1,200 @@
+{
+  "title": "ShutterLink: ryhmäkuva bannerin kanssa ilman banneria",
+  "description": "Kirjoita teksti, valitse teema, ja banneri ilmestyy koko porukan eteen. Kaverin iPhonesta tulee kaukosäädin yhdellä QR-koodilla. Kaikki ilmaiseksi.",
+  "hero": {
+    "headline": "Ryhmäkuva bannerin kanssa.\nIlman painettua banneria.",
+    "lead": "Kirjoita teksti, valitse teema, ja banneri asettuu suoraan porukan eteen. Kaverin iPhonesta tulee kaukosäädin yhdellä QR-skannauksella, joten myös kuvaaja pääsee kuvaan.",
+    "cta": "Lataa ilmaiseksi App Storesta",
+    "note": "Kaikki ominaisuudet ovat ilmaisia. Vaatii iOS 17:n tai uudemman."
+  },
+  "demo": {
+    "title": "Tee oma banneri",
+    "lead": "Muokkaa tekstiä ja napauta teemaa. Kun painat laukaisinta, se laskee kolmeen kuten sovelluksessa.",
+    "textLabel": "Teksti",
+    "fields": [
+      "Ylärivi",
+      "Iso keskirivi",
+      "Alarivi"
+    ],
+    "themeLabel": "Teema",
+    "shutter": "Ota kuva 3 sekunnin ajastimella",
+    "shot": "Naps! Sovelluksessa kuva tallentuu Kuviin ja tulee heti kaukosäätimenä olevaan iPhoneen.",
+    "note": "Tässä verkkokokeilussa banneri on piirroksen päällä. Sovelluksessa se seisoo kamerakuvan oikealla lattialla tai seinällä, ja kangasbanneri hulmuaa tuulessa.",
+    "lines": [
+      "Tiimimme 2026",
+      "Syysretki yhdessä",
+      "24.–25.10.2026  Nuuksio"
+    ],
+    "themes": [
+      "Klassinen",
+      "Syysretki",
+      "Kevään kukat",
+      "Kesäranta",
+      "Talvi",
+      "Juhlailta",
+      "Pikkujoulut",
+      "Syntymäpäivä",
+      "Urheilupäivä",
+      "Kannustus",
+      "Valmistujaiset",
+      "Häät",
+      "Yrityksen työpaja"
+    ]
+  },
+  "problem": {
+    "title": "Tilaatko bannerin yhtä kuvaa varten?",
+    "text": "Tilaat sen, raahaat retkelle, ja jälkeenpäin kukaan ei tiedä, minne sen laittaisi. Eikä kukaan jää ottamaan kuvaa, joten joku puuttuu aina. ShutterLink tuo bannerin kamerakuvaan ja tekee kaverin iPhonesta kaukosäätimen, jotta koko porukka pääsee bannerin kanssa kuvaan."
+  },
+  "features": [
+    {
+      "title": "Sopiva banneri minuutissa",
+      "text": "Valitse 13 teemasta, kuten syysretki, kevään kukat, pikkujoulut, syntymäpäivä, urheilupäivä, valmistujaiset, häät ja yrityksen työpaja, ja kirjoita enintään kolme riviä omaa tekstiä.\nVaihda taustaa, fonttia, koristeita, värejä ja mittasuhteita, ja lisää oma logo. Valitse kangas, vinyyli tai paperi: kangasbanneri notkahtaa, rypistyy ja hulmuaa tuulessa kuin oikea.",
+      "shot": "bannerDesign"
+    },
+    {
+      "title": "Kaukosäädin ilman asennusta",
+      "text": "Napauta vasemman yläkulman kaukosäädinpainiketta, niin näkyviin tulee QR-koodi. Kaveri skannaa sen tavallisella Kamera-apilla, ja ShutterLink Remote aukeaa heti App Clipinä ja yhdistää.\nKaukosäätimen livekuvassa näkyy jopa banneri, joten rajaa kuva ja paina laukaisinta. Jokainen kuva tulee heti kaukosäätimenä olevaan iPhoneen, joten kaveri ilman sovellusta voi tallentaa ja jakaa sen saman tien.",
+      "shot": "banner"
+    }
+  ],
+  "steps": {
+    "title": "Kolme vaihetta alkuun",
+    "items": [
+      {
+        "title": "Aseta iPhone",
+        "text": "Avaa ShutterLink ja aseta iPhone jalustalle tai hyllylle."
+      },
+      {
+        "title": "Sijoita banneri",
+        "text": "Valitse alhaalta Banneri, aseta siveltimellä teksti ja teema ja napauta lattiaa siinä, missä porukka seisoo."
+      },
+      {
+        "title": "Nosta kämmen",
+        "text": "Nosta kämmen tai paina kaukosäätimen laukaisinta. Ajastin laskee ja ottaa kuvan."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Tehty ryhmäkuviin",
+    "rows": [
+      [
+        "Kämmenele · taputuslaukaisu",
+        "Nosta avoin kämmen kameraa kohti tai taputa kerran kovaa, niin ajastin käynnistyy"
+      ],
+      [
+        "Hymylaukaisu",
+        "Ottaa kuvan itse, kun kaikki hymyilevät silmät auki"
+      ],
+      [
+        "Ajastin 3 · 5 · 10 · 20 · 30 s",
+        "Ääni laskee alaspäin, salama vilkkuu tahdissa ja kaukosäädin värisee kädessä"
+      ],
+      [
+        "Pyydä kaikkia katsomaan kameraan",
+        "Napauta, niin kuvaava iPhone huutaa kaikkia katsomaan objektiiviin"
+      ],
+      [
+        "Sarja 3 · 5 kuvaa",
+        "Valitsee parhaan kuvan, jossa kaikilla on silmät auki. Voit vaihtaa sen toiseen galleriassa"
+      ],
+      [
+        "Henkilöt · reunat · vesivaaka",
+        "Laskee kuvassa olevat ihmiset, varoittaa jos joku on reunalla ja näyttää vesivaa'an, kun puhelin on vinossa"
+      ],
+      [
+        "Intervalli 3 s – 1 min",
+        "Tallenna auringonlasku tai työn eteneminen tasaisin välein"
+      ],
+      [
+        "Kameran säätimet",
+        "Tarkennus ja valotus napauttamalla, valotuksen korjaus, salama, ruudukko, zoom 0,5x:stä jopa 10x:ään mallin mukaan, etu- ja takakamera, video"
+      ],
+      [
+        "Helppo tila",
+        "Kaukosäädin näyttää vain yhden ison laukaisinpainikkeen, jota kuka tahansa osaa painaa"
+      ],
+      [
+        "Äänenvoimakkuuspainikkeet · Kameran säädin",
+        "Ota kuva suoraan kuvaavalla iPhonella ilman kaukosäädintä"
+      ]
+    ],
+    "note": "Banneritilassa salama, sarjakuvaus, zoom ja etukamera eivät ole käytössä. Ajastin, kämmenlaukaisu ja kaukosäädin toimivat normaalisti."
+  },
+  "pricing": {
+    "title": "Kaikki ominaisuudet ovat ilmaisia",
+    "free": {
+      "name": "Ilmainen",
+      "items": [
+        "Banneritila ja 13 teemaa",
+        "Kaukosäädin ilman asennusta (App Clip)",
+        "Laukaisu kämmenellä, taputuksella ja hymyllä sekä ajastin",
+        "Paras kuva, henkilölaskuri ja vesivaaka",
+        "Video ja intervallikuvaus"
+      ]
+    },
+    "pro": {
+      "name": "Anna tippiä (vapaaehtoinen)",
+      "items": [
+        "Lähetä pieni, keskikokoinen tai iso tippi Asetuksista",
+        "Tippi ei avaa eikä lukitse mitään"
+      ],
+      "note": "Ei tilaus. Maksat kerran, vain kun annat tippiä."
+    },
+    "note": "Ei mainoksia eikä tiliä."
+  },
+  "faq": {
+    "title": "Usein kysyttyä",
+    "items": [
+      {
+        "q": "Mitä tarvitsen?",
+        "a": "Asenna ShutterLink kuvaavaan iPhoneen (iOS 17 tai uudempi). Kaukosäätimenä olevaan iPhoneen ei asenneta mitään, se tarvitsee internetin vain ensimmäisellä App Clipin avauskerralla. Pidä Bluetooth päällä kummassakin ja puhelimet lähellä toisiaan, yleensä alle 10 metrin päässä."
+      },
+      {
+        "q": "Skannaan QR-koodin, mutta App Clip ei aukea.",
+        "a": "Tarkista, että kaukosäätimenä olevalla iPhonella on internetyhteys. Voit myös syöttää ShutterLink Remoteen kuvaavan iPhonen nelinumeroisen koodin ja napauttaa Yhdistä. Tarkista lisäksi, ettei App Clipejä ole estetty kohdassa Asetukset › Ruutuaika › Sisältö- ja tietosuojarajoitukset."
+      },
+      {
+        "q": "Se jää kohtaan ”Etsitään kameraa…”.",
+        "a": "ShutterLinkin täytyy olla auki kuvaavan iPhonen näytöllä. Tarkista kummastakin puhelimesta, että Bluetooth on päällä kohdassa Asetukset › Bluetooth. Koodi vaihtuu aina, kun sovellus avataan, joten jos avasit sen uudelleen, käytä uutta QR-koodia tai koodia ja napauta Yritä uudelleen."
+      },
+      {
+        "q": "Näkyviin tulee ”Bluetooth-lupa evätty”.",
+        "a": "Laita ShutterLink päälle kohdassa Asetukset › Tietosuoja ja suojaus › Bluetooth. Kaukosäädin on App Clip, eikä se välttämättä näy listassa. Skannaa silloin QR-koodi uudelleen ja napauta Salli, kun sitä kysytään."
+      },
+      {
+        "q": "Livekuva nykii tai on sumea.",
+        "a": "Livekuva on tarkoituksella pienennetty, jotta se kulkee Bluetoothilla. Kuvat ja videot tallentuvat kuvaavan iPhonen täydellä laadulla. Seinät, ihmiset tai pitkä välimatka voivat aiheuttaa nykimistä, mutta laukaisin ja muut säätimet toimivat silti."
+      },
+      {
+        "q": "Minne kuvani tallentuvat?",
+        "a": "Kuvaavan iPhonen Kuviin ja sovelluksen galleriaan. Kaukosäädin saa myös kopion, mutta ei tallenna sitä itse, joten tallenna tai jaa se ennen kaukosäätimen sulkemista. Jos Kuviin ei tule mitään, salli ShutterLink kohdassa Asetukset › Tietosuoja ja suojaus › Kuvat."
+      },
+      {
+        "q": "Videoissa ei ole ääntä.",
+        "a": "Laita ShutterLink päälle kohdassa Asetukset › Tietosuoja ja suojaus › Mikrofoni."
+      },
+      {
+        "q": "Voinko yhdistää useamman kaukosäätimen?",
+        "a": "Kyllä. Useampi iPhone voi yhdistää samaan aikaan samalla QR-koodilla tai koodilla, ja mikä tahansa niistä laukaisee saman kameran."
+      },
+      {
+        "q": "Yhteys katkeaa kesken kuvaamisen.",
+        "a": "ShutterLink pitää näytön päällä niin kauan kuin sovellus on auki. Jos lukitset puhelimen sivupainikkeella tai vaihdat sovellusta, yhteys katkeaa, joten pidä sovellus näytöllä kuvaamisen ajan."
+      },
+      {
+        "q": "Lähetetäänkö kuviani jonnekin?",
+        "a": "Ei. Kaksi iPhonea yhdistyvät suoraan Bluetoothilla, ja kuvat ja videot jäävät vain kuvaavaan iPhoneen ja yhdistettyyn kaukosäätimeen. Toimii myös tuntureilla tai rannalla ilman kenttää, eikä tiliä tarvita."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Seuraavissa kekkereissä\nkaikki pitelevät banneria",
+    "cta": "Lataa ilmaiseksi App Storesta"
+  },
+  "ui": {
+    "skip": "Siirry sisältöön",
+    "languages": "Kieli",
+    "privacy": "Tietosuojakäytäntö",
+    "contact": "Eikö ratkennut, tai löysitkö bugin? Kirjoita osoitteeseen {email}. Kerro molempien iPhonejen mallit ja iOS-versiot, niin asiaa on nopeampi selvittää."
+  }
+}

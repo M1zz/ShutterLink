@@ -1,123 +1,184 @@
 <!doctype html>
 <html lang="pl">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ShutterLink</title>
-<meta name="description" content="Zrób zdjęcie grupowe, na którym wszyscy trzymają baner, bez drukowania banerów. Wybierz motyw, wpisz tekst, a iPhone znajomego stanie się pilotem bez instalacji.">
-<link rel="icon" href="../icon.png">
-<link rel="apple-touch-icon" href="../icon.png">
-<link rel="canonical" href="https://m1zz.github.io/ShutterLink/pl/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/ShutterLink/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
-<link rel="stylesheet" href="../style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShutterLink: zdjęcie grupowe z banerem, bez banera</title>
+  <meta name="description" content="Wpisz tekst, wybierz motyw, a baner stanie przed całą grupą. iPhone znajomego staje się pilotem po jednym zeskanowaniu kodu QR. Wszystko za darmo.">
+  <meta name="theme-color" content="#996A00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=">
+  <link rel="canonical" href="https://m1zz.github.io/ShutterLink/pl/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ShutterLink/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/ShutterLink/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ShutterLink/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ShutterLink/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ShutterLink/zh-Hant/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ShutterLink/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/ShutterLink/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/ShutterLink/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ShutterLink/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/ShutterLink/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ShutterLink/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/ShutterLink/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ShutterLink/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ShutterLink/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/ShutterLink/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/ShutterLink/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ShutterLink/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/ShutterLink/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ShutterLink/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ShutterLink/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ShutterLink/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ShutterLink/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ShutterLink/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ShutterLink/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ShutterLink: zdjęcie grupowe z banerem, bez banera">
+  <meta property="og:description" content="Wpisz tekst, wybierz motyw, a baner stanie przed całą grupą. iPhone znajomego staje się pilotem po jednym zeskanowaniu kodu QR. Wszystko za darmo.">
+  <meta property="og:url" content="https://m1zz.github.io/ShutterLink/pl/">
+  <meta property="og:image" content="https://m1zz.github.io/ShutterLink/img/pl/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#996A00}@media (prefers-color-scheme:dark){:root{--accent:#FFCC00}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<nav class="nav">
-  <a class="brand" href="./"><img src="../icon.png" alt="">ShutterLink</a>
-  <a href="./" aria-current="page">O aplikacji</a>
-  <a href="support/">Pomoc</a>
-  <a href="privacy/">Polityka prywatności</a>
-  <a href="../" hreflang="ko" lang="ko">한국어</a>
-  <a href="../en/" hreflang="en" lang="en">English</a>
-  <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-  <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-  <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-  <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-  <a href="../es/" hreflang="es" lang="es">Español</a>
-  <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-  <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-  <a href="../it/" hreflang="it" lang="it">Italiano</a>
-  <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-  <a href="../th/" hreflang="th" lang="th">ไทย</a>
-  <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-  <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-  <a href="../da/" hreflang="da" lang="da">Dansk</a>
-  <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-  <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-  <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-  <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-  <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-  <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-  <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-</nav>
-<main>
-  <header class="hero">
-    <img src="../icon.png" alt="">
-    <h1>Zdjęcie grupowe z banerem, bez drukowania</h1>
-    <p class="lead">Wpisz tekst, wybierz motyw, a baner pojawi się przed Twoją grupą. Unieś dłoń lub użyj pilota, aby na zdjęciu był też fotograf.</p>
-    <span class="pair">Pilot otwiera się jednym skanem kodu QR, bez instalacji</span>
+  <a class="skip" href="#main">Przejdź do treści</a>
+  <header class="bar">
+    <a class="brand" href="../pl/"><img src="../icon.png" alt="" width="32" height="32">ShutterLink</a>
+    <a class="lang-link" href="#languages">Język</a>
   </header>
 
-  <section class="panel steps">
-    <h2>Jak to działa</h2>
-    <ol>
-      <li>Otwórz ShutterLink na iPhonie, który będzie robił zdjęcie, i postaw go na statywie albo półce.</li>
-      <li>Wybierz Baner w rzędzie trybów nad migawką, a następnie dotknij pędzla w prawym górnym rogu, aby ustawić tekst i motyw.</li>
-      <li>Dotknij podłogi tam, gdzie stanie grupa, a baner pojawi się na wysokości, na jakiej ludzie by go trzymali. Dotknij ściany, aby go tam powiesić.</li>
-      <li>Ustaw minutnik i unieś dłoń albo naciśnij migawkę na pilocie.</li>
-    </ol>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Zdjęcie grupowe z banerem.<br>Bez drukowania banera.</h1>
+        <p class="lead">Wpisz tekst, wybierz motyw, a baner stanie tuż przed grupą. iPhone znajomego po jednym skanie kodu QR zamienia się w pilota, więc na zdjęciu jest też osoba, która je robi.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id">Pobierz za darmo w App Store</a><a class="try" href="#try">Zrób własny baner ↓</a></div>
+        <p class="muted small">Wszystkie funkcje są bezpłatne. Wymaga iOS 17 lub nowszego.</p>
+      </div>
+      <div class="phone"><img src="../img/pl/banner.jpg" alt="Zdjęcie grupowe z banerem. Bez drukowania banera." width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <section class="panel">
-    <h2>Baner</h2>
-    <ul>
-      <li>13 motywów, m.in. jesienna wycieczka, wiosenny piknik, impreza na koniec roku, urodziny, dzień sportu, rozdanie dyplomów, ślub i wyjazd integracyjny.</li>
-      <li>Zmieniaj trzy wiersze tekstu, tło, czcionkę, dekoracje, kolory, kształt i logo.</li>
-      <li>Tkanina, winyl lub papier. Baner z tkaniny zwisa, marszczy się i powiewa na wietrze.</li>
-      <li>Przeciągaj w górę, w dół lub na boki, obracaj i zmieniaj rozmiar dwoma palcami, a przyciskiem przesuwania dopracuj ustawienie.</li>
-    </ul>
-  </section>
 
-  <section class="panel">
-    <h2>Pilot bez instalacji</h2>
-    <ul>
-      <li>Dotknij przycisku pilota w lewym górnym rogu, aby wyświetlić kod QR i 4-cyfrowy kod parowania.</li>
-      <li>Skieruj aparat drugiego iPhone’a na kod QR. Pilot ShutterLink od razu otworzy się jako App Clip i połączy się.</li>
-      <li>Pilot pokazuje podgląd na żywo, w trybie Baner razem z banerem.</li>
-      <li>Każde zdjęcie trafia też na pilota, więc znajomy bez aplikacji może je zapisać i udostępnić.</li>
-      <li>Oba iPhone’y łączą się bezpośrednio przez Bluetooth, więc działa to bez Wi‑Fi i danych komórkowych.</li>
-    </ul>
-  </section>
+    <section class="reveal" id="try">
+      <h2>Zrób własny baner</h2>
+      <p class="muted">Zmień tekst i stuknij motyw. Po naciśnięciu migawki, tak jak w aplikacji, ruszy 3-sekundowe odliczanie.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Zrób własny baner&quot;, &quot;lead&quot;: &quot;Zmień tekst i stuknij motyw. Po naciśnięciu migawki, tak jak w aplikacji, ruszy 3-sekundowe odliczanie.&quot;, &quot;textLabel&quot;: &quot;Tekst&quot;, &quot;fields&quot;: [&quot;Górny wiersz&quot;, &quot;Duży środkowy wiersz&quot;, &quot;Dolny wiersz&quot;], &quot;themeLabel&quot;: &quot;Motyw&quot;, &quot;shutter&quot;: &quot;Zrób zdjęcie z samowyzwalaczem 3 s&quot;, &quot;shot&quot;: &quot;Pstryk! W aplikacji to zdjęcie trafia do Zdjęć i od razu na iPhone’a z pilotem.&quot;, &quot;note&quot;: &quot;W tej wersji webowej baner jest nałożony na rysunek. W aplikacji stoi na prawdziwej podłodze lub ścianie w kadrze, a baner z tkaniny faluje na wietrze.&quot;, &quot;lines&quot;: [&quot;Nasz zespół 2026&quot;, &quot;Razem na jesienną wycieczkę&quot;, &quot;24–25 paź 2026  Zakopane&quot;], &quot;themes&quot;: [&quot;Klasyczny&quot;, &quot;Jesienna wycieczka&quot;, &quot;Wiosenne kwiaty&quot;, &quot;Letnia plaża&quot;, &quot;Zima&quot;, &quot;Imprezowy wieczór&quot;, &quot;Impreza na koniec roku&quot;, &quot;Urodziny&quot;, &quot;Dzień sportu&quot;, &quot;Kibicowanie&quot;, &quot;Rozdanie dyplomów&quot;, &quot;Ślub&quot;, &quot;Warsztaty firmowe&quot;]}"></div>
+    </section>
 
-  <section class="panel">
-    <h2>Stworzone do zdjęć grupowych</h2>
-    <ul>
-      <li>Unieś dłoń, uśmiechnijcie się razem lub klaśnijcie, aby zrobić zdjęcie.</li>
-      <li>Minutniki od 3 do 30 sekund z odliczaniem głosowym, migającą lampą błyskową i wibracją pilota.</li>
-      <li>Serie 3 lub 5 zdjęć zachowują to, na którym wszyscy mają otwarte oczy.</li>
-      <li>Licznik osób, ostrzeżenie, gdy ktoś jest na skraju, i poziomica przy przechyleniu iPhone’a.</li>
-      <li>Ostrość i ekspozycja dotknięciem, korekta ekspozycji, lampa błyskowa, siatka, zoom od 0,5× do 10×, aparat przedni i tylny, film oraz zdjęcia w odstępach.</li>
-      <li>Zdjęcia i filmy zapisują się w aplikacji Zdjęcia na iPhonie, który je zrobił.</li>
-    </ul>
-  </section>
+    <section class="problem reveal">
+      <h2>Zamawiasz baner dla jednego zdjęcia?</h2>
+      <p>Zamawiasz go, taszczysz na wyjazd, a potem nikt nie wie, gdzie go schować. A że nie ma kto zrobić zdjęcia, ktoś zawsze zostaje poza kadrem. ShutterLink stawia baner w kadrze i zamienia iPhone’a znajomego w pilota, żeby na zdjęciu z banerem byli wszyscy.</p>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Baner na Twoją okazję w minutę</h2>
+        <p>Wybierz jeden z 13 motywów, np. jesienną wycieczkę, wiosenne kwiaty, imprezę na koniec roku, urodziny, dzień sportu, rozdanie dyplomów, ślub czy warsztaty firmowe, i wpisz do trzech wierszy własnego tekstu.<br>Zmień tło, czcionkę, ozdoby, kolory i proporcje, dodaj swoje logo. Do wyboru tkanina, winyl albo papier: baner z tkaniny ugina się, marszczy i faluje na wietrze jak prawdziwy.</p>
+      </div>
+      <div class="phone"><img src="../img/pl/bannerDesign.jpg" alt="Baner na Twoją okazję w minutę" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Pilot bez instalowania czegokolwiek</h2>
+        <p>Stuknij przycisk pilota w lewym górnym rogu, a pojawi się kod QR. Znajomy skanuje go zwykłym Aparatem, a ShutterLink Remote od razu otwiera się jako App Clip i łączy.<br>Na podglądzie na żywo w pilocie widać nawet baner, więc kadrujesz i naciskasz migawkę. Każde zdjęcie od razu trafia na iPhone’a z pilotem, więc znajomy bez aplikacji może je zapisać i udostępnić na miejscu.</p>
+      </div>
+      <div class="phone"><img src="../img/pl/banner.jpg" alt="Pilot bez instalowania czegokolwiek" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Trzy kroki na start</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Postaw iPhone’a</h3><p>Otwórz ShutterLink i postaw telefon na statywie albo półce.</p></li>
+<li class="card"><span class="n">2</span><h3>Ustaw baner</h3><p>Wybierz na dole Baner, ustaw pędzlem tekst i motyw, a potem stuknij podłoże, gdzie stanie grupa.</p></li>
+<li class="card"><span class="n">3</span><h3>Podnieś dłoń</h3><p>Podnieś dłoń albo naciśnij migawkę na pilocie. Samowyzwalacz odliczy i zrobi zdjęcie.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Stworzone do zdjęć grupowych</h2>
+      <div class="card table">
+        <dl><div><dt>Gest dłonią · migawka na klaśnięcie</dt><dd>Podnieś otwartą dłoń w stronę aparatu albo raz głośno klaśnij, żeby uruchomić samowyzwalacz</dd></div><div><dt>Migawka na uśmiech</dt><dd>Robi zdjęcie sama, gdy wszyscy uśmiechają się z otwartymi oczami</dd></div><div><dt>Samowyzwalacz 3 · 5 · 10 · 20 · 30 s</dt><dd>Głos odlicza, lampa błyska w rytm, a pilot wibruje w dłoni</dd></div><div><dt>Poproś wszystkich, by patrzyli w obiektyw</dt><dd>Stuknij, a iPhone robiący zdjęcie zawoła na głos, żeby wszyscy spojrzeli w obiektyw</dd></div><div><dt>Seria 3 · 5 zdjęć</dt><dd>Wybiera najlepsze ujęcie, na którym wszyscy mają otwarte oczy. W galerii możesz wybrać inne</dd></div><div><dt>Liczba osób · krawędzie · poziomica</dt><dd>Liczy osoby w kadrze, ostrzega, gdy ktoś jest przy krawędzi, i pokazuje poziomicę, gdy telefon się przechyla</dd></div><div><dt>Interwał od 3 s do 1 min</dt><dd>Uchwyć zachód słońca albo postęp pracy w równych odstępach</dd></div><div><dt>Sterowanie aparatem</dt><dd>Ostrość i ekspozycja stuknięciem, korekta ekspozycji, lampa, siatka, zoom od 0,5x do 10x zależnie od modelu, przedni i tylny aparat, wideo</dd></div><div><dt>Tryb prosty</dt><dd>Pilot pokazuje tylko jeden duży przycisk migawki, z którym każdy sobie poradzi</dd></div><div><dt>Przyciski głośności · Sterowanie aparatem</dt><dd>Rób zdjęcia bezpośrednio na iPhonie z aparatem, bez pilota</dd></div></dl>
+      </div>
+      <p class="muted">W trybie banera nie działają lampa, zdjęcia seryjne, zoom ani przedni aparat. Samowyzwalacz, migawka na dłoń i pilot działają normalnie.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Wszystkie funkcje są bezpłatne</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Za darmo</h3>
+          <ul><li>Tryb banera i 13 motywów</li><li>Pilot bez instalacji (App Clip)</li><li>Migawka na dłoń, klaśnięcie i uśmiech, samowyzwalacz</li><li>Najlepsze ujęcie, liczenie osób, poziomica</li><li>Wideo i zdjęcia interwałowe</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Napiwek (opcjonalnie)</h3>
+          <ul><li>W Ustawieniach możesz wysłać mały, średni albo duży napiwek</li><li>Napiwek niczego nie odblokowuje ani nie blokuje</li></ul>
+          <p class="muted">To nie subskrypcja. Płacisz raz, tylko gdy dajesz napiwek.</p>
+        </div>
+      </div>
+      <p class="muted">Bez reklam i bez zakładania konta.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Najczęstsze pytania</h2>
+      <div class="faq"><details><summary>Czego potrzebuję?</summary><p>Zainstaluj ShutterLink na iPhonie, który robi zdjęcia (iOS 17 lub nowszy). Na iPhonie z pilotem nic nie trzeba instalować, internet jest potrzebny tylko przy pierwszym otwarciu App Clip. Włącz Bluetooth na obu i trzymaj je blisko siebie, zwykle do 10 m.</p></details>
+<details><summary>Skanuję kod QR, ale App Clip się nie otwiera.</summary><p>Sprawdź, czy iPhone z pilotem ma internet. Możesz też wpisać w ShutterLink Remote czterocyfrowy kod z iPhone’a robiącego zdjęcie i stuknąć Połącz. Upewnij się też, że App Clip nie są zablokowane w Ustawienia › Czas przed ekranem › Ograniczenia treści i prywatności.</p></details>
+<details><summary>Zawiesza się na „Szukanie aparatu…”.</summary><p>ShutterLink musi być otwarty na ekranie iPhone’a robiącego zdjęcie. Sprawdź na obu telefonach, czy Bluetooth jest włączony w Ustawienia › Bluetooth. Kod zmienia się przy każdym otwarciu aplikacji, więc jeśli otworzyłeś ją ponownie, użyj nowego kodu QR lub kodu i stuknij Spróbuj ponownie.</p></details>
+<details><summary>Widzę „Odmowa dostępu do Bluetooth”.</summary><p>Włącz ShutterLink w Ustawienia › Prywatność i ochrona › Bluetooth. Pilot to App Clip i może go nie być na liście. Wtedy zeskanuj kod QR jeszcze raz i stuknij Pozwól, gdy pojawi się pytanie.</p></details>
+<details><summary>Podgląd na żywo się tnie albo jest rozmazany.</summary><p>Podgląd jest celowo pomniejszony, żeby przechodził przez Bluetooth. Zdjęcia i filmy zapisują się w pełnej jakości iPhone’a robiącego zdjęcie. Ściany, ludzie albo duża odległość mogą powodować przycięcia, ale migawka i pozostałe funkcje działają dalej.</p></details>
+<details><summary>Gdzie są moje zdjęcia?</summary><p>W Zdjęciach na iPhonie robiącym zdjęcie i w galerii aplikacji. Pilot też dostaje kopię, ale sam jej nie zapisuje, więc zapisz ją lub udostępnij przed zamknięciem pilota. Jeśli w Zdjęciach nic się nie pojawia, zezwól ShutterLink w Ustawienia › Prywatność i ochrona › Zdjęcia.</p></details>
+<details><summary>Moje filmy nie mają dźwięku.</summary><p>Włącz ShutterLink w Ustawienia › Prywatność i ochrona › Mikrofon.</p></details>
+<details><summary>Czy mogę połączyć kilka pilotów?</summary><p>Tak. Kilka iPhone’ów może połączyć się naraz tym samym kodem QR lub kodem, a każdy z nich wyzwala ten sam aparat.</p></details>
+<details><summary>Połączenie zrywa się podczas robienia zdjęć.</summary><p>Gdy ShutterLink jest otwarty, ekran nie gaśnie sam. Zablokowanie telefonu bocznym przyciskiem lub przejście do innej aplikacji zrywa połączenie, więc podczas zdjęć trzymaj aplikację na ekranie.</p></details>
+<details><summary>Czy moje zdjęcia są gdzieś wysyłane?</summary><p>Nie. Oba iPhone’y łączą się bezpośrednio przez Bluetooth, a zdjęcia i filmy zostają tylko na iPhonie robiącym zdjęcie i połączonym pilocie. Działa też w górach czy na plaży bez zasięgu i nie wymaga konta.</p></details></div>
+      <p class="contact">Nadal nie działa albo znalazłeś błąd? Napisz na <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>. Podaj modele i wersje iOS obu iPhone’ów, wtedy sprawdzimy to szybciej.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Na następnym spotkaniu<br>baner trzymają wszyscy</h2>
+      <a class="cta" href="https://apps.apple.com/app/id">Pobierz za darmo w App Store</a>
+    </section>
+  </main>
 
   <footer>
-    <span><a href="support/">Pomoc</a></span><span><a href="privacy/">Polityka prywatności</a></span>
+    <nav id="languages" class="langs" aria-label="Język"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl" aria-current="page">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Polityka prywatności</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 ShutterLink</p>
   </footer>
-</main>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>
