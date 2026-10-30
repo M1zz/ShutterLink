@@ -1,12 +1,21 @@
 import ARKit
+import LeeoKit
 import SwiftUI
 
 struct ContentView: View {
     @EnvironmentObject private var model: AppModel
 
     var body: some View {
-        CameraScreen(model: model, camera: model.camera, remote: model.remote,
-                     settings: model.camera.settings, shots: model.camera.shots)
+        // 아이폰 듀오를 펴면 고르는 쪽(가로면 왼쪽, 세로면 아래)에 촬영 화면, 결과 쪽(오른쪽, 위)에 찍은 사진.
+        // 접혀 있거나 보통 아이폰이면 촬영 화면만 — 지금 화면 그대로.
+        FoldSplitView {
+            CameraScreen(model: model, camera: model.camera, remote: model.remote,
+                         settings: model.camera.settings, shots: model.camera.shots)
+        } result: {
+            GalleryView(store: model.camera.shots, showsClose: false)
+                .environment(\.foldLayout, .single)
+        }
+        .background(Color.black.ignoresSafeArea())
             .onAppear {
                 // The camera sits on a tripod; never let the screen lock.
                 UIApplication.shared.isIdleTimerDisabled = true
@@ -97,12 +106,14 @@ private struct CameraScreen: View {
         }
         .fullScreenCover(isPresented: $showGallery) {
             GalleryView(store: shots)
+                .foldConfined()
         }
         .fullScreenCover(isPresented: Binding(
             get: { !settings.hasSeenOnboarding },
             set: { if !$0 { settings.hasSeenOnboarding = true } }
         )) {
             OnboardingView(startPage: Self.demoOnboardingPage) { settings.hasSeenOnboarding = true }
+                .foldConfined()
         }
         .alert("ShutterLink", isPresented: Binding(
             get: { camera.alertMessage != nil },

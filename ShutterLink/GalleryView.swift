@@ -18,6 +18,8 @@ enum ShutterLinkTipMoments {
 /// Shots taken with ShutterLink. Bursts are grouped by their best frame; share sends files via AirDrop etc.
 struct GalleryView: View {
     @ObservedObject var store: ShotStore
+    /// 아이폰 듀오를 펴서 결과 쪽 판에 늘 서 있을 때는 닫을 것이 없다.
+    var showsClose = true
     @Environment(\.dismiss) private var dismiss
     @State private var filter: Filter = .all
     @State private var selecting = false
@@ -101,11 +103,14 @@ struct GalleryView: View {
 
     @ToolbarContentBuilder
     private var toolbar: some ToolbarContent {
-        ToolbarItem(placement: .cancellationAction) {
-            Button("Close") { dismiss() }
+        if showsClose {
+            ToolbarItem(placement: .cancellationAction) {
+                Button("Close", systemImage: "xmark") { dismiss() }
+            }
         }
         ToolbarItem(placement: .primaryAction) {
-            Button(selecting ? "Cancel" : "Select") {
+            Button(selecting ? "Cancel" : "Select",
+                   systemImage: selecting ? "xmark" : "checkmark.circle") {
                 selecting.toggle()
                 selection.removeAll()
             }
@@ -215,7 +220,7 @@ private struct ShotDetailView: View {
             .padding(.bottom)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
-                    Button("Close") { dismiss() }
+                    Button("Close", systemImage: "xmark") { dismiss() }
                 }
                 ToolbarItem(placement: .primaryAction) {
                     ShareLink(item: store.fileURL(for: shot)) {
