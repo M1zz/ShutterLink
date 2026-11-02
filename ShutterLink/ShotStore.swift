@@ -30,10 +30,13 @@ final class ShotStore: ObservableObject {
         let base = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0]
         directory = base.appendingPathComponent("Shots", isDirectory: true)
         try? FileManager.default.createDirectory(at: directory, withIntermediateDirectories: true)
-        if let data = try? Data(contentsOf: indexURL),
-           let saved = try? JSONDecoder().decode([Shot].self, from: data) {
-            shots = saved.filter { FileManager.default.fileExists(atPath: directory.appendingPathComponent($0.fileName).path) }
+        guard let data = try? Data(contentsOf: indexURL) else { return }
+        guard let saved = try? JSONDecoder().decode([Shot].self, from: data) else {
+            // 못 읽은 원본을 옆에 남긴다 — 빈 목록으로 시작해 다음 저장이 덮어써도 되찾을 수 있게
+            try? FileManager.default.copyItem(at: indexURL, to: indexURL.appendingPathExtension("unreadable"))
+            return
         }
+        shots = saved.filter { FileManager.default.fileExists(atPath: directory.appendingPathComponent($0.fileName).path) }
     }
 
     func fileURL(for shot: Shot) -> URL {
