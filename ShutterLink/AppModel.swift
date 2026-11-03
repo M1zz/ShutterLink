@@ -3,6 +3,9 @@ import Foundation
 
 /// Wires the camera to the BLE remote server.
 final class AppModel: ObservableObject {
+    /// 앱 화면과 Siri 인텐트가 같은 카메라를 쓴다 (→ ShutterIntents.swift).
+    @MainActor static let shared = AppModel()
+
     let camera = CameraController()
     let remote: RemotePeripheral
     let sessionCode: String

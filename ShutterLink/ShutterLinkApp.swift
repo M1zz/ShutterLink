@@ -3,7 +3,7 @@ import LeeoKit
 
 @main
 struct ShutterLinkApp: App {
-    @StateObject private var model = AppModel()
+    @StateObject private var model = AppModel.shared
 
     init() {
         // 익명 사용 통계·크래시 진단을 피드백 허브(iCloud.com.Ysoup.FeedbackHub)로 올린다.
