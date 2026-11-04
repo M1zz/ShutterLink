@@ -1,3 +1,4 @@
+import AppIntents
 import ARKit
 import LeeoKit
 import SwiftUI
@@ -574,6 +575,7 @@ private struct CameraScreen: View {
                           isRecording: camera.isBusy,
                           isCountingDown: camera.countdown != nil) {
                 camera.shutter()
+                TakeShotIntent().donate()  // Siri 가 "찍어줘"를 이 앱과 잇게
             }
             Spacer()
             // ARKit only runs on the back camera, so the flip button gives way in banner mode.
