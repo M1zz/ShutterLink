@@ -48,6 +48,9 @@ ShutterLink: 현수막 단체사진
 리모컨은 설치가 필요 없습니다
 촬영할 iPhone에서 QR 코드를 띄우고, 다른 iPhone의 기본 카메라로 비추세요. ShutterLink Remote가 App Clip으로 바로 열려 연결됩니다. 리모컨 화면에서 실시간 미리보기를 보며 구도를 잡고 셔터를 누릅니다. 현수막 모드에서는 현수막까지 미리보기에 보입니다. QR이 잘 읽히지 않으면 4자리 코드를 입력해도 됩니다.
 
+Apple Watch가 셔터 리모컨
+손목에서 카메라 화면을 보고 한 번 눌러 찍습니다. 3초 타이머도 손목에서 켭니다.
+
 손 안 대고 찍기
 손바닥을 들거나, 다 같이 웃거나, 박수를 치면 셔터가 눌립니다.
 타이머는 3초부터 30초까지. 음성으로 숫자를 세고, 플래시 불빛도 함께 깜빡이고, 리모컨은 손에서 진동으로 알려 줍니다.
@@ -135,6 +138,9 @@ The timer, hands-free shutter and remote all work in Banner mode. Set the phone 
 
 A remote with nothing to install
 Show the QR code on the camera iPhone and scan it with another iPhone's Camera. ShutterLink Remote opens right away as an App Clip and connects. Frame the shot from the live view and press the shutter. In Banner mode, the banner shows in the live view too. If the QR code won't scan, type the 4-digit code instead.
+
+Your Apple Watch is a remote too
+See the camera view on your wrist and tap once to shoot. Turn on the 3-second timer right there.
 
 Hands-free shutter
 Raise your palm, smile together or clap, and the shutter fires.
@@ -224,6 +230,9 @@ The timer, hands-free shutter and remote all work in Banner mode. Set the phone 
 A remote with nothing to install
 Show the QR code on the camera iPhone and scan it with another iPhone's Camera. ShutterLink Remote opens right away as an App Clip and connects. Frame the shot from the live view and press the shutter. In Banner mode, the banner shows in the live view too. If the QR code won't scan, type the 4-digit code instead.
 
+Your Apple Watch is a remote too
+See the camera view on your wrist and tap once to shoot. Switch on the 3-second timer right there.
+
 Hands-free shutter
 Raise your palm, smile together or clap, and the shutter fires.
 Set a timer from 3 to 30 seconds. A voice counts down, the flash blinks along, and the remote buzzes in your hand.
@@ -311,6 +320,9 @@ ShutterLink：横断幕の集合写真
 
 リモコンはインストール不要
 撮影するiPhoneにQRコードを表示して、別のiPhoneの標準カメラで読み取ります。ShutterLinkリモコンがAppクリップですぐに開き、接続されます。リモコンのライブプレビューを見ながら構図を決めてシャッターを押せます。横断幕モードなら、横断幕もプレビューに映ります。QRコードがうまく読み取れないときは、4桁のコードを入力してください。
+
+Apple Watchがシャッターリモコンに
+手首でカメラの映像を見ながら、ワンタップで撮影。3秒タイマーも手首でオンにできます。
 
 手を使わずに撮る
 手のひらをかざす、みんなで笑う、拍手をする。それだけでシャッターが切れます。
@@ -400,6 +412,9 @@ ShutterLink：横幅合影
 无需安装的遥控器
 在拍摄用 iPhone 上显示二维码，用另一台 iPhone 的相机扫描，ShutterLink 遥控器就会作为 App Clip 立即打开并连接。在实时画面里取景，然后按下快门。横幅模式下，遥控器的实时画面里也能看到横幅。如果二维码扫不出来，输入 4 位数字码也可以。
 
+Apple Watch 也是快门遥控器
+在手腕上看着相机画面，轻点一下就拍。3 秒定时也能在手腕上打开。
+
 免触碰快门
 举起手掌、一起微笑或拍手，快门就会触发。
 可设 3 到 30 秒的定时。语音倒计时，闪光灯随之闪烁，遥控器也会在手中震动。
@@ -487,6 +502,9 @@ ShutterLink：布條團體照
 
 不需安裝的遙控器
 在拍攝用 iPhone 上顯示 QR code，用另一台 iPhone 的相機掃描，ShutterLink 遙控器就會以 App Clip 立即開啟並連接。在即時畫面裡取景，然後按下快門。布條模式下，遙控器的即時畫面裡也看得到布條。如果 QR code 掃不出來，輸入 4 位數代碼也可以。
+
+Apple Watch 也是快門遙控器
+在手腕上看著相機畫面，點一下就拍。3 秒計時也能在手腕上開啟。
 
 免觸碰快門
 舉起手掌、一起微笑或拍手，快門就會觸發。
@@ -576,6 +594,9 @@ ShutterLink: фото с баннером
 Пульт без установки
 Покажите QR-код на iPhone-камере и отсканируйте его камерой другого iPhone. «Пульт ShutterLink» сразу откроется как мини-приложение и подключится. Кадрируйте по живому изображению и нажимайте затвор. В режиме баннера баннер виден и на пульте. Если QR-код не считывается, введите 4-значный код.
 
+Apple Watch — тоже пульт
+Смотрите в кадр на запястье и снимайте одним касанием. Там же включается таймер на 3 секунды.
+
 Съёмка без рук
 Поднимите ладонь, улыбнитесь всем вместе или хлопните — и затвор сработает.
 Таймер от 3 до 30 секунд. Голос ведёт отсчёт, вспышка мигает в такт, а пульт вибрирует в руке.
@@ -650,7 +671,7 @@ Haz la clásica foto de grupo con todos sujetando una pancarta, sin imprimirla.
 Escribe tu texto, elige un tema y la pancarta aparece delante de tu grupo. El iPhone de un amigo se convierte en el control, sin instalar nada.
 
 Modo Pancarta
-Cambia a Pancarta, toca el suelo y la pancarta aparece a la altura a la que la sujetaría la gente. Toca una pared para colgarla allí. Arrástrala hacia arriba, abajo o a los lados y te sigue con el dedo. Con dos dedos puedes girarla o cambiarla de tamaño, o toca el botón de mover para ajustarla con precisión hacia delante, atrás, a los lados, arriba y abajo.
+Cambia a Pancarta, toca el suelo y la pancarta aparece a la altura a la que la sujetaría la gente. Toca una pared para colgarla allí. Arrástrala hacia arriba, abajo o a los lados y te sigue con el dedo. Con dos dedos puedes girarla o cambiarla de tamaño, o ajústala con precisión con el botón de mover.
 La pancarta siempre se queda delante de tu grupo, así que parece que todos la sujetan juntos.
 
 Hazla tuya
@@ -663,6 +684,9 @@ El temporizador, el disparo sin manos y el control funcionan en el modo Pancarta
 
 Un control sin instalar nada
 Muestra el código QR en el iPhone de la cámara y escanéalo con la cámara de otro iPhone. El control de ShutterLink se abre al instante como App Clip y se conecta. Encuadra con la vista en directo y pulsa el obturador. En el modo Pancarta, la pancarta también se ve en la vista en directo. Si el código QR no se escanea, introduce el código de 4 dígitos.
+
+El Apple Watch también es control
+Ve el encuadre en la muñeca y dispara con un toque, con temporizador de 3 s.
 
 Disparo sin manos
 Levanta la palma, sonreíd juntos o dad una palmada y el obturador dispara.
@@ -681,7 +705,7 @@ Cada foto que haces aparece enseguida en el iPhone del control. Un amigo sin la 
 Control total de la cámara desde el control
 Toca para enfocar y exponer, compensación de exposición, flash y luz, cuadrícula, zoom de 0,5× hasta 10× según tu iPhone, cámaras frontal y trasera, y vídeo.
 Disparo por intervalos de 3 segundos a 1 minuto para atardeceres o proyectos en marcha.
-Un modo sencillo en el control muestra un único botón grande que cualquiera puede pulsar.
+El modo sencillo del control muestra un solo botón grande.
 
 Bluetooth directo, sin internet
 Los dos iPhone se conectan directamente por Bluetooth. Una vez conectados, funciona en la montaña, en la playa o en el extranjero sin Wi‑Fi ni datos móviles. No hace falta cuenta.
@@ -752,6 +776,9 @@ Timer, Freihand-Auslöser und Fernbedienung funktionieren im Banner-Modus. Stell
 Eine Fernbedienung ohne Installation
 Zeig den QR-Code auf dem Kamera-iPhone und scanne ihn mit der Kamera eines anderen iPhone. Die ShutterLink Fernbedienung öffnet sich sofort als App Clip und verbindet sich. Wähle den Ausschnitt in der Live-Ansicht und drück den Auslöser. Im Banner-Modus ist das Banner auch in der Live-Ansicht zu sehen. Lässt sich der QR-Code nicht scannen, gib stattdessen den 4-stelligen Code ein.
 
+Auch die Apple Watch ist Fernbedienung
+Sieh das Kamerabild am Handgelenk und löse mit einem Tippen aus, auch mit 3-Sek.-Timer.
+
 Freihand-Auslöser
 Heb die Handfläche, lächelt gemeinsam oder klatscht, und der Auslöser feuert.
 Stell einen Timer von 3 bis 30 Sekunden ein. Eine Stimme zählt herunter, der Blitz blinkt mit, und die Fernbedienung vibriert in deiner Hand.
@@ -820,7 +847,7 @@ Faites la photo de groupe classique où tout le monde tient une banderole, sans 
 Écrivez votre texte, choisissez un thème, et une banderole apparaît devant votre groupe. L’iPhone d’un ami devient la télécommande, sans rien installer.
 
 Mode Banderole
-Passez en Banderole, touchez le sol, et la banderole apparaît à la hauteur où on la tiendrait. Touchez un mur pour l’y accrocher. Faites-la glisser vers le haut, le bas ou les côtés : elle suit votre doigt. À deux doigts, faites-la pivoter ou redimensionnez-la, ou utilisez le bouton de déplacement pour l’ajuster finement vers l’avant, l’arrière, les côtés, le haut et le bas.
+Passez en Banderole, touchez le sol, et la banderole apparaît à la hauteur où on la tiendrait. Touchez un mur pour l’y accrocher. Faites-la glisser vers le haut, le bas ou les côtés : elle suit votre doigt. À deux doigts, faites-la pivoter ou redimensionnez-la, ou ajustez-la finement avec le bouton de déplacement.
 La banderole reste toujours devant votre groupe, comme si tout le monde la tenait ensemble.
 
 Personnalisez-la
@@ -833,6 +860,9 @@ Le minuteur, le déclencheur mains libres et la télécommande fonctionnent en m
 
 Une télécommande sans rien installer
 Affichez le code QR sur l’iPhone photographe et scannez-le avec l’appareil photo d’un autre iPhone. La Télécommande ShutterLink s’ouvre aussitôt en App Clip et se connecte. Cadrez depuis l’image en direct et appuyez sur le déclencheur. En mode Banderole, la banderole s’affiche aussi dans l’image en direct. Si le code QR ne se scanne pas, saisissez le code à 4 chiffres.
+
+L’Apple Watch devient télécommande
+Voyez le cadrage au poignet et déclenchez d’un toucher, avec ou sans minuteur de 3 s.
 
 Déclencheur mains libres
 Levez la paume, souriez ensemble ou applaudissez, et le déclencheur part.
@@ -851,7 +881,7 @@ Chaque photo prise apparaît tout de suite sur l’iPhone télécommande. Un ami
 Contrôle complet de l’appareil depuis la télécommande
 Mise au point et exposition au toucher, correction d’exposition, flash et lumière, grille, zoom de 0,5× à 10× selon votre iPhone, caméras avant et arrière, et vidéo.
 Prise de vue par intervalle de 3 secondes à 1 minute pour les couchers de soleil ou les projets en cours.
-Un mode simple sur la télécommande affiche un seul gros bouton de déclenchement que chacun peut presser.
+Le mode simple de la télécommande n’affiche qu’un gros bouton, facile pour tous.
 
 Bluetooth direct, sans Internet
 Les deux iPhone se connectent directement en Bluetooth. Une fois connectés, ça marche en montagne, à la plage ou à l’étranger sans Wi‑Fi ni réseau mobile. Aucun compte nécessaire.
@@ -915,6 +945,9 @@ Timer, scatto a mani libere e telecomando funzionano in modalità Striscione. Me
 
 Un telecomando senza installare nulla
 Mostra il codice QR sull’iPhone fotocamera e scansionalo con la fotocamera di un altro iPhone. Il Telecomando ShutterLink si apre subito come App Clip e si connette. Inquadra dalla vista dal vivo e premi il pulsante di scatto. In modalità Striscione, lo striscione si vede anche nella vista dal vivo. Se il QR non si scansiona, inserisci il codice di 4 cifre.
+
+Anche Apple Watch è un telecomando
+Guarda l’inquadratura al polso e scatta con un tocco. Il timer di 3 secondi si attiva lì.
 
 Scatto a mani libere
 Alza il palmo, sorridete insieme o battete le mani e scatta.
@@ -998,6 +1031,9 @@ Temporizador, disparo sem as mãos e controle funcionam no modo Faixa. Deixe o c
 Um controle sem instalar nada
 Mostre o QR code no iPhone da câmera e leia com a câmera de outro iPhone. O Controle ShutterLink abre na hora como App Clip e se conecta. Enquadre pela imagem ao vivo e aperte o obturador. No modo Faixa, a faixa também aparece na imagem ao vivo. Se o QR code não ler, digite o código de 4 dígitos.
 
+O Apple Watch também é controle
+Veja o enquadramento no pulso e fotografe com um toque. O timer de 3 segundos também liga por lá.
+
 Disparo sem as mãos
 Levante a palma, sorriam juntos ou batam palmas e o obturador dispara.
 Defina um temporizador de 3 a 30 segundos. Uma voz faz a contagem, o flash pisca junto e o controle vibra na sua mão.
@@ -1079,6 +1115,9 @@ ShutterLink: ภาพหมู่แบนเนอร์
 
 รีโมตที่ไม่ต้องติดตั้ง
 แสดง QR code บน iPhone ตัวถ่ายภาพ แล้วสแกนด้วยกล้องของ iPhone อีกเครื่อง รีโมต ShutterLink จะเปิดเป็น App Clip ทันทีและเชื่อมต่อ จัดเฟรมจากภาพสดแล้วกดชัตเตอร์ ในโหมดแบนเนอร์ แบนเนอร์จะแสดงในภาพสดด้วย หากสแกน QR code ไม่ได้ ให้พิมพ์รหัส 4 หลักแทน
+
+Apple Watch ก็เป็นรีโมตชัตเตอร์
+ดูภาพจากกล้องบนข้อมือแล้วแตะครั้งเดียวเพื่อถ่าย เปิดตัวตั้งเวลา 3 วินาทีได้จากข้อมือเช่นกัน
 
 ชัตเตอร์ไม่ต้องใช้มือ
 ยกฝ่ามือ ยิ้มพร้อมกัน หรือปรบมือ ชัตเตอร์ก็ลั่น
@@ -1162,6 +1201,9 @@ Hẹn giờ, chụp rảnh tay và điều khiển đều dùng được ở ch�
 Điều khiển không cần cài đặt
 Hiện mã QR trên iPhone chụp và quét bằng camera của iPhone khác. Điều khiển ShutterLink mở ngay dưới dạng App Clip và kết nối. Lấy khung từ hình ảnh trực tiếp rồi bấm nút chụp. Ở chế độ Băng rôn, băng rôn cũng hiện trong hình ảnh trực tiếp. Nếu mã QR không quét được, hãy nhập mã 4 chữ số.
 
+Apple Watch cũng là điều khiển
+Xem khung hình ngay trên cổ tay và chạm một lần để chụp. Bật hẹn giờ 3 giây ngay trên đồng hồ.
+
 Chụp rảnh tay
 Giơ lòng bàn tay, cùng cười hoặc vỗ tay, nút chụp sẽ tự bấm.
 Đặt hẹn giờ từ 3 đến 30 giây. Giọng nói đếm ngược, đèn flash nháy theo và điều khiển rung trong tay bạn.
@@ -1243,6 +1285,9 @@ Všichni na fotce
 
 Ovladač bez instalace
 Zobrazte QR kód na iPhonu s fotoaparátem a naskenujte ho fotoaparátem druhého iPhonu. Ovladač ShutterLink se okamžitě otevře jako App Clip a připojí se. Kompozici zvolte podle živého obrazu a stiskněte spoušť. V režimu Banner je banner vidět i v živém obraze. Pokud se QR kód nedaří naskenovat, zadejte místo něj 4místný kód.
+
+Ovladačem je i Apple Watch
+Na zápěstí vidíte záběr a jedním klepnutím fotíte. Tam si zapnete i 3sekundový časovač.
 
 Spoušť bez doteku
 Zvedněte dlaň, usmějte se společně nebo tleskněte a spoušť se stiskne.
@@ -1326,6 +1371,9 @@ Timer, håndfri udløser og fjernbetjening virker i Bannertilstand. Sæt telefon
 En fjernbetjening uden installation
 Vis QR-koden på kamera-iPhonen, og scan den med en anden iPhones kamera. ShutterLink-fjernbetjeningen åbner med det samme som App Clip og opretter forbindelse. Ram billedet ind i live-visningen, og tryk på udløseren. I Bannertilstand ses banneret også i live-visningen. Kan QR-koden ikke scannes, kan du indtaste den firecifrede kode i stedet.
 
+Apple Watch er også fjernbetjening
+Se kamerabilledet på håndleddet, og tag billedet med ét tryk. Slå 3-sekunders timeren til samme sted.
+
 Håndfri udløser
 Løft håndfladen, smil sammen, eller klap, så udløses billedet.
 Indstil en timer fra 3 til 30 sekunder. En stemme tæller ned, blitzen blinker med, og fjernbetjeningen vibrerer i din hånd.
@@ -1394,7 +1442,7 @@ ShutterLink: φωτογραφία πανό
 Γράψτε το κείμενό σας, διαλέξτε θέμα και ένα πανό εμφανίζεται μπροστά από την παρέα σας. Το iPhone ενός φίλου γίνεται τηλεχειριστήριο, χωρίς εγκατάσταση.
 
 Λειτουργία Πανό
-Επιλέξτε Πανό, πατήστε στο δάπεδο και το πανό εμφανίζεται στο ύψος που θα το κρατούσαν οι άνθρωποι. Πατήστε σε έναν τοίχο για να το κρεμάσετε εκεί. Σύρετέ το πάνω, κάτω ή στα πλάγια και ακολουθεί το δάχτυλό σας. Με δύο δάχτυλα το γυρίζετε ή αλλάζετε μέγεθος, ή πατάτε το κουμπί μετακίνησης για λεπτομερή ρύθμιση μπροστά, πίσω, στα πλάγια, πάνω και κάτω.
+Επιλέξτε Πανό, πατήστε στο δάπεδο και το πανό εμφανίζεται στο ύψος που θα το κρατούσαν οι άνθρωποι. Πατήστε σε έναν τοίχο για να το κρεμάσετε εκεί. Σύρετέ το πάνω, κάτω ή στα πλάγια και ακολουθεί το δάχτυλό σας. Με δύο δάχτυλα το γυρίζετε ή αλλάζετε μέγεθος, ή το ρυθμίζετε με ακρίβεια με το κουμπί μετακίνησης.
 Το πανό μένει πάντα μπροστά από την παρέα σας, οπότε φαίνεται σαν να το κρατούν όλοι μαζί.
 
 Κάντε το δικό σας
@@ -1407,6 +1455,9 @@ ShutterLink: φωτογραφία πανό
 
 Ένα τηλεχειριστήριο χωρίς εγκατάσταση
 Εμφανίστε τον κωδικό QR στο iPhone της κάμερας και σαρώστε τον με την κάμερα ενός άλλου iPhone. Το Τηλεχειριστήριο ShutterLink ανοίγει αμέσως ως App Clip και συνδέεται. Κάντε το κάδρο από τη ζωντανή εικόνα και πατήστε το κλείστρο. Στη λειτουργία Πανό, το πανό φαίνεται και στη ζωντανή εικόνα. Αν ο κωδικός QR δεν σαρώνεται, πληκτρολογήστε τον 4ψήφιο κωδικό.
+
+Και το Apple Watch γίνεται τηλεχειριστήριο
+Δείτε το κάδρο στον καρπό και τραβήξτε με ένα άγγιγμα, με χρονόμετρο 3 δ.
 
 Κλείστρο χωρίς χέρια
 Σηκώστε την παλάμη, χαμογελάστε όλοι μαζί ή χειροκροτήστε και το κλείστρο πατιέται.
@@ -1425,7 +1476,7 @@ ShutterLink: φωτογραφία πανό
 Πλήρης έλεγχος της κάμερας από το τηλεχειριστήριο
 Πατήστε για εστίαση και έκθεση, αντιστάθμιση έκθεσης, φλας και φως, πλέγμα, ζουμ από 0,5× έως 10× ανάλογα με το iPhone, μπροστινή και πίσω κάμερα και βίντεο.
 Λήψη ανά διάστημα από 3 δευτερόλεπτα έως 1 λεπτό για ηλιοβασιλέματα ή έργα σε εξέλιξη.
-Μια απλή λειτουργία στο τηλεχειριστήριο δείχνει ένα μεγάλο κουμπί κλείστρου που μπορεί να πατήσει ο καθένας.
+Η απλή λειτουργία του τηλεχειριστηρίου δείχνει ένα μεγάλο κουμπί κλείστρου για όλους.
 
 Απευθείας Bluetooth, χωρίς διαδίκτυο
 Τα δύο iPhone συνδέονται απευθείας μέσω Bluetooth. Μόλις συνδεθούν, λειτουργεί σε βουνό, σε παραλία ή στο εξωτερικό χωρίς Wi‑Fi ή δεδομένα κινητής. Δεν χρειάζεται λογαριασμός.
@@ -1489,6 +1540,9 @@ Ajastin, kädetön laukaisu ja kaukosäädin toimivat Banneri-tilassa. Aseta puh
 
 Kaukosäädin ilman asennusta
 Näytä QR-koodi kuvaavassa iPhonessa ja skannaa se toisen iPhonen kameralla. ShutterLink-kaukosäädin aukeaa heti App Clipinä ja yhdistyy. Rajaa live-kuvasta ja paina suljinta. Banneri-tilassa banneri näkyy myös live-kuvassa. Jos QR-koodi ei skannaudu, syötä nelinumeroinen koodi.
+
+Myös Apple Watch on kaukosäädin
+Näe kameran kuva ranteesta ja ota kuva yhdellä napautuksella. Kytke 3 sekunnin ajastin päälle samasta paikasta.
 
 Kädetön laukaisu
 Nosta kämmen, hymyilkää yhdessä tai taputtakaa, niin suljin laukeaa.
@@ -1572,6 +1626,9 @@ Timer, rana tanpa sentuh, dan remote semuanya berfungsi di mode Spanduk. Taruh p
 Remote tanpa perlu dipasang
 Tampilkan kode QR di iPhone kamera dan pindai dengan Kamera iPhone lain. Remote ShutterLink langsung terbuka sebagai App Clip dan terhubung. Bingkai lewat tampilan langsung dan tekan rana. Di mode Spanduk, spanduk juga terlihat di tampilan langsung. Jika kode QR tidak bisa dipindai, ketik kode 4 digit.
 
+Apple Watch juga jadi remote
+Lihat tampilan kamera di pergelangan tangan dan ketuk sekali untuk memotret. Timer 3 detik juga bisa dinyalakan di sana.
+
 Rana tanpa sentuh
 Angkat telapak tangan, tersenyum bersama, atau bertepuk tangan, dan rana menyala.
 Atur timer 3 hingga 30 detik. Suara menghitung mundur, lampu kilat berkedip mengikuti, dan remote bergetar di tangan Anda.
@@ -1653,6 +1710,9 @@ Timer, håndfri utløser og fjernkontroll fungerer i Bannermodus. Sett telefonen
 
 En fjernkontroll uten installasjon
 Vis QR-koden på kamera-iPhonen og skann den med kameraet på en annen iPhone. ShutterLink-fjernkontrollen åpnes umiddelbart som App Clip og kobler til. Ramm inn bildet i direktevisningen og trykk på utløseren. I Bannermodus vises banneret også i direktevisningen. Hvis QR-koden ikke lar seg skanne, skriver du inn den firesifrede koden i stedet.
+
+Apple Watch er også fjernkontroll
+Se kamerabildet på håndleddet, og ta bildet med ett trykk. Slå på 3-sekunderstimeren samme sted.
 
 Håndfri utløser
 Løft håndflaten, smil sammen eller klapp, så utløses bildet.
@@ -1736,6 +1796,9 @@ De timer, de handsfree ontspanner en de afstandsbediening werken in de spandoekm
 Een afstandsbediening zonder installatie
 Toon de QR-code op de iPhone met de camera en scan hem met de camera van een andere iPhone. De ShutterLink-afstandsbediening opent meteen als App Clip en maakt verbinding. Kadreer in de live weergave en druk op de ontspanner. In de spandoekmodus is het spandoek ook te zien in de live weergave. Lukt het scannen van de QR-code niet, typ dan de code van 4 cijfers.
 
+Ook je Apple Watch is een afstandsbediening
+Zie het camerabeeld op je pols en maak de foto met één tik, met of zonder timer van 3 sec.
+
 Handsfree ontspanner
 Hef je handpalm, lach samen of klap, en de ontspanner gaat af.
 Stel een timer in van 3 tot 30 seconden. Een stem telt af, de flits knippert mee en de afstandsbediening trilt in je hand.
@@ -1817,6 +1880,9 @@ Minutnik, migawka bez dotykania i pilot działają w trybie Baner. Postaw telefo
 
 Pilot bez instalacji
 Wyświetl kod QR na iPhonie z aparatem i zeskanuj go aparatem drugiego iPhone’a. Pilot ShutterLink od razu otworzy się jako App Clip i połączy się. Kadruj według obrazu na żywo i naciśnij migawkę. W trybie Baner baner widać też w obrazie na żywo. Jeśli kodu QR nie da się zeskanować, wpisz 4-cyfrowy kod.
+
+Apple Watch też jest pilotem
+Zobacz kadr na nadgarstku i zrób zdjęcie jednym stuknięciem. Tam włączysz też 3-sekundowy minutnik.
 
 Migawka bez dotykania
 Unieś dłoń, uśmiechnijcie się razem lub klaśnijcie, a migawka zadziała.
@@ -1900,6 +1966,9 @@ Timer, handsfree-utlösare och fjärrkontroll fungerar i läget Banderoll. Stäl
 En fjärrkontroll utan installation
 Visa QR-koden på kamera-iPhonen och skanna den med kameran på en annan iPhone. ShutterLink-fjärrkontrollen öppnas direkt som App Clip och ansluter. Beskär bilden i direktvisningen och tryck på utlösaren. I läget Banderoll syns banderollen även i direktvisningen. Går QR-koden inte att skanna anger du den fyrsiffriga koden i stället.
 
+Apple Watch är också fjärrkontroll
+Se kamerabilden på handleden och ta bilden med ett tryck. Slå på 3-sekunderstimern på samma ställe.
+
 Handsfree-utlösare
 Håll upp handflatan, le tillsammans eller klappa, så utlöses bilden.
 Ställ in en timer från 3 till 30 sekunder. En röst räknar ned, blixten blinkar med och fjärrkontrollen vibrerar i handen.
@@ -1981,6 +2050,9 @@ Zamanlayıcı, elsiz deklanşör ve kumanda Pankart modunda çalışır. Telefon
 
 Yüklemesiz kumanda
 Kamera iPhone’unda QR kodu gösterin ve başka bir iPhone’un kamerasıyla tarayın. ShutterLink Kumanda hemen App Clip olarak açılır ve bağlanır. Kadrajı canlı görüntüden ayarlayın ve deklanşöre basın. Pankart modunda pankart canlı görüntüde de görünür. QR kod taranmazsa 4 haneli kodu girin.
+
+Apple Watch da kumanda olur
+Kamera görüntüsünü bileğinizde görün, tek dokunuşla çekin. 3 saniyelik zamanlayıcıyı da oradan açın.
 
 Elsiz deklanşör
 Avucunuzu kaldırın, birlikte gülümseyin veya alkışlayın; deklanşör tetiklenir.

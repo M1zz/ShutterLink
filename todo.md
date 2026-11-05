@@ -100,3 +100,12 @@
 - [x] 뷰파인더 위 배지·옵션·토스트·카운트다운·줌은 장면의 위아래에 맞춰 돌아가고, 바깥 아이콘은 제자리에서 바로 선다
 - [x] 현수막 모드: 가로로 찍은 사진·리모컨 미리보기를 바로 세워 저장, 얼굴·손바닥 인식도 가로 방향으로
 - [ ] 실기기: 가로(양쪽)·거꾸로 들고 사진·현수막 사진이 바로 서는지, 인원 수가 가로에서도 잡히는지
+
+## Apple Watch 리모컨 (2026-11-05, 1.1.0 · watchOS 10+)
+- [x] 한 화면: 위에 iPhone 카메라 장면 전체(덮지 않음 — 가장자리 잘림을 봐야 하니까), 아래 [3초 타이머 · 셔터 · 줌 배율]
+- [x] 셔터 = 화면 단추 · 두 번 두드리기(watchOS 11+) · 동작 버튼/Siri/단축어(TakeShotIntent). Digital Crown = 줌
+- [x] 연결: WatchConnectivity. 워치가 떠 있을 때만 iPhone 이 미리보기 JPEG(400px)를 보내고, 한 장 답을 받아야 다음 장(최신 것만). 명령·상태는 BLE 리모컨과 같은 RemoteCommand/RemoteStatus
+- [x] 카운트다운마다 손목 톡, 찍히면 성공 진동 + 화면 번쩍. 장면이 2초 넘게 안 오면 "iPhone에서 ShutterLink를 열어 주세요"
+- [x] 컴플리케이션(원형·모서리·직사각형·인라인): 누르면 바로 리모컨
+- [x] 스크린샷 docs/screenshots/watch/<언어>/ (scripts/make_watch_screenshots.sh, `-watchDemo main|countdown`)
+- [ ] 실기기: 미리보기 fps · 지연, iPhone 앱이 뒤에 있을 때 안내, 동작 버튼에 단축어 연결

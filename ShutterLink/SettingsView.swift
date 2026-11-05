@@ -54,6 +54,7 @@ struct SettingsView: View {
                     }
                     LeeoShareAppLink<ShutterLinkSpec>()
                     LeeoTipJarLink<ShutterLinkSpec>(tipJar: ShutterLinkSpec.tipJar)
+                    NavigationLink(LeeoRoadmapText.entry) { LeeoRoadmapView<ShutterLinkSpec>() }
                     NavigationLink { LeeoVaultView(appName: ShutterLinkSpec.displayName) } label: {
                         Label(LeeoVaultText.entry, systemImage: "externaldrive.badge.timemachine")
                     }

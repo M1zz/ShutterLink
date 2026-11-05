@@ -1,5 +1,151 @@
 # 릴리즈 노트
 
+## 1.1.0
+
+### 앱스토어 (ko)
+
+이제 Apple Watch가 셔터 리모컨이 돼요
+손목에서 화면을 보고 한 번 눌러 찍어요
+시계 화면에서 바로 리모컨을 열어요
+
+### App Store (en-US)
+
+Apple Watch is now your shutter remote
+See the shot on your wrist, tap to shoot
+Open the remote from your watch face
+
+### App Store (en-GB)
+
+Apple Watch is now your shutter remote
+See the shot on your wrist, tap to shoot
+Open the remote from your watch face
+
+### App Store (ja)
+
+Apple Watchがシャッターリモコンになりました
+手首で画面を見ながらタップで撮影できます
+文字盤からすぐにリモコンを開けます
+
+### App Store (zh-Hans)
+
+Apple Watch 现在也是快门遥控器
+在手腕上看着画面，轻点即可拍照
+从表盘直接打开遥控器
+
+### App Store (zh-Hant)
+
+Apple Watch 現在也是快門遙控器
+在手腕上看著畫面，點一下就能拍照
+從錶面直接打開遙控器
+
+### 앱스토어 (러시아어)
+
+Apple Watch теперь пульт затвора
+Смотрите в кадр на запястье и снимайте
+Пульт открывается с циферблата
+
+### App Store (es-ES)
+
+El Apple Watch ya es tu disparador
+Mira el encuadre en la muñeca y dispara
+Abre el control desde la esfera
+
+### App Store (de-DE)
+
+Die Apple Watch ist jetzt Fernauslöser
+Bild am Handgelenk sehen und auslösen
+Fernbedienung vom Zifferblatt öffnen
+
+### App Store (fr-FR)
+
+L’Apple Watch devient télécommande
+Le cadrage au poignet, un toucher suffit
+Ouvrez la télécommande depuis le cadran
+
+### 앱스토어 (이탈리아어)
+
+Apple Watch ora è il tuo telecomando
+Guarda l’inquadratura al polso e scatta
+Apri il telecomando dal quadrante
+
+### App Store (pt-BR)
+
+O Apple Watch agora é seu disparador
+Veja a cena no pulso e toque para clicar
+Abra o controle direto do mostrador
+
+### 앱스토어 (태국어)
+
+Apple Watch เป็นรีโมตชัตเตอร์ได้แล้ว
+ดูภาพบนข้อมือแล้วแตะเพื่อถ่าย
+เปิดรีโมตได้ทันทีจากหน้าปัดนาฬิกา
+
+### 앱스토어 (베트남어)
+
+Apple Watch giờ là điều khiển chụp ảnh
+Xem khung hình trên cổ tay, chạm để chụp
+Mở điều khiển ngay từ mặt đồng hồ
+
+### 앱스토어 (체코어)
+
+Apple Watch je teď dálková spoušť
+Záběr na zápěstí, fotka jedním klepnutím
+Ovladač otevřete přímo z ciferníku
+
+### 앱스토어 (덴마크어)
+
+Apple Watch er nu din fjernudløser
+Se billedet på håndleddet og tryk
+Åbn fjernbetjeningen fra urskiven
+
+### 앱스토어 (그리스어)
+
+Το Apple Watch γίνεται τηλεχειριστήριο
+Δείτε το κάδρο στον καρπό και τραβήξτε
+Ανοίγει απευθείας από την πρόσοψη
+
+### 앱스토어 (핀란드어)
+
+Apple Watch on nyt kauko-ohjain
+Näe kuva ranteessa ja napauta
+Avaa kaukosäädin suoraan kellotaulusta
+
+### 앱스토어 (인도네시아어)
+
+Apple Watch kini jadi remote rana
+Lihat gambar di pergelangan lalu ketuk
+Buka remote langsung dari tampilan jam
+
+### 앱스토어 (노르웨이어(보크말))
+
+Apple Watch er nå din fjernutløser
+Se bildet på håndleddet og trykk
+Åpne fjernkontrollen fra urskiven
+
+### App Store (nl-NL)
+
+Je Apple Watch is nu afstandsbediening
+Zie het beeld op je pols en tik
+Open de bediening vanaf je wijzerplaat
+
+### 앱스토어 (폴란드어)
+
+Apple Watch jest teraz pilotem migawki
+Zobacz kadr na nadgarstku i stuknij
+Otwórz pilota prosto z tarczy zegarka
+
+### 앱스토어 (스웨덴어)
+
+Apple Watch är nu din fjärrutlösare
+Se bilden på handleden och tryck
+Öppna fjärrkontrollen från urtavlan
+
+### 앱스토어 (튀르키예어)
+
+Apple Watch artık deklanşör kumandası
+Kareyi bileğinizde görün, dokunup çekin
+Kumandayı saat kadranından açın
+
 ## 1.0.1
 
 ### 앱스토어 (ko)

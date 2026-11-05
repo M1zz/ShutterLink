@@ -7,11 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA0000000000000000000053 /* ShutterLinkWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000012 /* ShutterLinkWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AA0000000000000000000054 /* ShutterLinkWatchWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000013 /* ShutterLinkWatchWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AA0000000000000000000050 /* ShutterLinkClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000011 /* ShutterLinkClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		EB2BCF837E41E2696191B872 /* LeeoKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5E5EB854394576A889E68E61 /* LeeoKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		AA0000000000000000000055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA0000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA0000000000000000000032;
+			remoteInfo = ShutterLinkWatch;
+		};
+		AA0000000000000000000057 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA0000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA0000000000000000000033;
+			remoteInfo = ShutterLinkWatchWidget;
+		};
 		AA0000000000000000000051 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AA0000000000000000000001 /* Project object */;
@@ -22,6 +38,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		AA0000000000000000000047 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AA0000000000000000000053 /* ShutterLinkWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA000000000000000000004B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AA0000000000000000000054 /* ShutterLinkWatchWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AA0000000000000000000043 /* Embed App Clips */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -36,11 +74,44 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AA0000000000000000000012 /* ShutterLinkWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShutterLinkWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0000000000000000000013 /* ShutterLinkWatchWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShutterLinkWatchWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA0000000000000000000010 /* ShutterLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShutterLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA0000000000000000000011 /* ShutterLinkClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShutterLinkClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AA0000000000000000000026 /* Exceptions for "Shared" folder in "ShutterLinkWatch" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				PreviewStream.swift,
+				SharedViews.swift,
+			);
+			target = AA0000000000000000000032 /* ShutterLinkWatch */;
+		};
+		AA0000000000000000000027 /* Exceptions for "ShutterLinkWatchWidget" folder in "ShutterLinkWatchWidget" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AA0000000000000000000033 /* ShutterLinkWatchWidget */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		AA0000000000000000000024 /* ShutterLinkWatch */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ShutterLinkWatch;
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000025 /* ShutterLinkWatchWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AA0000000000000000000027 /* Exceptions for "ShutterLinkWatchWidget" folder in "ShutterLinkWatchWidget" target */,
+			);
+			path = ShutterLinkWatchWidget;
+			sourceTree = "<group>";
+		};
 		AA0000000000000000000020 /* ShutterLink */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ShutterLink;
@@ -53,6 +124,9 @@
 		};
 		AA0000000000000000000022 /* Shared */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AA0000000000000000000026 /* Exceptions for "Shared" folder in "ShutterLinkWatch" target */,
+			);
 			path = Shared;
 			sourceTree = "<group>";
 		};
@@ -64,6 +138,20 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AA0000000000000000000049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA000000000000000000004D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AA0000000000000000000041 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -87,6 +175,8 @@
 			children = (
 				AA0000000000000000000020 /* ShutterLink */,
 				AA0000000000000000000021 /* ShutterLinkClip */,
+				AA0000000000000000000024 /* ShutterLinkWatch */,
+				AA0000000000000000000025 /* ShutterLinkWatchWidget */,
 				AA0000000000000000000022 /* Shared */,
 				AA0000000000000000000023 /* Config */,
 				AA0000000000000000000003 /* Products */,
@@ -98,6 +188,8 @@
 			children = (
 				AA0000000000000000000010 /* ShutterLink.app */,
 				AA0000000000000000000011 /* ShutterLinkClip.app */,
+				AA0000000000000000000012 /* ShutterLinkWatch.app */,
+				AA0000000000000000000013 /* ShutterLinkWatchWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,6 +197,53 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		AA0000000000000000000032 /* ShutterLinkWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0000000000000000000063 /* Build configuration list for PBXNativeTarget "ShutterLinkWatch" */;
+			buildPhases = (
+				AA0000000000000000000048 /* Sources */,
+				AA0000000000000000000049 /* Frameworks */,
+				AA000000000000000000004A /* Resources */,
+				AA000000000000000000004B /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA0000000000000000000058 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AA0000000000000000000024 /* ShutterLinkWatch */,
+				AA0000000000000000000022 /* Shared */,
+			);
+			name = ShutterLinkWatch;
+			packageProductDependencies = (
+			);
+			productName = ShutterLinkWatch;
+			productReference = AA0000000000000000000012 /* ShutterLinkWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA0000000000000000000033 /* ShutterLinkWatchWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0000000000000000000064 /* Build configuration list for PBXNativeTarget "ShutterLinkWatchWidget" */;
+			buildPhases = (
+				AA000000000000000000004C /* Sources */,
+				AA000000000000000000004D /* Frameworks */,
+				AA000000000000000000004E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AA0000000000000000000025 /* ShutterLinkWatchWidget */,
+			);
+			name = ShutterLinkWatchWidget;
+			packageProductDependencies = (
+			);
+			productName = ShutterLinkWatchWidget;
+			productReference = AA0000000000000000000013 /* ShutterLinkWatchWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		AA0000000000000000000030 /* ShutterLink */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA0000000000000000000061 /* Build configuration list for PBXNativeTarget "ShutterLink" */;
@@ -113,11 +252,13 @@
 				AA0000000000000000000041 /* Frameworks */,
 				AA0000000000000000000042 /* Resources */,
 				AA0000000000000000000043 /* Embed App Clips */,
+				AA0000000000000000000047 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				AA0000000000000000000052 /* PBXTargetDependency */,
+				AA0000000000000000000056 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				AA0000000000000000000020 /* ShutterLink */,
@@ -170,6 +311,12 @@
 					AA0000000000000000000031 = {
 						CreatedOnToolsVersion = 16.0;
 					};
+					AA0000000000000000000032 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					AA0000000000000000000033 = {
+						CreatedOnToolsVersion = 26.0;
+					};
 				};
 			};
 			buildConfigurationList = AA0000000000000000000060 /* Build configuration list for PBXProject "ShutterLink" */;
@@ -214,11 +361,27 @@
 			targets = (
 				AA0000000000000000000030 /* ShutterLink */,
 				AA0000000000000000000031 /* ShutterLinkClip */,
+				AA0000000000000000000032 /* ShutterLinkWatch */,
+				AA0000000000000000000033 /* ShutterLinkWatchWidget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AA000000000000000000004A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA000000000000000000004E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AA0000000000000000000042 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -236,6 +399,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AA0000000000000000000048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA000000000000000000004C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AA0000000000000000000040 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -253,6 +430,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		AA0000000000000000000056 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA0000000000000000000032 /* ShutterLinkWatch */;
+			targetProxy = AA0000000000000000000055 /* PBXContainerItemProxy */;
+		};
+		AA0000000000000000000058 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA0000000000000000000033 /* ShutterLinkWatchWidget */;
+			targetProxy = AA0000000000000000000057 /* PBXContainerItemProxy */;
+		};
 		AA0000000000000000000052 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = AA0000000000000000000031 /* ShutterLinkClip */;
@@ -261,6 +448,118 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		AA0000000000000000000076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ShutterLink;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.devkoan.shutterlink;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devkoan.shutterlink.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		AA0000000000000000000077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ShutterLink;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.devkoan.shutterlink;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devkoan.shutterlink.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		AA0000000000000000000078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShutterLinkWatchWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ShutterLink;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devkoan.shutterlink.watchkitapp.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		AA0000000000000000000079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShutterLinkWatchWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ShutterLink;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devkoan.shutterlink.watchkitapp.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
 		AA0000000000000000000070 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -401,7 +700,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-weak_framework",
@@ -440,7 +739,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-weak_framework",
@@ -478,7 +777,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-weak_framework",
@@ -516,7 +815,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-weak_framework",
@@ -535,6 +834,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AA0000000000000000000063 /* Build configuration list for PBXNativeTarget "ShutterLinkWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000076 /* Debug */,
+				AA0000000000000000000077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0000000000000000000064 /* Build configuration list for PBXNativeTarget "ShutterLinkWatchWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000078 /* Debug */,
+				AA0000000000000000000079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AA0000000000000000000060 /* Build configuration list for PBXProject "ShutterLink" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

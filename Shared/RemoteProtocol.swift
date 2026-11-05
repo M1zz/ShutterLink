@@ -231,6 +231,21 @@ enum RemoteWire {
     }
 }
 
+// MARK: - Apple Watch (WatchConnectivity)
+
+/// Message keys between the camera iPhone and the Watch remote.
+/// Commands and status reuse `RemoteCommand` / `RemoteStatus` (JSON via `RemoteWire`).
+/// Preview frames travel as bare `sendMessageData` JPEGs; the watch replies to each one,
+/// and the iPhone sends the next frame only after that reply (latest wins).
+enum WatchKey {
+    /// Watch -> iPhone. `true` while the remote is on screen, so the camera makes preview frames.
+    static let watching = "w"
+    /// Watch -> iPhone. JSON `RemoteCommand`.
+    static let command = "c"
+    /// iPhone -> Watch (message or reply). JSON `RemoteStatus`.
+    static let status = "s"
+}
+
 // MARK: - Preview stream framing
 
 /// Payload kinds on the preview channel. The first payload byte carries the kind.
