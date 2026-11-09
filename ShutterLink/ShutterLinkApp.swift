@@ -14,6 +14,8 @@ struct ShutterLinkApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                // 개발자가 보낸 의견에 답장하면, 앱이 앞으로 올 때 답장을 시트로 보여 준다 (LeeoKit).
+                .leeoFeedbackReplyNotice(ShutterLinkSpec.self)
                 .environmentObject(model)
                 // 팁 상품을 불러오고 끝나지 않은 팁을 마저 센다.
                 .task { await ShutterLinkSpec.tipJar.startStandalone() }
